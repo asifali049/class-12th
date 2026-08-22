@@ -1,0 +1,53 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "General Formula of Carbohydrates",
+      "hi": "कार्बोहाइड्रेट का सामान्य सूत्र",
+      "hinglish": "Carbohydrates ka General Formula"
+    },
+    "formula": "C_x(H_2O)_y",
+    "variables": [
+      {
+        "symbol": "x",
+        "name": {
+          "en": "Number of carbon atoms",
+          "hi": "कार्बन परमाणुओं की संख्या"
+        }
+      },
+      {
+        "symbol": "y",
+        "name": {
+          "en": "Number of water molecules equivalent",
+          "hi": "पानी के अणुओं के बराबर संख्या"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Historically, carbohydrates were considered as 'hydrates of carbon'. Note: Not all compounds fitting this formula are carbohydrates (e.g., acetic acid $C_2(H_2O)_2$), and not all carbohydrates fit this formula (e.g., rhamnose $C_6H_{12}O_5$).",
+      "hi": "ऐतिहासिक रूप से, कार्बोहाइड्रेट को 'कार्बन के हाइड्रेट' माना जाता था। ध्यान दें: इस सूत्र में फिट होने वाले सभी यौगिक कार्बोहाइड्रेट नहीं हैं (उदा. एसिटिक एसिड $C_2(H_2O)_2$), और सभी कार्बोहाइड्रेट इस सूत्र में फिट नहीं होते हैं (उदा. रैमनोज $C_6H_{12}O_5$)।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "General Structure of $\\alpha$-Amino Acid",
+      "hi": "$\\alpha$-अमीनो अम्ल की सामान्य संरचना",
+      "hinglish": "$\\alpha$-Amino Acid ki General Structure"
+    },
+    "formula": "R-CH(NH_2)-COOH",
+    "variables": [
+      {
+        "symbol": "R",
+        "name": {
+          "en": "Side chain (Alkyl or aryl group)",
+          "hi": "पार्श्व श्रृंखला (एल्किल या एरिल समूह)"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Except for glycine (where R=H), all naturally occurring $\\alpha$-amino acids are optically active.",
+      "hi": "ग्लाइसिन (जहाँ R=H) को छोड़कर, सभी प्राकृतिक रूप से पाए जाने वाले $\\alpha$-अमीनो अम्ल प्रकाशिक रूप से सक्रिय हैं।"
+    }
+  }
+]

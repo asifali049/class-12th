@@ -1,0 +1,16 @@
+[
+  {
+    "id": "q1",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Explain the importance of Molecular Basis of Inheritance.",
+      "hi": "Molecular Basis of Inheritance के महत्व को समझाइए।"
+    },
+    "idealAnswer": {
+      "en": "It is very important for the board exams.",
+      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
+    }
+  }
+]

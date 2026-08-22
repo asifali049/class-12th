@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Structure and Classification of Amines",
+      "hi": "एमीन की संरचना और वर्गीकरण",
+      "hinglish": "Amines ki Structure aur Classification"
+    },
+    "content": {
+      "en": "Amines are derivatives of ammonia ($NH_3$). The nitrogen atom is $sp^3$ hybridized, and the geometry is pyramidal due to the presence of a lone pair. They are classified as primary ($1^\\circ$, $R-NH_2$), secondary ($2^\\circ$, $R_2NH$), and tertiary ($3^\\circ$, $R_3N$) depending upon the number of hydrogen atoms replaced by alkyl or aryl groups.",
+      "hi": "एमीन अमोनिया ($NH_3$) के व्युत्पन्न हैं। नाइट्रोजन परमाणु $sp^3$ संकरित होता है, और एक एकाकी युग्म की उपस्थिति के कारण ज्यामिति पिरामिडनुमा होती है। एल्किल या एरिल समूहों द्वारा प्रतिस्थापित हाइड्रोजन परमाणुओं की संख्या के आधार पर उन्हें प्राथमिक ($1^\\circ$, $R-NH_2$), द्वितीयक ($2^\\circ$, $R_2NH$), और तृतीयक ($3^\\circ$, $R_3N$) के रूप में वर्गीकृत किया जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Preparation of Amines",
+      "hi": "एमीन का विरचन",
+      "hinglish": "Amines ki Preparation"
+    },
+    "content": {
+      "en": "1. **Reduction of nitro compounds**: $R-NO_2$ using $H_2/Pd$ or $Sn/HCl$ or $Fe/HCl$ (preferred). \n2. **Ammonolysis of alkyl halides**: $RX + NH_3 \\rightarrow$ mixture of $1^\\circ$, $2^\\circ$, $3^\\circ$ amines and quaternary ammonium salt. \n3. **Reduction of nitriles/amides**: $R-CN \\xrightarrow{H_2/Ni, Na(Hg)/C_2H_5OH} R-CH_2NH_2$. \n4. **Gabriel phthalimide synthesis**: For preparing pure primary aliphatic amines only. \n5. **Hoffmann bromamide degradation**: Amide $+ Br_2 + NaOH \\rightarrow$ Primary amine with one carbon less.",
+      "hi": "1. **नाइट्रो यौगिकों का अपचयन**: $H_2/Pd$ या $Sn/HCl$ या $Fe/HCl$ (प्राथमिकता) का उपयोग करके $R-NO_2$।\n2. **एल्किल हैलाइड का अमोनीअपघटन (Ammonolysis)**: $RX + NH_3 \\rightarrow$ $1^\\circ$, $2^\\circ$, $3^\\circ$ एमीन और चतुष्क अमोनियम लवण का मिश्रण।\n3. **नाइट्राइल/एमाइड का अपचयन**: $R-CN \\xrightarrow{H_2/Ni, Na(Hg)/C_2H_5OH} R-CH_2NH_2$।\n4. **गेब्रियल थैलिमाइड संश्लेषण**: केवल शुद्ध प्राथमिक एलिफैटिक एमीन तैयार करने के लिए।\n5. **हॉफमैन ब्रोमेमाइड निम्नीकरण**: एमाइड $+ Br_2 + NaOH \\rightarrow$ एक कार्बन कम वाला प्राथमिक एमीन।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Basic Character of Amines",
+      "hi": "एमीन की क्षारीय प्रकृति",
+      "hinglish": "Amines ka Basic Character"
+    },
+    "content": {
+      "en": "Amines are basic due to the lone pair on nitrogen. \n**Aliphatic amines** are stronger bases than ammonia due to the +I effect of alkyl groups. \n**Aromatic amines** (e.g., aniline) are weaker bases than ammonia because the lone pair on nitrogen is delocalized into the benzene ring by resonance. \nIn gas phase, basicity order is $3^\\circ > 2^\\circ > 1^\\circ > NH_3$. In aqueous solution, it depends on +I effect, steric hindrance, and solvation (hydration) effect.",
+      "hi": "नाइट्रोजन पर एकाकी युग्म के कारण एमीन क्षारीय होते हैं।\n**एलिफैटिक एमीन** एल्किल समूहों के +I प्रभाव के कारण अमोनिया से अधिक प्रबल क्षार होते हैं।\n**एरोमैटिक एमीन** (उदा. एनिलीन) अमोनिया की तुलना में दुर्बल क्षार होते हैं क्योंकि नाइट्रोजन पर एकाकी युग्म अनुनाद द्वारा बेंजीन वलय में विस्थानिकृत (delocalized) हो जाता है।\nगैस अवस्था में, क्षारीयता का क्रम $3^\\circ > 2^\\circ > 1^\\circ > NH_3$ है। जलीय विलयन में, यह +I प्रभाव, त्रिविम बाधा और विलायकन (जलयोजन) प्रभाव पर निर्भर करता है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Chemical Reactions of Amines",
+      "hi": "एमीन की रासायनिक अभिक्रियाएँ",
+      "hinglish": "Amines ki Chemical Reactions"
+    },
+    "content": {
+      "en": "1. **Alkylation**: Reaction with alkyl halides to form $2^\\circ$, $3^\\circ$ amines. \n2. **Acylation**: $1^\\circ$ and $2^\\circ$ amines react with acid chlorides/anhydrides to form amides. \n3. **Carbylamine Reaction (Isocyanide test)**: Aliphatic/aromatic $1^\\circ$ amines $+ CHCl_3 + KOH \\rightarrow$ foul-smelling isocyanide. \n4. **Reaction with Nitrous acid ($HNO_2$)**: $1^\\circ$ aliphatic amines give alcohols + $N_2$ gas. $1^\\circ$ aromatic amines give diazonium salts at low temp (0-5°C).",
+      "hi": "1. **ऐल्किलन**: $2^\\circ$, $3^\\circ$ एमीन बनाने के लिए एल्किल हैलाइड के साथ अभिक्रिया।\n2. **एसिलन**: $1^\\circ$ और $2^\\circ$ एमीन एमाइड बनाने के लिए एसिड क्लोराइड/एनहाइड्राइड के साथ अभिक्रिया करते हैं।\n3. **कार्बिलएमीन अभिक्रिया (आइसोसाइनाइड परीक्षण)**: एलिफैटिक/एरोमैटिक $1^\\circ$ एमीन $+ CHCl_3 + KOH \\rightarrow$ दुर्गंधयुक्त आइसोसाइनाइड।\n4. **नाइट्रस एसिड ($HNO_2$) के साथ अभिक्रिया**: $1^\\circ$ एलिफैटिक एमीन एल्कोहॉल + $N_2$ गैस देते हैं। $1^\\circ$ एरोमैटिक एमीन कम तापमान (0-5°C) पर डायज़ोनियम लवण देते हैं।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Hinsberg's Test",
+      "hi": "हिन्सबर्ग परीक्षण",
+      "hinglish": "Hinsberg's Test"
+    },
+    "content": {
+      "en": "Used to distinguish $1^\\circ$, $2^\\circ$, and $3^\\circ$ amines using benzenesulfonyl chloride (Hinsberg's reagent). \n- **$1^\\circ$ amine**: Forms N-alkylbenzenesulfonamide, which is soluble in alkali (due to acidic hydrogen on N). \n- **$2^\\circ$ amine**: Forms N,N-dialkylbenzenesulfonamide, which is insoluble in alkali (no acidic hydrogen). \n- **$3^\\circ$ amine**: Does not react.",
+      "hi": "बेंजीनसल्फोनिल क्लोराइड (हिन्सबर्ग अभिकर्मक) का उपयोग करके $1^\\circ$, $2^\\circ$, और $3^\\circ$ एमीन के बीच अंतर करने के लिए प्रयुक्त।\n- **$1^\\circ$ एमीन**: N-एल्किलबेंजीनसल्फोनेमाइड बनाता है, जो क्षार में विलेय है (N पर अम्लीय हाइड्रोजन के कारण)।\n- **$2^\\circ$ एमीन**: N,N-डाईएल्किलबेंजीनसल्फोनेमाइड बनाता है, जो क्षार में अविलेय है (कोई अम्लीय हाइड्रोजन नहीं)।\n- **$3^\\circ$ एमीन**: प्रतिक्रिया नहीं करता है।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Electrophilic Substitution of Aniline",
+      "hi": "एनिलीन का इलेक्ट्रॉनरागी प्रतिस्थापन",
+      "hinglish": "Aniline ka Electrophilic Substitution"
+    },
+    "content": {
+      "en": "The $-NH_2$ group is strongly activating and ortho/para directing. \n- **Bromination**: With $Br_2$ water, it gives 2,4,6-tribromoaniline (white ppt). To get a monosubstituted product, the $-NH_2$ group is protected by acetylation with acetic anhydride before bromination. \n- **Nitration**: Direct nitration gives a significant amount of meta-nitroaniline (due to formation of anilinium ion in acidic medium). Acetylation is required for o/p products.",
+      "hi": "$-NH_2$ समूह प्रबल रूप से सक्रियकारी और ऑर्थो/पैरा निर्देशक है।\n- **ब्रोमीनीकरण**: $Br_2$ जल के साथ, यह 2,4,6-ट्राईब्रोमोएनिलीन (सफेद अवक्षेप) देता है। मोनो-प्रतिस्थापित उत्पाद प्राप्त करने के लिए, ब्रोमीनीकरण से पहले $-NH_2$ समूह को एसिटिक एनहाइड्राइड के साथ एसिलीकरण (acetylation) द्वारा संरक्षित किया जाता है।\n- **नाइट्रीकरण**: प्रत्यक्ष नाइट्रीकरण मेटा-नाइट्रोएनिलीन की एक महत्वपूर्ण मात्रा देता है (अम्लीय माध्यम में एनिलीनियम आयन के निर्माण के कारण)। o/p उत्पादों के लिए एसिलीकरण की आवश्यकता होती है।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Diazonium Salts",
+      "hi": "डायज़ोनियम लवण",
+      "hinglish": "Diazonium Salts"
+    },
+    "content": {
+      "en": "General formula: $RN_2^+X^-$. Aryl diazonium salts are stable at low temperatures (0-5°C). \n**Reactions**: \n1. **Sandmeyer Reaction**: $CuCl/HCl$, $CuBr/HBr$, $CuCN/KCN$ introduce $Cl$, $Br$, $CN$ to the ring. \n2. **Gattermann Reaction**: Uses Cu powder instead of cuprous salts. \n3. **Coupling Reaction**: Reacts with phenol/aniline in slightly alkaline/acidic medium to form intensely colored azo dyes ($Ar-N=N-Ar'$).",
+      "hi": "सामान्य सूत्र: $RN_2^+X^-$। एरिल डायज़ोनियम लवण कम तापमान (0-5°C) पर स्थिर होते हैं।\n**अभिक्रियाएँ**:\n1. **सैंडमेयर अभिक्रिया**: $CuCl/HCl$, $CuBr/HBr$, $CuCN/KCN$ वलय में $Cl$, $Br$, $CN$ जोड़ते हैं।\n2. **गटरमान अभिक्रिया**: क्यूप्रस लवण के बजाय Cu पाउडर का उपयोग करता है।\n3. **युग्मन (Coupling) अभिक्रिया**: थोड़ा क्षारीय/अम्लीय माध्यम में फिनोल/एनिलीन के साथ प्रतिक्रिया करके तीव्र रंग के एज़ो रंजक ($Ar-N=N-Ar'$) बनाता है।"
+    }
+  }
+]

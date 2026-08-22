@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Arrange the following compounds in decreasing order of their basic strength in aqueous solution: $CH_3NH_2$, $(CH_3)_2NH$, $(CH_3)_3N$ and $NH_3$.",
+      "hi": "निम्नलिखित यौगिकों को जलीय विलयन में उनकी क्षारीय शक्ति के घटते क्रम में व्यवस्थित करें: $CH_3NH_2$, $(CH_3)_2NH$, $(CH_3)_3N$ और $NH_3$।",
+      "hinglish": "In compounds ko aqueous solution mein unki basic strength ke decreasing order mein arrange karein: $CH_3NH_2$, $(CH_3)_2NH$, $(CH_3)_3N$ aur $NH_3$."
+    },
+    "given": {
+      "en": "Compounds: Methylamine ($1^\\circ$), Dimethylamine ($2^\\circ$), Trimethylamine ($3^\\circ$), Ammonia.",
+      "hi": "यौगिक: मिथाइलएमीन ($1^\\circ$), डाइमिथाइलएमीन ($2^\\circ$), ट्राइमिथाइलएमीन ($3^\\circ$), अमोनिया।"
+    },
+    "required": {
+      "en": "Decreasing order of basic strength in aqueous phase.",
+      "hi": "जलीय अवस्था में क्षारीय शक्ति का घटता क्रम।"
+    },
+    "formula": "Basicity in aqueous state depends on +I effect, steric hindrance, and solvation (hydration) energy.",
+    "substitution": "",
+    "calculation": "1. All alkyl amines are more basic than $NH_3$ due to +I effect of alkyl groups.<br>2. Based on +I effect: $3^\\circ > 2^\\circ > 1^\\circ > NH_3$.<br>3. Based on solvation (hydration) energy of the protonated amine (H-bonding with water): $1^\\circ > 2^\\circ > 3^\\circ$.<br>4. Based on steric hindrance: $1^\\circ > 2^\\circ > 3^\\circ$.<br>5. For METHYL group ($-CH_3$), the steric hindrance is less, so solvation and +I effect play the major role. The combined effect results in the order: $2^\\circ > 1^\\circ > 3^\\circ > NH_3$.<br>6. Therefore, the order is: $(CH_3)_2NH > CH_3NH_2 > $(CH_3)_3N$ > NH_3$.",
+    "finalAnswer": "$(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3$",
+    "unit": "",
+    "examTip": {
+      "en": "Memorize this exception for aqueous state: For methyl amines, order is 2, 1, 3. For ethyl amines, order is 2, 3, 1.",
+      "hi": "जलीय अवस्था के लिए इस अपवाद को याद रखें: मिथाइल एमीन के लिए, क्रम 2, 1, 3 है। एथिल एमीन के लिए, क्रम 2, 3, 1 है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "An aromatic compound 'A' on treatment with aqueous ammonia and heating forms compound 'B' which on heating with $Br_2$ and KOH forms a compound 'C' of molecular formula $C_6H_7N$. Write the structures and IUPAC names of compounds A, B and C.",
+      "hi": "एक एरोमैटिक यौगिक 'A' जलीय अमोनिया के साथ अभिकृत करने और गर्म करने पर यौगिक 'B' बनाता है, जो $Br_2$ और KOH के साथ गर्म करने पर आणविक सूत्र $C_6H_7N$ वाला यौगिक 'C' बनाता है। यौगिक A, B और C की संरचनाएँ और IUPAC नाम लिखिए।",
+      "hinglish": "Ek aromatic compound 'A' aqueous ammonia ke sath heat karne par 'B' banata hai. 'B' ko $Br_2$ aur KOH ke sath heat karne par compound 'C' ($C_6H_7N$) banta hai. A, B, aur C ki structures aur IUPAC names likhiye."
+    },
+    "given": {
+      "en": "1. A + $NH_3$ + $\\Delta$ $\\rightarrow$ B<br>2. B + $Br_2$ + KOH $\\rightarrow$ C ($C_6H_7N$)",
+      "hi": "1. A + $NH_3$ + $\\Delta$ $\\rightarrow$ B<br>2. B + $Br_2$ + KOH $\\rightarrow$ C ($C_6H_7N$)"
+    },
+    "required": {
+      "en": "Identify A, B, C.",
+      "hi": "A, B, C की पहचान करें।"
+    },
+    "formula": "Hoffmann bromamide degradation reaction.",
+    "substitution": "",
+    "calculation": "1. Compound C has the formula $C_6H_7N$, which corresponds to $C_6H_5NH_2$ (Aniline). So, C is Aniline.<br>2. Reaction 2 (B + $Br_2$ + KOH $\\rightarrow$ Aniline) is the Hoffmann bromamide degradation. This reaction converts an amide to a primary amine with one carbon less.<br>3. Therefore, the amide 'B' must have one carbon more than aniline. The parent amide must be Benzamide ($C_6H_5CONH_2$).<br>4. Reaction 1 (A + $NH_3$ + $\\Delta$ $\\rightarrow$ Benzamide) indicates that 'A' must be a carboxylic acid, because carboxylic acids react with ammonia and on heating form amides.<br>5. Therefore, A must be Benzoic acid ($C_6H_5COOH$).",
+    "finalAnswer": "A = Benzoic acid, B = Benzamide, C = Aniline (Benzenamine)",
+    "unit": "",
+    "examTip": {
+      "en": "Work backwards from the final product when recognizing named reactions like Hoffmann bromamide.",
+      "hi": "हॉफमैन ब्रोमेमाइड जैसी नामित अभिक्रियाओं को पहचानते समय अंतिम उत्पाद से पीछे की ओर काम करें।"
+    }
+  }
+]

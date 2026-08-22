@@ -77,3 +77,12 @@
   padding: 0 4px;
   border-radius: 2px;
 }
+
+/* Diagram System Styles */
+.diagram-svg-container svg {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  display: block;
+  margin: 0 auto;
+}

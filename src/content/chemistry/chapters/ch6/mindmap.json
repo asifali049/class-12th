@@ -1,0 +1,76 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Haloalkanes and Haloarenes",
+    "hi": "हैलोऐल्केन और हैलोऐरीन",
+    "hinglish": "Haloalkanes & Haloarenes"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Classification",
+        "hi": "वर्गीकरण"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Based on halogens: mono, di, poly", "hi": "हैलोजन के आधार पर: मोनो, डाई, पॉली" } },
+        { "id": "c1b", "label": { "en": "Based on C-X bond: sp3 (alkyl, allyl, benzyl) vs sp2 (vinyl, aryl)", "hi": "C-X बंध के आधार पर: sp3 (एल्किल, एलिल, बेंजिल) बनाम sp2 (विनाइल, एरिल)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Preparation (Haloalkanes)",
+        "hi": "विरचन (हैलोऐल्केन)"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "From Alcohols (SOCl2, PCl5, HX/ZnCl2)", "hi": "एल्कोहॉल से (SOCl2, PCl5, HX/ZnCl2)" } },
+        { "id": "c2b", "label": { "en": "From Hydrocarbons (Free radical, Markovnikov, Anti-Markovnikov)", "hi": "हाइड्रोकार्बन से (मुक्त मूलक, मार्कोवनिकोव, एंटी-मार्कोवनिकोव)" } },
+        { "id": "c2c", "label": { "en": "Halogen Exchange (Finkelstein, Swarts)", "hi": "हैलोजन विनिमय (फिंकेलस्टीन, स्वार्ट्स)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Reactions (Haloalkanes)",
+        "hi": "अभिक्रियाएँ (हैलोऐल्केन)"
+      },
+      "children": [
+        {
+          "id": "c3a",
+          "label": { "en": "Nucleophilic Substitution", "hi": "नाभिकरागी प्रतिस्थापन" },
+          "children": [
+            { "id": "c3a1", "label": { "en": "SN1: 2-step, carbocation, racemization (3°>2°>1°)", "hi": "SN1: 2-चरण, कार्बोधनायन, रेसिमीकरण (3°>2°>1°)" } },
+            { "id": "c3a2", "label": { "en": "SN2: 1-step, transition state, inversion (1°>2°>3°)", "hi": "SN2: 1-चरण, संक्रमण अवस्था, प्रतिलोमन (1°>2°>3°)" } }
+          ]
+        },
+        { "id": "c3b", "label": { "en": "Elimination (Dehydrohalogenation, Zaitsev's rule)", "hi": "विलोपन (विहाइड्रोहैलोजनीकरण, जैटसेव का नियम)" } },
+        { "id": "c3c", "label": { "en": "Reaction with Metals (Wurtz reaction, Grignard reagent)", "hi": "धातुओं के साथ अभिक्रिया (वर्ट्ज़ अभिक्रिया, ग्रिग्नार्ड अभिकर्मक)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Stereochemistry Basics",
+        "hi": "त्रिविम रसायन मूल बातें"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Chiral carbon", "hi": "किरल कार्बन" } },
+        { "id": "c4b", "label": { "en": "Enantiomers (d/l)", "hi": "प्रतिबिंब रूप (d/l)" } },
+        { "id": "c4c", "label": { "en": "Racemic mixture", "hi": "रेसिमिक मिश्रण" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Haloarenes",
+        "hi": "हैलोऐरीन"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Prep: Electrophilic sub. & Sandmeyer's rxn", "hi": "विरचन: इलेक्ट्रॉनरागी प्रतिस्थापन और सैंडमेयर अभिक्रिया" } },
+        { "id": "c5b", "label": { "en": "Low reactivity towards nucleophilic substitution (Resonance, sp2)", "hi": "नाभिकरागी प्रतिस्थापन के प्रति कम क्रियाशीलता (अनुनाद, sp2)" } },
+        { "id": "c5c", "label": { "en": "Electrophilic substitution (ortho/para directing)", "hi": "इलेक्ट्रॉनरागी प्रतिस्थापन (ऑर्थो/पैरा निर्देशक)" } }
+      ]
+    }
+  ]
+}

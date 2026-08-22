@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Aldol Condensation vs Cannizzaro Reaction",
+      "hi": "एल्डोल संघनन बनाम कैनिज़ारो अभिक्रिया",
+      "hinglish": "Aldol Condensation vs Cannizzaro Reaction"
+    },
+    "summary": {
+      "en": "**Aldol Condensation**: Occurs in aldehydes/ketones WITH $\\alpha$-hydrogen in the presence of dilute alkali. Forms $\\beta$-hydroxy aldehyde/ketone, which on heating gives $\\alpha,\\beta$-unsaturated compounds. \n**Cannizzaro Reaction**: Occurs in aldehydes WITHOUT $\\alpha$-hydrogen (like HCHO, PhCHO) in the presence of concentrated alkali. It is a disproportionation reaction giving an alcohol (reduction) and a carboxylic acid salt (oxidation).",
+      "hi": "**एल्डोल संघनन**: तनु क्षार की उपस्थिति में $\\alpha$-हाइड्रोजन वाले एल्डिहाइड/कीटोन में होता है। $\\beta$-हाइड्रॉक्सी एल्डिहाइड/कीटोन बनाता है, जो गर्म करने पर $\\alpha,\\beta$-असंतृप्त यौगिक देता है।\n**कैनिज़ारो अभिक्रिया**: सांद्र क्षार की उपस्थिति में बिना $\\alpha$-हाइड्रोजन वाले एल्डिहाइड (जैसे HCHO, PhCHO) में होती है। यह एक असमानुपातन (disproportionation) अभिक्रिया है जो एक एल्कोहॉल (अपचयन) और एक कार्बोक्सिलिक एसिड लवण (ऑक्सीकरण) देती है।",
+      "hinglish": "**Aldol**: un aldehydes/ketones mein hota hai jisme $\\alpha$-H ho (dilute alkali mein). Product $\\alpha,\\beta$-unsaturated banta hai. \n**Cannizzaro**: un aldehydes mein hota hai jisme $\\alpha$-H NAHI ho (conc. alkali mein). Ek molecule oxidize hokar acid salt banta hai, dusra reduce hokar alcohol."
+    },
+    "quickRecall": [
+      {
+        "en": "Aldol: Needs $\\alpha$-H + Dil. NaOH",
+        "hi": "एल्डोल: $\\alpha$-H + तनु NaOH चाहिए"
+      },
+      {
+        "en": "Cannizzaro: No $\\alpha$-H + Conc. NaOH",
+        "hi": "कैनिज़ारो: कोई $\\alpha$-H नहीं + सांद्र NaOH"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Tollen's and Fehling's Test",
+      "hi": "टॉलेन और फेलिंग परीक्षण",
+      "hinglish": "Tollen's and Fehling's Test"
+    },
+    "summary": {
+      "en": "**Tollen's Test**: Ammoniacal silver nitrate. Aldehydes (both aliphatic and aromatic) reduce it to metallic silver (Silver mirror). Ketones do not react. \n**Fehling's Test**: Fehling A (aq. $CuSO_4$) + Fehling B (Rochelle salt + NaOH). Aliphatic aldehydes reduce it to red-brown precipitate of $Cu_2O$. Aromatic aldehydes and ketones do NOT react.",
+      "hi": "**टॉलेन परीक्षण**: अमोनियाकल सिल्वर नाइट्रेट। एल्डिहाइड (एलिफैटिक और एरोमैटिक दोनों) इसे धात्विक चांदी (रजत दर्पण) में अपचयित कर देते हैं। कीटोन प्रतिक्रिया नहीं करते हैं।\n**फेलिंग परीक्षण**: फेलिंग A (जलीय $CuSO_4$) + फेलिंग B (रोशेल लवण + NaOH)। एलिफैटिक एल्डिहाइड इसे $Cu_2O$ के लाल-भूरे अवक्षेप में अपचयित करते हैं। एरोमैटिक एल्डिहाइड और कीटोन प्रतिक्रिया नहीं करते हैं।",
+      "hinglish": "**Tollen's Test**: Ammoniacal $AgNO_3$. Aldehydes (aliphatic+aromatic) isko reduce karke silver mirror banate hain. Ketones nahi karte. \n**Fehling's Test**: Aliphatic aldehydes isko reduce karke red-brown ppt ($Cu_2O$) dete hain. Aromatic aldehydes aur ketones isko reduce nahi karte."
+    },
+    "quickRecall": [
+      {
+        "en": "Tollen's: All aldehydes $\\rightarrow$ Silver mirror",
+        "hi": "टॉलेन: सभी एल्डिहाइड $\\rightarrow$ रजत दर्पण"
+      },
+      {
+        "en": "Fehling's: Only aliphatic aldehydes $\\rightarrow$ Red ppt",
+        "hi": "फेलिंग: केवल एलिफैटिक एल्डिहाइड $\\rightarrow$ लाल अवक्षेप"
+      }
+    ]
+  }
+]

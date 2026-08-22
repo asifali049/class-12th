@@ -1,0 +1,96 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of $S_N2$ Reaction",
+      "hi": "$S_N2$ अभिक्रिया की क्रियाविधि",
+      "hinglish": "$S_N2$ Reaction ki Mechanism"
+    },
+    "given": {
+      "en": "Reaction of methyl chloride with hydroxide ion to form methanol.",
+      "hi": "मेथनॉल बनाने के लिए हाइड्रॉक्साइड आयन के साथ मिथाइल क्लोराइड की अभिक्रिया।"
+    },
+    "toFind": {
+      "en": "Step-by-step mechanism showing the transition state and inversion of configuration.",
+      "hi": "संक्रमण अवस्था और विन्यास के प्रतिलोमन को दर्शाने वाली चरण-दर-चरण क्रियाविधि।"
+    },
+    "concept": {
+      "en": "Nucleophile attacks from the back side, leading to a pentacoordinate transition state, followed by leaving group departure in a single concerted step.",
+      "hi": "नाभिकरागी पीछे की ओर से आक्रमण करता है, जिससे एक पंच-समन्वित (pentacoordinate) संक्रमण अवस्था बनती है, जिसके बाद एक ही ठोस चरण में अवशिष्ट समूह (leaving group) निकल जाता है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Nucleophilic Attack and Transition State",
+          "hi": "चरण 1: नाभिकरागी आक्रमण और संक्रमण अवस्था"
+        },
+        "content": {
+          "en": "The nucleophile ($OH^-$) approaches the carbon atom from the side opposite to the leaving group ($Cl^-$). A transition state is formed where the C-OH bond is partially formed and the C-Cl bond is partially broken.\\n$HO^- + CH_3Cl \\rightarrow [HO \\cdots CH_3 \\cdots Cl]^\\ddagger$",
+          "hi": "नाभिकरागी ($OH^-$) अवशिष्ट समूह ($Cl^-$) के विपरीत दिशा से कार्बन परमाणु के पास आता है। एक संक्रमण अवस्था बनती है जहाँ C-OH बंध आंशिक रूप से बनता है और C-Cl बंध आंशिक रूप से टूट जाता है।\\n$HO^- + CH_3Cl \\rightarrow [HO \\cdots CH_3 \\cdots Cl]^\\ddagger$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Product Formation (Inversion)",
+          "hi": "चरण 2: उत्पाद निर्माण (प्रतिलोमन)"
+        },
+        "content": {
+          "en": "The C-Cl bond breaks completely, and the C-OH bond forms completely. The umbrella-like flipping of the molecule results in the inversion of configuration (Walden inversion).\\n$[HO \\cdots CH_3 \\cdots Cl]^\\ddagger \\rightarrow HO-CH_3 + Cl^-$",
+          "hi": "C-Cl बंध पूरी तरह से टूट जाता है, और C-OH बंध पूरी तरह से बन जाता है। अणु के छतरी की तरह पलटने से विन्यास का प्रतिलोमन (वाल्डन प्रतिलोमन) होता है।\\n$[HO \\cdots CH_3 \\cdots Cl]^\\ddagger \\rightarrow HO-CH_3 + Cl^-$"
+        }
+      }
+    ],
+    "finalResult": "Rate = k[Alkyl Halide][Nucleophile]. Bimolecular, 1-step, 100% inversion.",
+    "examTip": {
+      "en": "$S_N2$ favors primary alkyl halides due to less steric hindrance. Always draw the transition state with dotted bonds to show partial bond formation/breaking.",
+      "hi": "$S_N2$ कम त्रिविम बाधा के कारण प्राथमिक एल्किल हैलाइड का पक्ष लेता है। आंशिक बंध निर्माण/टूटने को दिखाने के लिए हमेशा बिंदीदार बंधों के साथ संक्रमण अवस्था बनाएं।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Mechanism of $S_N1$ Reaction",
+      "hi": "$S_N1$ अभिक्रिया की क्रियाविधि",
+      "hinglish": "$S_N1$ Reaction ki Mechanism"
+    },
+    "given": {
+      "en": "Reaction of tert-butyl bromide with hydroxide ion to form tert-butyl alcohol.",
+      "hi": "तृतीयक-ब्यूटाइल अल्कोहल बनाने के लिए हाइड्रॉक्साइड आयन के साथ तृतीयक-ब्यूटाइल ब्रोमाइड की अभिक्रिया।"
+    },
+    "toFind": {
+      "en": "Two-step mechanism involving carbocation formation.",
+      "hi": "कार्बोधनायन निर्माण से जुड़ी दो-चरणीय क्रियाविधि।"
+    },
+    "concept": {
+      "en": "First step is the slow cleavage of C-X bond to form a planar carbocation. Second step is the fast attack of nucleophile from either side, leading to racemization.",
+      "hi": "पहला चरण C-X बंध का धीमा विदलन (cleavage) है जिससे एक समतलीय कार्बोधनायन बनता है। दूसरा चरण किसी भी तरफ से नाभिकरागी का तेज आक्रमण है, जिससे रेसिमीकरण होता है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Formation of Carbocation (Slow, Rate determining)",
+          "hi": "चरण 1: कार्बोधनायन का निर्माण (धीमा, दर निर्धारक)"
+        },
+        "content": {
+          "en": "The polar C-Br bond undergoes heterolytic cleavage to form a planar carbocation.\\n$(CH_3)_3C-Br \\rightleftharpoons (CH_3)_3C^+ + Br^-$",
+          "hi": "ध्रुवीय C-Br बंध एक समतलीय कार्बोधनायन बनाने के लिए विषमांगी विदलन (heterolytic cleavage) से गुजरता है।\\n$(CH_3)_3C-Br \\rightleftharpoons (CH_3)_3C^+ + Br^-$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Attack of Nucleophile (Fast)",
+          "hi": "चरण 2: नाभिकरागी का आक्रमण (तेज)"
+        },
+        "content": {
+          "en": "The nucleophile ($OH^-$) attacks the planar carbocation from either the front or back side with equal probability, forming the product.\\n$(CH_3)_3C^+ + OH^- \\rightarrow (CH_3)_3C-OH$",
+          "hi": "नाभिकरागी ($OH^-$) समान संभावना के साथ आगे या पीछे की ओर से समतलीय कार्बोधनायन पर आक्रमण करता है, जिससे उत्पाद बनता है।\\n$(CH_3)_3C^+ + OH^- \\rightarrow (CH_3)_3C-OH$"
+        }
+      }
+    ],
+    "finalResult": "Rate = k[Alkyl Halide]. Unimolecular, 2-steps, Racemization.",
+    "examTip": {
+      "en": "$S_N1$ favors tertiary alkyl halides because tertiary carbocations are more stable due to hyperconjugation and inductive effects.",
+      "hi": "$S_N1$ तृतीयक एल्किल हैलाइड का पक्ष लेता है क्योंकि अतिसंयुग्मन (hyperconjugation) और प्रेरणिक प्रभावों (inductive effects) के कारण तृतीयक कार्बोधनायन अधिक स्थिर होते हैं।"
+    }
+  }
+]

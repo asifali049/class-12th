@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "hard",
+    "question": {
+      "en": "An organic compound (A) with molecular formula $C_8H_8O$ forms an orange-red precipitate with 2,4-DNP reagent and gives yellow precipitate on heating with iodine in the presence of sodium hydroxide. It neither reduces Tollen's or Fehling's reagent, nor does it decolourise bromine water or Baeyer's reagent. On drastic oxidation with chromic acid, it gives a carboxylic acid (B) having molecular formula $C_7H_6O_2$. Identify the compounds (A) and (B) and explain the reactions involved.",
+      "hi": "आणविक सूत्र $C_8H_8O$ वाला एक कार्बनिक यौगिक (A) 2,4-DNP अभिकर्मक के साथ एक नारंगी-लाल अवक्षेप बनाता है और सोडियम हाइड्रॉक्साइड की उपस्थिति में आयोडीन के साथ गर्म करने पर पीला अवक्षेप देता है। यह न तो टॉलेन या फेलिंग अभिकर्मक को अपचयित करता है, और न ही ब्रोमीन जल या बेयर अभिकर्मक को रंगहीन करता है। क्रोमिक एसिड के साथ प्रबल ऑक्सीकरण पर, यह आणविक सूत्र $C_7H_6O_2$ वाला एक कार्बोक्सिलिक एसिड (B) देता है। यौगिक (A) और (B) की पहचान करें और शामिल अभिक्रियाओं की व्याख्या करें।",
+      "hinglish": "Ek organic compound (A) jiska molecular formula $C_8H_8O$ hai, 2,4-DNP ke sath orange-red ppt banata hai aur iodine + NaOH ke sath yellow ppt deta hai. Yeh Tollen's ya Fehling reagent ko reduce nahi karta, aur bromine water ya Baeyer's reagent ko decolourise nahi karta. Chromic acid ke sath oxidation par yeh carboxylic acid (B) ($C_7H_6O_2$) deta hai. A aur B ko identify karein."
+    },
+    "given": {
+      "en": "1. A ($C_8H_8O$) + 2,4-DNP $\\rightarrow$ orange-red ppt.<br>2. A + $I_2/NaOH$ $\\rightarrow$ yellow ppt.<br>3. A + Tollen's/Fehling's $\\rightarrow$ No reaction.<br>4. A + $Br_2$ water $\\rightarrow$ No reaction.<br>5. A + $[O]$ $\\rightarrow$ B ($C_7H_6O_2$)",
+      "hi": "1. A ($C_8H_8O$) + 2,4-DNP $\\rightarrow$ नारंगी-लाल अवक्षेप।<br>2. A + $I_2/NaOH$ $\\rightarrow$ पीला अवक्षेप।<br>3. A + टॉलेन/फेलिंग $\\rightarrow$ कोई प्रतिक्रिया नहीं।<br>4. A + $Br_2$ जल $\\rightarrow$ कोई प्रतिक्रिया नहीं।<br>5. A + $[O]$ $\\rightarrow$ B ($C_7H_6O_2$)"
+    },
+    "required": {
+      "en": "Identify A and B.",
+      "hi": "A और B की पहचान करें।"
+    },
+    "formula": "Analyze given chemical tests to find functional groups.",
+    "substitution": "",
+    "calculation": "1. A forms 2,4-DNP derivative $\\Rightarrow$ It has a carbonyl group (>C=O).<br>2. Gives yellow ppt with $I_2/NaOH$ (Iodoform test) $\\Rightarrow$ It is a methyl ketone ($-COCH_3$ group present).<br>3. Does not reduce Tollen's/Fehling's $\\Rightarrow$ It is a ketone, not an aldehyde.<br>4. Does not decolourise $Br_2$ water $\\Rightarrow$ Ring unsaturation (aromatic) is present, no aliphatic C=C double bond.<br>5. Formula of A is $C_8H_8O$. Subtracting $-COCH_3$ ($C_2H_3O$), we are left with $C_6H_5$ (phenyl group). Thus, A is Acetophenone ($C_6H_5COCH_3$).<br>6. Oxidation of A ($C_6H_5COCH_3$) gives B ($C_7H_6O_2$). Oxidation of alkyl side chain on benzene ring yields Benzoic acid ($C_6H_5COOH$).",
+    "finalAnswer": "A = Acetophenone ($C_6H_5COCH_3$), B = Benzoic acid ($C_6H_5COOH$)",
+    "unit": "",
+    "examTip": {
+      "en": "Roadmap problems are very common. Remember: 2,4-DNP for carbonyl, Iodoform for methyl ketones, Tollen's for aldehydes.",
+      "hi": "रोडमैप समस्याएँ बहुत आम हैं। याद रखें: कार्बोनिल के लिए 2,4-DNP, मिथाइल कीटोन्स के लिए आयोडोफॉर्म, एल्डिहाइड के लिए टॉलेन।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "Write the IUPAC name of the product formed when 2-Methylpropanal undergoes Aldol condensation followed by heating.",
+      "hi": "जब 2-मिथाइलप्रोपेनल एल्डोल संघनन से गुजरता है और उसके बाद गर्म किया जाता है, तो बनने वाले उत्पाद का IUPAC नाम लिखिए।",
+      "hinglish": "Jab 2-Methylpropanal Aldol condensation se guzar kar heat hota hai, toh banne wale product ka IUPAC name likhein."
+    },
+    "given": {
+      "en": "Reactant: 2-Methylpropanal ($(CH_3)_2CHCHO$)",
+      "hi": "अभिकारक: 2-मिथाइलप्रोपेनल ($(CH_3)_2CHCHO$)"
+    },
+    "required": {
+      "en": "IUPAC name of final product (after heating).",
+      "hi": "अंतिम उत्पाद (गर्म करने के बाद) का IUPAC नाम।"
+    },
+    "formula": "Aldol condensation mechanism.",
+    "substitution": "",
+    "calculation": "1. Reactant has one $\\alpha$-hydrogen. The enolate formed from one molecule attacks the carbonyl carbon of another.<br>2. Reaction: $(CH_3)_2CH-CHO + (CH_3)_2C^--CHO \\rightarrow (CH_3)_2CH-CH(OH)-C(CH_3)_2-CHO$ (Aldol).<br>3. Heating causes loss of water (elimination of OH from $\\beta$-carbon and H from $\\alpha$-carbon) to form double bond.<br>4. But wait, in the aldol $(CH_3)_2CH-CH(OH)-C(CH_3)_2-CHO$, the $\\alpha$-carbon has NO hydrogen left (it is attached to two methyl groups, the CHO group, and the $\\beta$-carbon).<br>5. Therefore, dehydration (loss of water) upon heating cannot occur in the usual way to form an $\\alpha,\\beta$-unsaturated aldehyde. The reaction stops at the aldol stage.",
+    "finalAnswer": "Wait, standard aldol condensation requires at least two alpha hydrogens for dehydration. Let's re-evaluate. 2-methylpropanal has only ONE alpha hydrogen. It will form the aldol, but cannot undergo simple dehydration to form a double bond conjugated with the carbonyl. The IUPAC name of the aldol is 3-Hydroxy-2,2,4-trimethylpentanal.",
+    "unit": "",
+    "examTip": {
+      "en": "For complete aldol condensation (including dehydration to form alkene), the starting carbonyl must have at least TWO $\\alpha$-hydrogens.",
+      "hi": "पूर्ण एल्डोल संघनन (एल्कीन बनाने के लिए निर्जलीकरण सहित) के लिए, शुरुआती कार्बोनिल में कम से कम दो $\\alpha$-हाइड्रोजन होने चाहिए।"
+    }
+  }
+]

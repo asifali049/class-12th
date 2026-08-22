@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following compounds will not undergo Aldol condensation?",
+      "hi": "निम्नलिखित में से कौन सा यौगिक एल्डोल संघनन से नहीं गुजरेगा?",
+      "hinglish": "Inme se kaun sa compound Aldol condensation nahi karega?"
+    },
+    "options": [
+      {
+        "en": "Acetaldehyde",
+        "hi": "एसीटैल्डिहाइड"
+      },
+      {
+        "en": "Acetone",
+        "hi": "एसीटोन"
+      },
+      {
+        "en": "Formaldehyde",
+        "hi": "फॉर्मेल्डिहाइड"
+      },
+      {
+        "en": "Propanal",
+        "hi": "प्रोपेनल"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Aldol condensation requires at least one $\\alpha$-hydrogen. Formaldehyde ($HCHO$) does not have an $\\alpha$-carbon, and thus no $\\alpha$-hydrogen. It will undergo Cannizzaro reaction instead.",
+      "hi": "एल्डोल संघनन के लिए कम से कम एक $\\alpha$-हाइड्रोजन की आवश्यकता होती है। फॉर्मेल्डिहाइड ($HCHO$) में $\\alpha$-कार्बन नहीं होता है, और इस प्रकार कोई $\\alpha$-हाइड्रोजन नहीं होता है। यह इसके बजाय कैनिज़ारो अभिक्रिया से गुजरेगा।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why are aldehydes more reactive than ketones towards nucleophilic addition reactions?",
+      "hi": "नाभिकरागी योग अभिक्रियाओं के प्रति एल्डिहाइड कीटोन्स की तुलना में अधिक क्रियाशील क्यों होते हैं?",
+      "hinglish": "Nucleophilic addition reactions ke liye aldehydes ketones se zyada reactive kyun hote hain?"
+    },
+    "idealAnswer": {
+      "en": "1. **Steric effect**: Ketones have two alkyl groups which cause greater steric hindrance to the approaching nucleophile compared to aldehydes (which have only one alkyl group and one small H atom).\n2. **Electronic (+I) effect**: The two electron-donating alkyl groups in ketones reduce the positive charge (electrophilicity) on the carbonyl carbon more effectively than the single alkyl group in aldehydes, making ketones less susceptible to nucleophilic attack.",
+      "hi": "1. **त्रिविम प्रभाव**: कीटोन्स में दो एल्किल समूह होते हैं जो एल्डिहाइड (जिसमें केवल एक एल्किल समूह और एक छोटा H परमाणु होता है) की तुलना में आने वाले नाभिकरागी के लिए अधिक त्रिविम बाधा (steric hindrance) उत्पन्न करते हैं।\n2. **इलेक्ट्रॉनिक (+I) प्रभाव**: कीटोन्स में दो इलेक्ट्रॉन दान करने वाले एल्किल समूह कार्बोनिल कार्बन पर धनात्मक आवेश (इलेक्ट्रॉनरागी प्रकृति) को एल्डिहाइड में एकल एल्किल समूह की तुलना में अधिक प्रभावी ढंग से कम करते हैं, जिससे कीटोन्स नाभिकरागी आक्रमण के प्रति कम संवेदनशील हो जाते हैं।"
+    },
+    "keywords": [
+      {
+        "en": "Steric effect",
+        "hi": "त्रिविम प्रभाव"
+      },
+      {
+        "en": "steric hindrance",
+        "hi": "त्रिविम बाधा"
+      },
+      {
+        "en": "+I effect",
+        "hi": "+I प्रभाव"
+      },
+      {
+        "en": "electrophilicity",
+        "hi": "इलेक्ट्रॉनरागी प्रकृति"
+      }
+    ],
+    "tips": {
+      "en": "Always mention both Steric and Electronic reasons for full marks.",
+      "hi": "पूरे अंकों के लिए हमेशा त्रिविम और इलेक्ट्रॉनिक दोनों कारणों का उल्लेख करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Explain why carboxylic acids do not give characteristic reactions of the carbonyl group.",
+      "hi": "स्पष्ट कीजिए कि कार्बोक्सिलिक अम्ल कार्बोनिल समूह की विशिष्ट अभिक्रियाएँ क्यों नहीं देते हैं।",
+      "hinglish": "Explain karein ki carboxylic acids carbonyl group ki characteristic reactions kyun nahi dete."
+    },
+    "idealAnswer": {
+      "en": "In carboxylic acids, the lone pairs of electrons on the oxygen atom of the hydroxyl group (-OH) are in resonance (conjugation) with the $\\pi$-bond of the carbonyl group (>C=O). This resonance stabilization decreases the electrophilic character of the carbonyl carbon, preventing it from undergoing typical nucleophilic addition reactions characteristic of aldehydes and ketones.",
+      "hi": "कार्बोक्सिलिक अम्लों में, हाइड्रॉक्सिल समूह (-OH) के ऑक्सीजन परमाणु पर इलेक्ट्रॉनों के एकाकी युग्म कार्बोनिल समूह (>C=O) के $\\pi$-बंध के साथ अनुनाद (संयुग्मन) में होते हैं। यह अनुनाद स्थिरीकरण कार्बोनिल कार्बन की इलेक्ट्रॉनरागी प्रकृति को कम कर देता है, जिससे यह एल्डिहाइड और कीटोन्स की विशिष्ट नाभिकरागी योग अभिक्रियाओं से गुजरने से रुक जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "lone pairs",
+        "hi": "एकाकी युग्म"
+      },
+      {
+        "en": "resonance",
+        "hi": "अनुनाद"
+      },
+      {
+        "en": "decreases electrophilic character",
+        "hi": "इलेक्ट्रॉनरागी प्रकृति को कम करता है"
+      }
+    ],
+    "tips": {
+      "en": "Drawing the resonance structures showing the delocalization of the lone pair towards the carbonyl oxygen will make your answer stronger.",
+      "hi": "कार्बोनिल ऑक्सीजन की ओर एकाकी युग्म के विस्थानीकरण (delocalization) को दर्शाने वाली अनुनाद संरचनाएं बनाने से आपका उत्तर अधिक मजबूत होगा।"
+    }
+  }
+]

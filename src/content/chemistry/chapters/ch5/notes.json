@@ -1,0 +1,122 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Werner's Theory of Coordination Compounds",
+      "hi": "उपसहसंयोजक यौगिकों का वर्नर सिद्धांत",
+      "hinglish": "Werner's Theory of Coordination Compounds"
+    },
+    "content": {
+      "en": "In coordination compounds, metals show two types of linkages (valencies): primary and secondary. Primary valencies are ionizable and correspond to the oxidation state. Secondary valencies are non-ionizable, correspond to the coordination number, and determine the spatial arrangement (geometry) of the complex.",
+      "hi": "उपसहसंयोजक यौगिकों में, धातुएँ दो प्रकार के बंधन (संयोजकता) दिखाती हैं: प्राथमिक और द्वितीयक। प्राथमिक संयोजकताएँ आयनकारी होती हैं और ऑक्सीकरण अवस्था से मेल खाती हैं। द्वितीयक संयोजकताएँ गैर-आयनकारी होती हैं, उपसहसंयोजन संख्या से मेल खाती हैं, और संकुल की स्थानिक व्यवस्था (ज्यामिति) निर्धारित करती हैं।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Important Terms",
+      "hi": "महत्वपूर्ण शब्दावली",
+      "hinglish": "Important Terms"
+    },
+    "content": {
+      "en": "**Coordination Entity**: Constitutes a central metal atom or ion bonded to a fixed number of ions or molecules. \n**Ligands**: The ions or molecules bound to the central atom/ion. \n**Coordination Number (CN)**: The number of ligand donor atoms to which the metal is directly bonded.",
+      "hi": "**उपसहसंयोजन सत्ता**: एक केंद्रीय धातु परमाणु या आयन से बनी होती है जो निश्चित संख्या में आयनों या अणुओं से बंधा होता है।\n**लिगेंड**: केंद्रीय परमाणु/आयन से बंधे आयन या अणु।\n**उपसहसंयोजन संख्या (CN)**: लिगेंड दाता परमाणुओं की संख्या जिनसे धातु सीधे बंधी होती है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Types of Ligands",
+      "hi": "लिगेंड के प्रकार",
+      "hinglish": "Types of Ligands"
+    },
+    "content": {
+      "en": "Ligands can be unidentate (one donor atom, e.g., $Cl^-$, $NH_3$), didentate (two donor atoms, e.g., ethane-1,2-diamine), or polydentate (e.g., EDTA, which is hexadentate). **Ambidentate ligands** have two different donor atoms but only attach through one at a time (e.g., $NO_2^-$ can attach via N or O).",
+      "hi": "लिगेंड एकदंतुर (एक दाता परमाणु, उदा. $Cl^-$, $NH_3$), द्विदंतुर (दो दाता परमाणु, उदा. एथेन-1,2-डाईऐमीन), या बहुदंतुर (उदा. EDTA, जो षट्दंतुर है) हो सकते हैं। **उभयदंतुर लिगेंड** में दो अलग-अलग दाता परमाणु होते हैं लेकिन एक समय में केवल एक के माध्यम से जुड़ते हैं (उदा. $NO_2^-$ N या O के माध्यम से जुड़ सकता है)।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Nomenclature",
+      "hi": "नामकरण",
+      "hinglish": "Nomenclature"
+    },
+    "content": {
+      "en": "Rules for naming: 1. Cation is named first. 2. Ligands are named in alphabetical order before the central metal. 3. Names of anionic ligands end in '-o' (e.g., chlorido), neutral ligands have specific names (e.g., aqua for $H_2O$, ammine for $NH_3$). 4. Oxidation state of metal is written in Roman numerals in parentheses. 5. If the complex ion is an anion, the metal name ends in '-ate'.",
+      "hi": "नामकरण के नियम: 1. धनायन का नाम पहले लिखा जाता है। 2. लिगेंड का नाम केंद्रीय धातु से पहले वर्णमाला के क्रम में लिखा जाता है। 3. ऋणायन लिगेंड के नाम के अंत में '-o' आता है (उदा. क्लोराइडो), उदासीन लिगेंड के विशिष्ट नाम होते हैं (उदा. $H_2O$ के लिए एक्वा, $NH_3$ के लिए एम्मीन)। 4. धातु की ऑक्सीकरण अवस्था कोष्ठक में रोमन अंकों में लिखी जाती है। 5. यदि संकुल आयन ऋणायन है, तो धातु के नाम के अंत में '-ate' आता है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Isomerism",
+      "hi": "समावयवता",
+      "hinglish": "Isomerism"
+    },
+    "content": {
+      "en": "**Structural Isomerism**: Linkage (ambidentate ligands), Coordination (interchange of ligands between cation and anion complexes), Ionisation (interchange of ligand and counter ion), Solvate/Hydrate isomerism.\n**Stereoisomerism**: Geometrical (cis/trans, fac/mer) and Optical (dextro/laevo, non-superimposable mirror images).",
+      "hi": "**संरचनात्मक समावयवता**: बंधनी (उभयदंतुर लिगेंड), उपसहसंयोजन (धनायन और ऋणायन संकुलों के बीच लिगेंड का आदान-प्रदान), आयनन (लिगेंड और प्रति आयन का आदान-प्रदान), विलायक/हाइड्रेट समावयवता।\n**त्रिविम समावयवता**: ज्यामितीय (सिस/ट्रांस, फलकीय/रेखांशिक) और प्रकाशिक (दक्षिण-ध्रुवण/वाम-ध्रुवण, अध्यारोपित न होने वाले दर्पण प्रतिबिंब)।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Valence Bond Theory (VBT)",
+      "hi": "संयोजकता आबंध सिद्धांत (VBT)",
+      "hinglish": "Valence Bond Theory (VBT)"
+    },
+    "content": {
+      "en": "VBT explains the structure and magnetic properties of complexes based on hybridization. The central metal atom/ion makes available empty s, p, and d orbitals equal to its coordination number. These hybridize to form equivalent hybrid orbitals (e.g., $sp^3$ for tetrahedral, $dsp^2$ for square planar, $sp^3d^2$ or $d^2sp^3$ for octahedral).",
+      "hi": "VBT संकरण के आधार पर संकुलों की संरचना और चुम्बकीय गुणों की व्याख्या करता है। केंद्रीय धातु परमाणु/आयन अपनी उपसहसंयोजन संख्या के बराबर खाली s, p और d कक्षक उपलब्ध कराता है। ये संकरित होकर समतुल्य संकर कक्षक बनाते हैं (उदा. चतुष्फलकीय के लिए $sp^3$, वर्ग समतलीय के लिए $dsp^2$, अष्टफलकीय के लिए $sp^3d^2$ या $d^2sp^3$)।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Inner vs Outer Orbital Complexes",
+      "hi": "आंतरिक बनाम बाह्य कक्षक संकुल",
+      "hinglish": "Inner vs Outer Orbital Complexes"
+    },
+    "content": {
+      "en": "In octahedral complexes, if $(n-1)d$ orbitals are used for hybridization ($d^2sp^3$), it's an **inner orbital** (or low spin) complex. If $nd$ orbitals are used ($sp^3d^2$), it's an **outer orbital** (or high spin) complex. Strong field ligands usually force pairing, leading to inner orbital complexes.",
+      "hi": "अष्टफलकीय संकुलों में, यदि संकरण ($d^2sp^3$) के लिए $(n-1)d$ कक्षकों का उपयोग किया जाता है, तो यह **आंतरिक कक्षक** (या निम्न चक्रण) संकुल है। यदि $nd$ कक्षकों का उपयोग ($sp^3d^2$) किया जाता है, तो यह **बाह्य कक्षक** (या उच्च चक्रण) संकुल है। प्रबल क्षेत्र लिगेंड आमतौर पर युग्मन को मजबूर करते हैं, जिससे आंतरिक कक्षक संकुल बनते हैं।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Crystal Field Theory (CFT)",
+      "hi": "क्रिस्टल क्षेत्र सिद्धांत (CFT)",
+      "hinglish": "Crystal Field Theory (CFT)"
+    },
+    "content": {
+      "en": "CFT considers the metal-ligand bond as purely ionic. The five d-orbitals in an isolated metal ion are degenerate. When ligands approach, they create an asymmetric electrostatic field, causing the d-orbitals to split into two sets with different energies. In an octahedral field, they split into $t_{2g}$ (lower energy) and $e_g$ (higher energy).",
+      "hi": "CFT धातु-लिगेंड बंध को पूर्ण रूप से आयनिक मानता है। एक विलगित धातु आयन में पाँच d-कक्षक समभ्रंश (समान ऊर्जा वाले) होते हैं। जब लिगेंड पास आते हैं, तो वे एक असममित स्थिरविद्युत क्षेत्र बनाते हैं, जिससे d-कक्षक अलग-अलग ऊर्जा वाले दो सेटों में विपाटित (split) हो जाते हैं। अष्टफलकीय क्षेत्र में, वे $t_{2g}$ (निम्न ऊर्जा) और $e_g$ (उच्च ऊर्जा) में विपाटित होते हैं।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Crystal Field Splitting Energy (CFSE)",
+      "hi": "क्रिस्टल क्षेत्र विपाटन ऊर्जा (CFSE)",
+      "hinglish": "Crystal Field Splitting Energy (CFSE)"
+    },
+    "content": {
+      "en": "The energy difference between the $t_{2g}$ and $e_g$ sets is denoted by $\\Delta_o$ (for octahedral). The spectrochemical series arranges ligands in order of increasing field strength (and $\\Delta_o$). Strong field ligands (like $CN^-, CO$) cause large splitting, while weak field ligands (like halogens) cause small splitting.",
+      "hi": "$t_{2g}$ और $e_g$ सेट के बीच ऊर्जा अंतर को $\\Delta_o$ (अष्टफलकीय के लिए) द्वारा दर्शाया जाता है। स्पेक्ट्रोकेमिकल श्रेणी लिगेंड्स को बढ़ते हुए क्षेत्र की शक्ति (और $\\Delta_o$) के क्रम में व्यवस्थित करती है। प्रबल क्षेत्र लिगेंड (जैसे $CN^-, CO$) बड़ा विपाटन उत्पन्न करते हैं, जबकि दुर्बल क्षेत्र लिगेंड (जैसे हैलोजन) छोटा विपाटन उत्पन्न करते हैं।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Colour in Coordination Compounds",
+      "hi": "उपसहसंयोजक यौगिकों में रंग",
+      "hinglish": "Coordination Compounds mein Colour"
+    },
+    "content": {
+      "en": "The colour is due to d-d transitions. An electron from a lower energy d-orbital (e.g., $t_{2g}$) absorbs a specific wavelength of visible light and jumps to a higher energy d-orbital (e.g., $e_g$). The transmitted complementary colour is what we observe. If there are no unpaired d-electrons ($d^0$ or $d^{10}$), the compound is usually colourless.",
+      "hi": "रंग d-d संक्रमण के कारण होता है। निम्न ऊर्जा d-कक्षक (उदा. $t_{2g}$) से एक इलेक्ट्रॉन दृश्य प्रकाश की एक विशिष्ट तरंग दैर्ध्य को अवशोषित करता है और उच्च ऊर्जा d-कक्षक (उदा. $e_g$) में कूदता है। जो पूरक रंग उत्सर्जित होता है, वही हमें दिखाई देता है। यदि कोई अयुग्मित d-इलेक्ट्रॉन ($d^0$ या $d^{10}$) नहीं है, तो यौगिक आमतौर पर रंगहीन होता है।"
+    }
+  }
+]

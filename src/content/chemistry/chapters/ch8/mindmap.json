@@ -1,0 +1,79 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Aldehydes, Ketones and Carboxylic Acids",
+    "hi": "एल्डिहाइड, कीटोन और कार्बोक्सिलिक अम्ल",
+    "hinglish": "Aldehydes, Ketones & Carboxylic Acids"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Aldehydes and Ketones",
+        "hi": "एल्डिहाइड और कीटोन"
+      },
+      "children": [
+        {
+          "id": "c1a",
+          "label": { "en": "Preparation", "hi": "विरचन" },
+          "children": [
+            { "id": "c1a1", "label": { "en": "Oxidation of Alcohols", "hi": "एल्कोहॉल का ऑक्सीकरण" } },
+            { "id": "c1a2", "label": { "en": "Ozonolysis of Alkenes", "hi": "एल्कीन का ओजोनोलिसिस" } },
+            { "id": "c1a3", "label": { "en": "Rosenmund Reduction (Aldehydes)", "hi": "रोसेनमुंड अपचयन (एल्डिहाइड)" } },
+            { "id": "c1a4", "label": { "en": "Stephen Reaction (Aldehydes)", "hi": "स्टीफन अभिक्रिया (एल्डिहाइड)" } },
+            { "id": "c1a5", "label": { "en": "Friedel-Crafts Acylation (Ketones)", "hi": "फ्रिडेल-क्राफ्ट्स एसिलेशन (कीटोन)" } }
+          ]
+        },
+        {
+          "id": "c1b",
+          "label": { "en": "Reactions", "hi": "अभिक्रियाएँ" },
+          "children": [
+            { "id": "c1b1", "label": { "en": "Nucleophilic Addition (HCN, NaHSO3, RMgX)", "hi": "नाभिकरागी योग (HCN, NaHSO3, RMgX)" } },
+            { "id": "c1b2", "label": { "en": "Addition of Ammonia derivatives", "hi": "अमोनिया व्युत्पन्नों का योग" } },
+            { "id": "c1b3", "label": { "en": "Reduction (Clemmensen, Wolff-Kishner)", "hi": "अपचयन (क्लीमेंसन, वोल्फ-किश्नर)" } },
+            { "id": "c1b4", "label": { "en": "Oxidation (Tollen's, Fehling's, Haloform)", "hi": "ऑक्सीकरण (टॉलेन, फेलिंग, हेलोफॉर्म)" } },
+            { "id": "c1b5", "label": { "en": "Reactions of α-H (Aldol, Cannizzaro)", "hi": "α-H की अभिक्रियाएँ (एल्डोल, कैनिज़ारो)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Carboxylic Acids",
+        "hi": "कार्बोक्सिलिक अम्ल"
+      },
+      "children": [
+        {
+          "id": "c2a",
+          "label": { "en": "Preparation", "hi": "विरचन" },
+          "children": [
+            { "id": "c2a1", "label": { "en": "From 1° Alcohols & Aldehydes (Oxidation)", "hi": "1° एल्कोहॉल और एल्डिहाइड से (ऑक्सीकरण)" } },
+            { "id": "c2a2", "label": { "en": "From Alkylbenzenes", "hi": "एल्किलबेंजीन से" } },
+            { "id": "c2a3", "label": { "en": "Hydrolysis of Nitriles/Amides", "hi": "नाइट्राइल/एमाइड का जल अपघटन" } },
+            { "id": "c2a4", "label": { "en": "From Grignard Reagents", "hi": "ग्रिग्नार्ड अभिकर्मक से" } }
+          ]
+        },
+        {
+          "id": "c2b",
+          "label": { "en": "Properties & Acidity", "hi": "गुण और अम्लता" },
+          "children": [
+            { "id": "c2b1", "label": { "en": "High BP (due to extensive H-bonding/Dimers)", "hi": "उच्च BP (व्यापक H-बांडिंग/डिमर के कारण)" } },
+            { "id": "c2b2", "label": { "en": "More acidic than phenols (resonance stabilization)", "hi": "फिनोल से अधिक अम्लीय (अनुनाद स्थिरीकरण)" } },
+            { "id": "c2b3", "label": { "en": "EWG increases acidity, EDG decreases", "hi": "EWG अम्लता बढ़ाता है, EDG कम करता है" } }
+          ]
+        },
+        {
+          "id": "c2c",
+          "label": { "en": "Reactions", "hi": "अभिक्रियाएँ" },
+          "children": [
+            { "id": "c2c1", "label": { "en": "Formation of Anhydrides, Esters, Amides", "hi": "एनहाइड्राइड, एस्टर, एमाइड का निर्माण" } },
+            { "id": "c2c2", "label": { "en": "Reduction (with LiAlH4 to 1° alcohol)", "hi": "अपचयन (LiAlH4 के साथ 1° एल्कोहॉल में)" } },
+            { "id": "c2c3", "label": { "en": "Decarboxylation (with Soda Lime to alkanes)", "hi": "विकार्बोक्सिलीकरण (सोडा लाइम के साथ एल्केन में)" } },
+            { "id": "c2c4", "label": { "en": "HVZ Reaction (α-halogenation)", "hi": "HVZ अभिक्रिया (α-हैलोजनीकरण)" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

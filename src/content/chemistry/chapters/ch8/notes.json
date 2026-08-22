@@ -1,0 +1,110 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Structure of Carbonyl Group",
+      "hi": "कार्बोनिल समूह की संरचना",
+      "hinglish": "Carbonyl Group ki Structure"
+    },
+    "content": {
+      "en": "The carbonyl carbon is $sp^2$ hybridized and forms three sigma bonds (coplanar, $120^\\circ$ angle). The unhybridized p-orbital forms a $\\pi$-bond with oxygen. Oxygen is more electronegative, making the C=O bond highly polar ($C^{\\delta+} - O^{\\delta-}$). This makes the carbon an electrophilic center.",
+      "hi": "कार्बोनिल कार्बन $sp^2$ संकरित होता है और तीन सिग्मा बंध (समतलीय, $120^\\circ$ कोण) बनाता है। असंकरित p-कक्षक ऑक्सीजन के साथ $\\pi$-बंध बनाता है। ऑक्सीजन अधिक विद्युत्-ऋणात्मक है, जिससे C=O बंध अत्यधिक ध्रुवीय ($C^{\\delta+} - O^{\\delta-}$) हो जाता है। यह कार्बन को एक इलेक्ट्रॉनरागी (electrophilic) केंद्र बनाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Preparation of Aldehydes and Ketones",
+      "hi": "एल्डिहाइड और कीटोन का विरचन",
+      "hinglish": "Aldehydes aur Ketones ki Preparation"
+    },
+    "content": {
+      "en": "1. **By oxidation of alcohols**: $1^\\circ$ alcohol $\\rightarrow$ Aldehyde (using PCC), $2^\\circ$ alcohol $\\rightarrow$ Ketone (using $CrO_3$). \n2. **Ozonolysis of alkenes**: Gives aldehydes/ketones depending on the alkene. \n3. **Hydration of alkynes**: Ethyne gives ethanal, other alkynes give ketones. \n4. **Rosenmund Reduction**: Acyl chloride $+ H_2/Pd-BaSO_4 \\rightarrow$ Aldehyde. \n5. **Stephen Reaction**: Nitrile $+ SnCl_2/HCl$ followed by hydrolysis gives aldehyde. \n6. **Friedel-Crafts Acylation**: Benzene + Acyl chloride $\\rightarrow$ Aromatic ketone.",
+      "hi": "1. **एल्कोहॉल के ऑक्सीकरण द्वारा**: $1^\\circ$ एल्कोहॉल $\\rightarrow$ एल्डिहाइड (PCC का उपयोग करके), $2^\\circ$ एल्कोहॉल $\\rightarrow$ कीटोन ($CrO_3$ का उपयोग करके)।\n2. **एल्कीन्स का ओजोनोलिसिस**: एल्कीन के आधार पर एल्डिहाइड/कीटोन देता है।\n3. **एल्काइन्स का जलयोजन**: एथाइन एथेनल देता है, अन्य एल्काइन कीटोन देते हैं।\n4. **रोसेनमुंड अपचयन**: एसाइल क्लोराइड $+ H_2/Pd-BaSO_4 \\rightarrow$ एल्डिहाइड।\n5. **स्टीफन अभिक्रिया**: नाइट्राइल $+ SnCl_2/HCl$ के बाद जल अपघटन एल्डिहाइड देता है।\n6. **फ्रिडेल-क्राफ्ट्स एसिलेशन**: बेंजीन + एसाइल क्लोराइड $\\rightarrow$ एरोमैटिक कीटोन।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Nucleophilic Addition Reactions",
+      "hi": "नाभिकरागी योग अभिक्रियाएँ",
+      "hinglish": "Nucleophilic Addition Reactions"
+    },
+    "content": {
+      "en": "Carbonyl compounds undergo nucleophilic addition because of the electrophilic carbon. Aldehydes are generally more reactive than ketones due to less steric hindrance and less +I effect of alkyl groups. \nExamples: Addition of HCN (cyanohydrin), $NaHSO_3$ (bisulfite adduct), Grignard reagents (gives alcohols), and alcohols (hemiacetal/acetal for aldehydes, ketals for ketones).",
+      "hi": "इलेक्ट्रॉनरागी कार्बन के कारण कार्बोनिल यौगिक नाभिकरागी योग से गुजरते हैं। एल्डिहाइड आमतौर पर कम त्रिविम बाधा और एल्किल समूहों के कम +I प्रभाव के कारण कीटोन्स की तुलना में अधिक क्रियाशील होते हैं।\nउदाहरण: HCN (सायनोहाइड्रिन), $NaHSO_3$ (बाइसल्फाइट एडक्ट), ग्रिग्नार्ड अभिकर्मक (एल्कोहॉल देता है), और एल्कोहॉल (एल्डिहाइड के लिए हेमीएसीटल/एसीटल, कीटोन्स के लिए कीटल) का योग।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Addition of Ammonia Derivatives",
+      "hi": "अमोनिया व्युत्पन्नों का योग",
+      "hinglish": "Ammonia Derivatives ka Addition"
+    },
+    "content": {
+      "en": "Reactions with $NH_2-Z$ (where Z = alkyl, aryl, OH, $NH_2$, $NHC_6H_5$, etc.) in weakly acidic medium forms compounds with a C=N double bond, eliminating water. Examples: Hydroxylamine gives oximes, Hydrazine gives hydrazones, 2,4-DNP gives 2,4-dinitrophenylhydrazones (yellow/orange ppt used to test carbonyl group).",
+      "hi": "दुर्बल अम्लीय माध्यम में $NH_2-Z$ (जहाँ Z = एल्किल, एरिल, OH, $NH_2$, $NHC_6H_5$, आदि) के साथ अभिक्रिया करने पर C=N द्विबंध वाले यौगिक बनते हैं और जल निकलता है। उदाहरण: हाइड्रॉक्सिलएमीन ऑक्साइम देता है, हाइड्राज़ीन हाइड्राज़ोन देता है, 2,4-DNP 2,4-डाइनाइट्रोफेनिलहाइड्राज़ोन देता है (कार्बोनिल समूह के परीक्षण के लिए प्रयुक्त पीला/नारंगी अवक्षेप)।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Reduction and Oxidation",
+      "hi": "अपचयन और ऑक्सीकरण",
+      "hinglish": "Reduction and Oxidation"
+    },
+    "content": {
+      "en": "**Reduction**: Clemmensen reduction (using Zn-Hg/HCl) and Wolff-Kishner reduction (using $NH_2NH_2/KOH$) reduce carbonyl group (>C=O) to methylene group (>CH2). \n**Oxidation**: Aldehydes easily oxidize to carboxylic acids using mild agents like Tollen's reagent (silver mirror) or Fehling's solution (red-brown ppt). Ketones resist mild oxidation but undergo vigorous oxidation (cleaving C-C bonds). Haloform reaction (Iodoform test) is given by methyl ketones ($CH_3-CO-$).",
+      "hi": "**अपचयन**: क्लीमेंसन अपचयन (Zn-Hg/HCl का उपयोग करके) और वोल्फ-किश्नर अपचयन ($NH_2NH_2/KOH$ का उपयोग करके) कार्बोनिल समूह (>C=O) को मेथिलीन समूह (>CH2) में अपचयित करते हैं।\n**ऑक्सीकरण**: एल्डिहाइड आसानी से टॉलेन अभिकर्मक (रजत दर्पण) या फेलिंग विलयन (लाल-भूरा अवक्षेप) जैसे हल्के कर्मकों का उपयोग करके कार्बोक्सिलिक एसिड में ऑक्सीकृत हो जाते हैं। कीटोन हल्के ऑक्सीकरण का विरोध करते हैं लेकिन जोरदार ऑक्सीकरण (C-C बंधों को तोड़ना) से गुजरते हैं। हेलोफॉर्म अभिक्रिया (आयोडोफॉर्म परीक्षण) मिथाइल कीटोन ($CH_3-CO-$) द्वारा दी जाती है।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Reactions due to $\\alpha$-Hydrogen",
+      "hi": "$\\alpha$-हाइड्रोजन के कारण अभिक्रियाएँ",
+      "hinglish": "$\\alpha$-Hydrogen ki Reactions"
+    },
+    "content": {
+      "en": "$\\alpha$-hydrogen in carbonyls is acidic due to electron-withdrawing nature of >C=O. \n1. **Aldol Condensation**: Aldehydes/ketones with at least one $\\alpha$-H react in dilute alkali to form $\\beta$-hydroxy aldehydes (aldol) or ketones (ketol), which upon heating lose water to form $\\alpha,\\beta$-unsaturated compounds. \n2. **Cross Aldol**: Between two different carbonyls. \n3. **Cannizzaro Reaction**: Aldehydes with NO $\\alpha$-H (e.g., HCHO, PhCHO) undergo self-oxidation-reduction (disproportionation) in conc. alkali to form alcohol and carboxylic acid salt.",
+      "hi": "कार्बोनिल में $\\alpha$-हाइड्रोजन >C=O की इलेक्ट्रॉन खींचने की प्रकृति के कारण अम्लीय होता है।\n1. **एल्डोल संघनन**: कम से कम एक $\\alpha$-H वाले एल्डिहाइड/कीटोन तनु क्षार में अभिक्रिया करके $\\beta$-हाइड्रॉक्सी एल्डिहाइड (एल्डोल) या कीटोन (कीटोल) बनाते हैं, जो गर्म करने पर जल खोकर $\\alpha,\\beta$-असंतृप्त यौगिक बनाते हैं।\n2. **क्रॉस एल्डोल**: दो अलग-अलग कार्बोनिलों के बीच।\n3. **कैनिज़ारो अभिक्रिया**: बिना $\\alpha$-H वाले एल्डिहाइड (उदा. HCHO, PhCHO) सांद्र क्षार में स्व-ऑक्सीकरण-अपचयन (disproportionation) से गुजरकर एल्कोहॉल और कार्बोक्सिलिक एसिड लवण बनाते हैं।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Carboxylic Acids: Preparation",
+      "hi": "कार्बोक्सिलिक अम्ल: विरचन",
+      "hinglish": "Carboxylic Acids: Preparation"
+    },
+    "content": {
+      "en": "Prepared by: 1. Oxidation of $1^\\circ$ alcohols/aldehydes ($KMnO_4, K_2Cr_2O_7$). 2. Hydrolysis of nitriles or amides ($H^+$ or $OH^-$). 3. Oxidation of alkylbenzenes (e.g., Toluene to Benzoic acid using $KMnO_4$). 4. Carbonation of Grignard reagents ($RMgX + CO_2$).",
+      "hi": "विरचन: 1. $1^\\circ$ एल्कोहॉल/एल्डिहाइड का ऑक्सीकरण ($KMnO_4, K_2Cr_2O_7$)। 2. नाइट्राइल या एमाइड का जल अपघटन ($H^+$ या $OH^-$)। 3. एल्किलबेंजीन का ऑक्सीकरण (उदा. $KMnO_4$ का उपयोग करके टोल्यूनि से बेंजोइक एसिड)। 4. ग्रिग्नार्ड अभिकर्मकों का कार्बोनेशन ($RMgX + CO_2$)।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Carboxylic Acids: Properties and Acidity",
+      "hi": "कार्बोक्सिलिक अम्ल: गुण और अम्लता",
+      "hinglish": "Carboxylic Acids: Properties aur Acidity"
+    },
+    "content": {
+      "en": "Higher boiling points than alcohols of similar mass due to extensive intermolecular H-bonding (exist as dimers in vapor state). \n**Acidity**: They are more acidic than phenols because the carboxylate ion is stabilized by two equivalent resonance structures (negative charge on two electronegative O atoms). \nElectron-withdrawing groups (EWG, like halogens, $-NO_2$) increase acidity by stabilizing the carboxylate ion. Electron-donating groups (EDG, like alkyl) decrease acidity.",
+      "hi": "व्यापक अंतर-आणविक H-बांडिंग (वाष्प अवस्था में डिमर के रूप में मौजूद) के कारण समान द्रव्यमान वाले एल्कोहॉल की तुलना में उच्च क्वथनांक।\n**अम्लता**: ये फिनोल की तुलना में अधिक अम्लीय होते हैं क्योंकि कार्बोक्सिलेट आयन दो समतुल्य अनुनाद संरचनाओं (दो विद्युत्-ऋणात्मक O परमाणुओं पर ऋणात्मक आवेश) द्वारा स्थिर होता है।\nइलेक्ट्रॉन खींचने वाले समूह (EWG, जैसे हैलोजन, $-NO_2$) कार्बोक्सिलेट आयन को स्थिर करके अम्लता बढ़ाते हैं। इलेक्ट्रॉन दान करने वाले समूह (EDG, जैसे एल्किल) अम्लता कम करते हैं।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Reactions of Carboxylic Acids",
+      "hi": "कार्बोक्सिलिक अम्ल की अभिक्रियाएँ",
+      "hinglish": "Carboxylic Acids ki Reactions"
+    },
+    "content": {
+      "en": "1. **Formation of anhydrides, esters, amides, and acyl chlorides**. \n2. **Reduction**: Only $LiAlH_4$ or $B_2H_6$ reduces them to $1^\\circ$ alcohols (NaBH4 does not). \n3. **Decarboxylation**: Heating with soda lime (NaOH/CaO) gives alkanes. \n4. **HVZ Reaction (Hell-Volhard-Zelinsky)**: Halogenation at the $\\alpha$-carbon using $X_2/Red P$ ($X=Cl, Br$).",
+      "hi": "1. **एनहाइड्राइड, एस्टर, एमाइड और एसाइल क्लोराइड का निर्माण**।\n2. **अपचयन**: केवल $LiAlH_4$ या $B_2H_6$ उन्हें $1^\\circ$ एल्कोहॉल में अपचयित करता है (NaBH4 नहीं करता)।\n3. **विकार्बोक्सिलीकरण**: सोडा लाइम (NaOH/CaO) के साथ गर्म करने पर एल्केन मिलते हैं।\n4. **HVZ अभिक्रिया (हेल-वोलहार्ड-ज़ेलिंस्की)**: $X_2/Red P$ ($X=Cl, Br$) का उपयोग करके $\\alpha$-कार्बन पर हैलोजनीकरण।"
+    }
+  }
+]

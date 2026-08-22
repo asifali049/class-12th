@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Arrange the following compounds in increasing order of their boiling points: Pentan-1-ol, butan-1-ol, butan-2-ol, ethanol, propan-1-ol, methanol.",
+      "hi": "निम्नलिखित यौगिकों को उनके क्वथनांक के बढ़ते क्रम में व्यवस्थित करें: पेंटेन-1-ऑल, ब्यूटेन-1-ऑल, ब्यूटेन-2-ऑल, इथेनॉल, प्रोपेन-1-ऑल, मेथनॉल।",
+      "hinglish": "In compounds ko unke boiling points ke increasing order mein arrange karein: Pentan-1-ol, butan-1-ol, butan-2-ol, ethanol, propan-1-ol, methanol."
+    },
+    "given": {
+      "en": "Compounds: Pentan-1-ol, butan-1-ol, butan-2-ol, ethanol, propan-1-ol, methanol.",
+      "hi": "यौगिक: पेंटेन-1-ऑल, ब्यूटेन-1-ऑल, ब्यूटेन-2-ऑल, इथेनॉल, प्रोपेन-1-ऑल, मेथनॉल।"
+    },
+    "required": {
+      "en": "Increasing order of boiling point.",
+      "hi": "क्वथनांक का बढ़ता क्रम।"
+    },
+    "formula": "Boiling point increases with molecular mass and decreases with branching.",
+    "substitution": "",
+    "calculation": "1. Methanol (1C), Ethanol (2C), Propan-1-ol (3C), Butanols (4C), Pentan-1-ol (5C).<br>2. BP increases as carbon number increases. So, Methanol < Ethanol < Propan-1-ol.<br>3. Between butan-1-ol (straight chain) and butan-2-ol (branched): Branching decreases surface area, lowering van der Waals forces. So, butan-2-ol < butan-1-ol.<br>4. Pentan-1-ol has the highest mass. So it will have the highest BP.<br>Combining all: Methanol < Ethanol < Propan-1-ol < butan-2-ol < butan-1-ol < Pentan-1-ol.",
+    "finalAnswer": "Methanol < Ethanol < Propan-1-ol < Butan-2-ol < Butan-1-ol < Pentan-1-ol",
+    "unit": "",
+    "examTip": {
+      "en": "Always check the number of carbons first. If the number of carbons is the same, then check for branching.",
+      "hi": "हमेशा पहले कार्बनों की संख्या जांचें। यदि कार्बनों की संख्या समान है, तो शाखाओं की जांच करें।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "An organic compound (A) having molecular formula $C_6H_6O$ gives a characteristic colour with aqueous $FeCl_3$ solution. When (A) is treated with $CO_2$ and NaOH at 400K under pressure, it gives compound (B), which on acidification gives compound (C). (C) reacts with acetyl chloride to form a popular painkiller (D). Identify A, B, C, and D.",
+      "hi": "आणविक सूत्र $C_6H_6O$ वाला एक कार्बनिक यौगिक (A) जलीय $FeCl_3$ विलयन के साथ एक विशिष्ट रंग देता है। जब (A) को दबाव में 400K पर $CO_2$ और NaOH के साथ अभिकृत किया जाता है, तो यह यौगिक (B) देता है, जो अम्लीकरण पर यौगिक (C) देता है। (C) एसिटाइल क्लोराइड के साथ प्रतिक्रिया करके एक लोकप्रिय दर्दनिवारक (D) बनाता है। A, B, C और D को पहचानें।",
+      "hinglish": "Ek organic compound (A) jiska molecular formula $C_6H_6O$ hai, aq $FeCl_3$ ke sath characteristic colour deta hai. Jab (A) ko $CO_2$ aur NaOH ke sath treat karte hain, toh (B) banta hai, jiska acidification (C) deta hai. (C) acetyl chloride se react karke painkiller (D) banata hai. A, B, C, aur D kya hain?"
+    },
+    "given": {
+      "en": "1. A ($C_6H_6O$) + $FeCl_3$ $\\rightarrow$ colour<br>2. A + NaOH + $CO_2$ $\\rightarrow$ B $\\xrightarrow{H^+}$ C<br>3. C + acetyl chloride $\\rightarrow$ D (painkiller)",
+      "hi": "1. A ($C_6H_6O$) + $FeCl_3$ $\\rightarrow$ रंग<br>2. A + NaOH + $CO_2$ $\\rightarrow$ B $\\xrightarrow{H^+}$ C<br>3. C + एसिटाइल क्लोराइड $\\rightarrow$ D (दर्दनिवारक)"
+    },
+    "required": {
+      "en": "Structures of A, B, C, and D.",
+      "hi": "A, B, C, और D की संरचनाएँ।"
+    },
+    "formula": "$FeCl_3$ test, Kolbe's reaction, Acetylation.",
+    "substitution": "",
+    "calculation": "1. Formula $C_6H_6O$ and positive $FeCl_3$ test (violet colour) confirm that (A) is Phenol.<br>2. Phenol reacting with NaOH and $CO_2$ is Kolbe's reaction. The intermediate (B) is Sodium salicylate.<br>3. Acidification of Sodium salicylate gives Salicylic acid (C) (2-Hydroxybenzoic acid).<br>4. Acetylation of Salicylic acid with acetyl chloride gives Acetylsalicylic acid (D), commonly known as Aspirin (a painkiller).",
+    "finalAnswer": "A = Phenol, B = Sodium salicylate, C = Salicylic acid, D = Aspirin (Acetylsalicylic acid)",
+    "unit": "",
+    "examTip": {
+      "en": "$FeCl_3$ test is a classic test for phenols (and enols). Kolbe's reaction is extremely important for board exams.",
+      "hi": "$FeCl_3$ परीक्षण फिनोल (और एनोल) के लिए एक क्लासिक परीक्षण है। बोर्ड परीक्षाओं के लिए कोल्बे अभिक्रिया अत्यंत महत्वपूर्ण है।"
+    }
+  }
+]

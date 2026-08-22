@@ -1,0 +1,122 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Classification of Haloalkanes and Haloarenes",
+      "hi": "हैलोऐल्केन और हैलोऐरीन का वर्गीकरण",
+      "hinglish": "Haloalkanes aur Haloarenes ka Classification"
+    },
+    "content": {
+      "en": "They are classified on the basis of the number of halogen atoms (mono, di, polyhalogen) and the nature of the C-X bond ($sp^3$ C-X or $sp^2$ C-X). Primary ($1^\\circ$), secondary ($2^\\circ$), and tertiary ($3^\\circ$) alkyl halides depend on the degree of the carbon attached to the halogen.",
+      "hi": "इन्हें हैलोजन परमाणुओं की संख्या (मोनो, डाई, पॉलीहैलोजन) और C-X बंध की प्रकृति ($sp^3$ C-X या $sp^2$ C-X) के आधार पर वर्गीकृत किया जाता है। प्राथमिक ($1^\\circ$), द्वितीयक ($2^\\circ$) और तृतीयक ($3^\\circ$) एल्किल हैलाइड हैलोजन से जुड़े कार्बन की डिग्री पर निर्भर करते हैं।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Nomenclature",
+      "hi": "नामकरण",
+      "hinglish": "Nomenclature"
+    },
+    "content": {
+      "en": "In IUPAC system, they are named as haloalkanes or haloarenes. Common names are alkyl halides or aryl halides. For dihalogen derivatives with the same halogen on the same carbon, they are called geminal halides (gem-dihalides) or alkylidene halides. If on adjacent carbons, they are vicinal halides (vic-dihalides) or alkylene dihalides.",
+      "hi": "IUPAC प्रणाली में, इन्हें हैलोऐल्केन या हैलोऐरीन के रूप में नामित किया जाता है। सामान्य नाम एल्किल हैलाइड या एरिल हैलाइड हैं। एक ही कार्बन पर समान हैलोजन वाले डाइहैलोजन व्युत्पन्नों के लिए, उन्हें जेमिनल हैलाइड (जेम-डाइहलाइड) या एल्काइलिडीन हैलाइड कहा जाता है। यदि आसन्न कार्बनों पर हों, तो वे विसिनल हैलाइड (विस-डाइहलाइड) या एल्काइलीन डाइहलाइड होते हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Nature of C-X Bond",
+      "hi": "C-X बंध की प्रकृति",
+      "hinglish": "C-X Bond ki Nature"
+    },
+    "content": {
+      "en": "Halogen atoms are more electronegative than carbon, making the C-X bond polar. Carbon bears a partial positive charge ($+\\delta$) and halogen bears a partial negative charge ($-\\delta$). Bond length increases and bond enthalpy decreases from C-F to C-I.",
+      "hi": "हैलोजन परमाणु कार्बन की तुलना में अधिक विद्युत्-ऋणात्मक होते हैं, जिससे C-X बंध ध्रुवीय हो जाता है। कार्बन पर आंशिक धनात्मक आवेश ($+\\delta$) और हैलोजन पर आंशिक ऋणात्मक आवेश ($-\\delta$) होता है। C-F से C-I तक बंध की लंबाई बढ़ती है और बंध एन्थैल्पी घटती है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Preparation of Haloalkanes",
+      "hi": "हैलोऐल्केन के विरचन की विधियाँ",
+      "hinglish": "Haloalkanes ki Preparation"
+    },
+    "content": {
+      "en": "1. **From Alcohols**: Using $HCl/ZnCl_2$ (Lucas reagent), $PCl_3$, $PCl_5$, or $SOCl_2$ (Darzen's process - preferred as byproducts are gases). \n2. **From Hydrocarbons**: Free radical halogenation of alkanes, electrophilic addition to alkenes (Markovnikov's rule), or peroxide effect (Anti-Markovnikov, only with HBr). \n3. **Halogen Exchange**: Finkelstein reaction (R-I from R-Cl/Br using NaI in acetone) and Swarts reaction (R-F using $AgF, Hg_2F_2$).",
+      "hi": "1. **एल्कोहॉल से**: $HCl/ZnCl_2$ (ल्यूकास अभिकर्मक), $PCl_3$, $PCl_5$, या $SOCl_2$ (डार्जन प्रक्रिया - इसे प्राथमिकता दी जाती है क्योंकि उपोत्पाद गैसें होती हैं) का उपयोग करके।\n2. **हाइड्रोकार्बन से**: एल्केन्स का मुक्त मूलक हैलोजनीकरण, एल्कीन्स में इलेक्ट्रॉनरागी योग (मार्कोवनिकोव का नियम), या परॉक्साइड प्रभाव (एंटी-मार्कोवनिकोव, केवल HBr के साथ)।\n3. **हैलोजन विनिमय**: फिंकेलस्टीन अभिक्रिया (एसीटोन में NaI का उपयोग करके R-Cl/Br से R-I) और स्वार्ट्स अभिक्रिया ($AgF, Hg_2F_2$ का उपयोग करके R-F)।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Preparation of Haloarenes",
+      "hi": "हैलोऐरीन के विरचन की विधियाँ",
+      "hinglish": "Haloarenes ki Preparation"
+    },
+    "content": {
+      "en": "1. **Electrophilic Substitution**: Halogenation of arenes in presence of Lewis acid ($FeCl_3, AlCl_3$) in dark. \n2. **Sandmeyer's Reaction**: From diazonium salts using $Cu_2X_2 / HX$ ($X=Cl, Br$). For Iodine, simply warm with KI.",
+      "hi": "1. **इलेक्ट्रॉनरागी प्रतिस्थापन**: अंधेरे में लुईस अम्ल ($FeCl_3, AlCl_3$) की उपस्थिति में एरीन्स का हैलोजनीकरण।\n2. **सैंडमेयर अभिक्रिया**: $Cu_2X_2 / HX$ ($X=Cl, Br$) का उपयोग करके डायज़ोनियम लवण से। आयोडीन के लिए, बस KI के साथ गर्म करें।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Physical Properties",
+      "hi": "भौतिक गुण",
+      "hinglish": "Physical Properties"
+    },
+    "content": {
+      "en": "Boiling points follow the order: $RI > RBr > RCl > RF$ (due to increasing size/mass leading to stronger van der Waals forces). For isomeric haloalkanes, boiling point decreases with branching due to decreased surface area. They are slightly soluble in water but highly soluble in organic solvents.",
+      "hi": "क्वथनांक इस क्रम का पालन करते हैं: $RI > RBr > RCl > RF$ (आकार/द्रव्यमान बढ़ने के कारण वैन डेर वाल्स बल मजबूत होते हैं)। समावयवी हैलोऐल्केन के लिए, पृष्ठीय क्षेत्रफल कम होने के कारण शाखाओं के साथ क्वथनांक घटता है। ये जल में अल्प विलेय होते हैं लेकिन कार्बनिक विलायकों में अत्यधिक विलेय होते हैं।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Nucleophilic Substitution Reactions ($S_N$)",
+      "hi": "नाभिकरागी प्रतिस्थापन अभिक्रियाएँ ($S_N$)",
+      "hinglish": "Nucleophilic Substitution Reactions ($S_N$)"
+    },
+    "content": {
+      "en": "**$S_N2$ (Bimolecular)**: 1-step process, inversion of configuration (Walden inversion). Reactivity order: $1^\\circ > 2^\\circ > 3^\\circ$ (due to steric hindrance). \n**$S_N1$ (Unimolecular)**: 2-step process (carbocation intermediate), racemization occurs. Reactivity order: $3^\\circ > 2^\\circ > 1^\\circ$ (due to carbocation stability). Allylic and benzylic halides are highly reactive towards $S_N1$.",
+      "hi": "**$S_N2$ (द्विअणुक)**: 1-चरणीय प्रक्रिया, विन्यास का प्रतिलोमन (वाल्डन प्रतिलोमन)। क्रियाशीलता क्रम: $1^\\circ > 2^\\circ > 3^\\circ$ (त्रिविम बाधा के कारण)।\n**$S_N1$ (एकाणुक)**: 2-चरणीय प्रक्रिया (कार्बोधनायन मध्यवर्ती), रेसिमीकरण होता है। क्रियाशीलता क्रम: $3^\\circ > 2^\\circ > 1^\\circ$ (कार्बोधनायन स्थायित्व के कारण)। एलिलिक और बेंजाइलिक हैलाइड $S_N1$ के प्रति अत्यधिक क्रियाशील होते हैं।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Stereochemistry",
+      "hi": "त्रिविम रसायन",
+      "hinglish": "Stereochemistry"
+    },
+    "content": {
+      "en": "**Chiral carbon**: A carbon attached to 4 different groups. \n**Enantiomers**: Non-superimposable mirror images; rotate plane-polarized light in opposite directions (d/l). \n**Racemic mixture**: A 1:1 mixture of two enantiomers, optically inactive due to external compensation.",
+      "hi": "**किरल कार्बन**: 4 अलग-अलग समूहों से जुड़ा कार्बन।\n**प्रतिबिंब रूप (Enantiomers)**: अध्यारोपित न होने वाले दर्पण प्रतिबिंब; समतल-ध्रुवित प्रकाश को विपरीत दिशाओं में घुमाते हैं (d/l)।\n**रेसिमिक मिश्रण**: दो प्रतिबिंब रूपों का 1:1 मिश्रण, बाह्य प्रतिकार के कारण प्रकाशिक रूप से निष्क्रिय।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Elimination Reactions",
+      "hi": "विलोपन अभिक्रियाएँ",
+      "hinglish": "Elimination Reactions"
+    },
+    "content": {
+      "en": "When haloalkanes with $\\beta$-hydrogen are heated with alcoholic KOH, dehydrohalogenation occurs forming alkenes. If multiple alkenes are possible, **Zaitsev's rule** applies: the more highly substituted alkene is the major product.",
+      "hi": "जब $\\beta$-हाइड्रोजन वाले हैलोऐल्केन को एल्कोहॉलिक KOH के साथ गर्म किया जाता है, तो विहाइड्रोहैलोजनीकरण होता है जिससे एल्कीन बनते हैं। यदि कई एल्कीन संभव हैं, तो **जैटसेव का नियम (Zaitsev's rule)** लागू होता है: अधिक प्रतिस्थापित एल्कीन मुख्य उत्पाद होता है।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Reactions of Haloarenes",
+      "hi": "हैलोऐरीन की अभिक्रियाएँ",
+      "hinglish": "Haloarenes ki Reactions"
+    },
+    "content": {
+      "en": "Haloarenes are much less reactive towards nucleophilic substitution than haloalkanes due to resonance (partial double bond character in C-X), $sp^2$ hybridized carbon, and instability of phenyl cation. They undergo electrophilic substitution (halogenation, nitration, sulfonation, Friedel-Crafts) where the halogen is ortho/para directing but deactivating.",
+      "hi": "हैलोऐरीन अनुनाद (C-X में आंशिक द्विबंध गुण), $sp^2$ संकरित कार्बन, और फेनिल धनायन की अस्थिरता के कारण हैलोऐल्केन की तुलना में नाभिकरागी प्रतिस्थापन के प्रति बहुत कम क्रियाशील होते हैं। वे इलेक्ट्रॉनरागी प्रतिस्थापन (हैलोजनीकरण, नाइट्रीकरण, सल्फोनेशन, फ्रिडेल-क्राफ्ट्स) से गुजरते हैं जहां हैलोजन ऑर्थो/पैरा निर्देशक लेकिन निष्क्रियकारी (deactivating) होता है।"
+    }
+  }
+]

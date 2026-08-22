@@ -2,66 +2,7 @@
   "id": "root",
   "label": {
     "en": "Wave Optics",
-    "hi": "तरंग प्रकाशिकी",
-    "hinglish": "Wave Optics"
+    "hi": "तरंग प्रकाशिकी"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": {
-        "en": "Huygens' Principle",
-        "hi": "हाइगेंस का सिद्धांत"
-      },
-      "children": [
-        { "id": "c1a", "label": { "en": "Wavefronts", "hi": "तरंगाग्र" } },
-        { "id": "c1b", "label": { "en": "Secondary Wavelets", "hi": "द्वितीयक तरंगिकाएं" } }
-      ]
-    },
-    {
-      "id": "c2",
-      "label": {
-        "en": "Interference",
-        "hi": "व्यतिकरण"
-      },
-      "children": [
-        { "id": "c2a", "label": { "en": "Coherent Sources", "hi": "कला संबद्ध स्रोत" } },
-        { "id": "c2b", "label": { "en": "Constructive: Δx = nλ", "hi": "संपोषी: Δx = nλ" } },
-        { "id": "c2c", "label": { "en": "Destructive: Δx = (n-0.5)λ", "hi": "विनाशी: Δx = (n-0.5)λ" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": {
-        "en": "YDSE",
-        "hi": "YDSE"
-      },
-      "children": [
-        { "id": "c3a", "label": { "en": "Fringe Width β = λD/d", "hi": "फ्रिंज चौड़ाई β = λD/d" } },
-        { "id": "c3b", "label": { "en": "Path diff Δx = yd/D", "hi": "पथांतर Δx = yd/D" } }
-      ]
-    },
-    {
-      "id": "c4",
-      "label": {
-        "en": "Diffraction",
-        "hi": "विवर्तन"
-      },
-      "children": [
-        { "id": "c4a", "label": { "en": "Single Slit", "hi": "एकल स्लिट" } },
-        { "id": "c4b", "label": { "en": "Minima: a sinθ = nλ", "hi": "निम्निष्ठ: a sinθ = nλ" } },
-        { "id": "c4c", "label": { "en": "Central Max Width = 2λD/a", "hi": "केंद्रीय उच्चिष्ठ चौड़ाई = 2λD/a" } }
-      ]
-    },
-    {
-      "id": "c5",
-      "label": {
-        "en": "Polarization",
-        "hi": "ध्रुवण"
-      },
-      "children": [
-        { "id": "c5a", "label": { "en": "Malus's Law (I = I₀cos²θ)", "hi": "मैलस का नियम (I = I₀cos²θ)" } },
-        { "id": "c5b", "label": { "en": "Brewster's Law (μ = tan i_p)", "hi": "ब्रूस्टर का नियम (μ = tan i_p)" } }
-      ]
-    }
-  ]
+  "children": []
 }

@@ -1,66 +1,8 @@
 {
   "id": "root",
   "label": {
-    "en": "Dual Nature of Radiation & Matter",
-    "hi": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-    "hinglish": "Dual Nature of Radiation & Matter"
+    "en": "Dual Nature",
+    "hi": "द्वैत प्रकृति"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": {
-        "en": "Electron Emission",
-        "hi": "इलेक्ट्रॉन उत्सर्जन"
-      },
-      "children": [
-        { "id": "c1a", "label": { "en": "Work Function (Φ₀)", "hi": "कार्य फलन (Φ₀)" } },
-        { "id": "c1b", "label": { "en": "Thermionic, Photoelectric, Field", "hi": "तापायनिक, प्रकाश-विद्युत, क्षेत्र" } }
-      ]
-    },
-    {
-      "id": "c2",
-      "label": {
-        "en": "Photoelectric Effect",
-        "hi": "प्रकाश-विद्युत प्रभाव"
-      },
-      "children": [
-        { "id": "c2a", "label": { "en": "Threshold Frequency (ν₀)", "hi": "देहली आवृत्ति (ν₀)" } },
-        { "id": "c2b", "label": { "en": "Stopping Potential (V₀)", "hi": "निरोधी विभव (V₀)" } },
-        { "id": "c2c", "label": { "en": "K_max = eV₀", "hi": "K_max = eV₀" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": {
-        "en": "Einstein's Equation",
-        "hi": "आइंस्टीन का समीकरण"
-      },
-      "children": [
-        { "id": "c3a", "label": { "en": "hν = Φ₀ + K_max", "hi": "hν = Φ₀ + K_max" } },
-        { "id": "c3b", "label": { "en": "eV₀ = hν - hν₀", "hi": "eV₀ = hν - hν₀" } }
-      ]
-    },
-    {
-      "id": "c4",
-      "label": {
-        "en": "Photon Theory",
-        "hi": "फोटॉन सिद्धांत"
-      },
-      "children": [
-        { "id": "c4a", "label": { "en": "Energy E = hν = hc/λ", "hi": "ऊर्जा E = hν = hc/λ" } },
-        { "id": "c4b", "label": { "en": "Momentum p = h/λ", "hi": "संवेग p = h/λ" } }
-      ]
-    },
-    {
-      "id": "c5",
-      "label": {
-        "en": "Matter Waves",
-        "hi": "द्रव्य तरंगें"
-      },
-      "children": [
-        { "id": "c5a", "label": { "en": "de Broglie: λ = h/p", "hi": "डी ब्रोग्ली: λ = h/p" } },
-        { "id": "c5b", "label": { "en": "For electron: λ = 1.227/√V nm", "hi": "इलेक्ट्रॉन के लिए: λ = 1.227/√V nm" } }
-      ]
-    }
-  ]
+  "children": []
 }

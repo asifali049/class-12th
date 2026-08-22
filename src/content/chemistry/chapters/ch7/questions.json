@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is most acidic?",
+      "hi": "निम्नलिखित में से कौन सबसे अधिक अम्लीय है?",
+      "hinglish": "Inme se sabse zyada acidic kaun hai?"
+    },
+    "options": [
+      {
+        "en": "Phenol",
+        "hi": "फिनोल"
+      },
+      {
+        "en": "o-Cresol",
+        "hi": "o-क्रेसोल"
+      },
+      {
+        "en": "p-Nitrophenol",
+        "hi": "p-नाइट्रोफिनोल"
+      },
+      {
+        "en": "Ethanol",
+        "hi": "इथेनॉल"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Phenols are more acidic than alcohols (ethanol). The $-NO_2$ group is an electron-withdrawing group, which increases the acidity of phenol by stabilizing the phenoxide ion through resonance. The $-CH_3$ group (in cresol) is electron-donating and decreases acidity.",
+      "hi": "फिनोल एल्कोहॉल (इथेनॉल) की तुलना में अधिक अम्लीय होते हैं। $-NO_2$ समूह एक इलेक्ट्रॉन खींचने वाला समूह है, जो अनुनाद के माध्यम से फेनॉक्साइड आयन को स्थिर करके फिनोल की अम्लता बढ़ाता है। $-CH_3$ समूह (क्रेसोल में) इलेक्ट्रॉन दान करने वाला है और अम्लता को कम करता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Explain why ortho-nitrophenol is steam volatile while para-nitrophenol is not.",
+      "hi": "स्पष्ट कीजिए कि ऑर्थो-नाइट्रोफिनोल भाप-वाष्पशील (steam volatile) क्यों है जबकि पैरा-नाइट्रोफिनोल नहीं है।",
+      "hinglish": "Explain karein ki ortho-nitrophenol steam volatile kyun hai jabki para-nitrophenol nahi."
+    },
+    "idealAnswer": {
+      "en": "Ortho-nitrophenol has intramolecular hydrogen bonding (H-bonding within the same molecule). This prevents the association of molecules, lowering its boiling point and making it steam volatile. \nPara-nitrophenol has intermolecular hydrogen bonding (H-bonding between different molecules), which causes molecular association. This increases its boiling point, making it less volatile.",
+      "hi": "ऑर्थो-नाइट्रोफिनोल में अंतःअणुक (intramolecular) हाइड्रोजन बांड (एक ही अणु के भीतर H-बांड) होता है। यह अणुओं के जुड़ने (association) को रोकता है, जिससे इसका क्वथनांक कम हो जाता है और यह भाप-वाष्पशील हो जाता है।\nपैरा-नाइट्रोफिनोल में अंतर-आणविक (intermolecular) हाइड्रोजन बांड (विभिन्न अणुओं के बीच H-बांड) होता है, जो आणविक जुड़ाव का कारण बनता है। यह इसके क्वथनांक को बढ़ाता है, जिससे यह कम वाष्पशील हो जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "intramolecular hydrogen bonding",
+        "hi": "अंतःअणुक हाइड्रोजन बांड"
+      },
+      {
+        "en": "intermolecular hydrogen bonding",
+        "hi": "अंतर-आणविक हाइड्रोजन बांड"
+      },
+      {
+        "en": "molecular association",
+        "hi": "आणविक जुड़ाव"
+      }
+    ],
+    "tips": {
+      "en": "Clearly differentiate between intramolecular (within same molecule) and intermolecular (between molecules) H-bonding.",
+      "hi": "अंतःअणुक (एक ही अणु के भीतर) और अंतर-आणविक (अणुओं के बीच) H-बांड के बीच स्पष्ट रूप से अंतर करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "How will you distinguish between primary, secondary, and tertiary alcohols using Lucas test?",
+      "hi": "आप ल्यूकास परीक्षण (Lucas test) का उपयोग करके प्राथमिक, द्वितीयक और तृतीयक एल्कोहॉल के बीच अंतर कैसे करेंगे?",
+      "hinglish": "Aap Lucas test use karke primary, secondary, aur tertiary alcohols ke beech kaise distinguish karenge?"
+    },
+    "idealAnswer": {
+      "en": "Lucas reagent is a mixture of conc. HCl and anhydrous $ZnCl_2$. It converts alcohols into alkyl chlorides, which appear as turbidity (cloudiness).\n1. **Tertiary ($3^\\circ$) alcohols**: Produce turbidity immediately at room temperature (highly reactive).\n2. **Secondary ($2^\\circ$) alcohols**: Produce turbidity after 5 minutes at room temperature.\n3. **Primary ($1^\\circ$) alcohols**: Do not produce turbidity at room temperature; turbidity appears only on heating.",
+      "hi": "ल्यूकास अभिकर्मक सांद्र HCl और निर्जल $ZnCl_2$ का मिश्रण है। यह एल्कोहॉल को एल्किल क्लोराइड में परिवर्तित करता है, जो आविलता (गंदलापन) के रूप में दिखाई देते हैं।\n1. **तृतीयक ($3^\\circ$) एल्कोहॉल**: कमरे के तापमान पर तुरंत आविलता उत्पन्न करते हैं (अत्यधिक क्रियाशील)।\n2. **द्वितीयक ($2^\\circ$) एल्कोहॉल**: कमरे के तापमान पर 5 मिनट के बाद आविलता उत्पन्न करते हैं।\n3. **प्राथमिक ($1^\\circ$) एल्कोहॉल**: कमरे के तापमान पर आविलता उत्पन्न नहीं करते हैं; आविलता केवल गर्म करने पर दिखाई देती है।"
+    },
+    "keywords": [
+      {
+        "en": "turbidity immediately",
+        "hi": "तुरंत आविलता"
+      },
+      {
+        "en": "turbidity after 5 minutes",
+        "hi": "5 मिनट के बाद आविलता"
+      },
+      {
+        "en": "turbidity only on heating",
+        "hi": "केवल गर्म करने पर आविलता"
+      },
+      {
+        "en": "conc. HCl and anhydrous ZnCl2",
+        "hi": "सांद्र HCl और निर्जल ZnCl2"
+      }
+    ],
+    "tips": {
+      "en": "Mention the composition of Lucas Reagent and the exact timeframes for turbidity appearance for all three types.",
+      "hi": "ल्यूकास अभिकर्मक की संरचना और तीनों प्रकारों के लिए आविलता दिखने की सटीक समय-सीमा का उल्लेख करें।"
+    }
+  }
+]

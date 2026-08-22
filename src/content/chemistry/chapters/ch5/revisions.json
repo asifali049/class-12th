@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Strong vs Weak Field Ligands",
+      "hi": "प्रबल बनाम दुर्बल क्षेत्र लिगेंड",
+      "hinglish": "Strong vs Weak Field Ligands"
+    },
+    "summary": {
+      "en": "Strong field ligands (like $CN^-, CO$) cause a large splitting energy ($\\Delta_o > P$), forcing electrons to pair up in lower energy $t_{2g}$ orbitals (Inner orbital, low spin). Weak field ligands (like halogens, $H_2O$) cause small splitting ($\\Delta_o < P$), so electrons occupy higher $e_g$ orbitals without pairing (Outer orbital, high spin).",
+      "hi": "प्रबल क्षेत्र लिगेंड (जैसे $CN^-, CO$) एक बड़ी विपाटन ऊर्जा ($\\Delta_o > P$) का कारण बनते हैं, जिससे इलेक्ट्रॉनों को निम्न ऊर्जा वाले $t_{2g}$ कक्षकों में युग्मित होना पड़ता है (आंतरिक कक्षक, निम्न चक्रण)। दुर्बल क्षेत्र लिगेंड (जैसे हैलोजन, $H_2O$) छोटा विपाटन ($\\Delta_o < P$) उत्पन्न करते हैं, इसलिए इलेक्ट्रॉन बिना युग्मित हुए उच्च $e_g$ कक्षकों में प्रवेश करते हैं (बाह्य कक्षक, उच्च चक्रण)।",
+      "hinglish": "Strong field ligands (like $CN^-, CO$) badi splitting energy ($\\Delta_o > P$) create karte hain, jisse electrons lower energy $t_{2g}$ mein pair up hote hain (Inner orbital, low spin). Weak field ligands (like halogens, $H_2O$) choti splitting ($\\Delta_o < P$) karte hain, isliye electrons higher $e_g$ mein jate hain without pairing (Outer orbital, high spin)."
+    },
+    "quickRecall": [
+      {
+        "en": "Strong field = $\\Delta_o > P$ = Pairing = Low spin",
+        "hi": "प्रबल क्षेत्र = $\\Delta_o > P$ = युग्मन = निम्न चक्रण"
+      },
+      {
+        "en": "Weak field = $\\Delta_o < P$ = No pairing = High spin",
+        "hi": "दुर्बल क्षेत्र = $\\Delta_o < P$ = कोई युग्मन नहीं = उच्च चक्रण"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Ambidentate Ligands",
+      "hi": "उभयदंतुर लिगेंड",
+      "hinglish": "Ambidentate Ligands"
+    },
+    "summary": {
+      "en": "Ligands which can ligate through two different atoms present in it are called ambidentate ligands. Examples: $NO_2^-$ (can link through N or O), $SCN^-$ (can link through S or N). They give rise to Linkage Isomerism.",
+      "hi": "वे लिगेंड जो इसमें मौजूद दो अलग-अलग परमाणुओं के माध्यम से जुड़ सकते हैं, उभयदंतुर लिगेंड कहलाते हैं। उदाहरण: $NO_2^-$ (N या O के माध्यम से जुड़ सकता है), $SCN^-$ (S या N के माध्यम से जुड़ सकता है)। वे बंधनी समावयवता को जन्म देते हैं।",
+      "hinglish": "Woh ligands jo do different donor atoms ke through metal se attach ho sakte hain, ambidentate ligands kehlate hain. Ex: $NO_2^-$ (N ya O se), $SCN^-$ (S ya N se). Ye Linkage Isomerism create karte hain."
+    },
+    "quickRecall": [
+      {
+        "en": "$NO_2^-$ -> N (nitrito-N) or O (nitrito-O)",
+        "hi": "$NO_2^-$ -> N (नाइट्रिटो-N) या O (नाइट्रिटो-O)"
+      },
+      {
+        "en": "Leads to Linkage Isomerism",
+        "hi": "बंधनी समावयवता की ओर ले जाता है"
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "root",
+  "label": {
+    "en": "d- and f-Block Elements",
+    "hi": "d- और f-ब्लॉक के तत्व",
+    "hinglish": "d- and f-Block Elements"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "d-Block (Transition Elements)",
+        "hi": "d-ब्लॉक (संक्रमण तत्व)"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "General Config: (n-1)d^{1-10} ns^{1-2}", "hi": "सामान्य विन्यास: (n-1)d^{1-10} ns^{1-2}" } },
+        { "id": "c1b", "label": { "en": "Zn, Cd, Hg are NOT transition metals", "hi": "Zn, Cd, Hg संक्रमण धातु नहीं हैं" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "General Properties",
+        "hi": "सामान्य गुण"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "High M.P. and B.P. (Strong metallic bonds)", "hi": "उच्च गलनांक और क्वथनांक (मजबूत धात्विक बंध)" } },
+        { "id": "c2b", "label": { "en": "Variable Oxidation States", "hi": "परिवर्ती ऑक्सीकरण अवस्थाएँ" } },
+        { "id": "c2c", "label": { "en": "Colored Ions (d-d transition)", "hi": "रंगीन आयन (d-d संक्रमण)" } },
+        { "id": "c2d", "label": { "en": "Magnetic Properties (Paramagnetism due to unpaired e⁻)", "hi": "चुम्बकीय गुण (अयुग्मित e⁻ के कारण अनुचुम्बकत्व)" } },
+        { "id": "c2e", "label": { "en": "Catalytic Properties", "hi": "उत्प्रेरकीय गुण" } },
+        { "id": "c2f", "label": { "en": "Alloy & Interstitial compound formation", "hi": "मिश्र धातु और अंतराकाशी यौगिक निर्माण" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "f-Block (Inner Transition Elements)",
+        "hi": "f-ब्लॉक (अंतः संक्रमण तत्व)"
+      },
+      "children": [
+        {
+          "id": "c3a",
+          "label": { "en": "Lanthanoids (4f)", "hi": "लेंथेनॉइड (4f)" },
+          "children": [
+            { "id": "c3a1", "label": { "en": "General Config: 4f^{1-14} 5d^{0-1} 6s^2", "hi": "सामान्य विन्यास: 4f^{1-14} 5d^{0-1} 6s^2" } },
+            { "id": "c3a2", "label": { "en": "Common Ox. State: +3", "hi": "सामान्य ऑक्सीकरण अवस्था: +3" } },
+            { "id": "c3a3", "label": { "en": "Lanthanoid Contraction (Poor 4f shielding)", "hi": "लेंथेनॉइड आकुंचन (खराब 4f परिरक्षण)" } }
+          ]
+        },
+        {
+          "id": "c3b",
+          "label": { "en": "Actinoids (5f)", "hi": "एक्टिनॉइड (5f)" },
+          "children": [
+            { "id": "c3b1", "label": { "en": "All are radioactive", "hi": "सभी रेडियोधर्मी हैं" } },
+            { "id": "c3b2", "label": { "en": "Show more oxidation states than lanthanoids", "hi": "लेंथेनॉइड से अधिक ऑक्सीकरण अवस्थाएँ दिखाते हैं" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Important Compounds",
+        "hi": "महत्वपूर्ण यौगिक"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "K2Cr2O7 (Potassium Dichromate)", "hi": "K2Cr2O7 (पोटेशियम डाइक्रोमेट)" } },
+        { "id": "c4b", "label": { "en": "KMnO4 (Potassium Permanganate)", "hi": "KMnO4 (पोटेशियम परमैंगनेट)" } }
+      ]
+    }
+  ]
+}

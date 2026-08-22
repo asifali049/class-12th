@@ -1,90 +1,19 @@
 [
   {
-    "equation": "V = \\frac{W}{q_0}",
-    "description": {
-      "en": "Electric Potential",
-      "hi": "विद्युत विभव"
-    },
-    "variables": {
-      "en": "V = Electric potential\nW = Work done\nq₀ = Test charge",
-      "hi": "V = विद्युत विभव\nW = किया गया कार्य\nq₀ = परीक्षण आवेश"
-    }
-  },
-  {
-    "equation": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
-    "description": {
-      "en": "Potential due to a point charge",
+    "id": "f1",
+    "title": {
+      "en": "Potential due to point charge",
       "hi": "बिंदु आवेश के कारण विभव"
     },
-    "variables": {
-      "en": "V = Potential\nq = Source charge\nr = Distance from charge\nε₀ = Permittivity of free space",
-      "hi": "V = विभव\nq = स्रोत आवेश\nr = आवेश से दूरी\nε₀ = निर्वात की वैद्युतशीलता"
-    }
-  },
-  {
-    "equation": "E = -\\frac{dV}{dr}",
-    "description": {
-      "en": "Relation between Electric Field and Potential",
-      "hi": "विद्युत क्षेत्र और विभव में संबंध (विभव प्रवणता)"
-    },
-    "variables": {
-      "en": "E = Electric field\ndV/dr = Potential gradient",
-      "hi": "E = विद्युत क्षेत्र\ndV/dr = विभव प्रवणता"
-    }
-  },
-  {
-    "equation": "U = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r}",
-    "description": {
-      "en": "Electric Potential Energy of two point charges",
-      "hi": "दो बिंदु आवेशों की विद्युत स्थितिज ऊर्जा"
-    },
-    "variables": {
-      "en": "U = Potential energy\nq₁, q₂ = Point charges\nr = Distance between them",
-      "hi": "U = स्थितिज ऊर्जा\nq₁, q₂ = बिंदु आवेश\nr = उनके बीच की दूरी"
-    }
-  },
-  {
-    "equation": "C = \\frac{Q}{V}",
-    "description": {
-      "en": "Capacitance",
-      "hi": "विद्युत धारिता"
-    },
-    "variables": {
-      "en": "C = Capacitance (in Farad)\nQ = Charge\nV = Potential",
-      "hi": "C = धारिता (फैरड में)\nQ = आवेश\nV = विभव"
-    }
-  },
-  {
-    "equation": "C = \\frac{\\varepsilon_0 A}{d}",
-    "description": {
-      "en": "Capacitance of a Parallel Plate Capacitor (air/vacuum)",
-      "hi": "समांतर प्लेट संधारित्र की धारिता (वायु/निर्वात में)"
-    },
-    "variables": {
-      "en": "C = Capacitance\nA = Area of each plate\nd = Distance between plates",
-      "hi": "C = धारिता\nA = प्रत्येक प्लेट का क्षेत्रफल\nd = प्लेटों के बीच की दूरी"
-    }
-  },
-  {
-    "equation": "C = \\frac{K \\varepsilon_0 A}{d}",
-    "description": {
-      "en": "Capacitance with Dielectric",
-      "hi": "परावैद्युत माध्यम होने पर धारिता"
-    },
-    "variables": {
-      "en": "K = Dielectric constant of the medium",
-      "hi": "K = माध्यम का परावैद्युतांक"
-    }
-  },
-  {
-    "equation": "U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V",
-    "description": {
-      "en": "Energy stored in a capacitor",
-      "hi": "संधारित्र में संचित ऊर्जा"
-    },
-    "variables": {
-      "en": "U = Stored energy\nC = Capacitance\nV = Potential\nQ = Charge",
-      "hi": "U = संचित ऊर्जा\nC = धारिता\nV = विभव\nQ = आवेश"
-    }
+    "formula": "V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}",
+    "variables": [
+      {
+        "symbol": "q",
+        "name": {
+          "en": "Charge",
+          "hi": "आवेश"
+        }
+      }
+    ]
   }
 ]

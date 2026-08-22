@@ -1,0 +1,45 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Specific Rotation",
+      "hi": "विशिष्ट घूर्णन",
+      "hinglish": "Specific Rotation"
+    },
+    "formula": "[\\alpha]_D^T = \\frac{\\alpha}{l \\times c}",
+    "variables": [
+      {
+        "symbol": "[\\alpha]_D^T",
+        "name": {
+          "en": "Specific rotation at temperature T using D-line of sodium",
+          "hi": "सोडियम की D-रेखा का उपयोग करके T तापमान पर विशिष्ट घूर्णन"
+        }
+      },
+      {
+        "symbol": "\\alpha",
+        "name": {
+          "en": "Observed rotation (in degrees)",
+          "hi": "प्रेक्षित घूर्णन (डिग्री में)"
+        }
+      },
+      {
+        "symbol": "l",
+        "name": {
+          "en": "Length of the polarimeter tube (in decimeters)",
+          "hi": "पोलारीमीटर ट्यूब की लंबाई (डेसीमीटर में)"
+        }
+      },
+      {
+        "symbol": "c",
+        "name": {
+          "en": "Concentration of the solution (in g/mL)",
+          "hi": "विलयन की सांद्रता (g/mL में)"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Used to calculate the specific rotation of an optically active compound (like a chiral haloalkane) which is a characteristic constant for that substance.",
+      "hi": "प्रकाशीय रूप से सक्रिय यौगिक (जैसे किरल हैलोऐल्केन) के विशिष्ट घूर्णन की गणना करने के लिए उपयोग किया जाता है जो उस पदार्थ के लिए एक विशिष्ट नियतांक है।"
+    }
+  }
+]

@@ -1,123 +1,19 @@
 [
   {
-    "equation": "I = \\frac{q}{t}",
-    "description": {
-      "en": "Electric Current",
-      "hi": "विद्युत धारा"
-    },
-    "variables": {
-      "en": "I = Current\nq = Charge\nt = Time",
-      "hi": "I = धारा\nq = आवेश\nt = समय"
-    }
-  },
-  {
-    "equation": "v_d = \\frac{e E}{m} \\tau",
-    "description": {
-      "en": "Drift Velocity",
-      "hi": "अनुगमन वेग (अपवाह वेग)"
-    },
-    "variables": {
-      "en": "v_d = Drift velocity\ne = Charge of electron\nE = Electric field\nm = Mass of electron\nτ = Relaxation time",
-      "hi": "v_d = अनुगमन वेग\ne = इलेक्ट्रॉन का आवेश\nE = विद्युत क्षेत्र\nm = इलेक्ट्रॉन का द्रव्यमान\nτ = श्रांतिकाल"
-    }
-  },
-  {
-    "equation": "I = n A e v_d",
-    "description": {
-      "en": "Relation between Current and Drift Velocity",
-      "hi": "विद्युत धारा और अनुगमन वेग में संबंध"
-    },
-    "variables": {
-      "en": "n = Number density of electrons\nA = Cross-sectional area",
-      "hi": "n = इलेक्ट्रॉनों का संख्या घनत्व\nA = अनुप्रस्थ काट का क्षेत्रफल"
-    }
-  },
-  {
-    "equation": "J = \\frac{I}{A} = n e v_d",
-    "description": {
-      "en": "Current Density",
-      "hi": "धारा घनत्व"
-    },
-    "variables": {
-      "en": "J = Current density",
-      "hi": "J = धारा घनत्व"
-    }
-  },
-  {
-    "equation": "V = IR",
-    "description": {
+    "id": "f1",
+    "title": {
       "en": "Ohm's Law",
       "hi": "ओम का नियम"
     },
-    "variables": {
-      "en": "V = Potential difference\nR = Resistance",
-      "hi": "V = विभवांतर\nR = प्रतिरोध"
-    }
-  },
-  {
-    "equation": "R = \\rho \\frac{l}{A}",
-    "description": {
-      "en": "Resistance in terms of resistivity",
-      "hi": "प्रतिरोधकता के पदों में प्रतिरोध"
-    },
-    "variables": {
-      "en": "ρ = Resistivity\nl = Length\nA = Area",
-      "hi": "ρ = प्रतिरोधकता\nl = लंबाई\nA = क्षेत्रफल"
-    }
-  },
-  {
-    "equation": "\\rho = \\frac{m}{n e^2 \\tau}",
-    "description": {
-      "en": "Resistivity in terms of relaxation time",
-      "hi": "श्रांतिकाल के पदों में प्रतिरोधकता"
-    },
-    "variables": {
-      "en": "ρ = Resistivity\nm = Mass of electron\nτ = Relaxation time",
-      "hi": "ρ = प्रतिरोधकता\nm = इलेक्ट्रॉन का द्रव्यमान\nτ = श्रांतिकाल"
-    }
-  },
-  {
-    "equation": "P = VI = I^2R = \\frac{V^2}{R}",
-    "description": {
-      "en": "Electric Power",
-      "hi": "विद्युत शक्ति"
-    },
-    "variables": {
-      "en": "P = Power",
-      "hi": "P = शक्ति"
-    }
-  },
-  {
-    "equation": "\\sum I = 0",
-    "description": {
-      "en": "Kirchhoff's Current Law (KCL)",
-      "hi": "किरचॉफ का धारा नियम (KCL)"
-    },
-    "variables": {
-      "en": "Sum of currents at a junction is zero",
-      "hi": "संधि पर धाराओं का योग शून्य होता है"
-    }
-  },
-  {
-    "equation": "\\sum \\Delta V = 0",
-    "description": {
-      "en": "Kirchhoff's Voltage Law (KVL)",
-      "hi": "किरचॉफ का वोल्टता नियम (KVL)"
-    },
-    "variables": {
-      "en": "Sum of potential changes in a closed loop is zero",
-      "hi": "बंद लूप में विभव परिवर्तनों का योग शून्य होता है"
-    }
-  },
-  {
-    "equation": "\\frac{P}{Q} = \\frac{R}{S}",
-    "description": {
-      "en": "Balanced Wheatstone Bridge",
-      "hi": "संतुलित व्हीटस्टोन सेतु"
-    },
-    "variables": {
-      "en": "P, Q, R, S are the four resistances",
-      "hi": "P, Q, R, S चार प्रतिरोध हैं"
-    }
+    "formula": "V = IR",
+    "variables": [
+      {
+        "symbol": "I",
+        "name": {
+          "en": "Current",
+          "hi": "धारा"
+        }
+      }
+    ]
   }
 ]

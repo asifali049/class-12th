@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Thermochemical Cycle for Standard Electrode Potential ($M \\rightarrow M^{2+}$)",
+      "hi": "मानक इलेक्ट्रोड विभव के लिए थर्मोकेमिकल चक्र ($M \\rightarrow M^{2+}$)",
+      "hinglish": "Standard Electrode Potential ke liye Thermochemical Cycle"
+    },
+    "given": {
+      "en": "The standard electrode potential ($E^\\circ$) for $M^{2+}/M$ couple depends on the total enthalpy change of the conversion of solid metal to aqueous metal ions.",
+      "hi": "$M^{2+}/M$ युग्म के लिए मानक इलेक्ट्रोड विभव ($E^\\circ$) ठोस धातु को जलीय धातु आयनों में बदलने के कुल एन्थैल्पी परिवर्तन पर निर्भर करता है।"
+    },
+    "toFind": {
+      "en": "Relationship between different enthalpy terms to find total enthalpy change ($\\Delta H_{\\text{total}}$).",
+      "hi": "कुल एन्थैल्पी परिवर्तन ($\\Delta H_{\\text{total}}$) ज्ञात करने के लिए विभिन्न एन्थैल्पी पदों के बीच संबंध।"
+    },
+    "concept": {
+      "en": "Hess's Law of Constant Heat Summation. The process is broken down into sublimation, ionization, and hydration.",
+      "hi": "हेस का स्थिर ऊष्मा योग का नियम। इस प्रक्रिया को ऊर्ध्वपातन, आयनन और जलयोजन में विभाजित किया गया है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Sublimation of solid metal",
+          "hi": "चरण 1: ठोस धातु का ऊर्ध्वपातन"
+        },
+        "content": {
+          "en": "$M(s) \\rightarrow M(g) \\quad \\Delta H_{\\text{sub}}$",
+          "hi": "$M(s) \\rightarrow M(g) \\quad \\Delta H_{\\text{sub}}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Ionization of gaseous metal atom",
+          "hi": "चरण 2: गैसीय धातु परमाणु का आयनन"
+        },
+        "content": {
+          "en": "$M(g) \\rightarrow M^{2+}(g) + 2e^- \\quad IE_1 + IE_2$ (Sum of first and second ionization enthalpies)",
+          "hi": "$M(g) \\rightarrow M^{2+}(g) + 2e^- \\quad IE_1 + IE_2$ (प्रथम और द्वितीय आयनन एन्थैल्पी का योग)"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Hydration of gaseous metal ion",
+          "hi": "चरण 3: गैसीय धातु आयन का जलयोजन"
+        },
+        "content": {
+          "en": "$M^{2+}(g) + aq \\rightarrow M^{2+}(aq) \\quad \\Delta H_{\\text{hyd}}$",
+          "hi": "$M^{2+}(g) + aq \\rightarrow M^{2+}(aq) \\quad \\Delta H_{\\text{hyd}}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Total Enthalpy Change",
+          "hi": "चरण 4: कुल एन्थैल्पी परिवर्तन"
+        },
+        "content": {
+          "en": "Adding the three steps:\\n$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + (IE_1 + IE_2) + \\Delta H_{\\text{hyd}}$",
+          "hi": "तीनों चरणों को जोड़ने पर:\\n$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + (IE_1 + IE_2) + \\Delta H_{\\text{hyd}}$"
+        }
+      }
+    ],
+    "finalResult": "\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + IE_2 + \\Delta H_{\\text{hyd}}",
+    "examTip": {
+      "en": "A highly negative hydration enthalpy ($\\Delta H_{\\text{hyd}}$) can compensate for high ionization enthalpies, making the electrode potential more positive (favorable for oxidation).",
+      "hi": "एक अत्यधिक ऋणात्मक जलयोजन एन्थैल्पी ($\\Delta H_{\\text{hyd}}$) उच्च आयनन एन्थैल्पी की भरपाई कर सकती है, जिससे इलेक्ट्रोड विभव अधिक धनात्मक (ऑक्सीकरण के लिए अनुकूल) हो जाता है।"
+    }
+  }
+]

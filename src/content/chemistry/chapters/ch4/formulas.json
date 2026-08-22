@@ -1,0 +1,81 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Magnetic Moment (Spin-only formula)",
+      "hi": "चुम्बकीय आघूर्ण (केवल चक्रण सूत्र)",
+      "hinglish": "Magnetic Moment (Spin-only formula)"
+    },
+    "formula": "\\mu = \\sqrt{n(n+2)} \\text{ B.M.}",
+    "variables": [
+      {
+        "symbol": "\\mu",
+        "name": {
+          "en": "Magnetic moment",
+          "hi": "चुम्बकीय आघूर्ण"
+        }
+      },
+      {
+        "symbol": "n",
+        "name": {
+          "en": "Number of unpaired electrons",
+          "hi": "अयुग्मित इलेक्ट्रॉनों की संख्या"
+        }
+      },
+      {
+        "symbol": "\\text{B.M.}",
+        "name": {
+          "en": "Bohr Magneton (Unit)",
+          "hi": "बोर मैग्नेटॉन (इकाई)"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Used to calculate the magnetic moment of a transition metal ion based on the number of unpaired electrons it possesses.",
+      "hi": "किसी संक्रमण धातु आयन के चुम्बकीय आघूर्ण की गणना करने के लिए उपयोग किया जाता है, जो उसके पास मौजूद अयुग्मित इलेक्ट्रॉनों की संख्या पर आधारित है।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Standard Electrode Potential and Gibbs Free Energy",
+      "hi": "मानक इलेक्ट्रोड विभव और गिब्स मुक्त ऊर्जा",
+      "hinglish": "Standard Electrode Potential and Gibbs Free Energy"
+    },
+    "formula": "\\Delta G^\\circ = -nFE^\\circ",
+    "variables": [
+      {
+        "symbol": "\\Delta G^\\circ",
+        "name": {
+          "en": "Standard Gibbs free energy change",
+          "hi": "मानक गिब्स मुक्त ऊर्जा परिवर्तन"
+        }
+      },
+      {
+        "symbol": "n",
+        "name": {
+          "en": "Number of moles of electrons transferred",
+          "hi": "स्थानांतरित इलेक्ट्रॉनों के मोलों की संख्या"
+        }
+      },
+      {
+        "symbol": "F",
+        "name": {
+          "en": "Faraday constant ($96485 \\text{ C mol}^{-1}$)",
+          "hi": "फैराडे नियतांक ($96485 \\text{ C mol}^{-1}$)"
+        }
+      },
+      {
+        "symbol": "E^\\circ",
+        "name": {
+          "en": "Standard electrode potential",
+          "hi": "मानक इलेक्ट्रोड विभव"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Relates the standard electrode potential of a metal with the stability of its oxidation state in aqueous solution. A more negative $\\Delta G^\\circ$ (or positive $E^\\circ$) implies a more stable state.",
+      "hi": "किसी धातु के मानक इलेक्ट्रोड विभव को जलीय विलयन में उसकी ऑक्सीकरण अवस्था की स्थिरता से जोड़ता है। अधिक ऋणात्मक $\\Delta G^\\circ$ (या धनात्मक $E^\\circ$) अधिक स्थिर अवस्था को दर्शाता है।"
+    }
+  }
+]

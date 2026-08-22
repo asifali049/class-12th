@@ -1,0 +1,45 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Trend of Atomic Radii of 3d Series Elements",
+      "hi": "3d श्रेणी के तत्वों की परमाणु त्रिज्या की प्रवृत्ति",
+      "hinglish": "3d Series Elements ke Atomic Radii ka Trend"
+    },
+    "description": {
+      "en": "Atomic radii of 3d transition series decrease initially from Sc to Cr, remain almost constant from Mn to Ni, and then increase slightly for Cu and Zn due to increased interelectronic repulsion in fully filled d-orbitals.",
+      "hi": "3d संक्रमण श्रेणी की परमाणु त्रिज्या प्रारंभ में Sc से Cr तक घटती है, Mn से Ni तक लगभग स्थिर रहती है, और फिर पूरी तरह से भरे हुए d-कक्षकों में बढ़े हुए अंतर-इलेक्ट्रॉनिक प्रतिकर्षण के कारण Cu और Zn के लिए थोड़ी बढ़ जाती है।",
+      "hinglish": "3d transition series ki atomic radii pehle Sc se Cr tak decrease hoti hai, Mn se Ni tak almost constant rehti hai, aur phir Cu aur Zn ke liye thodi increase hoti hai interelectronic repulsion badhne ki wajah se."
+    },
+    "svgContent": "<svg viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Grid and Axes -->\n  <line x1=\"50\" y1=\"350\" x2=\"550\" y2=\"350\" stroke=\"#4b5563\" stroke-width=\"2\" />\n  <line x1=\"50\" y1=\"350\" x2=\"50\" y2=\"50\" stroke=\"#4b5563\" stroke-width=\"2\" />\n\n  <!-- Axis Labels -->\n  <text x=\"300\" y=\"390\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\" text-anchor=\"middle\">Elements (3d Series)</text>\n  <text x=\"20\" y=\"200\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\" transform=\"rotate(-90 20,200)\" text-anchor=\"middle\">Atomic Radius (pm)</text>\n\n  <!-- Y-axis ticks -->\n  <text x=\"40\" y=\"355\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\" text-anchor=\"end\">110</text>\n  <text x=\"40\" y=\"255\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\" text-anchor=\"end\">130</text>\n  <text x=\"40\" y=\"155\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\" text-anchor=\"end\">150</text>\n  <text x=\"40\" y=\"55\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\" text-anchor=\"end\">170</text>\n\n  <!-- X-axis ticks (Elements) -->\n  <text x=\"70\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Sc</text>\n  <text x=\"120\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Ti</text>\n  <text x=\"170\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">V</text>\n  <text x=\"220\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Cr</text>\n  <text x=\"270\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Mn</text>\n  <text x=\"320\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Fe</text>\n  <text x=\"370\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Co</text>\n  <text x=\"420\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Ni</text>\n  <text x=\"470\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Cu</text>\n  <text x=\"520\" y=\"370\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\" text-anchor=\"middle\">Zn</text>\n\n  <!-- Data Points (Approximate relative radii) -->\n  <!-- Sc(164), Ti(147), V(135), Cr(129), Mn(137), Fe(126), Co(125), Ni(125), Cu(128), Zn(137) -->\n  <polyline points=\"70,85 120,170 170,230 220,260 270,220 320,275 370,280 420,280 470,265 520,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linejoin=\"round\" />\n\n  <!-- Circles for points -->\n  <circle cx=\"70\" cy=\"85\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"120\" cy=\"170\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"170\" cy=\"230\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"220\" cy=\"260\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"270\" cy=\"220\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"320\" cy=\"275\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"370\" cy=\"280\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"420\" cy=\"280\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"470\" cy=\"265\" r=\"5\" fill=\"#ef4444\" />\n  <circle cx=\"520\" cy=\"220\" r=\"5\" fill=\"#ef4444\" />\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 30,
+        "y": 40,
+        "text": {
+          "en": "Decrease due to increasing effective nuclear charge",
+          "hi": "प्रभावी नाभिकीय आवेश बढ़ने के कारण कमी"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 65,
+        "y": 75,
+        "text": {
+          "en": "Almost constant (Shielding balances nuclear charge)",
+          "hi": "लगभग स्थिर (परिरक्षण नाभिकीय आवेश को संतुलित करता है)"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 80,
+        "y": 60,
+        "text": {
+          "en": "Increase due to interelectronic repulsion",
+          "hi": "अंतर-इलेक्ट्रॉनिक प्रतिकर्षण के कारण वृद्धि"
+        }
+      }
+    ]
+  }
+]

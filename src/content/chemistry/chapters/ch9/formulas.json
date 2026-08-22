@@ -1,0 +1,46 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "General Formula of Aliphatic Amines",
+      "hi": "एलिफैटिक एमीन का सामान्य सूत्र",
+      "hinglish": "Aliphatic Amines ka General Formula"
+    },
+    "formula": "C_nH_{2n+3}N \\text{ or } C_nH_{2n+1}NH_2 \\text{ (for primary)}",
+    "variables": [
+      {
+        "symbol": "n",
+        "name": {
+          "en": "Number of carbon atoms",
+          "hi": "कार्बन परमाणुओं की संख्या"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "This represents saturated aliphatic primary amines.",
+      "hi": "यह संतृप्त एलिफैटिक प्राथमिक एमीन का प्रतिनिधित्व करता है।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Base Dissociation Constant ($K_b$) and $pK_b$",
+      "hi": "क्षार वियोजन स्थिरांक ($K_b$) और $pK_b$",
+      "hinglish": "Base Dissociation Constant ($K_b$) aur $pK_b$"
+    },
+    "formula": "pK_b = -\\log(K_b)",
+    "variables": [
+      {
+        "symbol": "K_b",
+        "name": {
+          "en": "Base dissociation constant",
+          "hi": "क्षार वियोजन स्थिरांक"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Used to compare the basicity of amines. A lower $pK_b$ value indicates a stronger base.",
+      "hi": "एमीन की क्षारीयता की तुलना करने के लिए उपयोग किया जाता है। कम $pK_b$ मान एक प्रबल क्षार को दर्शाता है।"
+    }
+  }
+]

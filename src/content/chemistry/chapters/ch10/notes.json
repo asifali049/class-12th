@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Carbohydrates: Classification",
+      "hi": "कार्बोहाइड्रेट: वर्गीकरण",
+      "hinglish": "Carbohydrates ki Classification"
+    },
+    "content": {
+      "en": "Carbohydrates are optically active polyhydroxy aldehydes or ketones. \n**Classification based on hydrolysis**: \n1. **Monosaccharides**: Cannot be hydrolyzed further (e.g., Glucose, Fructose, Ribose). \n2. **Oligosaccharides**: Yield 2-10 monosaccharide units on hydrolysis (e.g., Sucrose, Maltose, Lactose). \n3. **Polysaccharides**: Yield a large number of monosaccharide units (e.g., Starch, Cellulose, Glycogen).",
+      "hi": "कार्बोहाइड्रेट प्रकाशिक रूप से सक्रिय पॉलीहाइड्रॉक्सी एल्डिहाइड या कीटोन होते हैं।\n**जल अपघटन के आधार पर वर्गीकरण**:\n1. **मोनोसैकेराइड**: इन्हें आगे जल अपघटित नहीं किया जा सकता (उदा. ग्लूकोज, फ्रुक्टोज, राइबोज)।\n2. **ओलिगोसैकेराइड**: जल अपघटन पर 2-10 मोनोसैकेराइड इकाइयाँ देते हैं (उदा. सुक्रोज, माल्टोज, लैक्टोज)।\n3. **पॉलीसैकेराइड**: बड़ी संख्या में मोनोसैकेराइड इकाइयाँ देते हैं (उदा. स्टार्च, सेल्युलोज, ग्लाइकोजन)।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Glucose and Fructose",
+      "hi": "ग्लूकोज और फ्रुक्टोज",
+      "hinglish": "Glucose aur Fructose"
+    },
+    "content": {
+      "en": "**Glucose** (an aldohexose) is the monomer of many polysaccharides. Its open-chain structure is confirmed by: \n- HI gives n-hexane (6 carbons in a straight chain). \n- $NH_2OH$ gives oxime (carbonyl group). \n- Bromine water oxidizes it to gluconic acid (aldehyde group). \n- Acetylation gives pentaacetate (5 -OH groups). \n**Fructose** is a ketohexose. It also forms a cyclic structure (furanose ring).",
+      "hi": "**ग्लूकोज** (एक एल्डोहेक्सोज) कई पॉलीसैकेराइड का एकलक (monomer) है। इसकी खुली श्रृंखला संरचना की पुष्टि होती है:\n- HI n-हेक्सेन (एक सीधी श्रृंखला में 6 कार्बन) देता है।\n- $NH_2OH$ ऑक्साइम (कार्बोनिल समूह) देता है।\n- ब्रोमीन जल इसे ग्लूकोनिक एसिड (एल्डिहाइड समूह) में ऑक्सीकृत करता है।\n- एसिलीकरण पेंटाएसीटेट (5 -OH समूह) देता है।\n**फ्रुक्टोज** एक कीटोहेक्सोज है। यह भी एक चक्रीय संरचना (फ्यूरानोज वलय) बनाता है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Disaccharides and Glycosidic Linkage",
+      "hi": "डाइसैकेराइड और ग्लाइकोसिडिक लिंकेज",
+      "hinglish": "Disaccharides aur Glycosidic Linkage"
+    },
+    "content": {
+      "en": "Two monosaccharides are joined by an oxide linkage formed by the loss of a water molecule. This is called a **glycosidic linkage**. \n- **Sucrose** (Non-reducing sugar): $\\alpha$-D-glucose + $\\beta$-D-fructose. \n- **Maltose** (Reducing sugar): Two $\\alpha$-D-glucose units. \n- **Lactose** (Reducing sugar, milk sugar): $\\beta$-D-galactose + $\\beta$-D-glucose.",
+      "hi": "दो मोनोसैकेराइड एक पानी के अणु के नुकसान से बने ऑक्साइड लिंकेज द्वारा जुड़े होते हैं। इसे **ग्लाइकोसिडिक लिंकेज** कहा जाता है।\n- **सुक्रोज** (अनपचायी शर्करा): $\\alpha$-D-ग्लूकोज + $\\beta$-D-फ्रुक्टोज।\n- **माल्टोज** (अपचायी शर्करा): दो $\\alpha$-D-ग्लूकोज इकाइयाँ।\n- **लैक्टोज** (अपचायी शर्करा, दुग्ध शर्करा): $\\beta$-D-गैलेक्टोज + $\\beta$-D-ग्लूकोज।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Amino Acids and Peptides",
+      "hi": "अमीनो अम्ल और पेप्टाइड",
+      "hinglish": "Amino Acids aur Peptides"
+    },
+    "content": {
+      "en": "Proteins are polymers of $\\alpha$-amino acids. Amino acids contain both amino ($-NH_2$) and carboxyl ($-COOH$) groups. In aqueous solution, they exist as dipolar ions called **Zwitterions**, which are amphoteric. \nAmino acids are linked by **peptide bonds** ($-CO-NH-$) to form dipeptides, polypeptides, and ultimately proteins.",
+      "hi": "प्रोटीन $\\alpha$-अमीनो अम्ल के बहुलक हैं। अमीनो अम्ल में अमीनो ($-NH_2$) और कार्बोक्सिल ($-COOH$) दोनों समूह होते हैं। जलीय विलयन में, वे द्विध्रुवीय आयनों के रूप में मौजूद होते हैं जिन्हें **ज़्विटर आयन (Zwitterions)** कहा जाता है, जो उभयधर्मी (amphoteric) होते हैं।\nअमीनो अम्ल **पेप्टाइड बंध** ($-CO-NH-$) द्वारा जुड़कर डाइपेप्टाइड, पॉलीपेप्टाइड और अंततः प्रोटीन बनाते हैं।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Structure and Denaturation of Proteins",
+      "hi": "प्रोटीन की संरचना और विकृतीकरण",
+      "hinglish": "Proteins ki Structure aur Denaturation"
+    },
+    "content": {
+      "en": "1. **Primary**: Sequence of amino acids. \n2. **Secondary**: Folding of the polypeptide chain ($\\alpha$-helix and $\\beta$-pleated sheet), stabilized by H-bonds. \n3. **Tertiary**: Overall 3D shape, stabilized by H-bonds, disulfide linkages, van der Waals, and electrostatic forces. \n4. **Quaternary**: Spatial arrangement of multiple polypeptide subunits. \n**Denaturation**: Loss of biological activity due to change in physical (temperature) or chemical (pH) conditions. $2^\\circ$ and $3^\\circ$ structures are destroyed, but $1^\\circ$ structure remains intact. Example: Coagulation of egg white.",
+      "hi": "1. **प्राथमिक**: अमीनो अम्ल का क्रम।\n2. **द्वितीयक**: पॉलीपेप्टाइड श्रृंखला का वलन ($\\alpha$-हेलिक्स और $\\beta$-प्लीटेड शीट), H-बांड द्वारा स्थिर।\n3. **तृतीयक**: समग्र 3D आकार, H-बांड, डाइसल्फ़ाइड लिंकेज, वैन डेर वाल्स, और इलेक्ट्रोस्टैटिक बलों द्वारा स्थिर।\n4. **चतुष्क**: कई पॉलीपेप्टाइड उपइकाइयों की स्थानिक व्यवस्था।\n**विकृतीकरण (Denaturation)**: भौतिक (तापमान) या रासायनिक (pH) स्थितियों में परिवर्तन के कारण जैविक गतिविधि का नुकसान। $2^\\circ$ और $3^\\circ$ संरचनाएं नष्ट हो जाती हैं, लेकिन $1^\\circ$ संरचना बरकरार रहती है। उदाहरण: अंडे की सफेदी का जमना।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Vitamins",
+      "hi": "विटामिन",
+      "hinglish": "Vitamins"
+    },
+    "content": {
+      "en": "Organic compounds required in small amounts for specific biological functions. \n**Fat-soluble**: Vitamins A, D, E, and K. Stored in liver and adipose tissues. \n**Water-soluble**: B group vitamins and Vitamin C. Must be supplied regularly in diet because they are readily excreted in urine and cannot be stored (except Vitamin B12).",
+      "hi": "विशिष्ट जैविक कार्यों के लिए कम मात्रा में आवश्यक कार्बनिक यौगिक।\n**वसा में घुलनशील**: विटामिन A, D, E और K। यकृत और वसा ऊतकों में जमा होते हैं।\n**पानी में घुलनशील**: B समूह के विटामिन और विटामिन C। आहार में नियमित रूप से आपूर्ति की जानी चाहिए क्योंकि वे मूत्र में आसानी से उत्सर्जित हो जाते हैं और उन्हें संग्रहीत नहीं किया जा सकता (विटामिन B12 को छोड़कर)।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Nucleic Acids: DNA and RNA",
+      "hi": "न्यूक्लिक अम्ल: DNA और RNA",
+      "hinglish": "Nucleic Acids: DNA aur RNA"
+    },
+    "content": {
+      "en": "Polymers of nucleotides. A nucleotide consists of a pentose sugar, a nitrogenous base, and a phosphoric acid group. \n**DNA**: Sugar is 2-deoxyribose. Bases are Adenine (A), Guanine (G), Cytosine (C), and Thymine (T). Has a double helix structure. Stores genetic information. \n**RNA**: Sugar is ribose. Bases are A, G, C, and Uracil (U) instead of Thymine. Usually single-stranded. Involved in protein synthesis. \nThe sequence of bases along the DNA/RNA chain is the primary structure.",
+      "hi": "न्यूक्लियोटाइड के बहुलक। एक न्यूक्लियोटाइड में एक पेंटोज शर्करा, एक नाइट्रोजनी क्षार और एक फॉस्फोरिक एसिड समूह होता है।\n**DNA**: शर्करा 2-डीऑक्सीराइबोज है। क्षार एडेनिन (A), गुआनिन (G), साइटोसिन (C) और थाइमिन (T) हैं। एक डबल हेलिक्स संरचना होती है। आनुवंशिक जानकारी संग्रहीत करता है।\n**RNA**: शर्करा राइबोज है। क्षार थाइमिन के बजाय A, G, C और यूरैसिल (U) हैं। आमतौर पर सिंगल-स्ट्रैंडेड। प्रोटीन संश्लेषण में शामिल।\nDNA/RNA श्रृंखला के साथ क्षारों का क्रम प्राथमिक संरचना है।"
+    }
+  }
+]

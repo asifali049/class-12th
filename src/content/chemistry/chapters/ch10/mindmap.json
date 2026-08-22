@@ -1,0 +1,107 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Biomolecules",
+    "hi": "जैव अणु",
+    "hinglish": "Biomolecules"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Carbohydrates",
+        "hi": "कार्बोहाइड्रेट"
+      },
+      "children": [
+        {
+          "id": "c1a",
+          "label": { "en": "Monosaccharides (Glucose, Fructose)", "hi": "मोनोसैकेराइड (ग्लूकोज, फ्रुक्टोज)" }
+        },
+        {
+          "id": "c1b",
+          "label": { "en": "Disaccharides (Sucrose, Maltose, Lactose)", "hi": "डाइसैकेराइड (सुक्रोज, माल्टोज, लैक्टोज)" },
+          "children": [
+            { "id": "c1b1", "label": { "en": "Linked by Glycosidic linkage", "hi": "ग्लाइकोसिडिक लिंकेज द्वारा जुड़े" } },
+            { "id": "c1b2", "label": { "en": "Sucrose is non-reducing", "hi": "सुक्रोज अनपचायी है" } }
+          ]
+        },
+        {
+          "id": "c1c",
+          "label": { "en": "Polysaccharides (Starch, Cellulose, Glycogen)", "hi": "पॉलीसैकेराइड (स्टार्च, सेल्युलोज, ग्लाइकोजन)" }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Proteins",
+        "hi": "प्रोटीन"
+      },
+      "children": [
+        {
+          "id": "c2a",
+          "label": { "en": "Amino Acids (Monomers)", "hi": "अमीनो अम्ल (एकलक)" },
+          "children": [
+            { "id": "c2a1", "label": { "en": "Essential vs Non-essential", "hi": "आवश्यक बनाम अनावश्यक" } },
+            { "id": "c2a2", "label": { "en": "Zwitterion (Dipolar ion)", "hi": "ज़्विटर आयन (द्विध्रुवीय आयन)" } }
+          ]
+        },
+        {
+          "id": "c2b",
+          "label": { "en": "Structure", "hi": "संरचना" },
+          "children": [
+            { "id": "c2b1", "label": { "en": "1°: Sequence of amino acids", "hi": "1°: अमीनो अम्ल का क्रम" } },
+            { "id": "c2b2", "label": { "en": "2°: α-helix & β-pleated sheet", "hi": "2°: α-हेलिक्स और β-प्लीटेड शीट" } },
+            { "id": "c2b3", "label": { "en": "3°: 3D folding", "hi": "3°: 3D वलन" } }
+          ]
+        },
+        {
+          "id": "c2c",
+          "label": { "en": "Denaturation (Loss of 2° and 3° structure)", "hi": "विकृतीकरण (2° और 3° संरचना का नुकसान)" }
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Nucleic Acids",
+        "hi": "न्यूक्लिक अम्ल"
+      },
+      "children": [
+        {
+          "id": "c3a",
+          "label": { "en": "Nucleotide (Sugar + Base + Phosphate)", "hi": "न्यूक्लियोटाइड (शर्करा + क्षार + फॉस्फेट)" }
+        },
+        {
+          "id": "c3b",
+          "label": { "en": "DNA", "hi": "DNA" },
+          "children": [
+            { "id": "c3b1", "label": { "en": "2-Deoxyribose", "hi": "2-डीऑक्सीराइबोज" } },
+            { "id": "c3b2", "label": { "en": "Bases: A, G, C, T", "hi": "क्षार: A, G, C, T" } },
+            { "id": "c3b3", "label": { "en": "Double helix", "hi": "डबल हेलिक्स" } }
+          ]
+        },
+        {
+          "id": "c3c",
+          "label": { "en": "RNA", "hi": "RNA" },
+          "children": [
+            { "id": "c3c1", "label": { "en": "Ribose", "hi": "राइबोज" } },
+            { "id": "c3c2", "label": { "en": "Bases: A, G, C, U", "hi": "क्षार: A, G, C, U" } },
+            { "id": "c3c3", "label": { "en": "Single stranded", "hi": "सिंगल स्ट्रैंडेड" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Vitamins",
+        "hi": "विटामिन"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Fat Soluble (A, D, E, K)", "hi": "वसा में घुलनशील (A, D, E, K)" } },
+        { "id": "c4b", "label": { "en": "Water Soluble (B complex, C)", "hi": "पानी में घुलनशील (B कॉम्प्लेक्स, C)" } }
+      ]
+    }
+  ]
+}

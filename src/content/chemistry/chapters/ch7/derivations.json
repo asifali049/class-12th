@@ -1,0 +1,116 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of Acid-Catalyzed Hydration of Ethene",
+      "hi": "एथीन के अम्ल-उत्प्रेरित जलयोजन की क्रियाविधि",
+      "hinglish": "Ethene ke Acid-Catalyzed Hydration ki Mechanism"
+    },
+    "given": {
+      "en": "Hydration of ethene in the presence of dilute acid (like $H_2SO_4$) to form ethanol.",
+      "hi": "इथेनॉल बनाने के लिए तनु अम्ल (जैसे $H_2SO_4$) की उपस्थिति में एथीन का जलयोजन।"
+    },
+    "toFind": {
+      "en": "The step-by-step mechanism of the electrophilic addition reaction.",
+      "hi": "इलेक्ट्रॉनरागी योग अभिक्रिया की चरण-दर-चरण क्रियाविधि।"
+    },
+    "concept": {
+      "en": "It involves protonation of alkene to form a carbocation, followed by nucleophilic attack by water, and finally deprotonation.",
+      "hi": "इसमें कार्बोधनायन बनाने के लिए एल्कीन का प्रोटॉनीकरण, उसके बाद जल द्वारा नाभिकरागी आक्रमण, और अंत में विप्रोटॉनीकरण शामिल है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Protonation of Alkene (Formation of Carbocation)",
+          "hi": "चरण 1: एल्कीन का प्रोटॉनीकरण (कार्बोधनायन का निर्माण)"
+        },
+        "content": {
+          "en": "Electrophilic attack by hydronium ion ($H_3O^+$) on the double bond to form a carbocation.\\n$H_2O + H^+ \\rightleftharpoons H_3O^+$\\n$CH_2=CH_2 + H_3O^+ \\rightleftharpoons CH_3-CH_2^+ + H_2O$",
+          "hi": "एक कार्बोधनायन बनाने के लिए हाइड्रोनियम आयन ($H_3O^+$) द्वारा द्विबंध पर इलेक्ट्रॉनरागी आक्रमण।\\n$H_2O + H^+ \\rightleftharpoons H_3O^+$\\n$CH_2=CH_2 + H_3O^+ \\rightleftharpoons CH_3-CH_2^+ + H_2O$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Nucleophilic Attack by Water",
+          "hi": "चरण 2: जल द्वारा नाभिकरागी आक्रमण"
+        },
+        "content": {
+          "en": "The lone pair on the oxygen atom of water attacks the positively charged carbon atom of the carbocation.\\n$CH_3-CH_2^+ + H_2O \\rightleftharpoons CH_3-CH_2-O^+H_2$",
+          "hi": "जल के ऑक्सीजन परमाणु पर एकाकी युग्म (lone pair) कार्बोधनायन के धनावेशित कार्बन परमाणु पर आक्रमण करता है।\\n$CH_3-CH_2^+ + H_2O \\rightleftharpoons CH_3-CH_2-O^+H_2$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Deprotonation (Formation of Alcohol)",
+          "hi": "चरण 3: विप्रोटॉनीकरण (एल्कोहॉल का निर्माण)"
+        },
+        "content": {
+          "en": "Loss of a proton from the oxonium ion to form ethanol and regenerate the catalyst ($H_3O^+$).\\n$CH_3-CH_2-O^+H_2 + H_2O \\rightleftharpoons CH_3-CH_2-OH + H_3O^+$",
+          "hi": "इथेनॉल बनाने और उत्प्रेरक ($H_3O^+$) को पुनर्जीवित करने के लिए ऑक्जोनियम आयन से एक प्रोटॉन की हानि।\\n$CH_3-CH_2-O^+H_2 + H_2O \\rightleftharpoons CH_3-CH_2-OH + H_3O^+$"
+        }
+      }
+    ],
+    "finalResult": "Overall reaction: $CH_2=CH_2 + H_2O \\xrightarrow{H^+} CH_3CH_2OH$",
+    "examTip": {
+      "en": "For unsymmetrical alkenes, the carbocation formed in step 1 will be the most stable one, leading to Markovnikov's addition product.",
+      "hi": "असममित एल्कीन्स के लिए, चरण 1 में बनने वाला कार्बोधनायन सबसे स्थिर होगा, जिससे मार्कोवनिकोव योग उत्पाद बनेगा।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Mechanism of Dehydration of Ethanol to Ethene",
+      "hi": "इथेनॉल से एथीन के निर्जलीकरण की क्रियाविधि",
+      "hinglish": "Ethanol se Ethene ke Dehydration ki Mechanism"
+    },
+    "given": {
+      "en": "Dehydration of ethanol at 443K in the presence of concentrated $H_2SO_4$.",
+      "hi": "सांद्र $H_2SO_4$ की उपस्थिति में 443K पर इथेनॉल का निर्जलीकरण।"
+    },
+    "toFind": {
+      "en": "The step-by-step elimination mechanism.",
+      "hi": "चरण-दर-चरण विलोपन क्रियाविधि।"
+    },
+    "concept": {
+      "en": "It is a three-step elimination reaction involving protonation, loss of water to form a carbocation, and deprotonation.",
+      "hi": "यह एक तीन-चरणीय विलोपन अभिक्रिया है जिसमें प्रोटॉनीकरण, कार्बोधनायन बनाने के लिए जल की हानि, और विप्रोटॉनीकरण शामिल है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Protonation of Alcohol",
+          "hi": "चरण 1: एल्कोहॉल का प्रोटॉनीकरण"
+        },
+        "content": {
+          "en": "Fast step. Oxygen lone pair accepts a proton from the acid.\\n$CH_3-CH_2-OH + H^+ \\rightleftharpoons CH_3-CH_2-O^+H_2$",
+          "hi": "तेज चरण। ऑक्सीजन का एकाकी युग्म अम्ल से एक प्रोटॉन स्वीकार करता है।\\n$CH_3-CH_2-OH + H^+ \\rightleftharpoons CH_3-CH_2-O^+H_2$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Formation of Carbocation",
+          "hi": "चरण 2: कार्बोधनायन का निर्माण"
+        },
+        "content": {
+          "en": "Slow and rate-determining step. The C-O bond breaks to eliminate a water molecule.\\n$CH_3-CH_2-O^+H_2 \\rightleftharpoons CH_3-CH_2^+ + H_2O$",
+          "hi": "धीमा और दर-निर्धारक चरण। जल के अणु को निकालने के लिए C-O बंध टूट जाता है।\\n$CH_3-CH_2-O^+H_2 \\rightleftharpoons CH_3-CH_2^+ + H_2O$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Deprotonation (Formation of Alkene)",
+          "hi": "चरण 3: विप्रोटॉनीकरण (एल्कीन का निर्माण)"
+        },
+        "content": {
+          "en": "Fast step. The carbocation loses a proton to form the double bond and regenerate the catalyst.\\n$CH_3-CH_2^+ \\rightleftharpoons CH_2=CH_2 + H^+$",
+          "hi": "तेज चरण। कार्बोधनायन द्विबंध बनाने और उत्प्रेरक को पुनर्जीवित करने के लिए एक प्रोटॉन खो देता है।\\n$CH_3-CH_2^+ \\rightleftharpoons CH_2=CH_2 + H^+$"
+        }
+      }
+    ],
+    "finalResult": "Overall reaction: $CH_3CH_2OH \\xrightarrow{443K, H^+} CH_2=CH_2 + H_2O$",
+    "examTip": {
+      "en": "Step 2 is the slowest step. That's why the ease of dehydration follows the order: $3^\\circ > 2^\\circ > 1^\\circ$ (based on carbocation stability).",
+      "hi": "चरण 2 सबसे धीमा चरण है। यही कारण है कि निर्जलीकरण की सुगमता इस क्रम का पालन करती है: $3^\\circ > 2^\\circ > 1^\\circ$ (कार्बोधनायन स्थायित्व के आधार पर)।"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Effective Atomic Number (EAN)",
+      "hi": "प्रभावी परमाणु क्रमांक (EAN)",
+      "hinglish": "Effective Atomic Number (EAN)"
+    },
+    "formula": "\\text{EAN} = Z - X + 2Y",
+    "variables": [
+      {
+        "symbol": "Z",
+        "name": {
+          "en": "Atomic number of the metal",
+          "hi": "धातु का परमाणु क्रमांक"
+        }
+      },
+      {
+        "symbol": "X",
+        "name": {
+          "en": "Oxidation state of the metal (electrons lost)",
+          "hi": "धातु की ऑक्सीकरण अवस्था (खोए गए इलेक्ट्रॉन)"
+        }
+      },
+      {
+        "symbol": "Y",
+        "name": {
+          "en": "Number of coordinate bonds (Ligands)",
+          "hi": "उपसहसंयोजक बंधों की संख्या (लिगेंड)"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Sidgwick proposed that metal ions accept electron pairs from ligands until they achieve the next noble gas electron configuration.",
+      "hi": "सिडगविक ने प्रस्तावित किया कि धातु आयन लिगेंड से तब तक इलेक्ट्रॉन जोड़े स्वीकार करते हैं जब तक कि वे अगले अक्रिय गैस के इलेक्ट्रॉनिक विन्यास को प्राप्त नहीं कर लेते।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Crystal Field Splitting Energy (CFSE) for Octahedral Complexes",
+      "hi": "अष्टफलकीय संकुलों के लिए क्रिस्टल क्षेत्र विपाटन ऊर्जा (CFSE)",
+      "hinglish": "Octahedral Complexes ke liye CFSE"
+    },
+    "formula": "\\text{CFSE} = (-0.4x + 0.6y)\\Delta_o + P",
+    "variables": [
+      {
+        "symbol": "x",
+        "name": {
+          "en": "Number of electrons in $t_{2g}$ orbitals",
+          "hi": "$t_{2g}$ कक्षकों में इलेक्ट्रॉनों की संख्या"
+        }
+      },
+      {
+        "symbol": "y",
+        "name": {
+          "en": "Number of electrons in $e_g$ orbitals",
+          "hi": "$e_g$ कक्षकों में इलेक्ट्रॉनों की संख्या"
+        }
+      },
+      {
+        "symbol": "\\Delta_o",
+        "name": {
+          "en": "Crystal field splitting energy for octahedral field",
+          "hi": "अष्टफलकीय क्षेत्र के लिए क्रिस्टल क्षेत्र विपाटन ऊर्जा"
+        }
+      },
+      {
+        "symbol": "P",
+        "name": {
+          "en": "Mean pairing energy",
+          "hi": "माध्य युग्मन ऊर्जा"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "Calculates the net stabilization energy of placing electrons in the split d-orbitals compared to a hypothetical spherical field.",
+      "hi": "एक काल्पनिक गोलाकार क्षेत्र की तुलना में विपाटित d-कक्षकों में इलेक्ट्रॉनों को रखने की शुद्ध स्थिरीकरण ऊर्जा की गणना करता है।"
+    }
+  }
+]

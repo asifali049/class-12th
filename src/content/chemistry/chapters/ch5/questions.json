@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "What is the coordination number of Cobalt in $[Co(en)_3]^{3+}$?",
+      "hi": "$[Co(en)_3]^{3+}$ में कोबाल्ट की उपसहसंयोजन संख्या क्या है?",
+      "hinglish": "$[Co(en)_3]^{3+}$ mein Cobalt ki coordination number kya hai?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "hi": "3"
+      },
+      {
+        "en": "4",
+        "hi": "4"
+      },
+      {
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "en": "9",
+        "hi": "9"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "'en' (ethane-1,2-diamine) is a didentate ligand. Since there are 3 'en' molecules, the total number of coordinate bonds is $3 \\times 2 = 6$. Therefore, the coordination number is 6.",
+      "hi": "'en' (एथेन-1,2-डाईऐमीन) एक द्विदंतुर लिगेंड है। चूँकि 3 'en' अणु हैं, इसलिए उपसहसंयोजक बंधों की कुल संख्या $3 \\times 2 = 6$ है। अतः उपसहसंयोजन संख्या 6 है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Explain why $[Fe(H_2O)_6]^{3+}$ is strongly paramagnetic whereas $[Fe(CN)_6]^{3-}$ is weakly paramagnetic.",
+      "hi": "स्पष्ट कीजिए कि $[Fe(H_2O)_6]^{3+}$ प्रबल अनुचुम्बकीय है जबकि $[Fe(CN)_6]^{3-}$ दुर्बल अनुचुम्बकीय है।",
+      "hinglish": "Explain karein ki $[Fe(H_2O)_6]^{3+}$ strongly paramagnetic kyun hai jabki $[Fe(CN)_6]^{3-}$ weakly paramagnetic hai."
+    },
+    "idealAnswer": {
+      "en": "In both complexes, Fe is in +3 oxidation state with a $3d^5$ configuration.\n1. In $[Fe(H_2O)_6]^{3+}$, $H_2O$ is a weak field ligand. It does not cause pairing of electrons against Hund's rule. The configuration is $t_{2g}^3 e_g^2$. It has 5 unpaired electrons, making it strongly paramagnetic.\n2. In $[Fe(CN)_6]^{3-}$, $CN^-$ is a strong field ligand. It causes pairing of electrons in the inner d-orbitals. The configuration becomes $t_{2g}^5 e_g^0$. It has only 1 unpaired electron, making it weakly paramagnetic.",
+      "hi": "दोनों संकुलों में, Fe $3d^5$ विन्यास के साथ +3 ऑक्सीकरण अवस्था में है।\n1. $[Fe(H_2O)_6]^{3+}$ में, $H_2O$ एक दुर्बल क्षेत्र लिगेंड है। यह हुंड के नियम के विरुद्ध इलेक्ट्रॉनों का युग्मन नहीं कराता है। विन्यास $t_{2g}^3 e_g^2$ है। इसमें 5 अयुग्मित इलेक्ट्रॉन होते हैं, जो इसे प्रबल अनुचुम्बकीय बनाता है।\n2. $[Fe(CN)_6]^{3-}$ में, $CN^-$ एक प्रबल क्षेत्र लिगेंड है। यह आंतरिक d-कक्षकों में इलेक्ट्रॉनों का युग्मन कराता है। विन्यास $t_{2g}^5 e_g^0$ हो जाता है। इसमें केवल 1 अयुग्मित इलेक्ट्रॉन होता है, जो इसे दुर्बल अनुचुम्बकीय बनाता है।"
+    },
+    "keywords": [
+      {
+        "en": "weak field ligand",
+        "hi": "दुर्बल क्षेत्र लिगेंड"
+      },
+      {
+        "en": "strong field ligand",
+        "hi": "प्रबल क्षेत्र लिगेंड"
+      },
+      {
+        "en": "5 unpaired electrons",
+        "hi": "5 अयुग्मित इलेक्ट्रॉन"
+      },
+      {
+        "en": "1 unpaired electron",
+        "hi": "1 अयुग्मित इलेक्ट्रॉन"
+      }
+    ],
+    "tips": {
+      "en": "Identify the nature of the ligands (strong or weak field) and then determine the number of unpaired electrons.",
+      "hi": "लिगेंड्स की प्रकृति (प्रबल या दुर्बल क्षेत्र) की पहचान करें और फिर अयुग्मित इलेक्ट्रॉनों की संख्या निर्धारित करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Write the IUPAC name of the complex: $[Pt(NH_3)_2Cl(NO_2)]$.",
+      "hi": "संकुल का IUPAC नाम लिखिए: $[Pt(NH_3)_2Cl(NO_2)]$।",
+      "hinglish": "$[Pt(NH_3)_2Cl(NO_2)]$ complex ka IUPAC name likhein."
+    },
+    "idealAnswer": {
+      "en": "Diamminechloridonitrito-N-platinum(II)",
+      "hi": "डाईएम्मीनक्लोराइडोनाइट्रिटो-N-प्लैटिनम(II)"
+    },
+    "keywords": [
+      {
+        "en": "Diammine",
+        "hi": "डाईएम्मीन"
+      },
+      {
+        "en": "chlorido",
+        "hi": "क्लोराइडो"
+      },
+      {
+        "en": "nitrito-N",
+        "hi": "नाइट्रिटो-N"
+      },
+      {
+        "en": "platinum(II)",
+        "hi": "प्लैटिनम(II)"
+      }
+    ],
+    "tips": {
+      "en": "Name ligands alphabetically: ammine, chlorido, nitrito. Calculate oxidation state of Pt carefully ($x + 0 - 1 - 1 = 0 \\implies x = +2$).",
+      "hi": "लिगेंड्स का नाम वर्णमाला के क्रम में रखें: एम्मीन, क्लोराइडो, नाइट्रिटो। Pt की ऑक्सीकरण अवस्था की सावधानीपूर्वक गणना करें ($x + 0 - 1 - 1 = 0 \\implies x = +2$)।"
+    }
+  }
+]

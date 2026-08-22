@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "How many chiral carbons are present in 2,3-dichlorobutane? Identify if it can form a meso compound.",
+      "hi": "2,3-डाइक्लोरोब्यूटेन में कितने किरल कार्बन मौजूद हैं? पहचानें कि क्या यह मेसो यौगिक बना सकता है।",
+      "hinglish": "2,3-dichlorobutane mein kitne chiral carbons hain? Identify karein kya yeh meso compound bana sakta hai."
+    },
+    "given": {
+      "en": "Compound: 2,3-dichlorobutane ($CH_3-CH(Cl)-CH(Cl)-CH_3$)",
+      "hi": "यौगिक: 2,3-डाइक्लोरोब्यूटेन ($CH_3-CH(Cl)-CH(Cl)-CH_3$)"
+    },
+    "required": {
+      "en": "Number of chiral carbons and possibility of a meso compound.",
+      "hi": "किरल कार्बनों की संख्या और मेसो यौगिक की संभावना।"
+    },
+    "formula": "A chiral carbon is attached to 4 different groups. A meso compound has chiral centers but also a plane of symmetry.",
+    "substitution": "Check C2 and C3 of butane.",
+    "calculation": "1. Structure is $CH_3-\\overset{*}{C}H(Cl)-\\overset{*}{C}H(Cl)-CH_3$.<br>2. C2 is attached to: $-H, -Cl, -CH_3, -CH(Cl)CH_3$. All 4 are different, so it is chiral.<br>3. C3 is attached to: $-H, -Cl, -CH_3, -CH(Cl)CH_3$. All 4 are different, so it is chiral.<br>Total chiral carbons = 2.<br>4. Since the molecule is symmetrical (C2 and C3 have identical sets of groups), it can have a plane of symmetry in one of its stereoisomers (where both Cl atoms are on the same side in Fischer projection). Thus, it CAN form a meso compound.",
+    "finalAnswer": "2 chiral carbons; Yes, it can form a meso compound.",
+    "unit": "",
+    "examTip": {
+      "en": "Meso compounds are optically inactive despite having chiral centers because the optical rotation of one half is exactly cancelled by the other half (internal compensation).",
+      "hi": "किरल केंद्र होने के बावजूद मेसो यौगिक प्रकाशिक रूप से निष्क्रिय होते हैं क्योंकि एक आधे का प्रकाशिक घूर्णन दूसरे आधे (आंतरिक प्रतिकार) द्वारा पूरी तरह से रद्द कर दिया जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "An alkyl halide $C_4H_9Br$ (A) reacts with alcoholic KOH to give an alkene 'B', which reacts with HBr to give a compound 'C', which is an isomer of 'A'. When 'A' is reacted with sodium metal it gives octane. Identify A, B, and C.",
+      "hi": "एक एल्किल हैलाइड $C_4H_9Br$ (A) एल्कोहॉलिक KOH के साथ अभिक्रिया करके एक एल्कीन 'B' देता है, जो HBr के साथ अभिक्रिया करके एक यौगिक 'C' देता है, जो 'A' का समावयवी है। जब 'A' की सोडियम धातु के साथ अभिक्रिया कराई जाती है तो यह ऑक्टेन देता है। A, B और C को पहचानें।",
+      "hinglish": "Ek alkyl halide $C_4H_9Br$ (A) alcoholic KOH ke sath react karke alkene 'B' deta hai, jo HBr ke sath react karke compound 'C' deta hai (jo 'A' ka isomer hai). Jab 'A' sodium metal ke sath react karta hai toh octane banta hai. A, B, aur C ko identify karein."
+    },
+    "given": {
+      "en": "1. A ($C_4H_9Br$) + Na $\\rightarrow$ Octane ($C_8H_{18}$)<br>2. A + alc. KOH $\\rightarrow$ B (Alkene)<br>3. B + HBr $\\rightarrow$ C (Isomer of A)",
+      "hi": "1. A ($C_4H_9Br$) + Na $\\rightarrow$ ऑक्टेन ($C_8H_{18}$)<br>2. A + alc. KOH $\\rightarrow$ B (एल्कीन)<br>3. B + HBr $\\rightarrow$ C (A का समावयवी)"
+    },
+    "required": {
+      "en": "Structures of A, B, and C.",
+      "hi": "A, B, और C की संरचनाएँ।"
+    },
+    "formula": "Wurtz reaction for step 1, dehydrohalogenation for step 2, Markovnikov addition for step 3.",
+    "substitution": "",
+    "calculation": "1. Reaction with Na giving octane (a straight-chain alkane) means 'A' must be a straight-chain primary halide. So, A is 1-bromobutane ($CH_3CH_2CH_2CH_2Br$).<br>2. A reacts with alc. KOH (elimination) to give B. The double bond forms at the terminal position. So, B is But-1-ene ($CH_3CH_2CH=CH_2$).<br>3. B reacts with HBr (Markovnikov addition) to give C. Br attaches to the 2nd carbon. So, C is 2-bromobutane ($CH_3CH_2CH(Br)CH_3$).<br>C is indeed a position isomer of A.",
+    "finalAnswer": "A = 1-bromobutane, B = But-1-ene, C = 2-bromobutane",
+    "unit": "",
+    "examTip": {
+      "en": "In Wurtz reaction, if a straight chain alkane is formed, the starting alkyl halide must be a primary straight chain halide.",
+      "hi": "वर्ट्ज़ (Wurtz) अभिक्रिया में, यदि एक सीधी श्रृंखला वाला एल्केन बनता है, तो प्रारंभिक एल्किल हैलाइड एक प्राथमिक सीधी श्रृंखला वाला हैलाइड होना चाहिए।"
+    }
+  }
+]

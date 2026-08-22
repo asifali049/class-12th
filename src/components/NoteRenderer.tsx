@@ -21,7 +21,19 @@ export default function NoteRenderer({ notes, language }: NoteRendererProps) {
 
   return (
     <div className="flex flex-col gap-2 max-w-[720px]">
-      {notes.map((block, index) => {
+      {notes.map((block: any, index) => {
+        // Handle new JSON format which has { id, title, content } instead of type
+        if (!block.type && block.title && block.content) {
+          return (
+            <React.Fragment key={block.id || index}>
+              <SectionHeading content={block.title} language={language} index={index + 1} />
+              <div className="mb-6">
+                <BilingualDisplay content={block.content} language={language} className="ink-black" />
+              </div>
+            </React.Fragment>
+          );
+        }
+
         switch (block.type) {
           case 'heading':
             return <SectionHeading key={index} content={block.text} language={language} index={index + 1} />;
@@ -55,7 +67,7 @@ export default function NoteRenderer({ notes, language }: NoteRendererProps) {
             return (
               <ul key={index} className="list-none pl-6 mb-6 space-y-2 relative">
                 {/* Custom notebook bullets */}
-                {block.items?.map((item, i) => (
+                {block.items?.map((item: any, i: number) => (
                   <li key={i} className="relative">
                     <span className="absolute -left-5 top-2 w-1.5 h-1.5 rounded-full bg-slate-400"></span>
                     <BilingualDisplay content={item} language={language} className="ink-black" />

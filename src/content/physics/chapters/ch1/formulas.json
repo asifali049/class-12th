@@ -3,78 +3,70 @@
     "id": "f1",
     "title": {
       "en": "Quantization of Charge",
-      "hi": "आवेश का क्वांटमीकरण",
-      "hinglish": "Charge ka quantization"
+      "hi": "आवेश का क्वांटीकरण",
+      "hinglish": "Charge ka Quantization"
     },
-    "formula": "Q = ne",
-    "variables": {
-      "en": "Q = Total charge\nn = Integer (±1, ±2, ...)\ne = Elementary charge ($1.6 \\times 10^{-19}$ C)",
-      "hi": "Q = कुल आवेश\nn = पूर्णांक (±1, ±2, ...)\ne = मूल आवेश ($1.6 \\times 10^{-19}$ C)",
-      "hinglish": "Q = Total charge\nn = Integer (±1, ±2, ...)\ne = Elementary charge ($1.6 \\times 10^{-19}$ C)"
-    },
-    "unit": {
-      "en": "Coulomb (C)",
-      "hi": "कूलॉम (C)"
-    },
-    "description": {
-      "en": "Electric charge always exists as integral multiples of fundamental charge.",
-      "hi": "विद्युत आवेश हमेशा मूल आवेश के पूर्ण गुणज के रूप में मौजूद होता है।",
-      "hinglish": "Electric charge hamesha fundamental charge ke integral multiple mein hota hai."
-    },
+    "formula": "q = \\pm ne",
+    "variables": [
+      {
+        "symbol": "q",
+        "name": { "en": "Total charge", "hi": "कुल आवेश" }
+      },
+      {
+        "symbol": "n",
+        "name": { "en": "Integer (1, 2, 3...)", "hi": "पूर्णांक (1, 2, 3...)" }
+      },
+      {
+        "symbol": "e",
+        "name": { "en": "Elementary charge ($1.6 \\times 10^{-19} C$)", "hi": "मूल आवेश ($1.6 \\times 10^{-19} C$)" }
+      }
+    ],
+    "unit": { "en": "Coulomb (C)", "hi": "कूलॉम (C)" },
+    "importance": "High",
     "examTip": {
-      "en": "Useful in finding number of electrons transferred.",
-      "hi": "स्थानांतरित इलेक्ट्रॉनों की संख्या ज्ञात करने में उपयोगी।"
+      "en": "Used to find number of electrons in a given amount of charge.",
+      "hi": "किसी दिए गए आवेश में इलेक्ट्रॉनों की संख्या ज्ञात करने के लिए उपयोग किया जाता है।"
     }
   },
   {
     "id": "f2",
     "title": {
-      "en": "Coulomb's Law (Scalar Form)",
-      "hi": "कूलॉम का नियम (अदिश रूप)",
-      "hinglish": "Coulomb's Law (Scalar Form)"
+      "en": "Coulomb's Law in Vector Form",
+      "hi": "सदिश रूप में कूलॉम का नियम",
+      "hinglish": "Coulomb's Law Vector Form mein"
     },
-    "formula": "F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}",
-    "variables": {
-      "en": "F = Electrostatic force\n$q_1, q_2$ = Point charges\nr = Distance between charges\n$\\epsilon_0$ = Permittivity of free space",
-      "hi": "F = स्थिर वैद्युत बल\n$q_1, q_2$ = बिंदु आवेश\nr = आवेशों के बीच की दूरी\n$\\epsilon_0$ = निर्वात की विद्युतशीलता"
-    },
-    "unit": {
-      "en": "Newton (N)",
-      "hi": "न्यूटन (N)"
-    },
-    "description": {
-      "en": "Calculates the magnitude of force between two stationary point charges.",
-      "hi": "दो स्थिर बिंदु आवेशों के बीच बल के परिमाण की गणना करता है।"
-    },
-    "examTip": {
-      "en": "$\\frac{1}{4\\pi\\epsilon_0} = 9 \\times 10^9 \\text{ Nm}^2\\text{C}^{-2}$",
-      "hi": "$\\frac{1}{4\\pi\\epsilon_0} = 9 \\times 10^9 \\text{ Nm}^2\\text{C}^{-2}$"
-    }
+    "formula": "\\vec{F}_{12} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r_{21}^2} \\hat{r}_{21}",
+    "variables": [
+      {
+        "symbol": "\\vec{F}_{12}",
+        "name": { "en": "Force on $q_1$ due to $q_2$", "hi": "$q_2$ के कारण $q_1$ पर बल" }
+      },
+      {
+        "symbol": "\\hat{r}_{21}",
+        "name": { "en": "Unit vector pointing from $q_2$ to $q_1$", "hi": "$q_2$ से $q_1$ की ओर संकेत करने वाला एकांक सदिश" }
+      }
+    ],
+    "unit": { "en": "Newton (N)", "hi": "न्यूटन (N)" }
   },
   {
     "id": "f3",
     "title": {
-      "en": "Electric Field due to a Point Charge",
-      "hi": "बिंदु आवेश के कारण विद्युत क्षेत्र",
-      "hinglish": "Point charge ke wajah se Electric Field"
+      "en": "Electric Field Intensity due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विद्युत क्षेत्र की तीव्रता",
+      "hinglish": "Point Charge ke karan Electric Field"
     },
     "formula": "E = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2}",
-    "variables": {
-      "en": "E = Electric field intensity\nq = Source point charge\nr = Distance from the charge",
-      "hi": "E = विद्युत क्षेत्र की तीव्रता\nq = स्रोत बिंदु आवेश\nr = आवेश से दूरी"
-    },
-    "unit": {
-      "en": "N/C or V/m",
-      "hi": "N/C या V/m"
-    },
-    "description": {
-      "en": "Calculates the magnitude of electric field produced by a single point charge at a distance r.",
-      "hi": "एकल बिंदु आवेश द्वारा r दूरी पर उत्पन्न विद्युत क्षेत्र के परिमाण की गणना करता है।"
-    },
-    "examTip": {
-      "en": "Direction is outward for +ve charge, inward for -ve charge.",
-      "hi": "दिशा धनात्मक आवेश के लिए बाहर की ओर, ऋणात्मक आवेश के लिए अंदर की ओर होती है।"
-    }
+    "variables": [
+      {
+        "symbol": "E",
+        "name": { "en": "Electric field", "hi": "विद्युत क्षेत्र" }
+      },
+      {
+        "symbol": "r",
+        "name": { "en": "Distance from the charge", "hi": "आवेश से दूरी" }
+      }
+    ],
+    "unit": { "en": "N/C or V/m", "hi": "N/C या V/m" }
   },
   {
     "id": "f4",
@@ -83,48 +75,39 @@
       "hi": "विद्युत द्विध्रुव आघूर्ण",
       "hinglish": "Electric Dipole Moment"
     },
-    "formula": "\\vec{p} = q \\times 2\\vec{a}",
-    "variables": {
-      "en": "$\\vec{p}$ = Dipole moment vector\nq = Magnitude of either charge\n$2\\vec{a}$ = Vector separation from -q to +q",
-      "hi": "$\\vec{p}$ = द्विध्रुव आघूर्ण सदिश\nq = किसी एक आवेश का परिमाण\n$2\\vec{a}$ = -q से +q तक सदिश पृथक्करण"
-    },
-    "unit": {
-      "en": "Coulomb-meter (C·m)",
-      "hi": "कूलॉम-मीटर (C·m)"
-    },
-    "description": {
-      "en": "Measures the strength of an electric dipole.",
-      "hi": "विद्युत द्विध्रुव की शक्ति को मापता है।"
-    },
-    "examTip": {
-      "en": "Direction is always from -ve to +ve charge.",
-      "hi": "दिशा हमेशा ऋणात्मक से धनात्मक आवेश की ओर होती है।"
-    }
+    "formula": "\\vec{p} = q(2\\vec{a})",
+    "variables": [
+      {
+        "symbol": "\\vec{p}",
+        "name": { "en": "Dipole moment (points from -q to +q)", "hi": "द्विध्रुव आघूर्ण (-q से +q की ओर)" }
+      },
+      {
+        "symbol": "2\\vec{a}",
+        "name": { "en": "Displacement vector from -q to +q", "hi": "-q से +q तक विस्थापन सदिश" }
+      }
+    ],
+    "unit": { "en": "Coulomb-meter (C·m)", "hi": "कूलॉम-मीटर (C·m)" }
   },
   {
     "id": "f5",
     "title": {
-      "en": "Torque on a Dipole in Uniform E-Field",
+      "en": "Torque on a Dipole in Uniform Electric Field",
       "hi": "एकसमान विद्युत क्षेत्र में द्विध्रुव पर बल आघूर्ण",
-      "hinglish": "Uniform E-Field mein Dipole par Torque"
+      "hinglish": "Uniform Electric Field mein Dipole par Torque"
     },
-    "formula": "\\vec{\\tau} = \\vec{p} \\times \\vec{E} \\quad (\\tau = pE \\sin\\theta)",
-    "variables": {
-      "en": "$\\vec{\\tau}$ = Torque\n$\\vec{p}$ = Dipole moment\n$\\vec{E}$ = Uniform electric field\n$\\theta$ = Angle between $\\vec{p}$ and $\\vec{E}$",
-      "hi": "$\\vec{\\tau}$ = बल आघूर्ण\n$\\vec{p}$ = द्विध्रुव आघूर्ण\n$\\vec{E}$ = एकसमान विद्युत क्षेत्र\n$\\theta$ = $\\vec{p}$ और $\\vec{E}$ के बीच का कोण"
-    },
-    "unit": {
-      "en": "Newton-meter (N·m)",
-      "hi": "न्यूटन-मीटर (N·m)"
-    },
-    "description": {
-      "en": "Calculates the torque experienced by a dipole trying to align it with the field.",
-      "hi": "द्विध्रुव द्वारा अनुभव किए गए बल आघूर्ण की गणना करता है जो इसे क्षेत्र के साथ संरेखित करने का प्रयास करता है।"
-    },
-    "examTip": {
-      "en": "Torque is maximum when $\\theta = 90^\\circ$ and zero when $\\theta = 0^\\circ$ or $180^\\circ$.",
-      "hi": "बल आघूर्ण अधिकतम होता है जब $\\theta = 90^\\circ$ और शून्य होता है जब $\\theta = 0^\\circ$ या $180^\\circ$."
-    }
+    "formula": "\\vec{\\tau} = \\vec{p} \\times \\vec{E} \\implies \\tau = pE \\sin\\theta",
+    "variables": [
+      {
+        "symbol": "\\tau",
+        "name": { "en": "Torque", "hi": "बल आघूर्ण" }
+      },
+      {
+        "symbol": "\\theta",
+        "name": { "en": "Angle between dipole moment and electric field", "hi": "द्विध्रुव आघूर्ण और विद्युत क्षेत्र के बीच का कोण" }
+      }
+    ],
+    "unit": { "en": "Newton-meter (N·m)", "hi": "न्यूटन-मीटर (N·m)" },
+    "importance": "High"
   },
   {
     "id": "f6",
@@ -133,22 +116,18 @@
       "hi": "गॉस का नियम",
       "hinglish": "Gauss's Law"
     },
-    "formula": "\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{S} = \\frac{q_{\\text{enclosed}}}{\\epsilon_0}",
-    "variables": {
-      "en": "$\\Phi_E$ = Total electric flux\n$\\vec{E}$ = Electric field\n$d\\vec{S}$ = Area vector\n$q_{\\text{enclosed}}$ = Net charge inside the surface",
-      "hi": "$\\Phi_E$ = कुल विद्युत फ्लक्स\n$\\vec{E}$ = विद्युत क्षेत्र\n$d\\vec{S}$ = क्षेत्रफल सदिश\n$q_{\\text{enclosed}}$ = पृष्ठ के अंदर कुल आवेश"
-    },
-    "unit": {
-      "en": "N·m²/C or V·m",
-      "hi": "N·m²/C या V·m"
-    },
-    "description": {
-      "en": "Relates the net electric flux through a closed surface to the net charge enclosed by it.",
-      "hi": "किसी बंद पृष्ठ से गुजरने वाले कुल विद्युत फ्लक्स का संबंध उस पृष्ठ द्वारा घिरे कुल आवेश से स्थापित करता है।"
-    },
-    "examTip": {
-      "en": "Flux is independent of the shape or size of the closed surface.",
-      "hi": "फ्लक्स बंद पृष्ठ के आकार या आकृति से स्वतंत्र होता है।"
-    }
+    "formula": "\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{\\text{enclosed}}}{\\epsilon_0}",
+    "variables": [
+      {
+        "symbol": "\\Phi_E",
+        "name": { "en": "Electric flux", "hi": "विद्युत फ्लक्स" }
+      },
+      {
+        "symbol": "q_{\\text{enclosed}}",
+        "name": { "en": "Net charge enclosed by the surface", "hi": "सतह द्वारा घिरा कुल आवेश" }
+      }
+    ],
+    "unit": { "en": "N·m²/C or V·m", "hi": "N·m²/C या V·m" },
+    "importance": "High"
   }
 ]

@@ -1,201 +1,24 @@
 [
   {
-    "type": "heading",
-    "text": {
-      "en": "1. Electrostatic Potential",
-      "hi": "1. स्थिर वैद्युत विभव"
+    "id": "n1",
+    "title": {
+      "en": "Electrostatic Potential",
+      "hi": "स्थिर वैद्युत विभव"
+    },
+    "content": {
+      "en": "Electric potential at any point is the work done in bringing a unit positive charge from infinity to that point.",
+      "hi": "अनंत से किसी बिंदु तक एकांक धनावेश को लाने में किया गया कार्य उस बिंदु पर विद्युत विभव कहलाता है।"
     }
   },
   {
-    "type": "paragraph",
-    "text": {
-      "en": "Electric potential at a point in an electric field is defined as the amount of work done in bringing a unit positive test charge from infinity to that point against the electrostatic force.",
-      "hi": "विद्युत क्षेत्र में किसी बिंदु पर विद्युत विभव को एकांक धन परीक्षण आवेश को अनंत से उस बिंदु तक स्थिर वैद्युत बल के विरुद्ध लाने में किए गए कार्य के रूप में परिभाषित किया जाता है।"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "V = \\frac{W}{q_0}",
-    "label": {
-      "en": "Unit: Volt (V) or Joules/Coulomb (J/C)",
-      "hi": "मात्रक: वोल्ट (V) या जूल/कूलॉम (J/C)"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "Electric potential is a scalar quantity. Its dimension is [M L² T⁻³ A⁻¹].",
-      "hi": "विद्युत विभव एक अदिश राशि है। इसकी विमा [M L² T⁻³ A⁻¹] है।"
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "2. Potential due to a Point Charge",
-      "hi": "2. बिंदु आवेश के कारण विभव"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "The electric potential at a distance r from a point charge q is given by:",
-      "hi": "बिंदु आवेश q से r दूरी पर विद्युत विभव का मान होता है:"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
-    "label": {
-      "en": "For positive charge V > 0, for negative charge V < 0.",
-      "hi": "धनात्मक आवेश के लिए V > 0, ऋणात्मक आवेश के लिए V < 0."
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "3. Equipotential Surface",
-      "hi": "3. समविभव पृष्ठ"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "Any surface that has the same electric potential at every point on it is called an equipotential surface.",
-      "hi": "ऐसा पृष्ठ जिसके प्रत्येक बिंदु पर विद्युत विभव समान होता है, समविभव पृष्ठ कहलाता है।"
-    }
-  },
-  {
-    "type": "concept",
-    "text": {
-      "en": "Properties of Equipotential Surfaces:",
-      "hi": "समविभव पृष्ठ के गुण:"
-    }
-  },
-  {
-    "type": "list",
-    "items": [
-      {
-        "en": "No work is done in moving a test charge over an equipotential surface (W = 0).",
-        "hi": "समविभव पृष्ठ पर परीक्षण आवेश को एक बिंदु से दूसरे बिंदु तक ले जाने में किया गया कार्य शून्य होता है (W = 0)।"
-      },
-      {
-        "en": "Electric field is always perpendicular to the equipotential surface at every point.",
-        "hi": "विद्युत क्षेत्र हमेशा समविभव पृष्ठ के लंबवत होता है।"
-      },
-      {
-        "en": "Two equipotential surfaces can never intersect each other.",
-        "hi": "दो समविभव पृष्ठ कभी भी एक-दूसरे को नहीं काटते हैं।"
-      }
-    ]
-  },
-  {
-    "type": "tip",
-    "text": {
-      "en": "Board Tip: Drawing equipotential surfaces for a point charge or an electric dipole is a very common 2-mark question in UP Board exams.",
-      "hi": "बोर्ड टिप: बिंदु आवेश या विद्युत द्विध्रुव के लिए समविभव पृष्ठ खींचना यूपी बोर्ड परीक्षा में 2-अंकों का बहुत सामान्य प्रश्न है।"
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "4. Electric Potential Energy",
-      "hi": "4. विद्युत स्थितिज ऊर्जा"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "Electric potential energy of a system of point charges is the total amount of work done in bringing the various charges to their respective positions from infinitely large mutual separations.",
-      "hi": "बिंदु आवेशों के निकाय की विद्युत स्थितिज ऊर्जा, विभिन्न आवेशों को अनंत से उनकी वर्तमान स्थिति तक लाने में किए गए कुल कार्य के बराबर होती है।"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "U = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r}",
-    "label": {
-      "en": "For a system of two point charges",
-      "hi": "दो बिंदु आवेशों के निकाय के लिए"
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "5. Capacitance",
-      "hi": "5. विद्युत धारिता"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "The electrical capacitance of a conductor is the measure of its ability to hold electric charge. It is the ratio of charge Q given to the conductor to the rise in its potential V.",
-      "hi": "किसी चालक की विद्युत धारिता उसके आवेश ग्रहण करने की क्षमता की माप होती है। यह चालक को दिए गए आवेश Q और उसके विभव में हुई वृद्धि V के अनुपात के बराबर होती है।"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "C = \\frac{Q}{V}",
-    "label": {
-      "en": "Unit: Farad (F)",
-      "hi": "मात्रक: फैरड (F)"
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "6. Parallel Plate Capacitor",
-      "hi": "6. समांतर प्लेट संधारित्र"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "It consists of two large plane parallel conducting plates separated by a small distance.",
-      "hi": "यह दो बड़ी समतल समांतर चालक प्लेटों से मिलकर बना होता है जो एक दूसरे से अल्प दूरी पर स्थित होती हैं।"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "C = \\frac{\\varepsilon_0 A}{d}",
-    "label": {
-      "en": "Where A = Area of plates, d = distance between them",
-      "hi": "जहाँ A = प्लेटों का क्षेत्रफल, d = उनके बीच की दूरी"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "If a dielectric medium of dielectric constant K is introduced completely between the plates, the capacitance increases to:",
-      "hi": "यदि प्लेटों के बीच परावैद्युतांक K का परावैद्युत माध्यम पूरी तरह से भर दिया जाए, तो धारिता बढ़कर हो जाती है:"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "C = \\frac{K \\varepsilon_0 A}{d} = K C_0",
-    "label": {
-      "en": "Capacitance in presence of dielectric",
-      "hi": "परावैद्युत की उपस्थिति में धारिता"
-    }
-  },
-  {
-    "type": "heading",
-    "text": {
-      "en": "7. Energy Stored in a Capacitor",
-      "hi": "7. संधारित्र में संचित ऊर्जा"
-    }
-  },
-  {
-    "type": "paragraph",
-    "text": {
-      "en": "The work done in charging a capacitor is stored in the form of electrostatic potential energy.",
-      "hi": "संधारित्र को आवेशित करने में किया गया कार्य स्थिर वैद्युत स्थितिज ऊर्जा के रूप में संचित हो जाता है।"
-    }
-  },
-  {
-    "type": "formula",
-    "equation": "U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V",
-    "label": {
-      "en": "Stored Energy (Joules)",
-      "hi": "संचित ऊर्जा (जूल)"
+    "id": "n2",
+    "title": {
+      "en": "Capacitance",
+      "hi": "धारिता"
+    },
+    "content": {
+      "en": "Capacitance C = q/V. For parallel plate capacitor, C = ε₀A/d.",
+      "hi": "धारिता C = q/V। समांतर प्लेट संधारित्र के लिए, C = ε₀A/d।"
     }
   }
 ]

@@ -2,105 +2,36 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Electric Charge & its Properties",
-      "hi": "विद्युत आवेश और उसके गुण",
-      "hinglish": "Electric Charge aur uske properties"
+      "en": "Quantization of Charge vs Macroscopic Charges",
+      "hi": "आवेश का क्वांटीकरण बनाम स्थूल आवेश",
+      "hinglish": "Charge ka Quantization vs Macroscopic Charges"
     },
     "summary": {
-      "en": "Charge is quantized (q=ne), conserved, and additive. Like charges repel, unlike attract.",
-      "hi": "आवेश क्वांटमीकृत (q=ne), संरक्षित और योगात्मक होता है। समान आवेश प्रतिकर्षित करते हैं, विपरीत आवेश आकर्षित करते हैं।",
-      "hinglish": "Charge quantized (q=ne), conserved, aur additive hota hai. Like charges repel aur unlike attract karte hain."
+      "en": "At the microscopic level, charge is quantized ($q=ne$), meaning it only exists in discrete packets (multiples of $e$). However, at the macroscopic level, the charges involved are huge (e.g., $1 \\mu\\text{C}$ contains $\\approx 10^{13}$ electrons). The graininess of charge becomes insignificant, and we can treat charge as continuous.",
+      "hi": "सूक्ष्म स्तर पर, आवेश क्वांटीकृत होता है ($q=ne$), जिसका अर्थ है कि यह केवल असतत पैकेट (discrete packets) ($e$ के गुणकों) में मौजूद होता है। हालाँकि, स्थूल (macroscopic) स्तर पर, शामिल आवेश बहुत बड़े होते हैं (उदाहरण के लिए, $1 \\mu\\text{C}$ में $\\approx 10^{13}$ इलेक्ट्रॉन होते हैं)। आवेश का कणिका-स्वभाव महत्वहीन हो जाता है, और हम आवेश को सतत मान सकते हैं।",
+      "hinglish": "Microscopic level pe charge quantized hota hai (e ke multiples mein). Par macroscopic level (bade scale) pe charges itne zyada hote hain ki hum quantization ignore kar dete hain aur charge ko continuous maante hain."
     },
     "quickRecall": [
-      {
-        "en": "q = \\pm ne",
-        "hi": "q = \\pm ne",
-        "hinglish": "q = \\pm ne"
-      },
-      {
-        "en": "e = 1.6 \\times 10^{-19} C",
-        "hi": "e = 1.6 \\times 10^{-19} C",
-        "hinglish": "e = 1.6 \\times 10^{-19} C"
-      },
-      {
-        "en": "Charge is a scalar quantity",
-        "hi": "आवेश एक अदिश राशि है",
-        "hinglish": "Charge ek scalar quantity hai"
-      }
+      { "en": "Microscopic = Quantization is important", "hi": "सूक्ष्म = क्वांटीकरण महत्वपूर्ण है" },
+      { "en": "Macroscopic = Charge is continuous", "hi": "स्थूल = आवेश सतत है" }
     ]
   },
   {
     "id": "rev2",
     "topic": {
-      "en": "Coulomb's Law",
-      "hi": "कूलॉम का नियम",
-      "hinglish": "Coulomb's Law"
+      "en": "Stable vs Unstable Equilibrium of a Dipole",
+      "hi": "द्विध्रुव का स्थायी बनाम अस्थायी संतुलन",
+      "hinglish": "Dipole ka Stable vs Unstable Equilibrium"
     },
     "summary": {
-      "en": "Force between 2 charges depends on magnitude and medium, and is inversely proportional to square of distance.",
-      "hi": "2 आवेशों के बीच बल परिमाण और माध्यम पर निर्भर करता है, और दूरी के वर्ग के व्युत्क्रमानुपाती होता है।",
-      "hinglish": "2 charges ke beech ka force unke magnitude aur medium pe depend karta hai, aur distance ke square ke inversely proportional hota hai."
+      "en": "A dipole in a uniform electric field experiences a torque $\\tau = pE \\sin\\theta$. \n**Stable Equilibrium**: When $\\theta = 0^\\circ$ (dipole moment is parallel to electric field), torque is zero, and potential energy is minimum ($-pE$). \n**Unstable Equilibrium**: When $\\theta = 180^\\circ$ (dipole moment is anti-parallel to electric field), torque is zero, but potential energy is maximum ($+pE$).",
+      "hi": "एकसमान विद्युत क्षेत्र में एक द्विध्रुव बल आघूर्ण $\\tau = pE \\sin\\theta$ का अनुभव करता है।\n**स्थायी संतुलन (Stable Equilibrium)**: जब $\\theta = 0^\\circ$ (द्विध्रुव आघूर्ण विद्युत क्षेत्र के समानांतर होता है), बल आघूर्ण शून्य होता है, और स्थितिज ऊर्जा न्यूनतम ($-pE$) होती है।\n**अस्थायी संतुलन (Unstable Equilibrium)**: जब $\\theta = 180^\\circ$ (द्विध्रुव आघूर्ण विद्युत क्षेत्र के प्रति-समानांतर होता है), बल आघूर्ण शून्य होता है, लेकिन स्थितिज ऊर्जा अधिकतम ($+pE$) होती है।",
+      "hinglish": "**Stable**: Dipole field ke parallel ($\\theta = 0^\\circ$). Energy min ($-pE$). Hilaane pe wapas aayega. \n**Unstable**: Dipole field ke anti-parallel ($\\theta = 180^\\circ$). Energy max ($+pE$). Hilaane pe ghoom jayega."
     },
     "quickRecall": [
-      {
-        "en": "F = 1/(4\\pi\\epsilon_0) \\cdot q_1q_2/r^2",
-        "hi": "F = 1/(4\\pi\\epsilon_0) \\cdot q_1q_2/r^2"
-      },
-      {
-        "en": "\\epsilon_0 = 8.854 \\times 10^{-12} C^2/N\\cdot m^2",
-        "hi": "\\epsilon_0 = 8.854 \\times 10^{-12} C^2/N\\cdot m^2"
-      }
-    ]
-  },
-  {
-    "id": "rev3",
-    "topic": {
-      "en": "Electric Field & Dipole",
-      "hi": "विद्युत क्षेत्र और द्विध्रुव",
-      "hinglish": "Electric Field & Dipole"
-    },
-    "summary": {
-      "en": "Electric field E=F/q. Dipole moment p=q\\cdot 2a. Field lines start from +ve and end at -ve.",
-      "hi": "विद्युत क्षेत्र E=F/q। द्विध्रुव आघूर्ण p=q\\cdot 2a। क्षेत्र रेखाएं धनात्मक से शुरू होकर ऋणात्मक पर समाप्त होती हैं।",
-      "hinglish": "Electric field E=F/q. Dipole moment p=q\\cdot 2a. Field lines +ve se start ho kar -ve pe end hoti hain."
-    },
-    "quickRecall": [
-      {
-        "en": "E = F/q",
-        "hi": "E = F/q"
-      },
-      {
-        "en": "p = q \\times 2a",
-        "hi": "p = q \\times 2a"
-      },
-      {
-        "en": "Torque on dipole: \\tau = pE \\sin\\theta",
-        "hi": "द्विध्रुव पर बल आघूर्ण: \\tau = pE \\sin\\theta",
-        "hinglish": "Dipole par torque: \\tau = pE \\sin\\theta"
-      }
-    ]
-  },
-  {
-    "id": "rev4",
-    "topic": {
-      "en": "Gauss's Law",
-      "hi": "गॉस का नियम",
-      "hinglish": "Gauss's Law"
-    },
-    "summary": {
-      "en": "Total electric flux through a closed surface is equal to the net charge enclosed divided by permittivity.",
-      "hi": "किसी बंद पृष्ठ से गुजरने वाला कुल विद्युत फ्लक्स उस पृष्ठ द्वारा घिरे कुल आवेश को विद्युतशीलता से विभाजित करने पर प्राप्त होता है।",
-      "hinglish": "Closed surface se total electric flux usme enclosed net charge aur permittivity ke ratio ke barabar hota hai."
-    },
-    "quickRecall": [
-      {
-        "en": "Net flux \\Phi_E = q_{enclosed}/\\epsilon_0",
-        "hi": "कुल फ्लक्स \\Phi_E = q_{enclosed}/\\epsilon_0"
-      },
-      {
-        "en": "Flux is independent of shape/size",
-        "hi": "फ्लक्स आकार/आकृति से स्वतंत्र है"
-      }
+      { "en": "θ = 0° → Stable Equilibrium", "hi": "θ = 0° → स्थायी संतुलन" },
+      { "en": "θ = 180° → Unstable Equilibrium", "hi": "θ = 180° → अस्थायी संतुलन" },
+      { "en": "Torque is zero in both cases", "hi": "दोनों मामलों में बल आघूर्ण शून्य है" }
     ]
   }
 ]

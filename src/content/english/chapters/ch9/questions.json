@@ -1,0 +1,16 @@
+[
+  {
+    "id": "q1",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Explain the importance of Vistas: Journey to the end of the Earth.",
+      "hi": "Vistas: Journey to the end of the Earth के महत्व को समझाइए।"
+    },
+    "idealAnswer": {
+      "en": "It is very important for the board exams.",
+      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
+    }
+  }
+]

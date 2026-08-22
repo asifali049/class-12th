@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Calculate the magnetic moment of a divalent ion in aqueous solution if its atomic number is 25.",
+      "hi": "जलीय विलयन में एक द्विसंयोजी आयन के चुम्बकीय आघूर्ण की गणना कीजिए यदि इसकी परमाणु संख्या 25 है।",
+      "hinglish": "Aqueous solution mein ek divalent ion ka magnetic moment calculate karein agar iska atomic number 25 hai."
+    },
+    "given": {
+      "en": "Atomic number ($Z$) = 25 (which is Manganese, Mn). Ion is divalent ($M^{2+}$).",
+      "hi": "परमाणु संख्या ($Z$) = 25 (जो मैंगनीज, Mn है)। आयन द्विसंयोजी ($M^{2+}$) है।"
+    },
+    "required": {
+      "en": "Magnetic moment ($\\mu$)",
+      "hi": "चुम्बकीय आघूर्ण ($\\mu$)"
+    },
+    "formula": "$\\mu = \\sqrt{n(n+2)} \\text{ B.M.}$",
+    "substitution": "$\\mu = \\sqrt{5(5+2)}$",
+    "calculation": "Electronic configuration of Mn ($Z=25$) is $[Ar] 3d^5 4s^2$.<br>For divalent ion $Mn^{2+}$, two electrons are lost from the 4s orbital.<br>So, configuration of $Mn^{2+}$ is $[Ar] 3d^5$.<br>Number of unpaired electrons ($n$) in 3d orbital = 5.<br>$\\mu = \\sqrt{5(5+2)} = \\sqrt{5 \\times 7} = \\sqrt{35} = 5.92 \\text{ B.M.}$",
+    "finalAnswer": "$5.92 \\text{ B.M.}$",
+    "unit": "B.M.",
+    "examTip": {
+      "en": "Always remove electrons from the outermost 's' orbital first when forming positive ions of transition metals, not from the 'd' orbital.",
+      "hi": "संक्रमण धातुओं के धनात्मक आयन बनाते समय हमेशा सबसे पहले बाहरी 's' कक्षक से इलेक्ट्रॉन निकालें, 'd' कक्षक से नहीं।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "Why is the $E^\\circ$ value for the $Mn^{3+}/Mn^{2+}$ couple much more positive than that for $Cr^{3+}/Cr^{2+}$ or $Fe^{3+}/Fe^{2+}$?",
+      "hi": "$Mn^{3+}/Mn^{2+}$ युग्म के लिए $E^\\circ$ का मान $Cr^{3+}/Cr^{2+}$ या $Fe^{3+}/Fe^{2+}$ की तुलना में बहुत अधिक धनात्मक क्यों होता है?",
+      "hinglish": "$Mn^{3+}/Mn^{2+}$ couple ke liye $E^\\circ$ ki value $Cr^{3+}/Cr^{2+}$ ya $Fe^{3+}/Fe^{2+}$ se bahut zyada positive kyun hoti hai?"
+    },
+    "given": {
+      "en": "This is a conceptual numerical based on electronic configuration and stability.",
+      "hi": "यह इलेक्ट्रॉनिक विन्यास और स्थिरता पर आधारित एक वैचारिक संख्यात्मक प्रश्न है।"
+    },
+    "required": {
+      "en": "Explanation based on electronic configuration.",
+      "hi": "इलेक्ट्रॉनिक विन्यास के आधार पर स्पष्टीकरण।"
+    },
+    "formula": "Stability of half-filled $d^5$ configuration.",
+    "substitution": "$Mn^{2+}$ is $3d^5$, $Cr^{3+}$ is $3d^3$, $Fe^{3+}$ is $3d^5$",
+    "calculation": "1. **For Mn**: $Mn^{2+}$ has a stable half-filled $3d^5$ configuration. Removing another electron to form $Mn^{3+}$ ($3d^4$) requires very high energy. Hence, $Mn^{3+}$ is highly unstable and easily gains an electron to become $Mn^{2+}$. Thus, the $E^\\circ$ for $Mn^{3+}/Mn^{2+}$ is very high (+1.57 V).<br><br>2. **For Cr**: $Cr^{3+}$ has a stable $t_{2g}^3$ configuration in aqueous medium. So $Cr^{2+}$ ($3d^4$) readily loses an electron to form $Cr^{3+}$. Thus, $E^\\circ$ for $Cr^{3+}/Cr^{2+}$ is negative.<br><br>3. **For Fe**: $Fe^{3+}$ has a stable $3d^5$ configuration, so it is relatively stable, making the $E^\\circ$ for $Fe^{3+}/Fe^{2+}$ less positive (+0.77 V) compared to Mn.",
+    "finalAnswer": "Due to the extra stability of half-filled $d^5$ configuration of $Mn^{2+}$, the $M^{3+} \\rightarrow M^{2+}$ conversion is highly favorable for Manganese.",
+    "unit": "",
+    "examTip": {
+      "en": "Such questions require you to write the electronic configurations of all ions mentioned. Stability is usually due to exactly half-filled ($d^5$) or completely filled ($d^{10}$) subshells.",
+      "hi": "ऐसे प्रश्नों में आपको उल्लिखित सभी आयनों के इलेक्ट्रॉनिक विन्यास लिखने की आवश्यकता होती है। स्थिरता आमतौर पर ठीक आधे भरे हुए ($d^5$) या पूरी तरह से भरे हुए ($d^{10}$) उपकोशों के कारण होती है।"
+    }
+  }
+]

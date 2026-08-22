@@ -1,0 +1,79 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Elucidation of Open Chain Structure of Glucose",
+      "hi": "ग्लूकोज की खुली श्रृंखला संरचना का स्पष्टीकरण",
+      "hinglish": "Glucose ki Open Chain Structure ka Proof"
+    },
+    "given": {
+      "en": "Various chemical reactions of D-Glucose ($C_6H_{12}O_6$).",
+      "hi": "D-ग्लूकोज ($C_6H_{12}O_6$) की विभिन्न रासायनिक अभिक्रियाएँ।"
+    },
+    "toFind": {
+      "en": "Evidence for the presence of straight chain, carbonyl group, aldehyde group, and five hydroxyl groups.",
+      "hi": "सीधी श्रृंखला, कार्बोनिल समूह, एल्डिहाइड समूह और पांच हाइड्रॉक्सिल समूहों की उपस्थिति के प्रमाण।"
+    },
+    "concept": {
+      "en": "Specific reagents react with specific functional groups, helping deduce the molecular structure.",
+      "hi": "विशिष्ट अभिकर्मक विशिष्ट क्रियात्मक समूहों के साथ प्रतिक्रिया करते हैं, जिससे आणविक संरचना का अनुमान लगाने में मदद मिलती है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Proof for Straight Chain of 6 Carbons",
+          "hi": "चरण 1: 6 कार्बनों की सीधी श्रृंखला का प्रमाण"
+        },
+        "content": {
+          "en": "On prolonged heating with HI (a strong reducing agent), glucose forms n-hexane. This suggests that all the six carbon atoms are linked in a straight chain.\\nGlucose $\\xrightarrow{HI, \\Delta}$ n-hexane ($CH_3-CH_2-CH_2-CH_2-CH_2-CH_3$)",
+          "hi": "HI (एक प्रबल अपचायक) के साथ लंबे समय तक गर्म करने पर, ग्लूकोज n-हेक्सेन बनाता है। इससे पता चलता है कि सभी छह कार्बन परमाणु एक सीधी श्रृंखला में जुड़े हुए हैं।\\nग्लूकोज $\\xrightarrow{HI, \\Delta}$ n-हेक्सेन ($CH_3-CH_2-CH_2-CH_2-CH_2-CH_3$)"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Proof for Carbonyl Group (>C=O)",
+          "hi": "चरण 2: कार्बोनिल समूह (>C=O) का प्रमाण"
+        },
+        "content": {
+          "en": "Glucose reacts with hydroxylamine ($NH_2OH$) to form an oxime and adds a molecule of hydrogen cyanide (HCN) to give cyanohydrin. These reactions confirm the presence of a carbonyl group.\\nGlucose + $NH_2OH \\rightarrow$ Glucose oxime",
+          "hi": "ग्लूकोज हाइड्रॉक्सिलएमीन ($NH_2OH$) के साथ प्रतिक्रिया करके ऑक्साइम बनाता है और सायनोहाइड्रिन देने के लिए हाइड्रोजन साइनाइड (HCN) का एक अणु जोड़ता है। ये अभिक्रियाएँ कार्बोनिल समूह की उपस्थिति की पुष्टि करती हैं।\\nग्लूकोज + $NH_2OH \\rightarrow$ ग्लूकोज ऑक्साइम"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Proof for Aldehyde Group (-CHO)",
+          "hi": "चरण 3: एल्डिहाइड समूह (-CHO) का प्रमाण"
+        },
+        "content": {
+          "en": "Glucose gets oxidized to a six-carbon carboxylic acid (gluconic acid) on reaction with a mild oxidizing agent like bromine water. This indicates that the carbonyl group is present as an aldehyde group.\\nGlucose $\\xrightarrow{Br_2 \\text{ water}}$ Gluconic acid",
+          "hi": "ग्लूकोज ब्रोमीन जल जैसे हल्के ऑक्सीकरण एजेंट के साथ प्रतिक्रिया पर छह-कार्बन कार्बोक्सिलिक एसिड (ग्लूकोनिक एसिड) में ऑक्सीकृत हो जाता है। यह इंगित करता है कि कार्बोनिल समूह एल्डिहाइड समूह के रूप में मौजूद है।\\nग्लूकोज $\\xrightarrow{Br_2 \\text{ जल}}$ ग्लूकोनिक एसिड"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Proof for Five Hydroxyl (-OH) Groups",
+          "hi": "चरण 4: पांच हाइड्रॉक्सिल (-OH) समूहों का प्रमाण"
+        },
+        "content": {
+          "en": "Acetylation of glucose with acetic anhydride gives glucose pentaacetate. This confirms the presence of five -OH groups. Since it is a stable compound, the five -OH groups must be attached to different carbon atoms.\\nGlucose + 5 $(CH_3CO)_2O \\rightarrow$ Glucose pentaacetate",
+          "hi": "एसिटिक एनहाइड्राइड के साथ ग्लूकोज का एसिलीकरण ग्लूकोज पेंटाएसीटेट देता है। यह पांच -OH समूहों की उपस्थिति की पुष्टि करता है। चूंकि यह एक स्थिर यौगिक है, इसलिए पांच -OH समूहों को अलग-अलग कार्बन परमाणुओं से जुड़ा होना चाहिए।\\nग्लूकोज + 5 $(CH_3CO)_2O \\rightarrow$ ग्लूकोज पेंटाएसीटेट"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 5: Proof for Primary Alcohol (-CH2OH)",
+          "hi": "चरण 5: प्राथमिक एल्कोहॉल (-CH2OH) का प्रमाण"
+        },
+        "content": {
+          "en": "On oxidation with nitric acid ($HNO_3$, a strong oxidizing agent), both glucose and gluconic acid yield a dicarboxylic acid, saccharic acid. This indicates the presence of a primary alcoholic (-CH2OH) group at the end of the chain.\\nGlucose $\\xrightarrow{HNO_3}$ Saccharic acid",
+          "hi": "नाइट्रिक एसिड ($HNO_3$, एक प्रबल ऑक्सीकरण एजेंट) के साथ ऑक्सीकरण पर, ग्लूकोज और ग्लूकोनिक एसिड दोनों एक डाईकार्बोक्सिलिक एसिड, सैकेरिक एसिड देते हैं। यह श्रृंखला के अंत में प्राथमिक एल्कोहॉलिक (-CH2OH) समूह की उपस्थिति को इंगित करता है।\\nग्लूकोज $\\xrightarrow{HNO_3}$ सैकेरिक एसिड"
+        }
+      }
+    ],
+    "finalResult": "Based on these reactions, the open-chain structure of D-Glucose was deduced by Fischer.",
+    "examTip": {
+      "en": "These 5 reactions are extremely important for Board exams. Memorize the reagent and the conclusion for each.",
+      "hi": "ये 5 अभिक्रियाएँ बोर्ड परीक्षाओं के लिए अत्यंत महत्वपूर्ण हैं। प्रत्येक के लिए अभिकर्मक और निष्कर्ष याद करें।"
+    }
+  }
+]

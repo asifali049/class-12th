@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "easy",
+    "question": {
+      "en": "If one strand of a DNA molecule has the sequence 5'-ATGCTAAG-3', what is the sequence of the complementary strand?",
+      "hi": "यदि DNA अणु के एक स्ट्रैंड का क्रम 5'-ATGCTAAG-3' है, तो पूरक (complementary) स्ट्रैंड का क्रम क्या होगा?",
+      "hinglish": "Agar ek DNA strand ka sequence 5'-ATGCTAAG-3' hai, toh complementary strand ka sequence kya hoga?"
+    },
+    "given": {
+      "en": "DNA strand sequence: 5'-ATGCTAAG-3'",
+      "hi": "DNA स्ट्रैंड अनुक्रम: 5'-ATGCTAAG-3'"
+    },
+    "required": {
+      "en": "Sequence of the complementary strand.",
+      "hi": "पूरक स्ट्रैंड का अनुक्रम।"
+    },
+    "formula": "Base pairing rule: A pairs with T, G pairs with C. Strands are antiparallel (5' to 3' pairs with 3' to 5').",
+    "substitution": "",
+    "calculation": "1. Write the given sequence: 5' - A T G C T A A G - 3'<br>2. Apply base pairing (A-T, G-C) to find the complementary bases: 3' - T A C G A T T C - 5'<br>3. It is conventional to write sequences in the 5' to 3' direction. Reversing the complementary sequence gives: 5' - C T T A G C A T - 3'. However, both 3'-TACGATTC-5' and 5'-CTTAGCAT-3' represent the same strand.",
+    "finalAnswer": "3'-TACGATTC-5' (or 5'-CTTAGCAT-3')",
+    "unit": "",
+    "examTip": {
+      "en": "Always remember the antiparallel nature of DNA. The 5' end of one strand pairs with the 3' end of the other.",
+      "hi": "हमेशा DNA की प्रतिसमानांतर (antiparallel) प्रकृति को याद रखें। एक स्ट्रैंड का 5' सिरा दूसरे के 3' सिरे के साथ जुड़ता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "How many peptide bonds are present in a decapeptide? If the average molecular weight of an amino acid residue is 110 Da, what is the approximate molecular weight of this decapeptide?",
+      "hi": "एक डेकापेप्टाइड में कितने पेप्टाइड बंध मौजूद होते हैं? यदि एक अमीनो अम्ल अवशेष का औसत आणविक भार 110 Da है, तो इस डेकापेप्टाइड का अनुमानित आणविक भार क्या है?",
+      "hinglish": "Ek decapeptide mein kitne peptide bonds hote hain? Agar ek amino acid residue ka average molecular weight 110 Da hai, toh decapeptide ka approximate molecular weight kya hoga?"
+    },
+    "given": {
+      "en": "Peptide type: Decapeptide (10 amino acids). Avg MW of residue = 110 Da.",
+      "hi": "पेप्टाइड का प्रकार: डेकापेप्टाइड (10 अमीनो अम्ल)। अवशेष का औसत MW = 110 Da।"
+    },
+    "required": {
+      "en": "Number of peptide bonds and total molecular weight.",
+      "hi": "पेप्टाइड बंधों की संख्या और कुल आणविक भार।"
+    },
+    "formula": "Number of peptide bonds = Number of amino acids - 1 (for a linear peptide). Total MW = (Number of residues) × (Avg MW of residue).",
+    "substitution": "",
+    "calculation": "1. A decapeptide contains 10 amino acid units.<br>2. To link 10 units in a linear chain, (10 - 1) = 9 peptide bonds are formed.<br>3. An 'amino acid residue' is what remains after water is lost during peptide bond formation. The given value (110 Da) is already the weight of the residue.<br>4. Total molecular weight $\\approx 10 \\times 110 = 1100$ Da (plus 18 Da for the ends ($H$ and $OH$), making it roughly 1118 Da, but 1100 is often accepted as a rough estimate if ends are ignored). Let's use 1100 Da based on the simplified assumption.",
+    "finalAnswer": "9 peptide bonds; ~1100 Da",
+    "unit": "",
+    "examTip": {
+      "en": "For a linear peptide with 'n' amino acids, there are always (n-1) peptide bonds. Each bond formation releases one water molecule.",
+      "hi": "'n' अमीनो अम्ल वाले एक रेखीय पेप्टाइड के लिए, हमेशा (n-1) पेप्टाइड बंध होते हैं। प्रत्येक बंध निर्माण से एक पानी का अणु निकलता है।"
+    }
+  }
+]

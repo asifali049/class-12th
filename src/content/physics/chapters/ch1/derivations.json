@@ -2,157 +2,104 @@
   {
     "id": "d1",
     "title": {
-      "en": "Electric Field due to a Point Charge",
-      "hi": "बिंदु आवेश के कारण विद्युत क्षेत्र",
-      "hinglish": "Point charge ke wajah se Electric Field"
+      "en": "Electric Field at an Axial Point of a Dipole",
+      "hi": "द्विध्रुव की अक्षीय स्थिति में विद्युत क्षेत्र",
+      "hinglish": "Dipole ke Axial point par Electric Field"
     },
     "given": {
-      "en": "A source point charge $q$ located at origin $O$ and a test charge $q_0$ at distance $r$.",
-      "hi": "मूल बिंदु $O$ पर स्थित एक स्रोत बिंदु आवेश $q$ और $r$ दूरी पर एक परीक्षण आवेश $q_0$।",
-      "hinglish": "Origin $O$ par ek source point charge $q$ aur $r$ distance par ek test charge $q_0$."
+      "en": "An electric dipole consisting of charges $+q$ and $-q$ separated by distance $2a$. We need to find the electric field at a point P on the axis of the dipole at a distance $r$ from its centre.",
+      "hi": "एक विद्युत द्विध्रुव जिसमें $+q$ और $-q$ आवेश $2a$ दूरी पर स्थित हैं। हमें द्विध्रुव के केंद्र से $r$ दूरी पर अक्ष पर एक बिंदु P पर विद्युत क्षेत्र ज्ञात करना है।"
     },
     "toFind": {
-      "en": "Electric field intensity $\\vec{E}$ at a distance $r$ from the source charge.",
-      "hi": "स्रोत आवेश से $r$ दूरी पर विद्युत क्षेत्र की तीव्रता $\\vec{E}$।",
-      "hinglish": "Source charge se $r$ distance par electric field intensity $\\vec{E}$."
+      "en": "Expression for $\\vec{E}_{axial}$",
+      "hi": "$\\vec{E}_{axial}$ के लिए व्यंजक"
     },
     "concept": {
-      "en": "Coulomb's Law: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>Definition of E-Field: $\\vec{E} = \\frac{\\vec{F}}{q_0}$",
-      "hi": "कूलॉम का नियम: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>E-क्षेत्र की परिभाषा: $\\vec{E} = \\frac{\\vec{F}}{q_0}$",
-      "hinglish": "Coulomb's Law: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>E-Field definition: $\\vec{E} = \\frac{\\vec{F}}{q_0}$"
+      "en": "Superposition principle: Net electric field at P is the vector sum of electric fields due to $+q$ and $-q$.",
+      "hi": "अध्यारोपण का सिद्धांत: बिंदु P पर कुल विद्युत क्षेत्र $+q$ और $-q$ के कारण विद्युत क्षेत्रों का सदिश योग है।"
     },
     "steps": [
       {
-        "title": {
-          "en": "Step 1: Force on Test Charge",
-          "hi": "चरण 1: परीक्षण आवेश पर बल",
-          "hinglish": "Step 1: Test Charge par force"
-        },
+        "title": { "en": "Step 1: Electric field due to $+q$", "hi": "चरण 1: $+q$ के कारण विद्युत क्षेत्र" },
         "content": {
-          "en": "According to Coulomb's Law, the electrostatic force experienced by the test charge $q_0$ placed at distance $r$ from the source charge $q$ is:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$",
-          "hi": "कूलॉम के नियम के अनुसार, स्रोत आवेश $q$ से $r$ दूरी पर रखे परीक्षण आवेश $q_0$ द्वारा अनुभव किया गया स्थिर वैद्युत बल है:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$",
-          "hinglish": "Coulomb's Law ke according, source charge $q$ se $r$ distance par test charge $q_0$ par lagne wala electrostatic force hai:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$"
+          "en": "Distance of P from $+q$ is $(r-a)$.\n$E_{+q} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{(r-a)^2}$ (directed away from $+q$, i.e., along the dipole moment $\\vec{p}$)",
+          "hi": "$+q$ से P की दूरी $(r-a)$ है।\n$E_{+q} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{(r-a)^2}$ ($+q$ से दूर, अर्थात् द्विध्रुव आघूर्ण $\\vec{p}$ की दिशा में)"
         }
       },
       {
-        "title": {
-          "en": "Step 2: Apply Definition of Electric Field",
-          "hi": "चरण 2: विद्युत क्षेत्र की परिभाषा लागू करें",
-          "hinglish": "Step 2: Electric Field ki definition apply karein"
-        },
+        "title": { "en": "Step 2: Electric field due to $-q$", "hi": "चरण 2: $-q$ के कारण विद्युत क्षेत्र" },
         "content": {
-          "en": "The electric field intensity $\\vec{E}$ is defined as the electrostatic force per unit positive test charge:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$",
-          "hi": "विद्युत क्षेत्र की तीव्रता $\\vec{E}$ को प्रति एकांक धनात्मक परीक्षण आवेश पर स्थिर वैद्युत बल के रूप में परिभाषित किया जाता है:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$",
-          "hinglish": "Electric field intensity $\\vec{E}$ force per unit positive test charge hota hai:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$"
+          "en": "Distance of P from $-q$ is $(r+a)$.\n$E_{-q} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{(r+a)^2}$ (directed towards $-q$, i.e., opposite to $\\vec{p}$)",
+          "hi": "$-q$ से P की दूरी $(r+a)$ है।\n$E_{-q} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{(r+a)^2}$ ($-q$ की ओर, अर्थात् $\\vec{p}$ के विपरीत दिशा में)"
         }
       },
       {
-        "title": {
-          "en": "Step 3: Substitution",
-          "hi": "चरण 3: प्रतिस्थापन",
-          "hinglish": "Step 3: Substitution"
-        },
+        "title": { "en": "Step 3: Net Electric Field", "hi": "चरण 3: कुल विद्युत क्षेत्र" },
         "content": {
-          "en": "Substitute the expression for force $\\vec{F}$ into the electric field formula:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$",
-          "hi": "विद्युत क्षेत्र के सूत्र में बल $\\vec{F}$ का व्यंजक प्रतिस्थापित करें:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$",
-          "hinglish": "Electric field ke formula mein force $\\vec{F}$ ki value substitute karein:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$"
+          "en": "Since $E_{+q} > E_{-q}$ and they are in opposite directions, the net electric field $\\vec{E}_{axial}$ is in the direction of $\\vec{p}$.\n$E_{axial} = E_{+q} - E_{-q}$\n$E_{axial} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{1}{(r-a)^2} - \\frac{1}{(r+a)^2} \\right]$",
+          "hi": "चूंकि $E_{+q} > E_{-q}$ और वे विपरीत दिशाओं में हैं, इसलिए कुल विद्युत क्षेत्र $\\vec{E}_{axial}$, $\\vec{p}$ की दिशा में होगा।\n$E_{axial} = E_{+q} - E_{-q}$\n$E_{axial} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{1}{(r-a)^2} - \\frac{1}{(r+a)^2} \\right]$"
         }
       },
       {
-        "title": {
-          "en": "Step 4: Simplification",
-          "hi": "चरण 4: सरलीकरण",
-          "hinglish": "Step 4: Simplification"
-        },
+        "title": { "en": "Step 4: Simplification", "hi": "चरण 4: सरलीकरण" },
         "content": {
-          "en": "Cancel out $q_0$ from the numerator and denominator to get the final expression.",
-          "hi": "अंतिम व्यंजक प्राप्त करने के लिए अंश और हर से $q_0$ को निरस्त करें।",
-          "hinglish": "Numerator aur denominator se $q_0$ cancel out karein."
+          "en": "$E_{axial} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{(r+a)^2 - (r-a)^2}{(r^2-a^2)^2} \\right] = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{4ar}{(r^2-a^2)^2} \\right]$\nWe know dipole moment $p = q(2a)$.\n$E_{axial} = \\frac{1}{4\\pi\\epsilon_0} \\frac{2pr}{(r^2-a^2)^2}$",
+          "hi": "$E_{axial} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{(r+a)^2 - (r-a)^2}{(r^2-a^2)^2} \\right] = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{4ar}{(r^2-a^2)^2} \\right]$\nहम जानते हैं कि द्विध्रुव आघूर्ण $p = q(2a)$ है।\n$E_{axial} = \\frac{1}{4\\pi\\epsilon_0} \\frac{2pr}{(r^2-a^2)^2}$"
         }
       }
     ],
-    "finalResult": "\\vec{E} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2} \\hat{r}",
+    "finalResult": "$\\vec{E}_{axial} = \\frac{1}{4\\pi\\epsilon_0} \\frac{2pr}{(r^2-a^2)^2} \\hat{p}$. For short dipole ($r \\gg a$), $E_{axial} = \\frac{1}{4\\pi\\epsilon_0} \\frac{2p}{r^3}$.",
     "examTip": {
-      "en": "Remember that the electric field due to a point charge follows an inverse square law (E $\\propto 1/r^2$). This is frequently asked in multiple-choice questions.",
-      "hi": "याद रखें कि बिंदु आवेश के कारण विद्युत क्षेत्र व्युत्क्रम वर्ग नियम (E $\\propto 1/r^2$) का पालन करता है। यह अक्सर बहुविकल्पीय प्रश्नों में पूछा जाता है।"
+      "en": "The direction of the electric field at an axial point is along the direction of the dipole moment vector $\\vec{p}$.",
+      "hi": "अक्षीय बिंदु पर विद्युत क्षेत्र की दिशा द्विध्रुव आघूर्ण सदिश $\\vec{p}$ की दिशा में होती है।"
     }
   },
   {
     "id": "d2",
     "title": {
-      "en": "Torque on an Electric Dipole in Uniform Field",
-      "hi": "एकसमान क्षेत्र में विद्युत द्विध्रुव पर बल आघूर्ण",
-      "hinglish": "Uniform Field mein Electric Dipole par Torque"
+      "en": "Electric Field due to an Infinitely Long Straight Uniformly Charged Wire",
+      "hi": "अनंत लंबाई के एकसमान आवेशित सीधे तार के कारण विद्युत क्षेत्र",
+      "hinglish": "Infinitely Long Charged Wire ke karan Electric Field"
     },
     "given": {
-      "en": "An electric dipole of dipole moment $p = q(2a)$ placed in a uniform electric field $E$ at an angle $\\theta$.",
-      "hi": "एकसमान विद्युत क्षेत्र $E$ में $\\theta$ कोण पर रखा गया $p = q(2a)$ द्विध्रुव आघूर्ण का एक विद्युत द्विध्रुव।",
-      "hinglish": "Uniform electric field $E$ mein $\\theta$ angle par rakha $p = q(2a)$ dipole moment ka electric dipole."
+      "en": "An infinitely long thin straight wire with uniform linear charge density $\\lambda$. We need to find the electric field at a perpendicular distance $r$ from the wire.",
+      "hi": "एकसमान रैखिक आवेश घनत्व $\\lambda$ वाला एक अनंत लंबा पतला सीधा तार। हमें तार से $r$ लंबवत दूरी पर विद्युत क्षेत्र ज्ञात करना है।"
     },
     "toFind": {
-      "en": "Torque $\\vec{\\tau}$ acting on the dipole.",
-      "hi": "द्विध्रुव पर कार्य करने वाला बल आघूर्ण $\\vec{\\tau}$।",
-      "hinglish": "Dipole par lagne wala Torque $\\vec{\\tau}$."
+      "en": "Expression for $\\vec{E}$",
+      "hi": "$\\vec{E}$ के लिए व्यंजक"
     },
     "concept": {
-      "en": "Force on charge: $\\vec{F} = q\\vec{E}$<br>Torque = Force $\\times$ Perpendicular distance between lines of action of forces.",
-      "hi": "आवेश पर बल: $\\vec{F} = q\\vec{E}$<br>बल आघूर्ण = बल $\\times$ बलों की क्रिया रेखाओं के बीच लंबवत दूरी।",
-      "hinglish": "Force on charge: $\\vec{F} = q\\vec{E}$<br>Torque = Force $\\times$ unke beech ki perpendicular distance."
+      "en": "Application of Gauss's Law: Construct a cylindrical Gaussian surface of radius $r$ and length $l$ coaxial with the wire.",
+      "hi": "गॉस के नियम का अनुप्रयोग: तार के साथ समाक्षीय $r$ त्रिज्या और $l$ लंबाई का एक बेलनाकार गॉसियन पृष्ठ बनाएँ।"
     },
     "steps": [
       {
-        "title": {
-          "en": "Step 1: Forces on the Dipole",
-          "hi": "चरण 1: द्विध्रुव पर बल",
-          "hinglish": "Step 1: Dipole par lagne wale forces"
-        },
+        "title": { "en": "Step 1: Calculate Total Charge Enclosed", "hi": "चरण 1: संलग्न कुल आवेश की गणना करें" },
         "content": {
-          "en": "The force on $+q$ is $\\vec{F}_+ = q\\vec{E}$ (in the direction of field).<br>The force on $-q$ is $\\vec{F}_- = -q\\vec{E}$ (opposite to the direction of field).<br>Net force is zero, but they form a couple.",
-          "hi": "$+q$ पर बल $\\vec{F}_+ = q\\vec{E}$ (क्षेत्र की दिशा में) है।<br>$-q$ पर बल $\\vec{F}_- = -q\\vec{E}$ (क्षेत्र की दिशा के विपरीत) है।<br>कुल बल शून्य है, लेकिन वे एक बलयुग्म बनाते हैं।",
-          "hinglish": "$+q$ par force $\\vec{F}_+ = q\\vec{E}$ (field ke direction mein) hai.<br>$-q$ par force $\\vec{F}_- = -q\\vec{E}$ (field ke opposite) hai.<br>Net force zero hai, par couple form hota hai."
+          "en": "The charge enclosed by the cylindrical Gaussian surface is $q = \\lambda l$.",
+          "hi": "बेलनाकार गॉसियन पृष्ठ द्वारा घिरा आवेश $q = \\lambda l$ है।"
         }
       },
       {
-        "title": {
-          "en": "Step 2: Perpendicular Distance",
-          "hi": "चरण 2: लंबवत दूरी",
-          "hinglish": "Step 2: Perpendicular Distance"
-        },
+        "title": { "en": "Step 2: Calculate Electric Flux", "hi": "चरण 2: विद्युत फ्लक्स की गणना करें" },
         "content": {
-          "en": "From the geometry of the setup, the perpendicular distance between the lines of action of the two forces is $2a \\sin\\theta$.",
-          "hi": "व्यवस्था की ज्यामिति से, दोनों बलों की क्रिया रेखाओं के बीच लंबवत दूरी $2a \\sin\\theta$ है।",
-          "hinglish": "Geometry se, dono forces ke line of action ke beech perpendicular distance $2a \\sin\\theta$ aati hai."
+          "en": "The Gaussian surface has three parts: two flat circular ends and one curved cylindrical surface. By symmetry, the electric field is radial and perpendicular to the wire. \nFor flat ends, $\\vec{E}$ and $d\\vec{A}$ are perpendicular ($\\theta = 90^\\circ$), so flux $\\Phi = \\int E dA \\cos 90^\\circ = 0$. \nFor curved surface, $\\vec{E}$ and $d\\vec{A}$ are parallel ($\\theta = 0^\\circ$).\nTotal flux $\\Phi_E = \\int E dA \\cos 0^\\circ = E \\int dA = E(2\\pi rl)$.",
+          "hi": "गॉसियन पृष्ठ के तीन भाग होते हैं: दो चपटे वृत्ताकार सिरे और एक वक्र बेलनाकार सतह। सममिति से, विद्युत क्षेत्र अरीय (radial) और तार के लंबवत है।\nचपटे सिरों के लिए, $\\vec{E}$ और $d\\vec{A}$ लंबवत हैं ($\\theta = 90^\\circ$), इसलिए फ्लक्स $\\Phi = \\int E dA \\cos 90^\\circ = 0$।\nवक्र सतह के लिए, $\\vec{E}$ और $d\\vec{A}$ समानांतर हैं ($\\theta = 0^\\circ$)।\nकुल फ्लक्स $\\Phi_E = \\int E dA \\cos 0^\\circ = E \\int dA = E(2\\pi rl)$।"
         }
       },
       {
-        "title": {
-          "en": "Step 3: Calculate Torque",
-          "hi": "चरण 3: बल आघूर्ण की गणना",
-          "hinglish": "Step 3: Torque calculate karein"
-        },
+        "title": { "en": "Step 3: Apply Gauss's Law", "hi": "चरण 3: गॉस का नियम लागू करें" },
         "content": {
-          "en": "Torque $\\tau$ = Magnitude of either force $\\times$ Perpendicular distance<br>$\\tau = (qE) \\times (2a \\sin\\theta)$",
-          "hi": "बल आघूर्ण $\\tau$ = किसी एक बल का परिमाण $\\times$ लंबवत दूरी<br>$\\tau = (qE) \\times (2a \\sin\\theta)$",
-          "hinglish": "Torque $\\tau$ = Force ka magnitude $\\times$ Perpendicular distance<br>$\\tau = (qE) \\times (2a \\sin\\theta)$"
-        }
-      },
-      {
-        "title": {
-          "en": "Step 4: Introduce Dipole Moment",
-          "hi": "चरण 4: द्विध्रुव आघूर्ण प्रस्तुत करें",
-          "hinglish": "Step 4: Dipole moment put karein"
-        },
-        "content": {
-          "en": "Since dipole moment $p = q \\times 2a$, we substitute this into the equation:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$",
-          "hi": "चूंकि द्विध्रुव आघूर्ण $p = q \\times 2a$ है, हम इसे समीकरण में प्रतिस्थापित करते हैं:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$",
-          "hinglish": "Kyunki dipole moment $p = q \\times 2a$ hota hai, isko equation mein daalte hain:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$"
+          "en": "According to Gauss's law, $\\Phi_E = \\frac{q}{\\epsilon_0}$.\nTherefore, $E(2\\pi rl) = \\frac{\\lambda l}{\\epsilon_0}$",
+          "hi": "गॉस के नियम के अनुसार, $\\Phi_E = \\frac{q}{\\epsilon_0}$।\nइसलिए, $E(2\\pi rl) = \\frac{\\lambda l}{\\epsilon_0}$"
         }
       }
     ],
-    "finalResult": "\\vec{\\tau} = \\vec{p} \\times \\vec{E}",
+    "finalResult": "$E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$",
     "examTip": {
-      "en": "This derivation is extremely important for board exams. Do not forget to write the final result in vector form as cross product.",
-      "hi": "यह व्युत्पत्ति बोर्ड परीक्षाओं के लिए अत्यंत महत्वपूर्ण है। अंतिम परिणाम को सदिश रूप में क्रॉस उत्पाद के रूप में लिखना न भूलें।"
+      "en": "Remember that $E \\propto \\frac{1}{r}$ for a line charge, unlike $E \\propto \\frac{1}{r^2}$ for a point charge. Don't forget to draw the diagram showing the Gaussian surface.",
+      "hi": "याद रखें कि रेखीय आवेश के लिए $E \\propto \\frac{1}{r}$ होता है, न कि बिंदु आवेश की तरह $E \\propto \\frac{1}{r^2}$। गॉसियन पृष्ठ दिखाने वाला आरेख बनाना न भूलें।"
     }
   }
 ]

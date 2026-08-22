@@ -1,0 +1,139 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is not considered a transition metal?",
+      "hi": "निम्नलिखित में से किसे संक्रमण धातु नहीं माना जाता है?",
+      "hinglish": "Inme se kise transition metal nahi mana jata hai?"
+    },
+    "options": [
+      {
+        "en": "Fe",
+        "hi": "Fe"
+      },
+      {
+        "en": "Cu",
+        "hi": "Cu"
+      },
+      {
+        "en": "Zn",
+        "hi": "Zn"
+      },
+      {
+        "en": "Ag",
+        "hi": "Ag"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Zinc ($Zn$) has completely filled d-orbitals ($3d^{10}$) in its ground state as well as in its common oxidation state (+2). Hence, it is not a transition element.",
+      "hi": "जिंक ($Zn$) की मूल अवस्था के साथ-साथ इसकी सामान्य ऑक्सीकरण अवस्था (+2) में d-कक्षक ($3d^{10}$) पूरी तरह से भरे होते हैं। इसलिए, यह एक संक्रमण तत्व नहीं है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why do transition elements show variable oxidation states?",
+      "hi": "संक्रमण तत्व परिवर्ती ऑक्सीकरण अवस्थाएँ क्यों दर्शाते हैं?",
+      "hinglish": "Transition elements variable oxidation states kyun show karte hain?"
+    },
+    "idealAnswer": {
+      "en": "Transition elements show variable oxidation states due to the very small energy difference between the $(n-1)d$ and $ns$ orbitals. Because of this small energy gap, electrons from both the $ns$ and $(n-1)d$ orbitals can participate in bond formation.",
+      "hi": "संक्रमण तत्व $(n-1)d$ और $ns$ कक्षकों के बीच बहुत कम ऊर्जा अंतर के कारण परिवर्ती ऑक्सीकरण अवस्थाएँ दर्शाते हैं। इस छोटे ऊर्जा अंतराल के कारण, $ns$ और $(n-1)d$ दोनों कक्षकों के इलेक्ट्रॉन बंध निर्माण में भाग ले सकते हैं।"
+    },
+    "keywords": [
+      {
+        "en": "small energy difference",
+        "hi": "कम ऊर्जा अंतर"
+      },
+      {
+        "en": "(n-1)d and ns orbitals",
+        "hi": "(n-1)d और ns कक्षक"
+      },
+      {
+        "en": "both participate",
+        "hi": "दोनों भाग लेते हैं"
+      }
+    ],
+    "tips": {
+      "en": "Always mention the specific orbitals involved: (n-1)d and ns.",
+      "hi": "हमेशा शामिल विशिष्ट कक्षकों का उल्लेख करें: (n-1)d और ns।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Transition metals and their many compounds act as good catalysts. Give reasons.",
+      "hi": "संक्रमण धातुएँ और उनके कई यौगिक अच्छे उत्प्रेरक के रूप में कार्य करते हैं। कारण दीजिए।",
+      "hinglish": "Transition metals aur unke compounds achhe catalyst ka kaam kyun karte hain?"
+    },
+    "idealAnswer": {
+      "en": "Transition metals and their compounds act as good catalysts because:\n1. They can exhibit multiple oxidation states, allowing them to form intermediate complexes with reactants.\n2. They provide a large surface area with free valencies for the adsorption of reactant molecules.",
+      "hi": "संक्रमण धातुएँ और उनके यौगिक अच्छे उत्प्रेरक के रूप में कार्य करते हैं क्योंकि:\n1. वे कई ऑक्सीकरण अवस्थाएँ प्रदर्शित कर सकते हैं, जिससे वे अभिकारकों के साथ मध्यवर्ती संकुल बना सकते हैं।\n2. वे अभिकारक अणुओं के अधिशोषण के लिए मुक्त संयोजकता के साथ एक बड़ा सतह क्षेत्र प्रदान करते हैं।"
+    },
+    "keywords": [
+      {
+        "en": "multiple oxidation states",
+        "hi": "कई ऑक्सीकरण अवस्थाएँ"
+      },
+      {
+        "en": "intermediate complexes",
+        "hi": "मध्यवर्ती संकुल"
+      },
+      {
+        "en": "large surface area",
+        "hi": "बड़ा सतह क्षेत्र"
+      }
+    ],
+    "tips": {
+      "en": "Provide at least two points to get full marks.",
+      "hi": "पूरे अंक प्राप्त करने के लिए कम से कम दो बिंदु प्रदान करें।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 3,
+    "question": {
+      "en": "What is lanthanoid contraction? What are its consequences?",
+      "hi": "लेंथेनॉइड आकुंचन क्या है? इसके परिणाम क्या हैं?",
+      "hinglish": "Lanthanoid contraction kya hai? Iske consequences kya hain?"
+    },
+    "idealAnswer": {
+      "en": "The steady and regular decrease in atomic and ionic radii of lanthanoids with an increase in atomic number is called lanthanoid contraction. It is due to the imperfect shielding of one 4f electron by another in the same subshell.\nConsequences:\n1. Resemblance of second and third transition series: The atomic radii of 5d series elements are almost similar to those of 4d series elements (e.g., Zr and Hf have similar radii).\n2. Similarity among lanthanoids: Due to the very small change in radii, their chemical properties are very similar, making their separation difficult.",
+      "hi": "परमाणु क्रमांक बढ़ने के साथ लेंथेनॉइड के परमाणु और आयनिक त्रिज्या में होने वाली निरंतर और नियमित कमी को लेंथेनॉइड आकुंचन कहा जाता है। यह एक ही उपकोश में एक 4f इलेक्ट्रॉन द्वारा दूसरे 4f इलेक्ट्रॉन के अपूर्ण परिरक्षण के कारण होता है।\nपरिणाम:\n1. द्वितीय और तृतीय संक्रमण श्रेणी की समानता: 5d श्रेणी के तत्वों की परमाणु त्रिज्याएँ 4d श्रेणी के तत्वों के लगभग समान होती हैं (उदा. Zr और Hf की त्रिज्या समान होती है)।\n2. लेंथेनॉइड के बीच समानता: त्रिज्या में बहुत कम परिवर्तन के कारण, उनके रासायनिक गुण बहुत समान होते हैं, जिससे उनका पृथक्करण मुश्किल हो जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "decrease in atomic and ionic radii",
+        "hi": "परमाणु और आयनिक त्रिज्या में कमी"
+      },
+      {
+        "en": "imperfect shielding of 4f",
+        "hi": "4f का अपूर्ण परिरक्षण"
+      },
+      {
+        "en": "Zr and Hf similar radii",
+        "hi": "Zr और Hf की समान त्रिज्या"
+      },
+      {
+        "en": "separation difficult",
+        "hi": "पृथक्करण मुश्किल"
+      }
+    ],
+    "tips": {
+      "en": "Define it clearly first, then list at least two consequences.",
+      "hi": "पहले इसे स्पष्ट रूप से परिभाषित करें, फिर कम से कम दो परिणाम सूचीबद्ध करें।"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Basicity of Amines: Gas vs Aqueous Phase",
+      "hi": "एमीन की क्षारीयता: गैस बनाम जलीय अवस्था",
+      "hinglish": "Amines ki Basicity: Gas vs Aqueous Phase"
+    },
+    "summary": {
+      "en": "**Gas Phase**: Basicity depends ONLY on the +I (electron donating) effect of alkyl groups. More alkyl groups = higher electron density on Nitrogen = stronger base. Order: $3^\\circ > 2^\\circ > 1^\\circ > NH_3$. \n**Aqueous Phase**: Basicity depends on a combination of +I effect, steric hindrance, and solvation (hydration) energy. For Methyl amines: $2^\\circ > 1^\\circ > 3^\\circ > NH_3$. For Ethyl amines: $2^\\circ > 3^\\circ > 1^\\circ > NH_3$.",
+      "hi": "**गैस अवस्था**: क्षारीयता केवल एल्किल समूहों के +I (इलेक्ट्रॉन दान) प्रभाव पर निर्भर करती है। अधिक एल्किल समूह = नाइट्रोजन पर अधिक इलेक्ट्रॉन घनत्व = प्रबल क्षार। क्रम: $3^\\circ > 2^\\circ > 1^\\circ > NH_3$।\n**जलीय अवस्था**: क्षारीयता +I प्रभाव, त्रिविम बाधा और विलायकन (जलयोजन) ऊर्जा के संयोजन पर निर्भर करती है। मिथाइल एमीन के लिए: $2^\\circ > 1^\\circ > 3^\\circ > NH_3$। एथिल एमीन के लिए: $2^\\circ > 3^\\circ > 1^\\circ > NH_3$।",
+      "hinglish": "**Gas Phase**: Basicity sirf alkyl groups ke +I effect par depend karti hai. Order hai: 3° > 2° > 1° > NH3.\n**Aqueous Phase**: Yeh +I effect, steric hindrance aur solvation teeno par depend karta hai. Methyl amines (chota group) ke liye order: 2° > 1° > 3° > NH3. Ethyl amines (bada group) ke liye order: 2° > 3° > 1° > NH3."
+    },
+    "quickRecall": [
+      {
+        "en": "Gas phase: 3° > 2° > 1° > NH3",
+        "hi": "गैस अवस्था: 3° > 2° > 1° > NH3"
+      },
+      {
+        "en": "Aqueous (Methyl): 2° > 1° > 3° > NH3",
+        "hi": "जलीय (मिथाइल): 2° > 1° > 3° > NH3"
+      },
+      {
+        "en": "Aqueous (Ethyl): 2° > 3° > 1° > NH3",
+        "hi": "जलीय (एथिल): 2° > 3° > 1° > NH3"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Important Name Reactions in Amines",
+      "hi": "एमीन में महत्वपूर्ण नाम अभिक्रियाएँ",
+      "hinglish": "Amines mein Important Name Reactions"
+    },
+    "summary": {
+      "en": "**Gabriel Phthalimide Synthesis**: Prepares ONLY pure primary ($1^\\circ$) aliphatic amines. Aromatic $1^\\circ$ amines cannot be prepared because aryl halides don't undergo nucleophilic substitution. \n**Hoffmann Bromamide Degradation**: Amide + $Br_2$ + NaOH $\\rightarrow$ Primary amine with ONE carbon less. Used for stepping down the carbon series. \n**Carbylamine Test**: ONLY primary ($1^\\circ$) amines (aliphatic & aromatic) react with $CHCl_3$ and KOH to give foul-smelling isocyanides. Used as a test for $1^\\circ$ amines.",
+      "hi": "**गेब्रियल थैलिमाइड संश्लेषण**: केवल शुद्ध प्राथमिक ($1^\\circ$) एलिफैटिक एमीन तैयार करता है। एरोमैटिक $1^\\circ$ एमीन तैयार नहीं किए जा सकते क्योंकि एरिल हैलाइड नाभिकरागी प्रतिस्थापन से नहीं गुजरते हैं।\n**हॉफमैन ब्रोमेमाइड निम्नीकरण**: एमाइड + $Br_2$ + NaOH $\\rightarrow$ एक कार्बन कम वाला प्राथमिक एमीन। कार्बन श्रृंखला को कम करने (stepping down) के लिए उपयोग किया जाता है।\n**कार्बिलएमीन परीक्षण**: केवल प्राथमिक ($1^\\circ$) एमीन (एलिफैटिक और एरोमैटिक) $CHCl_3$ और KOH के साथ प्रतिक्रिया करके दुर्गंधयुक्त आइसोसाइनाइड देते हैं। $1^\\circ$ एमीन के परीक्षण के रूप में उपयोग किया जाता है।",
+      "hinglish": "**Gabriel Phthalimide**: Sirf pure 1° aliphatic amines banane ke kaam aata hai (aniline nahi ban sakta). \n**Hoffmann Bromamide**: Amide se ek carbon kam wala 1° amine banta hai. (Step-down reaction).\n**Carbylamine**: Sirf 1° amines (aliphatic/aromatic) foul smell wala isocyanide banate hain. 1° amine ka test hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Gabriel Phthalimide = Pure 1° Aliphatic Amines",
+        "hi": "गेब्रियल थैलिमाइड = शुद्ध 1° एलिफैटिक एमीन"
+      },
+      {
+        "en": "Hoffmann Bromamide = Step down (-1 Carbon)",
+        "hi": "हॉफमैन ब्रोमेमाइड = एक कार्बन कम (-1 कार्बन)"
+      },
+      {
+        "en": "Carbylamine Test = For all 1° Amines only",
+        "hi": "कार्बिलएमीन परीक्षण = केवल सभी 1° एमीन के लिए"
+      }
+    ]
+  }
+]

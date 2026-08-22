@@ -1,0 +1,122 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Position in the Periodic Table",
+      "hi": "आवर्त सारणी में स्थिति",
+      "hinglish": "Periodic Table mein Position"
+    },
+    "content": {
+      "en": "The d-block elements lie in the middle of the periodic table, between s- and p-block elements (groups 3 to 12). They are called transition elements because their properties are transitional between the highly reactive metallic s-block and less reactive p-block elements. f-block elements are placed at the bottom (Lanthanoids and Actinoids) and are called inner transition elements.",
+      "hi": "d-ब्लॉक के तत्व आवर्त सारणी के मध्य में, s- और p-ब्लॉक के तत्वों (समूह 3 से 12) के बीच स्थित होते हैं। इन्हें संक्रमण तत्व कहा जाता है क्योंकि इनके गुण अत्यधिक क्रियाशील धात्विक s-ब्लॉक और कम क्रियाशील p-ब्लॉक तत्वों के बीच संक्रमणकालीन होते हैं। f-ब्लॉक तत्वों को सबसे नीचे रखा गया है (लेंथेनॉइड और एक्टिनॉइड) और इन्हें अंतः संक्रमण तत्व कहा जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "General Electronic Configuration",
+      "hi": "सामान्य इलेक्ट्रॉनिक विन्यास",
+      "hinglish": "General Electronic Configuration"
+    },
+    "content": {
+      "en": "The general electronic configuration of d-block elements is $(n-1)d^{1-10} ns^{1-2}$. Note that chromium (Cr) is $3d^5 4s^1$ and copper (Cu) is $3d^{10} 4s^1$ due to the extra stability of half-filled and fully-filled d-orbitals.",
+      "hi": "d-ब्लॉक तत्वों का सामान्य इलेक्ट्रॉनिक विन्यास $(n-1)d^{1-10} ns^{1-2}$ है। ध्यान दें कि क्रोमियम (Cr) का विन्यास $3d^5 4s^1$ और कॉपर (Cu) का $3d^{10} 4s^1$ है, जो कि अर्ध-पूरित और पूर्ण-पूरित d-कक्षाओं के अतिरिक्त स्थायित्व के कारण है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Transition Elements: Definition",
+      "hi": "संक्रमण तत्व: परिभाषा",
+      "hinglish": "Transition Elements ki Definition"
+    },
+    "content": {
+      "en": "A transition element is defined as the one which has incompletely filled d orbitals in its ground state or in any one of its oxidation states. Zinc (Zn), Cadmium (Cd), and Mercury (Hg) of group 12 have fully filled $d^{10}$ configuration in their ground state as well as in their common oxidation states and hence, are not regarded as transition metals.",
+      "hi": "संक्रमण तत्व वह है जिसके मूल अवस्था में या किसी एक ऑक्सीकरण अवस्था में d-कक्षक अपूर्ण रूप से भरे होते हैं। समूह 12 के जिंक (Zn), कैडमियम (Cd) और मरकरी (Hg) के मूल अवस्था के साथ-साथ उनके सामान्य ऑक्सीकरण अवस्थाओं में $d^{10}$ विन्यास पूरी तरह से भरा होता है, इसलिए उन्हें संक्रमण धातु नहीं माना जाता है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "General Properties of Transition Metals",
+      "hi": "संक्रमण धातुओं के सामान्य गुण",
+      "hinglish": "Transition Metals ke General Properties"
+    },
+    "content": {
+      "en": "Transition metals exhibit high tensile strength, ductility, malleability, high thermal and electrical conductivity, and metallic luster. They have high melting and boiling points due to strong metallic bonding resulting from the participation of $(n-1)d$ electrons in addition to $ns$ electrons.",
+      "hi": "संक्रमण धातुएँ उच्च तन्य शक्ति, नमनीयता, आघातवर्ध्यता, उच्च तापीय और विद्युत चालकता और धात्विक चमक प्रदर्शित करती हैं। उनके गलनांक और क्वथनांक उच्च होते हैं क्योंकि $ns$ इलेक्ट्रॉनों के अलावा $(n-1)d$ इलेक्ट्रॉनों की भागीदारी के कारण मजबूत धात्विक बंध बनता है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Variable Oxidation States",
+      "hi": "परिवर्ती ऑक्सीकरण अवस्थाएँ",
+      "hinglish": "Variable Oxidation States"
+    },
+    "content": {
+      "en": "Transition metals show variable oxidation states because of the small energy difference between $(n-1)d$ and $ns$ orbitals, meaning electrons from both can participate in bonding. Osmium (Os) and Ruthenium (Ru) show the highest oxidation state of +8.",
+      "hi": "संक्रमण धातुएँ परिवर्ती ऑक्सीकरण अवस्थाएँ दर्शाती हैं क्योंकि $(n-1)d$ और $ns$ कक्षकों के बीच ऊर्जा का अंतर कम होता है, जिसका अर्थ है कि दोनों के इलेक्ट्रॉन बंध बनाने में भाग ले सकते हैं। ऑस्मियम (Os) और रूथेनियम (Ru) +8 की उच्चतम ऑक्सीकरण अवस्था दिखाते हैं।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Magnetic Properties",
+      "hi": "चुम्बकीय गुण",
+      "hinglish": "Magnetic Properties"
+    },
+    "content": {
+      "en": "Substances with unpaired electrons are paramagnetic, while those with all paired electrons are diamagnetic. Transition metal ions often have unpaired d-electrons, making them paramagnetic. The magnetic moment ($\\mu$) is calculated by the 'spin-only' formula: $\\mu = \\sqrt{n(n+2)} \\text{ B.M.}$, where $n$ is the number of unpaired electrons.",
+      "hi": "अयुग्मित इलेक्ट्रॉनों वाले पदार्थ अनुचुम्बकीय होते हैं, जबकि सभी युग्मित इलेक्ट्रॉनों वाले पदार्थ प्रतिचुम्बकीय होते हैं। संक्रमण धातु आयनों में अक्सर अयुग्मित d-इलेक्ट्रॉन होते हैं, जो उन्हें अनुचुम्बकीय बनाते हैं। चुम्बकीय आघूर्ण ($\\mu$) की गणना 'केवल-चक्रण' सूत्र द्वारा की जाती है: $\\mu = \\sqrt{n(n+2)} \\text{ B.M.}$, जहाँ $n$ अयुग्मित इलेक्ट्रॉनों की संख्या है।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Formation of Coloured Ions",
+      "hi": "रंगीन आयनों का बनना",
+      "hinglish": "Coloured Ions ka Banna"
+    },
+    "content": {
+      "en": "Most transition metal compounds are coloured both in solid state and in aqueous solution. This is due to d-d transitions. When light falls on the complex, an electron from a lower energy d-orbital is excited to a higher energy d-orbital, absorbing a specific wavelength of light, and transmitting the complementary colour.",
+      "hi": "अधिकांश संक्रमण धातु यौगिक ठोस अवस्था और जलीय विलयन दोनों में रंगीन होते हैं। यह d-d संक्रमण के कारण होता है। जब संकुल पर प्रकाश पड़ता है, तो निम्न ऊर्जा वाले d-कक्षक का एक इलेक्ट्रॉन उच्च ऊर्जा वाले d-कक्षक में उत्तेजित हो जाता है, जिससे प्रकाश की एक विशिष्ट तरंग दैर्ध्य अवशोषित होती है, और पूरक रंग उत्सर्जित होता है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Catalytic Properties",
+      "hi": "उत्प्रेरकीय गुण",
+      "hinglish": "Catalytic Properties"
+    },
+    "content": {
+      "en": "Many transition metals and their compounds act as good catalysts (e.g., $V_2O_5$ in Contact Process, finely divided Fe in Haber's Process). This is because of their ability to adopt multiple oxidation states and to form complexes, providing a suitable surface for the reaction.",
+      "hi": "कई संक्रमण धातुएँ और उनके यौगिक अच्छे उत्प्रेरक के रूप में कार्य करते हैं (उदा. संपर्क विधि में $V_2O_5$, हैबर विधि में सूक्ष्म विभाजित Fe)। ऐसा उनकी कई ऑक्सीकरण अवस्थाओं को अपनाने और संकुल बनाने की क्षमता के कारण है, जो अभिक्रिया के लिए उपयुक्त सतह प्रदान करते हैं।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Lanthanoid Contraction",
+      "hi": "लेंथेनॉइड आकुंचन",
+      "hinglish": "Lanthanoid Contraction"
+    },
+    "content": {
+      "en": "The steady decrease in the atomic and ionic radii of lanthanoids with increase in atomic number is called lanthanoid contraction. It is caused by the poor shielding effect of the 4f electrons. Consequence: The radii of the 5d transition series elements are very similar to those of the corresponding elements of the 4d series (e.g., Zr and Hf have almost identical radii).",
+      "hi": "परमाणु क्रमांक बढ़ने के साथ लेंथेनॉइड के परमाणु और आयनिक त्रिज्या में होने वाली निरंतर कमी को लेंथेनॉइड आकुंचन कहा जाता है। यह 4f इलेक्ट्रॉनों के खराब परिरक्षण प्रभाव के कारण होता है। परिणाम: 5d संक्रमण श्रेणी के तत्वों की त्रिज्याएँ 4d श्रेणी के संबंधित तत्वों की त्रिज्याओं के लगभग समान होती हैं (उदा. Zr और Hf की त्रिज्या लगभग समान होती है)।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Actinoids",
+      "hi": "एक्टिनॉइड",
+      "hinglish": "Actinoids"
+    },
+    "content": {
+      "en": "The 14 elements from Thorium (Th, Z=90) to Lawrencium (Lr, Z=103) where the 5f subshell is progressively filled are called Actinoids. They are all radioactive. Earlier actinoids show a large number of oxidation states (up to +7) because of the very small energy gap between 5f, 6d, and 7s subshells.",
+      "hi": "थोरियम (Th, Z=90) से लॉरेंशियम (Lr, Z=103) तक के 14 तत्व, जिनमें 5f उपकोश क्रमशः भरता है, एक्टिनॉइड कहलाते हैं। ये सभी रेडियोधर्मी होते हैं। प्रारंभिक एक्टिनॉइड बड़ी संख्या में ऑक्सीकरण अवस्थाएँ (अप टू +7) दर्शाते हैं क्योंकि 5f, 6d, और 7s उपकोशों के बीच ऊर्जा का अंतर बहुत कम होता है।"
+    }
+  }
+]

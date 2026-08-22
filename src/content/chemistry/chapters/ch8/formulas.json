@@ -1,0 +1,46 @@
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "General Formula of Aldehydes and Ketones",
+      "hi": "एल्डिहाइड और कीटोन का सामान्य सूत्र",
+      "hinglish": "Aldehydes aur Ketones ka General Formula"
+    },
+    "formula": "C_nH_{2n}O",
+    "variables": [
+      {
+        "symbol": "n",
+        "name": {
+          "en": "Number of carbon atoms",
+          "hi": "कार्बन परमाणुओं की संख्या"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "This formula represents saturated, acyclic aldehydes and ketones. They are functional isomers of each other.",
+      "hi": "यह सूत्र संतृप्त, अचक्रीय एल्डिहाइड और कीटोन का प्रतिनिधित्व करता है। वे एक दूसरे के क्रियात्मक समावयवी (functional isomers) हैं।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "General Formula of Carboxylic Acids",
+      "hi": "कार्बोक्सिलिक अम्ल का सामान्य सूत्र",
+      "hinglish": "Carboxylic Acids ka General Formula"
+    },
+    "formula": "C_nH_{2n}O_2",
+    "variables": [
+      {
+        "symbol": "n",
+        "name": {
+          "en": "Number of carbon atoms",
+          "hi": "कार्बन परमाणुओं की संख्या"
+        }
+      }
+    ],
+    "explanation": {
+      "en": "This formula represents saturated, acyclic monocarboxylic acids. They are functional isomers of esters.",
+      "hi": "यह सूत्र संतृप्त, अचक्रीय मोनोकार्बोक्सिलिक एसिड का प्रतिनिधित्व करता है। वे एस्टर के क्रियात्मक समावयवी हैं।"
+    }
+  }
+]

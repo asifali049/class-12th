@@ -1,0 +1,96 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of Gabriel Phthalimide Synthesis",
+      "hi": "गेब्रियल थैलिमाइड संश्लेषण की क्रियाविधि",
+      "hinglish": "Gabriel Phthalimide Synthesis ki Mechanism"
+    },
+    "given": {
+      "en": "Synthesis of pure primary aliphatic amines starting from Phthalimide.",
+      "hi": "थैलिमाइड से शुरू करके शुद्ध प्राथमिक एलिफैटिक एमीन का संश्लेषण।"
+    },
+    "toFind": {
+      "en": "The step-by-step mechanism of the synthesis.",
+      "hi": "संश्लेषण की चरण-दर-चरण क्रियाविधि।"
+    },
+    "concept": {
+      "en": "It involves the formation of potassium phthalimide, followed by nucleophilic substitution with an alkyl halide, and finally alkaline hydrolysis.",
+      "hi": "इसमें पोटेशियम थैलिमाइड का निर्माण, उसके बाद एल्किल हैलाइड के साथ नाभिकरागी प्रतिस्थापन, और अंत में क्षारीय जल अपघटन शामिल है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Formation of Potassium Phthalimide",
+          "hi": "चरण 1: पोटेशियम थैलिमाइड का निर्माण"
+        },
+        "content": {
+          "en": "Phthalimide reacts with ethanolic potassium hydroxide (KOH). The acidic N-H proton is removed to form the nucleophilic potassium phthalimide salt.\\nPhthalimide + $KOH \\rightarrow$ Potassium phthalimide + $H_2O$",
+          "hi": "थैलिमाइड इथेनॉल युक्त पोटेशियम हाइड्रॉक्साइड (KOH) के साथ अभिक्रिया करता है। नाभिकरागी पोटेशियम थैलिमाइड लवण बनाने के लिए अम्लीय N-H प्रोटॉन को हटा दिया जाता है।\\nथैलिमाइड + $KOH \\rightarrow$ पोटेशियम थैलिमाइड + $H_2O$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Alkylation ($S_N2$ Reaction)",
+          "hi": "चरण 2: ऐल्किलन ($S_N2$ अभिक्रिया)"
+        },
+        "content": {
+          "en": "The phthalimide anion (nucleophile) attacks an alkyl halide (RX) in an $S_N2$ mechanism to form N-alkylphthalimide.\\nPotassium phthalimide + $RX \\rightarrow$ N-alkylphthalimide + $KX$",
+          "hi": "थैलिमाइड ऋणायन (नाभिकरागी) N-एल्किलथैलिमाइड बनाने के लिए $S_N2$ तंत्र में एक एल्किल हैलाइड (RX) पर आक्रमण करता है।\\nपोटेशियम थैलिमाइड + $RX \\rightarrow$ N-एल्किलथैलिमाइड + $KX$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Alkaline Hydrolysis",
+          "hi": "चरण 3: क्षारीय जल अपघटन"
+        },
+        "content": {
+          "en": "The N-alkylphthalimide is heated with aqueous NaOH or KOH. It undergoes hydrolysis to yield the pure primary amine and the salt of phthalic acid.\\nN-alkylphthalimide + $2NaOH(aq) \\rightarrow$ Primary Amine ($R-NH_2$) + Sodium phthalate",
+          "hi": "N-एल्किलथैलिमाइड को जलीय NaOH या KOH के साथ गर्म किया जाता है। शुद्ध प्राथमिक एमीन और थैलिक एसिड का लवण देने के लिए इसका जल अपघटन होता है।\\nN-एल्किलथैलिमाइड + $2NaOH(aq) \\rightarrow$ प्राथमिक एमीन ($R-NH_2$) + सोडियम थैलेट"
+        }
+      }
+    ],
+    "finalResult": "Overall product: Pure primary aliphatic amine ($R-NH_2$).",
+    "examTip": {
+      "en": "This method CANNOT be used to prepare primary aromatic amines (like aniline) because aryl halides do not undergo $S_N2$ nucleophilic substitution with the phthalimide anion under normal conditions.",
+      "hi": "इस विधि का उपयोग प्राथमिक एरोमैटिक एमीन (जैसे एनिलीन) तैयार करने के लिए नहीं किया जा सकता है क्योंकि एरिल हैलाइड सामान्य परिस्थितियों में थैलिमाइड ऋणायन के साथ $S_N2$ नाभिकरागी प्रतिस्थापन से नहीं गुजरते हैं।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Mechanism of Hoffmann Bromamide Degradation",
+      "hi": "हॉफमैन ब्रोमेमाइड निम्नीकरण की क्रियाविधि",
+      "hinglish": "Hoffmann Bromamide Degradation ki Mechanism"
+    },
+    "given": {
+      "en": "An amide ($R-CONH_2$) treated with bromine ($Br_2$) and an aqueous/ethanolic solution of NaOH.",
+      "hi": "ब्रोमीन ($Br_2$) और NaOH के जलीय/इथेनॉल विलयन के साथ अभिकृत एक एमाइड ($R-CONH_2$)।"
+    },
+    "toFind": {
+      "en": "Formation of a primary amine with one carbon less than the parent amide.",
+      "hi": "मूल एमाइड से एक कार्बन कम वाले प्राथमिक एमीन का निर्माण।"
+    },
+    "concept": {
+      "en": "It involves the migration of an alkyl or aryl group from the carbonyl carbon of the amide to the nitrogen atom.",
+      "hi": "इसमें एमाइड के कार्बोनिल कार्बन से नाइट्रोजन परमाणु में एल्किल या एरिल समूह का प्रवास (migration) शामिल है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Key features (Mechanism steps are generally not required for Board exams, but overall reaction is critical)",
+          "hi": "मुख्य विशेषताएं (बोर्ड परीक्षा के लिए आमतौर पर क्रियाविधि चरणों की आवश्यकता नहीं होती है, लेकिन समग्र अभिक्रिया महत्वपूर्ण है)"
+        },
+        "content": {
+          "en": "The reaction proceeds via the formation of N-bromoamide, followed by removal of a proton to form a bromamide anion. The alkyl group rearranges from carbonyl carbon to nitrogen (forming an isocyanate intermediate), which is then hydrolyzed by base to give the primary amine.\\n$R-CONH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$",
+          "hi": "अभिक्रिया N-ब्रोमोएमाइड के निर्माण के माध्यम से आगे बढ़ती है, इसके बाद ब्रोमेमाइड ऋणायन बनाने के लिए एक प्रोटॉन को हटा दिया जाता है। एल्किल समूह कार्बोनिल कार्बन से नाइट्रोजन (आइसोसाइनेट मध्यवर्ती का निर्माण) में पुनर्व्यवस्थित होता है, जिसे बाद में प्राथमिक एमीन देने के लिए क्षार द्वारा जल अपघटित किया जाता है।\\n$R-CONH_2 + Br_2 + 4NaOH \\rightarrow R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$"
+        }
+      }
+    ],
+    "finalResult": "Primary amine ($R-NH_2$) with one less carbon atom.",
+    "examTip": {
+      "en": "This is a step-down reaction, widely used in conversions to decrease the carbon chain length by one.",
+      "hi": "यह एक 'स्टेप-डाउन' अभिक्रिया है, जिसका व्यापक रूप से कार्बन श्रृंखला की लंबाई को एक से कम करने के लिए रूपांतरणों में उपयोग किया जाता है।"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Coordination Compounds",
+    "hi": "उपसहसंयोजक यौगिक",
+    "hinglish": "Coordination Compounds"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Basic Terms",
+        "hi": "मूल शब्दावली"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Coordination Entity", "hi": "उपसहसंयोजन सत्ता" } },
+        { "id": "c1b", "label": { "en": "Central Atom/Ion", "hi": "केंद्रीय परमाणु/आयन" } },
+        { "id": "c1c", "label": { "en": "Ligands (Unidentate, Didentate, Polydentate, Ambidentate)", "hi": "लिगेंड (एकदंतुर, द्विदंतुर, बहुदंतुर, उभयदंतुर)" } },
+        { "id": "c1d", "label": { "en": "Coordination Number (CN)", "hi": "उपसहसंयोजन संख्या (CN)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Nomenclature (IUPAC)",
+        "hi": "नामकरण (IUPAC)"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Cation first, then anion", "hi": "धनायन पहले, फिर ऋणायन" } },
+        { "id": "c2b", "label": { "en": "Alphabetical order of ligands", "hi": "लिगेंड्स का वर्णमाला क्रम" } },
+        { "id": "c2c", "label": { "en": "Oxidation state in Roman numerals", "hi": "रोमन अंकों में ऑक्सीकरण अवस्था" } },
+        { "id": "c2d", "label": { "en": "'-ate' suffix for anionic complex", "hi": "ऋणायन संकुल के लिए '-ate' प्रत्यय" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Isomerism",
+        "hi": "समावयवता"
+      },
+      "children": [
+        {
+          "id": "c3a",
+          "label": { "en": "Structural", "hi": "संरचनात्मक" },
+          "children": [
+            { "id": "c3a1", "label": { "en": "Linkage (Ambidentate)", "hi": "बंधनी (उभयदंतुर)" } },
+            { "id": "c3a2", "label": { "en": "Coordination", "hi": "उपसहसंयोजन" } },
+            { "id": "c3a3", "label": { "en": "Ionisation", "hi": "आयनन" } },
+            { "id": "c3a4", "label": { "en": "Solvate", "hi": "विलायक" } }
+          ]
+        },
+        {
+          "id": "c3b",
+          "label": { "en": "Stereoisomerism", "hi": "त्रिविम समावयवता" },
+          "children": [
+            { "id": "c3b1", "label": { "en": "Geometrical (cis/trans, fac/mer)", "hi": "ज्यामितीय (सिस/ट्रांस, फलकीय/रेखांशिक)" } },
+            { "id": "c3b2", "label": { "en": "Optical (d/l)", "hi": "प्रकाशिक (d/l)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Theories of Bonding",
+        "hi": "बंधन के सिद्धांत"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Werner's Theory (Primary & Secondary Valency)", "hi": "वर्नर सिद्धांत (प्राथमिक और द्वितीयक संयोजकता)" } },
+        {
+          "id": "c4b",
+          "label": { "en": "Valence Bond Theory (VBT)", "hi": "संयोजकता आबंध सिद्धांत (VBT)" },
+          "children": [
+            { "id": "c4b1", "label": { "en": "Hybridization (sp3, dsp2, sp3d2, d2sp3)", "hi": "संकरण (sp3, dsp2, sp3d2, d2sp3)" } },
+            { "id": "c4b2", "label": { "en": "Inner (low spin) vs Outer (high spin) orbital", "hi": "आंतरिक (निम्न चक्रण) बनाम बाह्य (उच्च चक्रण) कक्षक" } }
+          ]
+        },
+        {
+          "id": "c4c",
+          "label": { "en": "Crystal Field Theory (CFT)", "hi": "क्रिस्टल क्षेत्र सिद्धांत (CFT)" },
+          "children": [
+            { "id": "c4c1", "label": { "en": "Splitting of d-orbitals (t2g, eg)", "hi": "d-कक्षकों का विपाटन (t2g, eg)" } },
+            { "id": "c4c2", "label": { "en": "Spectrochemical Series", "hi": "स्पेक्ट्रोकेमिकल श्रेणी" } },
+            { "id": "c4c3", "label": { "en": "Colour in complexes (d-d transition)", "hi": "संकुलों में रंग (d-d संक्रमण)" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

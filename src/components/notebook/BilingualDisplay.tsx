@@ -20,7 +20,7 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     if (language === 'hi') {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          <div className={hindiClass}><Latex>{content.hi}</Latex></div>
+          {content.hi ? <div className={hindiClass}><Latex>{content.hi}</Latex></div> : null}
           {/* Optionally show English term if it's very short, but for now we prioritize clean single-language display unless it's a heading where both might be useful */}
           {asHeading && content.en && (
             <div className={`${englishClass} text-[0.8em] text-slate-500 opacity-80`}><Latex>{content.en}</Latex></div>
@@ -32,7 +32,7 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     if (language === 'en') {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          <div className={englishClass}><Latex>{content.en}</Latex></div>
+          {content.en ? <div className={englishClass}><Latex>{content.en}</Latex></div> : null}
         </div>
       );
     }
@@ -40,8 +40,8 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     // hinglish mode
     return (
       <div className={`flex flex-col gap-2 ${className}`}>
-        <div className={englishClass}><Latex>{content.hinglish || content.en}</Latex></div>
-        <div className={`${hindiClass} text-slate-600 opacity-90`}><Latex>{content.hi}</Latex></div>
+        {(content.hinglish || content.en) ? <div className={englishClass}><Latex>{content.hinglish || content.en || ''}</Latex></div> : null}
+        {content.hi ? <div className={`${hindiClass} text-slate-600 opacity-90`}><Latex>{content.hi}</Latex></div> : null}
       </div>
     );
   }

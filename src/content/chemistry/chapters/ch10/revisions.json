@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Reducing and Non-Reducing Sugars",
+      "hi": "अपचायी और अनपचायी शर्करा",
+      "hinglish": "Reducing aur Non-Reducing Sugars"
+    },
+    "summary": {
+      "en": "**Reducing Sugars**: Carbohydrates that reduce Fehling's solution and Tollen's reagent. They have a free aldehyde or ketone group (free anomeric carbon). Examples: All monosaccharides (Glucose, Fructose), Maltose, Lactose. \n**Non-Reducing Sugars**: Do not reduce these reagents because the reducing groups are involved in glycosidic bond formation (no free anomeric carbon). Example: Sucrose.",
+      "hi": "**अपचायी शर्करा (Reducing Sugars)**: कार्बोहाइड्रेट जो फेलिंग विलयन और टॉलेन अभिकर्मक को अपचयित करते हैं। इनमें एक मुक्त एल्डिहाइड या कीटोन समूह (मुक्त एनोमेरिक कार्बन) होता है। उदाहरण: सभी मोनोसैकेराइड (ग्लूकोज, फ्रुक्टोज), माल्टोज, लैक्टोज।\n**अनपचायी शर्करा (Non-Reducing Sugars)**: इन अभिकर्मकों को अपचयित नहीं करते हैं क्योंकि अपचायी समूह ग्लाइकोसिडिक बंध निर्माण में शामिल होते हैं (कोई मुक्त एनोमेरिक कार्बन नहीं)। उदाहरण: सुक्रोज।",
+      "hinglish": "**Reducing Sugars**: Jo Fehling aur Tollen's ko reduce karein. Unme free anomeric carbon hota hai. Examples: Glucose, Fructose, Maltose, Lactose. \n**Non-Reducing Sugars**: Jo reduce na karein kyunki unka anomeric carbon glycosidic bond banane mein busy hota hai. Example: Sucrose."
+    },
+    "quickRecall": [
+      {
+        "en": "Reducing = Free anomeric carbon (Glucose, Maltose, Lactose)",
+        "hi": "अपचायी = मुक्त एनोमेरिक कार्बन (ग्लूकोज, माल्टोज, लैक्टोज)"
+      },
+      {
+        "en": "Non-Reducing = Bonded anomeric carbon (Sucrose)",
+        "hi": "अनपचायी = बंधित एनोमेरिक कार्बन (सुक्रोज)"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Denaturation of Proteins",
+      "hi": "प्रोटीन का विकृतीकरण",
+      "hinglish": "Proteins ka Denaturation"
+    },
+    "summary": {
+      "en": "When a protein in its native form is subjected to physical change (like temperature) or chemical change (like pH), the hydrogen bonds are disturbed. \nDue to this, globules unfold and helix gets uncoiled, and protein loses its biological activity. This is called denaturation. \n**Important**: During denaturation, secondary ($2^\\circ$) and tertiary ($3^\\circ$) structures are destroyed, but the primary ($1^\\circ$) structure remains intact.",
+      "hi": "जब अपने मूल रूप में एक प्रोटीन भौतिक परिवर्तन (जैसे तापमान) या रासायनिक परिवर्तन (जैसे pH) के अधीन होता है, तो हाइड्रोजन बांड भंग हो जाते हैं।\nइसके कारण, ग्लोब्यूल खुल जाते हैं और हेलिक्स अकुंडलित हो जाते हैं, और प्रोटीन अपनी जैविक गतिविधि खो देता है। इसे विकृतीकरण कहा जाता है।\n**महत्वपूर्ण**: विकृतीकरण के दौरान, द्वितीयक ($2^\\circ$) और तृतीयक ($3^\\circ$) संरचनाएं नष्ट हो जाती हैं, लेकिन प्राथमिक ($1^\\circ$) संरचना बरकरार रहती है।",
+      "hinglish": "Heat ya pH change karne se protein ke H-bonds toot jate hain. Protein uncoil ho jata hai aur apni biological activity kho deta hai, ise Denaturation kehte hain.\n**Imp**: Denaturation mein 2° aur 3° structure destroy hote hain, par 1° structure waisa hi rehta hai (peptide bonds nahi toot'te)."
+    },
+    "quickRecall": [
+      {
+        "en": "Loss of biological activity due to heat/pH",
+        "hi": "गर्मी/pH के कारण जैविक गतिविधि का नुकसान"
+      },
+      {
+        "en": "2° and 3° structures are destroyed",
+        "hi": "2° और 3° संरचनाएं नष्ट हो जाती हैं"
+      },
+      {
+        "en": "1° structure remains safe",
+        "hi": "1° संरचना सुरक्षित रहती है"
+      }
+    ]
+  }
+]

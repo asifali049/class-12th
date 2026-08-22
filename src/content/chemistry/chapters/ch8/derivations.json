@@ -1,0 +1,106 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of Nucleophilic Addition to Carbonyl Group",
+      "hi": "कार्बोनिल समूह में नाभिकरागी योग की क्रियाविधि",
+      "hinglish": "Carbonyl Group mein Nucleophilic Addition ki Mechanism"
+    },
+    "given": {
+      "en": "A general carbonyl compound (aldehyde or ketone) reacting with a nucleophile ($Nu^-$).",
+      "hi": "एक नाभिकरागी ($Nu^-$) के साथ प्रतिक्रिया करने वाला एक सामान्य कार्बोनिल यौगिक (एल्डिहाइड या कीटोन)।"
+    },
+    "toFind": {
+      "en": "The step-by-step mechanism of addition.",
+      "hi": "योग की चरण-दर-चरण क्रियाविधि।"
+    },
+    "concept": {
+      "en": "The nucleophile attacks the electrophilic carbonyl carbon, breaking the $\\pi$-bond and forming a tetrahedral intermediate. This is followed by protonation.",
+      "hi": "नाभिकरागी इलेक्ट्रॉनरागी कार्बोनिल कार्बन पर आक्रमण करता है, जिससे $\\pi$-बंध टूट जाता है और एक चतुष्फलकीय मध्यवर्ती बनता है। इसके बाद प्रोटॉनीकरण होता है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Nucleophilic Attack on Carbonyl Carbon",
+          "hi": "चरण 1: कार्बोनिल कार्बन पर नाभिकरागी आक्रमण"
+        },
+        "content": {
+          "en": "The nucleophile ($Nu^-$) attacks the electrophilic carbon of the polar C=O bond from a direction approximately perpendicular to the plane of $sp^2$ hybridized orbitals of carbonyl carbon. The $\\pi$-electron cloud transfers to the oxygen atom. This is the slow (rate-determining) step.\\n$>C=O + Nu^- \\rightleftharpoons >C(Nu)-O^-$",
+          "hi": "नाभिकरागी ($Nu^-$) कार्बोनिल कार्बन के $sp^2$ संकरित कक्षकों के तल के लगभग लंबवत दिशा से ध्रुवीय C=O बंध के इलेक्ट्रॉनरागी कार्बन पर आक्रमण करता है। $\\pi$-इलेक्ट्रॉन बादल ऑक्सीजन परमाणु में स्थानांतरित हो जाता है। यह धीमा (दर-निर्धारक) चरण है।\\n$>C=O + Nu^- \\rightleftharpoons >C(Nu)-O^-$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Protonation of Alkoxide Ion",
+          "hi": "चरण 2: एल्कॉक्साइड आयन का प्रोटॉनीकरण"
+        },
+        "content": {
+          "en": "The tetrahedral alkoxide intermediate captures a proton from the reaction medium (e.g., from a solvent like water or alcohol) to give the electrically neutral product. This is a fast step.\\n$>C(Nu)-O^- + H^+ \\rightleftharpoons >C(Nu)-OH$",
+          "hi": "चतुष्फलकीय एल्कॉक्साइड मध्यवर्ती विद्युत रूप से उदासीन उत्पाद देने के लिए प्रतिक्रिया माध्यम (उदा. पानी या एल्कोहॉल जैसे विलायक से) से एक प्रोटॉन पकड़ लेता है। यह एक तेज चरण है।\\n$>C(Nu)-O^- + H^+ \\rightleftharpoons >C(Nu)-OH$"
+        }
+      }
+    ],
+    "finalResult": "Overall reaction: $>C=O + Nu-H \\rightarrow >C(Nu)(OH)$",
+    "examTip": {
+      "en": "In this process, the hybridization of carbon changes from $sp^2$ (planar) to $sp^3$ (tetrahedral). Aldehydes undergo this reaction faster than ketones.",
+      "hi": "इस प्रक्रिया में, कार्बन का संकरण $sp^2$ (समतलीय) से $sp^3$ (चतुष्फलकीय) में बदल जाता है। एल्डिहाइड कीटोन्स की तुलना में इस अभिक्रिया से तेजी से गुजरते हैं।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Mechanism of Aldol Condensation",
+      "hi": "एल्डोल संघनन की क्रियाविधि",
+      "hinglish": "Aldol Condensation ki Mechanism"
+    },
+    "given": {
+      "en": "Two molecules of an aldehyde (e.g., ethanal) reacting in the presence of dilute base (e.g., NaOH).",
+      "hi": "तनु क्षार (उदा. NaOH) की उपस्थिति में अभिक्रिया करने वाले एल्डिहाइड (उदा. एथेनल) के दो अणु।"
+    },
+    "toFind": {
+      "en": "Mechanism of formation of $\\beta$-hydroxy aldehyde (Aldol).",
+      "hi": "$\\beta$-हाइड्रॉक्सी एल्डिहाइड (एल्डोल) के निर्माण की क्रियाविधि।"
+    },
+    "concept": {
+      "en": "Base removes an $\\alpha$-proton to form an enolate ion, which acts as a nucleophile and attacks the carbonyl carbon of another un-ionized aldehyde molecule.",
+      "hi": "क्षार एक एनोलेट आयन बनाने के लिए एक $\\alpha$-प्रोटॉन निकाल देता है, जो एक नाभिकरागी के रूप में कार्य करता है और दूसरे गैर-आयनित एल्डिहाइड अणु के कार्बोनिल कार्बन पर आक्रमण करता है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Formation of Enolate Ion",
+          "hi": "चरण 1: एनोलेट आयन का निर्माण"
+        },
+        "content": {
+          "en": "The base ($OH^-$) removes an acidic $\\alpha$-hydrogen from ethanal to form a resonance-stabilized enolate ion.\\n$CH_3-CHO + OH^- \\rightleftharpoons ^-CH_2-CHO + H_2O$",
+          "hi": "क्षार ($OH^-$) एक अनुनाद-स्थिर एनोलेट आयन बनाने के लिए एथेनल से एक अम्लीय $\\alpha$-हाइड्रोजन निकाल देता है।\\n$CH_3-CHO + OH^- \\rightleftharpoons ^-CH_2-CHO + H_2O$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Nucleophilic Attack",
+          "hi": "चरण 2: नाभिकरागी आक्रमण"
+        },
+        "content": {
+          "en": "The enolate ion (nucleophile) attacks the carbonyl carbon of another ethanal molecule to form an alkoxide ion.\\n$CH_3-CHO + ^-CH_2-CHO \\rightleftharpoons CH_3-CH(O^-)-CH_2-CHO$",
+          "hi": "एनोलेट आयन (नाभिकरागी) एल्कॉक्साइड आयन बनाने के लिए दूसरे एथेनल अणु के कार्बोनिल कार्बन पर आक्रमण करता है।\\n$CH_3-CHO + ^-CH_2-CHO \\rightleftharpoons CH_3-CH(O^-)-CH_2-CHO$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Protonation",
+          "hi": "चरण 3: प्रोटॉनीकरण"
+        },
+        "content": {
+          "en": "The alkoxide ion takes a proton from water to form Aldol (3-Hydroxybutanal) and regenerates the base.\\n$CH_3-CH(O^-)-CH_2-CHO + H_2O \\rightleftharpoons CH_3-CH(OH)-CH_2-CHO + OH^-$",
+          "hi": "एल्कॉक्साइड आयन एल्डोल (3-हाइड्रॉक्सीब्यूटेनल) बनाने के लिए पानी से एक प्रोटॉन लेता है और क्षार को पुनर्जीवित करता है।\\n$CH_3-CH(O^-)-CH_2-CHO + H_2O \\rightleftharpoons CH_3-CH(OH)-CH_2-CHO + OH^-$"
+        }
+      }
+    ],
+    "finalResult": "Overall reaction: $2CH_3CHO \\xrightarrow{dil. NaOH} CH_3CH(OH)CH_2CHO$",
+    "examTip": {
+      "en": "Remember that only the $\\alpha$-hydrogens are acidic. Aldehydes without $\\alpha$-hydrogens (like HCHO or PhCHO) do not undergo aldol condensation; they undergo Cannizzaro reaction instead.",
+      "hi": "याद रखें कि केवल $\\alpha$-हाइड्रोजन अम्लीय होते हैं। बिना $\\alpha$-हाइड्रोजन वाले एल्डिहाइड (जैसे HCHO या PhCHO) एल्डोल संघनन से नहीं गुजरते हैं; इसके बजाय वे कैनिज़ारो अभिक्रिया से गुजरते हैं।"
+    }
+  }
+]

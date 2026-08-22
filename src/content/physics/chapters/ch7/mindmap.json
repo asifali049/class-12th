@@ -1,69 +1,8 @@
 {
   "id": "root",
   "label": {
-    "en": "Alternating Current",
-    "hi": "प्रत्यावर्ती धारा",
-    "hinglish": "Alternating Current"
+    "en": "AC",
+    "hi": "प्रत्यावर्ती धारा"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": {
-        "en": "AC Values",
-        "hi": "AC के मान"
-      },
-      "children": [
-        { "id": "c1a", "label": { "en": "Peak: I₀, V₀", "hi": "शिखर: I₀, V₀" } },
-        { "id": "c1b", "label": { "en": "RMS: I_rms = I₀/√2", "hi": "RMS: I_rms = I₀/√2" } },
-        { "id": "c1c", "label": { "en": "Mean (half cycle): I = 2I₀/π", "hi": "औसत (आधा चक्र): I = 2I₀/π" } }
-      ]
-    },
-    {
-      "id": "c2",
-      "label": {
-        "en": "AC Circuits",
-        "hi": "AC परिपथ"
-      },
-      "children": [
-        { "id": "c2a", "label": { "en": "Pure R: V, I in phase", "hi": "शुद्ध R: V, I समान कला में" } },
-        { "id": "c2b", "label": { "en": "Pure L: V leads I by 90°", "hi": "शुद्ध L: V, I से 90° आगे" } },
-        { "id": "c2c", "label": { "en": "Pure C: I leads V by 90°", "hi": "शुद्ध C: I, V से 90° आगे" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": {
-        "en": "LCR Series Circuit",
-        "hi": "LCR श्रेणी परिपथ"
-      },
-      "children": [
-        { "id": "c3a", "label": { "en": "Impedance: Z = √[R² + (X_L - X_C)²]", "hi": "प्रतिबाधा: Z = √[R² + (X_L - X_C)²]" } },
-        { "id": "c3b", "label": { "en": "Resonance: X_L = X_C, Z = R", "hi": "अनुनाद: X_L = X_C, Z = R" } }
-      ]
-    },
-    {
-      "id": "c4",
-      "label": {
-        "en": "Power in AC",
-        "hi": "AC में शक्ति"
-      },
-      "children": [
-        { "id": "c4a", "label": { "en": "P_avg = V_rms I_rms cosφ", "hi": "P_avg = V_rms I_rms cosφ" } },
-        { "id": "c4b", "label": { "en": "Power Factor = cosφ", "hi": "शक्ति गुणांक = cosφ" } },
-        { "id": "c4c", "label": { "en": "Wattless Current (φ=90°)", "hi": "वाटहीन धारा (φ=90°)" } }
-      ]
-    },
-    {
-      "id": "c5",
-      "label": {
-        "en": "Transformer",
-        "hi": "ट्रांसफार्मर"
-      },
-      "children": [
-        { "id": "c5a", "label": { "en": "Mutual Induction", "hi": "अन्योन्य प्रेरण" } },
-        { "id": "c5b", "label": { "en": "V_s/V_p = N_s/N_p", "hi": "V_s/V_p = N_s/N_p" } },
-        { "id": "c5c", "label": { "en": "Losses (Eddy, Hysteresis, Flux)", "hi": "हानियां (भंवर, शैथिल्य, फ्लक्स)" } }
-      ]
-    }
-  ]
+  "children": []
 }

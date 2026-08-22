@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Why Zn, Cd, Hg are not transition metals",
+      "hi": "Zn, Cd, Hg संक्रमण धातु क्यों नहीं हैं",
+      "hinglish": "Zn, Cd, Hg transition metals kyun nahi hain"
+    },
+    "summary": {
+      "en": "Because they have completely filled d-orbitals ($d^{10}$) in their ground state as well as in their common oxidation states. A transition metal must have incompletely filled d-orbitals.",
+      "hi": "क्योंकि उनकी मूल अवस्था के साथ-साथ उनकी सामान्य ऑक्सीकरण अवस्थाओं में d-कक्षक पूरी तरह से भरे हुए ($d^{10}$) होते हैं। एक संक्रमण धातु में अपूर्ण रूप से भरे हुए d-कक्षक होने चाहिए।",
+      "hinglish": "Kyunki inke ground state aur common oxidation state dono mein d-orbitals completely filled ($d^{10}$) hote hain. Transition metal ke paas incompletely filled d-orbitals hone chahiye."
+    },
+    "quickRecall": [
+      {
+        "en": "Zn, Cd, Hg = fully filled d10",
+        "hi": "Zn, Cd, Hg = पूरी तरह भरा हुआ d10"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Lanthanoid Contraction",
+      "hi": "लेंथेनॉइड आकुंचन",
+      "hinglish": "Lanthanoid Contraction"
+    },
+    "summary": {
+      "en": "The regular decrease in atomic and ionic radii along the lanthanoid series due to poor shielding of 4f electrons. It causes the radii of 5d series to be almost equal to 4d series (e.g., Zr and Hf).",
+      "hi": "4f इलेक्ट्रॉनों के खराब परिरक्षण के कारण लेंथेनॉइड श्रेणी के साथ परमाणु और आयनिक त्रिज्या में नियमित कमी। इसके कारण 5d श्रेणी की त्रिज्या 4d श्रेणी (उदा. Zr और Hf) के लगभग बराबर हो जाती है।",
+      "hinglish": "4f electrons ki poor shielding ke karan lanthanoid series mein atomic aur ionic radii ka regular decrease hona. Iski wajah se 5d aur 4d series ki radii almost equal ho jati hai (jaise Zr aur Hf)."
+    },
+    "quickRecall": [
+      {
+        "en": "Reason: Poor shielding of 4f e-",
+        "hi": "कारण: 4f e- का खराब परिरक्षण"
+      },
+      {
+        "en": "Result: Zr & Hf same radius",
+        "hi": "परिणाम: Zr और Hf समान त्रिज्या"
+      }
+    ]
+  }
+]

@@ -1,71 +1,8 @@
 {
   "id": "root",
   "label": {
-    "en": "Moving Charges & Magnetism",
-    "hi": "गतिमान आवेश और चुंबकत्व",
-    "hinglish": "Moving Charges & Magnetism"
+    "en": "Magnetism",
+    "hi": "चुंबकत्व"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": {
-        "en": "Magnetic Force",
-        "hi": "चुंबकीय बल"
-      },
-      "children": [
-        { "id": "c1a", "label": { "en": "On moving charge (F=qvBsinθ)", "hi": "गतिमान आवेश पर (F=qvBsinθ)" } },
-        { "id": "c1b", "label": { "en": "On current conductor (F=IlBsinθ)", "hi": "धारावाही चालक पर (F=IlBsinθ)" } },
-        { "id": "c1c", "label": { "en": "Lorentz Force", "hi": "लॉरेंज बल" } }
-      ]
-    },
-    {
-      "id": "c2",
-      "label": {
-        "en": "Biot-Savart Law",
-        "hi": "बायो-सावर्ट का नियम"
-      },
-      "children": [
-        { "id": "c2a", "label": { "en": "Formula (dB ∝ I dl sinθ / r²)", "hi": "सूत्र (dB ∝ I dl sinθ / r²)" } },
-        { "id": "c2b", "label": { "en": "Center of circular coil", "hi": "वृत्ताकार कुंडली के केंद्र पर" } },
-        { "id": "c2c", "label": { "en": "Axis of circular coil", "hi": "वृत्ताकार कुंडली के अक्ष पर" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": {
-        "en": "Ampere's Circuital Law",
-        "hi": "एम्पीयर का परिपथीय नियम"
-      },
-      "children": [
-        { "id": "c3a", "label": { "en": "Statement (∮B·dl = μ₀I)", "hi": "कथन (∮B·dl = μ₀I)" } },
-        { "id": "c3b", "label": { "en": "Straight infinitely long wire", "hi": "सीधा अनंत लंबाई का तार" } },
-        { "id": "c3c", "label": { "en": "Solenoid (B=μ₀nI)", "hi": "परिनालिका (B=μ₀nI)" } },
-        { "id": "c3d", "label": { "en": "Toroid", "hi": "टोराइड" } }
-      ]
-    },
-    {
-      "id": "c4",
-      "label": {
-        "en": "Force between Parallel Wires",
-        "hi": "समांतर तारों के बीच बल"
-      },
-      "children": [
-        { "id": "c4a", "label": { "en": "Same direction (Attract)", "hi": "समान दिशा (आकर्षण)" } },
-        { "id": "c4b", "label": { "en": "Opposite direction (Repel)", "hi": "विपरीत दिशा (प्रतिकर्षण)" } },
-        { "id": "c4c", "label": { "en": "Definition of 1 Ampere", "hi": "1 एम्पीयर की परिभाषा" } }
-      ]
-    },
-    {
-      "id": "c5",
-      "label": {
-        "en": "Moving Coil Galvanometer",
-        "hi": "चल कुंडली धारामापी"
-      },
-      "children": [
-        { "id": "c5a", "label": { "en": "Principle (Torque on coil)", "hi": "सिद्धांत (कुंडली पर बल आघूर्ण)" } },
-        { "id": "c5b", "label": { "en": "Conversion to Ammeter (Shunt)", "hi": "अमीटर में रूपांतरण (शंट)" } },
-        { "id": "c5c", "label": { "en": "Conversion to Voltmeter (High R)", "hi": "वोल्टमीटर में रूपांतरण (उच्च R)" } }
-      ]
-    }
-  ]
+  "children": []
 }

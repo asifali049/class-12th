@@ -1,0 +1,98 @@
+[
+  {
+    "id": "n1",
+    "title": {
+      "en": "Classification",
+      "hi": "वर्गीकरण",
+      "hinglish": "Classification"
+    },
+    "content": {
+      "en": "Alcohols and phenols are classified based on the number of hydroxyl (-OH) groups (mono, di, tri, or polyhydric). Monohydric alcohols are further classified based on the hybridization of the carbon attached to the -OH group: $sp^3$ (primary, secondary, tertiary, allylic, benzylic) and $sp^2$ (vinylic, phenolic).",
+      "hi": "एल्कोहॉल और फिनोल को हाइड्रॉक्सिल (-OH) समूहों की संख्या (मोनो, डाई, ट्राई, या पॉलीहाइड्रिक) के आधार पर वर्गीकृत किया जाता है। मोनोहाइड्रिक एल्कोहॉल को -OH समूह से जुड़े कार्बन के संकरण के आधार पर आगे वर्गीकृत किया जाता है: $sp^3$ (प्राथमिक, द्वितीयक, तृतीयक, एलिलिक, बेंजाइलिक) और $sp^2$ (विनाइलिक, फिनोलिक)।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Preparation of Alcohols",
+      "hi": "एल्कोहॉल का विरचन",
+      "hinglish": "Alcohols ki Preparation"
+    },
+    "content": {
+      "en": "1. **From Alkenes**: Acid-catalyzed hydration (Markovnikov), Hydroboration-oxidation (Anti-Markovnikov, gives primary alcohol). \n2. **From Carbonyl Compounds**: Reduction of aldehydes/ketones (using $H_2/Pd$, $LiAlH_4$, or $NaBH_4$) yields $1^\\circ$ and $2^\\circ$ alcohols. Reduction of carboxylic acids/esters (using $LiAlH_4$). \n3. **From Grignard Reagents**: Reaction with methanal gives $1^\\circ$ alcohol, other aldehydes give $2^\\circ$, and ketones give $3^\\circ$ alcohol.",
+      "hi": "1. **एल्कीन्स से**: अम्ल-उत्प्रेरित जलयोजन (मार्कोवनिकोव), हाइड्रोबोरेशन-ऑक्सीकरण (एंटी-मार्कोवनिकोव, प्राथमिक एल्कोहॉल देता है)।\n2. **कार्बोनिल यौगिकों से**: एल्डिहाइड/कीटोन का अपचयन ($H_2/Pd$, $LiAlH_4$, या $NaBH_4$ का उपयोग करके) $1^\\circ$ और $2^\\circ$ एल्कोहॉल देता है। कार्बोक्सिलिक एसिड/एस्टर का अपचयन ($LiAlH_4$ का उपयोग करके)।\n3. **ग्रिग्नार्ड अभिकर्मकों से**: मेथेनल के साथ अभिक्रिया $1^\\circ$ एल्कोहॉल देती है, अन्य एल्डिहाइड $2^\\circ$ देते हैं, और कीटोन $3^\\circ$ एल्कोहॉल देते हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Preparation of Phenols",
+      "hi": "फिनोल का विरचन",
+      "hinglish": "Phenols ki Preparation"
+    },
+    "content": {
+      "en": "1. **From Haloarenes (Dow Process)**: Chlorobenzene + NaOH at 623K, 300 atm, followed by acidification. \n2. **From Benzene Sulfonic Acid**: Fusion with NaOH. \n3. **From Diazonium Salts**: Warming with water. \n4. **From Cumene (Isopropylbenzene)**: Air oxidation to cumene hydroperoxide, followed by acid hydrolysis (gives phenol + acetone).",
+      "hi": "1. **हैलोऐरीन से (डाउ प्रक्रिया)**: क्लोरोबेंजीन + NaOH (623K, 300 atm पर), उसके बाद अम्लीकरण।\n2. **बेंजीन सल्फोनिक एसिड से**: NaOH के साथ गलन (Fusion)।\n3. **डायज़ोनियम लवण से**: पानी के साथ गर्म करना।\n4. **क्यूमीन (आइसोप्रोपिलबेंजीन) से**: क्यूमीन हाइड्रोपरॉक्साइड में वायु ऑक्सीकरण, उसके बाद अम्ल जल अपघटन (फिनोल + एसीटोन देता है)।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Physical Properties",
+      "hi": "भौतिक गुण",
+      "hinglish": "Physical Properties"
+    },
+    "content": {
+      "en": "**Boiling Points**: Alcohols and phenols have much higher boiling points than corresponding alkanes, haloalkanes, or ethers due to intermolecular hydrogen bonding. BP increases with carbon chain and decreases with branching. \n**Solubility**: Lower alcohols are highly soluble in water due to H-bonding. Solubility decreases as the hydrophobic alkyl/aryl group gets larger.",
+      "hi": "**क्वथनांक**: अंतर-आणविक हाइड्रोजन बांड के कारण एल्कोहॉल और फिनोल का क्वथनांक संबंधित एल्केन्स, हैलोऐल्केन्स या ईथर की तुलना में बहुत अधिक होता है। कार्बन श्रृंखला के साथ क्वथनांक बढ़ता है और शाखाओं के साथ घटता है।\n**विलेयता**: H-बांड के कारण निचले एल्कोहॉल पानी में अत्यधिक विलेय होते हैं। जैसे-जैसे हाइड्रोफोबिक एल्किल/एरिल समूह बड़ा होता जाता है, विलेयता घटती जाती है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Acidity of Alcohols and Phenols",
+      "hi": "एल्कोहॉल और फिनोल की अम्लता",
+      "hinglish": "Alcohols aur Phenols ki Acidity"
+    },
+    "content": {
+      "en": "They are weak acids (react with active metals like Na, K). **Phenols are more acidic than alcohols** because the phenoxide ion is resonance stabilized. Electron-withdrawing groups (EWG, like $-NO_2$) on phenol increase acidity (especially at ortho/para positions), while electron-donating groups (EDG, like $-CH_3$) decrease acidity.",
+      "hi": "वे दुर्बल अम्ल हैं (Na, K जैसी सक्रिय धातुओं के साथ प्रतिक्रिया करते हैं)। **फिनोल एल्कोहॉल की तुलना में अधिक अम्लीय होते हैं** क्योंकि फेनॉक्साइड आयन अनुनाद द्वारा स्थिर होता है। फिनोल पर इलेक्ट्रॉन खींचने वाले समूह (EWG, जैसे $-NO_2$) अम्लता बढ़ाते हैं (विशेष रूप से ऑर्थो/पैरा स्थितियों पर), जबकि इलेक्ट्रॉन दान करने वाले समूह (EDG, जैसे $-CH_3$) अम्लता कम करते हैं।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Reactions of Alcohols",
+      "hi": "एल्कोहॉल की अभिक्रियाएँ",
+      "hinglish": "Alcohols ki Reactions"
+    },
+    "content": {
+      "en": "1. **Esterification**: Reaction with carboxylic acids, acid chlorides, or anhydrides to form esters. \n2. **Dehydration**: Heating with conc. $H_2SO_4$ forms alkenes (at 443K) or ethers (at 413K). Reactivity: $3^\\circ > 2^\\circ > 1^\\circ$. \n3. **Oxidation**: Primary alcohols $\\rightarrow$ Aldehydes (using PCC/CrO3) $\\rightarrow$ Carboxylic acids (using $KMnO_4$). Secondary alcohols $\\rightarrow$ Ketones. Tertiary alcohols do not undergo mild oxidation.",
+      "hi": "1. **एस्ट्रीकरण**: एस्टर बनाने के लिए कार्बोक्सिलिक एसिड, एसिड क्लोराइड या एनहाइड्राइड के साथ प्रतिक्रिया।\n2. **निर्जलीकरण**: सांद्र $H_2SO_4$ के साथ गर्म करने पर एल्कीन (443K पर) या ईथर (413K पर) बनते हैं। क्रियाशीलता: $3^\\circ > 2^\\circ > 1^\\circ$।\n3. **ऑक्सीकरण**: प्राथमिक एल्कोहॉल $\\rightarrow$ एल्डिहाइड (PCC/CrO3 का उपयोग करके) $\\rightarrow$ कार्बोक्सिलिक एसिड ($KMnO_4$ का उपयोग करके)। द्वितीयक एल्कोहॉल $\\rightarrow$ कीटोन। तृतीयक एल्कोहॉल हल्के ऑक्सीकरण से नहीं गुजरते हैं।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Reactions of Phenols",
+      "hi": "फिनोल की अभिक्रियाएँ",
+      "hinglish": "Phenols ki Reactions"
+    },
+    "content": {
+      "en": "1. **Electrophilic Substitution**: -OH is o/p directing and activating. \n   - Nitration: Dilute $HNO_3$ gives o/p-nitrophenol. Conc. $HNO_3$ gives 2,4,6-trinitrophenol (Picric acid). \n   - Halogenation: Bromine water gives 2,4,6-tribromophenol (white ppt). $Br_2$ in $CS_2$ at low temp gives o/p-bromophenol. \n2. **Kolbe's Reaction**: Phenol + NaOH + $CO_2$ followed by acidification gives Salicylic acid. \n3. **Reimer-Tiemann Reaction**: Phenol + $CHCl_3$ + aq. NaOH gives Salicylaldehyde.",
+      "hi": "1. **इलेक्ट्रॉनरागी प्रतिस्थापन**: -OH ऑर्थो/पैरा निर्देशक और सक्रियकारी है।\n   - नाइट्रीकरण: तनु $HNO_3$ o/p-नाइट्रोफिनोल देता है। सांद्र $HNO_3$ 2,4,6-ट्राईनाइट्रोफिनोल (पिक्रिक एसिड) देता है।\n   - हैलोजनीकरण: ब्रोमीन जल 2,4,6-ट्राईब्रोमोफिनोल (सफेद अवक्षेप) देता है। कम तापमान पर $CS_2$ में $Br_2$, o/p-ब्रोमोफिनोल देता है।\n2. **कोल्बे अभिक्रिया**: फिनोल + NaOH + $CO_2$ और उसके बाद अम्लीकरण से सैलिसिलिक एसिड बनता है।\n3. **राइमर-टीमन अभिक्रिया**: फिनोल + $CHCl_3$ + जलीय NaOH सैलिसिल्डिहाइड देता है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Ethers: Preparation and Properties",
+      "hi": "ईथर: विरचन और गुण",
+      "hinglish": "Ethers: Preparation aur Properties"
+    },
+    "content": {
+      "en": "**Preparation**: 1. Dehydration of alcohols (at 413K). 2. **Williamson Synthesis**: Reaction of alkyl halide with sodium alkoxide ($R-X + R'-ONa \\rightarrow R-O-R' + NaX$). Best for forming unsymmetrical ethers; alkyl halide must be $1^\\circ$. \n**Cleavage by HI**: Ethers are cleaved by HI. For unsymmetrical ethers, the halide goes with the smaller alkyl group (if $1^\\circ$ or $2^\\circ$). If one group is tertiary ($3^\\circ$), the halide goes with the tertiary group (via $S_N1$). In alkyl aryl ethers, cleavage always gives phenol and alkyl halide.",
+      "hi": "**विरचन**: 1. एल्कोहॉल का निर्जलीकरण (413K पर)। 2. **विलियमसन संश्लेषण**: सोडियम एल्कॉक्साइड के साथ एल्किल हैलाइड की अभिक्रिया ($R-X + R'-ONa \\rightarrow R-O-R' + NaX$)। असममित ईथर बनाने के लिए सर्वोत्तम; एल्किल हैलाइड $1^\\circ$ होना चाहिए।\n**HI द्वारा विदलन**: ईथर HI द्वारा विदलित हो जाते हैं। असममित ईथर के लिए, हैलाइड छोटे एल्किल समूह (यदि $1^\\circ$ या $2^\\circ$ है) के साथ जाता है। यदि एक समूह तृतीयक ($3^\\circ$) है, तो हैलाइड तृतीयक समूह के साथ जाता है ($S_N1$ के माध्यम से)। एल्किल एरिल ईथर में, विदलन हमेशा फिनोल और एल्किल हैलाइड देता है।"
+    }
+  }
+]

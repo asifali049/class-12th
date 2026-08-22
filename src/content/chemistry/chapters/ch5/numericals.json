@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Calculate the Effective Atomic Number (EAN) of Cobalt in $[Co(NH_3)_6]^{3+}$.",
+      "hi": "$[Co(NH_3)_6]^{3+}$ में कोबाल्ट की प्रभावी परमाणु संख्या (EAN) की गणना कीजिए।",
+      "hinglish": "$[Co(NH_3)_6]^{3+}$ mein Cobalt ka Effective Atomic Number (EAN) calculate karein."
+    },
+    "given": {
+      "en": "Atomic number of Co ($Z$) = 27. Complex is $[Co(NH_3)_6]^{3+}$.",
+      "hi": "Co का परमाणु क्रमांक ($Z$) = 27। संकुल $[Co(NH_3)_6]^{3+}$ है।"
+    },
+    "required": {
+      "en": "Effective Atomic Number (EAN)",
+      "hi": "प्रभावी परमाणु संख्या (EAN)"
+    },
+    "formula": "$\\text{EAN} = Z - X + 2Y$",
+    "substitution": "$\\text{EAN} = 27 - 3 + 2(6)$",
+    "calculation": "1. Find oxidation state ($X$) of Co: Let it be $x$. $x + 6(0) = +3 \\implies x = +3$. So, $X = 3$.<br>2. Find coordination number ($Y$): There are 6 unidentate $NH_3$ ligands. So, $Y = 6$.<br>3. Calculate EAN: $\\text{EAN} = 27 - 3 + 12 = 36$.",
+    "finalAnswer": "36",
+    "unit": "",
+    "examTip": {
+      "en": "EAN of 36 corresponds to the atomic number of Krypton (Kr), a noble gas, which indicates the complex is highly stable.",
+      "hi": "36 का EAN अक्रिय गैस क्रिप्टन (Kr) के परमाणु क्रमांक से मेल खाता है, जो दर्शाता है कि संकुल अत्यधिक स्थिर है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "A coordination compound has the formula $CoCl_3 \\cdot 6H_2O$. When $0.1$ mole of this compound is treated with excess $AgNO_3$, $0.3$ mole of $AgCl$ is precipitated. Write the structural formula of the complex.",
+      "hi": "एक उपसहसंयोजक यौगिक का सूत्र $CoCl_3 \\cdot 6H_2O$ है। जब इस यौगिक के $0.1$ मोल को आधिक्य $AgNO_3$ के साथ अभिकृत किया जाता है, तो $0.3$ मोल $AgCl$ अवक्षेपित होता है। संकुल का संरचनात्मक सूत्र लिखिए।",
+      "hinglish": "Ek coordination compound ka formula $CoCl_3 \\cdot 6H_2O$ hai. Jab iske $0.1$ mole ko excess $AgNO_3$ ke sath treat karte hain, toh $0.3$ mole $AgCl$ precipitate hota hai. Complex ka structural formula likhein."
+    },
+    "given": {
+      "en": "$0.1$ mole of complex gives $0.3$ mole of $AgCl$ precipitate.",
+      "hi": "$0.1$ मोल संकुल $0.3$ मोल $AgCl$ अवक्षेप देता है।"
+    },
+    "required": {
+      "en": "Structural formula of the complex.",
+      "hi": "संकुल का संरचनात्मक सूत्र।"
+    },
+    "formula": "Number of ionizable $Cl^-$ = Moles of $AgCl$ / Moles of complex",
+    "substitution": "Ionizable $Cl^-$ = $0.3 / 0.1 = 3$",
+    "calculation": "Since 3 moles of $AgCl$ are precipitated per mole of the complex, all three chloride ions must be outside the coordination sphere (i.e., they are ionizable counter ions). Therefore, all six water molecules must be acting as ligands inside the coordination sphere to satisfy the coordination number of 6 for $Co^{3+}$.<br>The formula is $[Co(H_2O)_6]Cl_3$.",
+    "finalAnswer": "$[Co(H_2O)_6]Cl_3$",
+    "unit": "",
+    "examTip": {
+      "en": "The species outside the square brackets are ionizable and can react to form precipitates. The species inside are non-ionizable.",
+      "hi": "वर्गाकार कोष्ठक के बाहर की प्रजातियां आयनकारी होती हैं और प्रतिक्रिया करके अवक्षेप बना सकती हैं। अंदर की प्रजातियां गैर-आयनकारी होती हैं।"
+    }
+  }
+]

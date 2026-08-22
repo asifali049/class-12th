@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following will react fastest in $S_N2$ reaction?",
+      "hi": "निम्नलिखित में से कौन $S_N2$ अभिक्रिया में सबसे तेजी से प्रतिक्रिया करेगा?",
+      "hinglish": "Inme se kaun $S_N2$ reaction mein sabse fast react karega?"
+    },
+    "options": [
+      {
+        "en": "1-Bromobutane",
+        "hi": "1-ब्रोमोब्यूटेन"
+      },
+      {
+        "en": "2-Bromobutane",
+        "hi": "2-ब्रोमोब्यूटेन"
+      },
+      {
+        "en": "2-Bromo-2-methylpropane",
+        "hi": "2-ब्रोमो-2-मिथाइलप्रोपेन"
+      },
+      {
+        "en": "1-Bromo-2-methylpropane",
+        "hi": "1-ब्रोमो-2-मिथाइलप्रोपेन"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "$S_N2$ reactivity decreases with steric hindrance. 1-Bromobutane is a straight-chain primary halide and has the least steric hindrance.",
+      "hi": "$S_N2$ क्रियाशीलता त्रिविम बाधा (steric hindrance) के साथ घटती है। 1-ब्रोमोब्यूटेन एक सीधी-श्रृंखला वाला प्राथमिक हैलाइड है और इसमें सबसे कम त्रिविम बाधा होती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why are haloarenes less reactive than haloalkanes towards nucleophilic substitution reactions?",
+      "hi": "नाभिकरागी प्रतिस्थापन अभिक्रियाओं के प्रति हैलोऐरीन, हैलोऐल्केन की तुलना में कम क्रियाशील क्यों होते हैं?",
+      "hinglish": "Nucleophilic substitution reactions ke liye haloarenes haloalkanes se kam reactive kyun hote hain?"
+    },
+    "idealAnswer": {
+      "en": "1. Resonance effect: The electron pairs on halogen are in conjugation with the $\\pi$-electrons of the ring, giving the C-X bond a partial double bond character, making it harder to break.\n2. Difference in hybridization: The carbon in haloarenes is $sp^2$ hybridized (more electronegative, holds electron pair tightly) while in haloalkanes it is $sp^3$ hybridized.\n3. Instability of phenyl cation: The phenyl cation formed (in $S_N1$) is highly unstable, ruling out the $S_N1$ mechanism.",
+      "hi": "1. अनुनाद प्रभाव: हैलोजन पर उपस्थित इलेक्ट्रॉन युग्म वलय के $\\pi$-इलेक्ट्रॉनों के साथ संयुग्मन (conjugation) में होते हैं, जिससे C-X बंध में आंशिक द्विबंध गुण आ जाता है, जिसे तोड़ना कठिन होता है।\n2. संकरण में अंतर: हैलोऐरीन में कार्बन $sp^2$ संकरित होता है (अधिक विद्युत्-ऋणात्मक, इलेक्ट्रॉन युग्म को मजबूती से पकड़ता है) जबकि हैलोऐल्केन में यह $sp^3$ संकरित होता है।\n3. फेनिल धनायन की अस्थिरता: बनने वाला फेनिल धनायन ($S_N1$ में) अत्यधिक अस्थिर होता है, जिससे $S_N1$ क्रियाविधि की संभावना समाप्त हो जाती है।"
+    },
+    "keywords": [
+      {
+        "en": "Resonance effect",
+        "hi": "अनुनाद प्रभाव"
+      },
+      {
+        "en": "partial double bond",
+        "hi": "आंशिक द्विबंध"
+      },
+      {
+        "en": "sp2 hybridized",
+        "hi": "sp2 संकरित"
+      },
+      {
+        "en": "Instability of phenyl cation",
+        "hi": "फेनिल धनायन की अस्थिरता"
+      }
+    ],
+    "tips": {
+      "en": "Resonance and partial double bond character are the most critical points. Mention them clearly.",
+      "hi": "अनुनाद और आंशिक द्विबंध गुण सबसे महत्वपूर्ण बिंदु हैं। उनका स्पष्ट रूप से उल्लेख करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Explain why allyl chloride is more reactive than n-propyl chloride towards $S_N1$ reaction.",
+      "hi": "स्पष्ट कीजिए कि एलिल क्लोराइड $S_N1$ अभिक्रिया के प्रति n-प्रोपिल क्लोराइड से अधिक क्रियाशील क्यों है।",
+      "hinglish": "Explain karein ki allyl chloride $S_N1$ reaction ke liye n-propyl chloride se zyada reactive kyun hai."
+    },
+    "idealAnswer": {
+      "en": "In $S_N1$ reactions, reactivity depends on the stability of the intermediate carbocation. Allyl chloride forms the allyl carbocation ($CH_2=CH-CH_2^+$), which is highly stable due to resonance. On the other hand, n-propyl chloride forms a primary carbocation ($CH_3-CH_2-CH_2^+$), which is less stable as it lacks resonance stabilization. Hence, allyl chloride is more reactive.",
+      "hi": "$S_N1$ अभिक्रियाओं में, क्रियाशीलता मध्यवर्ती कार्बोधनायन के स्थायित्व पर निर्भर करती है। एलिल क्लोराइड एलिल कार्बोधनायन ($CH_2=CH-CH_2^+$) बनाता है, जो अनुनाद के कारण अत्यधिक स्थिर होता है। दूसरी ओर, n-प्रोपिल क्लोराइड एक प्राथमिक कार्बोधनायन ($CH_3-CH_2-CH_2^+$) बनाता है, जो कम स्थिर होता है क्योंकि इसमें अनुनाद स्थिरीकरण का अभाव होता है। अतः एलिल क्लोराइड अधिक क्रियाशील है।"
+    },
+    "keywords": [
+      {
+        "en": "carbocation stability",
+        "hi": "कार्बोधनायन स्थायित्व"
+      },
+      {
+        "en": "allyl carbocation",
+        "hi": "एलिल कार्बोधनायन"
+      },
+      {
+        "en": "resonance stabilization",
+        "hi": "अनुनाद स्थिरीकरण"
+      }
+    ],
+    "tips": {
+      "en": "Always compare the stabilities of the resulting carbocations when answering $S_N1$ reactivity questions.",
+      "hi": "$S_N1$ क्रियाशीलता वाले प्रश्नों का उत्तर देते समय हमेशा परिणामी कार्बोधनायनों के स्थायित्व की तुलना करें।"
+    }
+  }
+]

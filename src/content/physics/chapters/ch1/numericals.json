@@ -1,80 +1,54 @@
 [
   {
-    "id": "n1",
+    "id": "num1",
     "difficulty": "easy",
     "question": {
-      "en": "Calculate the force of electrostatic attraction between a proton and an electron separated by a distance of $5.3 \\times 10^{-11}$ m.",
-      "hi": "$5.3 \\times 10^{-11}$ m की दूरी पर स्थित एक प्रोटॉन और एक इलेक्ट्रॉन के बीच स्थिर वैद्युत आकर्षण बल की गणना करें।",
-      "hinglish": "Ek proton aur electron ke beech $5.3 \\times 10^{-11}$ m distance par electrostatic attraction force calculate karein."
+      "en": "Calculate the force of electrostatic attraction between a proton and an electron separated by a distance of $1 \\times 10^{-10}$ m.",
+      "hi": "$1 \\times 10^{-10}$ मीटर की दूरी पर स्थित एक प्रोटॉन और एक इलेक्ट्रॉन के बीच स्थिर वैद्युत आकर्षण बल की गणना करें।",
+      "hinglish": "1 × 10^-10 m distance par rakhe ek proton aur ek electron ke beech electrostatic attraction force calculate karein."
     },
     "given": {
-      "en": "$q_1 = +1.6 \\times 10^{-19} \\text{ C}$<br>$q_2 = -1.6 \\times 10^{-19} \\text{ C}$<br>$r = 5.3 \\times 10^{-11} \\text{ m}$",
-      "hi": "$q_1 = +1.6 \\times 10^{-19} \\text{ C}$<br>$q_2 = -1.6 \\times 10^{-19} \\text{ C}$<br>$r = 5.3 \\times 10^{-11} \\text{ m}$"
+      "en": "Charge on proton ($q_1$) = $+1.6 \\times 10^{-19}$ C\nCharge on electron ($q_2$) = $-1.6 \\times 10^{-19}$ C\nDistance ($r$) = $1 \\times 10^{-10}$ m\n$k = 9 \\times 10^9 \\text{ N m}^2/\\text{C}^2$",
+      "hi": "प्रोटॉन पर आवेश ($q_1$) = $+1.6 \\times 10^{-19}$ C\nइलेक्ट्रॉन पर आवेश ($q_2$) = $-1.6 \\times 10^{-19}$ C\nदूरी ($r$) = $1 \\times 10^{-10}$ m\n$k = 9 \\times 10^9 \\text{ N m}^2/\\text{C}^2$"
     },
     "required": {
       "en": "Electrostatic Force ($F$)",
       "hi": "स्थिर वैद्युत बल ($F$)"
     },
-    "formula": "$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}$",
-    "substitution": "$F = \\frac{(9 \\times 10^9) \\times (1.6 \\times 10^{-19}) \\times (1.6 \\times 10^{-19})}{(5.3 \\times 10^{-11})^2}$",
-    "calculation": "$F = \\frac{9 \\times 2.56 \\times 10^{9-38}}{28.09 \\times 10^{-22}}$<br>$F = \\frac{23.04 \\times 10^{-29}}{28.09 \\times 10^{-22}}$<br>$F = 0.82 \\times 10^{-7}$",
-    "finalAnswer": "$8.2 \\times 10^{-8}$",
+    "formula": "F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}",
+    "substitution": "F = \\frac{(9 \\times 10^9) \\times (1.6 \\times 10^{-19}) \\times (1.6 \\times 10^{-19})}{(1 \\times 10^{-10})^2}",
+    "calculation": "F = \\frac{9 \\times 10^9 \\times 2.56 \\times 10^{-38}}{10^{-20}}\nF = 23.04 \\times 10^{-29} \\times 10^{20}\nF = 23.04 \\times 10^{-9} \\text{ N}\nF = 2.3 \\times 10^{-8} \\text{ N}",
+    "finalAnswer": "2.3 × 10⁻⁸ N (Attractive)",
     "unit": "N",
     "examTip": {
-      "en": "Always convert distances to meters before substituting into the formula. The force is attractive since charges are opposite.",
-      "hi": "सूत्र में प्रतिस्थापित करने से पहले हमेशा दूरियों को मीटर में बदलें। आवेश विपरीत होने के कारण बल आकर्षण प्रकृति का होता है।"
+      "en": "Always take the absolute values of charges while calculating the magnitude of the force using Coulomb's law. Mention 'Attractive' or 'Repulsive' at the end.",
+      "hi": "कूलॉम के नियम का उपयोग करके बल के परिमाण की गणना करते समय हमेशा आवेशों का निरपेक्ष (absolute) मान लें। अंत में 'आकर्षक' या 'प्रतिकर्षक' का उल्लेख करें।"
     }
   },
   {
-    "id": "n2",
+    "id": "num2",
     "difficulty": "medium",
     "question": {
-      "en": "An electric dipole with dipole moment $4 \\times 10^{-9}$ C m is aligned at $30^\\circ$ with the direction of a uniform electric field of magnitude $5 \\times 10^4$ N C$^{-1}$. Calculate the magnitude of the torque acting on the dipole.",
-      "hi": "$4 \\times 10^{-9}$ C m द्विध्रुव आघूर्ण वाला एक विद्युत द्विध्रुव $5 \\times 10^4$ N C$^{-1}$ परिमाण के एकसमान विद्युत क्षेत्र की दिशा के साथ $30^\\circ$ के कोण पर संरेखित है। द्विध्रुव पर कार्य करने वाले बल आघूर्ण के परिमाण की गणना करें।",
-      "hinglish": "$4 \\times 10^{-9}$ C m dipole moment wala ek electric dipole $5 \\times 10^4$ N C$^{-1}$ magnitude ke uniform electric field direction ke sath $30^\\circ$ par aligned hai. Dipole par lagne wale torque ka magnitude nikaalein."
+      "en": "A point charge of $2.0 \\text{ } \\mu\\text{C}$ is at the centre of a cubic Gaussian surface $9.0 \\text{ cm}$ on edge. What is the net electric flux through the surface?",
+      "hi": "$2.0 \\text{ } \\mu\\text{C}$ का एक बिंदु आवेश $9.0 \\text{ cm}$ किनारे वाले एक घनीय गॉसियन पृष्ठ के केंद्र में है। पृष्ठ से गुजरने वाला कुल विद्युत फ्लक्स क्या है?",
+      "hinglish": "Ek 2.0 μC ka point charge ek cubic Gaussian surface (edge 9.0 cm) ke center par hai. Surface se pass hone wala net electric flux kya hoga?"
     },
     "given": {
-      "en": "$p = 4 \\times 10^{-9} \\text{ C m}$<br>$E = 5 \\times 10^4 \\text{ N C}^{-1}$<br>$\\theta = 30^\\circ$",
-      "hi": "$p = 4 \\times 10^{-9} \\text{ C m}$<br>$E = 5 \\times 10^4 \\text{ N C}^{-1}$<br>$\\theta = 30^\\circ$"
+      "en": "Charge ($q$) = $2.0 \\text{ } \\mu\\text{C} = 2.0 \\times 10^{-6}$ C\nSide of cube ($a$) = $9.0 \\text{ cm}$ (not needed for total flux)\n$\\epsilon_0 = 8.854 \\times 10^{-12} \\text{ C}^2/\\text{N m}^2$",
+      "hi": "आवेश ($q$) = $2.0 \\text{ } \\mu\\text{C} = 2.0 \\times 10^{-6}$ C\nघन की भुजा ($a$) = $9.0 \\text{ cm}$ (कुल फ्लक्स के लिए आवश्यक नहीं)\n$\\epsilon_0 = 8.854 \\times 10^{-12} \\text{ C}^2/\\text{N m}^2$"
     },
     "required": {
-      "en": "Torque ($\\tau$)",
-      "hi": "बल आघूर्ण ($\\tau$)"
+      "en": "Total electric flux ($\\Phi_E$)",
+      "hi": "कुल विद्युत फ्लक्स ($\\Phi_E$)"
     },
-    "formula": "$\\tau = pE \\sin\\theta$",
-    "substitution": "$\\tau = (4 \\times 10^{-9}) \\times (5 \\times 10^4) \\times \\sin(30^\\circ)$",
-    "calculation": "$\\tau = 20 \\times 10^{-5} \\times 0.5$<br>$\\tau = 10 \\times 10^{-5}$",
-    "finalAnswer": "$10^{-4}$",
-    "unit": "N m",
+    "formula": "\\Phi_E = \\frac{q_{\\text{enclosed}}}{\\epsilon_0}",
+    "substitution": "\\Phi_E = \\frac{2.0 \\times 10^{-6}}{8.854 \\times 10^{-12}}",
+    "calculation": "\\Phi_E = \\frac{2}{8.854} \\times 10^6\n\\Phi_E = 0.226 \\times 10^6\n\\Phi_E = 2.26 \\times 10^5 \\text{ N m}^2/\\text{C}",
+    "finalAnswer": "2.26 × 10⁵",
+    "unit": "N m²/C",
     "examTip": {
-      "en": "Make sure you know the values of sine and cosine for standard angles ($0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$).",
-      "hi": "सुनिश्चित करें कि आप मानक कोणों ($0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$) के लिए ज्या (sine) और कोज्या (cosine) के मान जानते हैं।"
-    }
-  },
-  {
-    "id": "n3",
-    "difficulty": "hard",
-    "question": {
-      "en": "Two point charges $+q$ and $-2q$ are placed at vertices $A$ and $B$ respectively of an equilateral triangle $ABC$ of side $a$. Find the magnitude and direction of the electric field at vertex $C$.",
-      "hi": "दो बिंदु आवेश $+q$ और $-2q$ क्रमशः $a$ भुजा वाले एक समबाहु त्रिभुज $ABC$ के शीर्षों $A$ और $B$ पर रखे गए हैं। शीर्ष $C$ पर विद्युत क्षेत्र का परिमाण और दिशा ज्ञात करें।",
-      "hinglish": "Equilateral triangle $ABC$ (side $a$) ke vertices $A$ aur $B$ par respectively $+q$ aur $-2q$ point charges rakhe hain. Vertex $C$ par electric field ka magnitude aur direction find karein."
-    },
-    "given": {
-      "en": "$q_A = +q$, $q_B = -2q$<br>Distance $AC = a$<br>Distance $BC = a$",
-      "hi": "$q_A = +q$, $q_B = -2q$<br>दूरी $AC = a$<br>दूरी $BC = a$"
-    },
-    "required": {
-      "en": "Net Electric Field at C ($E_C$)",
-      "hi": "C पर कुल विद्युत क्षेत्र ($E_C$)"
-    },
-    "formula": "$E = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2}$<br>$E_{\\text{net}} = \\sqrt{E_A^2 + E_B^2 + 2E_A E_B \\cos\\theta}$",
-    "substitution": "$E_A = \\frac{kq}{a^2}$ (outward)<br>$E_B = \\frac{2kq}{a^2}$ (inward towards B)<br>Angle between $E_A$ and $E_B$ is $120^\\circ$",
-    "calculation": "$E_{\\text{net}} = \\sqrt{E_A^2 + (2E_A)^2 + 2(E_A)(2E_A)\\cos(120^\\circ)}$<br>$E_{\\text{net}} = \\sqrt{E_A^2 + 4E_A^2 + 4E_A^2 (-0.5)}$<br>$E_{\\text{net}} = \\sqrt{3} E_A$",
-    "finalAnswer": "$\\frac{\\sqrt{3} q}{4\\pi\\epsilon_0 a^2}$",
-    "unit": "N/C",
-    "examTip": {
-      "en": "For vector additions involving equilateral triangles, the external angle ($120^\\circ$) is often used for calculating the resultant.",
-      "hi": "समबाहु त्रिभुजों से जुड़े सदिश योग के लिए, परिणामी की गणना के लिए अक्सर बाह्य कोण ($120^\\circ$) का उपयोग किया जाता है।"
+      "en": "According to Gauss's Law, the total flux depends ONLY on the enclosed charge, not on the shape or size of the closed surface. The side length of 9.0 cm is extra information given to confuse you.",
+      "hi": "गॉस के नियम के अनुसार, कुल फ्लक्स केवल संलग्न आवेश पर निर्भर करता है, न कि बंद सतह के आकार या आकृति पर। 9.0 सेमी की भुजा की लंबाई आपको भ्रमित करने के लिए दी गई अतिरिक्त जानकारी है।"
     }
   }
 ]

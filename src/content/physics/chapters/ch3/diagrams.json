@@ -2,97 +2,14 @@
   {
     "id": "dg1",
     "title": {
-      "en": "Wheatstone Bridge Circuit",
-      "hi": "व्हीटस्टोन सेतु परिपथ",
-      "hinglish": "Wheatstone Bridge Circuit"
+      "en": "Simple Circuit",
+      "hi": "सरल परिपथ"
     },
     "description": {
-      "en": "A Wheatstone bridge consists of four arms P, Q, R, and S. A galvanometer G is connected between B and D, and a battery between A and C. It is used to measure an unknown resistance accurately.",
-      "hi": "व्हीटस्टोन सेतु में चार भुजाएं P, Q, R और S होती हैं। B और D के बीच एक धारामापी G और A और C के बीच एक बैटरी जुड़ी होती है। इसका उपयोग किसी अज्ञात प्रतिरोध को सटीक रूप से मापने के लिए किया जाता है।"
+      "en": "A battery connected to a resistor.",
+      "hi": "एक बैटरी एक प्रतिरोधक से जुड़ी है।"
     },
-    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Outer connecting wires -->\n  <line x1=\"200\" y1=\"250\" x2=\"200\" y2=\"220\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <line x1=\"200\" y1=\"50\" x2=\"200\" y2=\"80\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <line x1=\"50\" y1=\"150\" x2=\"80\" y2=\"150\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <line x1=\"350\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n\n  <!-- The Rhombus Arms (Resistors) -->\n  <path d=\"M200,80 L140,115 L140,115 L200,80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <path d=\"M80,150 L140,115\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <!-- Resistor zigzag (P) -->\n  <path d=\"M200,80 L185,90 L195,100 L175,110 L185,120 L165,130 L175,140 L155,145 L140,115\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"3\" />\n  <line x1=\"200\" y1=\"80\" x2=\"80\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"3\" />\n\n  <!-- Simplified Resistors (Lines for P, Q, R, S) -->\n  <line x1=\"200\" y1=\"80\" x2=\"80\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"4\" stroke-dasharray=\"8,4\" />\n  <line x1=\"200\" y1=\"80\" x2=\"320\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"4\" stroke-dasharray=\"8,4\" />\n  <line x1=\"80\" y1=\"150\" x2=\"200\" y2=\"220\" stroke=\"#ef4444\" stroke-width=\"4\" stroke-dasharray=\"8,4\" />\n  <line x1=\"320\" y1=\"150\" x2=\"200\" y2=\"220\" stroke=\"#ef4444\" stroke-width=\"4\" stroke-dasharray=\"8,4\" />\n\n  <!-- Galvanometer -->\n  <line x1=\"200\" y1=\"80\" x2=\"200\" y2=\"130\" stroke=\"#10b981\" stroke-width=\"2\" />\n  <line x1=\"200\" y1=\"220\" x2=\"200\" y2=\"170\" stroke=\"#10b981\" stroke-width=\"2\" />\n  <circle cx=\"200\" cy=\"150\" r=\"20\" fill=\"#f3f4f6\" stroke=\"#10b981\" stroke-width=\"2\" />\n  <!-- Galvanometer Arrow -->\n  <line x1=\"200\" y1=\"160\" x2=\"210\" y2=\"140\" stroke=\"#10b981\" stroke-width=\"2\" />\n  <polygon points=\"210,140 205,145 212,148\" fill=\"#10b981\" />\n\n  <!-- Node Points -->\n  <circle cx=\"200\" cy=\"80\" r=\"4\" fill=\"#000\" />\n  <circle cx=\"200\" cy=\"220\" r=\"4\" fill=\"#000\" />\n  <circle cx=\"80\" cy=\"150\" r=\"4\" fill=\"#000\" />\n  <circle cx=\"320\" cy=\"150\" r=\"4\" fill=\"#000\" />\n</svg>",
-    "labels": [
-      {
-        "id": "l1",
-        "x": 30,
-        "y": 50,
-        "text": {
-          "en": "$A$",
-          "hi": "$A$"
-        }
-      },
-      {
-        "id": "l2",
-        "x": 50,
-        "y": 20,
-        "text": {
-          "en": "$B$",
-          "hi": "$B$"
-        }
-      },
-      {
-        "id": "l3",
-        "x": 80,
-        "y": 50,
-        "text": {
-          "en": "$C$",
-          "hi": "$C$"
-        }
-      },
-      {
-        "id": "l4",
-        "x": 50,
-        "y": 80,
-        "text": {
-          "en": "$D$",
-          "hi": "$D$"
-        }
-      },
-      {
-        "id": "l5",
-        "x": 35,
-        "y": 30,
-        "text": {
-          "en": "$P$",
-          "hi": "$P$"
-        }
-      },
-      {
-        "id": "l6",
-        "x": 65,
-        "y": 30,
-        "text": {
-          "en": "$Q$",
-          "hi": "$Q$"
-        }
-      },
-      {
-        "id": "l7",
-        "x": 35,
-        "y": 70,
-        "text": {
-          "en": "$R$",
-          "hi": "$R$"
-        }
-      },
-      {
-        "id": "l8",
-        "x": 65,
-        "y": 70,
-        "text": {
-          "en": "$S$",
-          "hi": "$S$"
-        }
-      },
-      {
-        "id": "l9",
-        "x": 48,
-        "y": 55,
-        "text": {
-          "en": "$G$",
-          "hi": "$G$"
-        }
-      }
-    ]
+    "svgContent": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"100\" y=\"50\" width=\"200\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"15\" fill=\"white\" stroke=\"black\"/><text x=\"95\" y=\"105\">V</text><path d=\"M 280 50 L 290 40 L 300 60 L 310 40 L 320 50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>",
+    "labels": []
   }
 ]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Calculation of CFSE for $d^4$ in strong and weak field",
+      "hi": "प्रबल और दुर्बल क्षेत्र में $d^4$ के लिए CFSE की गणना",
+      "hinglish": "Strong aur weak field mein $d^4$ ke liye CFSE ka calculation"
+    },
+    "given": {
+      "en": "A central metal ion has a $d^4$ configuration in an octahedral complex.",
+      "hi": "एक अष्टफलकीय संकुल में एक केंद्रीय धातु आयन का विन्यास $d^4$ है।"
+    },
+    "toFind": {
+      "en": "Crystal Field Splitting Energy (CFSE) in terms of $\\Delta_o$ and pairing energy $P$.",
+      "hi": "$\\Delta_o$ और युग्मन ऊर्जा $P$ के पदों में क्रिस्टल क्षेत्र विपाटन ऊर्जा (CFSE)।"
+    },
+    "concept": {
+      "en": "Strong field ligands cause pairing ($\\Delta_o > P$), so the 4th electron pairs up in $t_{2g}$. Weak field ligands don't cause pairing ($\\Delta_o < P$), so the 4th electron enters $e_g$.",
+      "hi": "प्रबल क्षेत्र लिगेंड युग्मन का कारण बनते हैं ($\\Delta_o > P$), इसलिए चौथा इलेक्ट्रॉन $t_{2g}$ में युग्मित हो जाता है। दुर्बल क्षेत्र लिगेंड युग्मन का कारण नहीं बनते हैं ($\\Delta_o < P$), इसलिए चौथा इलेक्ट्रॉन $e_g$ में प्रवेश करता है।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Case 1: Weak field ligand ($\\Delta_o < P$)",
+          "hi": "स्थिति 1: दुर्बल क्षेत्र लिगेंड ($\\Delta_o < P$)"
+        },
+        "content": {
+          "en": "Configuration: $t_{2g}^3 e_g^1$\\nCFSE = $(-0.4 \\times 3 + 0.6 \\times 1)\\Delta_o = (-1.2 + 0.6)\\Delta_o = -0.6\\Delta_o$",
+          "hi": "विन्यास: $t_{2g}^3 e_g^1$\\nCFSE = $(-0.4 \\times 3 + 0.6 \\times 1)\\Delta_o = (-1.2 + 0.6)\\Delta_o = -0.6\\Delta_o$"
+        }
+      },
+      {
+        "title": {
+          "en": "Case 2: Strong field ligand ($\\Delta_o > P$)",
+          "hi": "स्थिति 2: प्रबल क्षेत्र लिगेंड ($\\Delta_o > P$)"
+        },
+        "content": {
+          "en": "Configuration: $t_{2g}^4 e_g^0$\\nHere, one electron is paired. So, pairing energy $P$ is added.\\nCFSE = $(-0.4 \\times 4 + 0.6 \\times 0)\\Delta_o + P = -1.6\\Delta_o + P$",
+          "hi": "विन्यास: $t_{2g}^4 e_g^0$\\nयहाँ, एक इलेक्ट्रॉन युग्मित है। अतः युग्मन ऊर्जा $P$ जोड़ी जाती है।\\nCFSE = $(-0.4 \\times 4 + 0.6 \\times 0)\\Delta_o + P = -1.6\\Delta_o + P$"
+        }
+      }
+    ],
+    "finalResult": "\\text{Weak: } -0.6\\Delta_o, \\quad \\text{Strong: } -1.6\\Delta_o + P",
+    "examTip": {
+      "en": "Remember that each electron in $t_{2g}$ contributes $-0.4\\Delta_o$ and each in $e_g$ contributes $+0.6\\Delta_o$. Add $P$ only for the extra paired electrons compared to the spherical field.",
+      "hi": "याद रखें कि $t_{2g}$ में प्रत्येक इलेक्ट्रॉन $-0.4\\Delta_o$ और $e_g$ में प्रत्येक $+0.6\\Delta_o$ का योगदान देता है। गोलाकार क्षेत्र की तुलना में केवल अतिरिक्त युग्मित इलेक्ट्रॉनों के लिए $P$ जोड़ें।"
+    }
+  }
+]

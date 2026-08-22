@@ -46,6 +46,14 @@ export default function FormulaRenderer({ formulas, language }: FormulaRendererP
                   <div className="text-sm text-slate-700 whitespace-pre-line">
                     <BilingualDisplay content={f.variables as any} language={language} />
                   </div>
+                ) : Array.isArray(f.variables) ? (
+                  f.variables.map((vObj: any, idx: number) => (
+                    <div key={idx} className="flex gap-2 text-sm text-slate-700">
+                      <span className="font-bold font-mono w-12 text-right"><Latex>{`$${vObj.symbol}$`}</Latex></span>
+                      <span className="text-slate-400">-</span>
+                      <span><BilingualDisplay content={vObj.name} language={language} className="inline" /></span>
+                    </div>
+                  ))
                 ) : (
                   Object.entries(f.variables || {}).map(([v, desc]) => (
                     <div key={v} className="flex gap-2 text-sm text-slate-700">

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Acidity: Phenol vs Alcohol",
+      "hi": "अम्लता: फिनोल बनाम एल्कोहॉल",
+      "hinglish": "Acidity: Phenol vs Alcohol"
+    },
+    "summary": {
+      "en": "Phenols are much more acidic than alcohols. The phenoxide ion formed after losing a proton is stabilized by resonance (delocalization of negative charge over the benzene ring). The alkoxide ion (from alcohol) has no resonance stabilization and the alkyl group destabilizes it by +I effect.",
+      "hi": "फिनोल एल्कोहॉल की तुलना में बहुत अधिक अम्लीय होते हैं। एक प्रोटॉन खोने के बाद बनने वाला फेनॉक्साइड आयन अनुनाद (बेंजीन वलय पर ऋणात्मक आवेश का विस्थानीकरण) द्वारा स्थिर हो जाता है। एल्कॉक्साइड आयन (एल्कोहॉल से) में कोई अनुनाद स्थिरीकरण नहीं होता है और एल्किल समूह इसे +I प्रभाव द्वारा अस्थिर कर देता है।",
+      "hinglish": "Phenols alcohols se bahut zyada acidic hote hain. Proton lose karne ke baad jo phenoxide ion banta hai wo resonance (benzene ring par negative charge ka delocalization) ki wajah se stable hota hai. Alkoxide ion (alcohol se) mein resonance stabilization nahi hota aur alkyl group use +I effect se destabilize karta hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Phenoxide ion is resonance stabilized",
+        "hi": "फेनॉक्साइड आयन अनुनाद द्वारा स्थिर होता है"
+      },
+      {
+        "en": "Alkoxide ion is destabilized (+I effect)",
+        "hi": "एल्कॉक्साइड आयन अस्थिर होता है (+I प्रभाव)"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Williamson Ether Synthesis",
+      "hi": "विलियमसन ईथर संश्लेषण",
+      "hinglish": "Williamson Ether Synthesis"
+    },
+    "summary": {
+      "en": "It is an $S_N2$ reaction used to prepare symmetrical and unsymmetrical ethers. An alkyl halide reacts with sodium alkoxide. For good yield, the alkyl halide MUST be primary ($1^\\circ$). If a secondary or tertiary halide is used, elimination (alkene formation) competes or dominates.",
+      "hi": "यह एक $S_N2$ अभिक्रिया है जिसका उपयोग सममित और असममित ईथर तैयार करने के लिए किया जाता है। एक एल्किल हैलाइड सोडियम एल्कॉक्साइड के साथ प्रतिक्रिया करता है। अच्छी उपज के लिए, एल्किल हैलाइड प्राथमिक ($1^\\circ$) होना चाहिए। यदि द्वितीयक या तृतीयक हैलाइड का उपयोग किया जाता है, तो विलोपन (एल्कीन निर्माण) प्रतिस्पर्धा करता है या हावी हो जाता है।",
+      "hinglish": "Yeh ek $S_N2$ reaction hai symmetrical aur unsymmetrical ethers banane ke liye. Alkyl halide sodium alkoxide se react karta hai. Good yield ke liye alkyl halide primary ($1^\\circ$) hona chahiye. Agar $2^\\circ$ ya $3^\\circ$ halide use kiya toh elimination (alkene) dominant ho jata hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Alkyl halide ($1^\\circ$) + Sodium alkoxide $\\rightarrow$ Ether",
+        "hi": "एल्किल हैलाइड ($1^\\circ$) + सोडियम एल्कॉक्साइड $\\rightarrow$ ईथर"
+      },
+      {
+        "en": "If $3^\\circ$ halide used $\\rightarrow$ Alkene is formed",
+        "hi": "यदि $3^\\circ$ हैलाइड का उपयोग किया जाता है $\\rightarrow$ एल्कीन बनता है"
+      }
+    ]
+  }
+]

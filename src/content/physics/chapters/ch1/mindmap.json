@@ -2,21 +2,19 @@
   "id": "root",
   "label": {
     "en": "Electric Charges & Fields",
-    "hi": "विद्युत आवेश और क्षेत्र",
-    "hinglish": "Electric Charges aur Fields"
+    "hi": "विद्युत आवेश तथा क्षेत्र"
   },
   "children": [
     {
       "id": "c1",
       "label": {
-        "en": "Electric Charge",
-        "hi": "विद्युत आवेश",
-        "hinglish": "Electric Charge"
+        "en": "Electric Charge (q)",
+        "hi": "विद्युत आवेश (q)"
       },
       "children": [
-        { "id": "c1a", "label": { "en": "Properties (Additivity, Quantization, Conservation)", "hi": "गुण (योज्यता, क्वांटमीकरण, संरक्षण)" } },
-        { "id": "c1b", "label": { "en": "Conductors & Insulators", "hi": "चालक और विद्युतरोधी" } },
-        { "id": "c1c", "label": { "en": "Charging by Induction", "hi": "प्रेरण द्वारा आवेशन" } }
+        { "id": "c1a", "label": { "en": "Quantization (q = ±ne)", "hi": "क्वांटीकरण (q = ±ne)" } },
+        { "id": "c1b", "label": { "en": "Conservation of Charge", "hi": "आवेश का संरक्षण" } },
+        { "id": "c1c", "label": { "en": "Additivity", "hi": "योज्यता" } }
       ]
     },
     {
@@ -26,21 +24,20 @@
         "hi": "कूलॉम का नियम"
       },
       "children": [
-        { "id": "c2a", "label": { "en": "Force between point charges (F ∝ 1/r²)", "hi": "बिंदु आवेशों के बीच बल (F ∝ 1/r²)" } },
-        { "id": "c2b", "label": { "en": "Vector Form", "hi": "सदिश रूप" } },
-        { "id": "c2c", "label": { "en": "Principle of Superposition", "hi": "अध्यारोपण का सिद्धांत" } }
+        { "id": "c2a", "label": { "en": "F = k(|q1||q2|) / r²", "hi": "F = k(|q1||q2|) / r²" } },
+        { "id": "c2b", "label": { "en": "Superposition Principle", "hi": "अध्यारोपण का सिद्धांत" } }
       ]
     },
     {
       "id": "c3",
       "label": {
-        "en": "Electric Field",
-        "hi": "विद्युत क्षेत्र"
+        "en": "Electric Field (E)",
+        "hi": "विद्युत क्षेत्र (E)"
       },
       "children": [
-        { "id": "c3a", "label": { "en": "E = F/q", "hi": "E = F/q" } },
-        { "id": "c3b", "label": { "en": "Electric Field Lines & Properties", "hi": "विद्युत क्षेत्र रेखाएं और गुण" } },
-        { "id": "c3c", "label": { "en": "Field due to point charge", "hi": "बिंदु आवेश के कारण क्षेत्र" } }
+        { "id": "c3a", "label": { "en": "E = F / q0", "hi": "E = F / q0" } },
+        { "id": "c3b", "label": { "en": "Point Charge: E = kq / r²", "hi": "बिंदु आवेश: E = kq / r²" } },
+        { "id": "c3c", "label": { "en": "Electric Field Lines", "hi": "विद्युत क्षेत्र रेखाएं" } }
       ]
     },
     {
@@ -50,9 +47,10 @@
         "hi": "विद्युत द्विध्रुव"
       },
       "children": [
-        { "id": "c4a", "label": { "en": "Dipole Moment (p = q × 2a)", "hi": "द्विध्रुव आघूर्ण (p = q × 2a)" } },
-        { "id": "c4b", "label": { "en": "Torque in uniform field (τ = pE sin θ)", "hi": "एकसमान क्षेत्र में बल आघूर्ण (τ = pE sin θ)" } },
-        { "id": "c4c", "label": { "en": "Field on axial & equatorial line", "hi": "अक्षीय और निरक्षीय रेखा पर क्षेत्र" } }
+        { "id": "c4a", "label": { "en": "Dipole Moment: p = q(2a)", "hi": "द्विध्रुव आघूर्ण: p = q(2a)" } },
+        { "id": "c4b", "label": { "en": "Axial Field: E = 2kp / r³", "hi": "अक्षीय क्षेत्र: E = 2kp / r³" } },
+        { "id": "c4c", "label": { "en": "Equatorial Field: E = kp / r³", "hi": "निरक्षीय क्षेत्र: E = kp / r³" } },
+        { "id": "c4d", "label": { "en": "Torque: τ = pE sinθ", "hi": "बल आघूर्ण: τ = pE sinθ" } }
       ]
     },
     {
@@ -62,9 +60,10 @@
         "hi": "गॉस का नियम"
       },
       "children": [
-        { "id": "c5a", "label": { "en": "Electric Flux (Φ = E·A)", "hi": "विद्युत फ्लक्स (Φ = E·A)" } },
-        { "id": "c5b", "label": { "en": "Law Statement (Φ = q/ε₀)", "hi": "नियम का कथन (Φ = q/ε₀)" } },
-        { "id": "c5c", "label": { "en": "Applications (Wire, Sheet, Shell)", "hi": "अनुप्रयोग (तार, चादर, कोश)" } }
+        { "id": "c5a", "label": { "en": "Electric Flux: Φ = E·A", "hi": "विद्युत फ्लक्स: Φ = E·A" } },
+        { "id": "c5b", "label": { "en": "Φ = q_enclosed / ε0", "hi": "Φ = q_enclosed / ε0" } },
+        { "id": "c5c", "label": { "en": "Line Charge: E = λ / (2πε0r)", "hi": "रेखीय आवेश: E = λ / (2πε0r)" } },
+        { "id": "c5d", "label": { "en": "Sheet of Charge: E = σ / (2ε0)", "hi": "आवेश की चादर: E = σ / (2ε0)" } }
       ]
     }
   ]

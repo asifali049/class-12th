@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "$S_N1$ vs $S_N2$ Reactions",
+      "hi": "$S_N1$ बनाम $S_N2$ अभिक्रियाएँ",
+      "hinglish": "$S_N1$ vs $S_N2$ Reactions"
+    },
+    "summary": {
+      "en": "$S_N1$ is a 2-step process involving a carbocation intermediate, leading to racemization. It favors tertiary ($3^\\circ$) halides. $S_N2$ is a 1-step concerted process involving a transition state, leading to inversion of configuration. It favors primary ($1^\\circ$) halides due to less steric hindrance.",
+      "hi": "$S_N1$ एक 2-चरणीय प्रक्रिया है जिसमें एक कार्बोधनायन मध्यवर्ती शामिल होता है, जिससे रेसिमीकरण होता है। यह तृतीयक ($3^\\circ$) हैलाइडों का पक्ष लेता है। $S_N2$ एक संक्रमण अवस्था वाली 1-चरणीय ठोस प्रक्रिया है, जिससे विन्यास का प्रतिलोमन होता है। कम त्रिविम बाधा के कारण यह प्राथमिक ($1^\\circ$) हैलाइडों का पक्ष लेता है।",
+      "hinglish": "$S_N1$ 2-step process hai jisme carbocation banta hai, aur racemization hota hai. Yeh $3^\\circ$ halides ke liye fast hai. $S_N2$ 1-step process hai (transition state), jisme configuration ka inversion hota hai. Yeh $1^\\circ$ halides ke liye fast hai kyuki steric hindrance kam hoti hai."
+    },
+    "quickRecall": [
+      {
+        "en": "SN1: $3^\\circ > 2^\\circ > 1^\\circ$, Racemization",
+        "hi": "SN1: $3^\\circ > 2^\\circ > 1^\\circ$, रेसिमीकरण"
+      },
+      {
+        "en": "SN2: $1^\\circ > 2^\\circ > 3^\\circ$, Inversion",
+        "hi": "SN2: $1^\\circ > 2^\\circ > 3^\\circ$, प्रतिलोमन"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Markovnikov's vs Anti-Markovnikov's Rule",
+      "hi": "मार्कोवनिकोव बनाम एंटी-मार्कोवनिकोव का नियम",
+      "hinglish": "Markovnikov's vs Anti-Markovnikov's Rule"
+    },
+    "summary": {
+      "en": "Markovnikov: When HX adds to an unsymmetrical alkene, the negative part (X-) attaches to the carbon with fewer hydrogen atoms. Anti-Markovnikov (Peroxide effect / Kharasch effect): In the presence of peroxide, HBr adds opposite to Markovnikov's rule (Br attaches to the carbon with more hydrogen atoms). Only applicable for HBr.",
+      "hi": "मार्कोवनिकोव: जब HX एक असममित एल्कीन में जुड़ता है, तो ऋणात्मक भाग (X-) कम हाइड्रोजन परमाणुओं वाले कार्बन से जुड़ता है। एंटी-मार्कोवनिकोव (परॉक्साइड प्रभाव / खराश प्रभाव): परॉक्साइड की उपस्थिति में, HBr मार्कोवनिकोव के नियम के विपरीत जुड़ता है (Br अधिक हाइड्रोजन परमाणुओं वाले कार्बन से जुड़ता है)। केवल HBr के लिए लागू।",
+      "hinglish": "Markovnikov: HX ke addition mein negative part (X-) us carbon par jata hai jispar H atoms kam hote hain. Anti-Markovnikov (Peroxide effect): Peroxide ki presence mein HBr ulta add hota hai (Br us carbon par jata hai jispar H zyada hote hain). Yeh sirf HBr par apply hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Markovnikov: Rich gets richer (H goes to C with more H)",
+        "hi": "मार्कोवनिकोव: अमीर और अमीर होता है (H अधिक H वाले C पर जाता है)"
+      },
+      {
+        "en": "Anti-Markovnikov: Only with HBr + Peroxide",
+        "hi": "एंटी-मार्कोवनिकोव: केवल HBr + परॉक्साइड के साथ"
+      }
+    ]
+  }
+]

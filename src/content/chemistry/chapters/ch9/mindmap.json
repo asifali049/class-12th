@@ -1,0 +1,63 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Amines",
+    "hi": "एमीन",
+    "hinglish": "Amines"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Preparation",
+        "hi": "विरचन"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Reduction of Nitro compounds (RNO2 to RNH2)", "hi": "नाइट्रो यौगिकों का अपचयन (RNO2 से RNH2)" } },
+        { "id": "c1b", "label": { "en": "Ammonolysis of Alkyl Halides (gives mixture)", "hi": "एल्किल हैलाइड का अमोनीअपघटन (मिश्रण देता है)" } },
+        { "id": "c1c", "label": { "en": "Reduction of Nitriles & Amides", "hi": "नाइट्राइल और एमाइड का अपचयन" } },
+        { "id": "c1d", "label": { "en": "Gabriel Phthalimide (pure 1° aliphatic only)", "hi": "गेब्रियल थैलिमाइड (केवल शुद्ध 1° एलिफैटिक)" } },
+        { "id": "c1e", "label": { "en": "Hoffmann Bromamide Degradation (-1 Carbon)", "hi": "हॉफमैन ब्रोमेमाइड निम्नीकरण (-1 कार्बन)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Basic Character",
+        "hi": "क्षारीय प्रकृति"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Aliphatic amines > Ammonia (+I effect)", "hi": "एलिफैटिक एमीन > अमोनिया (+I प्रभाव)" } },
+        { "id": "c2b", "label": { "en": "Aromatic amines < Ammonia (Resonance)", "hi": "एरोमैटिक एमीन < अमोनिया (अनुनाद)" } },
+        { "id": "c2c", "label": { "en": "Gas phase: 3° > 2° > 1° > NH3", "hi": "गैस अवस्था: 3° > 2° > 1° > NH3" } },
+        { "id": "c2d", "label": { "en": "Aqueous phase: Depends on +I, Steric, Solvation", "hi": "जलीय अवस्था: +I, त्रिविम, विलायकन पर निर्भर" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Chemical Reactions",
+        "hi": "रासायनिक अभिक्रियाएँ"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Acylation (Forms Amides)", "hi": "एसिलन (एमाइड बनाता है)" } },
+        { "id": "c3b", "label": { "en": "Carbylamine Test (Only 1° amines give isocyanide)", "hi": "कार्बिलएमीन परीक्षण (केवल 1° एमीन आइसोसाइनाइड देते हैं)" } },
+        { "id": "c3c", "label": { "en": "Reaction with HNO2 (Aliphatic gives alcohol, Aromatic gives diazonium)", "hi": "HNO2 के साथ अभिक्रिया (एलिफैटिक एल्कोहॉल देता है, एरोमैटिक डायज़ोनियम देता है)" } },
+        { "id": "c3d", "label": { "en": "Hinsberg Test (Distinguishes 1°, 2°, 3° amines)", "hi": "हिन्सबर्ग परीक्षण (1°, 2°, 3° एमीन में अंतर करता है)" } },
+        { "id": "c3e", "label": { "en": "Electrophilic Substitution (Bromination, Nitration)", "hi": "इलेक्ट्रॉनरागी प्रतिस्थापन (ब्रोमीनीकरण, नाइट्रीकरण)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Diazonium Salts (ArN2+X-)",
+        "hi": "डायज़ोनियम लवण (ArN2+X-)"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Sandmeyer Reaction (CuX/HX)", "hi": "सैंडमेयर अभिक्रिया (CuX/HX)" } },
+        { "id": "c4b", "label": { "en": "Gattermann Reaction (Cu/HX)", "hi": "गटरमान अभिक्रिया (Cu/HX)" } },
+        { "id": "c4c", "label": { "en": "Coupling Reactions (Azo Dyes)", "hi": "युग्मन अभिक्रियाएँ (एज़ो रंजक)" } }
+      ]
+    }
+  ]
+}

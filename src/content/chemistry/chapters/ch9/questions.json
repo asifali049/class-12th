@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following amines will not give carbylamine test?",
+      "hi": "निम्नलिखित में से कौन सा एमीन कार्बिलएमीन परीक्षण नहीं देगा?",
+      "hinglish": "Inme se kaun sa amine carbylamine test nahi dega?"
+    },
+    "options": [
+      {
+        "en": "Aniline",
+        "hi": "एनिलीन"
+      },
+      {
+        "en": "Methylamine",
+        "hi": "मिथाइलएमीन"
+      },
+      {
+        "en": "Ethylamine",
+        "hi": "एथिलएमीन"
+      },
+      {
+        "en": "Dimethylamine",
+        "hi": "डाइमिथाइलएमीन"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "The carbylamine test (isocyanide test) is given ONLY by primary ($1^\\circ$) aliphatic and aromatic amines. Dimethylamine is a secondary ($2^\\circ$) amine, hence it will not give this test.",
+      "hi": "कार्बिलएमीन परीक्षण (आइसोसाइनाइड परीक्षण) केवल प्राथमिक ($1^\\circ$) एलिफैटिक और एरोमैटिक एमीन द्वारा दिया जाता है। डाइमिथाइलएमीन एक द्वितीयक ($2^\\circ$) एमीन है, इसलिए यह यह परीक्षण नहीं देगा।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why is aniline a weaker base than cyclohexylamine?",
+      "hi": "एनिलीन साइक्लोहेक्सिलएमीन की तुलना में एक दुर्बल क्षार क्यों है?",
+      "hinglish": "Aniline cyclohexylamine se weaker base kyun hai?"
+    },
+    "idealAnswer": {
+      "en": "In aniline, the lone pair of electrons on the nitrogen atom is delocalized over the benzene ring due to resonance. This makes the lone pair less available for donation to a proton. \nIn cyclohexylamine, the nitrogen is attached to an $sp^3$ hybridized carbon of a saturated ring, and there is no resonance. The lone pair is completely localized on nitrogen and readily available for protonation. Moreover, the cyclohexyl group exerts a +I (electron-donating) effect, increasing basicity.",
+      "hi": "एनिलीन में, नाइट्रोजन परमाणु पर इलेक्ट्रॉनों का एकाकी युग्म अनुनाद के कारण बेंजीन वलय पर विस्थानिकृत (delocalized) हो जाता है। यह एकाकी युग्म को प्रोटॉन को दान करने के लिए कम उपलब्ध बनाता है।\nसाइक्लोहेक्सिलएमीन में, नाइट्रोजन एक संतृप्त वलय के $sp^3$ संकरित कार्बन से जुड़ा होता है, और कोई अनुनाद नहीं होता है। एकाकी युग्म पूरी तरह से नाइट्रोजन पर स्थानीयकृत (localized) होता है और प्रोटॉनीकरण के लिए आसानी से उपलब्ध होता है। इसके अलावा, साइक्लोहेक्सिल समूह +I (इलेक्ट्रॉन दान करने वाला) प्रभाव डालता है, जिससे क्षारीयता बढ़ती है।"
+    },
+    "keywords": [
+      {
+        "en": "delocalized over the benzene ring",
+        "hi": "बेंजीन वलय पर विस्थानिकृत"
+      },
+      {
+        "en": "resonance",
+        "hi": "अनुनाद"
+      },
+      {
+        "en": "less available for donation",
+        "hi": "दान करने के लिए कम उपलब्ध"
+      },
+      {
+        "en": "localized",
+        "hi": "स्थानीयकृत"
+      }
+    ],
+    "tips": {
+      "en": "Drawing the resonance structures of aniline effectively demonstrates the delocalization of the lone pair.",
+      "hi": "एनिलीन की अनुनाद संरचनाएं खींचना एकाकी युग्म के विस्थानीकरण को प्रभावी ढंग से प्रदर्शित करता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "Give reasons: (i) Gabriel phthalimide synthesis is preferred for synthesizing primary amines. (ii) Silver chloride is soluble in methylamine.",
+      "hi": "कारण बताइए: (i) प्राथमिक एमीन को संश्लेषित करने के लिए गेब्रियल थैलिमाइड संश्लेषण को प्राथमिकता दी जाती है। (ii) सिल्वर क्लोराइड मिथाइलएमीन में विलेय है।",
+      "hinglish": "Reasons dijiye: (i) Primary amines ke liye Gabriel phthalimide synthesis ko prefer kyun karte hain. (ii) Silver chloride methylamine mein soluble kyun hai."
+    },
+    "idealAnswer": {
+      "en": "(i) Gabriel phthalimide synthesis yields pure primary aliphatic amines. It avoids the formation of secondary and tertiary amines, which usually occurs as a mixture during the ammonolysis of alkyl halides.\n(ii) Silver chloride ($AgCl$) dissolves in methylamine ($CH_3NH_2$) due to the formation of a soluble coordination complex. The lone pair on the nitrogen of methylamine coordinates with the silver ion: $AgCl + 2CH_3NH_2 \\rightarrow [Ag(CH_3NH_2)_2]^+Cl^-$.",
+      "hi": "(i) गेब्रियल थैलिमाइड संश्लेषण से शुद्ध प्राथमिक एलिफैटिक एमीन प्राप्त होते हैं। यह द्वितीयक और तृतीयक एमीन के निर्माण से बचाता है, जो आमतौर पर एल्किल हैलाइड के अमोनीअपघटन के दौरान मिश्रण के रूप में होता है।\n(ii) घुलनशील उपसहसंयोजन संकुल (coordination complex) बनने के कारण सिल्वर क्लोराइड ($AgCl$) मिथाइलएमीन ($CH_3NH_2$) में घुल जाता है। मिथाइलएमीन के नाइट्रोजन पर मौजूद एकाकी युग्म सिल्वर आयन के साथ उपसहसंयोजक बंध बनाता है: $AgCl + 2CH_3NH_2 \\rightarrow [Ag(CH_3NH_2)_2]^+Cl^-$।"
+    },
+    "keywords": [
+      {
+        "en": "pure primary aliphatic amines",
+        "hi": "शुद्ध प्राथमिक एलिफैटिक एमीन"
+      },
+      {
+        "en": "avoids mixture",
+        "hi": "मिश्रण से बचाता है"
+      },
+      {
+        "en": "soluble coordination complex",
+        "hi": "घुलनशील उपसहसंयोजन संकुल"
+      }
+    ],
+    "tips": {
+      "en": "For part (ii), always write the balanced chemical equation for the formation of the complex ion.",
+      "hi": "भाग (ii) के लिए, हमेशा संकुल आयन के निर्माण के लिए संतुलित रासायनिक समीकरण लिखें।"
+    }
+  }
+]

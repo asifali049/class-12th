@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is a non-reducing sugar?",
+      "hi": "निम्नलिखित में से कौन एक अनपचायी (non-reducing) शर्करा है?",
+      "hinglish": "Inme se kaun sa non-reducing sugar hai?"
+    },
+    "options": [
+      {
+        "en": "Glucose",
+        "hi": "ग्लूकोज"
+      },
+      {
+        "en": "Sucrose",
+        "hi": "सुक्रोज"
+      },
+      {
+        "en": "Maltose",
+        "hi": "माल्टोज"
+      },
+      {
+        "en": "Lactose",
+        "hi": "लैक्टोज"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Sucrose is a non-reducing sugar because the reducing groups of glucose and fructose (C1 of glucose and C2 of fructose) are involved in glycosidic bond formation, leaving no free anomeric carbon.",
+      "hi": "सुक्रोज एक अनपचायी शर्करा है क्योंकि ग्लूकोज और फ्रुक्टोज (ग्लूकोज का C1 और फ्रुक्टोज का C2) के अपचायी समूह ग्लाइकोसिडिक बंध निर्माण में शामिल होते हैं, जिससे कोई मुक्त एनोमेरिक कार्बन नहीं बचता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "What are essential and non-essential amino acids? Give one example of each.",
+      "hi": "आवश्यक और अनावश्यक अमीनो अम्ल क्या हैं? प्रत्येक का एक उदाहरण दें।",
+      "hinglish": "Essential aur non-essential amino acids kya hote hain? Ek-ek example dijiye."
+    },
+    "idealAnswer": {
+      "en": "**Essential amino acids**: Amino acids which cannot be synthesized in the body and must be obtained through diet are known as essential amino acids. Example: Valine, Leucine.\n**Non-essential amino acids**: Amino acids which can be synthesized in the body are known as non-essential amino acids. Example: Glycine, Alanine.",
+      "hi": "**आवश्यक अमीनो अम्ल**: ऐसे अमीनो अम्ल जिन्हें शरीर में संश्लेषित नहीं किया जा सकता है और जिन्हें आहार के माध्यम से प्राप्त किया जाना चाहिए, उन्हें आवश्यक अमीनो अम्ल कहा जाता है। उदाहरण: वेलिन, ल्यूसीन।\n**अनावश्यक अमीनो अम्ल**: ऐसे अमीनो अम्ल जिन्हें शरीर में संश्लेषित किया जा सकता है, उन्हें अनावश्यक अमीनो अम्ल कहा जाता है। उदाहरण: ग्लाइसिन, ऐलेनिन।"
+    },
+    "keywords": [
+      {
+        "en": "cannot be synthesized",
+        "hi": "संश्लेषित नहीं किया जा सकता"
+      },
+      {
+        "en": "obtained through diet",
+        "hi": "आहार के माध्यम से प्राप्त"
+      },
+      {
+        "en": "can be synthesized",
+        "hi": "संश्लेषित किया जा सकता"
+      }
+    ],
+    "tips": {
+      "en": "Always provide examples when defining these categories.",
+      "hi": "इन श्रेणियों को परिभाषित करते समय हमेशा उदाहरण दें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Write two main differences between DNA and RNA.",
+      "hi": "DNA और RNA के बीच दो मुख्य अंतर लिखिए।",
+      "hinglish": "DNA aur RNA ke beech do main differences likhiye."
+    },
+    "idealAnswer": {
+      "en": "1. **Sugar component**: DNA contains 2-deoxy-D-ribose sugar, whereas RNA contains D-ribose sugar.\n2. **Nitrogenous bases**: DNA contains Thymine (T) along with Adenine (A), Guanine (G), and Cytosine (C). RNA contains Uracil (U) instead of Thymine, along with A, G, and C.\n(Additional difference: DNA is double-stranded, RNA is usually single-stranded).",
+      "hi": "1. **शर्करा घटक**: DNA में 2-डीऑक्सी-D-राइबोज शर्करा होती है, जबकि RNA में D-राइबोज शर्करा होती है।\n2. **नाइट्रोजनी क्षार**: DNA में एडेनिन (A), गुआनिन (G) और साइटोसिन (C) के साथ थाइमिन (T) होता है। RNA में थाइमिन के बजाय यूरैसिल (U) होता है, साथ ही A, G और C होते हैं।\n(अतिरिक्त अंतर: DNA डबल-स्ट्रैंडेड है, RNA आमतौर पर सिंगल-स्ट्रैंडेड होता है)।"
+    },
+    "keywords": [
+      {
+        "en": "2-deoxy-D-ribose",
+        "hi": "2-डीऑक्सी-D-राइबोज"
+      },
+      {
+        "en": "D-ribose",
+        "hi": "D-राइबोज"
+      },
+      {
+        "en": "Thymine",
+        "hi": "थाइमिन"
+      },
+      {
+        "en": "Uracil",
+        "hi": "यूरैसिल"
+      }
+    ],
+    "tips": {
+      "en": "Presenting differences in a tabular format is the best way to score marks in exams.",
+      "hi": "परीक्षाओं में अंक प्राप्त करने के लिए अंतर को सारणीबद्ध (tabular) प्रारूप में प्रस्तुत करना सबसे अच्छा तरीका है।"
+    }
+  }
+]

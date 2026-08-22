@@ -1,0 +1,11 @@
+[
+  {
+    "id": "rev1",
+    "topic": "Electric Potential",
+    "summary": "Potential is work done per unit charge (V=W/q). Scalar quantity. Unit: Volt.",
+    "quickRecall": [
+      "V = W/q",
+      "Potential due to point charge: V = kq/r"
+    ]
+  }
+]

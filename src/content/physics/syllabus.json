@@ -1,0 +1,77 @@
+{
+  "id": "physics",
+  "name": "Physics (भौतिक विज्ञान)",
+  "language": "Hindi + English",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Electric Charges and Fields",
+      "hindiName": "विद्युत आवेश तथा क्षेत्र"
+    },
+    {
+      "id": "ch2",
+      "name": "Electrostatic Potential and Capacitance",
+      "hindiName": "स्थिर वैद्युत विभव तथा धारिता"
+    },
+    {
+      "id": "ch3",
+      "name": "Current Electricity",
+      "hindiName": "विद्युत धारा"
+    },
+    {
+      "id": "ch4",
+      "name": "Moving Charges and Magnetism",
+      "hindiName": "गतिमान आवेश और चुंबकत्व"
+    },
+    {
+      "id": "ch5",
+      "name": "Magnetism and Matter",
+      "hindiName": "चुंबकत्व एवं द्रव्य"
+    },
+    {
+      "id": "ch6",
+      "name": "Electromagnetic Induction",
+      "hindiName": "विद्युत चुम्बकीय प्रेरण"
+    },
+    {
+      "id": "ch7",
+      "name": "Alternating Current",
+      "hindiName": "प्रत्यावर्ती धारा"
+    },
+    {
+      "id": "ch8",
+      "name": "Electromagnetic Waves",
+      "hindiName": "विद्युत चुम्बकीय तरंगें"
+    },
+    {
+      "id": "ch9",
+      "name": "Ray Optics and Optical Instruments",
+      "hindiName": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र"
+    },
+    {
+      "id": "ch10",
+      "name": "Wave Optics",
+      "hindiName": "तरंग - प्रकाशिकी"
+    },
+    {
+      "id": "ch11",
+      "name": "Dual Nature of Radiation and Matter",
+      "hindiName": "विकिरण तथा द्रव्य की द्वैत प्रकृति"
+    },
+    {
+      "id": "ch12",
+      "name": "Atoms",
+      "hindiName": "परमाणु"
+    },
+    {
+      "id": "ch13",
+      "name": "Nuclei",
+      "hindiName": "नाभिक"
+    },
+    {
+      "id": "ch14",
+      "name": "Semiconductor Electronics",
+      "hindiName": "अर्धचालक इलेक्ट्रॉनिकी"
+    }
+  ]
+}

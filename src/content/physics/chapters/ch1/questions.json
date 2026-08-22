@@ -1,0 +1,207 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "What is the SI unit of electric charge?",
+      "hi": "विद्युत आवेश का SI मात्रक क्या है?",
+      "hinglish": "Electric charge ka SI unit kya hai?"
+    },
+    "options": [
+      {
+        "en": "Coulomb",
+        "hi": "कूलॉम"
+      },
+      {
+        "en": "Ampere",
+        "hi": "एम्पीयर"
+      },
+      {
+        "en": "Volt",
+        "hi": "वोल्ट"
+      },
+      {
+        "en": "Ohm",
+        "hi": "ओम"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Electric charge is measured in coulomb (C) in the SI system.",
+      "hi": "SI प्रणाली में विद्युत आवेश को कूलॉम (C) में मापा जाता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "If the distance between two point charges is doubled, the electrostatic force between them becomes:",
+      "hi": "यदि दो बिंदु आवेशों के बीच की दूरी को दोगुना कर दिया जाए, तो उनके बीच स्थिर वैद्युत बल हो जाएगा:",
+      "hinglish": "Agar do point charges ke beech ka distance double kar diya jaye, toh electrostatic force kya ban jayega:"
+    },
+    "options": [
+      {
+        "en": "Doubled",
+        "hi": "दोगुना"
+      },
+      {
+        "en": "Halved",
+        "hi": "आधा"
+      },
+      {
+        "en": "One-fourth",
+        "hi": "एक-चौथाई"
+      },
+      {
+        "en": "Four times",
+        "hi": "चार गुना"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "According to Coulomb's Law, $F \\propto 1/r^2$. If $r$ becomes $2r$, the new force is $1/(2r)^2 = 1/4$ of the original force.",
+      "hi": "कूलॉम के नियम के अनुसार, $F \\propto 1/r^2$। यदि $r$, $2r$ हो जाता है, तो नया बल मूल बल का $1/(2r)^2 = 1/4$ होगा।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "The electric field intensity inside a charged hollow spherical conductor is:",
+      "hi": "एक आवेशित खोखले गोलीय चालक के अंदर विद्युत क्षेत्र की तीव्रता होती है:",
+      "hinglish": "Charged hollow spherical conductor ke andar electric field intensity kya hoti hai:"
+    },
+    "options": [
+      {
+        "en": "Zero",
+        "hi": "शून्य"
+      },
+      {
+        "en": "Maximum",
+        "hi": "अधिकतम"
+      },
+      {
+        "en": "Depends on radius",
+        "hi": "त्रिज्या पर निर्भर करती है"
+      },
+      {
+        "en": "Depends on charge",
+        "hi": "आवेश पर निर्भर करती है"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Charges reside only on the outer surface of a hollow conductor. According to Gauss's Law, the charge enclosed is zero, so the electric field inside is zero.",
+      "hi": "आवेश केवल खोखले चालक की बाहरी सतह पर रहते हैं। गॉस के नियम के अनुसार, इसके भीतर घिरा हुआ आवेश शून्य होता है, इसलिए अंदर का विद्युत क्षेत्र भी शून्य होता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Define electric dipole moment. Is it a scalar or vector quantity?",
+      "hi": "विद्युत द्विध्रुव आघूर्ण को परिभाषित करें। क्या यह एक अदिश या सदिश राशि है?",
+      "hinglish": "Electric dipole moment ko define karein. Ye scalar quantity hai ya vector?"
+    },
+    "idealAnswer": {
+      "en": "Electric dipole moment is the product of the magnitude of either charge and the distance between them ($p = q \\times 2a$). It is a vector quantity directed from the negative charge to the positive charge.",
+      "hi": "विद्युत द्विध्रुव आघूर्ण किसी एक आवेश के परिमाण और उनके बीच की दूरी ($p = q \\times 2a$) का गुणनफल है। यह एक सदिश राशि है जिसकी दिशा ऋणात्मक आवेश से धनात्मक आवेश की ओर होती है।"
+    },
+    "keywords": [
+      {
+        "en": "product of charge and distance",
+        "hi": "आवेश और दूरी का गुणनफल"
+      },
+      {
+        "en": "vector quantity",
+        "hi": "सदिश राशि"
+      },
+      {
+        "en": "negative to positive",
+        "hi": "ऋणात्मक से धनात्मक"
+      }
+    ],
+    "tips": {
+      "en": "Always mention the direction (from -q to +q) when stating that it's a vector quantity.",
+      "hi": "जब आप बताएं कि यह एक सदिश राशि है, तो हमेशा दिशा (-q से +q तक) का उल्लेख करें।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why do two electric field lines never intersect each other?",
+      "hi": "दो विद्युत बल रेखाएं कभी भी एक-दूसरे को क्यों नहीं काटती हैं?",
+      "hinglish": "Do electric field lines kabhi ek dusre ko intersect kyun nahi karti?"
+    },
+    "idealAnswer": {
+      "en": "If two electric field lines intersect, it would imply two directions of the electric field at the point of intersection (since the tangent at that point gives the direction of the field), which is physically impossible as the electric field can only have one unique direction at any given point.",
+      "hi": "यदि दो विद्युत क्षेत्र रेखाएं प्रतिच्छेद करती हैं, तो इसका मतलब प्रतिच्छेद बिंदु पर विद्युत क्षेत्र की दो दिशाएं होंगी (चूंकि उस बिंदु पर स्पर्शरेखा क्षेत्र की दिशा बताती है), जो भौतिक रूप से असंभव है क्योंकि किसी भी दिए गए बिंदु पर विद्युत क्षेत्र की केवल एक ही दिशा हो सकती है।"
+    },
+    "keywords": [
+      {
+        "en": "two directions",
+        "hi": "दो दिशाएं"
+      },
+      {
+        "en": "point of intersection",
+        "hi": "प्रतिच्छेदन बिंदु"
+      },
+      {
+        "en": "impossible",
+        "hi": "असंभव"
+      }
+    ],
+    "tips": {
+      "en": "Start your answer with 'If they intersect...' and logically conclude why it's impossible.",
+      "hi": "अपना उत्तर 'यदि वे काटती हैं...' से शुरू करें और तार्किक रूप से निष्कर्ष निकालें कि यह असंभव क्यों है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 5,
+    "question": {
+      "en": "State Gauss's Law in electrostatics. Using this law, derive an expression for the electric field due to an infinitely long straight uniformly charged wire.",
+      "hi": "स्थिर वैद्युतिकी में गॉस के नियम का उल्लेख करें। इस नियम का उपयोग करते हुए, अनंत लंबाई के सीधे एकसमान आवेशित तार के कारण विद्युत क्षेत्र के लिए व्यंजक प्राप्त करें।",
+      "hinglish": "Electrostatics mein Gauss's Law bataiye. Is law ka use karke, infinitely long straight uniformly charged wire ke karan electric field derive karein."
+    },
+    "idealAnswer": {
+      "en": "Gauss's law states that the total electric flux through a closed surface in free space is equal to $1/\\epsilon_0$ times the net charge enclosed by the surface ($\\oint \\vec{E} \\cdot d\\vec{S} = q/\\epsilon_0$).\n\nFor a straight wire with linear charge density $\\lambda$, consider a cylindrical Gaussian surface of radius $r$ and length $l$. The flux through the flat ends is zero because $\\vec{E}$ and $d\\vec{S}$ are perpendicular. For the curved surface, $\\vec{E}$ is parallel to $d\\vec{S}$, so flux $\\Phi = E \\times 2\\pi rl$. The charge enclosed is $q = \\lambda l$. By Gauss's Law, $E \\times 2\\pi rl = \\lambda l / \\epsilon_0$. Therefore, $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$.",
+      "hi": "गॉस का नियम कहता है कि मुक्त आकाश में किसी बंद पृष्ठ से गुजरने वाला कुल विद्युत फ्लक्स पृष्ठ द्वारा घिरे कुल आवेश का $1/\\epsilon_0$ गुना होता है ($\\oint \\vec{E} \\cdot d\\vec{S} = q/\\epsilon_0$)।\n\nरेखीय आवेश घनत्व $\\lambda$ वाले एक सीधे तार के लिए, त्रिज्या $r$ और लंबाई $l$ के एक बेलनाकार गॉसियन पृष्ठ पर विचार करें। चपटे सिरों से फ्लक्स शून्य होता है क्योंकि $\\vec{E}$ और $d\\vec{S}$ लंबवत हैं। वक्र पृष्ठ के लिए, $\\vec{E}$, $d\\vec{S}$ के समानांतर है, इसलिए फ्लक्स $\\Phi = E \\times 2\\pi rl$ है। घिरा हुआ आवेश $q = \\lambda l$ है। गॉस के नियम के अनुसार, $E \\times 2\\pi rl = \\lambda l / \\epsilon_0$। अतः, $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$।"
+    },
+    "keywords": [
+      {
+        "en": "total electric flux",
+        "hi": "कुल विद्युत फ्लक्स"
+      },
+      {
+        "en": "1/epsilon_0 times net charge",
+        "hi": "कुल आवेश का 1/epsilon_0 गुना"
+      },
+      {
+        "en": "cylindrical Gaussian surface",
+        "hi": "बेलनाकार गॉसियन पृष्ठ"
+      },
+      {
+        "en": "linear charge density",
+        "hi": "रेखीय आवेश घनत्व"
+      }
+    ],
+    "tips": {
+      "en": "Always draw a neat diagram showing the wire, the cylindrical Gaussian surface, and the direction of the electric field and area vectors.",
+      "hi": "हमेशा एक साफ चित्र बनाएं जिसमें तार, बेलनाकार गॉसियन सतह, और विद्युत क्षेत्र और क्षेत्रफल सदिशों की दिशा दिखाई गई हो।"
+    }
+  }
+]

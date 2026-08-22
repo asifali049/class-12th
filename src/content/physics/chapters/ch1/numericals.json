@@ -1,0 +1,80 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "easy",
+    "question": {
+      "en": "Calculate the force of electrostatic attraction between a proton and an electron separated by a distance of $5.3 \\times 10^{-11}$ m.",
+      "hi": "$5.3 \\times 10^{-11}$ m की दूरी पर स्थित एक प्रोटॉन और एक इलेक्ट्रॉन के बीच स्थिर वैद्युत आकर्षण बल की गणना करें।",
+      "hinglish": "Ek proton aur electron ke beech $5.3 \\times 10^{-11}$ m distance par electrostatic attraction force calculate karein."
+    },
+    "given": {
+      "en": "$q_1 = +1.6 \\times 10^{-19} \\text{ C}$<br>$q_2 = -1.6 \\times 10^{-19} \\text{ C}$<br>$r = 5.3 \\times 10^{-11} \\text{ m}$",
+      "hi": "$q_1 = +1.6 \\times 10^{-19} \\text{ C}$<br>$q_2 = -1.6 \\times 10^{-19} \\text{ C}$<br>$r = 5.3 \\times 10^{-11} \\text{ m}$"
+    },
+    "required": {
+      "en": "Electrostatic Force ($F$)",
+      "hi": "स्थिर वैद्युत बल ($F$)"
+    },
+    "formula": "$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}$",
+    "substitution": "$F = \\frac{(9 \\times 10^9) \\times (1.6 \\times 10^{-19}) \\times (1.6 \\times 10^{-19})}{(5.3 \\times 10^{-11})^2}$",
+    "calculation": "$F = \\frac{9 \\times 2.56 \\times 10^{9-38}}{28.09 \\times 10^{-22}}$<br>$F = \\frac{23.04 \\times 10^{-29}}{28.09 \\times 10^{-22}}$<br>$F = 0.82 \\times 10^{-7}$",
+    "finalAnswer": "$8.2 \\times 10^{-8}$",
+    "unit": "N",
+    "examTip": {
+      "en": "Always convert distances to meters before substituting into the formula. The force is attractive since charges are opposite.",
+      "hi": "सूत्र में प्रतिस्थापित करने से पहले हमेशा दूरियों को मीटर में बदलें। आवेश विपरीत होने के कारण बल आकर्षण प्रकृति का होता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "An electric dipole with dipole moment $4 \\times 10^{-9}$ C m is aligned at $30^\\circ$ with the direction of a uniform electric field of magnitude $5 \\times 10^4$ N C$^{-1}$. Calculate the magnitude of the torque acting on the dipole.",
+      "hi": "$4 \\times 10^{-9}$ C m द्विध्रुव आघूर्ण वाला एक विद्युत द्विध्रुव $5 \\times 10^4$ N C$^{-1}$ परिमाण के एकसमान विद्युत क्षेत्र की दिशा के साथ $30^\\circ$ के कोण पर संरेखित है। द्विध्रुव पर कार्य करने वाले बल आघूर्ण के परिमाण की गणना करें।",
+      "hinglish": "$4 \\times 10^{-9}$ C m dipole moment wala ek electric dipole $5 \\times 10^4$ N C$^{-1}$ magnitude ke uniform electric field direction ke sath $30^\\circ$ par aligned hai. Dipole par lagne wale torque ka magnitude nikaalein."
+    },
+    "given": {
+      "en": "$p = 4 \\times 10^{-9} \\text{ C m}$<br>$E = 5 \\times 10^4 \\text{ N C}^{-1}$<br>$\\theta = 30^\\circ$",
+      "hi": "$p = 4 \\times 10^{-9} \\text{ C m}$<br>$E = 5 \\times 10^4 \\text{ N C}^{-1}$<br>$\\theta = 30^\\circ$"
+    },
+    "required": {
+      "en": "Torque ($\\tau$)",
+      "hi": "बल आघूर्ण ($\\tau$)"
+    },
+    "formula": "$\\tau = pE \\sin\\theta$",
+    "substitution": "$\\tau = (4 \\times 10^{-9}) \\times (5 \\times 10^4) \\times \\sin(30^\\circ)$",
+    "calculation": "$\\tau = 20 \\times 10^{-5} \\times 0.5$<br>$\\tau = 10 \\times 10^{-5}$",
+    "finalAnswer": "$10^{-4}$",
+    "unit": "N m",
+    "examTip": {
+      "en": "Make sure you know the values of sine and cosine for standard angles ($0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$).",
+      "hi": "सुनिश्चित करें कि आप मानक कोणों ($0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$) के लिए ज्या (sine) और कोज्या (cosine) के मान जानते हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "difficulty": "hard",
+    "question": {
+      "en": "Two point charges $+q$ and $-2q$ are placed at vertices $A$ and $B$ respectively of an equilateral triangle $ABC$ of side $a$. Find the magnitude and direction of the electric field at vertex $C$.",
+      "hi": "दो बिंदु आवेश $+q$ और $-2q$ क्रमशः $a$ भुजा वाले एक समबाहु त्रिभुज $ABC$ के शीर्षों $A$ और $B$ पर रखे गए हैं। शीर्ष $C$ पर विद्युत क्षेत्र का परिमाण और दिशा ज्ञात करें।",
+      "hinglish": "Equilateral triangle $ABC$ (side $a$) ke vertices $A$ aur $B$ par respectively $+q$ aur $-2q$ point charges rakhe hain. Vertex $C$ par electric field ka magnitude aur direction find karein."
+    },
+    "given": {
+      "en": "$q_A = +q$, $q_B = -2q$<br>Distance $AC = a$<br>Distance $BC = a$",
+      "hi": "$q_A = +q$, $q_B = -2q$<br>दूरी $AC = a$<br>दूरी $BC = a$"
+    },
+    "required": {
+      "en": "Net Electric Field at C ($E_C$)",
+      "hi": "C पर कुल विद्युत क्षेत्र ($E_C$)"
+    },
+    "formula": "$E = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2}$<br>$E_{\\text{net}} = \\sqrt{E_A^2 + E_B^2 + 2E_A E_B \\cos\\theta}$",
+    "substitution": "$E_A = \\frac{kq}{a^2}$ (outward)<br>$E_B = \\frac{2kq}{a^2}$ (inward towards B)<br>Angle between $E_A$ and $E_B$ is $120^\\circ$",
+    "calculation": "$E_{\\text{net}} = \\sqrt{E_A^2 + (2E_A)^2 + 2(E_A)(2E_A)\\cos(120^\\circ)}$<br>$E_{\\text{net}} = \\sqrt{E_A^2 + 4E_A^2 + 4E_A^2 (-0.5)}$<br>$E_{\\text{net}} = \\sqrt{3} E_A$",
+    "finalAnswer": "$\\frac{\\sqrt{3} q}{4\\pi\\epsilon_0 a^2}$",
+    "unit": "N/C",
+    "examTip": {
+      "en": "For vector additions involving equilateral triangles, the external angle ($120^\\circ$) is often used for calculating the resultant.",
+      "hi": "समबाहु त्रिभुजों से जुड़े सदिश योग के लिए, परिणामी की गणना के लिए अक्सर बाह्य कोण ($120^\\circ$) का उपयोग किया जाता है।"
+    }
+  }
+]

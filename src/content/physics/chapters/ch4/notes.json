@@ -1,0 +1,15 @@
+[
+  {
+    "type": "heading",
+    "text": "Moving Charges and Magnetism"
+  },
+  {
+    "type": "paragraph",
+    "text": "Oersted discovered that a moving charge produces a magnetic field around it."
+  },
+  {
+    "type": "formula",
+    "equation": "F = qvB sin\theta",
+    "label": "Magnetic Force"
+  }
+]

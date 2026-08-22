@@ -1,0 +1,18 @@
+[
+  {
+    "type": "heading",
+    "text": "Current Electricity (विद्युत धारा)"
+  },
+  {
+    "type": "concept",
+    "text": "1. Electric Current:"
+  },
+  {
+    "type": "paragraph",
+    "text": "The rate of flow of electric charge through any cross-section of a conductor. I = q/t."
+  },
+  {
+    "type": "highlight",
+    "text": "Ohm's Law: V = IR"
+  }
+]

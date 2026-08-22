@@ -1,0 +1,106 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Electric Charge & its Properties",
+      "hi": "विद्युत आवेश और उसके गुण",
+      "hinglish": "Electric Charge aur uske properties"
+    },
+    "summary": {
+      "en": "Charge is quantized (q=ne), conserved, and additive. Like charges repel, unlike attract.",
+      "hi": "आवेश क्वांटमीकृत (q=ne), संरक्षित और योगात्मक होता है। समान आवेश प्रतिकर्षित करते हैं, विपरीत आवेश आकर्षित करते हैं।",
+      "hinglish": "Charge quantized (q=ne), conserved, aur additive hota hai. Like charges repel aur unlike attract karte hain."
+    },
+    "quickRecall": [
+      {
+        "en": "q = \\pm ne",
+        "hi": "q = \\pm ne",
+        "hinglish": "q = \\pm ne"
+      },
+      {
+        "en": "e = 1.6 \\times 10^{-19} C",
+        "hi": "e = 1.6 \\times 10^{-19} C",
+        "hinglish": "e = 1.6 \\times 10^{-19} C"
+      },
+      {
+        "en": "Charge is a scalar quantity",
+        "hi": "आवेश एक अदिश राशि है",
+        "hinglish": "Charge ek scalar quantity hai"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Coulomb's Law",
+      "hi": "कूलॉम का नियम",
+      "hinglish": "Coulomb's Law"
+    },
+    "summary": {
+      "en": "Force between 2 charges depends on magnitude and medium, and is inversely proportional to square of distance.",
+      "hi": "2 आवेशों के बीच बल परिमाण और माध्यम पर निर्भर करता है, और दूरी के वर्ग के व्युत्क्रमानुपाती होता है।",
+      "hinglish": "2 charges ke beech ka force unke magnitude aur medium pe depend karta hai, aur distance ke square ke inversely proportional hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "F = 1/(4\\pi\\epsilon_0) \\cdot q_1q_2/r^2",
+        "hi": "F = 1/(4\\pi\\epsilon_0) \\cdot q_1q_2/r^2"
+      },
+      {
+        "en": "\\epsilon_0 = 8.854 \\times 10^{-12} C^2/N\\cdot m^2",
+        "hi": "\\epsilon_0 = 8.854 \\times 10^{-12} C^2/N\\cdot m^2"
+      }
+    ]
+  },
+  {
+    "id": "rev3",
+    "topic": {
+      "en": "Electric Field & Dipole",
+      "hi": "विद्युत क्षेत्र और द्विध्रुव",
+      "hinglish": "Electric Field & Dipole"
+    },
+    "summary": {
+      "en": "Electric field E=F/q. Dipole moment p=q\\cdot 2a. Field lines start from +ve and end at -ve.",
+      "hi": "विद्युत क्षेत्र E=F/q। द्विध्रुव आघूर्ण p=q\\cdot 2a। क्षेत्र रेखाएं धनात्मक से शुरू होकर ऋणात्मक पर समाप्त होती हैं।",
+      "hinglish": "Electric field E=F/q. Dipole moment p=q\\cdot 2a. Field lines +ve se start ho kar -ve pe end hoti hain."
+    },
+    "quickRecall": [
+      {
+        "en": "E = F/q",
+        "hi": "E = F/q"
+      },
+      {
+        "en": "p = q \\times 2a",
+        "hi": "p = q \\times 2a"
+      },
+      {
+        "en": "Torque on dipole: \\tau = pE \\sin\\theta",
+        "hi": "द्विध्रुव पर बल आघूर्ण: \\tau = pE \\sin\\theta",
+        "hinglish": "Dipole par torque: \\tau = pE \\sin\\theta"
+      }
+    ]
+  },
+  {
+    "id": "rev4",
+    "topic": {
+      "en": "Gauss's Law",
+      "hi": "गॉस का नियम",
+      "hinglish": "Gauss's Law"
+    },
+    "summary": {
+      "en": "Total electric flux through a closed surface is equal to the net charge enclosed divided by permittivity.",
+      "hi": "किसी बंद पृष्ठ से गुजरने वाला कुल विद्युत फ्लक्स उस पृष्ठ द्वारा घिरे कुल आवेश को विद्युतशीलता से विभाजित करने पर प्राप्त होता है।",
+      "hinglish": "Closed surface se total electric flux usme enclosed net charge aur permittivity ke ratio ke barabar hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Net flux \\Phi_E = q_{enclosed}/\\epsilon_0",
+        "hi": "कुल फ्लक्स \\Phi_E = q_{enclosed}/\\epsilon_0"
+      },
+      {
+        "en": "Flux is independent of shape/size",
+        "hi": "फ्लक्स आकार/आकृति से स्वतंत्र है"
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Electric Field due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विद्युत क्षेत्र",
+      "hinglish": "Point charge ke wajah se Electric Field"
+    },
+    "given": {
+      "en": "A source point charge $q$ located at origin $O$ and a test charge $q_0$ at distance $r$.",
+      "hi": "मूल बिंदु $O$ पर स्थित एक स्रोत बिंदु आवेश $q$ और $r$ दूरी पर एक परीक्षण आवेश $q_0$।",
+      "hinglish": "Origin $O$ par ek source point charge $q$ aur $r$ distance par ek test charge $q_0$."
+    },
+    "toFind": {
+      "en": "Electric field intensity $\\vec{E}$ at a distance $r$ from the source charge.",
+      "hi": "स्रोत आवेश से $r$ दूरी पर विद्युत क्षेत्र की तीव्रता $\\vec{E}$।",
+      "hinglish": "Source charge se $r$ distance par electric field intensity $\\vec{E}$."
+    },
+    "concept": {
+      "en": "Coulomb's Law: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>Definition of E-Field: $\\vec{E} = \\frac{\\vec{F}}{q_0}$",
+      "hi": "कूलॉम का नियम: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>E-क्षेत्र की परिभाषा: $\\vec{E} = \\frac{\\vec{F}}{q_0}$",
+      "hinglish": "Coulomb's Law: $\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$<br>E-Field definition: $\\vec{E} = \\frac{\\vec{F}}{q_0}$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Force on Test Charge",
+          "hi": "चरण 1: परीक्षण आवेश पर बल",
+          "hinglish": "Step 1: Test Charge par force"
+        },
+        "content": {
+          "en": "According to Coulomb's Law, the electrostatic force experienced by the test charge $q_0$ placed at distance $r$ from the source charge $q$ is:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$",
+          "hi": "कूलॉम के नियम के अनुसार, स्रोत आवेश $q$ से $r$ दूरी पर रखे परीक्षण आवेश $q_0$ द्वारा अनुभव किया गया स्थिर वैद्युत बल है:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$",
+          "hinglish": "Coulomb's Law ke according, source charge $q$ se $r$ distance par test charge $q_0$ par lagne wala electrostatic force hai:<br>$\\vec{F} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Apply Definition of Electric Field",
+          "hi": "चरण 2: विद्युत क्षेत्र की परिभाषा लागू करें",
+          "hinglish": "Step 2: Electric Field ki definition apply karein"
+        },
+        "content": {
+          "en": "The electric field intensity $\\vec{E}$ is defined as the electrostatic force per unit positive test charge:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$",
+          "hi": "विद्युत क्षेत्र की तीव्रता $\\vec{E}$ को प्रति एकांक धनात्मक परीक्षण आवेश पर स्थिर वैद्युत बल के रूप में परिभाषित किया जाता है:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$",
+          "hinglish": "Electric field intensity $\\vec{E}$ force per unit positive test charge hota hai:<br>$\\vec{E} = \\frac{\\vec{F}}{q_0}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Substitution",
+          "hi": "चरण 3: प्रतिस्थापन",
+          "hinglish": "Step 3: Substitution"
+        },
+        "content": {
+          "en": "Substitute the expression for force $\\vec{F}$ into the electric field formula:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$",
+          "hi": "विद्युत क्षेत्र के सूत्र में बल $\\vec{F}$ का व्यंजक प्रतिस्थापित करें:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$",
+          "hinglish": "Electric field ke formula mein force $\\vec{F}$ ki value substitute karein:<br>$\\vec{E} = \\frac{1}{q_0} \\left( \\frac{1}{4\\pi\\epsilon_0} \\frac{q q_0}{r^2} \\hat{r} \\right)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Simplification",
+          "hi": "चरण 4: सरलीकरण",
+          "hinglish": "Step 4: Simplification"
+        },
+        "content": {
+          "en": "Cancel out $q_0$ from the numerator and denominator to get the final expression.",
+          "hi": "अंतिम व्यंजक प्राप्त करने के लिए अंश और हर से $q_0$ को निरस्त करें।",
+          "hinglish": "Numerator aur denominator se $q_0$ cancel out karein."
+        }
+      }
+    ],
+    "finalResult": "\\vec{E} = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2} \\hat{r}",
+    "examTip": {
+      "en": "Remember that the electric field due to a point charge follows an inverse square law (E $\\propto 1/r^2$). This is frequently asked in multiple-choice questions.",
+      "hi": "याद रखें कि बिंदु आवेश के कारण विद्युत क्षेत्र व्युत्क्रम वर्ग नियम (E $\\propto 1/r^2$) का पालन करता है। यह अक्सर बहुविकल्पीय प्रश्नों में पूछा जाता है।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Torque on an Electric Dipole in Uniform Field",
+      "hi": "एकसमान क्षेत्र में विद्युत द्विध्रुव पर बल आघूर्ण",
+      "hinglish": "Uniform Field mein Electric Dipole par Torque"
+    },
+    "given": {
+      "en": "An electric dipole of dipole moment $p = q(2a)$ placed in a uniform electric field $E$ at an angle $\\theta$.",
+      "hi": "एकसमान विद्युत क्षेत्र $E$ में $\\theta$ कोण पर रखा गया $p = q(2a)$ द्विध्रुव आघूर्ण का एक विद्युत द्विध्रुव।",
+      "hinglish": "Uniform electric field $E$ mein $\\theta$ angle par rakha $p = q(2a)$ dipole moment ka electric dipole."
+    },
+    "toFind": {
+      "en": "Torque $\\vec{\\tau}$ acting on the dipole.",
+      "hi": "द्विध्रुव पर कार्य करने वाला बल आघूर्ण $\\vec{\\tau}$।",
+      "hinglish": "Dipole par lagne wala Torque $\\vec{\\tau}$."
+    },
+    "concept": {
+      "en": "Force on charge: $\\vec{F} = q\\vec{E}$<br>Torque = Force $\\times$ Perpendicular distance between lines of action of forces.",
+      "hi": "आवेश पर बल: $\\vec{F} = q\\vec{E}$<br>बल आघूर्ण = बल $\\times$ बलों की क्रिया रेखाओं के बीच लंबवत दूरी।",
+      "hinglish": "Force on charge: $\\vec{F} = q\\vec{E}$<br>Torque = Force $\\times$ unke beech ki perpendicular distance."
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Forces on the Dipole",
+          "hi": "चरण 1: द्विध्रुव पर बल",
+          "hinglish": "Step 1: Dipole par lagne wale forces"
+        },
+        "content": {
+          "en": "The force on $+q$ is $\\vec{F}_+ = q\\vec{E}$ (in the direction of field).<br>The force on $-q$ is $\\vec{F}_- = -q\\vec{E}$ (opposite to the direction of field).<br>Net force is zero, but they form a couple.",
+          "hi": "$+q$ पर बल $\\vec{F}_+ = q\\vec{E}$ (क्षेत्र की दिशा में) है।<br>$-q$ पर बल $\\vec{F}_- = -q\\vec{E}$ (क्षेत्र की दिशा के विपरीत) है।<br>कुल बल शून्य है, लेकिन वे एक बलयुग्म बनाते हैं।",
+          "hinglish": "$+q$ par force $\\vec{F}_+ = q\\vec{E}$ (field ke direction mein) hai.<br>$-q$ par force $\\vec{F}_- = -q\\vec{E}$ (field ke opposite) hai.<br>Net force zero hai, par couple form hota hai."
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Perpendicular Distance",
+          "hi": "चरण 2: लंबवत दूरी",
+          "hinglish": "Step 2: Perpendicular Distance"
+        },
+        "content": {
+          "en": "From the geometry of the setup, the perpendicular distance between the lines of action of the two forces is $2a \\sin\\theta$.",
+          "hi": "व्यवस्था की ज्यामिति से, दोनों बलों की क्रिया रेखाओं के बीच लंबवत दूरी $2a \\sin\\theta$ है।",
+          "hinglish": "Geometry se, dono forces ke line of action ke beech perpendicular distance $2a \\sin\\theta$ aati hai."
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Calculate Torque",
+          "hi": "चरण 3: बल आघूर्ण की गणना",
+          "hinglish": "Step 3: Torque calculate karein"
+        },
+        "content": {
+          "en": "Torque $\\tau$ = Magnitude of either force $\\times$ Perpendicular distance<br>$\\tau = (qE) \\times (2a \\sin\\theta)$",
+          "hi": "बल आघूर्ण $\\tau$ = किसी एक बल का परिमाण $\\times$ लंबवत दूरी<br>$\\tau = (qE) \\times (2a \\sin\\theta)$",
+          "hinglish": "Torque $\\tau$ = Force ka magnitude $\\times$ Perpendicular distance<br>$\\tau = (qE) \\times (2a \\sin\\theta)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Introduce Dipole Moment",
+          "hi": "चरण 4: द्विध्रुव आघूर्ण प्रस्तुत करें",
+          "hinglish": "Step 4: Dipole moment put karein"
+        },
+        "content": {
+          "en": "Since dipole moment $p = q \\times 2a$, we substitute this into the equation:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$",
+          "hi": "चूंकि द्विध्रुव आघूर्ण $p = q \\times 2a$ है, हम इसे समीकरण में प्रतिस्थापित करते हैं:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$",
+          "hinglish": "Kyunki dipole moment $p = q \\times 2a$ hota hai, isko equation mein daalte hain:<br>$\\tau = (q \\times 2a)E \\sin\\theta$<br>$\\tau = pE \\sin\\theta$"
+        }
+      }
+    ],
+    "finalResult": "\\vec{\\tau} = \\vec{p} \\times \\vec{E}",
+    "examTip": {
+      "en": "This derivation is extremely important for board exams. Do not forget to write the final result in vector form as cross product.",
+      "hi": "यह व्युत्पत्ति बोर्ड परीक्षाओं के लिए अत्यंत महत्वपूर्ण है। अंतिम परिणाम को सदिश रूप में क्रॉस उत्पाद के रूप में लिखना न भूलें।"
+    }
+  }
+]

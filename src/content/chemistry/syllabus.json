@@ -1,0 +1,57 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry (रसायन विज्ञान)",
+  "language": "Hindi + English",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Solutions",
+      "hindiName": "विलयन"
+    },
+    {
+      "id": "ch2",
+      "name": "Electrochemistry",
+      "hindiName": "वैद्युत रसायन"
+    },
+    {
+      "id": "ch3",
+      "name": "Chemical Kinetics",
+      "hindiName": "रासायनिक बलगतिकी"
+    },
+    {
+      "id": "ch4",
+      "name": "The d- and f- Block Elements",
+      "hindiName": "d- एवं f- ब्लॉक के तत्व"
+    },
+    {
+      "id": "ch5",
+      "name": "Coordination Compounds",
+      "hindiName": "उपसहसंयोजक यौगिक"
+    },
+    {
+      "id": "ch6",
+      "name": "Haloalkanes and Haloarenes",
+      "hindiName": "हैलोऐल्केन तथा हैलोऐरीन"
+    },
+    {
+      "id": "ch7",
+      "name": "Alcohols, Phenols and Ethers",
+      "hindiName": "ऐल्कोहॉल, फ़ीनॉल एवं ईथर"
+    },
+    {
+      "id": "ch8",
+      "name": "Aldehydes, Ketones and Carboxylic Acids",
+      "hindiName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल"
+    },
+    {
+      "id": "ch9",
+      "name": "Amines",
+      "hindiName": "ऐमीन"
+    },
+    {
+      "id": "ch10",
+      "name": "Biomolecules",
+      "hindiName": "जैव-अणु"
+    }
+  ]
+}

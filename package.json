@@ -6,12 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "content:generate": "npx tsx src/scripts/content/generate.ts",
+    "content:dry-run": "npx tsx src/scripts/content/dry-run.ts",
+    "content:validate": "npx tsx src/scripts/content/validate.ts",
+    "content:review": "npx tsx src/scripts/content/review.ts",
+    "content:report": "npx tsx src/scripts/content/report.ts"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@google/genai": "^2.18.0",
+    "clsx": "^2.1.1",
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^13.1.1",
+    "katex": "^0.18.4",
+    "lucide-react": "^1.33.0",
     "next": "16.3.2",
+    "next-themes": "^0.4.6",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-latex-next": "^3.0.0",
+    "tailwind-merge": "^3.6.0",
+    "tsx": "^4.23.12",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1,0 +1,71 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Electric Charges & Fields",
+    "hi": "विद्युत आवेश और क्षेत्र",
+    "hinglish": "Electric Charges aur Fields"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electric Charge",
+        "hi": "विद्युत आवेश",
+        "hinglish": "Electric Charge"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Properties (Additivity, Quantization, Conservation)", "hi": "गुण (योज्यता, क्वांटमीकरण, संरक्षण)" } },
+        { "id": "c1b", "label": { "en": "Conductors & Insulators", "hi": "चालक और विद्युतरोधी" } },
+        { "id": "c1c", "label": { "en": "Charging by Induction", "hi": "प्रेरण द्वारा आवेशन" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Coulomb's Law",
+        "hi": "कूलॉम का नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Force between point charges (F ∝ 1/r²)", "hi": "बिंदु आवेशों के बीच बल (F ∝ 1/r²)" } },
+        { "id": "c2b", "label": { "en": "Vector Form", "hi": "सदिश रूप" } },
+        { "id": "c2c", "label": { "en": "Principle of Superposition", "hi": "अध्यारोपण का सिद्धांत" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Electric Field",
+        "hi": "विद्युत क्षेत्र"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "E = F/q", "hi": "E = F/q" } },
+        { "id": "c3b", "label": { "en": "Electric Field Lines & Properties", "hi": "विद्युत क्षेत्र रेखाएं और गुण" } },
+        { "id": "c3c", "label": { "en": "Field due to point charge", "hi": "बिंदु आवेश के कारण क्षेत्र" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Electric Dipole",
+        "hi": "विद्युत द्विध्रुव"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Dipole Moment (p = q × 2a)", "hi": "द्विध्रुव आघूर्ण (p = q × 2a)" } },
+        { "id": "c4b", "label": { "en": "Torque in uniform field (τ = pE sin θ)", "hi": "एकसमान क्षेत्र में बल आघूर्ण (τ = pE sin θ)" } },
+        { "id": "c4c", "label": { "en": "Field on axial & equatorial line", "hi": "अक्षीय और निरक्षीय रेखा पर क्षेत्र" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Gauss's Law",
+        "hi": "गॉस का नियम"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Electric Flux (Φ = E·A)", "hi": "विद्युत फ्लक्स (Φ = E·A)" } },
+        { "id": "c5b", "label": { "en": "Law Statement (Φ = q/ε₀)", "hi": "नियम का कथन (Φ = q/ε₀)" } },
+        { "id": "c5c", "label": { "en": "Applications (Wire, Sheet, Shell)", "hi": "अनुप्रयोग (तार, चादर, कोश)" } }
+      ]
+    }
+  ]
+}

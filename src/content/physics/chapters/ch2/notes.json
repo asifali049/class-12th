@@ -1,0 +1,117 @@
+[
+  {
+    "type": "heading",
+    "text": "Electrostatic Potential and Capacitance"
+  },
+  {
+    "type": "concept",
+    "text": "1. Electrostatic Potential (स्थिर वैद्युत विभव):"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric potential at a point in an electric field is defined as the amount of work done in bringing a unit positive test charge from infinity to that point without acceleration, against the electrostatic force."
+  },
+  {
+    "type": "formula",
+    "equation": "V = W / q",
+    "label": "Unit: Volt (V) or Joules/Coulomb (J/C)"
+  },
+  {
+    "type": "concept",
+    "text": "2. Potential due to a Point Charge:"
+  },
+  {
+    "type": "formula",
+    "equation": "V = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q}{r}",
+    "label": "For a point charge 'q' at distance 'r'"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric potential is a scalar quantity. If the charge is positive, the potential is positive; if the charge is negative, the potential is negative."
+  },
+  {
+    "type": "concept",
+    "text": "3. Equipotential Surfaces (समविभव पृष्ठ):"
+  },
+  {
+    "type": "paragraph",
+    "text": "Any surface that has the same electric potential at every point on it is called an equipotential surface."
+  },
+  {
+    "type": "list",
+    "items": [
+      "No work is done in moving a test charge over an equipotential surface (W = 0).",
+      "Electric field is always perpendicular to the equipotential surface.",
+      "Two equipotential surfaces can never intersect each other."
+    ]
+  },
+  {
+    "type": "tip",
+    "text": "Board Tip: Drawing equipotential surfaces for a point charge or an electric dipole is a very common 2-mark question in UP Board exams."
+  },
+  {
+    "type": "concept",
+    "text": "4. Capacitance (धारिता):"
+  },
+  {
+    "type": "paragraph",
+    "text": "The capacitance of a conductor is its ability to store electric charge and electric energy. It is the ratio of the charge 'q' given to a conductor to the rise in its potential 'V'."
+  },
+  {
+    "type": "formula",
+    "equation": "C = q / V",
+    "label": "Unit: Farad (F)"
+  },
+  {
+    "type": "concept",
+    "text": "5. Parallel Plate Capacitor (समांतर प्लेट संधारित्र):"
+  },
+  {
+    "type": "paragraph",
+    "text": "Consists of two large plane parallel conducting plates separated by a small distance. The capacitance depends on the area of the plates and the distance between them."
+  },
+  {
+    "type": "formula",
+    "equation": "C = \\frac{\\varepsilon_0 A}{d}",
+    "label": "Where A = Area, d = Distance between plates"
+  },
+  {
+    "type": "diagram_placeholder",
+    "label": "Diagram: Parallel Plate Capacitor with uniform Electric Field"
+  },
+  {
+    "type": "concept",
+    "text": "6. Combination of Capacitors:"
+  },
+  {
+    "type": "highlight",
+    "text": "Series Combination (श्रेणीक्रम संयोजन):"
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + ...",
+    "label": "Charge (Q) remains same across all capacitors"
+  },
+  {
+    "type": "highlight",
+    "text": "Parallel Combination (समांतर संयोजन):"
+  },
+  {
+    "type": "formula",
+    "equation": "C_{eq} = C_1 + C_2 + C_3 + ...",
+    "label": "Potential Difference (V) remains same across all capacitors"
+  },
+  {
+    "type": "concept",
+    "text": "7. Energy Stored in a Capacitor:"
+  },
+  {
+    "type": "paragraph",
+    "text": "The work done in charging a capacitor is stored as electrostatic potential energy in the electric field between the plates."
+  },
+  {
+    "type": "formula",
+    "equation": "U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V",
+    "label": "Energy stored in Joules"
+  }
+]

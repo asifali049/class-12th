@@ -1,0 +1,51 @@
+{
+  "id": "english",
+  "name": "English",
+  "language": "English",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Flamingo: The Last Lesson"
+    },
+    {
+      "id": "ch2",
+      "name": "Flamingo: Lost Spring"
+    },
+    {
+      "id": "ch3",
+      "name": "Flamingo: Deep Water"
+    },
+    {
+      "id": "ch4",
+      "name": "Flamingo: The Rattrap"
+    },
+    {
+      "id": "ch5",
+      "name": "Flamingo: Indigo"
+    },
+    {
+      "id": "ch6",
+      "name": "Flamingo: Poets and Pancakes"
+    },
+    {
+      "id": "ch7",
+      "name": "Flamingo: The Interview"
+    },
+    {
+      "id": "ch8",
+      "name": "Flamingo: Going Places"
+    },
+    {
+      "id": "ch9",
+      "name": "Flamingo (Poetry): My Mother at Sixty-six"
+    },
+    {
+      "id": "ch10",
+      "name": "Vistas (Supplementary)"
+    },
+    {
+      "id": "ch11",
+      "name": "Writing Skills"
+    }
+  ]
+}

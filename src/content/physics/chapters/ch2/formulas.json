@@ -1,0 +1,24 @@
+[
+  {
+    "id": "f1",
+    "title": "Electrostatic Potential",
+    "equation": "V = \frac{W}{q}",
+    "variables": {
+      "V": "Potential",
+      "W": "Work done",
+      "q": "Charge"
+    },
+    "importance": "High"
+  },
+  {
+    "id": "f2",
+    "title": "Capacitance of a Parallel Plate Capacitor",
+    "equation": "C = \frac{ε_0 A}{d}",
+    "variables": {
+      "C": "Capacitance",
+      "A": "Area of each plate",
+      "d": "Distance between plates"
+    },
+    "importance": "High"
+  }
+]

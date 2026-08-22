@@ -1,0 +1,143 @@
+[
+  {
+    "type": "heading",
+    "text": "1. Electric Charge (विद्युत आवेश)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric charge is a fundamental property of matter that causes it to experience a force when placed in an electromagnetic field. (विद्युत आवेश पदार्थ का वह मौलिक गुण है जिसके कारण वह विद्युत चुम्बकीय क्षेत्र में बल का अनुभव करता है।)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Charges are of two types: Positive (धनात्मक) and Negative (ऋणात्मक). Like charges repel each other, while unlike charges attract. (समान आवेश एक दूसरे को प्रतिकर्षित करते हैं, जबकि विपरीत आवेश आकर्षित करते हैं।)"
+  },
+  {
+    "type": "concept",
+    "text": "Properties of Electric Charge (विद्युत आवेश के गुण):"
+  },
+  {
+    "type": "list",
+    "items": [
+      "Additivity (योज्यता): Total charge of a system is the algebraic sum of all individual charges. (किसी निकाय का कुल आवेश सभी अलग-अलग आवेशों का बीजगणितीय योग होता है।)",
+      "Quantization (क्वांटमीकरण): Charge exists as integral multiples of the basic unit of charge (e). Q = ne, where n = ±1, ±2, ... and e = 1.6 × 10⁻¹⁹ C.",
+      "Conservation (संरक्षण): The total charge of an isolated system remains constant. (एक पृथक निकाय का कुल आवेश हमेशा स्थिर रहता है। इसे ना तो बनाया जा सकता है और ना ही नष्ट किया जा सकता है।)"
+    ]
+  },
+  {
+    "type": "heading",
+    "text": "2. Coulomb's Law (कूलॉम का नियम)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Coulomb's Law states that the electrostatic force of attraction or repulsion between two point charges is directly proportional to the product of the magnitudes of charges and inversely proportional to the square of the distance between them."
+  },
+  {
+    "type": "paragraph",
+    "text": "(कूलॉम के नियम के अनुसार, दो बिंदु आवेशों के बीच लगने वाला आकर्षण या प्रतिकर्षण बल उन दोनों आवेशों के परिमाण के गुणनफल के अनुक्रमानुपाती तथा उनके बीच की दूरी के वर्ग के व्युत्क्रमानुपाती होता है।)"
+  },
+  {
+    "type": "formula",
+    "equation": "F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{|q_1 q_2|}{r^2}",
+    "label": "where k = 1 / (4πε₀) = 9 × 10⁹ N·m²/C²"
+  },
+  {
+    "type": "highlight",
+    "text": "Important Note: Permittivity of free space (निर्वात की वैद्युतशीलता) ε₀ = 8.854 × 10⁻¹² C²/(N·m²)"
+  },
+  {
+    "type": "heading",
+    "text": "3. Superposition Principle (अध्यारोपण का सिद्धांत)"
+  },
+  {
+    "type": "paragraph",
+    "text": "The principle of superposition states that the total force on any given charge in a system of multiple charges is the vector sum of all individual forces exerted on it by all other charges. (अध्यारोपण के सिद्धांत के अनुसार, कई आवेशों के निकाय में किसी एक आवेश पर लगने वाला कुल बल अन्य सभी आवेशों द्वारा उस पर लगाए गए अलग-अलग बलों के सदिश योग के बराबर होता है।)"
+  },
+  {
+    "type": "heading",
+    "text": "4. Electric Field (विद्युत क्षेत्र)"
+  },
+  {
+    "type": "paragraph",
+    "text": "The space around an electric charge where its influence can be felt by a test charge is called the electric field. (किसी विद्युत आवेश के चारों ओर का वह क्षेत्र जहाँ कोई परीक्षण आवेश उसके प्रभाव का अनुभव कर सके, विद्युत क्षेत्र कहलाता है।)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric Field Intensity (विद्युत क्षेत्र की तीव्रता) E is defined as the force experienced per unit positive test charge. (एकांक धनावेश पर लगने वाले बल को विद्युत क्षेत्र की तीव्रता कहते हैं।)"
+  },
+  {
+    "type": "formula",
+    "equation": "E = \\frac{F}{q_0}",
+    "label": "Unit (मात्रक): Newton/Coulomb (N/C) or Volt/meter (V/m)"
+  },
+  {
+    "type": "heading",
+    "text": "5. Electric Field Lines (विद्युत बल रेखाएँ)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric field lines are imaginary curves drawn such that the tangent at any point gives the direction of the electric field at that point. They start from positive charges and end at negative charges. (विद्युत बल रेखाएँ वे काल्पनिक वक्र हैं जिनके किसी भी बिंदु पर खींची गई स्पर्श रेखा उस बिंदु पर विद्युत क्षेत्र की दिशा को दर्शाती है।)"
+  },
+  {
+    "type": "tip",
+    "text": "Two field lines never intersect each other. (दो बल रेखाएँ कभी भी एक-दूसरे को नहीं काटती हैं क्योंकि कटान बिंदु पर विद्युत क्षेत्र की दो दिशाएँ हो जाएंगी, जो कि असंभव है।)"
+  },
+  {
+    "type": "heading",
+    "text": "6. Electric Dipole (विद्युत द्विध्रुव)"
+  },
+  {
+    "type": "paragraph",
+    "text": "An electric dipole consists of two equal and opposite point charges separated by a small distance (2a). (समान परिमाण और विपरीत प्रकृति के दो बिंदु आवेशों को अल्प दूरी पर रखने से बना निकाय विद्युत द्विध्रुव कहलाता है।)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric dipole moment (विद्युत द्विध्रुव आघूर्ण) p is the product of the magnitude of either charge and the distance between them."
+  },
+  {
+    "type": "formula",
+    "equation": "p = q \\times 2a",
+    "label": "Direction (दिशा): From negative (-) to positive (+) charge"
+  },
+  {
+    "type": "heading",
+    "text": "7. Electric Flux (विद्युत फ्लक्स)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Electric flux is the total number of electric field lines passing normally through a given surface area. (किसी पृष्ठ से लंबवत गुजरने वाली कुल विद्युत बल रेखाओं की संख्या को विद्युत फ्लक्स कहते हैं।)"
+  },
+  {
+    "type": "formula",
+    "equation": "\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A}",
+    "label": "Unit (मात्रक): N·m²/C or V·m"
+  },
+  {
+    "type": "heading",
+    "text": "8. Gauss's Law (गॉस का नियम)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Gauss's law states that the total electric flux through any closed surface (Gaussian surface) is equal to 1/ε₀ times the net charge enclosed by the surface."
+  },
+  {
+    "type": "paragraph",
+    "text": "(गॉस के नियम के अनुसार, किसी बंद पृष्ठ से गुजरने वाला कुल विद्युत फ्लक्स उस पृष्ठ द्वारा परिबद्ध कुल आवेश का 1/ε₀ गुना होता है।)"
+  },
+  {
+    "type": "formula",
+    "equation": "\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{\\text{enclosed}}}{\\varepsilon_0}",
+    "label": "Valid for any closed surface (किसी भी बंद पृष्ठ के लिए सत्य)"
+  },
+  {
+    "type": "concept",
+    "text": "Applications of Gauss's Law (गॉस नियम के अनुप्रयोग):"
+  },
+  {
+    "type": "list",
+    "items": [
+      "Electric field due to an infinitely long straight charged wire. (अनंत लंबाई के एकसमान आवेशित तार के कारण विद्युत क्षेत्र)",
+      "Electric field due to a uniformly charged infinite plane sheet. (एकसमान आवेशित अनंत समतल चादर के कारण विद्युत क्षेत्र)",
+      "Electric field due to a uniformly charged thin spherical shell. (एकसमान आवेशित पतले गोलीय कोश के कारण विद्युत क्षेत्र)"
+    ]
+  }
+]

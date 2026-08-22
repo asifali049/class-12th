@@ -1,0 +1,72 @@
+{
+  "id": "biology",
+  "name": "Biology (जीव विज्ञान)",
+  "language": "Hindi + English",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Sexual Reproduction in Flowering Plants",
+      "hindiName": "पुष्पी पादपों में लैंगिक जनन"
+    },
+    {
+      "id": "ch2",
+      "name": "Human Reproduction",
+      "hindiName": "मानव जनन"
+    },
+    {
+      "id": "ch3",
+      "name": "Reproductive Health",
+      "hindiName": "जनन स्वास्थ्य"
+    },
+    {
+      "id": "ch4",
+      "name": "Principles of Inheritance and Variation",
+      "hindiName": "वंशागति तथा विविधता के सिद्धांत"
+    },
+    {
+      "id": "ch5",
+      "name": "Molecular Basis of Inheritance",
+      "hindiName": "वंशागति के आणविक आधार"
+    },
+    {
+      "id": "ch6",
+      "name": "Evolution",
+      "hindiName": "विकास"
+    },
+    {
+      "id": "ch7",
+      "name": "Human Health and Disease",
+      "hindiName": "मानव स्वास्थ्य तथा रोग"
+    },
+    {
+      "id": "ch8",
+      "name": "Microbes in Human Welfare",
+      "hindiName": "मानव कल्याण में सूक्ष्म जीव"
+    },
+    {
+      "id": "ch9",
+      "name": "Biotechnology: Principles and Processes",
+      "hindiName": "जैव प्रौद्योगिकी - सिद्धांत व प्रक्रम"
+    },
+    {
+      "id": "ch10",
+      "name": "Biotechnology and its Applications",
+      "hindiName": "जैव प्रौद्योगिकी एवं उसके उपयोग"
+    },
+    {
+      "id": "ch11",
+      "name": "Organisms and Populations",
+      "hindiName": "जीव और समष्टियाँ"
+    },
+    {
+      "id": "ch12",
+      "name": "Ecosystem",
+      "hindiName": "पारितंत्र"
+    },
+    {
+      "id": "ch13",
+      "name": "Biodiversity and Conservation",
+      "hindiName": "जैव-विविधता एवं संरक्षण"
+    }
+  ]
+}

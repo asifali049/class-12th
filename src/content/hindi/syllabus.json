@@ -1,0 +1,31 @@
+{
+  "id": "hindi",
+  "name": "सामान्य हिंदी (General Hindi)",
+  "language": "Hindi",
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "गद्य गरिमा (Prose)"
+    },
+    {
+      "id": "ch2",
+      "name": "काव्यांजलि (Poetry)"
+    },
+    {
+      "id": "ch3",
+      "name": "कथा भारती (Stories)"
+    },
+    {
+      "id": "ch4",
+      "name": "संस्कृत दिग्दर्शिका"
+    },
+    {
+      "id": "ch5",
+      "name": "रश्मिरथी (खण्डकाव्य - देवरिया)"
+    },
+    {
+      "id": "ch6",
+      "name": "व्याकरण (Grammar)"
+    }
+  ]
+}

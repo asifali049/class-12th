@@ -1,0 +1,98 @@
+{
+  "physics": {
+    "ch2": {
+      "notes": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T19:30:41.117Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "formulas": {
+        "version": 0,
+        "attempt": 1,
+        "status": "improving",
+        "updatedAt": "2026-08-22T19:30:41.146Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      }
+    },
+    "ch1": {
+      "notes": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:19.859Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "formulas": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:19.896Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "derivations": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:19.988Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "numericals": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:20.023Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "questions": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:20.058Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "diagrams": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:20.093Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "mindmap": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:20.127Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      },
+      "revisions": {
+        "version": 0,
+        "attempt": 3,
+        "status": "human_review_required",
+        "updatedAt": "2026-08-22T20:03:20.293Z",
+        "issues": [
+          "Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information."
+        ]
+      }
+    }
+  }
+}

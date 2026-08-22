@@ -1,0 +1,84 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Chemical Kinetics",
+    "hi": "रासायनिक बलगतिकी",
+    "hinglish": "Chemical Kinetics"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Rate of Reaction",
+        "hi": "अभिक्रिया की दर"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Average Rate (Δ[R]/Δt)", "hi": "औसत दर (Δ[R]/Δt)" } },
+        { "id": "c1b", "label": { "en": "Instantaneous Rate (d[R]/dt)", "hi": "तात्कालिक दर (d[R]/dt)" } },
+        { "id": "c1c", "label": { "en": "Factors: Conc., Temp., Catalyst", "hi": "कारक: सांद्रता, ताप, उत्प्रेरक" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Rate Law",
+        "hi": "दर नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Rate = k[A]^x[B]^y", "hi": "दर = k[A]^x[B]^y" } },
+        { "id": "c2b", "label": { "en": "Rate Constant (k)", "hi": "दर नियतांक (k)" } },
+        { "id": "c2c", "label": { "en": "Order (x+y) [Exp. value]", "hi": "कोटि (x+y) [प्रायोगिक मान]" } },
+        { "id": "c2d", "label": { "en": "Molecularity [Theoretical]", "hi": "आणविकता [सैद्धांतिक]" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Integrated Rate Equations",
+        "hi": "समाकलित वेग समीकरण"
+      },
+      "children": [
+        {
+          "id": "c3a",
+          "label": { "en": "Zero Order", "hi": "शून्य कोटि" },
+          "children": [
+            { "id": "c3a1", "label": { "en": "[R] = -kt + [R]_0", "hi": "[R] = -kt + [R]_0" } },
+            { "id": "c3a2", "label": { "en": "t_1/2 = [R]_0 / 2k", "hi": "t_1/2 = [R]_0 / 2k" } }
+          ]
+        },
+        {
+          "id": "c3b",
+          "label": { "en": "First Order", "hi": "प्रथम कोटि" },
+          "children": [
+            { "id": "c3b1", "label": { "en": "k = (2.303/t) log([R]_0/[R])", "hi": "k = (2.303/t) log([R]_0/[R])" } },
+            { "id": "c3b2", "label": { "en": "t_1/2 = 0.693 / k", "hi": "t_1/2 = 0.693 / k" } }
+          ]
+        },
+        { "id": "c3c", "label": { "en": "Pseudo First Order", "hi": "छद्म प्रथम कोटि" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Temperature Dependence",
+        "hi": "तापमान निर्भरता"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Arrhenius Equation (k = A e^{-E_a/RT})", "hi": "आर्हेनियस समीकरण (k = A e^{-E_a/RT})" } },
+        { "id": "c4b", "label": { "en": "Activation Energy (E_a)", "hi": "सक्रियण ऊर्जा (E_a)" } },
+        { "id": "c4c", "label": { "en": "Catalyst Effect (Lowers E_a)", "hi": "उत्प्रेरक प्रभाव (E_a कम करता है)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Collision Theory",
+        "hi": "संघट्ट सिद्धांत"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Kinetic Energy Factor", "hi": "गतिज ऊर्जा कारक" } },
+        { "id": "c5b", "label": { "en": "Orientation Factor", "hi": "अभिविन्यास कारक" } }
+      ]
+    }
+  ]
+}

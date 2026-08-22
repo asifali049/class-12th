@@ -1,0 +1,215 @@
+[
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Introduction to Electrochemistry",
+      "hi": "1. वैद्युत रसायन का परिचय"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations.",
+      "hi": "वैद्युत रसायन स्वतः प्रवर्तित रासायनिक अभिक्रियाओं के दौरान मुक्त ऊर्जा से विद्युत के उत्पादन और गैर-स्वतः प्रवर्तित रासायनिक परिवर्तनों को लाने के लिए विद्युत ऊर्जा के उपयोग का अध्ययन है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Electrochemical Cells (Galvanic Cells)",
+      "hi": "2. वैद्युत रासायनिक सेल (गैल्वेनिक सेल)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A device that converts chemical energy of a spontaneous redox reaction into electrical energy. Example: Daniell cell.",
+      "hi": "वह युक्ति जो स्वतः प्रवर्तित रेडॉक्स अभिक्रिया की रासायनिक ऊर्जा को विद्युत ऊर्जा में परिवर्तित करती है। उदाहरण: डेनियल सेल।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Anode: Oxidation occurs here. It has a negative potential.",
+        "hi": "एनोड: यहाँ ऑक्सीकरण होता है। इसका विभव ऋणात्मक होता है।"
+      },
+      {
+        "en": "Cathode: Reduction occurs here. It has a positive potential.",
+        "hi": "कैथोड: यहाँ अपचयन होता है। इसका विभव धनात्मक होता है।"
+      },
+      {
+        "en": "Salt Bridge: Connects the two half-cells, completes the circuit, and maintains electrical neutrality without mixing the solutions.",
+        "hi": "लवण सेतु: दो अर्ध-सेलों को जोड़ता है, परिपथ को पूरा करता है, और विलयनों को मिलाए बिना विद्युत उदासीनता बनाए रखता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Electrode Potential and EMF",
+      "hi": "3. इलेक्ट्रोड विभव और EMF"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Standard Electrode Potential ($E^\\ominus$):",
+      "hi": "मानक इलेक्ट्रोड विभव ($E^\\ominus$):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The potential difference developed between the metal and its ions in solution when the concentration of all species is unity (1 M) and temperature is 298 K. IUPAC convention takes standard reduction potential as the standard electrode potential.",
+      "hi": "धातु और विलयन में उसके आयनों के बीच उत्पन्न विभवांतर जब सभी प्रजातियों की सांद्रता इकाई (1 M) हो और तापमान 298 K हो। IUPAC परिपाटी मानक अपचयन विभव को मानक इलेक्ट्रोड विभव मानती है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Electromotive Force (EMF) of a cell:",
+      "hi": "सेल का विद्युत वाहक बल (EMF):"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "E_{cell} = E_{cathode} - E_{anode} = E_{right} - E_{left}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Nernst Equation",
+      "hi": "4. नेर्न्स्ट समीकरण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Relates the electrode potential of a half-cell (or EMF of a cell) with the concentration of ions and temperature.",
+      "hi": "किसी अर्ध-सेल के इलेक्ट्रोड विभव (या सेल के EMF) को आयनों की सांद्रता और तापमान से संबंधित करता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "E = E^\\ominus - \\frac{RT}{nF} \\ln Q = E^\\ominus - \\frac{0.0591}{n} \\log Q \\quad \\text{(at 298 K)}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Conductance of Electrolytic Solutions",
+      "hi": "5. वैद्युत अपघटनी विलयनों का चालकत्व"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Resistance (R): Opposition to current flow. $R = \\rho(l/A)$. Unit: Ohm ($\\Omega$)",
+        "hi": "प्रतिरोध (R): धारा प्रवाह का विरोध। $R = \\rho(l/A)$। इकाई: ओम ($\\Omega$)"
+      },
+      {
+        "en": "Conductance (G): Reciprocal of resistance ($G = 1/R$). Unit: Siemens (S) or $\\Omega^{-1}$",
+        "hi": "चालकत्व (G): प्रतिरोध का व्युत्क्रम ($G = 1/R$)। इकाई: सीमेंस (S) या $\\Omega^{-1}$"
+      },
+      {
+        "en": "Conductivity ($\\kappa$): Reciprocal of resistivity ($\\kappa = 1/\\rho$). Conductance of 1 cm³ of solution. Unit: S cm$^{-1}$ or S m$^{-1}$",
+        "hi": "चालकता ($\\kappa$): प्रतिरोधकता का व्युत्क्रम ($\\kappa = 1/\\rho$)। 1 cm³ विलयन का चालकत्व। इकाई: S cm$^{-1}$ या S m$^{-1}$"
+      },
+      {
+        "en": "Molar Conductivity ($\\Lambda_m$): Conducting power of all ions produced by dissolving one mole of electrolyte. $\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$",
+        "hi": "मोलर चालकता ($\\Lambda_m$): एक मोल वैद्युत अपघट्य को घोलने पर उत्पन्न सभी आयनों की चालक शक्ति। $\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$"
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Variation with Concentration:",
+      "hi": "सांद्रता के साथ परिवर्तन:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Conductivity ($\\kappa$) decreases with dilution because the number of ions per unit volume decreases. Molar conductivity ($\\Lambda_m$) increases with dilution due to an increase in the degree of dissociation (for weak electrolytes) or decrease in interionic attraction (for strong electrolytes).",
+      "hi": "चालकता ($\\kappa$) तनुता के साथ घटती है क्योंकि प्रति इकाई आयतन आयनों की संख्या घट जाती है। मोलर चालकता ($\\Lambda_m$) तनुता के साथ बढ़ती है क्योंकि वियोजन की मात्रा (दुर्बल वैद्युत अपघट्यों के लिए) बढ़ती है या अंतर-आयनिक आकर्षण (प्रबल वैद्युत अपघट्यों के लिए) कम होता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Kohlrausch's Law",
+      "hi": "6. कोलराउश का नियम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The limiting molar conductivity of an electrolyte can be represented as the sum of the individual contributions of the anion and cation of the electrolyte.",
+      "hi": "किसी वैद्युत अपघट्य की सीमांत मोलर चालकता को उस वैद्युत अपघट्य के धनायन और ऋणायन के व्यक्तिगत योगदानों के योग के रूप में दर्शाया जा सकता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\Lambda_m^\\ominus = v_+ \\lambda_+^\\ominus + v_- \\lambda_-^\\ominus"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Electrolysis and Faraday's Laws",
+      "hi": "7. विद्युत अपघटन और फैराडे के नियम"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "First Law: The mass of a substance deposited or liberated at any electrode is directly proportional to the quantity of electricity passed through the electrolyte ($m = ZIt$).",
+        "hi": "प्रथम नियम: किसी भी इलेक्ट्रोड पर जमा या मुक्त हुए पदार्थ का द्रव्यमान वैद्युत अपघट्य से प्रवाहित विद्युत की मात्रा के समानुपाती होता है ($m = ZIt$)।"
+      },
+      {
+        "en": "Second Law: When the same quantity of electricity is passed through solutions of different electrolytes, the masses of substances liberated are proportional to their chemical equivalent weights.",
+        "hi": "द्वितीय नियम: जब विभिन्न वैद्युत अपघट्यों के विलयनों से समान मात्रा में विद्युत प्रवाहित की जाती है, तो मुक्त हुए पदार्थों के द्रव्यमान उनके रासायनिक तुल्यांकी भारों के समानुपाती होते हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Batteries and Fuel Cells",
+      "hi": "8. बैटरियाँ और ईंधन सेल"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Primary Batteries: Non-rechargeable. Reaction occurs only once. (e.g., Dry cell, Mercury cell)",
+        "hi": "प्राथमिक बैटरियाँ: गैर-रिचार्जेबल। अभिक्रिया केवल एक बार होती है। (उदा., शुष्क सेल, मर्करी सेल)"
+      },
+      {
+        "en": "Secondary Batteries: Rechargeable by passing current in opposite direction. (e.g., Lead storage battery, Ni-Cd cell)",
+        "hi": "द्वितीयक बैटरियाँ: विपरीत दिशा में धारा प्रवाहित करके रिचार्जेबल। (उदा., सीसा संचायक बैटरी, Ni-Cd सेल)"
+      },
+      {
+        "en": "Fuel Cells: Galvanic cells that are designed to convert the energy of combustion of fuels like hydrogen, methane directly into electrical energy. Highly efficient.",
+        "hi": "ईंधन सेल: गैल्वेनिक सेल जिन्हें हाइड्रोजन, मीथेन जैसे ईंधनों के दहन की ऊर्जा को सीधे विद्युत ऊर्जा में बदलने के लिए डिज़ाइन किया गया है। अत्यधिक कुशल।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "9. Corrosion",
+      "hi": "9. संक्षारण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "An electrochemical phenomenon where metal is oxidized by oxygen in presence of moisture. Example: Rusting of iron ($Fe_2O_3 \\cdot xH_2O$). Prevented by painting, galvanizing, or cathodic protection.",
+      "hi": "एक वैद्युत रासायनिक परिघटना जहाँ नमी की उपस्थिति में ऑक्सीजन द्वारा धातु का ऑक्सीकरण होता है। उदाहरण: लोहे में जंग लगना ($Fe_2O_3 \\cdot xH_2O$)। पेंटिंग, गैल्वेनाइजिंग, या कैथोडिक संरक्षण द्वारा इसे रोका जा सकता है।"
+    }
+  }
+]

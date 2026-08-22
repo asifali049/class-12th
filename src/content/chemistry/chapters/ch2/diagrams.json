@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Galvanic Cell (Daniell Cell)",
+      "hi": "गैल्वेनिक सेल (डेनियल सेल)",
+      "hinglish": "Galvanic Cell (Daniell Cell)"
+    },
+    "description": {
+      "en": "A typical galvanic cell consisting of zinc and copper electrodes dipping in ZnSO4 and CuSO4 solutions respectively.",
+      "hi": "एक विशिष्ट गैल्वेनिक सेल जिसमें जिंक और कॉपर इलेक्ट्रोड क्रमशः ZnSO4 और CuSO4 विलयन में डूबे होते हैं।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Left Beaker (Anode) -->\n  <path d=\"M 100 150 L 100 350 A 10 10 0 0 0 110 360 L 250 360 A 10 10 0 0 0 260 350 L 260 150\" fill=\"none\" stroke=\"#4b5563\" stroke-width=\"3\" />\n  <path d=\"M 100 200 L 260 200\" stroke=\"#93c5fd\" stroke-width=\"1\" stroke-dasharray=\"5,5\" />\n  <rect x=\"102\" y=\"200\" width=\"156\" height=\"158\" fill=\"#bfdbfe\" opacity=\"0.5\" />\n  <text x=\"140\" y=\"330\" font-family=\"Arial\" font-size=\"16\" fill=\"#1d4ed8\">ZnSO₄ (aq)</text>\n\n  <!-- Right Beaker (Cathode) -->\n  <path d=\"M 340 150 L 340 350 A 10 10 0 0 0 350 360 L 490 360 A 10 10 0 0 0 500 350 L 500 150\" fill=\"none\" stroke=\"#4b5563\" stroke-width=\"3\" />\n  <path d=\"M 340 200 L 500 200\" stroke=\"#93c5fd\" stroke-width=\"1\" stroke-dasharray=\"5,5\" />\n  <rect x=\"342\" y=\"200\" width=\"156\" height=\"158\" fill=\"#93c5fd\" opacity=\"0.5\" />\n  <text x=\"380\" y=\"330\" font-family=\"Arial\" font-size=\"16\" fill=\"#1d4ed8\">CuSO₄ (aq)</text>\n\n  <!-- Zinc Electrode (Anode) -->\n  <rect x=\"160\" y=\"100\" width=\"40\" height=\"180\" fill=\"#9ca3af\" stroke=\"#4b5563\" stroke-width=\"2\" />\n  <text x=\"165\" y=\"150\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\">Zn</text>\n  <text x=\"150\" y=\"80\" font-family=\"Arial\" font-size=\"14\" fill=\"#dc2626\">Anode (-)</text>\n\n  <!-- Copper Electrode (Cathode) -->\n  <rect x=\"400\" y=\"100\" width=\"40\" height=\"180\" fill=\"#f87171\" stroke=\"#b91c1c\" stroke-width=\"2\" />\n  <text x=\"405\" y=\"150\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\">Cu</text>\n  <text x=\"390\" y=\"80\" font-family=\"Arial\" font-size=\"14\" fill=\"#dc2626\">Cathode (+)</text>\n\n  <!-- Wire and Voltmeter -->\n  <path d=\"M 180 100 L 180 50 L 280 50\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  <path d=\"M 320 50 L 420 50 L 420 100\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  <circle cx=\"300\" cy=\"50\" r=\"20\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"293\" y=\"56\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\">V</text>\n\n  <!-- Electron Flow Arrow -->\n  <path d=\"M 220 40 L 260 40 L 250 35 M 260 40 L 250 45\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\" />\n  <text x=\"230\" y=\"30\" font-family=\"Arial\" font-size=\"14\" fill=\"#dc2626\">e⁻</text>\n\n  <!-- Current Flow Arrow -->\n  <path d=\"M 380 60 L 340 60 L 350 55 M 340 60 L 350 65\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\" />\n  <text x=\"350\" y=\"80\" font-family=\"Arial\" font-size=\"14\" fill=\"#16a34a\">I</text>\n\n  <!-- Salt Bridge -->\n  <path d=\"M 230 250 L 230 140 A 20 20 0 0 1 270 140 L 270 160 A 10 10 0 0 0 250 160 L 250 250 Z\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\" opacity=\"0.8\" />\n  <path d=\"M 370 250 L 370 140 A 20 20 0 0 0 330 140 L 330 160 A 10 10 0 0 1 350 160 L 350 250 Z\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\" opacity=\"0.8\" />\n  <path d=\"M 250 140 L 350 140\" fill=\"none\" stroke=\"#ca8a04\" stroke-width=\"20\" opacity=\"0.8\" />\n  <text x=\"265\" y=\"145\" font-family=\"Arial\" font-size=\"14\" fill=\"#854d0e\">Salt Bridge</text>\n\n  <!-- Ions in solution -->\n  <text x=\"180\" y=\"270\" font-family=\"Arial\" font-size=\"14\" fill=\"#1d4ed8\">Zn²⁺ →</text>\n  <text x=\"420\" y=\"270\" font-family=\"Arial\" font-size=\"14\" fill=\"#1d4ed8\">← Cu²⁺</text>\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 265,
+        "y": 145,
+        "text": {
+          "en": "Salt Bridge (KCl / NH₄NO₃)",
+          "hi": "लवण सेतु (KCl / NH₄NO₃)"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 230,
+        "y": 30,
+        "text": {
+          "en": "Electron flow (Anode to Cathode)",
+          "hi": "इलेक्ट्रॉन प्रवाह (एनोड से कैथोड)"
+        }
+      }
+    ]
+  }
+]

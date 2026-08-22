@@ -1,0 +1,244 @@
+[
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Introduction to Chemical Kinetics",
+      "hi": "1. रासायनिक बलगतिकी का परिचय"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Chemical kinetics is the branch of chemistry that deals with the study of reaction rates, the factors affecting them, and the mechanism by which the reactions proceed.",
+      "hi": "रासायनिक बलगतिकी रसायन विज्ञान की वह शाखा है जो अभिक्रिया की दरों, उन्हें प्रभावित करने वाले कारकों और उस क्रियाविधि के अध्ययन से संबंधित है जिसके द्वारा अभिक्रियाएं होती हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Rate of a Chemical Reaction",
+      "hi": "2. रासायनिक अभिक्रिया की दर"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The rate of a reaction is defined as the change in concentration of a reactant or product per unit time.",
+      "hi": "किसी अभिक्रिया की दर को प्रति इकाई समय में किसी अभिकारक या उत्पाद की सांद्रता में परिवर्तन के रूप में परिभाषित किया जाता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\text{Rate} = -\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}"
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Average Rate: The change in concentration over a specified macroscopic time interval.",
+        "hi": "औसत दर: एक निर्दिष्ट स्थूल समय अंतराल में सांद्रता में परिवर्तन।"
+      },
+      {
+        "en": "Instantaneous Rate: The rate of reaction at any particular instant of time. It is given by $-d[R]/dt$.",
+        "hi": "तात्कालिक दर: समय के किसी विशेष क्षण पर अभिक्रिया की दर। यह $-d[R]/dt$ द्वारा दी जाती है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Factors Influencing Rate of a Reaction",
+      "hi": "3. अभिक्रिया की दर को प्रभावित करने वाले कारक"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Concentration of reactants: Rate generally increases with increasing concentration.",
+        "hi": "अभिकारकों की सांद्रता: सांद्रता बढ़ने के साथ दर सामान्यतः बढ़ती है।"
+      },
+      {
+        "en": "Temperature: Rate usually increases with a rise in temperature.",
+        "hi": "तापमान: तापमान में वृद्धि के साथ दर आमतौर पर बढ़ती है।"
+      },
+      {
+        "en": "Catalyst: A catalyst increases the rate of reaction by lowering the activation energy.",
+        "hi": "उत्प्रेरक: एक उत्प्रेरक सक्रियण ऊर्जा को कम करके अभिक्रिया की दर को बढ़ाता है।"
+      },
+      {
+        "en": "Surface area: For solid reactants, rate increases with an increase in surface area.",
+        "hi": "पृष्ठीय क्षेत्रफल: ठोस अभिकारकों के लिए, पृष्ठीय क्षेत्रफल में वृद्धि के साथ दर बढ़ती है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Rate Law and Specific Rate Constant",
+      "hi": "4. दर नियम और विशिष्ट दर नियतांक"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Rate Law:",
+      "hi": "दर नियम:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The representation of rate of reaction in terms of concentration of the reactants is known as rate law. For a reaction $aA + bB \\rightarrow \\text{Products}$, Rate = $k[A]^x[B]^y$.",
+      "hi": "अभिकारकों की सांद्रता के पदों में अभिक्रिया की दर के निरूपण को दर नियम कहा जाता है। एक अभिक्रिया $aA + bB \\rightarrow \\text{Products}$ के लिए, दर = $k[A]^x[B]^y$।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "$k$ is the rate constant. It is the rate of reaction when the concentration of each reactant is unity.",
+        "hi": "$k$ दर नियतांक है। यह तब अभिक्रिया की दर होती है जब प्रत्येक अभिकारक की सांद्रता इकाई होती है।"
+      },
+      {
+        "en": "$x$ and $y$ are experimentally determined values and may or may not be equal to the stoichiometric coefficients $a$ and $b$.",
+        "hi": "$x$ और $y$ प्रयोगात्मक रूप से निर्धारित मान हैं और स्टॉइकियोमेट्रिक गुणांक $a$ और $b$ के बराबर हो भी सकते हैं और नहीं भी।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Order and Molecularity of a Reaction",
+      "hi": "5. अभिक्रिया की कोटि और आणविकता"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Order: The sum of powers of the concentration of the reactants in the rate law expression. (Order = $x + y$). It can be zero, fraction, or integer. It is an experimental quantity.",
+        "hi": "कोटि: दर नियम व्यंजक में अभिकारकों की सांद्रता की घातों का योग। (कोटि = $x + y$)। यह शून्य, भिन्न या पूर्णांक हो सकता है। यह एक प्रयोगात्मक राशि है।"
+      },
+      {
+        "en": "Molecularity: The number of reacting species (atoms, ions or molecules) taking part in an elementary reaction, which must collide simultaneously to bring about a chemical reaction. It is always a whole number.",
+        "hi": "आणविकता: किसी प्रारंभिक अभिक्रिया में भाग लेने वाली अभिक्रियाशील प्रजातियों (परमाणुओं, आयनों या अणुओं) की संख्या, जिन्हें रासायनिक अभिक्रिया संपन्न करने के लिए एक साथ टकराना चाहिए। यह हमेशा एक पूर्ण संख्या होती है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Integrated Rate Equations",
+      "hi": "6. समाकलित वेग समीकरण"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Zero Order Reaction:",
+      "hi": "शून्य कोटि अभिक्रिया:"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "[R] = -kt + [R]_0"
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "First Order Reaction:",
+      "hi": "प्रथम कोटि अभिक्रिया:"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Half-Life of a Reaction ($t_{1/2}$)",
+      "hi": "7. अभिक्रिया की अर्ध-आयु ($t_{1/2}$)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The time in which the concentration of a reactant is reduced to one half of its initial concentration.",
+      "hi": "वह समय जिसमें किसी अभिकारक की सांद्रता उसकी प्रारंभिक सांद्रता की आधी रह जाती है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "For Zero Order: $t_{1/2} = \\frac{[R]_0}{2k}$ (depends on initial concentration)",
+        "hi": "शून्य कोटि के लिए: $t_{1/2} = \\frac{[R]_0}{2k}$ (प्रारंभिक सांद्रता पर निर्भर करता है)"
+      },
+      {
+        "en": "For First Order: $t_{1/2} = \\frac{0.693}{k}$ (independent of initial concentration)",
+        "hi": "प्रथम कोटि के लिए: $t_{1/2} = \\frac{0.693}{k}$ (प्रारंभिक सांद्रता से स्वतंत्र)"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Pseudo First Order Reaction",
+      "hi": "8. छद्म प्रथम कोटि अभिक्रिया"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A reaction which is not truly of the first order but under certain conditions becomes a first-order reaction. Example: Acid-catalyzed hydrolysis of ethyl acetate where water is in large excess.",
+      "hi": "वह अभिक्रिया जो वास्तव में प्रथम कोटि की नहीं होती है लेकिन कुछ शर्तों के तहत प्रथम कोटि की अभिक्रिया बन जाती है। उदाहरण: एथिल एसीटेट का अम्ल-उत्प्रेरित जल अपघटन जहाँ जल बहुत अधिक मात्रा में होता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "9. Temperature Dependence (Arrhenius Equation)",
+      "hi": "9. तापमान निर्भरता (आर्हेनियस समीकरण)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The rate constant of a reaction increases exponentially with an increase in temperature.",
+      "hi": "तापमान में वृद्धि के साथ किसी अभिक्रिया का दर नियतांक चरघातांकीय रूप से बढ़ता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "k = A e^{-E_a/RT}"
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "$A$: Arrhenius factor or frequency factor.",
+        "hi": "$A$: आर्हेनियस कारक या आवृत्ति कारक।"
+      },
+      {
+        "en": "$E_a$: Activation Energy - the minimum extra amount of energy required by reacting molecules to get converted into products.",
+        "hi": "$E_a$: सक्रियण ऊर्जा - अभिक्रियाशील अणुओं को उत्पादों में परिवर्तित होने के लिए आवश्यक न्यूनतम अतिरिक्त ऊर्जा।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "10. Collision Theory",
+      "hi": "10. संघट्ट सिद्धांत"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "According to this theory, reactant molecules are assumed to be hard spheres and reaction is postulated to occur when molecules collide with each other with sufficient kinetic energy (activation energy) and proper orientation.",
+      "hi": "इस सिद्धांत के अनुसार, अभिकारक अणुओं को कठोर गोले माना जाता है और अभिक्रिया तब होती है जब अणु पर्याप्त गतिज ऊर्जा (सक्रियण ऊर्जा) और उचित अभिविन्यास के साथ एक दूसरे से टकराते हैं।"
+    }
+  }
+]

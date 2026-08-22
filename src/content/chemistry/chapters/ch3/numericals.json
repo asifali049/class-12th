@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A first order reaction is 20% complete in 10 minutes. Calculate the time taken for the reaction to be 75% complete.",
+      "hi": "एक प्रथम कोटि की अभिक्रिया 10 मिनट में 20% पूरी होती है। अभिक्रिया को 75% पूरा होने में लगने वाले समय की गणना कीजिए।",
+      "hinglish": "Ek first order reaction 10 minutes me 20% complete hoti hai. Reaction ko 75% complete hone me kitna time lagega, calculate karein."
+    },
+    "given": {
+      "en": "For 20% completion: $t_1 = 10 \\text{ min}$, $[R]_0 = 100$, $[R]_1 = 100 - 20 = 80$<br>For 75% completion: $[R]_0 = 100$, $[R]_2 = 100 - 75 = 25$",
+      "hi": "20% पूर्णता के लिए: $t_1 = 10 \\text{ min}$, $[R]_0 = 100$, $[R]_1 = 100 - 20 = 80$<br>75% पूर्णता के लिए: $[R]_0 = 100$, $[R]_2 = 100 - 75 = 25$"
+    },
+    "required": {
+      "en": "Time taken for 75% completion ($t_2$)",
+      "hi": "75% पूरा होने में लगने वाला समय ($t_2$)"
+    },
+    "formula": "$k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}$",
+    "substitution": "Case 1: $k = \\frac{2.303}{10} \\log \\frac{100}{80}$<br>Case 2: $t_2 = \\frac{2.303}{k} \\log \\frac{100}{25}$",
+    "calculation": "From Case 1:<br>$k = \\frac{2.303}{10} \\log(1.25)$<br>$k = \\frac{2.303}{10} \\times 0.0969 = 0.0223 \\text{ min}^{-1}$<br><br>Now for Case 2:<br>$t_2 = \\frac{2.303}{0.0223} \\log(4)$<br>$t_2 = \\frac{2.303}{0.0223} \\times 0.6021$<br>$t_2 = \\frac{1.386}{0.0223} = 62.15 \\text{ min}$",
+    "finalAnswer": "$62.15 \\text{ min}$",
+    "unit": "min",
+    "examTip": {
+      "en": "Whenever solving percentage completion questions, assume initial concentration $[R]_0 = 100$. The concentration left $[R]$ will be $100 - x$, not just $x$.",
+      "hi": "जब भी प्रतिशत पूर्णता वाले प्रश्न हल करें, प्रारंभिक सांद्रता $[R]_0 = 100$ मान लें। शेष सांद्रता $[R]$, $100 - x$ होगी, न कि केवल $x$।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "The rate constant of a reaction at $500\\text{ K}$ and $700\\text{ K}$ are $0.02\\text{ s}^{-1}$ and $0.07\\text{ s}^{-1}$ respectively. Calculate the values of $E_a$ and $A$.",
+      "hi": "$500\\text{ K}$ और $700\\text{ K}$ पर एक अभिक्रिया के दर नियतांक क्रमशः $0.02\\text{ s}^{-1}$ और $0.07\\text{ s}^{-1}$ हैं। $E_a$ और $A$ के मानों की गणना कीजिए।",
+      "hinglish": "$500\\text{ K}$ aur $700\\text{ K}$ par ek reaction ke rate constant respectively $0.02\\text{ s}^{-1}$ aur $0.07\\text{ s}^{-1}$ hain. $E_a$ aur $A$ ki values calculate karein."
+    },
+    "given": {
+      "en": "$T_1 = 500 \\text{ K}$, $k_1 = 0.02 \\text{ s}^{-1}$<br>$T_2 = 700 \\text{ K}$, $k_2 = 0.07 \\text{ s}^{-1}$<br>$R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$",
+      "hi": "$T_1 = 500 \\text{ K}$, $k_1 = 0.02 \\text{ s}^{-1}$<br>$T_2 = 700 \\text{ K}$, $k_2 = 0.07 \\text{ s}^{-1}$<br>$R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$"
+    },
+    "required": {
+      "en": "Activation energy ($E_a$) and Arrhenius factor ($A$)",
+      "hi": "सक्रियण ऊर्जा ($E_a$) और आर्हेनियस कारक ($A$)"
+    },
+    "formula": "$\\log \\frac{k_2}{k_1} = \\frac{E_a}{2.303 R} \\left[ \\frac{T_2 - T_1}{T_1 T_2} \\right]$<br>$\\log k = \\log A - \\frac{E_a}{2.303 RT}$",
+    "substitution": "$\\log \\frac{0.07}{0.02} = \\frac{E_a}{2.303 \\times 8.314} \\left[ \\frac{700 - 500}{500 \\times 700} \\right]$",
+    "calculation": "$\\log(3.5) = \\frac{E_a}{19.147} \\left[ \\frac{200}{350000} \\right]$<br>$0.544 = \\frac{E_a}{19.147} \\times \\frac{1}{1750}$<br>$E_a = 0.544 \\times 19.147 \\times 1750 = 18227.7 \\text{ J mol}^{-1} = 18.23 \\text{ kJ mol}^{-1}$<br><br>Now for A, using $T_1 = 500\\text{ K}$:<br>$\\log(0.02) = \\log A - \\frac{18227.7}{19.147 \\times 500}$<br>$-1.699 = \\log A - \\frac{18227.7}{9573.5}$<br>$-1.699 = \\log A - 1.904$<br>$\\log A = 1.904 - 1.699 = 0.205$<br>$A = \\text{antilog}(0.205) = 1.6 \\text{ s}^{-1}$",
+    "finalAnswer": "$E_a = 18.23 \\text{ kJ mol}^{-1}$, $A = 1.6 \\text{ s}^{-1}$",
+    "unit": "kJ mol^{-1}, s^{-1}",
+    "examTip": {
+      "en": "Use logarithms carefully. Remember that $R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$, so the calculated $E_a$ will be in Joules. Always convert it to kJ for final answer if it's large.",
+      "hi": "लघुगणक का सावधानी से उपयोग करें। याद रखें कि $R = 8.314 \\text{ J K}^{-1} \\text{ mol}^{-1}$ है, इसलिए परिकलित $E_a$ जूल में होगा। यदि यह बड़ा है तो अंतिम उत्तर के लिए हमेशा इसे kJ में बदलें।"
+    }
+  }
+]

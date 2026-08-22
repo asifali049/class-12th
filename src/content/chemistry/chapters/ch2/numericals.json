@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Calculate the EMF of the cell in which the following reaction takes place:\n$Ni(s) + 2Ag^+(0.002 M) \\rightarrow Ni^{2+}(0.160 M) + 2Ag(s)$\nGiven that $E_{cell}^\\ominus = 1.05 \\text{ V}$.",
+      "hi": "उस सेल के EMF की गणना कीजिए जिसमें निम्नलिखित अभिक्रिया होती है:\n$Ni(s) + 2Ag^+(0.002 M) \\rightarrow Ni^{2+}(0.160 M) + 2Ag(s)$\nदिया गया है कि $E_{cell}^\\ominus = 1.05 \\text{ V}$।",
+      "hinglish": "Us cell ka EMF calculate karein jisme ye reaction hoti hai:\n$Ni(s) + 2Ag^+(0.002 M) \\rightarrow Ni^{2+}(0.160 M) + 2Ag(s)$\nGiven $E_{cell}^\\ominus = 1.05 \\text{ V}$."
+    },
+    "given": {
+      "en": "$E_{cell}^\\ominus = 1.05 \\text{ V}$<br>$[Ni^{2+}] = 0.160 \\text{ M}$<br>$[Ag^+] = 0.002 \\text{ M}$<br>$n = 2$ (2 electrons are exchanged in the reaction)",
+      "hi": "$E_{cell}^\\ominus = 1.05 \\text{ V}$<br>$[Ni^{2+}] = 0.160 \\text{ M}$<br>$[Ag^+] = 0.002 \\text{ M}$<br>$n = 2$ (अभिक्रिया में 2 इलेक्ट्रॉनों का आदान-प्रदान होता है)"
+    },
+    "required": {
+      "en": "Cell potential ($E_{cell}$)",
+      "hi": "सेल विभव ($E_{cell}$)"
+    },
+    "formula": "$E_{cell} = E_{cell}^\\ominus - \\frac{0.0591}{n} \\log \\frac{[Ni^{2+}]}{[Ag^+]^2}$",
+    "substitution": "$E_{cell} = 1.05 - \\frac{0.0591}{2} \\log \\frac{0.160}{(0.002)^2}$",
+    "calculation": "$E_{cell} = 1.05 - 0.02955 \\log \\left( \\frac{0.160}{4 \\times 10^{-6}} \\right)$<br>$E_{cell} = 1.05 - 0.02955 \\log (40000)$<br>$\\log(40000) = \\log(4 \\times 10^4) = 4 + \\log 4 = 4 + 0.6021 = 4.6021$<br>$E_{cell} = 1.05 - (0.02955 \\times 4.6021)$<br>$E_{cell} = 1.05 - 0.136 = 0.914 \\text{ V}$",
+    "finalAnswer": "$0.914 \\text{ V}$",
+    "unit": "V",
+    "examTip": {
+      "en": "Remember to square the concentration of $Ag^+$ in the denominator as its stoichiometric coefficient is 2 in the balanced chemical equation.",
+      "hi": "हर में $Ag^+$ की सांद्रता का वर्ग करना याद रखें क्योंकि संतुलित रासायनिक समीकरण में इसका स्टॉइकियोमेट्रिक गुणांक 2 है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "The conductivity of $0.20 \\text{ M}$ solution of KCl at 298 K is $0.0248 \\text{ S cm}^{-1}$. Calculate its molar conductivity.",
+      "hi": "298 K पर KCl के $0.20 \\text{ M}$ विलयन की चालकता $0.0248 \\text{ S cm}^{-1}$ है। इसकी मोलर चालकता की गणना कीजिए।",
+      "hinglish": "298 K par KCl ke $0.20 \\text{ M}$ solution ki conductivity $0.0248 \\text{ S cm}^{-1}$ hai. Iski molar conductivity calculate karein."
+    },
+    "given": {
+      "en": "Conductivity, $\\kappa = 0.0248 \\text{ S cm}^{-1}$<br>Molarity, $M = 0.20 \\text{ mol L}^{-1}$",
+      "hi": "चालकता, $\\kappa = 0.0248 \\text{ S cm}^{-1}$<br>मोलरता, $M = 0.20 \\text{ mol L}^{-1}$"
+    },
+    "required": {
+      "en": "Molar conductivity ($\\Lambda_m$)",
+      "hi": "मोलर चालकता ($\\Lambda_m$)"
+    },
+    "formula": "$\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$",
+    "substitution": "$\\Lambda_m = \\frac{0.0248 \\times 1000}{0.20}$",
+    "calculation": "$\\Lambda_m = \\frac{24.8}{0.20} = 124 \\text{ S cm}^2 \\text{ mol}^{-1}$",
+    "finalAnswer": "$124 \\text{ S cm}^2 \\text{ mol}^{-1}$",
+    "unit": "S cm^2 mol^{-1}",
+    "examTip": {
+      "en": "Ensure that conductivity $\\kappa$ is in $\\text{S cm}^{-1}$ before applying the formula $\\frac{\\kappa \\times 1000}{M}$. If it's in $\\text{S m}^{-1}$, the formula changes.",
+      "hi": "सुनिश्चित करें कि सूत्र $\\frac{\\kappa \\times 1000}{M}$ लागू करने से पहले चालकता $\\kappa$, $\\text{S cm}^{-1}$ में है। यदि यह $\\text{S m}^{-1}$ में है, तो सूत्र बदल जाता है।"
+    }
+  }
+]

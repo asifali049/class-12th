@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "For a reaction, $A + B \\rightarrow \\text{Product}$, the rate law is given by, $r = k[A]^{1/2}[B]^2$. What is the order of the reaction?",
+      "hi": "एक अभिक्रिया $A + B \\rightarrow \\text{Product}$ के लिए, दर नियम $r = k[A]^{1/2}[B]^2$ द्वारा दिया जाता है। अभिक्रिया की कोटि क्या है?",
+      "hinglish": "Ek reaction $A + B \\rightarrow \\text{Product}$ ke liye, rate law $r = k[A]^{1/2}[B]^2$ hai. Reaction ki order kya hai?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "hi": "1"
+      },
+      {
+        "en": "2",
+        "hi": "2"
+      },
+      {
+        "en": "2.5",
+        "hi": "2.5"
+      },
+      {
+        "en": "3",
+        "hi": "3"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Order of reaction is the sum of powers of the concentration terms in the rate law. Order = $1/2 + 2 = 2.5$.",
+      "hi": "अभिक्रिया की कोटि दर नियम में सांद्रता पदों की घातों का योग है। कोटि = $1/2 + 2 = 2.5$।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Define pseudo first order reaction with a suitable example.",
+      "hi": "एक उपयुक्त उदाहरण के साथ छद्म प्रथम कोटि अभिक्रिया को परिभाषित कीजिए।",
+      "hinglish": "Suitable example ke sath pseudo first order reaction ko define karein."
+    },
+    "idealAnswer": {
+      "en": "A reaction which is not truly of the first order but behaves as a first-order reaction under certain conditions (usually when one reactant is present in large excess) is called a pseudo first order reaction.\nExample: Acid-catalyzed hydrolysis of ethyl acetate.\n$CH_3COOC_2H_5 + H_2O \\xrightarrow{H^+} CH_3COOH + C_2H_5OH$\nRate = $k'[CH_3COOC_2H_5][H_2O]$. Since water is in excess, its concentration remains constant. Therefore, Rate = $k[CH_3COOC_2H_5]$ where $k = k'[H_2O]$.",
+      "hi": "वह अभिक्रिया जो वास्तव में प्रथम कोटि की नहीं होती है लेकिन कुछ शर्तों के तहत (आमतौर पर जब एक अभिकारक बहुत अधिक मात्रा में मौजूद होता है) प्रथम कोटि की अभिक्रिया के रूप में व्यवहार करती है, छद्म प्रथम कोटि अभिक्रिया कहलाती है।\nउदाहरण: एथिल एसीटेट का अम्ल-उत्प्रेरित जल अपघटन।\n$CH_3COOC_2H_5 + H_2O \\xrightarrow{H^+} CH_3COOH + C_2H_5OH$\nदर = $k'[CH_3COOC_2H_5][H_2O]$। चूँकि जल आधिक्य में है, इसकी सांद्रता स्थिर रहती है। इसलिए, दर = $k[CH_3COOC_2H_5]$ जहाँ $k = k'[H_2O]$।"
+    },
+    "keywords": [
+      {
+        "en": "not truly first order",
+        "hi": "वास्तव में प्रथम कोटि की नहीं"
+      },
+      {
+        "en": "reactant in large excess",
+        "hi": "अभिकारक बहुत अधिक मात्रा में"
+      },
+      {
+        "en": "hydrolysis of ethyl acetate",
+        "hi": "एथिल एसीटेट का जल अपघटन"
+      }
+    ],
+    "tips": {
+      "en": "Always provide the chemical equation for the example to make the answer complete.",
+      "hi": "उत्तर को पूर्ण बनाने के लिए हमेशा उदाहरण के लिए रासायनिक समीकरण प्रदान करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "What is the difference between order of a reaction and molecularity of a reaction?",
+      "hi": "अभिक्रिया की कोटि और अभिक्रिया की आणविकता के बीच क्या अंतर है?",
+      "hinglish": "Reaction ki order aur molecularity ke beech kya difference hai?"
+    },
+    "idealAnswer": {
+      "en": "1. Order is the sum of powers of concentration terms in the rate law, while molecularity is the number of reacting species taking part in an elementary reaction.\n2. Order is an experimental quantity, whereas molecularity is a theoretical concept.\n3. Order can be zero or fractional, but molecularity must be a whole number (1, 2, 3...) and cannot be zero or fractional.\n4. Order is applicable to elementary as well as complex reactions, while molecularity is applicable only for elementary reactions.",
+      "hi": "1. कोटि दर नियम में सांद्रता पदों की घातों का योग है, जबकि आणविकता एक प्रारंभिक अभिक्रिया में भाग लेने वाली अभिक्रियाशील प्रजातियों की संख्या है।\n2. कोटि एक प्रयोगात्मक राशि है, जबकि आणविकता एक सैद्धांतिक अवधारणा है।\n3. कोटि शून्य या भिन्नात्मक हो सकती है, लेकिन आणविकता एक पूर्ण संख्या (1, 2, 3...) होनी चाहिए और यह शून्य या भिन्नात्मक नहीं हो सकती।\n4. कोटि प्रारंभिक और जटिल दोनों अभिक्रियाओं पर लागू होती है, जबकि आणविकता केवल प्रारंभिक अभिक्रियाओं पर लागू होती है।"
+    },
+    "keywords": [
+      {
+        "en": "sum of powers",
+        "hi": "घातों का योग"
+      },
+      {
+        "en": "experimental quantity",
+        "hi": "प्रयोगात्मक राशि"
+      },
+      {
+        "en": "zero or fractional",
+        "hi": "शून्य या भिन्नात्मक"
+      },
+      {
+        "en": "theoretical concept",
+        "hi": "सैद्धांतिक अवधारणा"
+      }
+    ],
+    "tips": {
+      "en": "Write the differences in a tabular format if possible. At least 3 points are expected for a 3-mark question.",
+      "hi": "यदि संभव हो तो अंतर को सारणीबद्ध प्रारूप में लिखें। 3-अंक के प्रश्न के लिए कम से कम 3 बिंदुओं की अपेक्षा की जाती है।"
+    }
+  }
+]

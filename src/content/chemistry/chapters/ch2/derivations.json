@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Relationship between Standard Gibbs Free Energy and Equilibrium Constant",
+      "hi": "मानक गिब्स मुक्त ऊर्जा और साम्य नियतांक के बीच संबंध",
+      "hinglish": "Standard Gibbs Free Energy aur Equilibrium Constant ke beech relation"
+    },
+    "given": {
+      "en": "An electrochemical cell where a reversible reaction is taking place. Let the standard cell potential be $E_{cell}^\\ominus$ and the number of electrons involved be $n$.",
+      "hi": "एक वैद्युत रासायनिक सेल जहाँ एक उत्क्रमणीय अभिक्रिया हो रही है। माना मानक सेल विभव $E_{cell}^\\ominus$ है और शामिल इलेक्ट्रॉनों की संख्या $n$ है।"
+    },
+    "toFind": {
+      "en": "Expression relating $\\Delta_r G^\\ominus$ with the equilibrium constant $K_c$.",
+      "hi": "$\\Delta_r G^\\ominus$ को साम्य नियतांक $K_c$ से संबंधित करने वाला व्यंजक।"
+    },
+    "concept": {
+      "en": "Electrical work done by the cell is equal to the decrease in Gibbs free energy ($\\Delta G = -nFE_{cell}$). At equilibrium, $E_{cell} = 0$ and the reaction quotient $Q = K_c$.",
+      "hi": "सेल द्वारा किया गया विद्युत कार्य गिब्स मुक्त ऊर्जा में कमी ($\\Delta G = -nFE_{cell}$) के बराबर होता है। साम्यावस्था पर, $E_{cell} = 0$ और अभिक्रिया भागफल $Q = K_c$।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Gibbs Free Energy and Cell Potential",
+          "hi": "चरण 1: गिब्स मुक्त ऊर्जा और सेल विभव"
+        },
+        "content": {
+          "en": "The electrical work done by a galvanic cell is $W = nFE_{cell}$.\\nThis work is done at the expense of Gibbs free energy, so:\\n$\\Delta_r G = -nFE_{cell}$\\nUnder standard conditions:\\n$\\Delta_r G^\\ominus = -nFE_{cell}^\\ominus$",
+          "hi": "गैल्वेनिक सेल द्वारा किया गया विद्युत कार्य $W = nFE_{cell}$ है।\\nयह कार्य गिब्स मुक्त ऊर्जा की कीमत पर किया जाता है, इसलिए:\\n$\\Delta_r G = -nFE_{cell}$\\nमानक परिस्थितियों में:\\n$\\Delta_r G^\\ominus = -nFE_{cell}^\\ominus$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Nernst Equation at Equilibrium",
+          "hi": "चरण 2: साम्यावस्था पर नेर्न्स्ट समीकरण"
+        },
+        "content": {
+          "en": "The Nernst equation is:\\n$E_{cell} = E_{cell}^\\ominus - \\frac{RT}{nF} \\ln Q$\\nAt equilibrium, the cell potential becomes zero ($E_{cell} = 0$) and the reaction quotient $Q$ becomes the equilibrium constant $K_c$.\\n$0 = E_{cell}^\\ominus - \\frac{RT}{nF} \\ln K_c$\\n$E_{cell}^\\ominus = \\frac{RT}{nF} \\ln K_c$",
+          "hi": "नेर्न्स्ट समीकरण है:\\n$E_{cell} = E_{cell}^\\ominus - \\frac{RT}{nF} \\ln Q$\\nसाम्यावस्था पर, सेल विभव शून्य ($E_{cell} = 0$) हो जाता है और अभिक्रिया भागफल $Q$ साम्य नियतांक $K_c$ बन जाता है।\\n$0 = E_{cell}^\\ominus - \\frac{RT}{nF} \\ln K_c$\\n$E_{cell}^\\ominus = \\frac{RT}{nF} \\ln K_c$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Combining the Equations",
+          "hi": "चरण 3: समीकरणों को मिलाना"
+        },
+        "content": {
+          "en": "Substitute the value of $E_{cell}^\\ominus$ from Step 2 into the equation for standard Gibbs free energy:\\n$\\Delta_r G^\\ominus = -nF \\left( \\frac{RT}{nF} \\ln K_c \\right)$\\n$\\Delta_r G^\\ominus = -RT \\ln K_c$",
+          "hi": "चरण 2 से $E_{cell}^\\ominus$ का मान मानक गिब्स मुक्त ऊर्जा के समीकरण में रखने पर:\\n$\\Delta_r G^\\ominus = -nF \\left( \\frac{RT}{nF} \\ln K_c \\right)$\\n$\\Delta_r G^\\ominus = -RT \\ln K_c$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Converting to base-10 log",
+          "hi": "चरण 4: आधार-10 लॉग में बदलना"
+        },
+        "content": {
+          "en": "Since $\\ln x = 2.303 \\log x$, we can write:\\n$\\Delta_r G^\\ominus = -2.303 RT \\log K_c$",
+          "hi": "चूँकि $\\ln x = 2.303 \\log x$, हम लिख सकते हैं:\\n$\\Delta_r G^\\ominus = -2.303 RT \\log K_c$"
+        }
+      }
+    ],
+    "finalResult": "\\Delta_r G^\\ominus = -2.303 RT \\log K_c",
+    "examTip": {
+      "en": "This derivation frequently appears as a 2-mark or 3-mark question. Remember the key condition: At equilibrium, $E_{cell} = 0$ (NOT $E_{cell}^\\ominus = 0$).",
+      "hi": "यह व्युत्पत्ति अक्सर 2-अंक या 3-अंक के प्रश्न के रूप में आती है। मुख्य शर्त याद रखें: साम्यावस्था पर, $E_{cell} = 0$ (न कि $E_{cell}^\\ominus = 0$)।"
+    }
+  }
+]

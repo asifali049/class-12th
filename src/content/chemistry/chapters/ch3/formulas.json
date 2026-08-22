@@ -1,0 +1,90 @@
+[
+  {
+    "equation": "r_{avg} = -\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}",
+    "description": {
+      "en": "Average Rate of Reaction",
+      "hi": "अभिक्रिया की औसत दर"
+    },
+    "variables": {
+      "en": "Δ[R] = Change in concentration of reactants\nΔ[P] = Change in concentration of products\nΔt = Time interval",
+      "hi": "Δ[R] = अभिकारकों की सांद्रता में परिवर्तन\nΔ[P] = उत्पादों की सांद्रता में परिवर्तन\nΔt = समय अंतराल"
+    }
+  },
+  {
+    "equation": "\\text{Rate} = k[A]^x[B]^y",
+    "description": {
+      "en": "Rate Law",
+      "hi": "दर नियम"
+    },
+    "variables": {
+      "en": "k = Rate constant\n[A], [B] = Concentrations of reactants\nx, y = Partial orders w.r.t A and B\nx+y = Overall order of reaction",
+      "hi": "k = दर नियतांक\n[A], [B] = अभिकारकों की सांद्रताएं\nx, y = A और B के सापेक्ष आंशिक कोटियां\nx+y = अभिक्रिया की कुल कोटि"
+    }
+  },
+  {
+    "equation": "k = \\frac{[R]_0 - [R]}{t}",
+    "description": {
+      "en": "Integrated Rate Equation for Zero Order Reaction",
+      "hi": "शून्य कोटि अभिक्रिया के लिए समाकलित वेग समीकरण"
+    },
+    "variables": {
+      "en": "k = Rate constant\n[R]_0 = Initial concentration\n[R] = Concentration at time t\nt = time",
+      "hi": "k = दर नियतांक\n[R]_0 = प्रारंभिक सांद्रता\n[R] = समय t पर सांद्रता\nt = समय"
+    }
+  },
+  {
+    "equation": "t_{1/2} = \\frac{[R]_0}{2k}",
+    "description": {
+      "en": "Half-life of Zero Order Reaction",
+      "hi": "शून्य कोटि अभिक्रिया की अर्ध-आयु"
+    },
+    "variables": {
+      "en": "t_{1/2} = Half-life\n[R]_0 = Initial concentration\nk = Rate constant",
+      "hi": "t_{1/2} = अर्ध-आयु\n[R]_0 = प्रारंभिक सांद्रता\nk = दर नियतांक"
+    }
+  },
+  {
+    "equation": "k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]} \\quad \\text{or} \\quad [R] = [R]_0 e^{-kt}",
+    "description": {
+      "en": "Integrated Rate Equation for First Order Reaction",
+      "hi": "प्रथम कोटि अभिक्रिया के लिए समाकलित वेग समीकरण"
+    },
+    "variables": {
+      "en": "k = Rate constant\n[R]_0 = Initial concentration\n[R] = Concentration at time t\nt = time",
+      "hi": "k = दर नियतांक\n[R]_0 = प्रारंभिक सांद्रता\n[R] = समय t पर सांद्रता\nt = समय"
+    }
+  },
+  {
+    "equation": "t_{1/2} = \\frac{0.693}{k}",
+    "description": {
+      "en": "Half-life of First Order Reaction",
+      "hi": "प्रथम कोटि अभिक्रिया की अर्ध-आयु"
+    },
+    "variables": {
+      "en": "t_{1/2} = Half-life\nk = Rate constant",
+      "hi": "t_{1/2} = अर्ध-आयु\nk = दर नियतांक"
+    }
+  },
+  {
+    "equation": "k = A e^{-E_a/RT}",
+    "description": {
+      "en": "Arrhenius Equation",
+      "hi": "आर्हेनियस समीकरण"
+    },
+    "variables": {
+      "en": "k = Rate constant\nA = Arrhenius factor (frequency factor)\nE_a = Activation energy\nR = Gas constant\nT = Temperature in Kelvin",
+      "hi": "k = दर नियतांक\nA = आर्हेनियस कारक (आवृत्ति कारक)\nE_a = सक्रियण ऊर्जा\nR = गैस नियतांक\nT = केल्विन में तापमान"
+    }
+  },
+  {
+    "equation": "\\log \\frac{k_2}{k_1} = \\frac{E_a}{2.303 R} \\left[ \\frac{T_2 - T_1}{T_1 T_2} \\right]",
+    "description": {
+      "en": "Arrhenius Equation at Two Different Temperatures",
+      "hi": "दो अलग-अलग तापमानों पर आर्हेनियस समीकरण"
+    },
+    "variables": {
+      "en": "k_1 = Rate constant at temperature T_1\nk_2 = Rate constant at temperature T_2\nE_a = Activation energy\nR = Gas constant",
+      "hi": "k_1 = तापमान T_1 पर दर नियतांक\nk_2 = तापमान T_2 पर दर नियतांक\nE_a = सक्रियण ऊर्जा\nR = गैस नियतांक"
+    }
+  }
+]

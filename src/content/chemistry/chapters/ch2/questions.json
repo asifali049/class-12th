@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "In a galvanic cell, which of the following statements is correct?",
+      "hi": "एक गैल्वेनिक सेल में, निम्नलिखित में से कौन सा कथन सही है?",
+      "hinglish": "Galvanic cell mein, inme se kaun sa statement correct hai?"
+    },
+    "options": [
+      {
+        "en": "Oxidation takes place at the positive electrode",
+        "hi": "ऑक्सीकरण धनात्मक इलेक्ट्रोड पर होता है"
+      },
+      {
+        "en": "Reduction takes place at the positive electrode",
+        "hi": "अपचयन धनात्मक इलेक्ट्रोड पर होता है"
+      },
+      {
+        "en": "Reduction takes place at the negative electrode",
+        "hi": "अपचयन ऋणात्मक इलेक्ट्रोड पर होता है"
+      },
+      {
+        "en": "Oxidation and reduction both take place at the same electrode",
+        "hi": "ऑक्सीकरण और अपचयन दोनों एक ही इलेक्ट्रोड पर होते हैं"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "In a galvanic cell, oxidation occurs at the anode (negative electrode) and reduction occurs at the cathode (positive electrode).",
+      "hi": "गैल्वेनिक सेल में, ऑक्सीकरण एनोड (ऋणात्मक इलेक्ट्रोड) पर होता है और अपचयन कैथोड (धनात्मक इलेक्ट्रोड) पर होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "What is the function of a salt bridge in a galvanic cell?",
+      "hi": "गैल्वेनिक सेल में लवण सेतु का क्या कार्य है?",
+      "hinglish": "Galvanic cell me salt bridge ka kya function hota hai?"
+    },
+    "idealAnswer": {
+      "en": "A salt bridge has two main functions:\n1. It completes the electrical circuit by allowing the ions to flow from one solution to the other without mixing of the two solutions.\n2. It maintains the electrical neutrality of the solutions in the two half-cells.",
+      "hi": "लवण सेतु के दो मुख्य कार्य हैं:\n1. यह आयनों को एक विलयन से दूसरे विलयन में बिना मिलाए प्रवाहित होने देकर विद्युत परिपथ को पूरा करता है।\n2. यह दोनों अर्ध-सेलों में विलयनों की विद्युत उदासीनता बनाए रखता है।"
+    },
+    "keywords": [
+      {
+        "en": "completes electrical circuit",
+        "hi": "विद्युत परिपथ को पूरा करता है"
+      },
+      {
+        "en": "maintains electrical neutrality",
+        "hi": "विद्युत उदासीनता बनाए रखता है"
+      },
+      {
+        "en": "without mixing",
+        "hi": "बिना मिलाए"
+      }
+    ],
+    "tips": {
+      "en": "Always mention both points (completing the circuit and maintaining neutrality) to get full marks.",
+      "hi": "पूरे अंक प्राप्त करने के लिए हमेशा दोनों बिंदुओं (परिपथ को पूरा करना और उदासीनता बनाए रखना) का उल्लेख करें।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "State Kohlrausch's law of independent migration of ions. How is it useful in determining the limiting molar conductivity of weak electrolytes?",
+      "hi": "आयनों के स्वतंत्र अभिगमन का कोलराउश का नियम बताइए। दुर्बल वैद्युत अपघट्यों की सीमांत मोलर चालकता निर्धारित करने में यह कैसे उपयोगी है?",
+      "hinglish": "Kohlrausch's law of independent migration of ions state karein. Weak electrolytes ki limiting molar conductivity determine karne me yeh kaise useful hai?"
+    },
+    "idealAnswer": {
+      "en": "Kohlrausch's Law: It states that the limiting molar conductivity of an electrolyte can be represented as the sum of the individual contributions of the anion and cation of the electrolyte. $\\Lambda_m^\\ominus = v_+ \\lambda_+^\\ominus + v_- \\lambda_-^\\ominus$.\nUsefulness: For weak electrolytes, $\\Lambda_m^\\ominus$ cannot be obtained by extrapolation of $\\Lambda_m$ vs $\\sqrt{c}$ plot. Using Kohlrausch's law, we can calculate $\\Lambda_m^\\ominus$ of a weak electrolyte from the known $\\Lambda_m^\\ominus$ values of strong electrolytes. Example: $\\Lambda_m^\\ominus(CH_3COOH) = \\Lambda_m^\\ominus(CH_3COONa) + \\Lambda_m^\\ominus(HCl) - \\Lambda_m^\\ominus(NaCl)$.",
+      "hi": "कोलराउश का नियम: इसके अनुसार किसी वैद्युत अपघट्य की सीमांत मोलर चालकता को उस वैद्युत अपघट्य के धनायन और ऋणायन के व्यक्तिगत योगदानों के योग के रूप में दर्शाया जा सकता है। $\\Lambda_m^\\ominus = v_+ \\lambda_+^\\ominus + v_- \\lambda_-^\\ominus$।\nउपयोगिता: दुर्बल वैद्युत अपघट्यों के लिए, $\\Lambda_m$ बनाम $\\sqrt{c}$ ग्राफ के बहिर्वेशन (extrapolation) द्वारा $\\Lambda_m^\\ominus$ प्राप्त नहीं किया जा सकता है। कोलराउश के नियम का उपयोग करके, हम प्रबल वैद्युत अपघट्यों के ज्ञात $\\Lambda_m^\\ominus$ मानों से दुर्बल वैद्युत अपघट्य का $\\Lambda_m^\\ominus$ ज्ञात कर सकते हैं। उदाहरण: $\\Lambda_m^\\ominus(CH_3COOH) = \\Lambda_m^\\ominus(CH_3COONa) + \\Lambda_m^\\ominus(HCl) - \\Lambda_m^\\ominus(NaCl)$।"
+    },
+    "keywords": [
+      {
+        "en": "sum of individual contributions",
+        "hi": "व्यक्तिगत योगदानों का योग"
+      },
+      {
+        "en": "cannot be obtained by extrapolation",
+        "hi": "बहिर्वेशन द्वारा प्राप्त नहीं किया जा सकता"
+      },
+      {
+        "en": "calculated from strong electrolytes",
+        "hi": "प्रबल वैद्युत अपघट्यों से गणना"
+      }
+    ],
+    "tips": {
+      "en": "Providing an example like $CH_3COOH$ makes the answer complete and clearer.",
+      "hi": "$CH_3COOH$ जैसा उदाहरण देने से उत्तर पूर्ण और अधिक स्पष्ट हो जाता है।"
+    }
+  }
+]

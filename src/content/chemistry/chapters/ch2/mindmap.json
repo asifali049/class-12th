@@ -1,0 +1,72 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Electrochemistry",
+    "hi": "वैद्युत रसायन",
+    "hinglish": "Electrochemistry"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electrochemical Cells",
+        "hi": "वैद्युत रासायनिक सेल"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Galvanic Cell (Chem → Elec)", "hi": "गैल्वेनिक सेल (रसायन → विद्युत)" } },
+        { "id": "c1b", "label": { "en": "Electrolytic Cell (Elec → Chem)", "hi": "विद्युत अपघटनी सेल (विद्युत → रसायन)" } },
+        { "id": "c1c", "label": { "en": "Salt Bridge & Function", "hi": "लवण सेतु और कार्य" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Cell Potential & EMF",
+        "hi": "सेल विभव और EMF"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Standard Electrode Potential (E°)", "hi": "मानक इलेक्ट्रोड विभव (E°)" } },
+        { "id": "c2b", "label": { "en": "E°_cell = E°_cathode - E°_anode", "hi": "E°_cell = E°_cathode - E°_anode" } },
+        { "id": "c2c", "label": { "en": "Nernst Equation", "hi": "नेर्न्स्ट समीकरण" } },
+        { "id": "c2d", "label": { "en": "Relation with ΔG° & K_c", "hi": "ΔG° और K_c के साथ संबंध" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Conductance",
+        "hi": "चालकत्व"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Conductivity (κ)", "hi": "चालकता (κ)" } },
+        { "id": "c3b", "label": { "en": "Molar Conductivity (Λ_m)", "hi": "मोलर चालकता (Λ_m)" } },
+        { "id": "c3c", "label": { "en": "Variation with Concentration", "hi": "सांद्रता के साथ परिवर्तन" } },
+        { "id": "c3d", "label": { "en": "Kohlrausch's Law", "hi": "कोलराउश का नियम" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Electrolysis",
+        "hi": "विद्युत अपघटन"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Faraday's First Law (m = ZIt)", "hi": "फैराडे का प्रथम नियम (m = ZIt)" } },
+        { "id": "c4b", "label": { "en": "Faraday's Second Law", "hi": "फैराडे का द्वितीय नियम" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Commercial Cells",
+        "hi": "व्यावसायिक सेल"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Primary (Dry, Mercury)", "hi": "प्राथमिक (शुष्क, मर्करी)" } },
+        { "id": "c5b", "label": { "en": "Secondary (Lead storage, Ni-Cd)", "hi": "द्वितीयक (सीसा संचायक, Ni-Cd)" } },
+        { "id": "c5c", "label": { "en": "Fuel Cells (H₂-O₂)", "hi": "ईंधन सेल (H₂-O₂)" } },
+        { "id": "c5d", "label": { "en": "Corrosion & Prevention", "hi": "संक्षारण और रोकथाम" } }
+      ]
+    }
+  ]
+}

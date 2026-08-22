@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Order vs Molecularity",
+      "hi": "कोटि बनाम आणविकता",
+      "hinglish": "Order vs Molecularity"
+    },
+    "summary": {
+      "en": "Order is an experimental sum of powers in rate law (can be fraction/zero). Molecularity is a theoretical number of colliding species in an elementary step (always a whole number > 0).",
+      "hi": "कोटि दर नियम में घातों का एक प्रायोगिक योग है (भिन्न/शून्य हो सकता है)। आणविकता एक प्रारंभिक चरण में टकराने वाली प्रजातियों की एक सैद्धांतिक संख्या है (हमेशा एक पूर्ण संख्या > 0)।",
+      "hinglish": "Order rate law me powers ka experimental sum hai (fraction/zero ho sakta hai). Molecularity elementary step me colliding species ka theoretical number hai (always a whole number > 0)."
+    },
+    "quickRecall": [
+      {
+        "en": "Order: Exp., 0, fraction possible.",
+        "hi": "कोटि: प्रायोगिक, 0, भिन्न संभव।"
+      },
+      {
+        "en": "Molecularity: Theo., 1, 2, 3...",
+        "hi": "आणविकता: सैद्धांतिक, 1, 2, 3..."
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Arrhenius Equation",
+      "hi": "आर्हेनियस समीकरण",
+      "hinglish": "Arrhenius Equation"
+    },
+    "summary": {
+      "en": "Relates rate constant (k) with temperature (T) and activation energy (Ea). k = A * e^(-Ea/RT). Plotting ln k vs 1/T gives a straight line with slope -Ea/R.",
+      "hi": "दर नियतांक (k) को तापमान (T) और सक्रियण ऊर्जा (Ea) से संबंधित करता है। k = A * e^(-Ea/RT)। ln k बनाम 1/T का ग्राफ -Ea/R ढलान वाली एक सीधी रेखा देता है।",
+      "hinglish": "Rate constant (k) ko temperature (T) aur activation energy (Ea) se relate karta hai. k = A * e^(-Ea/RT). ln k vs 1/T ka plot -Ea/R slope wali straight line deta hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Slope of ln k vs 1/T = -Ea/R",
+        "hi": "ln k बनाम 1/T का ढलान = -Ea/R"
+      },
+      {
+        "en": "Catalyst lowers Ea",
+        "hi": "उत्प्रेरक Ea को कम करता है"
+      }
+    ]
+  }
+]

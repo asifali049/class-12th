@@ -1,0 +1,89 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Integrated Rate Equation for First Order Reaction",
+      "hi": "प्रथम कोटि अभिक्रिया के लिए समाकलित वेग समीकरण",
+      "hinglish": "First Order Reaction ke liye Integrated Rate Equation"
+    },
+    "given": {
+      "en": "Consider a first order reaction: $R \\rightarrow P$. The rate of reaction is proportional to the first power of the concentration of the reactant $R$.",
+      "hi": "एक प्रथम कोटि की अभिक्रिया पर विचार करें: $R \\rightarrow P$। अभिक्रिया की दर अभिकारक $R$ की सांद्रता की प्रथम घात के समानुपाती होती है।"
+    },
+    "toFind": {
+      "en": "An expression relating the rate constant $k$, time $t$, and concentrations of reactant.",
+      "hi": "दर नियतांक $k$, समय $t$ और अभिकारक की सांद्रता से संबंधित एक व्यंजक।"
+    },
+    "concept": {
+      "en": "Rate = $-\\frac{d[R]}{dt} = k[R]$. We separate variables and integrate.",
+      "hi": "दर = $-\\frac{d[R]}{dt} = k[R]$। हम चरों को अलग करते हैं और समाकलन करते हैं।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Write differential rate equation",
+          "hi": "चरण 1: अवकल वेग समीकरण लिखना"
+        },
+        "content": {
+          "en": "For a first order reaction, rate is given by:\\n$\\text{Rate} = -\\frac{d[R]}{dt} = k[R]$",
+          "hi": "प्रथम कोटि अभिक्रिया के लिए, दर इस प्रकार दी जाती है:\\n$\\text{दर} = -\\frac{d[R]}{dt} = k[R]$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Rearrange the equation",
+          "hi": "चरण 2: समीकरण को पुनर्व्यवस्थित करना"
+        },
+        "content": {
+          "en": "Rearranging to get similar variables on one side:\\n$\\frac{d[R]}{[R]} = -k \\, dt$",
+          "hi": "समान चरों को एक तरफ लाने के लिए पुनर्व्यवस्थित करना:\\n$\\frac{d[R]}{[R]} = -k \\, dt$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Integrate both sides",
+          "hi": "चरण 3: दोनों पक्षों का समाकलन करना"
+        },
+        "content": {
+          "en": "Integrating both sides:\\n$\\int \\frac{d[R]}{[R]} = -k \\int dt$\\n$\\ln [R] = -kt + I$\\nwhere $I$ is the constant of integration.",
+          "hi": "दोनों पक्षों का समाकलन करने पर:\\n$\\int \\frac{d[R]}{[R]} = -k \\int dt$\\n$\\ln [R] = -kt + I$\\nजहाँ $I$ समाकलन नियतांक है।"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Find the constant of integration",
+          "hi": "चरण 4: समाकलन नियतांक ज्ञात करना"
+        },
+        "content": {
+          "en": "At time $t = 0$, the concentration of reactant is $[R]_0$.\\nSubstitute these values in the integrated equation:\\n$\\ln [R]_0 = -k \\times 0 + I$\\n$\\implies I = \\ln [R]_0$",
+          "hi": "समय $t = 0$ पर, अभिकारक की सांद्रता $[R]_0$ है।\\nइन मानों को समाकलित समीकरण में रखने पर:\\n$\\ln [R]_0 = -k \\times 0 + I$\\n$\\implies I = \\ln [R]_0$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 5: Substitute I and solve for k",
+          "hi": "चरण 5: I का मान रखना और k के लिए हल करना"
+        },
+        "content": {
+          "en": "Substituting $I$ back:\\n$\\ln [R] = -kt + \\ln [R]_0$\\n$kt = \\ln [R]_0 - \\ln [R] = \\ln \\frac{[R]_0}{[R]}$\\n$k = \\frac{1}{t} \\ln \\frac{[R]_0}{[R]}$",
+          "hi": "$I$ का मान वापस रखने पर:\\n$\\ln [R] = -kt + \\ln [R]_0$\\n$kt = \\ln [R]_0 - \\ln [R] = \\ln \\frac{[R]_0}{[R]}$\\n$k = \\frac{1}{t} \\ln \\frac{[R]_0}{[R]}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 6: Convert to log base 10",
+          "hi": "चरण 6: लॉग आधार 10 में बदलना"
+        },
+        "content": {
+          "en": "Using the relation $\\ln x = 2.303 \\log x$:\\n$k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}$",
+          "hi": "संबंध $\\ln x = 2.303 \\log x$ का उपयोग करते हुए:\\n$k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}$"
+        }
+      }
+    ],
+    "finalResult": "k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]}",
+    "examTip": {
+      "en": "This is one of the most frequently asked derivations. Practice writing all steps clearly, especially the determination of integration constant $I$.",
+      "hi": "यह सबसे अधिक पूछे जाने वाले व्युत्पत्तियों में से एक है। सभी चरणों को स्पष्ट रूप से लिखने का अभ्यास करें, विशेष रूप से समाकलन नियतांक $I$ का निर्धारण।"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Activation Energy and Reaction Coordinate",
+      "hi": "सक्रियण ऊर्जा और अभिक्रिया निर्देशांक",
+      "hinglish": "Activation Energy and Reaction Coordinate"
+    },
+    "description": {
+      "en": "Energy profile diagram showing the activation energy (Ea) for an exothermic reaction and the effect of a catalyst.",
+      "hi": "ऊर्जा प्रोफ़ाइल आरेख जो ऊष्माक्षेपी अभिक्रिया के लिए सक्रियण ऊर्जा (Ea) और उत्प्रेरक के प्रभाव को दर्शाता है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"320\" x2=\"450\" y2=\"320\" stroke=\"#4b5563\" stroke-width=\"2\" /> <!-- X axis -->\n  <line x1=\"60\" y1=\"320\" x2=\"60\" y2=\"50\" stroke=\"#4b5563\" stroke-width=\"2\" /> <!-- Y axis -->\n\n  <!-- Axis Labels -->\n  <text x=\"200\" y=\"360\" font-family=\"Arial\" font-size=\"16\" fill=\"#4b5563\">Reaction Coordinate</text>\n  <text x=\"20\" y=\"220\" font-family=\"Arial\" font-size=\"16\" fill=\"#4b5563\" transform=\"rotate(-90 20,220)\">Potential Energy</text>\n\n  <!-- Reactants Energy Level -->\n  <line x1=\"50\" y1=\"200\" x2=\"120\" y2=\"200\" stroke=\"#1d4ed8\" stroke-width=\"2\" />\n  <text x=\"65\" y=\"220\" font-family=\"Arial\" font-size=\"14\" fill=\"#1d4ed8\">Reactants (R)</text>\n\n  <!-- Products Energy Level -->\n  <line x1=\"380\" y1=\"280\" x2=\"460\" y2=\"280\" stroke=\"#b91c1c\" stroke-width=\"2\" />\n  <text x=\"385\" y=\"300\" font-family=\"Arial\" font-size=\"14\" fill=\"#b91c1c\">Products (P)</text>\n\n  <!-- Delta H Indicator -->\n  <line x1=\"360\" y1=\"200\" x2=\"420\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <path d=\"M 400 200 L 400 280\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" />\n  <polygon points=\"400,280 404,272 396,272\" fill=\"#000\" stroke=\"none\" />\n  <polygon points=\"400,200 404,208 396,208\" fill=\"#000\" stroke=\"none\" />\n  <text x=\"410\" y=\"245\" font-family=\"Arial\" font-size=\"14\" fill=\"#000\">ΔH</text>\n\n  <!-- Uncatalyzed Path -->\n  <path d=\"M 120 200 C 180 200, 200 80, 250 80 C 300 80, 320 280, 380 280\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\" />\n  \n  <!-- Catalyzed Path -->\n  <path d=\"M 120 200 C 170 200, 190 140, 250 140 C 310 140, 330 280, 380 280\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\" stroke-dasharray=\"6,4\" />\n\n  <!-- Activation Energy (Uncatalyzed) -->\n  <line x1=\"120\" y1=\"200\" x2=\"280\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <line x1=\"220\" y1=\"80\" x2=\"280\" y2=\"80\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <path d=\"M 260 200 L 260 80\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" />\n  <polygon points=\"260,80 256,88 264,88\" fill=\"#000\" stroke=\"none\" />\n  <polygon points=\"260,200 256,192 264,192\" fill=\"#000\" stroke=\"none\" />\n  <text x=\"265\" y=\"145\" font-family=\"Arial\" font-size=\"14\" fill=\"#000\">E_a</text>\n\n  <!-- Activation Energy (Catalyzed) -->\n  <line x1=\"220\" y1=\"140\" x2=\"240\" y2=\"140\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <path d=\"M 230 200 L 230 140\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1\" />\n  <polygon points=\"230,140 226,148 234,148\" fill=\"#16a34a\" stroke=\"none\" />\n  <polygon points=\"230,200 226,192 234,192\" fill=\"#16a34a\" stroke=\"none\" />\n  <text x=\"190\" y=\"175\" font-family=\"Arial\" font-size=\"14\" fill=\"#16a34a\">E_a'</text>\n\n  <!-- Labels -->\n  <text x=\"250\" y=\"65\" font-family=\"Arial\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">Activated Complex</text>\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 300,
+        "y": 100,
+        "text": {
+          "en": "Path without Catalyst",
+          "hi": "उत्प्रेरक के बिना पथ"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 280,
+        "y": 150,
+        "text": {
+          "en": "Path with Catalyst",
+          "hi": "उत्प्रेरक के साथ पथ"
+        }
+      }
+    ]
+  }
+]

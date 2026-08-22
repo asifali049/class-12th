@@ -1,0 +1,123 @@
+[
+  {
+    "equation": "E_{cell}^\\ominus = E_{cathode}^\\ominus - E_{anode}^\\ominus",
+    "description": {
+      "en": "Standard EMF of a Cell",
+      "hi": "सेल का मानक EMF"
+    },
+    "variables": {
+      "en": "E_{cell}^\\ominus = Standard cell potential\nE_{cathode}^\\ominus = Standard reduction potential of cathode\nE_{anode}^\\ominus = Standard reduction potential of anode",
+      "hi": "E_{cell}^\\ominus = मानक सेल विभव\nE_{cathode}^\\ominus = कैथोड का मानक अपचयन विभव\nE_{anode}^\\ominus = एनोड का मानक अपचयन विभव"
+    }
+  },
+  {
+    "equation": "E_{cell} = E_{cell}^\\ominus - \\frac{2.303 RT}{nF} \\log \\frac{[\\text{Products}]}{[\\text{Reactants}]}",
+    "description": {
+      "en": "Nernst Equation",
+      "hi": "नेर्न्स्ट समीकरण"
+    },
+    "variables": {
+      "en": "E_{cell} = Cell potential under given conditions\nR = Gas constant (8.314 J K^{-1} mol^{-1})\nT = Temperature in Kelvin\nn = Number of electrons exchanged\nF = Faraday constant (96487 C mol^{-1})",
+      "hi": "E_{cell} = दी गई परिस्थितियों में सेल विभव\nR = गैस नियतांक (8.314 J K^{-1} mol^{-1})\nT = केल्विन में तापमान\nn = आदान-प्रदान किए गए इलेक्ट्रॉनों की संख्या\nF = फैराडे नियतांक (96487 C mol^{-1})"
+    }
+  },
+  {
+    "equation": "E_{cell} = E_{cell}^\\ominus - \\frac{0.0591}{n} \\log Q \\quad \\text{(at 298 K)}",
+    "description": {
+      "en": "Nernst Equation at 298 K",
+      "hi": "298 K पर नेर्न्स्ट समीकरण"
+    },
+    "variables": {
+      "en": "Q = Reaction quotient",
+      "hi": "Q = अभिक्रिया भागफल"
+    }
+  },
+  {
+    "equation": "\\Delta_r G = -nF E_{cell}",
+    "description": {
+      "en": "Gibbs Free Energy and Cell Potential",
+      "hi": "गिब्स मुक्त ऊर्जा और सेल विभव"
+    },
+    "variables": {
+      "en": "Δ_rG = Change in Gibbs free energy\nn = Number of electrons exchanged\nF = Faraday constant",
+      "hi": "Δ_rG = गिब्स मुक्त ऊर्जा में परिवर्तन\nn = इलेक्ट्रॉनों की संख्या\nF = फैराडे नियतांक"
+    }
+  },
+  {
+    "equation": "\\log K_c = \\frac{n E_{cell}^\\ominus}{0.0591} \\quad \\text{(at 298 K)}",
+    "description": {
+      "en": "Equilibrium Constant from Standard Cell Potential",
+      "hi": "मानक सेल विभव से साम्य नियतांक"
+    },
+    "variables": {
+      "en": "K_c = Equilibrium constant",
+      "hi": "K_c = साम्य नियतांक"
+    }
+  },
+  {
+    "equation": "R = \\rho \\frac{l}{A}",
+    "description": {
+      "en": "Resistance",
+      "hi": "प्रतिरोध"
+    },
+    "variables": {
+      "en": "R = Resistance\nρ = Resistivity\nl = Length\nA = Area of cross-section",
+      "hi": "R = प्रतिरोध\nρ = प्रतिरोधकता\nl = लंबाई\nA = अनुप्रस्थ काट का क्षेत्रफल"
+    }
+  },
+  {
+    "equation": "\\kappa = \\frac{1}{\\rho} = \\frac{1}{R} \\left(\\frac{l}{A}\\right) = G \\cdot G^*",
+    "description": {
+      "en": "Conductivity",
+      "hi": "चालकता"
+    },
+    "variables": {
+      "en": "κ (kappa) = Conductivity\nG = Conductance (1/R)\nG^* = Cell constant (l/A)",
+      "hi": "κ (कप्पा) = चालकता\nG = चालकत्व (1/R)\nG^* = सेल नियतांक (l/A)"
+    }
+  },
+  {
+    "equation": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}",
+    "description": {
+      "en": "Molar Conductivity (when κ is in S cm⁻¹)",
+      "hi": "मोलर चालकता (जब κ, S cm⁻¹ में हो)"
+    },
+    "variables": {
+      "en": "Λ_m = Molar conductivity in S cm² mol⁻¹\nκ = Conductivity in S cm⁻¹\nM = Molarity in mol L⁻¹",
+      "hi": "Λ_m = S cm² mol⁻¹ में मोलर चालकता\nκ = S cm⁻¹ में चालकता\nM = mol L⁻¹ में मोलरता"
+    }
+  },
+  {
+    "equation": "\\Lambda_m^\\ominus = v_+ \\lambda_+^\\ominus + v_- \\lambda_-^\\ominus",
+    "description": {
+      "en": "Kohlrausch's Law of Independent Migration of Ions",
+      "hi": "आयनों के स्वतंत्र अभिगमन का कोलराउश का नियम"
+    },
+    "variables": {
+      "en": "Λ_m^\\ominus = Limiting molar conductivity\nλ_+^\\ominus, λ_-^\\ominus = Limiting molar conductivities of cation and anion\nv_+, v_- = Number of cations and anions per formula unit",
+      "hi": "Λ_m^\\ominus = सीमांत मोलर चालकता\nλ_+^\\ominus, λ_-^\\ominus = धनायन और ऋणायन की सीमांत मोलर चालकताएं\nv_+, v_- = प्रति सूत्र इकाई धनायनों और ऋणायनों की संख्या"
+    }
+  },
+  {
+    "equation": "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\ominus}",
+    "description": {
+      "en": "Degree of Dissociation for Weak Electrolytes",
+      "hi": "दुर्बल वैद्युत अपघट्यों के लिए वियोजन की मात्रा"
+    },
+    "variables": {
+      "en": "α = Degree of dissociation\nΛ_m = Molar conductivity at a given concentration\nΛ_m^\\ominus = Limiting molar conductivity",
+      "hi": "α = वियोजन की मात्रा\nΛ_m = दी गई सांद्रता पर मोलर चालकता\nΛ_m^\\ominus = सीमांत मोलर चालकता"
+    }
+  },
+  {
+    "equation": "m = Z I t = \\left(\\frac{M}{nF}\\right) I t",
+    "description": {
+      "en": "Faraday's First Law of Electrolysis",
+      "hi": "फैराडे का विद्युत अपघटन का प्रथम नियम"
+    },
+    "variables": {
+      "en": "m = Mass deposited or liberated\nZ = Electrochemical equivalent\nI = Current in Amperes\nt = Time in seconds\nM = Molar mass",
+      "hi": "m = जमा या मुक्त द्रव्यमान\nZ = वैद्युत रासायनिक तुल्यांक\nI = एम्पीयर में धारा\nt = सेकंड में समय\nM = मोलर द्रव्यमान"
+    }
+  }
+]

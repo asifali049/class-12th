@@ -1,0 +1,48 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Nernst Equation",
+      "hi": "नेर्न्स्ट समीकरण",
+      "hinglish": "Nernst Equation"
+    },
+    "summary": {
+      "en": "Used to calculate cell potential at non-standard conditions. Shows dependence of E_cell on concentration and temperature. At equilibrium, E_cell = 0.",
+      "hi": "गैर-मानक परिस्थितियों में सेल विभव की गणना करने के लिए उपयोग किया जाता है। सांद्रता और तापमान पर E_cell की निर्भरता दर्शाता है। साम्यावस्था पर, E_cell = 0।",
+      "hinglish": "Non-standard conditions pe cell potential calculate karne ke liye use hota hai. E_cell ki concentration aur temperature par dependence show karta hai. Equilibrium pe, E_cell = 0."
+    },
+    "quickRecall": [
+      {
+        "en": "E = E° - (0.0591/n) log Q at 298 K",
+        "hi": "298 K पर E = E° - (0.0591/n) log Q"
+      },
+      {
+        "en": "At equilibrium: E° = (0.0591/n) log Kc",
+        "hi": "साम्यावस्था पर: E° = (0.0591/n) log Kc"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Conductivity & Kohlrausch's Law",
+      "hi": "चालकता और कोलराउश का नियम",
+      "hinglish": "Conductivity & Kohlrausch's Law"
+    },
+    "summary": {
+      "en": "Conductivity (κ) decreases with dilution, while molar conductivity (Λ_m) increases. Kohlrausch's law states Λ°_m of an electrolyte is the sum of limiting molar conductivities of its ions. Useful for weak electrolytes.",
+      "hi": "तनुता के साथ चालकता (κ) घटती है, जबकि मोलर चालकता (Λ_m) बढ़ती है। कोलराउश के नियम के अनुसार किसी वैद्युत अपघट्य का Λ°_m उसके आयनों की सीमांत मोलर चालकताओं का योग है। दुर्बल वैद्युत अपघट्यों के लिए उपयोगी।",
+      "hinglish": "Dilution ke sath conductivity (κ) decrease hoti hai, jabki molar conductivity (Λ_m) increase hoti hai. Kohlrausch's law kehta hai ki electrolyte ka Λ°_m uske ions ki limiting molar conductivities ka sum hota hai. Weak electrolytes ke liye useful."
+    },
+    "quickRecall": [
+      {
+        "en": "κ = 1/ρ = G × (l/A)",
+        "hi": "κ = 1/ρ = G × (l/A)"
+      },
+      {
+        "en": "Λ°_m = v_+ λ°_+ + v_- λ°_-",
+        "hi": "Λ°_m = v_+ λ°_+ + v_- λ°_-"
+      }
+    ]
+  }
+]

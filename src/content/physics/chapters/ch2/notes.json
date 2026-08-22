@@ -2,23 +2,121 @@
   {
     "id": "n1",
     "title": {
-      "en": "Electrostatic Potential",
-      "hi": "स्थिर वैद्युत विभव"
+      "en": "Electric Potential (V)",
+      "hi": "विद्युत विभव (V)",
+      "hinglish": "Electric Potential"
     },
     "content": {
-      "en": "Electric potential at any point is the work done in bringing a unit positive charge from infinity to that point.",
-      "hi": "अनंत से किसी बिंदु तक एकांक धनावेश को लाने में किया गया कार्य उस बिंदु पर विद्युत विभव कहलाता है।"
+      "en": "Electric potential at a point in an electric field is defined as the amount of work done in bringing a unit positive test charge from infinity to that point without acceleration, against the electrostatic force.\n\n$V = \\frac{W}{q_0}$\n\nIt is a **scalar quantity**. The SI unit is Volt (V) or Joule/Coulomb (J/C).",
+      "hi": "विद्युत क्षेत्र में किसी बिंदु पर विद्युत विभव, एक एकांक धनावेश (unit positive charge) को अनंत से उस बिंदु तक स्थिर वैद्युत बल के विरुद्ध, बिना त्वरण (acceleration) के लाने में किए गए कार्य के बराबर होता है।\n\n$V = \\frac{W}{q_0}$\n\nयह एक **अदिश राशि (scalar quantity)** है। इसकी SI इकाई वोल्ट (V) या जूल/कूलॉम (J/C) है।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Capacitance",
-      "hi": "धारिता"
+      "en": "Potential Due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विभव",
+      "hinglish": "Point Charge ke karan Potential"
     },
     "content": {
-      "en": "Capacitance C = q/V. For parallel plate capacitor, C = ε₀A/d.",
-      "hi": "धारिता C = q/V। समांतर प्लेट संधारित्र के लिए, C = ε₀A/d।"
+      "en": "The electric potential at a distance $r$ from a point charge $q$ is given by:\n\n$V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$\n\n- If $q$ is positive, $V$ is positive.\n- If $q$ is negative, $V$ is negative.\n- Potential is inversely proportional to distance ($V \\propto 1/r$).",
+      "hi": "किसी बिंदु आवेश $q$ से $r$ दूरी पर विद्युत विभव का सूत्र है:\n\n$V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$\n\n- यदि $q$ धनात्मक है, तो $V$ धनात्मक होगा।\n- यदि $q$ ऋणात्मक है, तो $V$ ऋणात्मक होगा।\n- विभव दूरी के व्युत्क्रमानुपाती होता है ($V \\propto 1/r$)।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Electric Potential due to an Electric Dipole",
+      "hi": "विद्युत द्विध्रुव के कारण विद्युत विभव",
+      "hinglish": "Electric Dipole ke karan Potential"
+    },
+    "content": {
+      "en": "For a short electric dipole of dipole moment $p$, the potential at a distance $r$ is:\n\n1. **At an axial point:** $V = \\frac{1}{4\\pi\\epsilon_0} \\frac{p}{r^2}$\n2. **At an equatorial point:** $V = 0$ (The potential is zero everywhere on the equatorial plane of a dipole).\n3. **At any general point:** $V = \\frac{1}{4\\pi\\epsilon_0} \\frac{p \\cos \\theta}{r^2}$",
+      "hi": "द्विध्रुव आघूर्ण $p$ वाले एक छोटे विद्युत द्विध्रुव के कारण $r$ दूरी पर विभव:\n\n1. **अक्षीय बिंदु (Axial point) पर:** $V = \\frac{1}{4\\pi\\epsilon_0} \\frac{p}{r^2}$\n2. **निरक्षीय बिंदु (Equatorial point) पर:** $V = 0$ (द्विध्रुव के निरक्षीय तल पर हर जगह विभव शून्य होता है)।\n3. **किसी सामान्य बिंदु पर:** $V = \\frac{1}{4\\pi\\epsilon_0} \\frac{p \\cos \\theta}{r^2}$"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Equipotential Surface",
+      "hi": "समविभव पृष्ठ",
+      "hinglish": "Equipotential Surface"
+    },
+    "content": {
+      "en": "Any surface that has the same electric potential at every point is called an equipotential surface.\n\n**Key Properties:**\n- No work is done in moving a test charge over an equipotential surface ($W = q\\Delta V = 0$).\n- The electric field is always **perpendicular** to the equipotential surface.\n- Two equipotential surfaces can **never intersect** each other. If they did, it would mean two different values of potential at the same point, which is impossible.\n- For a point charge, the equipotential surfaces are concentric spheres.",
+      "hi": "कोई भी पृष्ठ जिसके प्रत्येक बिंदु पर विद्युत विभव समान होता है, समविभव पृष्ठ कहलाता है।\n\n**मुख्य गुण:**\n- समविभव पृष्ठ पर परीक्षण आवेश को एक बिंदु से दूसरे बिंदु तक ले जाने में कोई कार्य नहीं किया जाता है ($W = q\\Delta V = 0$)।\n- विद्युत क्षेत्र हमेशा समविभव पृष्ठ के **लंबवत (perpendicular)** होता है।\n- दो समविभव पृष्ठ कभी भी एक-दूसरे को **काट नहीं सकते** हैं। यदि वे ऐसा करते हैं, तो इसका अर्थ होगा कि एक ही बिंदु पर विभव के दो अलग-अलग मान हैं, जो असंभव है।\n- एक बिंदु आवेश के लिए, समविभव पृष्ठ संकेंद्रित गोले (concentric spheres) होते हैं।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Relation between Electric Field and Potential",
+      "hi": "विद्युत क्षेत्र और विभव में संबंध",
+      "hinglish": "Electric Field aur Potential mein relation"
+    },
+    "content": {
+      "en": "Electric field is the negative gradient of electric potential.\n\n$E = -\\frac{dV}{dr}$\n\nThe negative sign indicates that the direction of the electric field is in the direction of **decreasing potential**.",
+      "hi": "विद्युत क्षेत्र, विद्युत विभव की ऋणात्मक प्रवणता (negative gradient) के बराबर होता है।\n\n$E = -\\frac{dV}{dr}$\n\nऋणात्मक चिह्न यह दर्शाता है कि विद्युत क्षेत्र की दिशा **विभव घटने की दिशा** में होती है।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Electrostatic Potential Energy",
+      "hi": "स्थिर वैद्युत स्थितिज ऊर्जा",
+      "hinglish": "Electrostatic Potential Energy"
+    },
+    "content": {
+      "en": "The work done in bringing a system of charges from infinity to their respective positions is stored as the electrostatic potential energy ($U$) of the system.\n\nFor a system of two point charges $q_1$ and $q_2$ separated by distance $r$:\n\n$U = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r}$",
+      "hi": "आवेशों के एक निकाय (system) को अनंत से उनकी वर्तमान स्थितियों तक लाने में किया गया कार्य उस निकाय की स्थिर वैद्युत स्थितिज ऊर्जा ($U$) के रूप में संचित हो जाता है।\n\n$r$ दूरी पर स्थित दो बिंदु आवेशों $q_1$ और $q_2$ के निकाय के लिए:\n\n$U = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r}$"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Capacitors and Capacitance",
+      "hi": "संधारित्र और धारिता",
+      "hinglish": "Capacitors aur Capacitance"
+    },
+    "content": {
+      "en": "A capacitor is a device used to store electric charge and electrical energy. It consists of two conductors separated by an insulating medium (dielectric).\n\nThe capacitance ($C$) is the ratio of charge ($Q$) given to a conductor to the rise in its potential ($V$).\n\n$C = \\frac{Q}{V}$\n\n- **SI Unit:** Farad (F). Practically, $\\mu\\text{F}$, $\\text{nF}$, and $\\text{pF}$ are used.\n- Capacitance depends on the size, shape, and separation of conductors, and the nature of the dielectric medium.",
+      "hi": "संधारित्र (Capacitor) एक ऐसी युक्ति है जिसका उपयोग विद्युत आवेश और विद्युत ऊर्जा को संचित (store) करने के लिए किया जाता है। इसमें एक विद्युतरोधी (dielectric) माध्यम द्वारा अलग किए गए दो चालक होते हैं।\n\nकिसी चालक को दिए गए आवेश ($Q$) और उसके विभव में वृद्धि ($V$) के अनुपात को धारिता ($C$) कहते हैं।\n\n$C = \\frac{Q}{V}$\n\n- **SI इकाई:** फैराड (F)। व्यवहार में, $\\mu\\text{F}$, $\\text{nF}$ और $\\text{pF}$ का उपयोग किया जाता है।\n- धारिता चालकों के आकार, आकृति और उनके बीच की दूरी, तथा परावैद्युत माध्यम की प्रकृति पर निर्भर करती है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Parallel Plate Capacitor",
+      "hi": "समांतर प्लेट संधारित्र",
+      "hinglish": "Parallel Plate Capacitor"
+    },
+    "content": {
+      "en": "It consists of two large plane parallel conducting plates separated by a small distance.\n\nCapacitance of a parallel plate capacitor (with air/vacuum): $C_0 = \\frac{\\epsilon_0 A}{d}$\n\nIf a dielectric medium of dielectric constant $K$ is completely filled between the plates, the capacitance becomes: $C = \\frac{K \\epsilon_0 A}{d} = K C_0$",
+      "hi": "इसमें एक-दूसरे से अल्प दूरी पर स्थित दो बड़ी समतल समांतर चालक प्लेटें होती हैं।\n\nसमांतर प्लेट संधारित्र की धारिता (हवा/निर्वात के साथ): $C_0 = \\frac{\\epsilon_0 A}{d}$\n\nयदि प्लेटों के बीच परावैद्युतांक (dielectric constant) $K$ का कोई माध्यम पूरी तरह से भर दिया जाए, तो धारिता हो जाती है: $C = \\frac{K \\epsilon_0 A}{d} = K C_0$"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Combination of Capacitors",
+      "hi": "संधारित्रों का संयोजन",
+      "hinglish": "Combination of Capacitors"
+    },
+    "content": {
+      "en": "**1. Series Combination (श्रेणीक्रम संयोजन):**\n- Charge ($Q$) on each capacitor is the SAME.\n- Potential difference divides ($V = V_1 + V_2 + V_3$).\n- Equivalent Capacitance: $\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots$\n\n**2. Parallel Combination (समांतर संयोजन):**\n- Potential difference ($V$) across each capacitor is the SAME.\n- Charge divides ($Q = Q_1 + Q_2 + Q_3$).\n- Equivalent Capacitance: $C_{eq} = C_1 + C_2 + \\dots$",
+      "hi": "**1. श्रेणीक्रम संयोजन (Series):**\n- प्रत्येक संधारित्र पर आवेश ($Q$) समान रहता है।\n- विभवांतर बँट जाता है ($V = V_1 + V_2 + V_3$)।\n- तुल्य धारिता: $\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots$\n\n**2. समांतर संयोजन (Parallel):**\n- प्रत्येक संधारित्र के सिरों पर विभवांतर ($V$) समान रहता है।\n- आवेश बँट जाता है ($Q = Q_1 + Q_2 + Q_3$)।\n- तुल्य धारिता: $C_{eq} = C_1 + C_2 + \\dots$"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Energy Stored in a Capacitor",
+      "hi": "संधारित्र में संचित ऊर्जा",
+      "hinglish": "Capacitor mein Stored Energy"
+    },
+    "content": {
+      "en": "The work done in charging a capacitor is stored as electrostatic potential energy in the electric field between the plates.\n\n$U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V$\n\n**Energy Density ($u$):** Energy stored per unit volume of the electric field.\n$u = \\frac{1}{2} \\epsilon_0 E^2$",
+      "hi": "संधारित्र को आवेशित करने में किया गया कार्य, प्लेटों के बीच विद्युत क्षेत्र में स्थिर वैद्युत स्थितिज ऊर्जा के रूप में संचित हो जाता है।\n\n$U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V$\n\n**ऊर्जा घनत्व (Energy Density, $u$):** विद्युत क्षेत्र के प्रति एकांक आयतन में संचित ऊर्जा।\n$u = \\frac{1}{2} \\epsilon_0 E^2$"
     }
   }
 ]

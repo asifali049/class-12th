@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Equipotential Surface vs Electric Field",
+      "hi": "समविभव पृष्ठ बनाम विद्युत क्षेत्र",
+      "hinglish": "Equipotential Surface vs Electric Field"
+    },
+    "summary": {
+      "en": "The electric field is always directed radially perpendicular to the equipotential surface. If the field is uniform, the equipotential surfaces are parallel planes. If the field is non-uniform (like a point charge), the surfaces are curved. Remember: $\\Delta V = -E \\cdot \\Delta x$. No work is required to move a charge ALONG an equipotential surface.",
+      "hi": "विद्युत क्षेत्र हमेशा समविभव पृष्ठ के अरीय रूप से लंबवत निर्देशित होता है। यदि क्षेत्र एकसमान है, तो समविभव पृष्ठ समांतर तल होते हैं। यदि क्षेत्र असमान है (जैसे बिंदु आवेश), तो पृष्ठ वक्रीय (curved) होते हैं। याद रखें: $\\Delta V = -E \\cdot \\Delta x$। समविभव पृष्ठ के अनुदिश (ALONG) किसी आवेश को ले जाने में किसी कार्य की आवश्यकता नहीं होती है।",
+      "hinglish": "Electric field hamesha equipotential surface ke perpendicular hoti hai. Agar field uniform hai toh surfaces parallel planes honge. Yaad rakhein ki surface par charge ko move karne me koi work nahi lagta ($W=0$)."
+    },
+    "quickRecall": [
+      { "en": "Work done on equipotential surface = 0", "hi": "समविभव पृष्ठ पर किया गया कार्य = 0" },
+      { "en": "E is perpendicular to equipotential surface", "hi": "E समविभव पृष्ठ के लंबवत है" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Effect of Dielectric on Capacitor",
+      "hi": "संधारित्र पर परावैद्युत का प्रभाव",
+      "hinglish": "Capacitor par Dielectric ka Asar"
+    },
+    "summary": {
+      "en": "When a dielectric slab of constant $K$ is fully inserted between the plates:\n1. Capacitance increases: $C = K C_0$\n2. **If battery remains connected:** Voltage remains constant ($V = V_0$), Charge increases ($Q = K Q_0$), Energy increases ($U = K U_0$).\n3. **If battery is disconnected:** Charge remains constant ($Q = Q_0$), Voltage decreases ($V = V_0 / K$), Energy decreases ($U = U_0 / K$).",
+      "hi": "जब $K$ नियतांक वाली परावैद्युत पट्टी को प्लेटों के बीच पूरी तरह से डाला जाता है:\n1. धारिता बढ़ती है: $C = K C_0$\n2. **यदि बैटरी जुड़ी रहती है:** वोल्टेज स्थिर रहता है ($V = V_0$), आवेश बढ़ता है ($Q = K Q_0$), ऊर्जा बढ़ती है ($U = K U_0$)।\n3. **यदि बैटरी हटा दी जाती है:** आवेश स्थिर रहता है ($Q = Q_0$), वोल्टेज घटता है ($V = V_0 / K$), ऊर्जा घटती है ($U = U_0 / K$)।",
+      "hinglish": "Dielectric daalne par Capacitance hamesha badhega ($K$ times). Agar battery connected hai toh Voltage same rahega, Charge badhega. Agar battery disconnected hai toh Charge same rahega, Voltage ghatega."
+    },
+    "quickRecall": [
+      { "en": "Battery Connected -> V is constant", "hi": "बैटरी जुड़ी है -> V नियत है" },
+      { "en": "Battery Disconnected -> Q is constant", "hi": "बैटरी हटा दी गई है -> Q नियत है" },
+      { "en": "Capacitance C always increases to KC0", "hi": "धारिता C हमेशा बढ़कर KC0 हो जाती है" }
+    ]
+  }
+]

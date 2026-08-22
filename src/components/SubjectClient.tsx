@@ -18,6 +18,7 @@ import DerivationRenderer from "@/components/DerivationRenderer";
 import NumericalRenderer from "@/components/NumericalRenderer";
 import DiagramRenderer from "@/components/DiagramRenderer";
 import MindMapRenderer from "@/components/MindMapRenderer";
+import { ContentSkeleton } from "@/components/SkeletonLoader";
 
 interface SubjectClientProps {
   subjectId: string;
@@ -47,8 +48,16 @@ export default function SubjectClient({
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("notes");
   const [activeChapterId, setActiveChapterId] = useState<string>("ch1");
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Record<string, boolean>>({});
   const [language, setLanguage] = useState<"Hindi" | "English" | "Hinglish">("Hindi");
+
+  const handleChapterChange = (id: string) => {
+    if (id === activeChapterId) return;
+    setIsTransitioning(true);
+    setActiveChapterId(id);
+    setTimeout(() => setIsTransitioning(false), 300);
+  };
 
   // If invalid subject, redirect or show error
   useEffect(() => {
@@ -88,7 +97,7 @@ export default function SubjectClient({
             return (
               <div
                 key={chapter.id}
-                onClick={() => setActiveChapterId(chapter.id)}
+                onClick={() => handleChapterChange(chapter.id)}
                 className={`p-3 rounded-xl cursor-pointer transition-all ${isActive
                     ? 'bg-blue-50 border border-blue-100 shadow-sm dark:bg-blue-900/20 dark:border-blue-800'
                     : 'hover:bg-slate-50 border border-transparent hover:border-slate-100 dark:hover:bg-slate-800 dark:hover:border-slate-700'
@@ -138,7 +147,7 @@ export default function SubjectClient({
               <select
                 className="md:hidden text-sm font-bold text-slate-900 dark:text-slate-100 bg-transparent border-none focus:ring-0 cursor-pointer max-w-[200px] truncate"
                 value={activeChapterId}
-                onChange={(e) => setActiveChapterId(e.target.value)}
+                onChange={(e) => handleChapterChange(e.target.value)}
               >
                 {subject.chapters.map(ch => (
                   <option key={ch.id} value={ch.id}>{ch.name}</option>
@@ -204,22 +213,26 @@ export default function SubjectClient({
           >
             <div className={`pl-[48px] pr-[24px] md:pl-[72px] md:pr-[48px] pt-12 pb-48`}>
 
-              {(() => {
-                const lang = language === "Hindi" ? "hi" : language === "English" ? "en" : "hinglish";
-                return (
-                  <>
-                    {activeTab === 'notes' && <NoteRenderer notes={allNotes[chapterKey] || []} language={lang} />}
-                    {activeTab === 'formula' && <FormulaRenderer formulas={allFormulas[chapterKey] || []} language={lang} />}
-                    {activeTab === 'derivations' && <DerivationRenderer derivations={allDerivations[chapterKey] || []} language={lang} />}
-                    {activeTab === 'numericals' && <NumericalRenderer numericals={allNumericals[chapterKey] || []} language={lang} />}
-                    {activeTab === 'questions' && <QuestionRenderer questions={allQuestions[chapterKey] || []} language={lang} />}
-                    {activeTab === 'diagrams' && <DiagramRenderer diagrams={allDiagrams[chapterKey] || []} language={lang} />}
-                    {activeTab === 'mind map' && <MindMapRenderer mindmap={allMindMaps[chapterKey]} language={lang} />}
-                    {activeTab === 'revision' && <RevisionRenderer revisions={allRevisions[chapterKey] || []} language={lang} />}
-                    {activeTab === 'test' && <TestRenderer questions={allQuestions[chapterKey] || []} language={lang} />}
-                  </>
-                );
-              })()}
+              {isTransitioning ? (
+                <ContentSkeleton />
+              ) : (
+                (() => {
+                  const lang = language === "Hindi" ? "hi" : language === "English" ? "en" : "hinglish";
+                  return (
+                    <>
+                      {activeTab === 'notes' && <NoteRenderer notes={allNotes[chapterKey] || []} language={lang} />}
+                      {activeTab === 'formula' && <FormulaRenderer formulas={allFormulas[chapterKey] || []} language={lang} />}
+                      {activeTab === 'derivations' && <DerivationRenderer derivations={allDerivations[chapterKey] || []} language={lang} />}
+                      {activeTab === 'numericals' && <NumericalRenderer numericals={allNumericals[chapterKey] || []} language={lang} />}
+                      {activeTab === 'questions' && <QuestionRenderer questions={allQuestions[chapterKey] || []} language={lang} />}
+                      {activeTab === 'diagrams' && <DiagramRenderer diagrams={allDiagrams[chapterKey] || []} language={lang} />}
+                      {activeTab === 'mind map' && <MindMapRenderer mindmap={allMindMaps[chapterKey]} language={lang} />}
+                      {activeTab === 'revision' && <RevisionRenderer revisions={allRevisions[chapterKey] || []} language={lang} />}
+                      {activeTab === 'test' && <TestRenderer questions={allQuestions[chapterKey] || []} language={lang} />}
+                    </>
+                  );
+                })()
+              )}
 
             </div>
           </motion.div>

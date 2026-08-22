@@ -2,18 +2,144 @@
   {
     "id": "f1",
     "title": {
-      "en": "Potential due to point charge",
-      "hi": "बिंदु आवेश के कारण विभव"
+      "en": "Electric Potential due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विद्युत विभव",
+      "hinglish": "Point charge ke karan Electric Potential"
     },
     "formula": "V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}",
     "variables": [
       {
+        "symbol": "V",
+        "name": { "en": "Electric potential", "hi": "विद्युत विभव" }
+      },
+      {
         "symbol": "q",
-        "name": {
-          "en": "Charge",
-          "hi": "आवेश"
-        }
+        "name": { "en": "Source charge", "hi": "स्रोत आवेश" }
+      },
+      {
+        "symbol": "r",
+        "name": { "en": "Distance from the charge", "hi": "आवेश से दूरी" }
+      }
+    ],
+    "unit": { "en": "Volt (V)", "hi": "वोल्ट (V)" },
+    "importance": "High"
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Electric Potential Energy of Two Point Charges",
+      "hi": "दो बिंदु आवेशों की स्थिर वैद्युत स्थितिज ऊर्जा",
+      "hinglish": "Two point charges ki Potential Energy"
+    },
+    "formula": "U = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1 q_2}{r}",
+    "variables": [
+      {
+        "symbol": "U",
+        "name": { "en": "Potential energy", "hi": "स्थितिज ऊर्जा" }
+      },
+      {
+        "symbol": "q_1, q_2",
+        "name": { "en": "Magnitudes of the two charges", "hi": "दोनों आवेशों के परिमाण" }
+      }
+    ],
+    "unit": { "en": "Joule (J)", "hi": "जूल (J)" },
+    "importance": "High",
+    "examTip": {
+      "en": "Always put the charges with their algebraic signs (+ or -) in the formula for potential and potential energy.",
+      "hi": "विभव और स्थितिज ऊर्जा के सूत्र में आवेशों को हमेशा उनके बीजगणितीय चिह्नों (+ या -) के साथ रखें।"
+    }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Relation between Electric Field and Potential",
+      "hi": "विद्युत क्षेत्र और विभव में संबंध",
+      "hinglish": "Electric Field aur Potential mein relation"
+    },
+    "formula": "E = -\\frac{dV}{dr}",
+    "variables": [
+      {
+        "symbol": "E",
+        "name": { "en": "Electric field", "hi": "विद्युत क्षेत्र" }
+      },
+      {
+        "symbol": "\\frac{dV}{dr}",
+        "name": { "en": "Potential gradient", "hi": "विभव प्रवणता" }
+      }
+    ],
+    "unit": { "en": "V/m or N/C", "hi": "V/m या N/C" }
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Capacitance of a Parallel Plate Capacitor",
+      "hi": "समांतर प्लेट संधारित्र की धारिता",
+      "hinglish": "Parallel Plate Capacitor ki Capacitance"
+    },
+    "formula": "C = \\frac{\\epsilon_0 A}{d}",
+    "variables": [
+      {
+        "symbol": "C",
+        "name": { "en": "Capacitance", "hi": "धारिता" }
+      },
+      {
+        "symbol": "A",
+        "name": { "en": "Area of each plate", "hi": "प्रत्येक प्लेट का क्षेत्रफल" }
+      },
+      {
+        "symbol": "d",
+        "name": { "en": "Distance between the plates", "hi": "प्लेटों के बीच की दूरी" }
+      }
+    ],
+    "unit": { "en": "Farad (F)", "hi": "फैराड (F)" },
+    "importance": "High"
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Capacitance with Dielectric Slab",
+      "hi": "परावैद्युत पट्टी के साथ धारिता",
+      "hinglish": "Dielectric Slab ke sath Capacitance"
+    },
+    "formula": "C = \\frac{\\epsilon_0 A}{d - t + \\frac{t}{K}}",
+    "variables": [
+      {
+        "symbol": "t",
+        "name": { "en": "Thickness of dielectric slab", "hi": "परावैद्युत पट्टी की मोटाई" }
+      },
+      {
+        "symbol": "K",
+        "name": { "en": "Dielectric constant", "hi": "परावैद्युतांक" }
       }
     ]
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Energy Stored in a Capacitor",
+      "hi": "संधारित्र में संचित ऊर्जा",
+      "hinglish": "Capacitor mein Stored Energy"
+    },
+    "formula": "U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V",
+    "variables": [
+      {
+        "symbol": "U",
+        "name": { "en": "Stored Energy", "hi": "संचित ऊर्जा" }
+      },
+      {
+        "symbol": "C",
+        "name": { "en": "Capacitance", "hi": "धारिता" }
+      },
+      {
+        "symbol": "V",
+        "name": { "en": "Potential difference", "hi": "विभवांतर" }
+      },
+      {
+        "symbol": "Q",
+        "name": { "en": "Charge", "hi": "आवेश" }
+      }
+    ],
+    "unit": { "en": "Joule (J)", "hi": "जूल (J)" },
+    "importance": "High"
   }
 ]

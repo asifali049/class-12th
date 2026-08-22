@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "easy",
+    "question": {
+      "en": "Calculate the potential at a point P due to a charge of $4 \\times 10^{-7}$ C located $9$ cm away.",
+      "hi": "$9$ सेमी दूर स्थित $4 \\times 10^{-7}$ C आवेश के कारण बिंदु P पर विभव की गणना करें।",
+      "hinglish": "9 cm door rakhe 4 × 10^-7 C charge ke karan point P par potential calculate karein."
+    },
+    "given": {
+      "en": "Charge ($q$) = $4 \\times 10^{-7}$ C\nDistance ($r$) = $9$ cm = $0.09$ m\n$k = 9 \\times 10^9 \\text{ Nm}^2/\\text{C}^2$",
+      "hi": "आवेश ($q$) = $4 \\times 10^{-7}$ C\nदूरी ($r$) = $9$ cm = $0.09$ m\n$k = 9 \\times 10^9 \\text{ Nm}^2/\\text{C}^2$"
+    },
+    "required": {
+      "en": "Electric Potential ($V$)",
+      "hi": "विद्युत विभव ($V$)"
+    },
+    "formula": "V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}",
+    "substitution": "V = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-7})}{0.09}",
+    "calculation": "V = \\frac{36 \\times 10^2}{0.09}\nV = \\frac{36 \\times 10^2}{9 \\times 10^{-2}}\nV = 4 \\times 10^4 \\text{ V}",
+    "finalAnswer": "4 × 10⁴",
+    "unit": "V",
+    "examTip": {
+      "en": "Don't forget to convert distance from cm to meters before substituting into the formula.",
+      "hi": "सूत्र में मान रखने से पहले दूरी को cm से मीटर में बदलना न भूलें।"
+    }
+  },
+  {
+    "id": "num2",
+    "difficulty": "medium",
+    "question": {
+      "en": "A parallel plate capacitor with air between the plates has a capacitance of $8$ pF. What will be the capacitance if the distance between the plates is reduced by half, and the space between them is filled with a substance of dielectric constant $6$?",
+      "hi": "प्लेटों के बीच हवा वाले एक समांतर प्लेट संधारित्र की धारिता $8$ pF है। यदि प्लेटों के बीच की दूरी आधी कर दी जाए, और उनके बीच के स्थान को परावैद्युतांक $6$ वाले पदार्थ से भर दिया जाए, तो धारिता क्या होगी?",
+      "hinglish": "Ek parallel plate capacitor (air ke sath) ki capacitance 8 pF hai. Agar distance half kar dein aur dielectric constant 6 ka material bhar dein, toh nayi capacitance kya hogi?"
+    },
+    "given": {
+      "en": "Initial capacitance ($C_0$) = $8 \\text{ pF} = 8 \\times 10^{-12} \\text{ F}$\nNew distance ($d'$) = $d/2$\nDielectric constant ($K$) = $6$",
+      "hi": "प्रारंभिक धारिता ($C_0$) = $8 \\text{ pF} = 8 \\times 10^{-12} \\text{ F}$\nनई दूरी ($d'$) = $d/2$\nपरावैद्युतांक ($K$) = $6$"
+    },
+    "required": {
+      "en": "New Capacitance ($C'$)",
+      "hi": "नई धारिता ($C'$)"
+    },
+    "formula": "C_0 = \\frac{\\epsilon_0 A}{d} \\quad \\text{and} \\quad C' = \\frac{K \\epsilon_0 A}{d'}",
+    "substitution": "C' = \\frac{6 \\times \\epsilon_0 A}{d/2}\nC' = 12 \\left( \\frac{\\epsilon_0 A}{d} \\right)\nC' = 12 \\times C_0",
+    "calculation": "C' = 12 \\times 8 \\text{ pF}\nC' = 96 \\text{ pF}",
+    "finalAnswer": "96",
+    "unit": "pF"
+  }
+]

@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Electric Potential due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विद्युत विभव",
+      "hinglish": "Point charge ke karan Electric Potential"
+    },
+    "given": {
+      "en": "A point charge $+q$ is placed at the origin O. We need to find the electric potential at a point P at a distance $r$ from O.",
+      "hi": "मूल बिंदु O पर एक बिंदु आवेश $+q$ रखा गया है। हमें O से $r$ दूरी पर स्थित बिंदु P पर विद्युत विभव ज्ञात करना है।"
+    },
+    "toFind": {
+      "en": "Expression for $V$",
+      "hi": "$V$ के लिए व्यंजक"
+    },
+    "concept": {
+      "en": "By definition, potential is the work done in bringing a unit positive charge from infinity to that point. $V = -\\int_{\\infty}^{r} \\vec{E} \\cdot d\\vec{r}$",
+      "hi": "परिभाषा के अनुसार, विभव किसी एकांक धनावेश को अनंत से उस बिंदु तक लाने में किए गए कार्य के बराबर है। $V = -\\int_{\\infty}^{r} \\vec{E} \\cdot d\\vec{r}$"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Force on a unit positive charge", "hi": "चरण 1: एकांक धनावेश पर बल" },
+        "content": {
+          "en": "Let a unit positive charge be at an intermediate point A at distance $x$ from O. The electrostatic force on it is:\n$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q \\times 1}{x^2} = \\frac{q}{4\\pi\\epsilon_0 x^2}$",
+          "hi": "माना कि एकांक धनावेश O से $x$ दूरी पर किसी मध्यवर्ती बिंदु A पर है। उस पर स्थिर वैद्युत बल है:\n$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q \\times 1}{x^2} = \\frac{q}{4\\pi\\epsilon_0 x^2}$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Work done for a small displacement", "hi": "चरण 2: अल्प विस्थापन के लिए किया गया कार्य" },
+        "content": {
+          "en": "The small work done in moving the unit positive charge from A to B through a small distance $dx$ towards O is:\n$dW = \\vec{F} \\cdot d\\vec{x} = F dx \\cos(180^\\circ) = -F dx$\n(Angle is $180^\\circ$ because force is repulsive, acting outward, while displacement is inward).",
+          "hi": "एकांक धनावेश को A से B तक O की ओर $dx$ दूरी तक ले जाने में किया गया अल्प कार्य है:\n$dW = \\vec{F} \\cdot d\\vec{x} = F dx \\cos(180^\\circ) = -F dx$\n(कोण $180^\\circ$ है क्योंकि बल प्रतिकर्षक है, जो बाहर की ओर कार्य करता है, जबकि विस्थापन अंदर की ओर है)।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Total work done from infinity to r", "hi": "चरण 3: अनंत से r तक किया गया कुल कार्य" },
+        "content": {
+          "en": "Total work done $W = \\int_{\\infty}^{r} -F dx = \\int_{\\infty}^{r} -\\frac{q}{4\\pi\\epsilon_0 x^2} dx$\n$W = -\\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{-1}{x} \\right]_{\\infty}^{r} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{1}{r} - \\frac{1}{\\infty} \\right]$",
+          "hi": "कुल कार्य $W = \\int_{\\infty}^{r} -F dx = \\int_{\\infty}^{r} -\\frac{q}{4\\pi\\epsilon_0 x^2} dx$\n$W = -\\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{-1}{x} \\right]_{\\infty}^{r} = \\frac{q}{4\\pi\\epsilon_0} \\left[ \\frac{1}{r} - \\frac{1}{\\infty} \\right]$"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Final Expression", "hi": "चरण 4: अंतिम व्यंजक" },
+        "content": {
+          "en": "Since $\\frac{1}{\\infty} = 0$, we get:\n$W = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$\nBy definition, this work done is the electric potential $V$.",
+          "hi": "चूंकि $\\frac{1}{\\infty} = 0$, हमें प्राप्त होता है:\n$W = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$\nपरिभाषा के अनुसार, किया गया यह कार्य ही विद्युत विभव $V$ है।"
+        }
+      }
+    ],
+    "finalResult": "$V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r}$",
+    "examTip": {
+      "en": "Remember the negative sign in $dW = -F dx$. It's crucial for the correct limits of integration.",
+      "hi": "$dW = -F dx$ में ऋणात्मक चिह्न याद रखें। यह समाकलन (integration) की सही सीमाओं के लिए महत्वपूर्ण है।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Capacitance of a Parallel Plate Capacitor",
+      "hi": "समांतर प्लेट संधारित्र की धारिता",
+      "hinglish": "Parallel Plate Capacitor ki Capacitance"
+    },
+    "given": {
+      "en": "A parallel plate capacitor consisting of two large plane parallel conducting plates, each of area $A$, separated by a distance $d$ in vacuum.",
+      "hi": "एक समांतर प्लेट संधारित्र जिसमें दो बड़ी समतल समांतर चालक प्लेटें हैं, जिनमें से प्रत्येक का क्षेत्रफल $A$ है, और जो निर्वात में एक दूसरे से $d$ दूरी पर स्थित हैं।"
+    },
+    "toFind": {
+      "en": "Expression for $C$",
+      "hi": "$C$ के लिए व्यंजक"
+    },
+    "concept": {
+      "en": "Find electric field $E$ between plates -> Find potential difference $V = E \\times d$ -> Use $C = Q/V$.",
+      "hi": "प्लेटों के बीच विद्युत क्षेत्र $E$ ज्ञात करें -> विभवांतर $V = E \\times d$ ज्ञात करें -> $C = Q/V$ का उपयोग करें।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Electric field between the plates", "hi": "चरण 1: प्लेटों के बीच विद्युत क्षेत्र" },
+        "content": {
+          "en": "Let $+Q$ and $-Q$ be the charges on the two plates. Surface charge density $\\sigma = \\frac{Q}{A}$.\nThe electric field between the plates (in the inner region) due to both plates is:\n$E = \\frac{\\sigma}{2\\epsilon_0} + \\frac{\\sigma}{2\\epsilon_0} = \\frac{\\sigma}{\\epsilon_0} = \\frac{Q}{A\\epsilon_0}$",
+          "hi": "माना दोनों प्लेटों पर आवेश $+Q$ और $-Q$ है। पृष्ठीय आवेश घनत्व $\\sigma = \\frac{Q}{A}$।\nदोनों प्लेटों के कारण प्लेटों के बीच (आंतरिक क्षेत्र में) विद्युत क्षेत्र है:\n$E = \\frac{\\sigma}{2\\epsilon_0} + \\frac{\\sigma}{2\\epsilon_0} = \\frac{\\sigma}{\\epsilon_0} = \\frac{Q}{A\\epsilon_0}$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Potential difference", "hi": "चरण 2: विभवांतर" },
+        "content": {
+          "en": "Since the electric field is uniform, the potential difference $V$ between the plates is:\n$V = E \\times d$\n$V = \\left( \\frac{Q}{A\\epsilon_0} \\right) d = \\frac{Qd}{A\\epsilon_0}$",
+          "hi": "चूंकि विद्युत क्षेत्र एकसमान है, इसलिए प्लेटों के बीच विभवांतर $V$ है:\n$V = E \\times d$\n$V = \\left( \\frac{Q}{A\\epsilon_0} \\right) d = \\frac{Qd}{A\\epsilon_0}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Capacitance", "hi": "चरण 3: धारिता" },
+        "content": {
+          "en": "The capacitance of the capacitor is given by $C = \\frac{Q}{V}$.\nSubstituting the value of $V$:\n$C = \\frac{Q}{\\frac{Qd}{A\\epsilon_0}} = \\frac{\\epsilon_0 A}{d}$",
+          "hi": "संधारित्र की धारिता $C = \\frac{Q}{V}$ द्वारा दी जाती है।\n$V$ का मान रखने पर:\n$C = \\frac{Q}{\\frac{Qd}{A\\epsilon_0}} = \\frac{\\epsilon_0 A}{d}$"
+        }
+      }
+    ],
+    "finalResult": "$C = \\frac{\\epsilon_0 A}{d}$"
+  }
+]

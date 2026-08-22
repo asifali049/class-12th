@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Equipotential surfaces associated with an electric field which is increasing in magnitude along the x-direction, are:",
+      "hi": "x-दिशा के अनुदिश परिमाण में बढ़ते हुए विद्युत क्षेत्र से संबद्ध समविभव पृष्ठ हैं:",
+      "hinglish": "Agar electric field x-direction mein badh rahi hai, toh equipotential surfaces kaise honge?"
+    },
+    "options": [
+      { "en": "Planes parallel to yz-plane", "hi": "yz-तल के समांतर तल" },
+      { "en": "Planes parallel to xy-plane", "hi": "xy-तल के समांतर तल" },
+      { "en": "Planes parallel to xz-plane", "hi": "xz-तल के समांतर तल" },
+      { "en": "Coaxial cylinders of increasing radii", "hi": "बढ़ती त्रिज्याओं वाले समाक्षीय बेलन" }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Electric field is always perpendicular to equipotential surfaces. Since E is along the x-direction, the equipotential surfaces must be in the yz-plane (perpendicular to x-axis).",
+      "hi": "विद्युत क्षेत्र हमेशा समविभव पृष्ठों के लंबवत होता है। चूंकि E, x-दिशा के अनुदिश है, समविभव पृष्ठ yz-तल (x-अक्ष के लंबवत) में होने चाहिए।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "A charge of $2$ C is moved from a point A to a point B on an equipotential surface. What is the work done?",
+      "hi": "एक समविभव पृष्ठ पर $2$ C के आवेश को बिंदु A से बिंदु B तक ले जाया जाता है। किया गया कार्य कितना है?",
+      "hinglish": "Ek equipotential surface par 2 C charge ko point A se B tak le jaane mein kitna work hoga?"
+    },
+    "idealAnswer": {
+      "en": "The work done is **zero**. \nReason: On an equipotential surface, the potential at all points is the same ($V_A = V_B$). Therefore, potential difference $\\Delta V = 0$. Since Work $W = q \\Delta V$, $W = 2 \\times 0 = 0$.",
+      "hi": "किया गया कार्य **शून्य (zero)** है।\nकारण: समविभव पृष्ठ पर, सभी बिंदुओं पर विभव समान होता है ($V_A = V_B$)। इसलिए, विभवांतर $\\Delta V = 0$। चूंकि कार्य $W = q \\Delta V$ है, $W = 2 \\times 0 = 0$।"
+    },
+    "keywords": [
+      { "en": "zero", "hi": "शून्य" },
+      { "en": "potential difference is zero", "hi": "विभवांतर शून्य है" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "Define dielectric constant of a medium. What is its effect on the capacitance of a capacitor?",
+      "hi": "किसी माध्यम के परावैद्युतांक (dielectric constant) को परिभाषित करें। संधारित्र की धारिता पर इसका क्या प्रभाव पड़ता है?",
+      "hinglish": "Dielectric constant kya hai? Iska capacitor ki capacitance par kya asar padta hai?"
+    },
+    "idealAnswer": {
+      "en": "Dielectric constant ($K$) of a medium is defined as the ratio of the permittivity of the medium ($\\epsilon$) to the permittivity of free space ($\\epsilon_0$). $K = \\epsilon / \\epsilon_0$.\nAlternatively, it is the ratio of capacitance of a capacitor with the dielectric medium to its capacitance with vacuum between plates.\n**Effect on capacitance:** When a dielectric medium of constant $K$ is introduced between the plates of a capacitor, its capacitance increases $K$ times. $C = K C_0$.",
+      "hi": "किसी माध्यम के परावैद्युतांक ($K$) को उस माध्यम की विद्युतशीलता ($\\epsilon$) और निर्वात की विद्युतशीलता ($\\epsilon_0$) के अनुपात के रूप में परिभाषित किया जाता है। $K = \\epsilon / \\epsilon_0$।\n**धारिता पर प्रभाव:** जब संधारित्र की प्लेटों के बीच $K$ परावैद्युतांक वाला माध्यम रखा जाता है, तो इसकी धारिता $K$ गुना बढ़ जाती है। $C = K C_0$।"
+    },
+    "keywords": [
+      { "en": "ratio of permittivity", "hi": "विद्युतशीलता का अनुपात" },
+      { "en": "increases K times", "hi": "K गुना बढ़ जाती है" }
+    ]
+  }
+]

@@ -4,5 +4,65 @@
     "en": "Potential & Capacitance",
     "hi": "विभव और धारिता"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electric Potential (V)",
+        "hi": "विद्युत विभव (V)"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "V = W / q", "hi": "V = W / q" } },
+        { "id": "c1b", "label": { "en": "Point Charge: V = kq / r", "hi": "बिंदु आवेश: V = kq / r" } },
+        { "id": "c1c", "label": { "en": "Dipole: V = kp / r²", "hi": "द्विध्रुव: V = kp / r²" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Equipotential Surface",
+        "hi": "समविभव पृष्ठ"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "V is constant", "hi": "V नियत है" } },
+        { "id": "c2b", "label": { "en": "Work Done = 0", "hi": "किया गया कार्य = 0" } },
+        { "id": "c2c", "label": { "en": "E is perpendicular", "hi": "E लंबवत है" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Potential Energy (U)",
+        "hi": "स्थितिज ऊर्जा (U)"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Two Charges: U = k(q1q2)/r", "hi": "दो आवेश: U = k(q1q2)/r" } },
+        { "id": "c3b", "label": { "en": "Dipole in E: U = -pE cosθ", "hi": "E में द्विध्रुव: U = -pE cosθ" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Capacitance (C)",
+        "hi": "धारिता (C)"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "C = Q / V", "hi": "C = Q / V" } },
+        { "id": "c4b", "label": { "en": "Parallel Plate: C = ε0A / d", "hi": "समांतर प्लेट: C = ε0A / d" } },
+        { "id": "c4c", "label": { "en": "With Dielectric: C = K C0", "hi": "परावैद्युत के साथ: C = K C0" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Capacitor Circuits",
+        "hi": "संधारित्र परिपथ"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Series: 1/C = 1/C1 + 1/C2...", "hi": "श्रेणीक्रम: 1/C = 1/C1 + 1/C2..." } },
+        { "id": "c5b", "label": { "en": "Parallel: C = C1 + C2...", "hi": "समांतर: C = C1 + C2..." } },
+        { "id": "c5c", "label": { "en": "Energy: U = 1/2 CV²", "hi": "ऊर्जा: U = 1/2 CV²" } }
+      ]
+    }
+  ]
 }

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Important Subhashitani",
+      "hi": "महत्वपूर्ण सुभाषित",
+      "hinglish": "Important Shlokas"
+    },
+    "summary": {
+      "en": "Subhashit Ratnani chapter contains pearls of wisdom in Sanskrit. Students must practice translating these shlokas into Hindi with reference.",
+      "hi": "सुभाषितरत्नानि अध्याय में संस्कृत में ज्ञान के मोती हैं। छात्रों को इन श्लोकों का संदर्भ सहित हिंदी में अनुवाद करने का अभ्यास करना चाहिए।"
+    },
+    "quickRecall": [
+      { "en": "Context (Sandarbh) is compulsory.", "hi": "ससन्दर्भ अनुवाद अनिवार्य है।" }
+    ]
+  }
+]

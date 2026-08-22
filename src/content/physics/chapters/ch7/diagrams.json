@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Phasor Diagram: Series LCR Circuit",
+      "hi": "कला-आरेख: श्रेणी LCR परिपथ",
+      "hinglish": "Phasor Diagram of LCR"
+    },
+    "description": {
+      "en": "Phasor diagram showing voltages VL, VC, VR and the resultant V leading current I by angle φ (assuming VL > VC).",
+      "hi": "वोल्टेज VL, VC, VR और परिणामी V को दर्शाने वाला कला-आरेख, जो धारा I से कोण φ आगे है (यह मानते हुए कि VL > VC)।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g transform=\"translate(100, 200)\">\n    <!-- Axes -->\n    <line x1=\"-50\" y1=\"0\" x2=\"250\" y2=\"0\" stroke=\"#9ca3af\" stroke-width=\"2\" />\n    <line x1=\"0\" y1=\"100\" x2=\"0\" y2=\"-180\" stroke=\"#9ca3af\" stroke-width=\"2\" />\n\n    <!-- VR & I (X-axis) -->\n    <path d=\"M 0 0 L 140 0 L 130 -5 L 130 5 Z\" fill=\"#ef4444\" />\n    <text x=\"150\" y=\"20\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\" fill=\"#ef4444\">VR (along I)</text>\n\n    <!-- VL (Y-axis Positive) -->\n    <path d=\"M 0 0 L 0 -150 L -5 -140 L 5 -140 Z\" fill=\"#3b82f6\" />\n    <text x=\"-30\" y=\"-155\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\" fill=\"#3b82f6\">VL</text>\n\n    <!-- VC (Y-axis Negative) -->\n    <path d=\"M 0 0 L 0 60 L -5 50 L 5 50 Z\" fill=\"#10b981\" />\n    <text x=\"-30\" y=\"75\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\" fill=\"#10b981\">VC</text>\n\n    <!-- Net VL - VC -->\n    <line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"-90\" stroke=\"#8b5cf6\" stroke-width=\"4\" />\n    <text x=\"-70\" y=\"-85\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\" fill=\"#8b5cf6\">VL - VC</text>\n\n    <!-- Resultant V -->\n    <path d=\"M 0 0 L 140 -90 L 125 -90 L 135 -80 Z\" fill=\"#f59e0b\" />\n    <line x1=\"0\" y1=\"0\" x2=\"140\" y2=\"-90\" stroke=\"#f59e0b\" stroke-width=\"3\" />\n    <text x=\"150\" y=\"-95\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\" fill=\"#f59e0b\">V</text>\n\n    <!-- Dashed lines for rectangle -->\n    <line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"-90\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n    <line x1=\"0\" y1=\"-90\" x2=\"140\" y2=\"-90\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n\n    <!-- Phase Angle Arc -->\n    <path d=\"M 50 0 A 50 50 0 0 0 42 -27\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2\" />\n    <text x=\"60\" y=\"-15\" font-family=\"Arial\" font-size=\"16\" fill=\"#111827\">φ</text>\n  </g>\n</svg>",
+    "labels": []
+  }
+]

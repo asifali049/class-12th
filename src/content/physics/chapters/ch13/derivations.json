@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Radioactive Decay Law",
+      "hi": "रेडियोधर्मी क्षय का नियम",
+      "hinglish": "Radioactive Decay Law"
+    },
+    "given": {
+      "en": "Let $N_0$ be the number of radioactive nuclei present initially at $t=0$, and $N$ be the number of undecayed nuclei at time $t$.",
+      "hi": "माना $t=0$ पर प्रारंभ में मौजूद रेडियोधर्मी नाभिकों की संख्या $N_0$ है, और समय $t$ पर अविकटित नाभिकों की संख्या $N$ है।"
+    },
+    "toFind": {
+      "en": "Derive the relation $N = N_0 e^{-\\lambda t}$.",
+      "hi": "संबंध $N = N_0 e^{-\\lambda t}$ व्युत्पन्न करें।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Rutherford-Soddy Law", "hi": "चरण 1: रदरफोर्ड-सोडी नियम" },
+        "content": {
+          "en": "According to the law of radioactive decay, the rate of disintegration is directly proportional to the number of atoms present at that instant.\n$\\frac{dN}{dt} \\propto N$\n$\\frac{dN}{dt} = -\\lambda N$\nHere, $\\lambda$ is the radioactive decay constant. The negative sign indicates that $N$ decreases with time.",
+          "hi": "रेडियोधर्मी क्षय के नियम के अनुसार, विघटन (disintegration) की दर उस क्षण मौजूद परमाणुओं की संख्या के सीधे समानुपाती होती है।\n$\\frac{dN}{dt} \\propto N$\n$\\frac{dN}{dt} = -\\lambda N$\nयहाँ, $\\lambda$ रेडियोधर्मी क्षय नियतांक है। ऋणात्मक चिह्न दर्शाता है कि समय के साथ $N$ घटता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Rearranging for Integration", "hi": "चरण 2: समाकलन (Integration) के लिए पुनर्व्यवस्थित करना" },
+        "content": {
+          "en": "Rearranging the terms to integrate:\n$\\frac{dN}{N} = -\\lambda dt$",
+          "hi": "समाकलन करने के लिए पदों को पुनर्व्यवस्थित करना:\n$\\frac{dN}{N} = -\\lambda dt$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Integration", "hi": "चरण 3: समाकलन (Integration)" },
+        "content": {
+          "en": "Integrating both sides:\n$\\int \\frac{dN}{N} = -\\lambda \\int dt$\n$\\ln N = -\\lambda t + C \\quad \\text{--- (1)}$\nwhere $C$ is the constant of integration.",
+          "hi": "दोनों पक्षों का समाकलन करने पर:\n$\\int \\frac{dN}{N} = -\\lambda \\int dt$\n$\\ln N = -\\lambda t + C \\quad \\text{--- (1)}$\nजहाँ $C$ समाकलन नियतांक है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Finding Constant C", "hi": "चरण 4: नियतांक C ज्ञात करना" },
+        "content": {
+          "en": "At initial time $t = 0$, $N = N_0$. Substituting this in (1):\n$\\ln N_0 = -\\lambda(0) + C \\implies C = \\ln N_0$\nNow, substitute $C$ back into equation (1):\n$\\ln N = -\\lambda t + \\ln N_0$\n$\\ln N - \\ln N_0 = -\\lambda t$\n$\\ln \\left(\\frac{N}{N_0}\\right) = -\\lambda t$",
+          "hi": "प्रारंभिक समय $t = 0$ पर, $N = N_0$ है। इसे (1) में रखने पर:\n$\\ln N_0 = -\\lambda(0) + C \\implies C = \\ln N_0$\nअब, $C$ का मान वापस समीकरण (1) में रखने पर:\n$\\ln N = -\\lambda t + \\ln N_0$\n$\\ln N - \\ln N_0 = -\\lambda t$\n$\\ln \\left(\\frac{N}{N_0}\\right) = -\\lambda t$"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Final Exponential Form", "hi": "चरण 5: अंतिम घातांकीय (Exponential) रूप" },
+        "content": {
+          "en": "Taking exponential on both sides to remove natural log:\n$\\frac{N}{N_0} = e^{-\\lambda t}$\n$N = N_0 e^{-\\lambda t}$",
+          "hi": "लघुगणक (log) को हटाने के लिए दोनों पक्षों का घातांक (exponential) लेने पर:\n$\\frac{N}{N_0} = e^{-\\lambda t}$\n$N = N_0 e^{-\\lambda t}$"
+        }
+      }
+    ],
+    "finalResult": "$N = N_0 e^{-\\lambda t}$",
+    "examTip": {
+      "en": "This formula shows that the decay is exponential. The number of undecayed nuclei never reaches exactly zero (it approaches zero asymptotically).",
+      "hi": "यह सूत्र दर्शाता है कि क्षय घातांकीय (exponential) है। अविकटित नाभिकों की संख्या कभी भी बिल्कुल शून्य नहीं होती है (यह अनंतस्पर्शी रूप से शून्य के करीब पहुँचती है)।"
+    }
+  }
+]

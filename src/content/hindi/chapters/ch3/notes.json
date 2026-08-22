@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction to कथा भारती (Stories)",
-      "hi": "कथा भारती (Stories) का परिचय"
+      "en": "Panchlight (Phanishwar Nath 'Renu')",
+      "hi": "पंचलाइट (फणीश्वरनाथ 'रेणु')"
     },
     "content": {
-      "en": "This chapter covers the basics of कथा भारती (Stories).",
-      "hi": "यह अध्याय कथा भारती (Stories) के मूल सिद्धांतों को शामिल करता है।"
+      "en": "'Panchlight' is an anchalik (regional) story that depicts the rural life of Bihar. The story revolves around the purchase of a petromax (panchlight) by a caste panchayat and the comedic yet poignant situation when no one knows how to light it, leading to the pardon of a village youth, Godhan.",
+      "hi": "'पंचलाइट' एक आंचलिक कहानी है जो बिहार के ग्रामीण जीवन को दर्शाती है। यह कहानी एक जाति पंचायत द्वारा पेट्रोमैक्स (पंचलाइट) की खरीद और उस हास्यपूर्ण लेकिन मार्मिक स्थिति के इर्द-गिर्द घूमती है जब किसी को इसे जलाना नहीं आता, जिसके कारण गाँव के एक युवक गोधन को माफ कर दिया जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Bahadur (Amarkant)",
+      "hi": "बहादुर (अमरकांत)"
+    },
+    "content": {
+      "en": "This story highlights the plight of a young Nepali boy, Bahadur, working as a domestic help in a middle-class family. It exposes the hypocrisy, cruelty, and eventual realization of the family members after Bahadur leaves them due to false accusations.",
+      "hi": "यह कहानी एक मध्यमवर्गीय परिवार में घरेलू नौकर के रूप में काम करने वाले नेपाली लड़के बहादुर की दुर्दशा को उजागर करती है। यह परिवार के सदस्यों के पाखंड, क्रूरता और झूठे आरोपों के कारण बहादुर के जाने के बाद उनके अंतिम अहसास को उजागर करती है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Karmnasha Ki Haar (Shivprasad Singh)",
+      "hi": "कर्मनाशा की हार (शिवप्रसाद सिंह)"
+    },
+    "content": {
+      "en": "A deeply moving story about breaking blind superstitions. The protagonist, Bhairav Pandey, defies the village's cruel traditions and saves a young widow and her child from being sacrificed to the flooded Karmnasha river, symbolizing the victory of humanity.",
+      "hi": "अंधविश्वास को तोड़ने वाली एक अत्यंत मार्मिक कहानी। मुख्य पात्र, भैरव पांडे, गाँव की क्रूर परंपराओं की अवहेलना करते हैं और एक युवा विधवा और उसके बच्चे को बाढ़ वाली कर्मनाशा नदी में बलि दिए जाने से बचाते हैं, जो मानवता की जीत का प्रतीक है।"
     }
   }
 ]

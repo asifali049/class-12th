@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The electrical resistance of a typical human body is about:",
+      "hi": "एक सामान्य मानव शरीर का विद्युत प्रतिरोध लगभग होता है:",
+      "hinglish": "Normal human body ka electrical resistance lagbhag kitna hota hai?"
+    },
+    "options": [
+      { "en": "10 Ω", "hi": "10 Ω" },
+      { "en": "10,000 Ω", "hi": "10,000 Ω" },
+      { "en": "1,00,000 Ω", "hi": "1,00,000 Ω" },
+      { "en": "100 Ω", "hi": "100 Ω" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "The resistance of a dry human body is typically of the order of 10,000 ohms (10 kΩ) to 100,000 ohms. When wet, it drops significantly.",
+      "hi": "एक सूखे मानव शरीर का प्रतिरोध आमतौर पर 10,000 ओम (10 kΩ) से 100,000 ओम के क्रम का होता है। गीला होने पर यह काफी कम हो जाता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Two wires of equal length, one of copper and the other of manganin, have the same resistance. Which wire is thicker?",
+      "hi": "समान लंबाई के दो तारों, जिनमें एक तांबे का और दूसरा मैंगनीन का है, का प्रतिरोध समान है। कौन सा तार अधिक मोटा है?",
+      "hinglish": "Copper aur Manganin ke equal length wale wires ka resistance same hai. Kaun sa wire zyada mota (thicker) hoga?"
+    },
+    "idealAnswer": {
+      "en": "We know that $R = \\rho \\frac{l}{A}$. Therefore, $A = \\rho \\frac{l}{R}$.\nSince length $l$ and resistance $R$ are the same for both wires, $A \\propto \\rho$.\nThe resistivity of manganin is much greater than that of copper ($\\rho_m > \\rho_c$). Therefore, the area of cross-section of manganin must be greater ($A_m > A_c$). \nHence, the **manganin wire is thicker**.",
+      "hi": "हम जानते हैं कि $R = \\rho \\frac{l}{A}$। इसलिए, $A = \\rho \\frac{l}{R}$।\nचूंकि दोनों तारों के लिए लंबाई $l$ और प्रतिरोध $R$ समान हैं, $A \\propto \\rho$।\nमैंगनीन की प्रतिरोधकता तांबे की प्रतिरोधकता से बहुत अधिक होती है ($\\rho_m > \\rho_c$)। इसलिए, मैंगनीन के अनुप्रस्थ काट का क्षेत्रफल अधिक होना चाहिए ($A_m > A_c$)।\nअतः, **मैंगनीन का तार अधिक मोटा है**।"
+    },
+    "keywords": [
+      { "en": "manganin", "hi": "मैंगनीन" },
+      { "en": "resistivity of manganin is greater", "hi": "मैंगनीन की प्रतिरोधकता अधिक है" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 3,
+    "question": {
+      "en": "State Kirchhoff's rules. Explain briefly how these rules are justified.",
+      "hi": "किरचॉफ के नियम बताइए। संक्षेप में समझाइए कि ये नियम किस प्रकार उचित (justified) हैं।",
+      "hinglish": "Kirchhoff ke rules bataiye. Ye rules kis principle par based hain?"
+    },
+    "idealAnswer": {
+      "en": "**1. Junction Rule:** The algebraic sum of currents meeting at any junction is zero ($\\sum I = 0$).\n*Justification:* It is based on the law of **conservation of charge**. Since charge cannot accumulate at a junction, the total current entering equals the total current leaving.\n**2. Loop Rule:** The algebraic sum of changes in potential around any closed loop is zero ($\\sum \\Delta V = 0$).\n*Justification:* It is based on the law of **conservation of energy**. The electrostatic force is conservative, so the work done by it in any closed path is zero.",
+      "hi": "**1. संधि का नियम:** किसी भी संधि पर मिलने वाली सभी धाराओं का बीजगणितीय योग शून्य होता है ($\\sum I = 0$)।\n*औचित्य:* यह **आवेश संरक्षण** के नियम पर आधारित है। चूँकि किसी संधि पर आवेश संचित नहीं हो सकता, इसलिए प्रवेश करने वाली कुल धारा बाहर निकलने वाली कुल धारा के बराबर होती है।\n**2. पाश (लूप) का नियम:** किसी भी बंद पाश के चारों ओर विभव में परिवर्तनों का बीजगणितीय योग शून्य होता है ($\\sum \\Delta V = 0$)।\n*औचित्य:* यह **ऊर्जा संरक्षण** के नियम पर आधारित है। स्थिर वैद्युत बल एक संरक्षी बल है, इसलिए इसके द्वारा किसी भी बंद पथ में किया गया कार्य शून्य होता है।"
+    },
+    "keywords": [
+      { "en": "conservation of charge", "hi": "आवेश संरक्षण" },
+      { "en": "conservation of energy", "hi": "ऊर्जा संरक्षण" },
+      { "en": "sum of currents is zero", "hi": "धाराओं का योग शून्य है" }
+    ]
+  }
+]

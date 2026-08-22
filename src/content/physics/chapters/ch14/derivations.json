@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Working of P-N Junction Diode as a Full-Wave Rectifier",
+      "hi": "पूर्ण-तरंग दिष्टकारी के रूप में P-N संधि डायोड की कार्यप्रणाली",
+      "hinglish": "Full-Wave Rectifier Working"
+    },
+    "given": {
+      "en": "A circuit containing a center-tapped transformer, two P-N junction diodes ($D_1$ and $D_2$), and a load resistor ($R_L$).",
+      "hi": "एक सर्किट जिसमें एक सेंटर-टैप्ड ट्रांसफार्मर, दो P-N संधि डायोड ($D_1$ और $D_2$) और एक लोड प्रतिरोधक ($R_L$) है।"
+    },
+    "toFind": {
+      "en": "Explain how it converts complete AC cycle into pulsating DC.",
+      "hi": "समझाइए कि यह पूर्ण AC चक्र को स्पंदमान (pulsating) DC में कैसे परिवर्तित करता है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Circuit Arrangement", "hi": "चरण 1: परिपथ व्यवस्था" },
+        "content": {
+          "en": "The AC input is applied to the primary coil of the transformer. The secondary coil ends A and B are connected to the P-sides of diodes $D_1$ and $D_2$. The N-sides of both diodes are connected together and then to the load resistor $R_L$. The other end of $R_L$ is connected to the center tap of the secondary coil.",
+          "hi": "AC इनपुट को ट्रांसफार्मर की प्राथमिक कुंडली (primary coil) पर लगाया जाता है। द्वितीयक कुंडली (secondary coil) के सिरे A और B डायोड $D_1$ और $D_2$ के P-सिरों से जुड़े होते हैं। दोनों डायोड के N-सिरे एक साथ जुड़े होते हैं और फिर लोड प्रतिरोधक $R_L$ से जुड़े होते हैं। $R_L$ का दूसरा सिरा द्वितीयक कुंडली के सेंटर टैप (center tap) से जुड़ा होता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Positive Half Cycle", "hi": "चरण 2: धनात्मक अर्ध चक्र" },
+        "content": {
+          "en": "During the positive half cycle of the input AC, end A becomes positive and end B becomes negative with respect to the center tap.\nTherefore, diode **$D_1$ is forward biased** and conducts current, while diode **$D_2$ is reverse biased** and does not conduct.\nCurrent flows through $D_1$ and down through $R_L$.",
+          "hi": "इनपुट AC के धनात्मक अर्ध चक्र के दौरान, सेंटर टैप के सापेक्ष सिरा A धनात्मक और सिरा B ऋणात्मक हो जाता है।\nइसलिए, डायोड **$D_1$ अग्र बायस (forward biased)** होता है और धारा का चालन करता है, जबकि डायोड **$D_2$ पश्च बायस (reverse biased)** होता है और चालन नहीं करता है।\nधारा $D_1$ से होकर और $R_L$ से नीचे की ओर बहती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Negative Half Cycle", "hi": "चरण 3: ऋणात्मक अर्ध चक्र" },
+        "content": {
+          "en": "During the negative half cycle, end A becomes negative and end B becomes positive with respect to the center tap.\nNow, diode **$D_1$ is reverse biased** and does not conduct, while diode **$D_2$ is forward biased** and conducts current.\nCurrent flows through $D_2$ and again down through $R_L$.",
+          "hi": "ऋणात्मक अर्ध चक्र के दौरान, सेंटर टैप के सापेक्ष सिरा A ऋणात्मक और सिरा B धनात्मक हो जाता है।\nअब, डायोड **$D_1$ पश्च बायस** होता है और चालन नहीं करता है, जबकि डायोड **$D_2$ अग्र बायस** होता है और धारा का चालन करता है।\nधारा $D_2$ से होकर और फिर से $R_L$ से नीचे की ओर बहती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Conclusion", "hi": "चरण 4: निष्कर्ष" },
+        "content": {
+          "en": "In both half cycles, the current through the load resistor $R_L$ flows in the **same direction**. Thus, the AC input is converted into a continuous (but pulsating) DC output.",
+          "hi": "दोनों अर्ध चक्रों में, लोड प्रतिरोधक $R_L$ से प्रवाहित होने वाली धारा **समान दिशा** में बहती है। इस प्रकार, AC इनपुट एक सतत (लेकिन स्पंदमान) DC आउटपुट में परिवर्तित हो जाता है।"
+        }
+      }
+    ],
+    "finalResult": "A full-wave rectifier produces a unidirectional pulsating DC output for both halves of the AC input cycle.",
+    "examTip": {
+      "en": "Remember that the output frequency of a full-wave rectifier is twice the input AC frequency ($f_{out} = 2f_{in}$).",
+      "hi": "याद रखें कि पूर्ण-तरंग दिष्टकारी की आउटपुट आवृत्ति इनपुट AC आवृत्ति की दोगुनी होती है ($f_{out} = 2f_{in}$)।"
+    }
+  }
+]

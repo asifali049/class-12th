@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Sign Convention",
+      "hi": "चिह्न परिपाटी",
+      "hinglish": "Sign Convention"
+    },
+    "summary": {
+      "en": "New Cartesian Sign Convention is very important for solving numericals:\n1. All distances are measured from the pole (or optical centre).\n2. Distances measured in the direction of incident light are positive (+).\n3. Distances measured opposite to incident light are negative (-).\n4. Heights upwards (above principal axis) are positive (+).\n5. Heights downwards (below principal axis) are negative (-).\n\n**Quick Tips:**\n- $u$ (object distance) is ALWAYS negative.\n- $f$ for Convex (mirror/lens) is ALWAYS positive.\n- $f$ for Concave (mirror/lens) is ALWAYS negative.",
+      "hi": "संख्यात्मक प्रश्नों (numericals) को हल करने के लिए नई कार्तीय चिह्न परिपाटी (New Cartesian Sign Convention) बहुत महत्वपूर्ण है:\n1. सभी दूरियाँ ध्रुव (या प्रकाशिक केंद्र) से मापी जाती हैं।\n2. आपतित प्रकाश की दिशा में मापी गई दूरियाँ धनात्मक (+) होती हैं।\n3. आपतित प्रकाश की विपरीत दिशा में मापी गई दूरियाँ ऋणात्मक (-) होती हैं।\n4. ऊपर की ओर (मुख्य अक्ष के ऊपर) ऊँचाइयाँ धनात्मक (+) होती हैं।\n5. नीचे की ओर (मुख्य अक्ष के नीचे) ऊँचाइयाँ ऋणात्मक (-) होती हैं।\n\n**त्वरित सुझाव:**\n- $u$ (वस्तु की दूरी) हमेशा ऋणात्मक होती है।\n- उत्तल (दर्पण/लेंस) के लिए $f$ हमेशा धनात्मक होता है।\n- अवतल (दर्पण/लेंस) के लिए $f$ हमेशा ऋणात्मक होता है।",
+      "hinglish": "Numericals ke liye yaad rakho: object distance (u) hamesha negative. Convex (lens/mirror) ka f hamesha positive. Concave (lens/mirror) ka f hamesha negative."
+    },
+    "quickRecall": [
+      { "en": "u is always (-)", "hi": "u हमेशा (-) है" },
+      { "en": "Convex f is (+)", "hi": "उत्तल f (+) है" },
+      { "en": "Concave f is (-)", "hi": "अवतल f (-) है" }
+    ]
+  }
+]

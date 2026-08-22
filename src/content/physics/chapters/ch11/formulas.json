@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Energy of a Photon",
+      "hi": "फोटॉन की ऊर्जा",
+      "hinglish": "Energy of Photon"
+    },
+    "formula": "E = h\\nu = \\frac{hc}{\\lambda}",
+    "variables": [
+      { "symbol": "h", "name": { "en": "Planck's constant ($6.63 \\times 10^{-34} \\text{ Js}$)", "hi": "प्लांक नियतांक ($6.63 \\times 10^{-34} \\text{ Js}$)" } },
+      { "symbol": "\\nu", "name": { "en": "Frequency", "hi": "आवृत्ति" } },
+      { "symbol": "\\lambda", "name": { "en": "Wavelength", "hi": "तरंगदैर्ध्य" } }
+    ]
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Work Function",
+      "hi": "कार्य फलन",
+      "hinglish": "Work Function"
+    },
+    "formula": "\\Phi_0 = h\\nu_0 = \\frac{hc}{\\lambda_0}",
+    "variables": [
+      { "symbol": "\\nu_0", "name": { "en": "Threshold frequency", "hi": "देहली आवृत्ति" } },
+      { "symbol": "\\lambda_0", "name": { "en": "Threshold wavelength", "hi": "देहली तरंगदैर्ध्य" } }
+    ]
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Einstein's Photoelectric Equation",
+      "hi": "आइंस्टीन का प्रकाश-विद्युत समीकरण",
+      "hinglish": "Einstein's PE Equation"
+    },
+    "formula": "K_{max} = h\\nu - \\Phi_0 = hc \\left( \\frac{1}{\\lambda} - \\frac{1}{\\lambda_0} \\right)",
+    "variables": [
+      { "symbol": "K_{max}", "name": { "en": "Maximum kinetic energy", "hi": "अधिकतम गतिज ऊर्जा" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Stopping Potential",
+      "hi": "निरोधी विभव",
+      "hinglish": "Stopping Potential"
+    },
+    "formula": "K_{max} = eV_0 = \\frac{1}{2} m v_{max}^2",
+    "variables": [
+      { "symbol": "V_0", "name": { "en": "Stopping potential", "hi": "निरोधी विभव" } },
+      { "symbol": "e", "name": { "en": "Charge on electron ($1.6 \\times 10^{-19} \\text{ C}$)", "hi": "इलेक्ट्रॉन पर आवेश ($1.6 \\times 10^{-19} \\text{ C}$)" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "De Broglie Wavelength",
+      "hi": "डी ब्रोग्ली तरंगदैर्ध्य",
+      "hinglish": "De Broglie Wavelength"
+    },
+    "formula": "\\lambda = \\frac{h}{p} = \\frac{h}{mv} = \\frac{h}{\\sqrt{2mK}} = \\frac{h}{\\sqrt{2mqV}}",
+    "variables": [
+      { "symbol": "p", "name": { "en": "Momentum", "hi": "संवेग" } },
+      { "symbol": "K", "name": { "en": "Kinetic energy", "hi": "गतिज ऊर्जा" } },
+      { "symbol": "V", "name": { "en": "Accelerating potential", "hi": "त्वरित विभव" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "De Broglie Wavelength for Electron",
+      "hi": "इलेक्ट्रॉन के लिए डी ब्रोग्ली तरंगदैर्ध्य",
+      "hinglish": "Electron wavelength"
+    },
+    "formula": "\\lambda_e = \\frac{12.27}{\\sqrt{V}} \\text{ \\AA} = \\frac{1.227}{\\sqrt{V}} \\text{ nm}",
+    "variables": [
+      { "symbol": "V", "name": { "en": "Accelerating voltage in volts", "hi": "वोल्ट में त्वरित वोल्टेज" } }
+    ]
+  }
+]

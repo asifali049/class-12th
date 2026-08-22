@@ -4,5 +4,51 @@
     "en": "Nuclei",
     "hi": "नाभिक"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Nucleus Structure",
+        "hi": "नाभिक की संरचना"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Protons + Neutrons", "hi": "प्रोटॉन + न्यूट्रॉन" } },
+        { "id": "c1b", "label": { "en": "R = R0 A^(1/3)", "hi": "R = R0 A^(1/3)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Mass Defect & BE",
+        "hi": "द्रव्यमान क्षति और BE"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Δm = Mass diff", "hi": "Δm = द्रव्यमान अंतर" } },
+        { "id": "c2b", "label": { "en": "BE = Δm × c²", "hi": "BE = Δm × c²" } },
+        { "id": "c2c", "label": { "en": "Stability α BE/A", "hi": "स्थिरता α BE/A" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Radioactivity",
+        "hi": "रेडियोधर्मिता"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Decay Law: N = N0 e^(-λt)", "hi": "क्षय नियम: N = N0 e^(-λt)" } },
+        { "id": "c3b", "label": { "en": "Half Life T(1/2) = 0.693/λ", "hi": "अर्ध-आयु T(1/2) = 0.693/λ" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Nuclear Reactions",
+        "hi": "नाभिकीय अभिक्रियाएँ"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Fission (Heavy splits)", "hi": "विखंडन (भारी टूटता है)" } },
+        { "id": "c4b", "label": { "en": "Fusion (Light combine)", "hi": "संलयन (हल्के जुड़ते हैं)" } }
+      ]
+    }
+  ]
 }

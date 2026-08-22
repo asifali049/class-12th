@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Intensity vs Frequency in Photoelectric Effect",
+      "hi": "प्रकाश-विद्युत प्रभाव में तीव्रता बनाम आवृत्ति",
+      "hinglish": "Intensity vs Frequency"
+    },
+    "summary": {
+      "en": "- **Intensity** determines the *number* of photons per second. Increasing intensity increases the *number of emitted electrons* (photoelectric current) but does NOT change their kinetic energy.\n- **Frequency** determines the *energy* of each photon. Increasing frequency increases the *maximum kinetic energy* (and thus stopping potential) of emitted electrons, but does NOT change the number of electrons emitted.",
+      "hi": "- **तीव्रता (Intensity)** प्रति सेकंड फोटॉनों की *संख्या* निर्धारित करती है। तीव्रता बढ़ाने से *उत्सर्जित इलेक्ट्रॉनों की संख्या* (प्रकाश-विद्युत धारा) बढ़ जाती है लेकिन उनकी गतिज ऊर्जा में परिवर्तन नहीं होता है।\n- **आवृत्ति (Frequency)** प्रत्येक फोटॉन की *ऊर्जा* निर्धारित करती है। आवृत्ति बढ़ाने से उत्सर्जित इलेक्ट्रॉनों की *अधिकतम गतिज ऊर्जा* (और इस प्रकार निरोधी विभव) बढ़ जाती है, लेकिन उत्सर्जित इलेक्ट्रॉनों की संख्या में परिवर्तन नहीं होता है।",
+      "hinglish": "Intensity badhane se current badhta hai, energy nahi. Frequency badhane se energy (aur stopping potential) badhti hai, current nahi."
+    },
+    "quickRecall": [
+      { "en": "Intensity -> Current", "hi": "तीव्रता -> धारा" },
+      { "en": "Frequency -> Kinetic Energy", "hi": "आवृत्ति -> गतिज ऊर्जा" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Slope of Stopping Potential Graph",
+      "hi": "निरोधी विभव ग्राफ की ढाल",
+      "hinglish": "Slope of V0-v graph"
+    },
+    "summary": {
+      "en": "In the graph of stopping potential ($V_0$) vs frequency ($\\nu$):\n$V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\Phi_0}{e}$\n- The **slope** of the line is $\\frac{h}{e}$. It is a universal constant and is the **same for all metals**.\n- The **x-intercept** is the threshold frequency $\\nu_0$.\n- The **y-intercept** is $-\\frac{\\Phi_0}{e}$.",
+      "hi": "निरोधी विभव ($V_0$) बनाम आवृत्ति ($\\nu$) के ग्राफ में:\n$V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\Phi_0}{e}$\n- रेखा की **ढाल (slope)** $\\frac{h}{e}$ होती है। यह एक सार्वभौमिक नियतांक है और **सभी धातुओं के लिए समान** होती है।\n- **x-अन्तःखण्ड (intercept)** देहली आवृत्ति $\\nu_0$ है।\n- **y-अन्तःखण्ड** $-\\frac{\\Phi_0}{e}$ है।",
+      "hinglish": "V0 vs nu graph ka slope hamesha h/e hota hai, chahe koi bhi metal ho."
+    },
+    "quickRecall": [
+      { "en": "Slope = h/e (Constant)", "hi": "ढाल = h/e (नियत)" },
+      { "en": "x-intercept = Threshold Freq", "hi": "x-अन्तःखण्ड = देहली आवृत्ति" }
+    ]
+  }
+]

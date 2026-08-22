@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is the most stable nucleus?",
+      "hi": "निम्नलिखित में से कौन सा नाभिक सबसे अधिक स्थिर है?",
+      "hinglish": "Inme se sabse stable nucleus kaunsa hai?"
+    },
+    "options": [
+      { "en": "Helium (He-4)", "hi": "हीलियम (He-4)" },
+      { "en": "Carbon (C-12)", "hi": "कार्बन (C-12)" },
+      { "en": "Iron (Fe-56)", "hi": "लोहा (Fe-56)" },
+      { "en": "Uranium (U-238)", "hi": "यूरेनियम (U-238)" }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Iron (Fe-56) has the maximum binding energy per nucleon (about 8.8 MeV), making it the most stable nucleus.",
+      "hi": "लोहे (Fe-56) की प्रति न्यूक्लिऑन बंधन ऊर्जा अधिकतम (लगभग 8.8 MeV) होती है, जो इसे सबसे स्थिर नाभिक बनाती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why do light nuclei undergo fusion and heavy nuclei undergo fission?",
+      "hi": "हल्के नाभिकों में संलयन (fusion) और भारी नाभिकों में विखंडन (fission) क्यों होता है?",
+      "hinglish": "Light nuclei fuse aur heavy nuclei fission kyu karte hain?"
+    },
+    "idealAnswer": {
+      "en": "Both processes occur to achieve **greater stability** by increasing the binding energy per nucleon (BE/A).\n- Light nuclei ($A < 30$) have low BE/A. When they fuse to form a heavier nucleus, the BE/A of the product increases, releasing energy.\n- Heavy nuclei ($A > 170$) also have low BE/A. When they undergo fission to split into lighter nuclei, the BE/A of the products increases, releasing energy.",
+      "hi": "दोनों प्रक्रियाएं प्रति न्यूक्लिऑन बंधन ऊर्जा (BE/A) को बढ़ाकर **अधिक स्थिरता** प्राप्त करने के लिए होती हैं।\n- हल्के नाभिकों ($A < 30$) में BE/A कम होता है। जब वे संलयित होकर भारी नाभिक बनाते हैं, तो उत्पाद का BE/A बढ़ जाता है, जिससे ऊर्जा मुक्त होती है।\n- भारी नाभिकों ($A > 170$) में भी BE/A कम होता है। जब वे विखंडित होकर हल्के नाभिकों में विभाजित होते हैं, तो उत्पादों का BE/A बढ़ जाता है, जिससे ऊर्जा मुक्त होती है।"
+    },
+    "keywords": [
+      { "en": "binding energy per nucleon", "hi": "प्रति न्यूक्लिऑन बंधन ऊर्जा" },
+      { "en": "BE/A", "hi": "BE/A" },
+      { "en": "stability", "hi": "स्थिरता" }
+    ]
+  }
+]

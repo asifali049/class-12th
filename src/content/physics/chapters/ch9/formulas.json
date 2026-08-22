@@ -1,1 +1,108 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Mirror Formula",
+      "hi": "दर्पण सूत्र",
+      "hinglish": "Mirror Formula"
+    },
+    "formula": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+    "variables": [
+      { "symbol": "u", "name": { "en": "Object distance", "hi": "वस्तु की दूरी" } },
+      { "symbol": "v", "name": { "en": "Image distance", "hi": "प्रतिबिंब की दूरी" } },
+      { "symbol": "f", "name": { "en": "Focal length", "hi": "फोकस दूरी" } }
+    ]
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Refractive Index (Snell's Law)",
+      "hi": "अपवर्तनांक (स्नेल का नियम)",
+      "hinglish": "Snell's Law"
+    },
+    "formula": "n_1 \\sin i = n_2 \\sin r \\implies n_{21} = \\frac{n_2}{n_1} = \\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2}",
+    "variables": [
+      { "symbol": "i", "name": { "en": "Angle of incidence", "hi": "आपतन कोण" } },
+      { "symbol": "r", "name": { "en": "Angle of refraction", "hi": "अपवर्तन कोण" } },
+      { "symbol": "v_1, v_2", "name": { "en": "Speed of light in media 1 and 2", "hi": "माध्यम 1 और 2 में प्रकाश की चाल" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Lens Maker's Formula",
+      "hi": "लेंस निर्माता सूत्र",
+      "hinglish": "Lens Maker's Formula"
+    },
+    "formula": "\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)",
+    "variables": [
+      { "symbol": "R_1, R_2", "name": { "en": "Radii of curvature", "hi": "वक्रता त्रिज्याएँ" } },
+      { "symbol": "n_{21}", "name": { "en": "Refractive index of lens w.r.t medium", "hi": "माध्यम के सापेक्ष लेंस का अपवर्तनांक" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Lens Formula and Magnification",
+      "hi": "लेंस सूत्र और आवर्धन",
+      "hinglish": "Lens Formula"
+    },
+    "formula": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\quad ; \\quad m = \\frac{h_i}{h_o} = \\frac{v}{u}",
+    "variables": [
+      { "symbol": "m", "name": { "en": "Magnification", "hi": "आवर्धन" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Power of a Lens",
+      "hi": "लेंस की क्षमता",
+      "hinglish": "Power of Lens"
+    },
+    "formula": "P = \\frac{1}{f (\\text{in m})} \\quad ; \\quad P_{eq} = P_1 + P_2",
+    "variables": [
+      { "symbol": "P", "name": { "en": "Power", "hi": "क्षमता" } }
+    ],
+    "unit": { "en": "Dioptre (D)", "hi": "डायोप्टर (D)" }
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Prism Formula",
+      "hi": "प्रिज्म सूत्र",
+      "hinglish": "Prism Formula"
+    },
+    "formula": "n = \\frac{\\sin\\left(\\frac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}",
+    "variables": [
+      { "symbol": "A", "name": { "en": "Angle of prism", "hi": "प्रिज्म कोण" } },
+      { "symbol": "\\delta_m", "name": { "en": "Angle of minimum deviation", "hi": "न्यूनतम विचलन कोण" } }
+    ]
+  },
+  {
+    "id": "f7",
+    "title": {
+      "en": "Magnifying Power of Compound Microscope",
+      "hi": "संयुक्त सूक्ष्मदर्शी की आवर्धन क्षमता",
+      "hinglish": "Compound Microscope Power"
+    },
+    "formula": "M \\approx -\\frac{L}{f_o} \\left( 1 + \\frac{D}{f_e} \\right)",
+    "variables": [
+      { "symbol": "L", "name": { "en": "Distance between lenses (Tube length)", "hi": "लेंसों के बीच की दूरी (नली की लंबाई)" } },
+      { "symbol": "D", "name": { "en": "Least distance of distinct vision", "hi": "स्पष्ट दृष्टि की न्यूनतम दूरी" } }
+    ]
+  },
+  {
+    "id": "f8",
+    "title": {
+      "en": "Magnifying Power of Telescope",
+      "hi": "दूरदर्शी की आवर्धन क्षमता",
+      "hinglish": "Telescope Power"
+    },
+    "formula": "M = \\frac{f_o}{f_e}",
+    "variables": [
+      { "symbol": "f_o", "name": { "en": "Focal length of objective", "hi": "अभिदृश्यक की फोकस दूरी" } },
+      { "symbol": "f_e", "name": { "en": "Focal length of eyepiece", "hi": "नेत्रिका की फोकस दूरी" } }
+    ]
+  }
+]

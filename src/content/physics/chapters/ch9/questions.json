@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The sparkling of a diamond is due to:",
+      "hi": "हीरे की चमक (sparkling) का कारण है:",
+      "hinglish": "Diamond chamakta (sparkle) kyu hai?"
+    },
+    "options": [
+      { "en": "Refraction of light", "hi": "प्रकाश का अपवर्तन" },
+      { "en": "Total internal reflection", "hi": "पूर्ण आंतरिक परावर्तन" },
+      { "en": "Dispersion of light", "hi": "प्रकाश का विक्षेपण" },
+      { "en": "Interference of light", "hi": "प्रकाश का व्यतिकरण" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "The critical angle for diamond is very small (~24.4°). The faces of a diamond are cut such that light entering it undergoes multiple total internal reflections before exiting, making it sparkle.",
+      "hi": "हीरे के लिए क्रांतिक कोण बहुत कम (~24.4°) होता है। हीरे के फलकों को इस तरह काटा जाता है कि उसमें प्रवेश करने वाले प्रकाश को बाहर निकलने से पहले कई बार पूर्ण आंतरिक परावर्तन (TIR) का सामना करना पड़ता है, जिससे वह चमकता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why does the sky appear blue?",
+      "hi": "आसमान नीला क्यों दिखाई देता है?",
+      "hinglish": "Aasman neela kyu dikhta hai?"
+    },
+    "idealAnswer": {
+      "en": "The sky appears blue due to the **scattering of light** by particles in the atmosphere (like air molecules). According to Rayleigh scattering, the intensity of scattered light is inversely proportional to the fourth power of wavelength ($I \\propto 1/\\lambda^4$). Since blue light has a shorter wavelength, it is scattered much more strongly than red light, making the sky appear blue.",
+      "hi": "आसमान वायुमंडल के कणों (जैसे हवा के अणुओं) द्वारा **प्रकाश के प्रकीर्णन (scattering)** के कारण नीला दिखाई देता है। रैले के प्रकीर्णन (Rayleigh scattering) के अनुसार, प्रकीर्णित प्रकाश की तीव्रता तरंगदैर्ध्य की चौथी घात के व्युत्क्रमानुपाती होती है ($I \\propto 1/\\lambda^4$)। चूँकि नीले प्रकाश की तरंगदैर्ध्य कम होती है, इसका प्रकीर्णन लाल प्रकाश की तुलना में बहुत अधिक होता है, जिससे आसमान नीला दिखाई देता है।"
+    },
+    "keywords": [
+      { "en": "scattering", "hi": "प्रकीर्णन (scattering)" },
+      { "en": "shorter wavelength", "hi": "कम तरंगदैर्ध्य" },
+      { "en": "Rayleigh", "hi": "रैले" }
+    ]
+  }
+]

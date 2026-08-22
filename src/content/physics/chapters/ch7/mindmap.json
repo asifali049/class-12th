@@ -1,8 +1,54 @@
 {
   "id": "root",
   "label": {
-    "en": "AC",
+    "en": "Alternating Current",
     "hi": "प्रत्यावर्ती धारा"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "AC vs DC",
+        "hi": "AC बनाम DC"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Peak: I0, V0", "hi": "शिखर: I0, V0" } },
+        { "id": "c1b", "label": { "en": "RMS: I0/√2", "hi": "RMS: I0/√2" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "AC Circuits",
+        "hi": "AC परिपथ"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Pure R: In phase", "hi": "शुद्ध R: समान कला" } },
+        { "id": "c2b", "label": { "en": "Pure L: V leads I by 90°", "hi": "शुद्ध L: V, I से 90° आगे" } },
+        { "id": "c2c", "label": { "en": "Pure C: V lags I by 90°", "hi": "शुद्ध C: V, I से 90° पीछे" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Series LCR",
+        "hi": "श्रेणी LCR"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Impedance Z", "hi": "प्रतिबाधा Z" } },
+        { "id": "c3b", "label": { "en": "Resonance (XL = XC)", "hi": "अनुनाद (XL = XC)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Transformers",
+        "hi": "ट्रांसफार्मर"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Step Up", "hi": "उच्चायी (Step Up)" } },
+        { "id": "c4b", "label": { "en": "Step Down", "hi": "अपचायी (Step Down)" } }
+      ]
+    }
+  ]
 }

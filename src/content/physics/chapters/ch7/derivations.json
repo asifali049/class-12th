@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Impedance of Series LCR Circuit using Phasor Diagram",
+      "hi": "कला-आरेख (Phasor Diagram) का उपयोग करके श्रेणी LCR परिपथ की प्रतिबाधा",
+      "hinglish": "Impedance of LCR circuit"
+    },
+    "given": {
+      "en": "An Inductor ($L$), Capacitor ($C$), and Resistor ($R$) connected in series to an AC source $V = V_0 \\sin \\omega t$.",
+      "hi": "एक प्रेरक ($L$), संधारित्र ($C$) और प्रतिरोधक ($R$) एक AC स्रोत $V = V_0 \\sin \\omega t$ के साथ श्रेणीक्रम में जुड़े हैं।"
+    },
+    "toFind": {
+      "en": "Expression for Impedance ($Z$) and phase angle ($\\phi$).",
+      "hi": "प्रतिबाधा ($Z$) और कला कोण ($\\phi$) का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Current and Voltage relations", "hi": "चरण 1: धारा और वोल्टेज संबंध" },
+        "content": {
+          "en": "Since it is a series circuit, current $I$ is the same through all elements. Let $I = I_0 \\sin(\\omega t - \\phi)$.\nVoltage across $R$: $V_R = I R$ (in phase with $I$).\nVoltage across $L$: $V_L = I X_L$ (leads $I$ by $90^\\circ$).\nVoltage across $C$: $V_C = I X_C$ (lags $I$ by $90^\\circ$).",
+          "hi": "चूँकि यह श्रेणी परिपथ है, सभी तत्वों में धारा $I$ समान रहती है। माना $I = I_0 \\sin(\\omega t - \\phi)$।\n$R$ के सिरों पर वोल्टेज: $V_R = I R$ (धारा $I$ की समान कला में)।\n$L$ के सिरों पर वोल्टेज: $V_L = I X_L$ (धारा $I$ से $90^\\circ$ अग्रगामी)।\n$C$ के सिरों पर वोल्टेज: $V_C = I X_C$ (धारा $I$ से $90^\\circ$ पश्चगामी)।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Constructing Phasor Diagram", "hi": "चरण 2: कला-आरेख बनाना" },
+        "content": {
+          "en": "Take current $I$ along the x-axis.\n$V_R$ is along the x-axis.\n$V_L$ is along the positive y-axis.\n$V_C$ is along the negative y-axis.\nAssuming $V_L > V_C$, the net voltage along y-axis is $(V_L - V_C)$.",
+          "hi": "धारा $I$ को x-अक्ष के अनुदिश लें।\n$V_R$, x-अक्ष के अनुदिश है।\n$V_L$, धनात्मक y-अक्ष के अनुदिश है।\n$V_C$, ऋणात्मक y-अक्ष के अनुदिश है।\nमाना $V_L > V_C$, तो y-अक्ष के अनुदिश नेट वोल्टेज $(V_L - V_C)$ है।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Calculating Net Voltage", "hi": "चरण 3: नेट वोल्टेज की गणना" },
+        "content": {
+          "en": "Using Pythagoras theorem for the resultant voltage $V$:\n$V^2 = V_R^2 + (V_L - V_C)^2$\nSubstitute the values:\n$V^2 = (I R)^2 + (I X_L - I X_C)^2$\n$V = I \\sqrt{R^2 + (X_L - X_C)^2}$",
+          "hi": "परिणामी वोल्टेज $V$ के लिए पाइथागोरस प्रमेय का उपयोग करने पर:\n$V^2 = V_R^2 + (V_L - V_C)^2$\nमान रखने पर:\n$V^2 = (I R)^2 + (I X_L - I X_C)^2$\n$V = I \\sqrt{R^2 + (X_L - X_C)^2}$"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Finding Impedance and Phase", "hi": "चरण 4: प्रतिबाधा और कला ज्ञात करना" },
+        "content": {
+          "en": "Since $V = I Z$, comparing the equations, we get:\n$Z = \\sqrt{R^2 + (X_L - X_C)^2}$\nFrom the phasor diagram, the phase angle $\\phi$ is:\n$\\tan \\phi = \\frac{V_L - V_C}{V_R} = \\frac{X_L - X_C}{R}$",
+          "hi": "चूँकि $V = I Z$ है, समीकरणों की तुलना करने पर:\n$Z = \\sqrt{R^2 + (X_L - X_C)^2}$\nकला-आरेख से, कला कोण $\\phi$ है:\n$\\tan \\phi = \\frac{V_L - V_C}{V_R} = \\frac{X_L - X_C}{R}$"
+        }
+      }
+    ],
+    "finalResult": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$ and $\\tan \\phi = \\frac{X_L - X_C}{R}$",
+    "examTip": {
+      "en": "If $X_C > X_L$, the circuit is capacitive and current leads voltage. If $X_L > X_C$, it's inductive. If $X_L = X_C$, it's purely resistive (Resonance).",
+      "hi": "यदि $X_C > X_L$, तो परिपथ धारितीय है और धारा वोल्टेज से अग्रगामी होती है। यदि $X_L > X_C$, तो यह प्रेरणिक है। यदि $X_L = X_C$, तो यह शुद्ध प्रतिरोधी (अनुनाद) है।"
+    }
+  }
+]

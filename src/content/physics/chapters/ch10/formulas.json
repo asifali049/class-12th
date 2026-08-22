@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Resultant Intensity (Interference)",
+      "hi": "परिणामी तीव्रता (व्यतिकरण)",
+      "hinglish": "Resultant Intensity"
+    },
+    "formula": "I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos \\phi",
+    "variables": [
+      { "symbol": "I", "name": { "en": "Resultant intensity", "hi": "परिणामी तीव्रता" } },
+      { "symbol": "\\phi", "name": { "en": "Phase difference", "hi": "कलांतर" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Constructive & Destructive Interference",
+      "hi": "संपोषी और विनाशी व्यतिकरण",
+      "hinglish": "Maxima & Minima conditions"
+    },
+    "formula": "\\text{Maxima: } \\Delta x = n\\lambda \\quad (n=0,1,2...)\\\\ \\text{Minima: } \\Delta x = (n - \\frac{1}{2})\\lambda",
+    "variables": [
+      { "symbol": "\\Delta x", "name": { "en": "Path difference", "hi": "पथांतर" } }
+    ]
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Fringe Width (YDSE)",
+      "hi": "फ्रिंज चौड़ाई (YDSE)",
+      "hinglish": "Fringe Width"
+    },
+    "formula": "\\beta = \\frac{\\lambda D}{d}",
+    "variables": [
+      { "symbol": "\\lambda", "name": { "en": "Wavelength", "hi": "तरंगदैर्ध्य" } },
+      { "symbol": "D", "name": { "en": "Distance to screen", "hi": "स्क्रीन की दूरी" } },
+      { "symbol": "d", "name": { "en": "Distance between slits", "hi": "स्लिटों के बीच की दूरी" } }
+    ],
+    "unit": { "en": "Meters (m)", "hi": "मीटर (m)" }
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Position of Maxima and Minima (YDSE)",
+      "hi": "उच्चिष्ठ और निम्निष्ठ की स्थिति (YDSE)",
+      "hinglish": "Position of fringes"
+    },
+    "formula": "y_n = n \\frac{\\lambda D}{d} \\quad \\text{(Bright)}\\\\ y_n = (n - \\frac{1}{2}) \\frac{\\lambda D}{d} \\quad \\text{(Dark)}",
+    "variables": [
+      { "symbol": "y_n", "name": { "en": "Distance from central maximum", "hi": "केंद्रीय उच्चिष्ठ से दूरी" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Single Slit Diffraction",
+      "hi": "एकल स्लिट विवर्तन",
+      "hinglish": "Diffraction conditions"
+    },
+    "formula": "a \\sin \\theta = n\\lambda \\quad \\text{(Minima)}\\\\ a \\sin \\theta = (n + \\frac{1}{2})\\lambda \\quad \\text{(Secondary Maxima)}",
+    "variables": [
+      { "symbol": "a", "name": { "en": "Width of the slit", "hi": "स्लिट की चौड़ाई" } },
+      { "symbol": "\\theta", "name": { "en": "Angle of diffraction", "hi": "विवर्तन कोण" } }
+    ]
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Width of Central Maximum",
+      "hi": "केंद्रीय उच्चिष्ठ की चौड़ाई",
+      "hinglish": "Width of Central Max"
+    },
+    "formula": "W = \\frac{2\\lambda D}{a}",
+    "variables": [
+      { "symbol": "W", "name": { "en": "Linear width", "hi": "रेखीय चौड़ाई" } }
+    ]
+  }
+]

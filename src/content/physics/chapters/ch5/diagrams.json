@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Magnetic Field Lines of a Bar Magnet",
+      "hi": "छड़ चुंबक की चुंबकीय क्षेत्र रेखाएँ",
+      "hinglish": "Bar Magnet ki Field Lines"
+    },
+    "description": {
+      "en": "Magnetic field lines starting from the North pole and ending at the South pole.",
+      "hi": "उत्तरी ध्रुव से शुरू होकर दक्षिणी ध्रुव पर समाप्त होने वाली चुंबकीय क्षेत्र रेखाएँ।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g transform=\"translate(200, 150)\">\n    <!-- Field Lines Top -->\n    <path d=\"M -40 -20 C -60 -100, 60 -100, 40 -20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    <path d=\"M -30 -20 C -40 -60, 40 -60, 30 -20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    <path d=\"M -40 -20 C -100 -150, 100 -150, 40 -20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    \n    <!-- Field Lines Bottom -->\n    <path d=\"M -40 20 C -60 100, 60 100, 40 20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    <path d=\"M -30 20 C -40 60, 40 60, 30 20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    <path d=\"M -40 20 C -100 150, 100 150, 40 20\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n\n    <!-- Bar Magnet -->\n    <rect x=\"-50\" y=\"-20\" width=\"50\" height=\"40\" fill=\"#ef4444\" stroke=\"#374151\" stroke-width=\"2\" />\n    <rect x=\"0\" y=\"-20\" width=\"50\" height=\"40\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"2\" />\n    \n    <text x=\"-25\" y=\"6\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\" fill=\"white\" text-anchor=\"middle\">N</text>\n    <text x=\"25\" y=\"6\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\" fill=\"white\" text-anchor=\"middle\">S</text>\n  </g>\n</svg>",
+    "labels": []
+  }
+]

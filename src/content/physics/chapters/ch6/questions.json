@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "According to Lenz's law, the induced current in a closed loop opposes the change in magnetic flux that produced it. This law is in accordance with the principle of conservation of:",
+      "hi": "लेन्ज़ के नियम के अनुसार, किसी बंद लूप में प्रेरित धारा उस चुंबकीय फ्लक्स में परिवर्तन का विरोध करती है जिससे वह उत्पन्न हुई है। यह नियम किसके संरक्षण के सिद्धांत के अनुरूप है?",
+      "hinglish": "Lenz ka law kis conservation principle par based hai?"
+    },
+    "options": [
+      { "en": "Charge", "hi": "आवेश" },
+      { "en": "Momentum", "hi": "संवेग" },
+      { "en": "Energy", "hi": "ऊर्जा" },
+      { "en": "Mass", "hi": "द्रव्यमान" }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Lenz's law is a consequence of the law of conservation of energy. Mechanical work done against the opposing force is converted into electrical energy.",
+      "hi": "लेन्ज़ का नियम ऊर्जा संरक्षण के नियम का परिणाम है। विरोधी बल के विरुद्ध किया गया यांत्रिक कार्य ही विद्युत ऊर्जा में परिवर्तित होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why are eddy currents considered undesirable in transformers? How are they minimized?",
+      "hi": "ट्रांसफार्मर में भंवर धाराओं (eddy currents) को अवांछनीय (undesirable) क्यों माना जाता है? इन्हें कैसे कम किया जाता है?",
+      "hinglish": "Transformers me eddy currents undesirable kyu hote hain aur unko reduce kaise karte hain?"
+    },
+    "idealAnswer": {
+      "en": "Eddy currents are undesirable in transformers because they cause unnecessary heating of the iron core and lead to dissipation of electrical energy in the form of heat (power loss).\n**Minimization:** They are minimized by using a **laminated core**. The core is made of thin sheets of metal insulated from each other by a coating of varnish, which increases resistance and breaks the path of eddy currents.",
+      "hi": "ट्रांसफार्मर में भंवर धाराएँ अवांछनीय हैं क्योंकि वे लोहे की क्रोड (core) को अनावश्यक रूप से गर्म करती हैं और ऊष्मा के रूप में विद्युत ऊर्जा की हानि (शक्ति हानि) का कारण बनती हैं।\n**न्यूनतम करना:** इन्हें **पटलित क्रोड (laminated core)** का उपयोग करके कम किया जाता है। क्रोड को धातु की पतली चादरों (sheets) से बनाया जाता है, जिन्हें वार्निश के लेप द्वारा एक-दूसरे से विद्युतरोधी (insulated) किया जाता है, जिससे प्रतिरोध बढ़ता है और भंवर धाराओं का मार्ग टूट जाता है।"
+    },
+    "keywords": [
+      { "en": "heating", "hi": "ऊष्मा (हीटिंग)" },
+      { "en": "energy loss", "hi": "ऊर्जा की हानि" },
+      { "en": "laminated core", "hi": "पटलित क्रोड" }
+    ]
+  }
+]

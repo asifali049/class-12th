@@ -1,8 +1,55 @@
 {
   "id": "root",
   "label": {
-    "en": "EM Waves",
-    "hi": "विद्युत चुंबकीय तरंगें"
+    "en": "Electromagnetic Waves",
+    "hi": "विद्युत चुम्बकीय तरंगें"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Displacement Current",
+        "hi": "विस्थापन धारा"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Id = ε0 (dΦE/dt)", "hi": "Id = ε0 (dΦE/dt)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Maxwell's Equations",
+        "hi": "मैक्सवेल के समीकरण"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Gauss (E & B)", "hi": "गॉस (E & B)" } },
+        { "id": "c2b", "label": { "en": "Faraday", "hi": "फैराडे" } },
+        { "id": "c2c", "label": { "en": "Ampere-Maxwell", "hi": "एम्पीयर-मैक्सवेल" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "EM Waves Properties",
+        "hi": "EM तरंगों के गुण"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Transverse", "hi": "अनुप्रस्थ" } },
+        { "id": "c3b", "label": { "en": "c = E0/B0", "hi": "c = E0/B0" } },
+        { "id": "c3c", "label": { "en": "c = 1/√(μ0ε0)", "hi": "c = 1/√(μ0ε0)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "EM Spectrum",
+        "hi": "EM स्पेक्ट्रम"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Radio, Micro, IR", "hi": "रेडियो, माइक्रो, अवरक्त" } },
+        { "id": "c4b", "label": { "en": "Visible, UV", "hi": "दृश्य, पराबैंगनी" } },
+        { "id": "c4c", "label": { "en": "X-Rays, Gamma", "hi": "X-किरणें, गामा" } }
+      ]
+    }
+  ]
 }

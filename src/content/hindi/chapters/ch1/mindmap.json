@@ -1,8 +1,26 @@
 {
   "id": "root",
   "label": {
-    "en": "गद्य गरिमा (Prose)",
-    "hi": "गद्य गरिमा (Prose)"
+    "en": "Gadhya Garima (Prose)",
+    "hi": "गद्य गरिमा"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Rashtra Ka Swaroop", "hi": "राष्ट्र का स्वरूप" },
+      "children": [
+        { "id": "c1a", "label": { "en": "Bhumi (Earth)", "hi": "भूमि" } },
+        { "id": "c1b", "label": { "en": "Jan (People)", "hi": "जन" } },
+        { "id": "c1c", "label": { "en": "Sanskriti (Culture)", "hi": "संस्कृति" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Ashok Ke Phool", "hi": "अशोक के फूल" }
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Bhasha aur Aadhunikta", "hi": "भाषा और आधुनिकता" }
+    }
+  ]
 }

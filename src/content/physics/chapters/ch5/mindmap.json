@@ -1,8 +1,45 @@
 {
   "id": "root",
   "label": {
-    "en": "Magnetism & Matter",
-    "hi": "चुंबकत्व और पदार्थ"
+    "en": "Magnetism and Matter",
+    "hi": "चुंबकत्व एवं द्रव्य"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Bar Magnet",
+        "hi": "छड़ चुंबक"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Magnetic Moment m = q_m * 2l", "hi": "चुंबकीय आघूर्ण m = q_m * 2l" } },
+        { "id": "c1b", "label": { "en": "Axial Field: B = μ0 2m / 4π r³", "hi": "अक्षीय क्षेत्र: B = μ0 2m / 4π r³" } },
+        { "id": "c1c", "label": { "en": "Equatorial Field: B = μ0 m / 4π r³", "hi": "निरक्षीय क्षेत्र: B = μ0 m / 4π r³" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Earth's Magnetism",
+        "hi": "पृथ्वी का चुंबकत्व"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Declination (θ)", "hi": "दिक्पात (θ)" } },
+        { "id": "c2b", "label": { "en": "Angle of Dip (δ)", "hi": "नति कोण (δ)" } },
+        { "id": "c2c", "label": { "en": "Horizontal Component BH = Be cos δ", "hi": "क्षैतिज घटक BH = Be cos δ" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Magnetic Materials",
+        "hi": "चुंबकीय पदार्थ"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Diamagnetic (Weakly Repelled)", "hi": "प्रतिचुंबकीय (क्षीण प्रतिकर्षित)" } },
+        { "id": "c3b", "label": { "en": "Paramagnetic (Weakly Attracted)", "hi": "अनुचुंबकीय (क्षीण आकर्षित)" } },
+        { "id": "c3c", "label": { "en": "Ferromagnetic (Strongly Attracted)", "hi": "लौह-चुंबकीय (प्रबल आकर्षित)" } }
+      ]
+    }
+  ]
 }

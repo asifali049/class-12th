@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Magnetic Flux",
+      "hi": "चुंबकीय फ्लक्स",
+      "hinglish": "Magnetic Flux"
+    },
+    "formula": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos \\theta",
+    "variables": [
+      { "symbol": "\\Phi_B", "name": { "en": "Magnetic flux", "hi": "चुंबकीय फ्लक्स" } },
+      { "symbol": "B", "name": { "en": "Magnetic field", "hi": "चुंबकीय क्षेत्र" } },
+      { "symbol": "A", "name": { "en": "Area vector magnitude", "hi": "क्षेत्रफल सदिश का परिमाण" } },
+      { "symbol": "\\theta", "name": { "en": "Angle between B and normal to surface", "hi": "B और सतह के अभिलंब के बीच का कोण" } }
+    ],
+    "unit": { "en": "Weber (Wb)", "hi": "वेबर (Wb)" }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Faraday's Law of Induction",
+      "hi": "फैराडे का प्रेरण का नियम",
+      "hinglish": "Faraday's Law"
+    },
+    "formula": "\\varepsilon = -N \\frac{d\\Phi_B}{dt}",
+    "variables": [
+      { "symbol": "\\varepsilon", "name": { "en": "Induced EMF", "hi": "प्रेरित EMF" } },
+      { "symbol": "N", "name": { "en": "Number of turns in coil", "hi": "कुंडली में फेरों की संख्या" } },
+      { "symbol": "\\frac{d\\Phi_B}{dt}", "name": { "en": "Rate of change of flux", "hi": "फ्लक्स परिवर्तन की दर" } }
+    ],
+    "unit": { "en": "Volts (V)", "hi": "वोल्ट (V)" },
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Motional EMF",
+      "hi": "गतिक EMF",
+      "hinglish": "Motional EMF"
+    },
+    "formula": "\\varepsilon = B l v",
+    "variables": [
+      { "symbol": "l", "name": { "en": "Length of conductor", "hi": "चालक की लंबाई" } },
+      { "symbol": "v", "name": { "en": "Velocity", "hi": "वेग" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Self Inductance",
+      "hi": "स्व-प्रेरकत्व",
+      "hinglish": "Self Inductance"
+    },
+    "formula": "\\varepsilon = -L \\frac{dI}{dt} \\quad \\text{and} \\quad L = \\frac{\\mu_0 N^2 A}{l} \\text{ (for solenoid)}",
+    "variables": [
+      { "symbol": "L", "name": { "en": "Coefficient of self-induction", "hi": "स्व-प्रेरण गुणांक" } }
+    ],
+    "unit": { "en": "Henry (H)", "hi": "हेनरी (H)" }
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Mutual Inductance",
+      "hi": "अन्योन्य प्रेरकत्व",
+      "hinglish": "Mutual Inductance"
+    },
+    "formula": "\\varepsilon_2 = -M \\frac{dI_1}{dt}",
+    "variables": [
+      { "symbol": "M", "name": { "en": "Mutual Inductance", "hi": "अन्योन्य प्रेरकत्व" } }
+    ],
+    "unit": { "en": "Henry (H)", "hi": "हेनरी (H)" }
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Energy Stored in Inductor",
+      "hi": "प्रेरक में संचित ऊर्जा",
+      "hinglish": "Energy stored in Inductor"
+    },
+    "formula": "U = \\frac{1}{2} L I^2",
+    "variables": [
+      { "symbol": "U", "name": { "en": "Magnetic Potential Energy", "hi": "चुंबकीय स्थितिज ऊर्जा" } }
+    ],
+    "unit": { "en": "Joules (J)", "hi": "जूल (J)" }
+  }
+]

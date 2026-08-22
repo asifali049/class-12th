@@ -22,6 +22,25 @@ export default function NumericalRenderer({ numericals, language }: NumericalRen
     hard: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-400 border-red-200",
   };
 
+  const latexDelimiters = [
+    { left: '$$', right: '$$', display: true },
+    { left: '\\[', right: '\\]', display: true },
+    { left: '$', right: '$', display: false },
+    { left: '\\(', right: '\\)', display: false }
+  ];
+
+  const renderMathLine = (line: string) => {
+    const trimmed = line.trim();
+    if (!trimmed) return null;
+    if (trimmed.includes('$') || trimmed.includes('\\[')) {
+      return <Latex delimiters={latexDelimiters} strict={false}>{trimmed}</Latex>;
+    }
+    if (trimmed.includes('\\') || trimmed.includes('=') || trimmed.includes('^') || trimmed.includes('_')) {
+      return <Latex delimiters={latexDelimiters} strict={false}>{`$$${trimmed}$$`}</Latex>;
+    }
+    return <span className="block mb-1">{trimmed}</span>;
+  };
+
   return (
     <div className="space-y-12 pb-10">
       {numericals.map((num, index) => (
@@ -53,28 +72,43 @@ export default function NumericalRenderer({ numericals, language }: NumericalRen
 
             <div className="bg-blue-50/50 dark:bg-blue-900/10 p-5 rounded-xl border-l-4 border-blue-500">
               <span className="text-xs font-bold text-blue-500 uppercase tracking-widest block mb-2">Formula</span>
-              <div className="text-lg text-blue-900 dark:text-blue-200"><Latex>{num.formula}</Latex></div>
+              <div className="text-lg text-blue-900 dark:text-blue-200 overflow-x-auto pb-2">
+                {num.formula.split('\n').map((line, i) => (
+                  <div key={i}>{renderMathLine(line)}</div>
+                ))}
+              </div>
             </div>
 
             <div className="pl-4 border-l-2 border-slate-200 dark:border-slate-700 space-y-4">
               <div>
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">Substitution</span>
-                <div className="text-slate-700 dark:text-slate-300"><Latex>{num.substitution}</Latex></div>
+                <div className="text-slate-700 dark:text-slate-300 overflow-x-auto pb-2">
+                  {num.substitution.split('\n').map((line, i) => (
+                    <div key={i}>{renderMathLine(line)}</div>
+                  ))}
+                </div>
               </div>
               <div>
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">Calculation</span>
-                <div className="text-slate-700 dark:text-slate-300"><Latex>{num.calculation}</Latex></div>
+                <div className="text-slate-700 dark:text-slate-300 overflow-x-auto pb-2">
+                  {num.calculation.split('\n').map((line, i) => (
+                    <div key={i}>{renderMathLine(line)}</div>
+                  ))}
+                </div>
               </div>
             </div>
 
-            <div className="bg-green-50 dark:bg-green-900/20 p-5 rounded-2xl border border-green-200 dark:border-green-900/50 flex items-center gap-4">
+            <div className="bg-green-50 dark:bg-green-900/20 p-5 rounded-2xl border border-green-200 dark:border-green-900/50 flex flex-wrap items-center gap-4">
               <div className="bg-green-100 dark:bg-green-800/50 p-3 rounded-xl shrink-0">
                 <Target className="w-6 h-6 text-green-600 dark:text-green-400" />
               </div>
-              <div>
+              <div className="overflow-x-auto">
                 <span className="text-xs font-bold text-green-600 dark:text-green-500 uppercase tracking-widest block mb-1">Final Answer</span>
-                <div className="text-xl md:text-2xl font-bold text-green-900 dark:text-green-100">
-                  <Latex>{num.finalAnswer}</Latex> <span className="text-lg font-medium text-green-700 dark:text-green-300 ml-1"><Latex>{num.unit}</Latex></span>
+                <div className="text-xl md:text-2xl font-bold text-green-900 dark:text-green-100 flex items-center gap-2">
+                  <Latex>{`$${num.finalAnswer}$`}</Latex> 
+                  <span className="text-lg font-medium text-green-700 dark:text-green-300">
+                    {num.unit && <Latex>{`$${num.unit}$`}</Latex>}
+                  </span>
                 </div>
               </div>
             </div>

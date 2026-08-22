@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Phase Difference vs Path Difference",
+      "hi": "कलांतर बनाम पथांतर",
+      "hinglish": "Phase vs Path Difference"
+    },
+    "summary": {
+      "en": "The relationship between phase difference ($\\phi$) and path difference ($\\Delta x$) is crucial:\n$\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$\n- For **Constructive Interference** (Bright): $\\Delta x = n\\lambda \\implies \\phi = 2n\\pi$ (Even multiple of $\\pi$).\n- For **Destructive Interference** (Dark): $\\Delta x = (n - \\frac{1}{2})\\lambda \\implies \\phi = (2n - 1)\\pi$ (Odd multiple of $\\pi$).",
+      "hi": "कलांतर ($\\phi$) और पथांतर ($\\Delta x$) के बीच का संबंध बहुत महत्वपूर्ण है:\n$\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$\n- **संपोषी व्यतिकरण** (चमकीला) के लिए: $\\Delta x = n\\lambda \\implies \\phi = 2n\\pi$ ($\\pi$ का सम गुणज)।\n- **विनाशी व्यतिकरण** (काला) के लिए: $\\Delta x = (n - \\frac{1}{2})\\lambda \\implies \\phi = (2n - 1)\\pi$ ($\\pi$ का विषम गुणज)।",
+      "hinglish": "Bright fringe ke liye path difference lambda ka integer multiple (n*lambda) hota hai. Dark ke liye half-integer multiple hota hai."
+    },
+    "quickRecall": [
+      { "en": "Bright: Δx = nλ", "hi": "चमकीला: Δx = nλ" },
+      { "en": "Dark: Δx = (n-0.5)λ", "hi": "काला: Δx = (n-0.5)λ" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Width of Central Maximum in Diffraction",
+      "hi": "विवर्तन में केंद्रीय उच्चिष्ठ की चौड़ाई",
+      "hinglish": "Central Max Width"
+    },
+    "summary": {
+      "en": "In single slit diffraction, the central maximum is the widest and brightest. \nIts linear width is $W = \\frac{2\\lambda D}{a}$.\nThis means if the slit width ($a$) is decreased, the central maximum becomes **wider**. If wavelength ($\\lambda$) increases, it also becomes wider.",
+      "hi": "एकल स्लिट विवर्तन में, केंद्रीय उच्चिष्ठ सबसे चौड़ा और सबसे चमकीला होता है।\nइसकी रेखीय चौड़ाई $W = \\frac{2\\lambda D}{a}$ है।\nइसका अर्थ है कि यदि स्लिट की चौड़ाई ($a$) कम की जाती है, तो केंद्रीय उच्चिष्ठ **अधिक चौड़ा** हो जाता है। यदि तरंगदैर्ध्य ($\\lambda$) बढ़ती है, तो भी यह अधिक चौड़ा हो जाता है।",
+      "hinglish": "Single slit me central max sabse choda hota hai. Agar slit ko patla (a decrease) karenge to central max aur zyada choda ho jayega."
+    },
+    "quickRecall": [
+      { "en": "W = 2λD/a", "hi": "W = 2λD/a" },
+      { "en": "Smaller slit -> Wider max", "hi": "छोटी स्लिट -> चौड़ा उच्चिष्ठ" }
+    ]
+  }
+]

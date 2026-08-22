@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Radius of Nucleus",
+      "hi": "नाभिक की त्रिज्या",
+      "hinglish": "Radius of Nucleus"
+    },
+    "formula": "R = R_0 A^{1/3}",
+    "variables": [
+      { "symbol": "A", "name": { "en": "Mass number", "hi": "द्रव्यमान संख्या" } },
+      { "symbol": "R_0", "name": { "en": "Empirical constant ($\\approx 1.2 \\times 10^{-15} \\text{ m}$)", "hi": "आनुभविक नियतांक ($\\approx 1.2 \\times 10^{-15} \\text{ m}$)" } }
+    ]
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Mass Defect",
+      "hi": "द्रव्यमान क्षति",
+      "hinglish": "Mass Defect"
+    },
+    "formula": "\\Delta m = [Z m_p + (A - Z) m_n] - M",
+    "variables": [
+      { "symbol": "m_p", "name": { "en": "Mass of proton", "hi": "प्रोटॉन का द्रव्यमान" } },
+      { "symbol": "m_n", "name": { "en": "Mass of neutron", "hi": "न्यूट्रॉन का द्रव्यमान" } },
+      { "symbol": "M", "name": { "en": "Actual mass of nucleus", "hi": "नाभिक का वास्तविक द्रव्यमान" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Binding Energy",
+      "hi": "बंधन ऊर्जा",
+      "hinglish": "Binding Energy"
+    },
+    "formula": "BE = \\Delta m \\cdot c^2 = \\Delta m \\text{ (in amu)} \\times 931.5 \\text{ MeV}",
+    "variables": [
+      { "symbol": "BE", "name": { "en": "Binding Energy", "hi": "बंधन ऊर्जा" } }
+    ],
+    "unit": { "en": "MeV", "hi": "MeV" }
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Law of Radioactive Decay",
+      "hi": "रेडियोधर्मी क्षय का नियम",
+      "hinglish": "Radioactive Decay Law"
+    },
+    "formula": "N = N_0 e^{-\\lambda t}",
+    "variables": [
+      { "symbol": "N_0", "name": { "en": "Initial number of nuclei", "hi": "प्रारंभिक नाभिकों की संख्या" } },
+      { "symbol": "N", "name": { "en": "Number of undecayed nuclei at time t", "hi": "समय t पर अविकटित नाभिकों की संख्या" } },
+      { "symbol": "\\lambda", "name": { "en": "Decay constant", "hi": "क्षय नियतांक" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Half-Life",
+      "hi": "अर्ध-आयु",
+      "hinglish": "Half-Life"
+    },
+    "formula": "T_{1/2} = \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda}",
+    "variables": [
+      { "symbol": "T_{1/2}", "name": { "en": "Half-life", "hi": "अर्ध-आयु" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Mean Life / Average Life",
+      "hi": "माध्य आयु / औसत आयु",
+      "hinglish": "Mean Life"
+    },
+    "formula": "\\tau = \\frac{1}{\\lambda} = \\frac{T_{1/2}}{0.693} = 1.44 \\cdot T_{1/2}",
+    "variables": [
+      { "symbol": "\\tau", "name": { "en": "Mean life", "hi": "माध्य आयु" } }
+    ]
+  },
+  {
+    "id": "f7",
+    "title": {
+      "en": "Activity of a Radioactive Substance",
+      "hi": "रेडियोधर्मी पदार्थ की सक्रियता",
+      "hinglish": "Activity"
+    },
+    "formula": "R = -\\frac{dN}{dt} = \\lambda N = R_0 e^{-\\lambda t}",
+    "variables": [
+      { "symbol": "R", "name": { "en": "Activity (rate of decay)", "hi": "सक्रियता (क्षय की दर)" } }
+    ],
+    "unit": { "en": "Becquerel (Bq) or Curie (Ci)", "hi": "बेकरेल (Bq) या क्यूरी (Ci)" }
+  }
+]

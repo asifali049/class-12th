@@ -2,12 +2,133 @@
   {
     "id": "n1",
     "title": {
-      "en": "AC Current",
-      "hi": "प्रत्यावर्ती धारा"
+      "en": "Alternating Current (AC) and Voltage",
+      "hi": "प्रत्यावर्ती धारा (AC) और वोल्टेज",
+      "hinglish": "Alternating Current (AC)"
     },
     "content": {
-      "en": "Current that reverses direction periodically.",
-      "hi": "वह धारा जो समय-समय पर दिशा बदलती है।"
+      "en": "An alternating current/voltage is one whose magnitude changes continuously with time and direction reverses periodically.\nEquations: $I = I_0 \\sin \\omega t$ and $V = V_0 \\sin \\omega t$.\nWhere $I_0$ and $V_0$ are peak (maximum) values, and $\\omega = 2\\pi f$ is the angular frequency.",
+      "hi": "एक प्रत्यावर्ती धारा/वोल्टेज वह है जिसका परिमाण समय के साथ लगातार बदलता है और दिशा समय-समय पर (periodically) उलट जाती है।\nसमीकरण: $I = I_0 \\sin \\omega t$ और $V = V_0 \\sin \\omega t$।\nजहाँ $I_0$ और $V_0$ शिखर (अधिकतम) मान हैं, और $\\omega = 2\\pi f$ कोणीय आवृत्ति है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Mean (Average) Value of AC",
+      "hi": "AC का औसत मान",
+      "hinglish": "Average Value of AC"
+    },
+    "content": {
+      "en": "- Over a **complete cycle**, the average value of AC is zero because the positive half cancels the negative half.\n- Over a **half cycle**, the average value is $I_{avg} = \\frac{2I_0}{\\pi} \\approx 0.637 I_0$.",
+      "hi": "- एक **पूर्ण चक्र (full cycle)** में, AC का औसत मान शून्य होता है क्योंकि धनात्मक आधा भाग ऋणात्मक आधे भाग को निरस्त (cancel) कर देता है।\n- **आधे चक्र (half cycle)** में, औसत मान $I_{avg} = \\frac{2I_0}{\\pi} \\approx 0.637 I_0$ होता है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Root Mean Square (RMS) Value",
+      "hi": "वर्ग माध्य मूल (RMS) मान",
+      "hinglish": "RMS Value of AC"
+    },
+    "content": {
+      "en": "It is that steady (DC) current which would produce the same amount of heat in a given resistor in a given time as is produced by the AC.\n$I_{rms} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0$ and $V_{rms} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0$.\n**Note:** All measuring instruments (AC ammeter, voltmeter) measure RMS values. Standard household voltage (220V) is an RMS value.",
+      "hi": "यह वह दिष्ट (DC) धारा है जो किसी दिए गए प्रतिरोधक में दिए गए समय में उतनी ही ऊष्मा उत्पन्न करेगी जितनी कि AC द्वारा उत्पन्न होती है।\n$I_{rms} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0$ और $V_{rms} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0$।\n**नोट:** सभी मापक यंत्र (AC एमीटर, वोल्टमीटर) RMS मान ही मापते हैं। घरेलू वोल्टेज (220V) भी RMS मान है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Phasor Diagram",
+      "hi": "कला-आरेख (Phasor Diagram)",
+      "hinglish": "Phasor Diagram"
+    },
+    "content": {
+      "en": "A phasor is a vector which rotates about the origin with angular speed $\\omega$. Phasor diagrams are used to represent AC voltage and current as rotating vectors to easily visualize their phase difference.",
+      "hi": "कला-सदिश (phasor) एक ऐसा सदिश है जो मूल बिंदु के परितः $\\omega$ कोणीय चाल से घूर्णन करता है। कला-आरेखों का उपयोग AC वोल्टेज और धारा को घूर्णन सदिशों के रूप में दर्शाने के लिए किया जाता है ताकि उनके कलांतर (phase difference) को आसानी से देखा जा सके।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "AC Circuit with only Resistor (R)",
+      "hi": "केवल प्रतिरोधक (R) युक्त AC परिपथ",
+      "hinglish": "Pure Resistive Circuit"
+    },
+    "content": {
+      "en": "When AC flows through a pure resistor:\n- Voltage and Current are **in phase** (phase difference $\\phi = 0$).\n- Both reach their maxima and minima at the same time.",
+      "hi": "जब AC शुद्ध प्रतिरोधक से होकर बहती है:\n- वोल्टेज और धारा **समान कला (in phase)** में होते हैं (कलांतर $\\phi = 0$)।\n- दोनों एक ही समय पर अपने अधिकतम और न्यूनतम मान तक पहुँचते हैं।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "AC Circuit with only Inductor (L)",
+      "hi": "केवल प्रेरक (L) युक्त AC परिपथ",
+      "hinglish": "Pure Inductive Circuit"
+    },
+    "content": {
+      "en": "When AC flows through a pure inductor:\n- Voltage **leads** the current by $90^\\circ$ ($\\pi/2$).\n- The opposition offered by the inductor is called **Inductive Reactance ($X_L$)**.\n$X_L = \\omega L = 2\\pi f L$.",
+      "hi": "जब AC शुद्ध प्रेरक से होकर बहती है:\n- वोल्टेज धारा से $90^\\circ$ ($\\pi/2$) **अग्रगामी (leads)** होता है।\n- प्रेरक द्वारा प्रस्तुत किए गए विरोध को **प्रेरणिक प्रतिघात (Inductive Reactance, $X_L$)** कहते हैं।\n$X_L = \\omega L = 2\\pi f L$।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "AC Circuit with only Capacitor (C)",
+      "hi": "केवल संधारित्र (C) युक्त AC परिपथ",
+      "hinglish": "Pure Capacitive Circuit"
+    },
+    "content": {
+      "en": "When AC flows through a pure capacitor:\n- Voltage **lags** the current by $90^\\circ$ ($\\pi/2$), i.e., current leads voltage.\n- The opposition offered by the capacitor is called **Capacitive Reactance ($X_C$)**.\n$X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$.",
+      "hi": "जब AC शुद्ध संधारित्र से होकर बहती है:\n- वोल्टेज धारा से $90^\\circ$ ($\\pi/2$) **पश्चगामी (lags)** होता है, यानी धारा वोल्टेज से अग्रगामी होती है।\n- संधारित्र द्वारा प्रस्तुत किए गए विरोध को **धारितीय प्रतिघात (Capacitive Reactance, $X_C$)** कहते हैं।\n$X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "LCR Series Circuit",
+      "hi": "LCR श्रेणी परिपथ",
+      "hinglish": "Series LCR Circuit"
+    },
+    "content": {
+      "en": "When L, C, and R are connected in series:\n- Total opposition is called **Impedance ($Z$)**: $Z = \\sqrt{R^2 + (X_L - X_C)^2}$.\n- The phase difference $\\phi$ is given by $\\tan \\phi = \\frac{X_L - X_C}{R}$.",
+      "hi": "जब L, C और R श्रेणीक्रम में जुड़े होते हैं:\n- कुल विरोध को **प्रतिबाधा (Impedance, $Z$)** कहा जाता है: $Z = \\sqrt{R^2 + (X_L - X_C)^2}$।\n- कलांतर $\\phi$ इस प्रकार दिया जाता है: $\\tan \\phi = \\frac{X_L - X_C}{R}$।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Resonance in LCR Circuit",
+      "hi": "LCR परिपथ में अनुनाद (Resonance)",
+      "hinglish": "Resonance"
+    },
+    "content": {
+      "en": "Resonance occurs when Inductive Reactance equals Capacitive Reactance ($X_L = X_C$).\n- Impedance $Z$ becomes minimum ($Z = R$).\n- Current becomes maximum.\n- **Resonant Frequency:** $f_r = \\frac{1}{2\\pi \\sqrt{LC}}$.\n- Used in tuning mechanism of radios and TVs.",
+      "hi": "अनुनाद तब होता है जब प्रेरणिक प्रतिघात धारितीय प्रतिघात के बराबर हो जाता है ($X_L = X_C$)।\n- प्रतिबाधा $Z$ न्यूनतम हो जाती है ($Z = R$)।\n- धारा अधिकतम हो जाती है।\n- **अनुनादी आवृत्ति:** $f_r = \\frac{1}{2\\pi \\sqrt{LC}}$।\n- इसका उपयोग रेडियो और टीवी के ट्यूनिंग तंत्र में किया जाता है।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Power in AC Circuit",
+      "hi": "AC परिपथ में शक्ति",
+      "hinglish": "Power in AC Circuit"
+    },
+    "content": {
+      "en": "Average power dissipated in an AC circuit is:\n$P_{avg} = V_{rms} I_{rms} \\cos \\phi$\nWhere $\\cos \\phi$ is the **Power Factor**.\n- For pure R, $\\cos \\phi = 1$ (Maximum power).\n- For pure L or pure C, $\\cos \\phi = 0$ (Zero power, called **Wattless Current**).",
+      "hi": "AC परिपथ में क्षय होने वाली औसत शक्ति है:\n$P_{avg} = V_{rms} I_{rms} \\cos \\phi$\nजहाँ $\\cos \\phi$ **शक्ति गुणांक (Power Factor)** है।\n- शुद्ध R के लिए, $\\cos \\phi = 1$ (अधिकतम शक्ति)।\n- शुद्ध L या शुद्ध C के लिए, $\\cos \\phi = 0$ (शून्य शक्ति, इसे **वाटहीन धारा (Wattless Current)** कहते हैं)।"
+    }
+  },
+  {
+    "id": "n11",
+    "title": {
+      "en": "Transformer",
+      "hi": "ट्रांसफार्मर",
+      "hinglish": "Transformer"
+    },
+    "content": {
+      "en": "A device used to increase (step-up) or decrease (step-down) alternating voltage based on mutual induction.\n- $\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s} = k$ (Transformation ratio).\n- **Losses:** Copper loss, Iron loss (Eddy currents), Hysteresis loss, Flux leakage.",
+      "hi": "यह अन्योन्य प्रेरण (mutual induction) के सिद्धांत पर आधारित एक उपकरण है जिसका उपयोग प्रत्यावर्ती वोल्टेज को बढ़ाने (step-up) या घटाने (step-down) के लिए किया जाता है।\n- $\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s} = k$ (परिणमन अनुपात)।\n- **हानियाँ:** ताम्र हानि, लौह हानि (भंवर धाराएँ), शैथिल्य (Hysteresis) हानि, फ्लक्स क्षरण।"
     }
   }
 ]

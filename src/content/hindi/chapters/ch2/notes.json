@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction to काव्यांजलि (Poetry)",
-      "hi": "काव्यांजलि (Poetry) का परिचय"
+      "en": "पवन दूतिका (अयोध्यासिंह उपाध्याय 'हरिऔध')",
+      "hi": "पवन दूतिका (अयोध्यासिंह उपाध्याय 'हरिऔध')"
     },
     "content": {
-      "en": "This chapter covers the basics of काव्यांजलि (Poetry).",
-      "hi": "यह अध्याय काव्यांजलि (Poetry) के मूल सिद्धांतों को शामिल करता है।"
+      "en": "In 'Pawan Dootika', Radha sends her message to Lord Krishna in Mathura through the wind (Pawan). She describes her sorrow and requests the wind to carry her message gently, ensuring Krishna understands her pain.",
+      "hi": "'पवन दूतिका' में, राधा मथुरा में भगवान कृष्ण को हवा (पवन) के माध्यम से अपना संदेश भेजती हैं। वह अपने दुख का वर्णन करती हैं और पवन से अनुरोध करती हैं कि वह उनके संदेश को धीरे से ले जाए, ताकि कृष्ण उनके दर्द को समझ सकें।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "कैकेयी का अनुताप (मैथिलीशरण गुप्त)",
+      "hi": "कैकेयी का अनुताप (मैथिलीशरण गुप्त)"
+    },
+    "content": {
+      "en": "This poem from 'Saket' describes Kaikeyi's deep repentance after Lord Rama is exiled. She realizes her mistake and pleads with Rama to return to Ayodhya, expressing her profound guilt and sorrow.",
+      "hi": "'साकेत' से ली गई यह कविता भगवान राम के वनवास के बाद कैकेयी के गहरे पश्चाताप का वर्णन करती है। वह अपनी गलती का एहसास करती हैं और राम से अयोध्या लौटने की विनती करती हैं, अपने गहरे अपराधबोध और दुख को व्यक्त करती हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "श्रद्धा-मनु (जयशंकर प्रसाद)",
+      "hi": "श्रद्धा-मनु (जयशंकर प्रसाद)"
+    },
+    "content": {
+      "en": "An excerpt from the epic 'Kamayani', this poem illustrates the meeting of Shraddha and Manu after the great deluge (Pralay). Shraddha inspires a despondent Manu with hope, urging him to rebuild humanity.",
+      "hi": "महाकाव्य 'कामायनी' का एक अंश, यह कविता प्रलय के बाद श्रद्धा और मनु के मिलन को दर्शाती है। श्रद्धा एक निराश मनु को आशा से प्रेरित करती हैं, और उनसे मानवता के पुनर्निर्माण का आग्रह करती हैं।"
     }
   }
 ]

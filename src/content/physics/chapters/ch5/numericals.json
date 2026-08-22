@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "easy",
+    "question": {
+      "en": "A short bar magnet placed with its axis at 30° with a uniform external magnetic field of 0.25 T experiences a torque of magnitude equal to 4.5 × 10⁻² J. What is the magnitude of magnetic moment of the magnet?",
+      "hi": "एक छोटा छड़ चुंबक, जिसकी अक्ष 0.25 T के एकसमान बाह्य चुंबकीय क्षेत्र के साथ 30° के कोण पर है, 4.5 × 10⁻² J परिमाण के बल आघूर्ण का अनुभव करता है। चुंबक के चुंबकीय आघूर्ण का परिमाण क्या है?",
+      "hinglish": "Ek short bar magnet 0.25T ke field me 30 degree par rakha hai. Uspe 4.5 x 10^-2 J ka torque lag raha hai. Uska magnetic moment kya hoga?"
+    },
+    "given": {
+      "en": "$\\theta = 30^\\circ$\n$B = 0.25 \\text{ T}$\n$\\tau = 4.5 \\times 10^{-2} \\text{ J}$",
+      "hi": "$\\theta = 30^\\circ$\n$B = 0.25 \\text{ T}$\n$\\tau = 4.5 \\times 10^{-2} \\text{ J}$"
+    },
+    "required": {
+      "en": "Magnetic moment $m$",
+      "hi": "चुंबकीय आघूर्ण $m$"
+    },
+    "formula": "\\tau = m B \\sin \\theta \\implies m = \\frac{\\tau}{B \\sin \\theta}",
+    "substitution": "m = \\frac{4.5 \\times 10^{-2}}{0.25 \\times \\sin 30^\\circ}",
+    "calculation": "m = \\frac{4.5 \\times 10^{-2}}{0.25 \\times 0.5}\nm = \\frac{4.5 \\times 10^{-2}}{0.125}\nm = 36 \\times 10^{-2} = 0.36 \\text{ J/T}",
+    "finalAnswer": "0.36",
+    "unit": "J/T"
+  }
+]

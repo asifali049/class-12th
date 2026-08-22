@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Radius of nth Orbit (Bohr Model)",
+      "hi": "nवीं कक्षा की त्रिज्या (बोर मॉडल)",
+      "hinglish": "Radius of nth orbit"
+    },
+    "given": {
+      "en": "An electron of mass $m$ and charge $e$ revolves around a nucleus of charge $+Ze$ in a circular orbit of radius $r$ with velocity $v$.",
+      "hi": "$m$ द्रव्यमान और $e$ आवेश वाला एक इलेक्ट्रॉन, $+Ze$ आवेश वाले नाभिक के चारों ओर $r$ त्रिज्या की वृत्ताकार कक्षा में $v$ वेग से घूमता है।"
+    },
+    "toFind": {
+      "en": "Expression for the radius $r_n$ of the $n^{th}$ orbit.",
+      "hi": "$n$वीं कक्षा की त्रिज्या $r_n$ का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Electrostatic Force = Centripetal Force", "hi": "चरण 1: स्थिरवैद्युत बल = अभिकेंद्र बल" },
+        "content": {
+          "en": "The necessary centripetal force is provided by the electrostatic force of attraction between the nucleus and the electron.\n$\\frac{1}{4\\pi\\epsilon_0} \\frac{(Ze)(e)}{r^2} = \\frac{mv^2}{r}$\n$\\implies mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{Ze^2}{r} \\quad \\text{--- (1)}$",
+          "hi": "आवश्यक अभिकेंद्र बल, नाभिक और इलेक्ट्रॉन के बीच स्थिरवैद्युत आकर्षण बल द्वारा प्रदान किया जाता है।\n$\\frac{1}{4\\pi\\epsilon_0} \\frac{(Ze)(e)}{r^2} = \\frac{mv^2}{r}$\n$\\implies mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{Ze^2}{r} \\quad \\text{--- (1)}$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Bohr's Quantization Condition", "hi": "चरण 2: बोर की क्वांटीकरण शर्त" },
+        "content": {
+          "en": "According to Bohr's second postulate, angular momentum is quantized:\n$mvr = \\frac{nh}{2\\pi}$\n$\\implies v = \\frac{nh}{2\\pi mr} \\quad \\text{--- (2)}$",
+          "hi": "बोर की दूसरी अभिगृहीति (postulate) के अनुसार, कोणीय संवेग क्वांटीकृत (quantized) होता है:\n$mvr = \\frac{nh}{2\\pi}$\n$\\implies v = \\frac{nh}{2\\pi mr} \\quad \\text{--- (2)}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Substituting v in equation (1)", "hi": "चरण 3: समीकरण (1) में v का मान रखना" },
+        "content": {
+          "en": "Substitute the value of $v$ from (2) into (1):\n$m \\left(\\frac{nh}{2\\pi mr}\\right)^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{Ze^2}{r}$\n$\\frac{m n^2 h^2}{4\\pi^2 m^2 r^2} = \\frac{Ze^2}{4\\pi\\epsilon_0 r}$\n$\\frac{n^2 h^2}{\\pi m r} = \\frac{Ze^2}{\\epsilon_0}$",
+          "hi": "समीकरण (2) से $v$ का मान (1) में रखने पर:\n$m \\left(\\frac{nh}{2\\pi mr}\\right)^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{Ze^2}{r}$\n$\\frac{m n^2 h^2}{4\\pi^2 m^2 r^2} = \\frac{Ze^2}{4\\pi\\epsilon_0 r}$\n$\\frac{n^2 h^2}{\\pi m r} = \\frac{Ze^2}{\\epsilon_0}$"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Solving for r", "hi": "चरण 4: r के लिए हल करना" },
+        "content": {
+          "en": "Rearranging the terms to find $r$ (which is $r_n$ for the $n^{th}$ orbit):\n$r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$",
+          "hi": "पदों को पुनर्व्यवस्थित करके $r$ (जो $n$वीं कक्षा के लिए $r_n$ है) ज्ञात करना:\n$r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$"
+        }
+      }
+    ],
+    "finalResult": "$r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$ (For Hydrogen Z=1, $r_n \\propto n^2$)",
+    "examTip": {
+      "en": "Notice that $r_n \\propto n^2$. The spacing between consecutive orbits increases as we move further from the nucleus.",
+      "hi": "ध्यान दें कि $r_n \\propto n^2$। जैसे-जैसे हम नाभिक से दूर जाते हैं, लगातार कक्षाओं के बीच की दूरी बढ़ती जाती है।"
+    }
+  }
+]

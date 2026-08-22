@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Lens Maker's Formula",
+      "hi": "लेंस निर्माता सूत्र",
+      "hinglish": "Lens Maker's Formula"
+    },
+    "given": {
+      "en": "A thin biconvex lens of refractive index $n_2$ placed in a medium of refractive index $n_1$ ($n_2 > n_1$). Radii of curvature are $R_1$ and $R_2$.",
+      "hi": "$n_1$ अपवर्तनांक वाले माध्यम में रखा गया $n_2$ अपवर्तनांक वाला एक पतला द्वि-उत्तल लेंस ($n_2 > n_1$)। वक्रता त्रिज्याएँ $R_1$ और $R_2$ हैं।"
+    },
+    "toFind": {
+      "en": "Derive the Lens Maker's formula.",
+      "hi": "लेंस निर्माता सूत्र व्युत्पन्न करें।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Refraction at first surface", "hi": "चरण 1: पहली सतह पर अपवर्तन" },
+        "content": {
+          "en": "For refraction at the first spherical surface (radius $R_1$):\nThe object is at $O$ (distance $u$). It forms a virtual image at $I_1$ (distance $v_1$).\nUsing the formula for refraction at a spherical surface:\n$\\frac{n_2}{v_1} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R_1} \\quad \\text{--- (1)}$",
+          "hi": "पहली गोलीय सतह (त्रिज्या $R_1$) पर अपवर्तन के लिए:\nवस्तु $O$ (दूरी $u$) पर है। यह $I_1$ (दूरी $v_1$) पर एक आभासी प्रतिबिंब बनाती है।\nगोलीय सतह पर अपवर्तन के सूत्र का उपयोग करने पर:\n$\\frac{n_2}{v_1} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R_1} \\quad \\text{--- (1)}$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Refraction at second surface", "hi": "चरण 2: दूसरी सतह पर अपवर्तन" },
+        "content": {
+          "en": "The virtual image $I_1$ acts as a virtual object for the second surface (radius $R_2$).\nThe final image is formed at $I$ (distance $v$).\nFor refraction from denser ($n_2$) to rarer ($n_1$) medium:\n$\\frac{n_1}{v} - \\frac{n_2}{v_1} = \\frac{n_1 - n_2}{R_2} = -\\frac{n_2 - n_1}{R_2} \\quad \\text{--- (2)}$",
+          "hi": "आभासी प्रतिबिंब $I_1$ दूसरी सतह (त्रिज्या $R_2$) के लिए एक आभासी वस्तु के रूप में कार्य करता है।\nअंतिम प्रतिबिंब $I$ (दूरी $v$) पर बनता है।\nसघन ($n_2$) से विरल ($n_1$) माध्यम में अपवर्तन के लिए:\n$\\frac{n_1}{v} - \\frac{n_2}{v_1} = \\frac{n_1 - n_2}{R_2} = -\\frac{n_2 - n_1}{R_2} \\quad \\text{--- (2)}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Adding the equations", "hi": "चरण 3: समीकरणों को जोड़ना" },
+        "content": {
+          "en": "Adding equations (1) and (2):\n$\\left(\\frac{n_2}{v_1} - \\frac{n_1}{u}\\right) + \\left(\\frac{n_1}{v} - \\frac{n_2}{v_1}\\right) = \\frac{n_2 - n_1}{R_1} - \\frac{n_2 - n_1}{R_2}$\n$\\frac{n_1}{v} - \\frac{n_1}{u} = (n_2 - n_1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$\nDividing by $n_1$:\n$\\frac{1}{v} - \\frac{1}{u} = \\left( \\frac{n_2}{n_1} - 1 \\right) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$",
+          "hi": "समीकरण (1) और (2) को जोड़ने पर:\n$\\left(\\frac{n_2}{v_1} - \\frac{n_1}{u}\\right) + \\left(\\frac{n_1}{v} - \\frac{n_2}{v_1}\\right) = \\frac{n_2 - n_1}{R_1} - \\frac{n_2 - n_1}{R_2}$\n$\\frac{n_1}{v} - \\frac{n_1}{u} = (n_2 - n_1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$\n$n_1$ से विभाजित करने पर:\n$\\frac{1}{v} - \\frac{1}{u} = \\left( \\frac{n_2}{n_1} - 1 \\right) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Using lens formula definition", "hi": "चरण 4: लेंस सूत्र की परिभाषा का उपयोग" },
+        "content": {
+          "en": "If object is at infinity ($u = \\infty$), image is formed at focus ($v = f$).\n$\\frac{1}{f} - \\frac{1}{\\infty} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$\n$\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$",
+          "hi": "यदि वस्तु अनंत पर हो ($u = \\infty$), तो प्रतिबिंब फोकस पर बनता है ($v = f$)।\n$\\frac{1}{f} - \\frac{1}{\\infty} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$\n$\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$"
+        }
+      }
+    ],
+    "finalResult": "$\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$",
+    "examTip": {
+      "en": "Always use sign convention properly: For biconvex lens, $R_1$ is positive and $R_2$ is negative.",
+      "hi": "हमेशा चिह्न परिपाटी (sign convention) का सही उपयोग करें: द्वि-उत्तल लेंस के लिए, $R_1$ धनात्मक और $R_2$ ऋणात्मक होता है।"
+    }
+  }
+]

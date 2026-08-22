@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following materials is most suitable for making a permanent magnet?",
+      "hi": "स्थायी चुंबक बनाने के लिए निम्नलिखित में से कौन सा पदार्थ सबसे उपयुक्त है?",
+      "hinglish": "Permanent magnet banane ke liye inme se kya sabse best hai?"
+    },
+    "options": [
+      { "en": "Soft iron", "hi": "नरम लोहा" },
+      { "en": "Steel", "hi": "स्टील (इस्पात)" },
+      { "en": "Copper", "hi": "तांबा" },
+      { "en": "Aluminium", "hi": "एल्युमिनियम" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Steel has high retentivity and high coercivity, meaning it retains its magnetism well and is not easily demagnetized. Soft iron is used for electromagnets.",
+      "hi": "स्टील की धारणशीलता (retentivity) और निग्राहिता (coercivity) उच्च होती है, जिसका अर्थ है कि यह अपने चुंबकत्व को अच्छी तरह से बनाए रखता है और आसानी से विचुंबकित नहीं होता है। नरम लोहे का उपयोग विद्युत चुंबक के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "What happens to a ferromagnetic substance when it is heated above its Curie temperature?",
+      "hi": "जब किसी लौह-चुंबकीय पदार्थ को उसके क्यूरी ताप (Curie temperature) से ऊपर गर्म किया जाता है, तो क्या होता है?",
+      "hinglish": "Ferromagnetic substance ko Curie temperature se upar heat karne par kya hota hai?"
+    },
+    "idealAnswer": {
+      "en": "When a ferromagnetic substance is heated above its Curie temperature, the thermal agitation overcomes the alignment of magnetic domains. The domain structure breaks down, and the substance **becomes paramagnetic**.",
+      "hi": "जब किसी लौह-चुंबकीय पदार्थ को उसके क्यूरी ताप से ऊपर गर्म किया जाता है, तो ऊष्मीय विक्षोभ (thermal agitation) चुंबकीय डोमेन के संरेखण को नष्ट कर देता है। डोमेन संरचना टूट जाती है, और वह पदार्थ **अनुचुंबकीय (paramagnetic) बन जाता है**।"
+    },
+    "keywords": [
+      { "en": "becomes paramagnetic", "hi": "अनुचुंबकीय बन जाता है" },
+      { "en": "domain structure breaks", "hi": "डोमेन संरचना टूट जाती है" }
+    ]
+  }
+]

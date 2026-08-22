@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A wire of resistance $4 \\Omega$ is stretched to twice its original length. What is its new resistance?",
+      "hi": "$4 \\Omega$ प्रतिरोध के एक तार को खींचकर उसकी मूल लंबाई का दोगुना कर दिया जाता है। इसका नया प्रतिरोध क्या होगा?",
+      "hinglish": "4 Ω resistance wale wire ko khinch kar length double kar di gayi. Naya resistance kya hoga?"
+    },
+    "given": {
+      "en": "Initial resistance $R_1 = 4 \\Omega$\nNew length $l_2 = 2l_1$",
+      "hi": "प्रारंभिक प्रतिरोध $R_1 = 4 \\Omega$\nनई लंबाई $l_2 = 2l_1$"
+    },
+    "required": {
+      "en": "New Resistance ($R_2$)",
+      "hi": "नया प्रतिरोध ($R_2$)"
+    },
+    "formula": "R = \\rho \\frac{l}{A} \\quad \\text{and Volume remains constant } (A_1 l_1 = A_2 l_2)",
+    "substitution": "A_2 = \\frac{A_1 l_1}{l_2} = \\frac{A_1 l_1}{2l_1} = \\frac{A_1}{2}\nR_2 = \\rho \\frac{l_2}{A_2} = \\rho \\frac{2l_1}{A_1 / 2}",
+    "calculation": "R_2 = 4 \\left( \\rho \\frac{l_1}{A_1} \\right)\nR_2 = 4 \\times R_1\nR_2 = 4 \\times 4 = 16 \\Omega",
+    "finalAnswer": "16",
+    "unit": "Ω",
+    "examTip": {
+      "en": "Shortcut: If a wire is stretched to 'n' times its length, its new resistance becomes n² times the original resistance. Here n=2, so 2² * 4 = 16 Ω.",
+      "hi": "शॉर्टकट: यदि किसी तार को उसकी लंबाई का 'n' गुना खींचा जाता है, तो उसका नया प्रतिरोध मूल प्रतिरोध का n² गुना हो जाता है। यहाँ n=2, इसलिए 2² * 4 = 16 Ω।"
+    }
+  },
+  {
+    "id": "num2",
+    "difficulty": "easy",
+    "question": {
+      "en": "The storage battery of a car has an emf of 12 V. If the internal resistance of the battery is 0.4 Ω, what is the maximum current that can be drawn from the battery?",
+      "hi": "एक कार की संचायक बैटरी (storage battery) का विद्युत वाहक बल 12 V है। यदि बैटरी का आंतरिक प्रतिरोध 0.4 Ω है, तो बैटरी से ली जा सकने वाली अधिकतम धारा क्या है?",
+      "hinglish": "Ek car ki battery ka EMF 12 V hai aur internal resistance 0.4 Ω hai. Maximum current kitni nikal sakte hain?"
+    },
+    "given": {
+      "en": "EMF ($E$) = $12 \\text{ V}$\nInternal resistance ($r$) = $0.4 \\Omega$",
+      "hi": "EMF ($E$) = $12 \\text{ V}$\nआंतरिक प्रतिरोध ($r$) = $0.4 \\Omega$"
+    },
+    "required": {
+      "en": "Maximum current ($I_{max}$)",
+      "hi": "अधिकतम धारा ($I_{max}$)"
+    },
+    "formula": "I_{max} = \\frac{E}{r}",
+    "substitution": "I_{max} = \\frac{12}{0.4}",
+    "calculation": "I_{max} = \\frac{120}{4} = 30 \\text{ A}",
+    "finalAnswer": "30",
+    "unit": "A"
+  }
+]

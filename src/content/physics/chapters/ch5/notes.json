@@ -2,12 +2,121 @@
   {
     "id": "n1",
     "title": {
-      "en": "Earth's Magnetism",
-      "hi": "पृथ्वी का चुंबकत्व"
+      "en": "Bar Magnet and its Properties",
+      "hi": "छड़ चुंबक और उसके गुण",
+      "hinglish": "Bar Magnet and properties"
     },
     "content": {
-      "en": "Earth behaves as a giant magnet.",
-      "hi": "पृथ्वी एक विशाल चुंबक की तरह व्यवहार करती है।"
+      "en": "A bar magnet is a rectangular or cylindrical piece of magnetic material with two poles (North and South).\n**Properties:**\n1. **Attractive Property:** Attracts magnetic materials like iron, cobalt, nickel.\n2. **Directive Property:** When freely suspended, it aligns itself in the geographic North-South direction.\n3. **Like poles repel, unlike poles attract.**\n4. **Magnetic poles always exist in pairs** (Monopoles do not exist).",
+      "hi": "छड़ चुंबक (Bar Magnet) चुंबकीय पदार्थ का एक आयताकार या बेलनाकार टुकड़ा होता है जिसके दो ध्रुव (उत्तरी और दक्षिणी) होते हैं।\n**गुण:**\n1. **आकर्षक गुण:** लोहे, कोबाल्ट, निकल जैसे चुंबकीय पदार्थों को आकर्षित करता है।\n2. **दैशिक गुण (Directive Property):** स्वतंत्रतापूर्वक लटकाए जाने पर यह स्वयं को भौगोलिक उत्तर-दक्षिण दिशा में संरेखित कर लेता है।\n3. **सजातीय ध्रुव प्रतिकर्षित करते हैं, विजातीय ध्रुव आकर्षित करते हैं।**\n4. **चुंबकीय ध्रुव हमेशा युग्म (जोड़े) में मौजूद होते हैं** (एकल ध्रुव का अस्तित्व नहीं होता)।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Magnetic Field Lines",
+      "hi": "चुंबकीय क्षेत्र रेखाएँ",
+      "hinglish": "Magnetic Field Lines"
+    },
+    "content": {
+      "en": "These are imaginary lines representing the magnetic field. \n**Properties:**\n1. They form continuous closed loops (start from North pole, enter South pole externally, and go from South to North internally).\n2. The tangent at any point gives the direction of the magnetic field.\n3. Two magnetic field lines never intersect each other.\n4. Crowded lines represent a strong magnetic field.",
+      "hi": "ये चुंबकीय क्षेत्र को निरूपित करने वाली काल्पनिक रेखाएँ हैं।\n**गुण:**\n1. ये सतत बंद लूप (continuous closed loops) बनाती हैं (बाहर उत्तर ध्रुव से निकलकर दक्षिण में जाती हैं, और भीतर दक्षिण से उत्तर की ओर)।\n2. किसी भी बिंदु पर खींची गई स्पर्शरेखा चुंबकीय क्षेत्र की दिशा बताती है.\n3. दो चुंबकीय क्षेत्र रेखाएँ कभी भी एक-दूसरे को नहीं काटती हैं।\n4. पास-पास स्थित रेखाएँ प्रबल चुंबकीय क्षेत्र को दर्शाती हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Magnetic Dipole Moment (m)",
+      "hi": "चुंबकीय द्विध्रुव आघूर्ण (m)",
+      "hinglish": "Magnetic Dipole Moment"
+    },
+    "content": {
+      "en": "It is the product of pole strength ($q_m$) and the magnetic length ($2l$) of the magnet.\n$m = q_m \\times 2l$\n- It is a vector quantity directed from South pole to North pole.\n- **SI Unit:** $\\text{Am}^2$ or $\\text{J/T}$.",
+      "hi": "यह चुंबक की ध्रुव प्रबलता ($q_m$) और चुंबकीय लंबाई ($2l$) का गुणनफल है।\n$m = q_m \\times 2l$\n- यह एक सदिश राशि है जिसकी दिशा दक्षिणी ध्रुव से उत्तरी ध्रुव की ओर होती है।\n- **SI इकाई:** $\\text{Am}^2$ या $\\text{J/T}$।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Current Loop as a Magnetic Dipole",
+      "hi": "चुंबकीय द्विध्रुव के रूप में धारा लूप",
+      "hinglish": "Current loop as magnetic dipole"
+    },
+    "content": {
+      "en": "A current-carrying planar loop acts as a magnetic dipole. Its magnetic dipole moment is:\n$m = N I A$\nWhere $N$ is number of turns, $I$ is current, and $A$ is area.\nDirection is given by the Right-Hand Rule.",
+      "hi": "एक धारावाही समतलीय लूप एक चुंबकीय द्विध्रुव के रूप में कार्य करता है। इसका चुंबकीय द्विध्रुव आघूर्ण है:\n$m = N I A$\nजहाँ $N$ फेरों की संख्या, $I$ धारा, और $A$ क्षेत्रफल है।\nदिशा दाएँ हाथ के नियम द्वारा दी जाती है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Earth's Magnetism",
+      "hi": "पृथ्वी का चुंबकत्व (भू-चुंबकत्व)",
+      "hinglish": "Earth's Magnetism"
+    },
+    "content": {
+      "en": "Earth behaves like a huge magnet. The magnetic field at any point on Earth is defined by three elements:\n1. **Magnetic Declination ($\\theta$):** Angle between geographic meridian and magnetic meridian.\n2. **Angle of Dip or Inclination ($\\delta$):** Angle that the total magnetic field of Earth makes with the horizontal surface.\n3. **Horizontal Component ($B_H$):** The component of Earth's total magnetic field along the horizontal direction. $B_H = B_e \\cos \\delta$.",
+      "hi": "पृथ्वी एक विशाल चुंबक की तरह व्यवहार करती है। पृथ्वी पर किसी बिंदु पर चुंबकीय क्षेत्र को तीन तत्वों द्वारा परिभाषित किया जाता है:\n1. **दिक्पात का कोण (Magnetic Declination, $\\theta$):** भौगोलिक याम्योत्तर (meridian) और चुंबकीय याम्योत्तर के बीच का कोण।\n2. **नति कोण या नमन कोण (Angle of Dip, $\\delta$):** वह कोण जो पृथ्वी का कुल चुंबकीय क्षेत्र क्षैतिज सतह के साथ बनाता है।\n3. **क्षैतिज घटक (Horizontal Component, $B_H$):** क्षैतिज दिशा के अनुदिश पृथ्वी के कुल चुंबकीय क्षेत्र का घटक। $B_H = B_e \\cos \\delta$।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Magnetisation and Magnetic Intensity",
+      "hi": "चुंबकन और चुंबकीय तीव्रता",
+      "hinglish": "Magnetisation & Magnetic Intensity"
+    },
+    "content": {
+      "en": "- **Magnetisation ($M$):** Net magnetic moment per unit volume of a material. $M = \\frac{m_{net}}{V}$.\n- **Magnetic Intensity ($H$):** It is the degree to which an external magnetic field can magnetise a material. $H = \\frac{B_0}{\\mu_0} = nI$.\n- The relation between them is $B = \\mu_0 (H + M)$.",
+      "hi": "- **चुंबकन (Magnetisation, $M$):** किसी पदार्थ के प्रति एकांक आयतन में उत्पन्न नेट चुंबकीय आघूर्ण। $M = \\frac{m_{net}}{V}$।\n- **चुंबकीय तीव्रता (Magnetic Intensity, $H$):** यह वह सीमा है जहाँ तक कोई बाह्य चुंबकीय क्षेत्र किसी पदार्थ को चुंबकित कर सकता है। $H = \\frac{B_0}{\\mu_0} = nI$।\n- इनके बीच का संबंध है $B = \\mu_0 (H + M)$।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Magnetic Susceptibility (χ) and Permeability (μ)",
+      "hi": "चुंबकीय प्रवृत्ति (χ) और चुंबकशीलता (μ)",
+      "hinglish": "Magnetic Susceptibility & Permeability"
+    },
+    "content": {
+      "en": "- **Magnetic Susceptibility ($\\chi$):** It measures how easily a magnetic material can be magnetized. $M = \\chi H$.\n- **Relative Permeability ($\\mu_r$):** $\\mu_r = 1 + \\chi$.\n- Materials are classified into Diamagnetic, Paramagnetic, and Ferromagnetic based on $\\chi$.",
+      "hi": "- **चुंबकीय प्रवृत्ति (Magnetic Susceptibility, $\\chi$):** यह मापती है कि किसी चुंबकीय पदार्थ को कितनी आसानी से चुंबकित किया जा सकता है। $M = \\chi H$।\n- **आपेक्षिक चुंबकशीलता (Relative Permeability, $\\mu_r$):** $\\mu_r = 1 + \\chi$।\n- $\\chi$ के आधार पर पदार्थों को प्रतिचुंबकीय (Diamagnetic), अनुचुंबकीय (Paramagnetic), और लौह-चुंबकीय (Ferromagnetic) में वर्गीकृत किया जाता है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Diamagnetic Materials",
+      "hi": "प्रतिचुंबकीय पदार्थ (Diamagnetic)",
+      "hinglish": "Diamagnetic Materials"
+    },
+    "content": {
+      "en": "These materials are weakly repelled by a magnet. \n- $\\chi$ is small and negative ($-1 \\le \\chi < 0$).\n- $\\mu_r < 1$.\n- They move from stronger to weaker parts of a magnetic field.\n- Examples: Bismuth, Copper, Water, Gold.",
+      "hi": "ये पदार्थ चुंबक द्वारा क्षीण रूप से प्रतिकर्षित (repel) होते हैं।\n- $\\chi$ का मान बहुत कम और ऋणात्मक (negative) होता है ($-1 \\le \\chi < 0$)।\n- $\\mu_r < 1$।\n- ये चुंबकीय क्षेत्र के प्रबल भाग से दुर्बल भाग की ओर गति करते हैं।\n- उदाहरण: बिस्मथ, तांबा, पानी, सोना।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Paramagnetic Materials",
+      "hi": "अनुचुंबकीय पदार्थ (Paramagnetic)",
+      "hinglish": "Paramagnetic Materials"
+    },
+    "content": {
+      "en": "These materials are weakly attracted by a magnet.\n- $\\chi$ is small and positive ($\\chi > 0$).\n- $\\mu_r > 1$.\n- They move from weaker to stronger parts of a magnetic field.\n- Examples: Aluminium, Sodium, Calcium, Oxygen.",
+      "hi": "ये पदार्थ चुंबक द्वारा क्षीण रूप से आकर्षित होते हैं।\n- $\\chi$ का मान कम और धनात्मक (positive) होता है ($\\chi > 0$)।\n- $\\mu_r > 1$।\n- ये चुंबकीय क्षेत्र के दुर्बल भाग से प्रबल भाग की ओर गति करते हैं।\n- उदाहरण: एल्युमिनियम, सोडियम, कैल्शियम, ऑक्सीजन।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Ferromagnetic Materials",
+      "hi": "लौह-चुंबकीय पदार्थ (Ferromagnetic)",
+      "hinglish": "Ferromagnetic Materials"
+    },
+    "content": {
+      "en": "These materials are strongly attracted by a magnet.\n- $\\chi$ is very large and positive ($\\chi \\gg 1$).\n- $\\mu_r \\gg 1$.\n- They easily get permanently magnetized.\n- **Curie's Law:** Above a certain temperature (Curie temperature), a ferromagnetic material becomes paramagnetic.\n- Examples: Iron, Cobalt, Nickel.",
+      "hi": "ये पदार्थ चुंबक द्वारा प्रबलता से आकर्षित होते हैं।\n- $\\chi$ का मान बहुत अधिक और धनात्मक होता है ($\\chi \\gg 1$)।\n- $\\mu_r \\gg 1$।\n- ये आसानी से स्थायी रूप से चुंबकित हो जाते हैं।\n- **क्यूरी का नियम:** एक निश्चित ताप (क्यूरी ताप) के ऊपर, लौह-चुंबकीय पदार्थ अनुचुंबकीय बन जाता है।\n- उदाहरण: लोहा, कोबाल्ट, निकल।"
     }
   }
 ]

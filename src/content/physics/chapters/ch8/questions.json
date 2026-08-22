@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following electromagnetic waves has the highest frequency?",
+      "hi": "निम्नलिखित में से किस विद्युत चुम्बकीय तरंग की आवृत्ति सबसे अधिक है?",
+      "hinglish": "Inme se kis EM wave ki frequency sabse zyada hai?"
+    },
+    "options": [
+      { "en": "Radio waves", "hi": "रेडियो तरंगें" },
+      { "en": "Infrared", "hi": "अवरक्त (Infrared)" },
+      { "en": "X-rays", "hi": "एक्स-किरणें" },
+      { "en": "Gamma rays", "hi": "गामा किरणें" }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "Gamma rays have the highest frequency and lowest wavelength in the electromagnetic spectrum.",
+      "hi": "विद्युत चुम्बकीय स्पेक्ट्रम में गामा किरणों की आवृत्ति सबसे अधिक और तरंगदैर्ध्य सबसे कम होती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Welders wear special glass goggles or face masks with glass windows to protect their eyes from electromagnetic radiations. Name the radiations and write the range of their frequency.",
+      "hi": "वेल्डर (welders) अपनी आँखों को विद्युत चुम्बकीय विकिरणों से बचाने के लिए विशेष ग्लास गॉगल्स या ग्लास विंडो वाले फेस मास्क पहनते हैं। उन विकिरणों का नाम बताइए और उनकी आवृत्ति की सीमा (range) लिखिए।",
+      "hinglish": "Welders jo goggles pehnte hain wo kis radiation se bachane ke liye hote hain?"
+    },
+    "idealAnswer": {
+      "en": "Welders wear special glass goggles to protect their eyes from **Ultraviolet (UV) radiations** produced during welding.\nThe frequency range of UV radiations is approximately $10^{15} \\text{ Hz}$ to $10^{17} \\text{ Hz}$ (wavelength range $400 \\text{ nm}$ to $1 \\text{ nm}$).",
+      "hi": "वेल्डर अपनी आँखों को वेल्डिंग के दौरान उत्पन्न होने वाली **पराबैंगनी (UV) विकिरणों** से बचाने के लिए विशेष ग्लास गॉगल्स पहनते हैं।\nUV विकिरणों की आवृत्ति की सीमा (range) लगभग $10^{15} \\text{ Hz}$ से $10^{17} \\text{ Hz}$ होती है (तरंगदैर्ध्य की सीमा $400 \\text{ nm}$ से $1 \\text{ nm}$)।"
+    },
+    "keywords": [
+      { "en": "Ultraviolet", "hi": "पराबैंगनी" },
+      { "en": "UV", "hi": "यूवी" },
+      { "en": "10^15 to 10^17 Hz", "hi": "10^15 से 10^17 Hz" }
+    ]
+  }
+]

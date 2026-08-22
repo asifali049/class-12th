@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Mass Action Law (for Semiconductors)",
+      "hi": "द्रव्यमान क्रिया का नियम (अर्धचालकों के लिए)",
+      "hinglish": "Mass Action Law"
+    },
+    "formula": "n_e \\cdot n_h = n_i^2",
+    "variables": [
+      { "symbol": "n_e", "name": { "en": "Number density of electrons", "hi": "इलेक्ट्रॉनों का संख्या घनत्व" } },
+      { "symbol": "n_h", "name": { "en": "Number density of holes", "hi": "होल्स का संख्या घनत्व" } },
+      { "symbol": "n_i", "name": { "en": "Intrinsic carrier concentration", "hi": "निज वाहक सांद्रता" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Conductivity of a Semiconductor",
+      "hi": "अर्धचालक की चालकता",
+      "hinglish": "Conductivity"
+    },
+    "formula": "\\sigma = e (n_e \\mu_e + n_h \\mu_h)",
+    "variables": [
+      { "symbol": "\\sigma", "name": { "en": "Electrical conductivity", "hi": "विद्युत चालकता" } },
+      { "symbol": "e", "name": { "en": "Elementary charge", "hi": "मूल आवेश" } },
+      { "symbol": "\\mu_e", "name": { "en": "Mobility of electrons", "hi": "इलेक्ट्रॉनों की गतिशीलता" } },
+      { "symbol": "\\mu_h", "name": { "en": "Mobility of holes", "hi": "होल्स की गतिशीलता" } }
+    ],
+    "unit": { "en": "S/m or (\\Omega m)^{-1}", "hi": "S/m या (\\Omega m)^{-1}" }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Total Current in a Semiconductor",
+      "hi": "अर्धचालक में कुल धारा",
+      "hinglish": "Total Current"
+    },
+    "formula": "I = I_e + I_h",
+    "variables": [
+      { "symbol": "I_e", "name": { "en": "Electron current", "hi": "इलेक्ट्रॉन धारा" } },
+      { "symbol": "I_h", "name": { "en": "Hole current", "hi": "होल धारा" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Energy of Photon (in Optoelectronic devices)",
+      "hi": "फोटॉन की ऊर्जा (ऑप्टोइलेक्ट्रॉनिक युक्तियों में)",
+      "hinglish": "Energy of Photon"
+    },
+    "formula": "E = \\frac{hc}{\\lambda} > E_g",
+    "variables": [
+      { "symbol": "E_g", "name": { "en": "Band gap energy", "hi": "बैंड अंतराल ऊर्जा" } },
+      { "symbol": "\\lambda", "name": { "en": "Wavelength of incident/emitted light", "hi": "आपतित/उत्सर्जित प्रकाश की तरंगदैर्ध्य" } }
+    ]
+  }
+]

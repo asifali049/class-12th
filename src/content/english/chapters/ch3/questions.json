@@ -2,15 +2,16 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Easy",
-    "marks": 2,
+    "difficulty": "Medium",
+    "marks": 5,
     "question": {
-      "en": "Explain the importance of Prose: Deep Water.",
-      "hi": "Prose: Deep Water के महत्व को समझाइए।"
+      "en": "Important question being updated.",
+      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
     },
     "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
-    }
+      "en": "Answer being updated.",
+      "hi": "उत्तर अपडेट किया जा रहा है।"
+    },
+    "keywords": []
   }
 ]

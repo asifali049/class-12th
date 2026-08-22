@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Key Essayists and their works",
+      "hi": "प्रमुख निबंधकार और उनकी रचनाएँ",
+      "hinglish": "Important Authors"
+    },
+    "summary": {
+      "en": "1. **Vasudev Sharan Agarwal:** 'Rashtra Ka Swaroop'. Focuses on cultural identity.\n2. **Hazari Prasad Dwivedi:** 'Ashok Ke Phool'. Focuses on historical and cultural significance of the Ashoka tree.\n3. **Prof. G. Sundar Reddy:** 'Bhasha aur Aadhunikta'. Focuses on the evolution and modernity of language.",
+      "hi": "1. **वासुदेव शरण अग्रवाल:** 'राष्ट्र का स्वरूप'। सांस्कृतिक पहचान पर केंद्रित।\n2. **हजारी प्रसाद द्विवेदी:** 'अशोक के फूल'। अशोक के पेड़ के ऐतिहासिक और सांस्कृतिक महत्व पर केंद्रित।\n3. **प्रो. जी. सुन्दर रेड्डी:** 'भाषा और आधुनिकता'। भाषा के विकास और आधुनिकता पर केंद्रित।",
+      "hinglish": "Authors aur unke essays yaad rakhein. Ye gadyansh ke sandarbh (reference) me pucha jata hai."
+    },
+    "quickRecall": [
+      { "en": "Agarwal -> Rashtra Ka Swaroop", "hi": "अग्रवाल -> राष्ट्र का स्वरूप" },
+      { "en": "Dwivedi -> Ashok Ke Phool", "hi": "द्विवेदी -> अशोक के फूल" }
+    ]
+  }
+]

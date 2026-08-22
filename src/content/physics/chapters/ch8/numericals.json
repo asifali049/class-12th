@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "easy",
+    "question": {
+      "en": "A plane electromagnetic wave of frequency 25 MHz travels in free space along the x-direction. At a particular point in space and time, E = 6.3 ĵ V/m. What is B at this point?",
+      "hi": "25 MHz आवृत्ति की एक समतल विद्युत चुम्बकीय तरंग निर्वात में x-दिशा के अनुदिश संचरित होती है। अंतरिक्ष और समय में किसी विशिष्ट बिंदु पर, E = 6.3 ĵ V/m है। इस बिंदु पर B क्या है?",
+      "hinglish": "25 MHz ki EM wave x-direction me ja rahi hai. Kisi point par E = 6.3 j (V/m) hai. Waha B kitna hoga?"
+    },
+    "given": {
+      "en": "$E = 6.3 \\text{ V/m}$ (along y-axis, $\\hat{j}$)\nWave direction = $+x$-axis ($\\hat{i}$)",
+      "hi": "$E = 6.3 \\text{ V/m}$ (y-अक्ष के अनुदिश, $\\hat{j}$)\nतरंग की दिशा = $+x$-अक्ष ($\\hat{i}$)"
+    },
+    "required": {
+      "en": "Magnitude and direction of $B$",
+      "hi": "$B$ का परिमाण और दिशा"
+    },
+    "formula": "Magnitude: $B = \\frac{E}{c}$\nDirection: $\\vec{E} \\times \\vec{B}$ gives the direction of wave propagation.",
+    "substitution": "B = \\frac{6.3}{3 \\times 10^8}",
+    "calculation": "B = 2.1 \\times 10^{-8} \\text{ T}\nDirection: We know $\\hat{j} \\times \\hat{k} = \\hat{i}$. Since $\\vec{E}$ is along $\\hat{j}$ and wave is along $\\hat{i}$, $\\vec{B}$ must be along $\\hat{k}$ (z-axis).",
+    "finalAnswer": "2.1 \\times 10^{-8} \\hat{k}",
+    "unit": "T",
+    "examTip": {
+      "en": "Always remember the relation $\\vec{E} \\times \\vec{B} \\parallel \\vec{v}$ to find directions.",
+      "hi": "दिशा ज्ञात करने के लिए हमेशा यह संबंध याद रखें: $\\vec{E} \\times \\vec{B} \\parallel \\vec{v}$।"
+    }
+  }
+]

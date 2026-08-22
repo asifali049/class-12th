@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Displacement Current",
+      "hi": "विस्थापन धारा",
+      "hinglish": "Displacement Current"
+    },
+    "formula": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+    "variables": [
+      { "symbol": "\\epsilon_0", "name": { "en": "Permittivity of free space", "hi": "निर्वात की विद्युतशीलता" } },
+      { "symbol": "\\frac{d\\Phi_E}{dt}", "name": { "en": "Rate of change of electric flux", "hi": "विद्युत फ्लक्स परिवर्तन की दर" } }
+    ],
+    "unit": { "en": "Ampere (A)", "hi": "एम्पीयर (A)" }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Speed of EM Wave in Vacuum",
+      "hi": "निर्वात में EM तरंग की चाल",
+      "hinglish": "Speed of EM Wave"
+    },
+    "formula": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} \\approx 3 \\times 10^8 \\text{ m/s}",
+    "variables": [
+      { "symbol": "\\mu_0", "name": { "en": "Permeability of free space", "hi": "निर्वात की चुंबकशीलता" } }
+    ]
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Speed of EM Wave in a Medium",
+      "hi": "किसी माध्यम में EM तरंग की चाल",
+      "hinglish": "Speed in Medium"
+    },
+    "formula": "v = \\frac{1}{\\sqrt{\\mu \\epsilon}} = \\frac{c}{\\sqrt{\\mu_r \\epsilon_r}} = \\frac{c}{n}",
+    "variables": [
+      { "symbol": "n", "name": { "en": "Refractive index", "hi": "अपवर्तनांक" } },
+      { "symbol": "\\mu_r", "name": { "en": "Relative permeability", "hi": "आपेक्षिक चुंबकशीलता" } },
+      { "symbol": "\\epsilon_r", "name": { "en": "Relative permittivity (dielectric constant)", "hi": "आपेक्षिक विद्युतशीलता (परावैद्युतांक)" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Relation between E and B",
+      "hi": "E और B के बीच संबंध",
+      "hinglish": "Relation of E and B"
+    },
+    "formula": "c = \\frac{E_0}{B_0} = \\frac{E}{B}",
+    "variables": [
+      { "symbol": "E_0", "name": { "en": "Peak electric field", "hi": "शिखर विद्युत क्षेत्र" } },
+      { "symbol": "B_0", "name": { "en": "Peak magnetic field", "hi": "शिखर चुंबकीय क्षेत्र" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Equations of EM Wave",
+      "hi": "EM तरंग के समीकरण",
+      "hinglish": "Wave Equations"
+    },
+    "formula": "E = E_0 \\sin(kx - \\omega t) \\\\ B = B_0 \\sin(kx - \\omega t)",
+    "variables": [
+      { "symbol": "k", "name": { "en": "Wave number ($2\\pi/\\lambda$)", "hi": "तरंग संख्या ($2\\pi/\\lambda$)" } },
+      { "symbol": "\\omega", "name": { "en": "Angular frequency ($2\\pi f$)", "hi": "कोणीय आवृत्ति ($2\\pi f$)" } }
+    ]
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Energy Density of EM Wave",
+      "hi": "EM तरंग का ऊर्जा घनत्व",
+      "hinglish": "Energy Density"
+    },
+    "formula": "u_E = \\frac{1}{2} \\epsilon_0 E^2 \\quad ; \\quad u_B = \\frac{B^2}{2\\mu_0} \\\\ u_{total} = u_E + u_B = \\epsilon_0 E_{rms}^2 = \\frac{B_{rms}^2}{\\mu_0}",
+    "variables": [
+      { "symbol": "u_E", "name": { "en": "Electric energy density", "hi": "विद्युत ऊर्जा घनत्व" } },
+      { "symbol": "u_B", "name": { "en": "Magnetic energy density", "hi": "चुंबकीय ऊर्जा घनत्व" } }
+    ],
+    "unit": { "en": "J/m³", "hi": "J/m³" }
+  },
+  {
+    "id": "f7",
+    "title": {
+      "en": "Momentum and Pressure",
+      "hi": "संवेग और दाब",
+      "hinglish": "Momentum & Pressure"
+    },
+    "formula": "p = \\frac{U}{c} \\quad \\text{(Momentum)} \\\\ P_{rad} = \\frac{I}{c} \\quad \\text{(Radiation Pressure)}",
+    "variables": [
+      { "symbol": "U", "name": { "en": "Energy transferred", "hi": "स्थानांतरित ऊर्जा" } },
+      { "symbol": "I", "name": { "en": "Intensity of wave", "hi": "तरंग की तीव्रता" } }
+    ]
+  }
+]

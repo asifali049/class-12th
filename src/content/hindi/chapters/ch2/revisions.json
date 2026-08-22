@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Prominent Poets",
+      "hi": "प्रमुख कवि",
+      "hinglish": "Important Poets"
+    },
+    "summary": {
+      "en": "1. **Ayodhya Singh Upadhyay 'Hariaudh'** - Known for 'Priyapravas' (first epic in Khari Boli).\n2. **Maithilisharan Gupt** - National poet, famous for 'Saket' and 'Bharat Bharati'.\n3. **Jaishankar Prasad** - Pillar of Chhayavaad, famous for 'Kamayani'.",
+      "hi": "1. **अयोध्यासिंह उपाध्याय 'हरिऔध'** - 'प्रियप्रवास' (खड़ी बोली का प्रथम महाकाव्य) के लिए जाने जाते हैं।\n2. **मैथिलीशरण गुप्त** - राष्ट्रकवि, 'साकेत' और 'भारत भारती' के लिए प्रसिद्ध।\n3. **जयशंकर प्रसाद** - छायावाद के स्तंभ, 'कामायनी' के लिए प्रसिद्ध।"
+    },
+    "quickRecall": [
+      { "en": "Hariaudh - Priyapravas", "hi": "हरिऔध - प्रियप्रवास" },
+      { "en": "Gupt - Saket", "hi": "गुप्त - साकेत" },
+      { "en": "Prasad - Kamayani", "hi": "प्रसाद - कामायनी" }
+    ]
+  }
+]

@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Motional EMF",
+      "hi": "गतिक विद्युत वाहक बल",
+      "hinglish": "Motional EMF"
+    },
+    "given": {
+      "en": "A straight conducting rod PQ of length $l$ moves with velocity $v$ perpendicular to a uniform magnetic field $B$.",
+      "hi": "$l$ लंबाई की एक सीधी चालक छड़ PQ एकसमान चुंबकीय क्षेत्र $B$ के लंबवत $v$ वेग से गति करती है।"
+    },
+    "toFind": {
+      "en": "Expression for the induced EMF.",
+      "hi": "प्रेरित EMF का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Flux enclosed", "hi": "चरण 1: घिरा हुआ फ्लक्स" },
+        "content": {
+          "en": "Let the rod move by a small distance $dx$ in time $dt$.\nArea swept by the rod $dA = l \\cdot dx$.\nChange in magnetic flux $d\\Phi_B = B \\cdot dA = B l dx$.",
+          "hi": "माना छड़ $dt$ समय में $dx$ छोटी दूरी तय करती है।\nछड़ द्वारा तय किया गया क्षेत्रफल $dA = l \\cdot dx$।\nचुंबकीय फ्लक्स में परिवर्तन $d\\Phi_B = B \\cdot dA = B l dx$।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Faraday's Law", "hi": "चरण 2: फैराडे का नियम" },
+        "content": {
+          "en": "According to Faraday's Law, induced EMF is:\n$\\varepsilon = -\\frac{d\\Phi_B}{dt} = -\\frac{B l dx}{dt}$",
+          "hi": "फैराडे के नियम के अनुसार, प्रेरित EMF है:\n$\\varepsilon = -\\frac{d\\Phi_B}{dt} = -\\frac{B l dx}{dt}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Introducing velocity", "hi": "चरण 3: वेग का उपयोग" },
+        "content": {
+          "en": "Since velocity $v = -\\frac{dx}{dt}$ (negative sign shows distance $x$ is decreasing in the usual U-tube setup):\n$\\varepsilon = B l v$",
+          "hi": "चूँकि वेग $v = -\\frac{dx}{dt}$ (ऋणात्मक चिह्न दर्शाता है कि सामान्य U-ट्यूब सेटअप में दूरी $x$ घट रही है):\n$\\varepsilon = B l v$"
+        }
+      }
+    ],
+    "finalResult": "$\\varepsilon = B l v$",
+    "examTip": {
+      "en": "Can also be derived using Lorentz force on an electron: $F_m = evB$. In equilibrium, electric force $F_e = eE$ balances it. So $eE = evB \\implies E = vB$. Since $\\varepsilon = El$, we get $\\varepsilon = vBl$.",
+      "hi": "इसे इलेक्ट्रॉन पर लॉरेंज बल का उपयोग करके भी प्राप्त किया जा सकता है: $F_m = evB$। संतुलन में, विद्युत बल $F_e = eE$ इसे संतुलित करता है। इसलिए $eE = evB \\implies E = vB$। चूँकि $\\varepsilon = El$, हमें $\\varepsilon = vBl$ प्राप्त होता है।"
+    }
+  }
+]

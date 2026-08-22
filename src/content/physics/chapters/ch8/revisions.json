@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Source of EM Waves",
+      "hi": "EM तरंगों का स्रोत",
+      "hinglish": "Source of EM Waves"
+    },
+    "summary": {
+      "en": "A stationary charge produces only an electric field. A charge moving with uniform velocity produces both electric and magnetic fields but NO EM waves. **Only an accelerated (or oscillating) charge produces EM waves.**",
+      "hi": "स्थिर आवेश केवल विद्युत क्षेत्र उत्पन्न करता है। एकसमान वेग से गतिमान आवेश विद्युत और चुंबकीय क्षेत्र दोनों उत्पन्न करता है लेकिन EM तरंगें नहीं। **केवल एक त्वरित (accelerated) या दोलन करने वाला आवेश ही EM तरंगें उत्पन्न करता है।**",
+      "hinglish": "Ruka hua charge sirf Electric field banata hai. Constant speed wala charge E aur B dono banata hai par wave nahi. EM wave sirf tab banti hai jab charge accelerate ya oscillate kar raha ho."
+    },
+    "quickRecall": [
+      { "en": "Stationary Charge = E field only", "hi": "स्थिर आवेश = केवल E क्षेत्र" },
+      { "en": "Accelerated Charge = EM Waves", "hi": "त्वरित आवेश = EM तरंगें" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Direction of Propagation",
+      "hi": "संचरण की दिशा",
+      "hinglish": "Direction of Wave"
+    },
+    "summary": {
+      "en": "The direction of propagation of an electromagnetic wave is given by the cross product of the electric field vector and magnetic field vector: $\\vec{v} \\parallel \\vec{E} \\times \\vec{B}$.",
+      "hi": "विद्युत चुम्बकीय तरंग के संचरण की दिशा विद्युत क्षेत्र सदिश और चुंबकीय क्षेत्र सदिश के सदिश गुणनफल (cross product) द्वारा दी जाती है: $\\vec{v} \\parallel \\vec{E} \\times \\vec{B}$।",
+      "hinglish": "Wave kis direction me ja rahi hai ye nikalne ke liye E cross B karte hain."
+    },
+    "quickRecall": [
+      { "en": "Direction = E × B", "hi": "दिशा = E × B" }
+    ]
+  }
+]

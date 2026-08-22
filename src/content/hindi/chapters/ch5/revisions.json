@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Rashmirathi Exam Tips",
+      "hi": "रश्मिरथी परीक्षा टिप्स",
+      "hinglish": "Khandkavya Tips"
+    },
+    "summary": {
+      "en": "Always prepare the character sketch of Karna and Kunti. Summarize the major Sargs (Cantos) especially the 3rd and 7th Sarg.",
+      "hi": "हमेशा कर्ण और कुंती का चरित्र-चित्रण तैयार करें। प्रमुख सर्गों (विशेषकर तीसरे और सातवें सर्ग) का सारांश याद करें।"
+    },
+    "quickRecall": [
+      { "en": "Writer - Ramdhari Singh Dinkar", "hi": "लेखक - रामधारी सिंह दिनकर" }
+    ]
+  }
+]

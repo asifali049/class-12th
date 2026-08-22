@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A long straight wire carries a current of 35 A. What is the magnitude of the field B at a point 20 cm from the wire?",
+      "hi": "एक लंबे सीधे तार में 35 A की धारा प्रवाहित हो रही है। तार से 20 cm दूर किसी बिंदु पर चुंबकीय क्षेत्र B का परिमाण क्या होगा?",
+      "hinglish": "Ek long straight wire me 35 A current hai. Wire se 20 cm door B (magnetic field) kitna hoga?"
+    },
+    "given": {
+      "en": "Current $I = 35 \\text{ A}$\nDistance $r = 20 \\text{ cm} = 0.2 \\text{ m}$",
+      "hi": "धारा $I = 35 \\text{ A}$\nदूरी $r = 20 \\text{ cm} = 0.2 \\text{ m}$"
+    },
+    "required": {
+      "en": "Magnetic field $B$",
+      "hi": "चुंबकीय क्षेत्र $B$"
+    },
+    "formula": "B = \\frac{\\mu_0 I}{2\\pi r}",
+    "substitution": "\\mu_0 = 4\\pi \\times 10^{-7} \\text{ T}\\cdot\\text{m/A}\nB = \\frac{4\\pi \\times 10^{-7} \\times 35}{2\\pi \\times 0.2}",
+    "calculation": "B = \\frac{2 \\times 10^{-7} \\times 35}{0.2}\nB = \\frac{70 \\times 10^{-7}}{0.2} = 350 \\times 10^{-7}\nB = 3.5 \\times 10^{-5} \\text{ T}",
+    "finalAnswer": "3.5 \\times 10^{-5}",
+    "unit": "T"
+  },
+  {
+    "id": "num2",
+    "difficulty": "hard",
+    "question": {
+      "en": "Two long and parallel straight wires A and B carrying currents of 8.0 A and 5.0 A in the same direction are separated by a distance of 4.0 cm. Estimate the force on a 10 cm section of wire A.",
+      "hi": "दो लंबे और समांतर सीधे तार A और B, जिनमें क्रमशः 8.0 A और 5.0 A की धारा समान दिशा में बह रही है, एक-दूसरे से 4.0 cm की दूरी पर हैं। तार A के 10 cm खंड पर लगने वाले बल का अनुमान लगाइए।",
+      "hinglish": "Do parallel wires A aur B me 8A aur 5A current same direction me hai, aur unke beech ka distance 4cm hai. Wire A ke 10cm part par kitna force lagega?"
+    },
+    "given": {
+      "en": "$I_1 = 8.0 \\text{ A}, I_2 = 5.0 \\text{ A}$\nDistance $d = 4.0 \\text{ cm} = 0.04 \\text{ m}$\nLength $L = 10 \\text{ cm} = 0.1 \\text{ m}$",
+      "hi": "$I_1 = 8.0 \\text{ A}, I_2 = 5.0 \\text{ A}$\nदूरी $d = 4.0 \\text{ cm} = 0.04 \\text{ m}$\nलंबाई $L = 10 \\text{ cm} = 0.1 \\text{ m}$"
+    },
+    "required": {
+      "en": "Force $F$ on wire A",
+      "hi": "तार A पर बल $F$"
+    },
+    "formula": "F = \\frac{\\mu_0 I_1 I_2 L}{2\\pi d}",
+    "substitution": "F = \\frac{(4\\pi \\times 10^{-7}) \\times 8 \\times 5 \\times 0.1}{2\\pi \\times 0.04}",
+    "calculation": "F = \\frac{2 \\times 10^{-7} \\times 40 \\times 0.1}{0.04}\nF = \\frac{8 \\times 10^{-7}}{0.04} = 200 \\times 10^{-7}\nF = 2.0 \\times 10^{-5} \\text{ N}",
+    "finalAnswer": "2.0 \\times 10^{-5}",
+    "unit": "N (Attractive)",
+    "examTip": {
+      "en": "Since currents are in the same direction, the nature of the force is attractive.",
+      "hi": "चूँकि धाराएँ समान दिशा में हैं, इसलिए बल की प्रकृति आकर्षक (attractive) होगी।"
+    }
+  }
+]

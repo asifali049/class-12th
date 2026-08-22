@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A pure semiconductor crystal of Si has $5 \\times 10^{28}$ atoms per $m^3$. It is doped by 1 ppm concentration of pentavalent As. Calculate the number of electrons and holes. Given that $n_i = 1.5 \\times 10^{16} \\text{ m}^{-3}$.",
+      "hi": "Si के एक शुद्ध अर्धचालक क्रिस्टल में $5 \\times 10^{28}$ परमाणु प्रति $m^3$ हैं। इसमें 1 ppm सांद्रता वाली पंचसंयोजी As की डोपिंग की जाती है। इलेक्ट्रॉनों और होल्स की संख्या की गणना कीजिए। दिया गया है कि $n_i = 1.5 \\times 10^{16} \\text{ m}^{-3}$।",
+      "hinglish": "Si crystal me atoms ki density $5 \\times 10^{28}$ / m³ hai. 1 ppm ki As doping ki gayi. Electrons aur holes ka number density nikalo."
+    },
+    "given": {
+      "en": "Total atoms $= 5 \\times 10^{28} \\text{ m}^{-3}$\nDoping concentration $= 1 \\text{ ppm} = 1 \\text{ in } 10^6$\n$n_i = 1.5 \\times 10^{16} \\text{ m}^{-3}$",
+      "hi": "कुल परमाणु $= 5 \\times 10^{28} \\text{ m}^{-3}$\nडोपिंग सांद्रता $= 1 \\text{ ppm} = 10^6 \\text{ में } 1$\n$n_i = 1.5 \\times 10^{16} \\text{ m}^{-3}$"
+    },
+    "required": {
+      "en": "Number density of electrons ($n_e$) and holes ($n_h$)",
+      "hi": "इलेक्ट्रॉनों ($n_e$) और होल्स ($n_h$) का संख्या घनत्व"
+    },
+    "formula": "Number of donor atoms $N_D = \\frac{\\text{Total atoms}}{10^6} \\times 1$\nSince each donor gives one electron, $n_e \\approx N_D$\nUsing mass action law, $n_e n_h = n_i^2 \\implies n_h = \\frac{n_i^2}{n_e}$",
+    "substitution": "N_D = \\frac{5 \\times 10^{28}}{10^6}\nn_h = \\frac{(1.5 \\times 10^{16})^2}{5 \\times 10^{22}}",
+    "calculation": "n_e \\approx N_D = 5 \\times 10^{22} \\text{ m}^{-3}\nn_h = \\frac{2.25 \\times 10^{32}}{5 \\times 10^{22}} = 0.45 \\times 10^{10} = 4.5 \\times 10^9 \\text{ m}^{-3}",
+    "finalAnswer": "n_e = 5 \\times 10^{22}, n_h = 4.5 \\times 10^9",
+    "unit": "m⁻³",
+    "examTip": {
+      "en": "1 ppm means 1 part per million ($10^6$). For N-type semiconductors, $n_e \\approx N_D$ (donor concentration).",
+      "hi": "1 ppm का अर्थ है 1 भाग प्रति दस लाख ($10^6$)। N-प्रकार के अर्धचालकों के लिए, $n_e \\approx N_D$ (दाता सांद्रता)।"
+    }
+  }
+]

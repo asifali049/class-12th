@@ -4,5 +4,52 @@
     "en": "Ray Optics",
     "hi": "किरण प्रकाशिकी"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Reflection",
+        "hi": "परावर्तन"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Mirrors", "hi": "दर्पण" } },
+        { "id": "c1b", "label": { "en": "1/v + 1/u = 1/f", "hi": "1/v + 1/u = 1/f" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Refraction",
+        "hi": "अपवर्तन"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Snell's Law", "hi": "स्नेल का नियम" } },
+        { "id": "c2b", "label": { "en": "TIR & Critical Angle", "hi": "TIR और क्रांतिक कोण" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Lenses",
+        "hi": "लेंस"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Lens Maker's Formula", "hi": "लेंस निर्माता सूत्र" } },
+        { "id": "c3b", "label": { "en": "1/v - 1/u = 1/f", "hi": "1/v - 1/u = 1/f" } },
+        { "id": "c3c", "label": { "en": "Power P = 1/f", "hi": "क्षमता P = 1/f" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Optical Instruments",
+        "hi": "प्रकाशिक यंत्र"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Prism (Dispersion)", "hi": "प्रिज्म (विक्षेपण)" } },
+        { "id": "c4b", "label": { "en": "Microscopes", "hi": "सूक्ष्मदर्शी" } },
+        { "id": "c4c", "label": { "en": "Telescopes", "hi": "दूरदर्शी" } }
+      ]
+    }
+  ]
 }

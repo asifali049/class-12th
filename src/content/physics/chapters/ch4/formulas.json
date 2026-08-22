@@ -1,1 +1,109 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Biot-Savart Law",
+      "hi": "बायो-सावर्ट नियम",
+      "hinglish": "Biot-Savart Law"
+    },
+    "formula": "dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}",
+    "variables": [
+      { "symbol": "dB", "name": { "en": "Magnetic field element", "hi": "चुंबकीय क्षेत्र अल्पांश" } },
+      { "symbol": "\\mu_0", "name": { "en": "Permeability of free space", "hi": "निर्वात की चुंबकशीलता" } },
+      { "symbol": "I", "name": { "en": "Current", "hi": "विद्युत धारा" } },
+      { "symbol": "dl", "name": { "en": "Length element", "hi": "अल्पांश लंबाई" } },
+      { "symbol": "r", "name": { "en": "Distance", "hi": "दूरी" } }
+    ],
+    "unit": { "en": "Tesla (T)", "hi": "टेस्ला (T)" }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Magnetic Field of a Straight Wire",
+      "hi": "सीधे तार का चुंबकीय क्षेत्र",
+      "hinglish": "Straight Wire ka B"
+    },
+    "formula": "B = \\frac{\\mu_0 I}{2\\pi r}",
+    "variables": [
+      { "symbol": "r", "name": { "en": "Perpendicular distance from wire", "hi": "तार से लंबवत दूरी" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Magnetic Field at Centre of a Circular Coil",
+      "hi": "वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र",
+      "hinglish": "Circular Coil ke Centre par"
+    },
+    "formula": "B = \\frac{\\mu_0 N I}{2 r}",
+    "variables": [
+      { "symbol": "N", "name": { "en": "Number of turns", "hi": "फेरों की संख्या" } },
+      { "symbol": "r", "name": { "en": "Radius of coil", "hi": "कुंडली की त्रिज्या" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Ampere's Circuital Law",
+      "hi": "एम्पीयर का परिपथीय नियम",
+      "hinglish": "Ampere's Law"
+    },
+    "formula": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enc}}",
+    "variables": [
+      { "symbol": "I_{\\text{enc}}", "name": { "en": "Net current enclosed", "hi": "घिरी हुई कुल धारा" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Magnetic Field inside a Solenoid",
+      "hi": "परिनालिका के भीतर चुंबकीय क्षेत्र",
+      "hinglish": "Solenoid ka Magnetic Field"
+    },
+    "formula": "B = \\mu_0 n I",
+    "variables": [
+      { "symbol": "n", "name": { "en": "Number of turns per unit length (N/L)", "hi": "प्रति एकांक लंबाई में फेरों की संख्या (N/L)" } }
+    ]
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Lorentz Force (Magnetic Force)",
+      "hi": "लॉरेंज बल (चुंबकीय बल)",
+      "hinglish": "Magnetic Force on charge"
+    },
+    "formula": "\\vec{F} = q(\\vec{v} \\times \\vec{B}) \\implies F = qvB \\sin \\theta",
+    "variables": [
+      { "symbol": "q", "name": { "en": "Charge", "hi": "आवेश" } },
+      { "symbol": "v", "name": { "en": "Velocity", "hi": "वेग" } },
+      { "symbol": "\\theta", "name": { "en": "Angle between v and B", "hi": "v और B के बीच का कोण" } }
+    ],
+    "unit": { "en": "Newton (N)", "hi": "न्यूटन (N)" }
+  },
+  {
+    "id": "f7",
+    "title": {
+      "en": "Radius of Circular Path of Charge",
+      "hi": "आवेश के वृत्ताकार पथ की त्रिज्या",
+      "hinglish": "Circular Path ki Radius"
+    },
+    "formula": "r = \\frac{mv}{qB} = \\frac{p}{qB} = \\frac{\\sqrt{2mK}}{qB}",
+    "variables": [
+      { "symbol": "p", "name": { "en": "Momentum", "hi": "संवेग" } },
+      { "symbol": "K", "name": { "en": "Kinetic Energy", "hi": "गतिज ऊर्जा" } }
+    ]
+  },
+  {
+    "id": "f8",
+    "title": {
+      "en": "Force Between Parallel Current Wires (per unit length)",
+      "hi": "समांतर धारावाही तारों के बीच बल (प्रति एकांक लंबाई)",
+      "hinglish": "Force between parallel wires"
+    },
+    "formula": "\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+    "variables": [
+      { "symbol": "d", "name": { "en": "Distance between wires", "hi": "तारों के बीच की दूरी" } }
+    ]
+  }
+]

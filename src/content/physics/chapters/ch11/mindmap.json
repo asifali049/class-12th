@@ -1,8 +1,52 @@
 {
   "id": "root",
   "label": {
-    "en": "Dual Nature",
-    "hi": "द्वैत प्रकृति"
+    "en": "Dual Nature of Radiation & Matter",
+    "hi": "विकिरण तथा द्रव्य की द्वैत प्रकृति"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electron Emission",
+        "hi": "इलेक्ट्रॉन उत्सर्जन"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Thermionic, Field, Photo", "hi": "तापायनिक, क्षेत्र, प्रकाश" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Photoelectric Effect",
+        "hi": "प्रकाश-विद्युत प्रभाव"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Work Function (Φ0)", "hi": "कार्य फलन (Φ0)" } },
+        { "id": "c2b", "label": { "en": "Threshold Freq (ν0)", "hi": "देहली आवृत्ति (ν0)" } },
+        { "id": "c2c", "label": { "en": "Stopping Potential", "hi": "निरोधी विभव" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Einstein's Equation",
+        "hi": "आइंस्टीन का समीकरण"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Kmax = hν - Φ0", "hi": "Kmax = hν - Φ0" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Matter Waves",
+        "hi": "द्रव्य तरंगें"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "de Broglie Wavelength", "hi": "डी ब्रोग्ली तरंगदैर्ध्य" } },
+        { "id": "c4b", "label": { "en": "λ = h/p = h/√(2mK)", "hi": "λ = h/p = h/√(2mK)" } }
+      ]
+    }
+  ]
 }

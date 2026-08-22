@@ -2,12 +2,73 @@
   {
     "id": "n1",
     "title": {
-      "en": "P-N Junction",
-      "hi": "P-N संधि"
+      "en": "Energy Bands in Solids",
+      "hi": "ठोसों में ऊर्जा बैंड",
+      "hinglish": "Energy Bands in Solids"
     },
     "content": {
-      "en": "Interface between p-type and n-type semiconductors.",
-      "hi": "p-प्रकार और n-प्रकार अर्धचालकों के बीच इंटरफेस।"
+      "en": "In a crystal, the closely spaced energy levels of electrons merge to form continuous energy bands.\n- **Valence Band (VB):** Band containing valence electrons. It is completely or partially filled.\n- **Conduction Band (CB):** Band above the valence band. Electrons here can move freely and conduct electricity.\n- **Energy Gap ($E_g$):** The gap between the top of VB and bottom of CB where no electron can exist.",
+      "hi": "एक क्रिस्टल में, इलेक्ट्रॉनों के पास-पास स्थित ऊर्जा स्तर आपस में मिलकर सतत (continuous) ऊर्जा बैंड बनाते हैं।\n- **संयोजी बैंड (Valence Band, VB):** वह बैंड जिसमें संयोजी इलेक्ट्रॉन होते हैं। यह पूरी तरह या आंशिक रूप से भरा होता है।\n- **चालन बैंड (Conduction Band, CB):** संयोजी बैंड के ऊपर वाला बैंड। यहाँ इलेक्ट्रॉन स्वतंत्र रूप से घूम सकते हैं और विद्युत चालन कर सकते हैं।\n- **ऊर्जा अंतराल (Energy Gap, $E_g$):** VB के शीर्ष और CB के तल के बीच का अंतराल जहाँ कोई इलेक्ट्रॉन मौजूद नहीं रह सकता।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Classification on basis of Energy Bands",
+      "hi": "ऊर्जा बैंड के आधार पर वर्गीकरण",
+      "hinglish": "Classification based on Bands"
+    },
+    "content": {
+      "en": "- **Conductors (Metals):** VB and CB overlap ($E_g \\approx 0$). Plenty of free electrons.\n- **Insulators:** Large energy gap ($E_g > 3 \\text{ eV}$). VB is full, CB is empty. No free electrons.\n- **Semiconductors:** Small energy gap ($E_g < 3 \\text{ eV}$, e.g., Si = 1.1 eV, Ge = 0.7 eV). At 0 K, they behave as insulators. At room temp, some electrons jump to CB.",
+      "hi": "- **चालक (Conductors/Metals):** VB और CB एक दूसरे पर अतिव्याप्त (overlap) होते हैं ($E_g \\approx 0$)। मुक्त इलेक्ट्रॉनों की प्रचुरता होती है।\n- **विद्युतरोधी (Insulators):** बड़ा ऊर्जा अंतराल ($E_g > 3 \\text{ eV}$)। VB भरा हुआ है, CB खाली है। कोई मुक्त इलेक्ट्रॉन नहीं।\n- **अर्धचालक (Semiconductors):** छोटा ऊर्जा अंतराल ($E_g < 3 \\text{ eV}$, उदा. Si = 1.1 eV, Ge = 0.7 eV)। 0 K पर, ये विद्युतरोधी की तरह व्यवहार करते हैं। कमरे के तापमान पर, कुछ इलेक्ट्रॉन CB में कूद जाते हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Intrinsic and Extrinsic Semiconductors",
+      "hi": "निज (Intrinsic) और अपद्रव्यी (Extrinsic) अर्धचालक",
+      "hinglish": "Intrinsic & Extrinsic Semiconductors"
+    },
+    "content": {
+      "en": "- **Intrinsic (Pure):** No impurities. Number of electrons ($n_e$) = Number of holes ($n_h$) = $n_i$ (intrinsic carrier concentration).\n- **Extrinsic (Impure):** Formed by doping (adding impurities) to increase conductivity.\n  - **N-type:** Doped with pentavalent impurity (P, As, Sb). Majority carriers = electrons ($n_e \\gg n_h$).\n  - **P-type:** Doped with trivalent impurity (B, Al, In). Majority carriers = holes ($n_h \\gg n_e$).",
+      "hi": "- **निज या शुद्ध (Intrinsic):** कोई अशुद्धता नहीं। इलेक्ट्रॉनों की संख्या ($n_e$) = होल्स की संख्या ($n_h$) = $n_i$ (निज वाहक सांद्रता)।\n- **अपद्रव्यी (Extrinsic):** चालकता बढ़ाने के लिए डोपिंग (अशुद्धियाँ मिलाने) द्वारा बनाए जाते हैं।\n  - **N-प्रकार (N-type):** पंचसंयोजी (pentavalent) अशुद्धता (P, As, Sb) मिलाई जाती है। बहुसंख्यक वाहक (Majority carriers) = इलेक्ट्रॉन ($n_e \\gg n_h$)।\n  - **P-प्रकार (P-type):** त्रिसंयोजी (trivalent) अशुद्धता (B, Al, In) मिलाई जाती है। बहुसंख्यक वाहक = होल्स ($n_h \\gg n_e$)।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "P-N Junction Diode",
+      "hi": "P-N संधि डायोड",
+      "hinglish": "P-N Junction Diode"
+    },
+    "content": {
+      "en": "Formed when a p-type semiconductor is suitably joined to an n-type semiconductor.\n- **Depletion Region:** A thin layer at the junction devoid of free charge carriers, containing only immobile ions.\n- **Barrier Potential:** The potential difference across the depletion region that opposes further diffusion of majority carriers.",
+      "hi": "जब एक p-प्रकार के अर्धचालक को n-प्रकार के अर्धचालक के साथ उपयुक्त रूप से जोड़ा जाता है तो यह बनता है।\n- **अवक्षय परत (Depletion Region):** संधि पर एक पतली परत जो मुक्त आवेश वाहकों से रहित होती है, जिसमें केवल गतिहीन (immobile) आयन होते हैं।\n- **प्राचीर विभव (Barrier Potential):** अवक्षय परत के आर-पार वह विभवांतर जो बहुसंख्यक वाहकों के आगे के विसरण (diffusion) का विरोध करता है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Biasing of P-N Junction",
+      "hi": "P-N संधि की बायसिंग (Biasing)",
+      "hinglish": "Diode Biasing"
+    },
+    "content": {
+      "en": "- **Forward Bias:** P-side connected to positive terminal, N-side to negative. Depletion width decreases, barrier potential decreases, large current flows.\n- **Reverse Bias:** P-side to negative, N-side to positive. Depletion width increases, barrier potential increases, negligible current (leakage current) flows.",
+      "hi": "- **अग्र दिशिक बायस (Forward Bias):** P-सिरा धनात्मक टर्मिनल से, N-सिरा ऋणात्मक से जुड़ा होता है। अवक्षय परत की चौड़ाई घटती है, प्राचीर विभव घटता है, बड़ी धारा बहती है।\n- **पश्च दिशिक बायस (Reverse Bias):** P-सिरा ऋणात्मक से, N-सिरा धनात्मक से जुड़ा होता है। अवक्षय परत की चौड़ाई बढ़ती है, प्राचीर विभव बढ़ता है, नगण्य धारा (क्षरण धारा - leakage current) बहती है।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Rectifier",
+      "hi": "दिष्टकारी (Rectifier)",
+      "hinglish": "Rectifier"
+    },
+    "content": {
+      "en": "A device that converts Alternating Current (AC) into Direct Current (DC) is called a rectifier. A P-N junction diode acts as a rectifier because it conducts only in forward bias.\n- **Half-wave Rectifier:** Uses one diode. Converts only half of the AC cycle to DC.\n- **Full-wave Rectifier:** Uses two diodes (center-tap) or four (bridge). Converts both halves of the AC cycle to DC.",
+      "hi": "वह युक्ति जो प्रत्यावर्ती धारा (AC) को दिष्ट धारा (DC) में परिवर्तित करती है, दिष्टकारी कहलाती है। एक P-N संधि डायोड दिष्टकारी के रूप में कार्य करता है क्योंकि यह केवल अग्र बायस में ही चालन करता है।\n- **अर्ध-तरंग दिष्टकारी (Half-wave Rectifier):** एक डायोड का उपयोग करता है। AC चक्र के केवल आधे भाग को DC में बदलता है।\n- **पूर्ण-तरंग दिष्टकारी (Full-wave Rectifier):** दो डायोड (सेंटर-टैप) या चार (ब्रिज) का उपयोग करता है। AC चक्र के दोनों भागों को DC में बदलता है।"
     }
   }
 ]

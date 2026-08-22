@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Work done by Magnetic Force",
+      "hi": "चुंबकीय बल द्वारा किया गया कार्य",
+      "hinglish": "Magnetic Force ka Work Done"
+    },
+    "summary": {
+      "en": "The magnetic force $F = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to velocity $\\vec{v}$. Therefore, the work done by the magnetic force on a moving charge is always **zero** ($W = F \\cdot d = Fd \\cos 90^\\circ = 0$). It can never change the kinetic energy or speed of the particle, it only changes its direction.",
+      "hi": "चुंबकीय बल $F = q(\\vec{v} \\times \\vec{B})$ हमेशा वेग $\\vec{v}$ के लंबवत होता है। इसलिए, किसी गतिमान आवेश पर चुंबकीय बल द्वारा किया गया कार्य हमेशा **शून्य** होता है ($W = F \\cdot d = Fd \\cos 90^\\circ = 0$)। यह कभी भी कण की गतिज ऊर्जा या चाल को नहीं बदल सकता, यह केवल उसकी दिशा बदलता है।",
+      "hinglish": "Magnetic force hamesha velocity ke perpendicular hota hai. Isliye work done by magnetic force hamesha zero hota hai. Ye speed ya kinetic energy change nahi kar sakta."
+    },
+    "quickRecall": [
+      { "en": "Work done by B-field = 0", "hi": "चुंबकीय क्षेत्र द्वारा कार्य = 0" },
+      { "en": "Kinetic Energy = Constant", "hi": "गतिज ऊर्जा = नियत" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Ammeter vs Voltmeter Conversion",
+      "hi": "एमीटर बनाम वोल्टमीटर रूपांतरण",
+      "hinglish": "Ammeter and Voltmeter Conversion"
+    },
+    "summary": {
+      "en": "**To Ammeter:** Connect a very small resistance (Shunt) in **parallel**. An ideal ammeter has zero resistance.\n**To Voltmeter:** Connect a very high resistance in **series**. An ideal voltmeter has infinite resistance.",
+      "hi": "**एमीटर में:** **समांतर (parallel)** क्रम में एक बहुत छोटा प्रतिरोध (शंट) जोड़ें। एक आदर्श एमीटर का प्रतिरोध शून्य होता है।\n**वोल्टमीटर में:** **श्रेणी (series)** क्रम में एक बहुत उच्च प्रतिरोध जोड़ें। एक आदर्श वोल्टमीटर का प्रतिरोध अनंत होता है।",
+      "hinglish": "Ammeter banane ke liye parallel me chhota resistance (shunt) lagate hain. Voltmeter banane ke liye series me bada resistance lagate hain."
+    },
+    "quickRecall": [
+      { "en": "Ammeter = Parallel + Low R", "hi": "एमीटर = समांतर + कम R" },
+      { "en": "Voltmeter = Series + High R", "hi": "वोल्टमीटर = श्रेणी + उच्च R" }
+    ]
+  }
+]

@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Magnetic Field Lines around a Straight Current-Carrying Wire",
+      "hi": "सीधे धारावाही तार के चारों ओर चुंबकीय क्षेत्र रेखाएँ",
+      "hinglish": "Straight wire ke around Magnetic Field Lines"
+    },
+    "description": {
+      "en": "Concentric circular magnetic field lines around a straight wire carrying current upwards. The direction is given by the Right-Hand Thumb Rule.",
+      "hi": "ऊपर की ओर धारा ले जाने वाले सीधे तार के चारों ओर संकेंद्रित वृत्ताकार चुंबकीय क्षेत्र रेखाएँ। दिशा दाएँ हाथ के अंगूठे के नियम द्वारा दी जाती है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g transform=\"translate(200, 200)\">\n    <!-- Concentric Circles (Magnetic Field Lines) -->\n    <ellipse cx=\"0\" cy=\"0\" rx=\"60\" ry=\"25\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" stroke-dasharray=\"5,5\" />\n    <ellipse cx=\"0\" cy=\"0\" rx=\"110\" ry=\"45\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n    <ellipse cx=\"0\" cy=\"0\" rx=\"160\" ry=\"65\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n\n    <!-- Direction Arrows on Circles -->\n    <path d=\"M 0 45 L -10 35 L -10 55 Z\" fill=\"#3b82f6\" />\n    <path d=\"M 0 65 L -10 55 L -10 75 Z\" fill=\"#3b82f6\" />\n\n    <!-- Straight Wire -->\n    <line x1=\"0\" y1=\"-150\" x2=\"0\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"6\" stroke-linecap=\"round\" />\n    \n    <!-- Current Arrow -->\n    <path d=\"M 0 -160 L -10 -140 L 10 -140 Z\" fill=\"#ef4444\" />\n    <text x=\"20\" y=\"-140\" font-family=\"Arial\" font-size=\"24\" font-weight=\"bold\" fill=\"#ef4444\">I</text>\n\n    <!-- Labels -->\n    <text x=\"130\" y=\"20\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\" fill=\"#3b82f6\">B</text>\n  </g>\n</svg>",
+    "labels": []
+  }
+]

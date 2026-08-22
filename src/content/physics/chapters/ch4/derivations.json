@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Magnetic Field at the Centre of a Circular Coil",
+      "hi": "वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र",
+      "hinglish": "Circular Coil ke centre par B"
+    },
+    "given": {
+      "en": "A circular coil of radius $r$ carrying current $I$.",
+      "hi": "$r$ त्रिज्या की एक वृत्ताकार कुंडली जिसमें $I$ धारा प्रवाहित हो रही है।"
+    },
+    "toFind": {
+      "en": "Expression for Magnetic Field $B$ at the centre.",
+      "hi": "केंद्र पर चुंबकीय क्षेत्र $B$ का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Biot-Savart Law", "hi": "चरण 1: बायो-सावर्ट नियम" },
+        "content": {
+          "en": "Consider a small element of length $dl$ on the coil. According to Biot-Savart Law, the magnetic field at the centre is:\n$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$",
+          "hi": "कुंडली पर $dl$ लंबाई के एक छोटे अल्पांश पर विचार करें। बायो-सावर्ट नियम के अनुसार, केंद्र पर चुंबकीय क्षेत्र:\n$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Angle between dl and r", "hi": "चरण 2: dl और r के बीच का कोण" },
+        "content": {
+          "en": "The radius vector $r$ is always perpendicular to the length element $dl$ at the circumference. So, $\\theta = 90^\\circ$ and $\\sin 90^\\circ = 1$.\n$dB = \\frac{\\mu_0 I dl}{4\\pi r^2}$",
+          "hi": "त्रिज्या सदिश $r$ परिधि पर हमेशा लंबाई अल्पांश $dl$ के लंबवत होता है। इसलिए, $\\theta = 90^\\circ$ और $\\sin 90^\\circ = 1$।\n$dB = \\frac{\\mu_0 I dl}{4\\pi r^2}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Integration", "hi": "चरण 3: समाकलन (Integration)" },
+        "content": {
+          "en": "To find the total magnetic field, integrate $dB$ over the entire circumference.\n$B = \\int dB = \\frac{\\mu_0 I}{4\\pi r^2} \\int dl$\nSince $\\int dl = 2\\pi r$ (circumference of the circle):\n$B = \\frac{\\mu_0 I}{4\\pi r^2} (2\\pi r) = \\frac{\\mu_0 I}{2r}$",
+          "hi": "कुल चुंबकीय क्षेत्र ज्ञात करने के लिए, पूरी परिधि पर $dB$ का समाकलन करें।\n$B = \\int dB = \\frac{\\mu_0 I}{4\\pi r^2} \\int dl$\nचूँकि $\\int dl = 2\\pi r$ (वृत्त की परिधि):\n$B = \\frac{\\mu_0 I}{4\\pi r^2} (2\\pi r) = \\frac{\\mu_0 I}{2r}$"
+        }
+      }
+    ],
+    "finalResult": "$B = \\frac{\\mu_0 I}{2r}$ (For $N$ turns, multiply by $N$)",
+    "examTip": {
+      "en": "Direction is given by Right Hand Rule. If current is anti-clockwise, field is outward (dot). If clockwise, field is inward (cross).",
+      "hi": "दिशा दाएँ हाथ के नियम द्वारा दी जाती है। यदि धारा वामावर्त (anti-clockwise) है, तो क्षेत्र बाहर की ओर (dot) होता है। यदि दक्षिणावर्त (clockwise) है, तो अंदर की ओर (cross) होता है।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Force Between Two Parallel Current-Carrying Wires",
+      "hi": "दो समांतर धारावाही तारों के बीच बल",
+      "hinglish": "Force between two parallel wires"
+    },
+    "given": {
+      "en": "Two long, straight parallel wires 1 and 2, carrying currents $I_1$ and $I_2$ in the same direction, separated by distance $d$.",
+      "hi": "दो लंबे, सीधे समांतर तार 1 और 2, जिनमें समान दिशा में धाराएँ $I_1$ और $I_2$ प्रवाहित हो रही हैं, और उनके बीच की दूरी $d$ है।"
+    },
+    "toFind": {
+      "en": "Force per unit length between them and define 1 Ampere.",
+      "hi": "उनके बीच प्रति एकांक लंबाई पर बल और 1 एम्पीयर को परिभाषित करें।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Magnetic Field of Wire 1", "hi": "चरण 1: तार 1 का चुंबकीय क्षेत्र" },
+        "content": {
+          "en": "Wire 1 produces a magnetic field at the location of Wire 2.\n$B_1 = \\frac{\\mu_0 I_1}{2\\pi d}$ (Direction: inward by Right Hand Thumb Rule)",
+          "hi": "तार 1, तार 2 के स्थान पर चुंबकीय क्षेत्र उत्पन्न करता है।\n$B_1 = \\frac{\\mu_0 I_1}{2\\pi d}$ (दिशा: दाएँ हाथ के अंगूठे के नियम से अंदर की ओर)"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Force on Wire 2", "hi": "चरण 2: तार 2 पर बल" },
+        "content": {
+          "en": "Wire 2 carrying current $I_2$ is placed in magnetic field $B_1$. The force on a length $L$ of Wire 2 is:\n$F_2 = I_2 L B_1 \\sin 90^\\circ$\n$F_2 = I_2 L \\left(\\frac{\\mu_0 I_1}{2\\pi d}\\right)$",
+          "hi": "$I_2$ धारा वाला तार 2, चुंबकीय क्षेत्र $B_1$ में रखा है। तार 2 की $L$ लंबाई पर लगने वाला बल:\n$F_2 = I_2 L B_1 \\sin 90^\\circ$\n$F_2 = I_2 L \\left(\\frac{\\mu_0 I_1}{2\\pi d}\\right)$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Force per unit length", "hi": "चरण 3: प्रति एकांक लंबाई पर बल" },
+        "content": {
+          "en": "The force per unit length is $f = \\frac{F}{L}$.\n$f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$",
+          "hi": "प्रति एकांक लंबाई पर लगने वाला बल $f = \\frac{F}{L}$ है।\n$f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$"
+        }
+      }
+    ],
+    "finalResult": "$f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$. Definition of 1 Ampere is derived from this formula by putting $I_1=I_2=1$ A, $d=1$ m, giving $f = 2 \\times 10^{-7}$ N/m."
+  }
+]

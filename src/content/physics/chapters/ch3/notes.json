@@ -2,12 +2,121 @@
   {
     "id": "n1",
     "title": {
-      "en": "Ohm's Law",
-      "hi": "ओम का नियम"
+      "en": "Electric Current (I)",
+      "hi": "विद्युत धारा (I)",
+      "hinglish": "Electric Current (I)"
     },
     "content": {
-      "en": "V = IR. The current is proportional to voltage.",
-      "hi": "V = IR. धारा वोल्टेज के अनुक्रमानुपाती होती है।"
+      "en": "The rate of flow of electric charge through any cross-section of a conductor is called electric current.\n\n$I = \\frac{q}{t}$ or $I = \\frac{dq}{dt}$\n\n- It is a **scalar quantity** (though it has direction, it doesn't follow vector addition laws).\n- **SI Unit:** Ampere (A). $1 \\text{ A} = 1 \\text{ C/s}$.\n- By convention, the direction of current is taken opposite to the flow of electrons.",
+      "hi": "किसी चालक के अनुप्रस्थ काट (cross-section) से विद्युत आवेश के प्रवाह की दर को विद्युत धारा कहते हैं।\n\n$I = \\frac{q}{t}$ या $I = \\frac{dq}{dt}$\n\n- यह एक **अदिश राशि (scalar quantity)** है (हालाँकि इसकी दिशा होती है, लेकिन यह सदिश योग के नियमों का पालन नहीं करती)।\n- **SI इकाई:** एम्पीयर (A)। $1 \\text{ A} = 1 \\text{ C/s}$।\n- परंपरानुसार, धारा की दिशा इलेक्ट्रॉनों के प्रवाह की विपरीत दिशा में मानी जाती है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Drift Velocity (v_d)",
+      "hi": "अपवाह वेग या अनुगमन वेग (v_d)",
+      "hinglish": "Drift Velocity (v_d)"
+    },
+    "content": {
+      "en": "It is the average velocity with which free electrons in a conductor get drifted towards the positive end of the conductor under the influence of an external electric field.\n\n$v_d = -\\frac{eE}{m} \\tau$\n\nWhere:\n- $e = $ charge of electron\n- $E = $ electric field\n- $m = $ mass of electron\n- $\\tau = $ relaxation time (average time between two successive collisions)",
+      "hi": "यह वह औसत वेग है जिससे किसी चालक के मुक्त इलेक्ट्रॉन बाह्य विद्युत क्षेत्र के प्रभाव में चालक के धनात्मक सिरे की ओर अपवाहित (drift) होते हैं।\n\n$v_d = -\\frac{eE}{m} \\tau$\n\nजहाँ:\n- $e = $ इलेक्ट्रॉन का आवेश\n- $E = $ विद्युत क्षेत्र\n- $m = $ इलेक्ट्रॉन का द्रव्यमान\n- $\\tau = $ श्रांतिकाल (दो क्रमागत टक्करों के बीच का औसत समय)"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Relation between Current and Drift Velocity",
+      "hi": "धारा और अपवाह वेग में संबंध",
+      "hinglish": "Current aur Drift Velocity ka relation"
+    },
+    "content": {
+      "en": "The electric current $I$ flowing through a conductor of cross-sectional area $A$ is given by:\n\n$I = n e A v_d$\n\nWhere $n$ is the number density of free electrons (number of electrons per unit volume).",
+      "hi": "अनुप्रस्थ काट क्षेत्रफल $A$ वाले चालक से प्रवाहित होने वाली विद्युत धारा $I$ का सूत्र है:\n\n$I = n e A v_d$\n\nजहाँ $n$ मुक्त इलेक्ट्रॉनों का संख्या घनत्व (प्रति एकांक आयतन में इलेक्ट्रॉनों की संख्या) है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Ohm's Law",
+      "hi": "ओम का नियम",
+      "hinglish": "Ohm's Law"
+    },
+    "content": {
+      "en": "At constant temperature and physical conditions, the current flowing through a conductor is directly proportional to the potential difference applied across its ends.\n\n$V \\propto I \\implies V = IR$\n\nWhere $R$ is the electrical resistance of the conductor.\n- **Unit of R:** Ohm ($\\Omega$)",
+      "hi": "नियत ताप और भौतिक अवस्थाओं पर, किसी चालक में प्रवाहित होने वाली धारा उसके सिरों पर लगाए गए विभवांतर के अनुक्रमानुपाती होती है।\n\n$V \\propto I \\implies V = IR$\n\nजहाँ $R$ चालक का विद्युत प्रतिरोध (Resistance) है।\n- **R की इकाई:** ओम ($\\Omega$)"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Resistance and Resistivity",
+      "hi": "प्रतिरोध और प्रतिरोधकता",
+      "hinglish": "Resistance aur Resistivity"
+    },
+    "content": {
+      "en": "Resistance ($R$) depends on length ($l$) and area of cross-section ($A$) of the conductor:\n$R = \\rho \\frac{l}{A}$\n\nWhere $\\rho$ is the specific resistance or **resistivity** of the material.\n- Resistivity depends only on the nature of the material and temperature, NOT on dimensions.\n- **Unit of $\\rho$:** Ohm-meter ($\\Omega\\cdot\\text{m}$)",
+      "hi": "प्रतिरोध ($R$) चालक की लंबाई ($l$) और अनुप्रस्थ काट क्षेत्रफल ($A$) पर निर्भर करता है:\n$R = \\rho \\frac{l}{A}$\n\nजहाँ $\\rho$ पदार्थ का विशिष्ट प्रतिरोध या **प्रतिरोधकता (Resistivity)** है।\n- प्रतिरोधकता केवल पदार्थ की प्रकृति और ताप पर निर्भर करती है, आकार (dimensions) पर नहीं।\n- **$\\rho$ की इकाई:** ओम-मीटर ($\\Omega\\cdot\\text{m}$)"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Mobility (μ)",
+      "hi": "गतिशीलता (μ)",
+      "hinglish": "Mobility (μ)"
+    },
+    "content": {
+      "en": "Mobility is defined as the magnitude of drift velocity acquired by a charge carrier per unit applied electric field.\n\n$\\mu = \\frac{v_d}{E} = \\frac{q \\tau}{m}$\n\n- It is always positive.\n- **SI Unit:** $\\text{m}^2\\text{V}^{-1}\\text{s}^{-1}$",
+      "hi": "प्रति एकांक बाह्य विद्युत क्षेत्र द्वारा आवेश वाहक को प्राप्त अपवाह वेग के परिमाण को गतिशीलता कहते हैं।\n\n$\\mu = \\frac{v_d}{E} = \\frac{q \\tau}{m}$\n\n- यह सदैव धनात्मक होती है।\n- **SI इकाई:** $\\text{m}^2\\text{V}^{-1}\\text{s}^{-1}$"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Temperature Dependence of Resistivity",
+      "hi": "प्रतिरोधकता की ताप पर निर्भरता",
+      "hinglish": "Temperature par Resistivity ki dependence"
+    },
+    "content": {
+      "en": "1. **Metals (Conductors):** Resistivity increases with temperature. $\\rho_t = \\rho_0 [1 + \\alpha(T - T_0)]$\n2. **Semiconductors & Insulators:** Resistivity decreases exponentially with temperature.\n3. **Alloys (e.g., Nichrome, Manganin):** Resistivity is very high but its temperature dependence is very weak. (Used for making standard resistance coils).",
+      "hi": "1. **धातु (चालक):** ताप बढ़ने पर प्रतिरोधकता बढ़ती है। $\\rho_t = \\rho_0 [1 + \\alpha(T - T_0)]$\n2. **अर्धचालक (Semiconductors) व कुचालक:** ताप बढ़ने पर प्रतिरोधकता चरघातांकीय (exponentially) रूप से घटती है।\n3. **मिश्र धातुएँ (जैसे नाइक्रोम, मैंगनीन):** इनकी प्रतिरोधकता बहुत अधिक होती है लेकिन ताप पर निर्भरता बहुत कम होती है। (इसलिए इनका उपयोग मानक प्रतिरोध कुंडलियाँ बनाने में होता है)।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Electromotive Force (EMF) and Internal Resistance",
+      "hi": "विद्युत वाहक बल (EMF) और आंतरिक प्रतिरोध",
+      "hinglish": "EMF aur Internal Resistance"
+    },
+    "content": {
+      "en": "- **EMF (E):** The maximum potential difference between the two electrodes of a cell when no current is drawn from the cell (open circuit).\n- **Internal Resistance (r):** The resistance offered by the electrolyte and electrodes of a cell to the flow of current.\n- **Terminal Voltage (V):** The potential difference when current $I$ is drawn. $V = E - Ir$.",
+      "hi": "- **EMF (E):** जब सेल से कोई धारा नहीं ली जा रही हो (खुला परिपथ), तो उसके दोनों इलेक्ट्रोडों के बीच के अधिकतम विभवांतर को विद्युत वाहक बल कहते हैं।\n- **आंतरिक प्रतिरोध (r):** सेल के विद्युत अपघट्य (electrolyte) और इलेक्ट्रोडों द्वारा धारा के प्रवाह में डाला गया अवरोध।\n- **टर्मिनल वोल्टेज (V):** जब धारा $I$ ली जा रही हो तब विभवांतर। $V = E - Ir$।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Kirchhoff's Laws",
+      "hi": "किरचॉफ के नियम",
+      "hinglish": "Kirchhoff's Laws"
+    },
+    "content": {
+      "en": "**1. Junction Rule (KCL):** The algebraic sum of currents meeting at a junction is zero ($\\sum I = 0$). It is based on **Conservation of Charge**.\n\n**2. Loop Rule (KVL):** The algebraic sum of changes in potential around any closed loop is zero ($\\sum \\Delta V = 0$). It is based on **Conservation of Energy**.",
+      "hi": "**1. संधि का नियम (KCL):** किसी संधि (junction) पर मिलने वाली सभी धाराओं का बीजगणितीय योग शून्य होता है ($\\sum I = 0$)। यह **आवेश संरक्षण (Conservation of Charge)** पर आधारित है।\n\n**2. पाश (लूप) का नियम (KVL):** किसी बंद पाश (closed loop) के चारों ओर विभव में परिवर्तनों का बीजगणितीय योग शून्य होता है ($\\sum \\Delta V = 0$)। यह **ऊर्जा संरक्षण (Conservation of Energy)** पर आधारित है।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Wheatstone Bridge",
+      "hi": "व्हीटस्टोन सेतु",
+      "hinglish": "Wheatstone Bridge"
+    },
+    "content": {
+      "en": "It is an arrangement of four resistors to measure one unknown resistance in terms of the other three.\n**Balanced Condition:** When galvanometer shows zero deflection (no current flows through it), then:\n$\\frac{P}{Q} = \\frac{R}{S}$",
+      "hi": "यह चार प्रतिरोधों की एक ऐसी व्यवस्था है जिसका उपयोग तीन ज्ञात प्रतिरोधों के पदों में एक अज्ञात प्रतिरोध को मापने के लिए किया जाता है।\n**संतुलन की स्थिति:** जब गैल्वेनोमीटर में कोई विक्षेप न हो (उससे कोई धारा प्रवाहित न हो), तब:\n$\\frac{P}{Q} = \\frac{R}{S}$"
     }
   }
 ]

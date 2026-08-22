@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "easy",
+    "question": {
+      "en": "A light bulb is rated at 100 W for a 220 V supply. Find (a) the resistance of the bulb; (b) the peak voltage of the source; and (c) the rms current through the bulb.",
+      "hi": "एक लाइट बल्ब 220 V आपूर्ति के लिए 100 W पर रेट किया गया है। ज्ञात कीजिए (a) बल्ब का प्रतिरोध; (b) स्रोत का शिखर वोल्टेज; और (c) बल्ब से होकर प्रवाहित होने वाली rms धारा।",
+      "hinglish": "100W, 220V bulb ka resistance, peak voltage, aur rms current nikaalo."
+    },
+    "given": {
+      "en": "Power $P = 100 \\text{ W}$\nRMS Voltage $V_{rms} = 220 \\text{ V}$",
+      "hi": "शक्ति $P = 100 \\text{ W}$\nRMS वोल्टेज $V_{rms} = 220 \\text{ V}$"
+    },
+    "required": {
+      "en": "(a) $R$, (b) $V_0$, (c) $I_{rms}$",
+      "hi": "(a) $R$, (b) $V_0$, (c) $I_{rms}$"
+    },
+    "formula": "(a) $P = \\frac{V_{rms}^2}{R} \\implies R = \\frac{V_{rms}^2}{P}$\n(b) $V_0 = \\sqrt{2} V_{rms}$\n(c) $P = V_{rms} I_{rms} \\implies I_{rms} = \\frac{P}{V_{rms}}$",
+    "substitution": "(a) $R = \\frac{220^2}{100}$\n(b) $V_0 = 1.414 \\times 220$\n(c) $I_{rms} = \\frac{100}{220}$",
+    "calculation": "(a) $R = \\frac{48400}{100} = 484 \\ \\Omega$\n(b) $V_0 = 311.08 \\approx 311 \\text{ V}$\n(c) $I_{rms} = \\frac{10}{22} = 0.454 \\text{ A}$",
+    "finalAnswer": "(a) 484, (b) 311, (c) 0.454",
+    "unit": "Ω, V, A"
+  },
+  {
+    "id": "num2",
+    "difficulty": "medium",
+    "question": {
+      "en": "A series LCR circuit with $R = 20 \\ \\Omega$, $L = 1.5 \\text{ H}$ and $C = 35 \\ \\mu\\text{F}$ is connected to a variable-frequency 200 V ac supply. When the frequency of the supply equals the natural frequency of the circuit, what is the average power transferred to the circuit in one complete cycle?",
+      "hi": "एक श्रेणी LCR परिपथ जिसमें $R = 20 \\ \\Omega$, $L = 1.5 \\text{ H}$ और $C = 35 \\ \\mu\\text{F}$ है, एक परिवर्ती-आवृत्ति वाले 200 V ac स्रोत से जुड़ा है। जब स्रोत की आवृत्ति परिपथ की स्वाभाविक आवृत्ति के बराबर हो जाती है, तो एक पूर्ण चक्र में परिपथ को स्थानांतरित औसत शक्ति क्या होगी?",
+      "hinglish": "LCR circuit (R=20, L=1.5, C=35uF) ko 200V AC se joda gaya. Resonance frequency par average power kitni hogi?"
+    },
+    "given": {
+      "en": "$R = 20 \\ \\Omega, L = 1.5 \\text{ H}, C = 35 \\times 10^{-6} \\text{ F}$\n$V_{rms} = 200 \\text{ V}$\nAt resonance, $X_L = X_C \\implies Z = R$",
+      "hi": "$R = 20 \\ \\Omega, L = 1.5 \\text{ H}, C = 35 \\times 10^{-6} \\text{ F}$\n$V_{rms} = 200 \\text{ V}$\nअनुनाद (resonance) पर, $X_L = X_C \\implies Z = R$"
+    },
+    "required": {
+      "en": "Average Power $P_{avg}$",
+      "hi": "औसत शक्ति $P_{avg}$"
+    },
+    "formula": "At resonance, $Z = R$, so $\\cos \\phi = 1$.\n$I_{rms} = \\frac{V_{rms}}{R}$\n$P_{avg} = V_{rms} I_{rms} \\cos \\phi = \\frac{V_{rms}^2}{R}$",
+    "substitution": "P_{avg} = \\frac{(200)^2}{20}",
+    "calculation": "P_{avg} = \\frac{40000}{20} = 2000 \\text{ W} = 2 \\text{ kW}",
+    "finalAnswer": "2000",
+    "unit": "W",
+    "examTip": {
+      "en": "At resonance, power dissipation is maximum and depends only on resistance.",
+      "hi": "अनुनाद पर, शक्ति क्षय अधिकतम होता है और केवल प्रतिरोध पर निर्भर करता है।"
+    }
+  }
+]

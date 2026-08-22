@@ -1,8 +1,11 @@
 {
   "id": "root",
   "label": {
-    "en": "संस्कृत दिग्दर्शिका (Sanskrit)",
-    "hi": "संस्कृत दिग्दर्शिका (Sanskrit)"
+    "en": "Rashmirathi",
+    "hi": "रश्मिरथी"
   },
-  "children": []
+  "children": [
+    { "id": "c1", "label": { "en": "Character Sketch of Karna", "hi": "कर्ण का चरित्र-चित्रण" } },
+    { "id": "c2", "label": { "en": "Sarg Summary", "hi": "सर्गों का सारांश" } }
+  ]
 }

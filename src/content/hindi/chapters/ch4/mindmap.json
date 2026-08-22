@@ -1,8 +1,12 @@
 {
   "id": "root",
   "label": {
-    "en": "नाटक (Drama)",
-    "hi": "नाटक (Drama)"
+    "en": "Sanskrit Digdarshika",
+    "hi": "संस्कृत दिग्दर्शिका"
   },
-  "children": []
+  "children": [
+    { "id": "c1", "label": { "en": "Bhojasyaudaryam", "hi": "भोजस्यौदार्यम्" } },
+    { "id": "c2", "label": { "en": "Subhashit Ratnani", "hi": "सुभाषितरत्नानि" } },
+    { "id": "c3", "label": { "en": "Mahamana Malviya", "hi": "महामना मालवीय:" } }
+  ]
 }

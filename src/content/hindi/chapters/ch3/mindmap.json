@@ -1,8 +1,12 @@
 {
   "id": "root",
   "label": {
-    "en": "कथा भारती (Stories)",
-    "hi": "कथा भारती (Stories)"
+    "en": "Katha Bharati (Stories)",
+    "hi": "कथा भारती"
   },
-  "children": []
+  "children": [
+    { "id": "c1", "label": { "en": "Panchlight", "hi": "पंचलाइट" } },
+    { "id": "c2", "label": { "en": "Bahadur", "hi": "बहादुर" } },
+    { "id": "c3", "label": { "en": "Karmnasha Ki Haar", "hi": "कर्मनाशा की हार" } }
+  ]
 }

@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "As an electron in a hydrogen atom jumps from a higher orbit to a lower orbit, what happens to its kinetic energy (K) and potential energy (U)?",
+      "hi": "जब हाइड्रोजन परमाणु में कोई इलेक्ट्रॉन उच्च कक्षा से निम्न कक्षा में कूदता है, तो उसकी गतिज ऊर्जा (K) और स्थितिज ऊर्जा (U) का क्या होता है?",
+      "hinglish": "Jab electron higher orbit se lower orbit me jump karta hai to uski Kinetic Energy aur Potential Energy par kya farq padta hai?"
+    },
+    "options": [
+      { "en": "Both K and U increase", "hi": "K और U दोनों बढ़ते हैं" },
+      { "en": "K increases, U decreases", "hi": "K बढ़ता है, U घटता है" },
+      { "en": "K decreases, U increases", "hi": "K घटता है, U बढ़ता है" },
+      { "en": "Both K and U decrease", "hi": "K और U दोनों घटते हैं" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "As radius decreases (lower orbit), velocity increases ($v \\propto 1/n$), so Kinetic Energy ($K \\propto 1/n^2$) increases. Potential energy ($U = -2K$) becomes more negative, hence it decreases.",
+      "hi": "जैसे-जैसे त्रिज्या कम होती है (निम्न कक्षा), वेग बढ़ता है ($v \\propto 1/n$), इसलिए गतिज ऊर्जा ($K \\propto 1/n^2$) बढ़ती है। स्थितिज ऊर्जा ($U = -2K$) अधिक ऋणात्मक हो जाती है, इसलिए यह घटती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "State the two postulates of Bohr's theory of hydrogen atom.",
+      "hi": "हाइड्रोजन परमाणु के बोर के सिद्धांत की कोई दो अभिगृहीतियाँ (postulates) लिखिए।",
+      "hinglish": "Bohr model ke do postulates likhiye."
+    },
+    "idealAnswer": {
+      "en": "1. **Quantization of angular momentum:** An electron can revolve only in those circular orbits in which its angular momentum is an integral multiple of $h/2\\pi$ (i.e., $L = nh/2\\pi$).\n2. **Energy level transition:** An electron emits (or absorbs) a photon of energy equal to the energy difference between two energy levels when it jumps from a higher to a lower (or lower to higher) orbit ($h\\nu = E_2 - E_1$).",
+      "hi": "1. **कोणीय संवेग का क्वांटीकरण:** एक इलेक्ट्रॉन केवल उन्हीं वृत्ताकार कक्षाओं में घूम सकता है जिनमें उसका कोणीय संवेग $h/2\\pi$ का पूर्ण गुणज (integral multiple) होता है (अर्थात, $L = nh/2\\pi$)।\n2. **ऊर्जा स्तर संक्रमण:** जब एक इलेक्ट्रॉन उच्च कक्षा से निम्न (या निम्न से उच्च) कक्षा में कूदता है, तो वह दोनों ऊर्जा स्तरों के बीच के ऊर्जा अंतर के बराबर ऊर्जा का फोटॉन उत्सर्जित (या अवशोषित) करता है ($h\\nu = E_2 - E_1$)।"
+    },
+    "keywords": [
+      { "en": "Quantization", "hi": "क्वांटीकरण" },
+      { "en": "angular momentum", "hi": "कोणीय संवेग" },
+      { "en": "integral multiple", "hi": "पूर्ण गुणज" },
+      { "en": "transition", "hi": "संक्रमण" }
+    ]
+  }
+]

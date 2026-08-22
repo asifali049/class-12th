@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A small bulb is placed at the bottom of a tank containing water to a depth of 80 cm. What is the area of the surface of water through which light from the bulb can emerge out? Refractive index of water is 1.33. (Consider the bulb to be a point source.)",
+      "hi": "एक छोटा बल्ब 80 cm गहराई तक पानी से भरे टैंक के तल पर रखा गया है। पानी की सतह का वह क्षेत्रफल क्या है जिससे होकर बल्ब का प्रकाश बाहर निकल सकता है? पानी का अपवर्तनांक 1.33 है। (बल्ब को बिंदु स्रोत मानें।)",
+      "hinglish": "80cm deep water tank ke bottom par ek bulb hai. Water ka RI 1.33 hai. Surface ke kitne area se light bahar aayegi?"
+    },
+    "given": {
+      "en": "Depth $h = 80 \\text{ cm} = 0.8 \\text{ m}$\nRefractive index $n = 1.33 = 4/3$",
+      "hi": "गहराई $h = 80 \\text{ cm} = 0.8 \\text{ m}$\nअपवर्तनांक $n = 1.33 = 4/3$"
+    },
+    "required": {
+      "en": "Area of the circular region $A$",
+      "hi": "वृत्ताकार क्षेत्र का क्षेत्रफल $A$"
+    },
+    "formula": "Light emerges only if angle of incidence is less than critical angle $i_c$.\nThe region is a circle of radius $r = h \\tan i_c$.\nWe know $\\sin i_c = \\frac{1}{n}$. So $\\tan i_c = \\frac{1}{\\sqrt{n^2 - 1}}$.\nArea $A = \\pi r^2 = \\pi h^2 \\tan^2 i_c = \\frac{\\pi h^2}{n^2 - 1}$",
+    "substitution": "A = \\frac{3.14 \\times (0.8)^2}{(4/3)^2 - 1}",
+    "calculation": "A = \\frac{3.14 \\times 0.64}{(16/9) - 1} = \\frac{2.0096}{7/9} = 2.0096 \\times \\frac{9}{7}\nA = 2.0096 \\times 1.2857 = 2.58 \\text{ m}^2",
+    "finalAnswer": "2.58",
+    "unit": "m²",
+    "examTip": {
+      "en": "This is a classic 'circle of illuminance' problem based on Total Internal Reflection.",
+      "hi": "यह पूर्ण आंतरिक परावर्तन पर आधारित 'प्रदीप्ति के वृत्त (circle of illuminance)' की एक उत्कृष्ट समस्या है।"
+    }
+  }
+]

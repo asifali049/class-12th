@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Torque on a Magnetic Dipole in a Uniform Magnetic Field",
+      "hi": "एकसमान चुंबकीय क्षेत्र में चुंबकीय द्विध्रुव पर बल आघूर्ण",
+      "hinglish": "Uniform B me Dipole par Torque"
+    },
+    "given": {
+      "en": "A bar magnet of pole strength $q_m$ and length $2l$ placed in a uniform magnetic field $B$ at an angle $\\theta$.",
+      "hi": "$q_m$ ध्रुव प्रबलता और $2l$ लंबाई का एक छड़ चुंबक एकसमान चुंबकीय क्षेत्र $B$ में $\\theta$ कोण पर रखा गया है।"
+    },
+    "toFind": {
+      "en": "Expression for the torque ($\\tau$) acting on it.",
+      "hi": "इस पर कार्य करने वाले बल आघूर्ण ($\\tau$) का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Force on Poles", "hi": "चरण 1: ध्रुवों पर बल" },
+        "content": {
+          "en": "Force on North pole = $q_m B$ (along $\\vec{B}$)\nForce on South pole = $q_m B$ (opposite to $\\vec{B}$)\nSince these two equal and opposite forces act at different points, they form a couple.",
+          "hi": "उत्तरी ध्रुव पर बल = $q_m B$ ($\\vec{B}$ की दिशा में)\nदक्षिणी ध्रुव पर बल = $q_m B$ ($\\vec{B}$ के विपरीत)\nचूँकि ये दो समान और विपरीत बल अलग-अलग बिंदुओं पर कार्य करते हैं, इसलिए वे एक बलयुग्म (couple) बनाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Calculating Torque", "hi": "चरण 2: बल आघूर्ण की गणना" },
+        "content": {
+          "en": "Torque $\\tau$ = Force $\\times$ Perpendicular distance between the forces\n$\\tau = (q_m B) \\times (2l \\sin \\theta)$",
+          "hi": "बल आघूर्ण $\\tau$ = बल $\\times$ बलों के बीच की लंबवत दूरी\n$\\tau = (q_m B) \\times (2l \\sin \\theta)$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Introducing Magnetic Moment", "hi": "चरण 3: चुंबकीय आघूर्ण का उपयोग" },
+        "content": {
+          "en": "We know magnetic dipole moment $m = q_m \\times 2l$.\nSubstituting this in the equation:\n$\\tau = (q_m \\times 2l) B \\sin \\theta = m B \\sin \\theta$",
+          "hi": "हम जानते हैं कि चुंबकीय द्विध्रुव आघूर्ण $m = q_m \\times 2l$ होता है।\nइसे समीकरण में रखने पर:\n$\\tau = (q_m \\times 2l) B \\sin \\theta = m B \\sin \\theta$"
+        }
+      }
+    ],
+    "finalResult": "$\\vec{\\tau} = \\vec{m} \\times \\vec{B}$",
+    "examTip": {
+      "en": "Maximum torque occurs at $\\theta = 90^\\circ$ ($\\tau = mB$). Minimum (zero) torque occurs at $\\theta = 0^\\circ$ or $180^\\circ$.",
+      "hi": "अधिकतम बल आघूर्ण $\\theta = 90^\\circ$ पर होता है ($\\tau = mB$)। न्यूनतम (शून्य) बल आघूर्ण $\\theta = 0^\\circ$ या $180^\\circ$ पर होता है।"
+    }
+  }
+]

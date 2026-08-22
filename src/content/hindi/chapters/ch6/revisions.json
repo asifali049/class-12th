@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Grammar Basics",
+      "hi": "व्याकरण मूल बातें",
+      "hinglish": "Vyakaran Basics"
+    },
+    "summary": {
+      "en": "Learn the definitions and examples (Udaharan) of Anupras, Yamak, Shlesh, Upma, Rupak, and Utpreksha Alankars. Memorize the Sthai Bhav of all Rasas.",
+      "hi": "अनुप्रास, यमक, श्लेष, उपमा, रूपक और उत्प्रेक्षा अलंकारों की परिभाषाएँ और उदाहरण (Udaharan) याद करें। सभी रसों के स्थायी भाव याद करें।"
+    },
+    "quickRecall": [
+      { "en": "Alankar = Definition + Example", "hi": "अलंकार = परिभाषा + उदाहरण" }
+    ]
+  }
+]

@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "CIVIL Trick",
+      "hi": "CIVIL ट्रिक",
+      "hinglish": "CIVIL mnemonic"
+    },
+    "summary": {
+      "en": "Remember the word **CIVIL** to easily recall phase relationships:\n- In **C** (Capacitor), **I** leads **V**.\n- In **L** (Inductor), **V** leads **I**.",
+      "hi": "कला (phase) संबंधों को आसानी से याद रखने के लिए **CIVIL** शब्द याद रखें:\n- **C** (संधारित्र) में, **I** (धारा) **V** (वोल्टेज) से आगे होती है।\n- **L** (प्रेरक) में, **V** (वोल्टेज) **I** (धारा) से आगे होता है।",
+      "hinglish": "CIVIL word yaad rakho: Capacitor (C) me I, V se aage hota hai. Inductor (L) me V, I se aage hota hai."
+    },
+    "quickRecall": [
+      { "en": "C -> I leads", "hi": "C -> I अग्रगामी" },
+      { "en": "L -> V leads", "hi": "L -> V अग्रगामी" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "DC through Inductor and Capacitor",
+      "hi": "प्रेरक और संधारित्र से होकर DC",
+      "hinglish": "DC through L and C"
+    },
+    "summary": {
+      "en": "For Direct Current (DC), frequency $f = 0$.\n- Inductive Reactance $X_L = 2\\pi f L = 0$. An inductor offers zero resistance to DC (acts as a short circuit in steady state).\n- Capacitive Reactance $X_C = \\frac{1}{2\\pi f C} = \\infty$. A capacitor offers infinite resistance to DC (acts as an open circuit in steady state; it blocks DC).",
+      "hi": "दिष्ट धारा (DC) के लिए, आवृत्ति $f = 0$ होती है।\n- प्रेरणिक प्रतिघात $X_L = 2\\pi f L = 0$। एक प्रेरक DC के लिए शून्य प्रतिरोध प्रदान करता है (स्थिर अवस्था में शॉर्ट सर्किट की तरह कार्य करता है)।\n- धारितीय प्रतिघात $X_C = \\frac{1}{2\\pi f C} = \\infty$। संधारित्र DC के लिए अनंत प्रतिरोध प्रदान करता है (स्थिर अवस्था में ओपन सर्किट की तरह कार्य करता है; यह DC को रोकता है)।",
+      "hinglish": "DC me frequency 0 hoti hai. Isliye Inductor ka resistance (XL) 0 hota hai, aur Capacitor ka resistance (XC) infinite hota hai (matlab Capacitor DC ko block karta hai)."
+    },
+    "quickRecall": [
+      { "en": "L passes DC (XL = 0)", "hi": "L, DC को गुज़रने देता है (XL = 0)" },
+      { "en": "C blocks DC (XC = ∞)", "hi": "C, DC को रोकता है (XC = ∞)" }
+    ]
+  }
+]

@@ -4,5 +4,51 @@
     "en": "Semiconductors",
     "hi": "अर्धचालक"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Energy Bands",
+        "hi": "ऊर्जा बैंड"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Valence Band", "hi": "संयोजी बैंड" } },
+        { "id": "c1b", "label": { "en": "Conduction Band", "hi": "चालन बैंड" } },
+        { "id": "c1c", "label": { "en": "Band Gap (Eg)", "hi": "बैंड अंतराल (Eg)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Types of Semiconductors",
+        "hi": "अर्धचालकों के प्रकार"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Intrinsic (Pure)", "hi": "निज (शुद्ध)" } },
+        { "id": "c2b", "label": { "en": "Extrinsic (N-type, P-type)", "hi": "अपद्रव्यी (N-प्रकार, P-प्रकार)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "P-N Junction Diode",
+        "hi": "P-N संधि डायोड"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Depletion Region", "hi": "अवक्षय परत" } },
+        { "id": "c3b", "label": { "en": "Forward & Reverse Bias", "hi": "अग्र और पश्च बायस" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Applications",
+        "hi": "अनुप्रयोग"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Rectifiers (HW & FW)", "hi": "दिष्टकारी (HW & FW)" } },
+        { "id": "c4b", "label": { "en": "LED, Photodiode", "hi": "LED, फोटोडायोड" } }
+      ]
+    }
+  ]
 }

@@ -2,12 +2,85 @@
   {
     "id": "n1",
     "title": {
-      "en": "Bohr Model",
-      "hi": "बोर मॉडल"
+      "en": "Thomson's Model of Atom",
+      "hi": "थॉमसन का परमाणु मॉडल",
+      "hinglish": "Thomson's Model"
     },
     "content": {
-      "en": "Electrons orbit in discrete energy levels.",
-      "hi": "इलेक्ट्रॉन असतत ऊर्जा स्तरों में परिक्रमा करते हैं।"
+      "en": "Plum pudding model: Atom is a positively charged sphere with electrons embedded in it like seeds in a watermelon.\n- **Drawback:** Could not explain the large angle scattering of alpha particles in Rutherford's experiment.",
+      "hi": "प्लम पुडिंग मॉडल (Plum pudding model): परमाणु एक धनावेशित गोला है जिसमें इलेक्ट्रॉन तरबूज के बीजों की तरह धंसे होते हैं।\n- **कमी:** रदरफोर्ड के प्रयोग में अल्फा कणों के बड़े कोण वाले प्रकीर्णन (scattering) की व्याख्या नहीं कर सका।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Rutherford's Alpha Scattering Experiment",
+      "hi": "रदरफोर्ड का अल्फा प्रकीर्णन प्रयोग",
+      "hinglish": "Rutherford's Alpha Scattering"
+    },
+    "content": {
+      "en": "Alpha particles were bombarded on a thin gold foil.\n- **Observations:** Most passed straight through (atom is mostly empty space). Some deflected at small angles. Very few (1 in 8000) bounced back (deflected by $> 90^\\circ$).\n- **Conclusion:** Entire positive charge and most of the mass is concentrated in a tiny central core called the **nucleus**. Electrons revolve around it.",
+      "hi": "सोने की पतली पन्नी पर अल्फा कणों की बमबारी की गई।\n- **अवलोकन:** अधिकांश सीधे निकल गए (परमाणु का अधिकांश भाग खाली है)। कुछ छोटे कोणों पर विक्षेपित हुए। बहुत कम (8000 में से 1) वापस लौट आए ($> 90^\\circ$ पर विक्षेपित)।\n- **निष्कर्ष:** सम्पूर्ण धनावेश और अधिकांश द्रव्यमान एक छोटे से केंद्रीय भाग में केंद्रित होता है जिसे **नाभिक (nucleus)** कहते हैं। इलेक्ट्रॉन इसके चारों ओर घूमते हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Distance of Closest Approach",
+      "hi": "निकटतम पहुँच की दूरी",
+      "hinglish": "Distance of Closest Approach"
+    },
+    "content": {
+      "en": "The minimum distance from the nucleus up to which an alpha particle directed straight at the nucleus can approach before momentarily coming to rest and reversing its path. At this point, entire Kinetic Energy is converted to Electrostatic Potential Energy.\nIt gives an estimate of the size of the nucleus ($r_0 \\approx 10^{-14} \\text{ m}$).",
+      "hi": "नाभिक से वह न्यूनतम दूरी जहाँ तक सीधे नाभिक की ओर आ रहा कोई अल्फा कण पल भर के लिए रुकने और अपना रास्ता उलटने से पहले पहुँच सकता है। इस बिंदु पर, संपूर्ण गतिज ऊर्जा स्थिरवैद्युत स्थितिज ऊर्जा में परिवर्तित हो जाती है।\nयह नाभिक के आकार ($r_0 \\approx 10^{-14} \\text{ m}$) का अनुमान देता है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Impact Parameter (b)",
+      "hi": "संघट्ट प्राचल (Impact Parameter, b)",
+      "hinglish": "Impact Parameter"
+    },
+    "content": {
+      "en": "The perpendicular distance of the initial velocity vector of the alpha particle from the center of the nucleus. \n- Smaller impact parameter -> Larger angle of scattering.",
+      "hi": "अल्फा कण के प्रारंभिक वेग सदिश की नाभिक के केंद्र से लंबवत दूरी।\n- छोटा संघट्ट प्राचल -> प्रकीर्णन का बड़ा कोण।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Bohr's Postulates",
+      "hi": "बोर की अभिगृहीतियाँ (Postulates)",
+      "hinglish": "Bohr's Postulates"
+    },
+    "content": {
+      "en": "1. Electrons revolve in specific stable non-radiating circular orbits.\n2. **Quantization of Angular Momentum:** Electrons revolve only in those orbits where their angular momentum is an integral multiple of $h/2\\pi$ ($L = mvr = nh/2\\pi$).\n3. **Frequency Condition:** Emission/absorption of a photon occurs when an electron transitions between two energy levels: $h\\nu = E_2 - E_1$.",
+      "hi": "1. इलेक्ट्रॉन विशिष्ट स्थिर गैर-विकिरण (non-radiating) वृत्ताकार कक्षाओं में घूमते हैं।\n2. **कोणीय संवेग का क्वांटीकरण:** इलेक्ट्रॉन केवल उन्हीं कक्षाओं में घूमते हैं जहाँ उनका कोणीय संवेग $h/2\\pi$ का पूर्ण गुणज (integral multiple) होता है ($L = mvr = nh/2\\pi$)।\n3. **आवृत्ति शर्त:** फोटॉन का उत्सर्जन/अवशोषण तब होता है जब कोई इलेक्ट्रॉन दो ऊर्जा स्तरों के बीच संक्रमण (transition) करता है: $h\\nu = E_2 - E_1$।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Energy Levels of Hydrogen Atom",
+      "hi": "हाइड्रोजन परमाणु के ऊर्जा स्तर",
+      "hinglish": "Hydrogen Energy Levels"
+    },
+    "content": {
+      "en": "The total energy of an electron in the $n^{th}$ orbit is negative, indicating that the electron is bound to the nucleus. \n$E_n = -\\frac{13.6}{n^2} \\text{ eV}$\n- Ground state ($n=1$): $E_1 = -13.6 \\text{ eV}$.\n- As $n$ increases, energy becomes less negative (increases) and approaches zero at $n = \\infty$.",
+      "hi": "$n$वीं कक्षा में इलेक्ट्रॉन की कुल ऊर्जा ऋणात्मक होती है, जो यह दर्शाती है कि इलेक्ट्रॉन नाभिक से बंधा हुआ है।\n$E_n = -\\frac{13.6}{n^2} \\text{ eV}$\n- मूल अवस्था (Ground state, $n=1$): $E_1 = -13.6 \\text{ eV}$।\n- जैसे-जैसे $n$ बढ़ता है, ऊर्जा कम ऋणात्मक होती जाती है (बढ़ती है) और $n = \\infty$ पर शून्य के करीब पहुँच जाती है।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Hydrogen Spectrum",
+      "hi": "हाइड्रोजन स्पेक्ट्रम",
+      "hinglish": "Hydrogen Spectrum"
+    },
+    "content": {
+      "en": "When hydrogen gas is excited, it emits light of specific wavelengths forming a line spectrum.\nSeries based on the final orbit ($n_1$):\n1. **Lyman:** $n_1 = 1$ (Ultraviolet)\n2. **Balmer:** $n_1 = 2$ (Visible)\n3. **Paschen:** $n_1 = 3$ (Infrared)\n4. **Brackett:** $n_1 = 4$ (Infrared)\n5. **Pfund:** $n_1 = 5$ (Infrared)",
+      "hi": "जब हाइड्रोजन गैस को उत्तेजित किया जाता है, तो यह विशिष्ट तरंगदैर्ध्य का प्रकाश उत्सर्जित करती है जिससे एक रेखीय स्पेक्ट्रम (line spectrum) बनता है।\nअंतिम कक्षा ($n_1$) के आधार पर श्रेणियाँ:\n1. **लाइमन (Lyman):** $n_1 = 1$ (पराबैंगनी - UV)\n2. **बामर (Balmer):** $n_1 = 2$ (दृश्य - Visible)\n3. **पाश्चन (Paschen):** $n_1 = 3$ (अवरक्त - IR)\n4. **ब्रैकेट (Brackett):** $n_1 = 4$ (अवरक्त - IR)\n5. **फुंड (Pfund):** $n_1 = 5$ (अवरक्त - IR)"
     }
   }
 ]

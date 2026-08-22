@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "easy",
+    "question": {
+      "en": "Find the energy of the electron in the second orbit (n=2) of a hydrogen atom. Also find its ionization energy from this state.",
+      "hi": "हाइड्रोजन परमाणु की दूसरी कक्षा (n=2) में इलेक्ट्रॉन की ऊर्जा ज्ञात कीजिए। इस अवस्था से इसकी आयनन ऊर्जा (ionization energy) भी ज्ञात कीजिए।",
+      "hinglish": "Hydrogen atom ke 2nd orbit (n=2) me electron ki energy kitni hogi? Aur us state se ionization energy kitni hogi?"
+    },
+    "given": {
+      "en": "Atom = Hydrogen ($Z=1$)\nOrbit $n = 2$",
+      "hi": "परमाणु = हाइड्रोजन ($Z=1$)\nकक्षा $n = 2$"
+    },
+    "required": {
+      "en": "Energy $E_2$ and Ionization Energy from $n=2$",
+      "hi": "ऊर्जा $E_2$ और $n=2$ से आयनन ऊर्जा"
+    },
+    "formula": "Energy of electron in $n^{th}$ orbit is $E_n = -\\frac{13.6}{n^2} \\text{ eV}$\nIonization energy $= E_{\\infty} - E_n = 0 - E_n = -E_n$",
+    "substitution": "E_2 = -\\frac{13.6}{2^2}",
+    "calculation": "E_2 = -\\frac{13.6}{4} = -3.4 \\text{ eV}\nIonization energy = -(-3.4 \\text{ eV}) = +3.4 \\text{ eV}",
+    "finalAnswer": "-3.4 \\text{ eV (Energy)}, +3.4 \\text{ eV (Ionization Energy)}",
+    "unit": "eV",
+    "examTip": {
+      "en": "Ionization energy is the energy required to remove an electron completely (to $n=\\infty$). It is always positive and equal to the magnitude of the total energy in that state.",
+      "hi": "आयनन ऊर्जा किसी इलेक्ट्रॉन को पूरी तरह से ( $n=\\infty$ तक) निकालने के लिए आवश्यक ऊर्जा है। यह हमेशा धनात्मक होती है और उस अवस्था में कुल ऊर्जा के परिमाण के बराबर होती है।"
+    }
+  }
+]

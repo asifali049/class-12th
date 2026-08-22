@@ -2,12 +2,97 @@
   {
     "id": "n1",
     "title": {
-      "en": "Interference",
-      "hi": "व्यतिकरण"
+      "en": "Huygens' Principle",
+      "hi": "हाइगेंस का सिद्धांत",
+      "hinglish": "Huygens' Principle"
     },
     "content": {
-      "en": "Superposition of two coherent light waves.",
-      "hi": "दो सुसंगत प्रकाश तरंगों का अध्यारोपण।"
+      "en": "It states that:\n1. Every point on a given wavefront acts as a fresh source of new disturbance, called secondary wavelets, which travel in all directions with the velocity of light in the medium.\n2. A surface touching these secondary wavelets tangentially in the forward direction at any instant gives the new wavefront at that instant.",
+      "hi": "इसके अनुसार:\n1. दिए गए तरंगाग्र (wavefront) पर प्रत्येक बिंदु नए विक्षोभ (disturbance) के एक नए स्रोत के रूप में कार्य करता है, जिन्हें द्वितीयक तरंगिकाएँ (secondary wavelets) कहा जाता है। ये माध्यम में प्रकाश के वेग से सभी दिशाओं में चलती हैं。\n2. किसी भी क्षण आगे की दिशा में इन द्वितीयक तरंगिकाओं को स्पर्श करने वाली सतह उस क्षण नया तरंगाग्र प्रदान करती है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Wavefront",
+      "hi": "तरंगाग्र (Wavefront)",
+      "hinglish": "Wavefront"
+    },
+    "content": {
+      "en": "It is defined as the continuous locus of all such particles of the medium which are vibrating in the same phase at any instant.\n- **Types:** Spherical (from point source), Cylindrical (from linear source), Plane (from a source at infinity).\n- Light rays are always perpendicular to the wavefront.",
+      "hi": "इसे माध्यम के उन सभी कणों के सतत बिंदु पथ (locus) के रूप में परिभाषित किया जाता है जो किसी भी क्षण समान कला (same phase) में कंपन कर रहे होते हैं।\n- **प्रकार:** गोलीय (बिंदु स्रोत से), बेलनाकार (रेखीय स्रोत से), समतल (अनंत पर स्थित स्रोत से)।\n- प्रकाश किरणें हमेशा तरंगाग्र के लंबवत होती हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Interference of Light",
+      "hi": "प्रकाश का व्यतिकरण",
+      "hinglish": "Interference of Light"
+    },
+    "content": {
+      "en": "The phenomenon of redistribution of light energy in a medium on account of superposition of light waves from two coherent sources is called interference.\n- **Constructive Interference:** When crest falls on crest. Amplitude and intensity are maximum. (Bright fringes)\n- **Destructive Interference:** When crest falls on trough. Amplitude and intensity are minimum. (Dark fringes)",
+      "hi": "दो कला-संबद्ध (coherent) स्रोतों से प्रकाश तरंगों के अध्यारोपण (superposition) के कारण माध्यम में प्रकाश ऊर्जा के पुनर्वितरण (redistribution) की घटना को व्यतिकरण कहते हैं।\n- **संपोषी व्यतिकरण (Constructive Interference):** जब शृंग (crest) शृंग पर पड़ता है। आयाम और तीव्रता अधिकतम होती है। (चमकीली फ्रिंजें)\n- **विनाशी व्यतिकरण (Destructive Interference):** जब शृंग गर्त (trough) पर पड़ता है। आयाम और तीव्रता न्यूनतम होती है। (काली फ्रिंजें)"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Coherent Sources",
+      "hi": "कला-संबद्ध स्रोत (Coherent Sources)",
+      "hinglish": "Coherent Sources"
+    },
+    "content": {
+      "en": "Two sources of light which continuously emit light waves of same frequency (or wavelength) with a zero or constant phase difference are called coherent sources.\n- Two independent light sources can never be coherent.",
+      "hi": "प्रकाश के वे दो स्रोत जो लगातार समान आवृत्ति (या तरंगदैर्ध्य) की प्रकाश तरंगें उत्सर्जित करते हैं जिनका कलांतर (phase difference) शून्य या नियत होता है, कला-संबद्ध स्रोत कहलाते हैं।\n- दो स्वतंत्र प्रकाश स्रोत कभी भी कला-संबद्ध नहीं हो सकते।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Young's Double Slit Experiment (YDSE)",
+      "hi": "यंग का द्वि-स्लिट प्रयोग (YDSE)",
+      "hinglish": "Young's Double Slit Experiment"
+    },
+    "content": {
+      "en": "Demonstrated interference of light. Monochromatic light passing through two narrow slits creates an interference pattern of alternate bright and dark fringes on a screen.\n- **Fringe Width ($\\beta$):** The distance between two consecutive bright or dark fringes. $\\beta = \\frac{\\lambda D}{d}$.",
+      "hi": "इसने प्रकाश के व्यतिकरण को प्रदर्शित किया। दो संकरी स्लिटों से गुजरने वाला एकवर्णी (monochromatic) प्रकाश स्क्रीन पर एकांतर (alternate) चमकीली और काली फ्रिंजों का व्यतिकरण प्रतिरूप बनाता है।\n- **फ्रिंज चौड़ाई (Fringe Width, $\\beta$):** दो लगातार चमकीली या काली फ्रिंजों के बीच की दूरी। $\\beta = \\frac{\\lambda D}{d}$।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Diffraction of Light",
+      "hi": "प्रकाश का विवर्तन (Diffraction)",
+      "hinglish": "Diffraction of Light"
+    },
+    "content": {
+      "en": "The phenomenon of bending of light around the corners of small obstacles or apertures and its encroachment into the region of geometrical shadow is called diffraction.\n- Condition: The size of the obstacle/aperture must be of the order of the wavelength of light ($a \\approx \\lambda$).",
+      "hi": "छोटे अवरोधों या द्वारक (apertures) के कोनों के चारों ओर प्रकाश के मुड़ने और ज्यामितीय छाया के क्षेत्र में इसके प्रवेश करने की घटना को विवर्तन कहते हैं।\n- शर्त: अवरोध/द्वारक का आकार प्रकाश की तरंगदैर्ध्य की कोटि का होना चाहिए ($a \\approx \\lambda$)।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Single Slit Diffraction",
+      "hi": "एकल स्लिट विवर्तन",
+      "hinglish": "Single Slit Diffraction"
+    },
+    "content": {
+      "en": "When light passes through a single narrow slit, a diffraction pattern is formed on the screen consisting of a broad, bright central maximum flanked by alternate dark and bright secondary maxima of decreasing intensity.\n- Width of central maximum is $W = \\frac{2\\lambda D}{a}$. It is twice the width of secondary maxima.",
+      "hi": "जब प्रकाश एक संकरी स्लिट से होकर गुजरता है, तो स्क्रीन पर एक विवर्तन प्रतिरूप बनता है जिसमें एक चौड़ा, चमकीला केंद्रीय उच्चिष्ठ (central maximum) होता है, जिसके दोनों ओर घटती तीव्रता वाले एकांतर काले और चमकीले द्वितीयक उच्चिष्ठ होते हैं।\n- केंद्रीय उच्चिष्ठ की चौड़ाई $W = \\frac{2\\lambda D}{a}$ होती है। यह द्वितीयक उच्चिष्ठों की चौड़ाई की दोगुनी होती है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Interference vs Diffraction",
+      "hi": "व्यतिकरण बनाम विवर्तन",
+      "hinglish": "Interference vs Diffraction"
+    },
+    "content": {
+      "en": "- **Interference:** Superposition of waves from two different coherent sources (slits). All bright fringes are of uniform intensity.\n- **Diffraction:** Superposition of wavelets originating from different parts of the same wavefront (single slit). Intensity of bright fringes decreases rapidly as we move away from the center.",
+      "hi": "- **व्यतिकरण:** दो अलग-अलग कला-संबद्ध स्रोतों (स्लिटों) से तरंगों का अध्यारोपण। सभी चमकीली फ्रिंजें एक समान तीव्रता की होती हैं।\n- **विवर्तन:** एक ही तरंगाग्र के विभिन्न भागों (एकल स्लिट) से उत्पन्न तरंगिकाओं का अध्यारोपण। केंद्र से दूर जाने पर चमकीली फ्रिंजों की तीव्रता तेजी से घटती है।"
     }
   }
 ]

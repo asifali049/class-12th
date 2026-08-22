@@ -2,12 +2,49 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction to गद्य गरिमा (Prose)",
-      "hi": "गद्य गरिमा (Prose) का परिचय"
+      "en": "राष्ट्र का स्वरूप (वासुदेव शरण अग्रवाल)",
+      "hi": "राष्ट्र का स्वरूप (वासुदेव शरण अग्रवाल)",
+      "hinglish": "Rashtra ka Swaroop"
     },
     "content": {
-      "en": "This chapter covers the basics of गद्य गरिमा (Prose).",
-      "hi": "यह अध्याय गद्य गरिमा (Prose) के मूल सिद्धांतों को शामिल करता है।"
+      "en": "According to Vasudev Sharan Agarwal, a nation is formed by three essential elements: Earth (Bhumi), People (Jan), and Culture (Sanskriti).\n- **Earth:** Motherland is the physical basis of the nation. We must respect and protect it.\n- **People:** The people living on the earth make it a nation. Their unity and diversity form the strength.\n- **Culture:** Culture is the soul of the nation. Without culture, a nation is dead.",
+      "hi": "वासुदेव शरण अग्रवाल के अनुसार, राष्ट्र का निर्माण तीन आवश्यक तत्वों से होता है: भूमि, जन, और संस्कृति।\n- **भूमि:** मातृभूमि राष्ट्र का भौतिक आधार है। हमें इसका सम्मान और रक्षा करनी चाहिए।\n- **जन:** भूमि पर रहने वाले लोग इसे एक राष्ट्र बनाते हैं। उनकी एकता और विविधता ही ताकत है।\n- **संस्कृति:** संस्कृति राष्ट्र की आत्मा है। संस्कृति के बिना राष्ट्र मृत है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "अशोक के फूल (आचार्य हजारी प्रसाद द्विवेदी)",
+      "hi": "अशोक के फूल (आचार्य हजारी प्रसाद द्विवेदी)",
+      "hinglish": "Ashok ke Phool"
+    },
+    "content": {
+      "en": "This essay reflects on the Ashoka flower, its historical significance in Indian culture, and its eventual neglect. Dwivedi Ji beautifully describes how time changes everything and how the glory of the Ashoka tree has faded in modern times.",
+      "hi": "यह निबंध अशोक के फूल, भारतीय संस्कृति में इसके ऐतिहासिक महत्व और अंततः इसकी उपेक्षा पर प्रकाश डालता है। द्विवेदी जी ने बहुत ही सुंदरता से वर्णन किया है कि कैसे समय सब कुछ बदल देता है और कैसे आधुनिक समय में अशोक के पेड़ की महिमा फीकी पड़ गई है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "भाषा और आधुनिकता (प्रो. जी. सुन्दर रेड्डी)",
+      "hi": "भाषा और आधुनिकता (प्रो. जी. सुन्दर रेड्डी)",
+      "hinglish": "Bhasha aur Aadhunikta"
+    },
+    "content": {
+      "en": "The author argues that language must evolve with time to remain relevant. Modernity in language means accepting new words, idioms, and expressions that reflect contemporary society and scientific advancements.",
+      "hi": "लेखक का तर्क है कि प्रासंगिक बने रहने के लिए भाषा को समय के साथ विकसित होना चाहिए। भाषा में आधुनिकता का अर्थ है नए शब्दों, मुहावरों और अभिव्यक्तियों को स्वीकार करना जो समकालीन समाज और वैज्ञानिक प्रगति को दर्शाते हैं।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "हम और हमारा आदर्श (डॉ. ए.पी.जे. अब्दुल कलाम)",
+      "hi": "हम और हमारा आदर्श (डॉ. ए.पी.जे. अब्दुल कलाम)",
+      "hinglish": "Hum aur Hamara Adarsh"
+    },
+    "content": {
+      "en": "Dr. Kalam emphasizes the importance of having high ideals and dreams. He inspires the youth to aim for a developed India, combining spiritual wisdom with scientific progress.",
+      "hi": "डॉ. कलाम उच्च आदर्शों और सपनों के महत्व पर जोर देते हैं। वे युवाओं को आध्यात्मिक ज्ञान के साथ वैज्ञानिक प्रगति को जोड़कर एक विकसित भारत का लक्ष्य रखने के लिए प्रेरित करते हैं।"
     }
   }
 ]

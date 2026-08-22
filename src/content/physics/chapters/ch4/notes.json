@@ -2,12 +2,121 @@
   {
     "id": "n1",
     "title": {
-      "en": "Lorentz Force",
-      "hi": "लॉरेंज बल"
+      "en": "Oersted's Experiment",
+      "hi": "ओर्स्टेड का प्रयोग",
+      "hinglish": "Oersted's Experiment"
     },
     "content": {
-      "en": "Force on a moving charge in magnetic field F = q(v x B).",
-      "hi": "चुंबकीय क्षेत्र में गतिमान आवेश पर बल F = q(v x B)।"
+      "en": "In 1820, H.C. Oersted observed that a magnetic compass needle gets deflected when placed near a current-carrying wire. This established that **a moving charge or electric current produces a magnetic field** around it.",
+      "hi": "1820 में, H.C. ओर्स्टेड ने देखा कि एक धारावाही तार के पास रखे जाने पर चुंबकीय दिक्सूची (compass needle) विक्षेपित हो जाती है। इससे यह स्थापित हुआ कि **गतिमान आवेश या विद्युत धारा अपने चारों ओर एक चुंबकीय क्षेत्र उत्पन्न करती है**।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Magnetic Field (B)",
+      "hi": "चुंबकीय क्षेत्र (B)",
+      "hinglish": "Magnetic Field (B)"
+    },
+    "content": {
+      "en": "The space around a magnet or a current-carrying conductor in which its magnetic effect can be experienced is called a magnetic field. It is a vector quantity.\n**SI Unit:** Tesla (T) or Weber/m² (Wb/m²).\n**CGS Unit:** Gauss (G). $1 \\text{ T} = 10^4 \\text{ G}$.",
+      "hi": "किसी चुंबक या धारावाही चालक के चारों ओर का वह क्षेत्र जिसमें उसके चुंबकीय प्रभाव का अनुभव किया जा सकता है, चुंबकीय क्षेत्र कहलाता है। यह एक सदिश (vector) राशि है।\n**SI इकाई:** टेस्ला (T) या वेबर/m² (Wb/m²)।\n**CGS इकाई:** गॉस (G)। $1 \\text{ T} = 10^4 \\text{ G}$।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Biot-Savart Law",
+      "hi": "बायो-सावर्ट नियम",
+      "hinglish": "Biot-Savart Law"
+    },
+    "content": {
+      "en": "The magnetic field $dB$ at a point P due to a small current element $Idl$ is directly proportional to the current $I$, the length of the element $dl$, the sine of the angle $\\theta$ between $dl$ and the position vector $r$, and inversely proportional to the square of the distance $r$.\n\n$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$\n\nIn vector form: $d\\vec{B} = \\frac{\\mu_0 I}{4\\pi} \\frac{d\\vec{l} \\times \\vec{r}}{r^3}$",
+      "hi": "किसी अल्पांश धारा अवयव $Idl$ के कारण बिंदु P पर चुंबकीय क्षेत्र $dB$, धारा $I$, अल्पांश की लंबाई $dl$, और $dl$ तथा स्थिति सदिश $r$ के बीच के कोण की ज्या (sine $\\theta$) के अनुक्रमानुपाती होता है, तथा दूरी $r$ के वर्ग के व्युत्क्रमानुपाती होता है।\n\n$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$\n\nसदिश रूप में: $d\\vec{B} = \\frac{\\mu_0 I}{4\\pi} \\frac{d\\vec{l} \\times \\vec{r}}{r^3}$"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Magnetic Field due to a Straight Wire",
+      "hi": "सीधे तार के कारण चुंबकीय क्षेत्र",
+      "hinglish": "Straight Wire ka Magnetic Field"
+    },
+    "content": {
+      "en": "For an infinitely long straight current-carrying wire, the magnetic field at a perpendicular distance $r$ is:\n\n$B = \\frac{\\mu_0 I}{2\\pi r}$\n\nThe direction is given by the **Right Hand Thumb Rule**.",
+      "hi": "अनंत लंबाई के सीधे धारावाही तार के कारण $r$ लंबवत दूरी पर चुंबकीय क्षेत्र:\n\n$B = \\frac{\\mu_0 I}{2\\pi r}$\n\nइसकी दिशा **दाहिने हाथ के अंगूठे के नियम (Right Hand Thumb Rule)** द्वारा दी जाती है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Ampere's Circuital Law",
+      "hi": "एम्पीयर का परिपथीय नियम",
+      "hinglish": "Ampere's Circuital Law"
+    },
+    "content": {
+      "en": "The line integral of the magnetic field $\\vec{B}$ around any closed path (Amperian loop) in free space is equal to $\\mu_0$ times the total current $I$ passing through the surface enclosed by the closed path.\n\n$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}$",
+      "hi": "निर्वात (free space) में किसी बंद पथ (एम्पीरियन लूप) के अनुदिश चुंबकीय क्षेत्र $\\vec{B}$ का रेखीय समाकलन (line integral), उस बंद पथ द्वारा घिरे क्षेत्रफल से गुजरने वाली कुल धारा $I$ का $\\mu_0$ गुना होता है।\n\n$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}$"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Magnetic Field inside a Solenoid",
+      "hi": "परिनालिका (Solenoid) के भीतर चुंबकीय क्षेत्र",
+      "hinglish": "Solenoid ke andar Magnetic Field"
+    },
+    "content": {
+      "en": "A solenoid is a long tightly wound helical coil. Inside a long ideal solenoid, the magnetic field is uniform, strong, and parallel to its axis.\n\n$B = \\mu_0 n I$\n\nWhere $n = \\frac{N}{L}$ is the number of turns per unit length. Outside an ideal solenoid, $B \\approx 0$.",
+      "hi": "परिनालिका (Solenoid) पास-पास लपेटे गए विद्युतरोधी तार की एक लंबी कुंडली होती है। एक लंबी आदर्श परिनालिका के भीतर चुंबकीय क्षेत्र एकसमान, प्रबल और इसके अक्ष के समांतर होता है।\n\n$B = \\mu_0 n I$\n\nजहाँ $n = \\frac{N}{L}$ प्रति एकांक लंबाई में फेरों की संख्या है। एक आदर्श परिनालिका के बाहर $B \\approx 0$ होता है।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Lorentz Force",
+      "hi": "लॉरेंज बल (Lorentz Force)",
+      "hinglish": "Lorentz Force"
+    },
+    "content": {
+      "en": "When a charge $q$ moves with velocity $v$ in a region where both electric field $E$ and magnetic field $B$ exist, the total force on it is called the Lorentz force.\n\n$\\vec{F} = q\\vec{E} + q(\\vec{v} \\times \\vec{B})$\n\nThe magnetic force part is $F_m = qvB \\sin \\theta$.",
+      "hi": "जब कोई आवेश $q$ वेग $v$ से ऐसे क्षेत्र में गति करता है जहाँ विद्युत क्षेत्र $E$ और चुंबकीय क्षेत्र $B$ दोनों मौजूद हों, तो उस पर लगने वाले कुल बल को लॉरेंज बल कहते हैं।\n\n$\\vec{F} = q\\vec{E} + q(\\vec{v} \\times \\vec{B})$\n\nचुंबकीय बल वाला भाग $F_m = qvB \\sin \\theta$ है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Force on a Current-Carrying Conductor",
+      "hi": "धारावाही चालक पर बल",
+      "hinglish": "Current-Carrying Conductor par Force"
+    },
+    "content": {
+      "en": "A straight conductor of length $l$ carrying current $I$ placed in a uniform magnetic field $B$ experiences a force:\n\n$\\vec{F} = I (\\vec{l} \\times \\vec{B}) \\implies F = IlB \\sin \\theta$\n\nThe direction of the force is given by **Fleming's Left-Hand Rule**.",
+      "hi": "एकसमान चुंबकीय क्षेत्र $B$ में रखे $l$ लंबाई के धारावाही चालक (जिसमें $I$ धारा बह रही हो) पर लगने वाला बल:\n\n$\\vec{F} = I (\\vec{l} \\times \\vec{B}) \\implies F = IlB \\sin \\theta$\n\nबल की दिशा **फ्लेमिंग के बाएँ हाथ के नियम (Fleming's Left-Hand Rule)** द्वारा ज्ञात की जाती है।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Force Between Two Parallel Current-Carrying Wires",
+      "hi": "दो समांतर धारावाही तारों के बीच बल",
+      "hinglish": "Two Parallel Wires ke beech Force"
+    },
+    "content": {
+      "en": "Two parallel wires carrying current $I_1$ and $I_2$ separated by distance $d$ exert a force on each other. The force per unit length is:\n\n$f = \\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$\n\n- If currents are in the **same direction**, they **attract** each other.\n- If currents are in **opposite directions**, they **repel** each other.",
+      "hi": "दूरी $d$ पर रखे $I_1$ और $I_2$ धारा वाले दो समांतर तार एक-दूसरे पर बल लगाते हैं। प्रति एकांक लंबाई पर लगने वाला बल है:\n\n$f = \\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$\n\n- यदि धाराएँ **समान दिशा** में हैं, तो वे एक-दूसरे को **आकर्षित (attract)** करते हैं।\n- यदि धाराएँ **विपरीत दिशा** में हैं, तो वे एक-दूसरे को **प्रतिकर्षित (repel)** करते हैं।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Moving Coil Galvanometer",
+      "hi": "चल कुंडली धारामापी (Moving Coil Galvanometer)",
+      "hinglish": "Moving Coil Galvanometer"
+    },
+    "content": {
+      "en": "It is a device used to detect small electric currents.\n**Principle:** A current-carrying coil placed in a magnetic field experiences a torque.\nTorque $\\tau = NIAB \\sin \\theta$. Using a radial magnetic field, $\\theta = 90^\\circ$, so $\\tau = NIAB$.\nThis torque is balanced by the restoring torque $C\\alpha$ of the spring, where $\\alpha$ is the deflection.\n$I = \\left( \\frac{C}{NAB} \\right) \\alpha$\n- Can be converted to an Ammeter by connecting a low resistance (Shunt) in parallel.\n- Can be converted to a Voltmeter by connecting a high resistance in series.",
+      "hi": "यह छोटी विद्युत धाराओं का पता लगाने के लिए प्रयुक्त एक उपकरण है।\n**सिद्धांत:** चुंबकीय क्षेत्र में रखी धारावाही कुंडली पर एक बल आघूर्ण (torque) कार्य करता है।\nबल आघूर्ण $\\tau = NIAB \\sin \\theta$। अरीय (radial) चुंबकीय क्षेत्र का उपयोग करने पर $\\theta = 90^\\circ$, इसलिए $\\tau = NIAB$।\nइस बल आघूर्ण को स्प्रिंग के प्रत्यानयन बल आघूर्ण (restoring torque) $C\\alpha$ द्वारा संतुलित किया जाता है, जहाँ $\\alpha$ विक्षेप है।\n$I = \\left( \\frac{C}{NAB} \\right) \\alpha$\n- इसके समांतर क्रम (parallel) में कम प्रतिरोध (शंट) जोड़कर इसे एमीटर में बदला जा सकता है।\n- इसके श्रेणीक्रम (series) में उच्च प्रतिरोध जोड़कर इसे वोल्टमीटर में बदला जा सकता है।"
     }
   }
 ]

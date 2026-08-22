@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Cell Terminal Voltage vs EMF",
+      "hi": "सेल का टर्मिनल वोल्टेज बनाम EMF",
+      "hinglish": "Terminal Voltage vs EMF"
+    },
+    "summary": {
+      "en": "EMF ($E$) is the maximum potential difference (when $I=0$). Terminal voltage ($V$) is the potential difference when current is drawn. Usually $V < E$ because $V = E - Ir$. However, during **charging** of a cell by an external source, current enters the positive terminal, so $V = E + Ir$ (Terminal voltage becomes greater than EMF).",
+      "hi": "EMF ($E$) अधिकतम विभवांतर है (जब $I=0$ हो)। टर्मिनल वोल्टेज ($V$) वह विभवांतर है जब धारा ली जाती है। आमतौर पर $V < E$ होता है क्योंकि $V = E - Ir$। हालाँकि, किसी बाहरी स्रोत द्वारा सेल की **चार्जिंग** के दौरान, धारा धनात्मक टर्मिनल में प्रवेश करती है, इसलिए $V = E + Ir$ (टर्मिनल वोल्टेज EMF से अधिक हो जाता है)।",
+      "hinglish": "Normally Terminal Voltage ($V$), EMF ($E$) se kam hota hai ($V = E - Ir$). Lekin jab cell ko charge kar rahe hote hain, tab $V > E$ ho jata hai ($V = E + Ir$)."
+    },
+    "quickRecall": [
+      { "en": "Discharging: V = E - Ir", "hi": "डिस्चार्जिंग: V = E - Ir" },
+      { "en": "Charging: V = E + Ir", "hi": "चार्जिंग: V = E + Ir" },
+      { "en": "Open Circuit: V = E", "hi": "खुला परिपथ: V = E" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Kirchhoff's Laws Conservation Principles",
+      "hi": "किरचॉफ के नियमों के संरक्षण सिद्धांत",
+      "hinglish": "Kirchhoff Laws ke Conservation Principles"
+    },
+    "summary": {
+      "en": "KCL (Junction Rule) is based on the **Law of Conservation of Charge**. It means charges do not accumulate at a junction. KVL (Loop Rule) is based on the **Law of Conservation of Energy**. The total work done (or potential change) in a closed loop is zero.",
+      "hi": "KCL (संधि का नियम) **आवेश संरक्षण के नियम** पर आधारित है। इसका अर्थ है कि किसी संधि पर आवेश संचित नहीं होता है। KVL (पाश का नियम) **ऊर्जा संरक्षण के नियम** पर आधारित है। किसी बंद पाश में किया गया कुल कार्य (या विभव परिवर्तन) शून्य होता है।",
+      "hinglish": "KCL hamesha Charge Conservation par based hota hai. KVL hamesha Energy Conservation par based hota hai. Board exam me ye 1 mark ka MCQ aksar aata hai."
+    },
+    "quickRecall": [
+      { "en": "KCL = Conservation of Charge", "hi": "KCL = आवेश संरक्षण" },
+      { "en": "KVL = Conservation of Energy", "hi": "KVL = ऊर्जा संरक्षण" }
+    ]
+  }
+]

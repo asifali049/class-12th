@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "De Broglie Wavelength of an Accelerated Electron",
+      "hi": "त्वरित इलेक्ट्रॉन की डी ब्रोग्ली तरंगदैर्ध्य",
+      "hinglish": "De Broglie Wavelength of Electron"
+    },
+    "given": {
+      "en": "An electron of mass $m$ and charge $e$ is accelerated from rest through a potential difference $V$.",
+      "hi": "$m$ द्रव्यमान और $e$ आवेश वाला एक इलेक्ट्रॉन विरामावस्था से $V$ विभवांतर द्वारा त्वरित किया जाता है।"
+    },
+    "toFind": {
+      "en": "Expression for its de Broglie wavelength $\\lambda$.",
+      "hi": "इसकी डी ब्रोग्ली तरंगदैर्ध्य $\\lambda$ का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Kinetic Energy", "hi": "चरण 1: गतिज ऊर्जा" },
+        "content": {
+          "en": "When an electron is accelerated through potential $V$, the work done on it becomes its kinetic energy $K$.\n$K = eV$",
+          "hi": "जब किसी इलेक्ट्रॉन को विभव $V$ द्वारा त्वरित किया जाता है, तो उस पर किया गया कार्य उसकी गतिज ऊर्जा $K$ बन जाता है।\n$K = eV$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Relation between Kinetic Energy and Momentum", "hi": "चरण 2: गतिज ऊर्जा और संवेग के बीच संबंध" },
+        "content": {
+          "en": "We know kinetic energy $K = \\frac{1}{2}mv^2$. Multiplying and dividing by $m$:\n$K = \\frac{m^2 v^2}{2m} = \\frac{p^2}{2m}$\nTherefore, momentum $p = \\sqrt{2mK}$",
+          "hi": "हम जानते हैं कि गतिज ऊर्जा $K = \\frac{1}{2}mv^2$। $m$ से गुणा और भाग करने पर:\n$K = \\frac{m^2 v^2}{2m} = \\frac{p^2}{2m}$\nइसलिए, संवेग $p = \\sqrt{2mK}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Applying de Broglie Hypothesis", "hi": "चरण 3: डी ब्रोग्ली परिकल्पना लागू करना" },
+        "content": {
+          "en": "According to de Broglie, wavelength $\\lambda = \\frac{h}{p}$.\nSubstituting the value of $p$:\n$\\lambda = \\frac{h}{\\sqrt{2mK}}$\nSubstituting $K = eV$:\n$\\lambda = \\frac{h}{\\sqrt{2meV}}$",
+          "hi": "डी ब्रोग्ली के अनुसार, तरंगदैर्ध्य $\\lambda = \\frac{h}{p}$।\n$p$ का मान रखने पर:\n$\\lambda = \\frac{h}{\\sqrt{2mK}}$\n$K = eV$ रखने पर:\n$\\lambda = \\frac{h}{\\sqrt{2meV}}$"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Putting standard values", "hi": "चरण 4: मानक मान रखना" },
+        "content": {
+          "en": "For an electron, $m = 9.1 \\times 10^{-31}$ kg, $e = 1.6 \\times 10^{-19}$ C, $h = 6.63 \\times 10^{-34}$ Js.\n$\\lambda = \\frac{6.63 \\times 10^{-34}}{\\sqrt{2 \\times 9.1 \\times 10^{-31} \\times 1.6 \\times 10^{-19} \\times V}}$\n$\\lambda = \\frac{1.227 \\times 10^{-9}}{\\sqrt{V}} \\text{ meters} = \\frac{1.227}{\\sqrt{V}} \\text{ nm}$",
+          "hi": "इलेक्ट्रॉन के लिए, $m = 9.1 \\times 10^{-31}$ kg, $e = 1.6 \\times 10^{-19}$ C, $h = 6.63 \\times 10^{-34}$ Js।\n$\\lambda = \\frac{6.63 \\times 10^{-34}}{\\sqrt{2 \\times 9.1 \\times 10^{-31} \\times 1.6 \\times 10^{-19} \\times V}}$\n$\\lambda = \\frac{1.227 \\times 10^{-9}}{\\sqrt{V}} \\text{ मीटर} = \\frac{1.227}{\\sqrt{V}} \\text{ nm}$"
+        }
+      }
+    ],
+    "finalResult": "$\\lambda = \\frac{1.227}{\\sqrt{V}} \\text{ nm}$ or $\\frac{12.27}{\\sqrt{V}} \\text{ \\AA}$",
+    "examTip": {
+      "en": "Remember the shortcut formula $\\lambda = 12.27 / \\sqrt{V}$ in Angstroms for quick numericals.",
+      "hi": "त्वरित संख्यात्मक प्रश्नों के लिए एंग्स्ट्रॉम (Angstroms) में शॉर्टकट सूत्र $\\lambda = 12.27 / \\sqrt{V}$ याद रखें।"
+    }
+  }
+]

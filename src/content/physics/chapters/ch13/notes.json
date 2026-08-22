@@ -2,12 +2,73 @@
   {
     "id": "n1",
     "title": {
-      "en": "Radioactivity",
-      "hi": "रेडियोधर्मिता"
+      "en": "Composition and Size of Nucleus",
+      "hi": "नाभिक की संरचना और आकार",
+      "hinglish": "Nucleus Composition & Size"
     },
     "content": {
-      "en": "Spontaneous emission of radiation from unstable nuclei.",
-      "hi": "अस्थिर नाभिक से विकिरण का सहज उत्सर्जन।"
+      "en": "The nucleus consists of protons and neutrons (collectively called nucleons).\n- **Atomic Number ($Z$):** Number of protons.\n- **Mass Number ($A$):** Total number of protons and neutrons ($A = Z + N$).\n- **Size:** Radius of nucleus is $R = R_0 A^{1/3}$, where $R_0 \\approx 1.2 \\text{ fm} = 1.2 \\times 10^{-15} \\text{ m}$.\n- Nuclear density is constant and independent of mass number $A$.",
+      "hi": "नाभिक में प्रोटॉन और न्यूट्रॉन होते हैं (जिन्हें सामूहिक रूप से न्यूक्लिऑन कहा जाता है)।\n- **परमाणु संख्या ($Z$):** प्रोटॉनों की संख्या।\n- **द्रव्यमान संख्या ($A$):** प्रोटॉन और न्यूट्रॉन की कुल संख्या ($A = Z + N$)।\n- **आकार:** नाभिक की त्रिज्या $R = R_0 A^{1/3}$ होती है, जहाँ $R_0 \\approx 1.2 \\text{ fm} = 1.2 \\times 10^{-15} \\text{ m}$।\n- नाभिकीय घनत्व नियत होता है और द्रव्यमान संख्या $A$ से स्वतंत्र होता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Isotopes, Isobars, and Isotones",
+      "hi": "समस्थानिक, समभारिक, और समन्यूट्रॉनिक",
+      "hinglish": "Isotopes, Isobars, Isotones"
+    },
+    "content": {
+      "en": "- **Isotopes:** Same $Z$, different $A$ (e.g., $^{12}_6\\text{C}, ^{14}_6\\text{C}$).\n- **Isobars:** Same $A$, different $Z$ (e.g., $^{40}_{18}\\text{Ar}, ^{40}_{20}\\text{Ca}$).\n- **Isotones:** Same number of neutrons $N$ ($A-Z$) (e.g., $^{14}_6\\text{C}, ^{16}_8\\text{O}$ have $N=8$).",
+      "hi": "- **समस्थानिक (Isotopes):** समान $Z$, अलग $A$ (उदा. $^{12}_6\\text{C}, ^{14}_6\\text{C}$)।\n- **समभारिक (Isobars):** समान $A$, अलग $Z$ (उदा. $^{40}_{18}\\text{Ar}, ^{40}_{20}\\text{Ca}$)।\n- **समन्यूट्रॉनिक (Isotones):** न्यूट्रॉन $N$ ($A-Z$) की संख्या समान (उदा. $^{14}_6\\text{C}, ^{16}_8\\text{O}$ में $N=8$ हैं)।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Mass Defect and Binding Energy",
+      "hi": "द्रव्यमान क्षति और बंधन ऊर्जा",
+      "hinglish": "Mass Defect & Binding Energy"
+    },
+    "content": {
+      "en": "- **Mass Defect ($\\Delta m$):** The difference between the sum of the masses of individual nucleons forming a nucleus and the actual mass of the nucleus.\n- **Binding Energy ($BE$):** The energy required to separate a nucleus into its constituent nucleons completely. $BE = \\Delta m \\cdot c^2$.\n- **Binding Energy per Nucleon ($BE/A$):** Determines the stability of a nucleus. Higher $BE/A$ means greater stability. Maximum for Iron ($^{56}\\text{Fe}$).",
+      "hi": "- **द्रव्यमान क्षति (Mass Defect, $\\Delta m$):** नाभिक बनाने वाले अलग-अलग न्यूक्लिऑनों के द्रव्यमान के योग और नाभिक के वास्तविक द्रव्यमान के बीच का अंतर।\n- **बंधन ऊर्जा (Binding Energy, $BE$):** किसी नाभिक को उसके घटक न्यूक्लिऑनों में पूरी तरह से अलग करने के लिए आवश्यक ऊर्जा। $BE = \\Delta m \\cdot c^2$।\n- **प्रति न्यूक्लिऑन बंधन ऊर्जा ($BE/A$):** नाभिक की स्थिरता निर्धारित करती है। उच्च $BE/A$ का अर्थ है अधिक स्थिरता। लोहे ($^{56}\\text{Fe}$) के लिए यह अधिकतम होती है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Nuclear Force",
+      "hi": "नाभिकीय बल",
+      "hinglish": "Nuclear Force"
+    },
+    "content": {
+      "en": "The strong attractive force between nucleons in the nucleus that holds them together.\n- It is the strongest force in nature.\n- It is a short-range force (operates over a distance of $2-3 \\text{ fm}$).\n- It is charge-independent (force between p-p, n-n, and p-n is almost same).\n- It is spin-dependent and non-central.",
+      "hi": "नाभिक में न्यूक्लिऑनों के बीच का मजबूत आकर्षण बल जो उन्हें एक साथ बांध कर रखता है।\n- यह प्रकृति का सबसे मजबूत बल है।\n- यह एक लघु-परास (short-range) बल है ($2-3 \\text{ fm}$ की दूरी तक काम करता है)।\n- यह आवेश से स्वतंत्र (charge-independent) है (p-p, n-n, और p-n के बीच बल लगभग समान होता है)।\n- यह चक्रण पर निर्भर (spin-dependent) और अ-केंद्रीय (non-central) है।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Radioactivity",
+      "hi": "रेडियोधर्मिता (Radioactivity)",
+      "hinglish": "Radioactivity"
+    },
+    "content": {
+      "en": "The spontaneous emission of radiation (alpha, beta, gamma) from the nucleus of an unstable atom to achieve stability.\n- **Law of Radioactive Decay:** The rate of decay of radioactive nuclei is directly proportional to the number of undecayed nuclei present at that instant. $\\frac{dN}{dt} = -\\lambda N$.\n- **Half-Life ($T_{1/2}$):** Time during which half of the radioactive nuclei present in a sample decay. $T_{1/2} = \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda}$.",
+      "hi": "स्थिरता (stability) प्राप्त करने के लिए किसी अस्थिर परमाणु के नाभिक से विकिरण (अल्फा, बीटा, गामा) का स्वतः (spontaneous) उत्सर्जन।\n- **रेडियोधर्मी क्षय का नियम:** रेडियोधर्मी नाभिकों के क्षय (decay) की दर उस क्षण मौजूद अविकटित (undecayed) नाभिकों की संख्या के सीधे समानुपाती होती है। $\\frac{dN}{dt} = -\\lambda N$।\n- **अर्ध-आयु (Half-Life, $T_{1/2}$):** वह समय जिसके दौरान किसी नमूने में मौजूद रेडियोधर्मी नाभिकों का आधा भाग क्षय हो जाता है। $T_{1/2} = \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda}$।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Nuclear Fission and Fusion",
+      "hi": "नाभिकीय विखंडन और संलयन",
+      "hinglish": "Fission and Fusion"
+    },
+    "content": {
+      "en": "- **Fission:** A heavy nucleus splits into two lighter nuclei of comparable masses with the release of a large amount of energy (e.g., Uranium-235). Principle of nuclear reactors and atom bombs.\n- **Fusion:** Two or more light nuclei combine to form a heavier nucleus with the release of a huge amount of energy (e.g., Hydrogen to Helium). Source of energy in the Sun and stars.",
+      "hi": "- **विखंडन (Fission):** एक भारी नाभिक, बड़ी मात्रा में ऊर्जा की रिहाई के साथ तुलनीय द्रव्यमान वाले दो हल्के नाभिकों में विभाजित हो जाता है (उदा. यूरेनियम-235)। यह परमाणु रिएक्टरों और परमाणु बमों का सिद्धांत है।\n- **संलयन (Fusion):** दो या दो से अधिक हल्के नाभिक मिलकर एक भारी नाभिक बनाते हैं, जिससे भारी मात्रा में ऊर्जा मुक्त होती है (उदा. हाइड्रोजन से हीलियम)। यह सूर्य और तारों में ऊर्जा का स्रोत है।"
     }
   }
 ]

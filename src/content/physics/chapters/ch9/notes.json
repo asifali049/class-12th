@@ -2,12 +2,121 @@
   {
     "id": "n1",
     "title": {
-      "en": "Reflection",
-      "hi": "परावर्तन"
+      "en": "Reflection of Light",
+      "hi": "प्रकाश का परावर्तन",
+      "hinglish": "Reflection of Light"
     },
     "content": {
-      "en": "Angle of incidence equals angle of reflection.",
-      "hi": "आपतन कोण परावर्तन कोण के बराबर होता है।"
+      "en": "The phenomenon of bouncing back of light into the same medium after striking a smooth surface is called reflection.\n**Laws of Reflection:**\n1. Angle of incidence equals the angle of reflection ($i = r$).\n2. The incident ray, reflected ray, and the normal at the point of incidence all lie in the same plane.",
+      "hi": "किसी चिकनी सतह से टकराकर प्रकाश का उसी माध्यम में वापस लौटने की घटना को परावर्तन कहते हैं।\n**परावर्तन के नियम:**\n1. आपतन कोण, परावर्तन कोण के बराबर होता है ($i = r$)।\n2. आपतित किरण, परावर्तित किरण और आपतन बिंदु पर अभिलंब (normal), तीनों एक ही तल में होते हैं।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Spherical Mirrors",
+      "hi": "गोलीय दर्पण",
+      "hinglish": "Spherical Mirrors"
+    },
+    "content": {
+      "en": "Mirrors whose reflecting surfaces are part of a hollow sphere of glass.\n- **Concave Mirror:** Reflecting surface is curved inwards. It converges light rays.\n- **Convex Mirror:** Reflecting surface is curved outwards. It diverges light rays.\n- **Mirror Formula:** $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$.\n- **Magnification (m):** $m = \\frac{h_i}{h_o} = -\\frac{v}{u}$.",
+      "hi": "वे दर्पण जिनकी परावर्तक सतह काँच के खोखले गोले का भाग होती है।\n- **अवतल दर्पण (Concave Mirror):** परावर्तक सतह अंदर की ओर वक्रित होती है। यह प्रकाश किरणों को अभिसरित (converge) करता है।\n- **उत्तल दर्पण (Convex Mirror):** परावर्तक सतह बाहर की ओर वक्रित होती है। यह प्रकाश किरणों को अपसरित (diverge) करता है।\n- **दर्पण सूत्र:** $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$।\n- **आवर्धन (Magnification, m):** $m = \\frac{h_i}{h_o} = -\\frac{v}{u}$।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Refraction of Light",
+      "hi": "प्रकाश का अपवर्तन",
+      "hinglish": "Refraction of Light"
+    },
+    "content": {
+      "en": "The phenomenon of bending of light at the interface of two media when it passes from one transparent medium to another is called refraction.\n**Snell's Law:** The ratio of sine of angle of incidence to the sine of angle of refraction is constant for a given pair of media.\n$n_1 \\sin i = n_2 \\sin r$ or $\\frac{\\sin i}{\\sin r} = n_{21}$.",
+      "hi": "जब प्रकाश एक पारदर्शी माध्यम से दूसरे पारदर्शी माध्यम में जाता है, तो दोनों माध्यमों के अंतरापृष्ठ (interface) पर प्रकाश के मुड़ने की घटना को अपवर्तन कहते हैं।\n**स्नेल का नियम:** आपतन कोण की ज्या (sine) और अपवर्तन कोण की ज्या का अनुपात दिए गए माध्यमों के युग्म के लिए नियत होता है।\n$n_1 \\sin i = n_2 \\sin r$ या $\\frac{\\sin i}{\\sin r} = n_{21}$।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Total Internal Reflection (TIR)",
+      "hi": "पूर्ण आंतरिक परावर्तन (TIR)",
+      "hinglish": "Total Internal Reflection"
+    },
+    "content": {
+      "en": "When light travels from a denser medium to a rarer medium and the angle of incidence is greater than the critical angle ($i > i_c$), the light is completely reflected back into the denser medium.\n- **Critical Angle ($i_c$):** Angle of incidence in denser medium for which angle of refraction in rarer medium is $90^\\circ$.\n- $\\sin i_c = \\frac{n_{rarer}}{n_{denser}}$.\n**Applications:** Optical fibres, mirage, brilliance of diamond.",
+      "hi": "जब प्रकाश सघन (denser) माध्यम से विरल (rarer) माध्यम में जाता है और आपतन कोण का मान क्रांतिक कोण से अधिक ($i > i_c$) होता है, तो प्रकाश पूरी तरह से सघन माध्यम में वापस परावर्तित हो जाता है।\n- **क्रांतिक कोण ($i_c$):** सघन माध्यम में वह आपतन कोण जिसके लिए विरल माध्यम में अपवर्तन कोण $90^\\circ$ होता है।\n- $\\sin i_c = \\frac{n_{rarer}}{n_{denser}}$।\n**अनुप्रयोग:** ऑप्टिकल फाइबर, मृगतृष्णा (mirage), हीरे की चमक।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Lenses",
+      "hi": "लेंस",
+      "hinglish": "Lenses"
+    },
+    "content": {
+      "en": "A transparent material bound by two surfaces, of which one or both surfaces are spherical.\n- **Convex Lens:** Thicker at center. Converging lens.\n- **Concave Lens:** Thinner at center. Diverging lens.\n- **Lens Formula:** $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$.\n- **Lens Maker's Formula:** $\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$.",
+      "hi": "दो सतहों से घिरा एक पारदर्शी माध्यम, जिनमें से एक या दोनों सतहें गोलीय होती हैं।\n- **उत्तल लेंस (Convex Lens):** बीच में मोटा। अभिसारी लेंस।\n- **अवतल लेंस (Concave Lens):** बीच में पतला। अपसारी लेंस।\n- **लेंस सूत्र:** $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$।\n- **लेंस निर्माता सूत्र (Lens Maker's Formula):** $\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)$।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Power of a Lens (P)",
+      "hi": "लेंस की क्षमता (P)",
+      "hinglish": "Power of Lens"
+    },
+    "content": {
+      "en": "It is the measure of the degree of convergence or divergence of light rays falling on it. It is the reciprocal of focal length (in meters).\n$P = \\frac{1}{f(\\text{in m})}$\n- **SI Unit:** Dioptre (D).\n- Power of convex lens is positive, concave lens is negative.\n- When lenses are in contact: $P = P_1 + P_2 + ...$",
+      "hi": "यह लेंस पर पड़ने वाली प्रकाश किरणों के अभिसरण (convergence) या अपसरण (divergence) की मात्रा की माप है। यह फोकस दूरी (मीटर में) का व्युत्क्रम है।\n$P = \\frac{1}{f(\\text{in m})}$\n- **SI इकाई:** डायोप्टर (D)।\n- उत्तल लेंस की क्षमता धनात्मक (positive) और अवतल लेंस की ऋणात्मक (negative) होती है।\n- जब लेंस संपर्क में हों: $P = P_1 + P_2 + ...$"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Prism",
+      "hi": "प्रिज्म",
+      "hinglish": "Prism"
+    },
+    "content": {
+      "en": "A prism is a wedge-shaped portion of a transparent refracting medium bounded by two plane faces.\n- **Angle of Deviation ($\\delta$):** Angle between incident ray and emergent ray.\n- $\\delta = i + e - A$, where $A$ is angle of prism.\n- At minimum deviation, $i = e$ and $r_1 = r_2$.",
+      "hi": "प्रिज्म एक पारदर्शी अपवर्तक माध्यम का إسفين (wedge) के आकार का हिस्सा है जो दो समतल सतहों से घिरा होता है।\n- **विचलन कोण (Angle of Deviation, $\\delta$):** आपतित किरण और निर्गत किरण के बीच का कोण।\n- $\\delta = i + e - A$, जहाँ $A$ प्रिज्म कोण है।\n- न्यूनतम विचलन (minimum deviation) पर, $i = e$ और $r_1 = r_2$।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Dispersion of Light",
+      "hi": "प्रकाश का विक्षेपण (Dispersion)",
+      "hinglish": "Dispersion of Light"
+    },
+    "content": {
+      "en": "The phenomenon of splitting of white light into its constituent colors (VIBGYOR) when passing through a prism is called dispersion.\n- Violet deviates the most, Red deviates the least.\n- Cause: Refractive index depends on wavelength ($n_v > n_r$).",
+      "hi": "जब श्वेत प्रकाश किसी प्रिज्म से होकर गुजरता है, तो उसका अपने अवयवी रंगों (VIBGYOR) में विभक्त हो जाना प्रकाश का विक्षेपण कहलाता है।\n- बैंगनी (Violet) का विचलन सबसे अधिक और लाल (Red) का विचलन सबसे कम होता है।\n- कारण: अपवर्तनांक तरंगदैर्ध्य पर निर्भर करता है ($n_v > n_r$)।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "Optical Instruments: Microscope",
+      "hi": "प्रकाशिक यंत्र: सूक्ष्मदर्शी (Microscope)",
+      "hinglish": "Microscope"
+    },
+    "content": {
+      "en": "- **Simple Microscope:** A convex lens of short focal length. Magnifying power $M = 1 + \\frac{D}{f}$ (image at near point) or $M = \\frac{D}{f}$ (image at infinity).\n- **Compound Microscope:** Uses two convex lenses (Objective and Eyepiece). $M = M_o \\times M_e$. Objective has small aperture and small focal length.",
+      "hi": "- **सरल सूक्ष्मदर्शी (Simple Microscope):** कम फोकस दूरी का एक उत्तल लेंस। आवर्धन क्षमता $M = 1 + \\frac{D}{f}$ (प्रतिबिंब निकट बिंदु पर) या $M = \\frac{D}{f}$ (प्रतिबिंब अनंत पर)।\n- **संयुक्त सूक्ष्मदर्शी (Compound Microscope):** इसमें दो उत्तल लेंस (अभिदृश्यक - Objective और नेत्रिका - Eyepiece) होते हैं। $M = M_o \\times M_e$। अभिदृश्यक का द्वारक (aperture) और फोकस दूरी छोटी होती है।"
+    }
+  },
+  {
+    "id": "n10",
+    "title": {
+      "en": "Optical Instruments: Telescope",
+      "hi": "प्रकाशिक यंत्र: दूरदर्शी (Telescope)",
+      "hinglish": "Telescope"
+    },
+    "content": {
+      "en": "Used to observe distant objects. \n- **Refracting Telescope (Astronomical):** Has an objective lens of large focal length and large aperture, and an eyepiece of short focal length. $M = \\frac{f_o}{f_e}$.\n- **Reflecting Telescope (Cassegrain):** Uses a parabolic concave mirror as objective. It is free from chromatic aberration.",
+      "hi": "दूर की वस्तुओं को देखने के लिए उपयोग किया जाता है।\n- **अपवर्ती दूरदर्शी (Refracting Telescope):** इसमें बड़ी फोकस दूरी और बड़े द्वारक वाला एक अभिदृश्यक लेंस तथा छोटी फोकस दूरी वाली नेत्रिका होती है। $M = \\frac{f_o}{f_e}$।\n- **परावर्ती दूरदर्शी (Reflecting Telescope):** इसमें अभिदृश्यक के रूप में परवलयाकार (parabolic) अवतल दर्पण का उपयोग होता है। यह वर्ण विपथन (chromatic aberration) से मुक्त होता है।"
     }
   }
 ]

@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Shortest and Longest Wavelengths in a Series",
+      "hi": "श्रेणी में सबसे छोटी और सबसे बड़ी तरंगदैर्ध्य",
+      "hinglish": "Shortest & Longest Wavelengths"
+    },
+    "summary": {
+      "en": "Using Rydberg formula: $\\frac{1}{\\lambda} = R \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$\n- **Shortest Wavelength (Series Limit):** Maximum energy transition. Occurs when $n_2 = \\infty$.\n- **Longest Wavelength (First Line):** Minimum energy transition. Occurs when $n_2 = n_1 + 1$ (the very next orbit).",
+      "hi": "रिडबर्ग सूत्र का उपयोग करते हुए: $\\frac{1}{\\lambda} = R \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$\n- **सबसे छोटी तरंगदैर्ध्य (श्रेणी सीमा):** अधिकतम ऊर्जा संक्रमण। तब होता है जब $n_2 = \\infty$।\n- **सबसे बड़ी तरंगदैर्ध्य (पहली रेखा):** न्यूनतम ऊर्जा संक्रमण। तब होता है जब $n_2 = n_1 + 1$ (बिल्कुल अगली कक्षा)।",
+      "hinglish": "Shortest wavelength ka matlab max energy, to n2 ko infinity (∞) lena. Longest wavelength ka matlab min energy, to n2 ko (n1 + 1) lena."
+    },
+    "quickRecall": [
+      { "en": "Shortest λ -> n2 = ∞", "hi": "सबसे छोटी λ -> n2 = ∞" },
+      { "en": "Longest λ -> n2 = n1 + 1", "hi": "सबसे बड़ी λ -> n2 = n1 + 1" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Total Energy, Kinetic Energy and Potential Energy",
+      "hi": "कुल ऊर्जा, गतिज ऊर्जा और स्थितिज ऊर्जा",
+      "hinglish": "TE, KE & PE relations"
+    },
+    "summary": {
+      "en": "For an electron in a Bohr orbit, there is a fixed relationship between Kinetic Energy ($K$), Potential Energy ($U$), and Total Energy ($E$):\n$K = -E$\n$U = 2E$\nTherefore, $U = -2K$. Total energy is always negative, which means the electron is bound.",
+      "hi": "बोर कक्षा में एक इलेक्ट्रॉन के लिए, गतिज ऊर्जा ($K$), स्थितिज ऊर्जा ($U$) और कुल ऊर्जा ($E$) के बीच एक निश्चित संबंध होता है:\n$K = -E$\n$U = 2E$\nइसलिए, $U = -2K$। कुल ऊर्जा हमेशा ऋणात्मक होती है, जिसका अर्थ है कि इलेक्ट्रॉन बंधा हुआ है।",
+      "hinglish": "Electron ki Kinetic energy positive hoti hai (+13.6). Total energy utni hi negative hoti hai (-13.6). Potential energy total ki double hoti hai (-27.2)."
+    },
+    "quickRecall": [
+      { "en": "K = -E", "hi": "K = -E" },
+      { "en": "U = 2E", "hi": "U = 2E" }
+    ]
+  }
+]

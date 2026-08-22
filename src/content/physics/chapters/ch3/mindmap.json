@@ -4,5 +4,54 @@
     "en": "Current Electricity",
     "hi": "विद्युत धारा"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electric Current (I)",
+        "hi": "विद्युत धारा (I)"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "I = q / t", "hi": "I = q / t" } },
+        { "id": "c1b", "label": { "en": "Drift Velocity: vd", "hi": "अपवाह वेग: vd" } },
+        { "id": "c1c", "label": { "en": "I = neAvd", "hi": "I = neAvd" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Ohm's Law",
+        "hi": "ओम का नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "V = IR", "hi": "V = IR" } },
+        { "id": "c2b", "label": { "en": "Resistance: R = ρ(l/A)", "hi": "प्रतिरोध: R = ρ(l/A)" } },
+        { "id": "c2c", "label": { "en": "Temp Effect: RT = R0(1+αΔT)", "hi": "ताप प्रभाव: RT = R0(1+αΔT)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Cells and EMF",
+        "hi": "सेल और EMF"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "V = E - Ir", "hi": "V = E - Ir" } },
+        { "id": "c3b", "label": { "en": "Series: E_eq = E1 + E2", "hi": "श्रेणीक्रम: E_eq = E1 + E2" } },
+        { "id": "c3c", "label": { "en": "Parallel: E_eq/r_eq = E1/r1 + E2/r2", "hi": "समांतर: E_eq/r_eq = E1/r1 + E2/r2" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Kirchhoff's Laws",
+        "hi": "किरचॉफ के नियम"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "KCL (Junction): ΣI = 0", "hi": "KCL (संधि): ΣI = 0" } },
+        { "id": "c4b", "label": { "en": "KVL (Loop): ΣΔV = 0", "hi": "KVL (पाश): ΣΔV = 0" } },
+        { "id": "c4c", "label": { "en": "Wheatstone Bridge: P/Q = R/S", "hi": "व्हीटस्टोन सेतु: P/Q = R/S" } }
+      ]
+    }
+  ]
 }

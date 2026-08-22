@@ -2,12 +2,97 @@
   {
     "id": "n1",
     "title": {
-      "en": "Photoelectric Effect",
-      "hi": "प्रकाश विद्युत प्रभाव"
+      "en": "Electron Emission",
+      "hi": "इलेक्ट्रॉन उत्सर्जन",
+      "hinglish": "Electron Emission"
     },
     "content": {
-      "en": "Emission of electrons when light hits a metal.",
-      "hi": "जब प्रकाश धातु से टकराता है तो इलेक्ट्रॉनों का उत्सर्जन।"
+      "en": "The phenomenon of emission of electrons from the surface of a metal is called electron emission.\nTypes:\n- **Thermionic emission:** By heating the metal.\n- **Field emission:** By applying a very strong electric field.\n- **Photoelectric emission:** By illuminating the metal with light of suitable frequency.",
+      "hi": "किसी धातु की सतह से इलेक्ट्रॉनों के उत्सर्जन की घटना को इलेक्ट्रॉन उत्सर्जन कहते हैं।\nप्रकार:\n- **तापायनिक उत्सर्जन (Thermionic emission):** धातु को गर्म करके।\n- **क्षेत्र उत्सर्जन (Field emission):** बहुत मजबूत विद्युत क्षेत्र लगाकर।\n- **प्रकाश-विद्युत उत्सर्जन (Photoelectric emission):** धातु पर उपयुक्त आवृत्ति का प्रकाश डालकर।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Photoelectric Effect",
+      "hi": "प्रकाश-विद्युत प्रभाव",
+      "hinglish": "Photoelectric Effect"
+    },
+    "content": {
+      "en": "The phenomenon of emission of electrons from a metal surface when light of suitable high frequency (or short wavelength) falls on it is called the photoelectric effect. The emitted electrons are called photoelectrons.\n- It proves the particle nature of light.",
+      "hi": "जब किसी धातु की सतह पर उपयुक्त उच्च आवृत्ति (या कम तरंगदैर्ध्य) का प्रकाश पड़ता है, तो उससे इलेक्ट्रॉनों के उत्सर्जन की घटना को प्रकाश-विद्युत प्रभाव कहते हैं। उत्सर्जित इलेक्ट्रॉनों को प्रकाश-इलेक्ट्रॉन (photoelectrons) कहा जाता है।\n- यह प्रकाश की कण प्रकृति (particle nature) को सिद्ध करता है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Work Function and Threshold Frequency",
+      "hi": "कार्य फलन और देहली आवृत्ति",
+      "hinglish": "Work Function & Threshold Freq"
+    },
+    "content": {
+      "en": "- **Work Function ($\\Phi_0$ or $W$):** The minimum energy required by an electron to just escape from the metal surface. Unit is eV.\n- **Threshold Frequency ($\\nu_0$):** The minimum frequency of incident light below which no photoelectric emission takes place, regardless of the intensity of light.",
+      "hi": "- **कार्य फलन (Work Function, $\\Phi_0$ या $W$):** किसी धातु की सतह से बाहर निकलने के लिए इलेक्ट्रॉन द्वारा आवश्यक न्यूनतम ऊर्जा। इकाई eV है।\n- **देहली आवृत्ति (Threshold Frequency, $\\nu_0$):** आपतित प्रकाश की वह न्यूनतम आवृत्ति जिससे कम आवृत्ति पर कोई प्रकाश-विद्युत उत्सर्जन नहीं होता है, चाहे प्रकाश की तीव्रता कितनी भी हो।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Laws of Photoelectric Emission",
+      "hi": "प्रकाश-विद्युत उत्सर्जन के नियम",
+      "hinglish": "Laws of Photoelectric Emission"
+    },
+    "content": {
+      "en": "1. Rate of emission of photoelectrons is directly proportional to the **intensity** of incident light.\n2. For a given metal, there exists a certain minimum frequency called **threshold frequency**, below which no emission occurs.\n3. The maximum kinetic energy of photoelectrons is directly proportional to the **frequency** of incident light and is independent of its intensity.\n4. The process is instantaneous (no time lag).",
+      "hi": "1. प्रकाश-इलेक्ट्रॉनों के उत्सर्जन की दर आपतित प्रकाश की **तीव्रता (intensity)** के सीधे समानुपाती होती है।\n2. किसी दी गई धातु के लिए, एक निश्चित न्यूनतम आवृत्ति होती है जिसे **देहली आवृत्ति (threshold frequency)** कहते हैं, जिससे कम पर कोई उत्सर्जन नहीं होता।\n3. प्रकाश-इलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा आपतित प्रकाश की **आवृत्ति (frequency)** के सीधे समानुपाती होती है और यह तीव्रता से स्वतंत्र होती है।\n4. यह प्रक्रिया तात्कालिक (instantaneous) होती है (कोई समय अंतराल नहीं)।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Stopping Potential (Cut-off Potential)",
+      "hi": "निरोधी विभव (Stopping Potential)",
+      "hinglish": "Stopping Potential"
+    },
+    "content": {
+      "en": "The minimum negative (retarding) potential given to the anode with respect to the cathode at which the photoelectric current becomes zero.\n- At stopping potential ($V_0$), the maximum kinetic energy of electrons is $K_{max} = eV_0$.",
+      "hi": "कैथोड के सापेक्ष एनोड को दिया गया वह न्यूनतम ऋणात्मक (मंदक) विभव जिस पर प्रकाश-विद्युत धारा शून्य हो जाती है।\n- निरोधी विभव ($V_0$) पर, इलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा $K_{max} = eV_0$ होती है।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Einstein's Photoelectric Equation",
+      "hi": "आइंस्टीन का प्रकाश-विद्युत समीकरण",
+      "hinglish": "Einstein's Photoelectric Equation"
+    },
+    "content": {
+      "en": "Based on Planck's quantum theory. Light travels in discrete energy packets called photons ($E = h\\nu$).\nEnergy of incident photon = Work function + Max Kinetic Energy of emitted electron\n$h\\nu = \\Phi_0 + K_{max}$",
+      "hi": "प्लांक के क्वांटम सिद्धांत पर आधारित। प्रकाश असतत (discrete) ऊर्जा पैकेटों के रूप में चलता है जिन्हें फोटॉन ($E = h\\nu$) कहा जाता है।\nआपतित फोटॉन की ऊर्जा = कार्य फलन + उत्सर्जित इलेक्ट्रॉन की अधिकतम गतिज ऊर्जा\n$h\\nu = \\Phi_0 + K_{max}$"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "De Broglie Hypothesis (Matter Waves)",
+      "hi": "डी ब्रोग्ली परिकल्पना (द्रव्य तरंगें)",
+      "hinglish": "De Broglie Hypothesis"
+    },
+    "content": {
+      "en": "Just as light exhibits dual nature (wave and particle), moving material particles (like electrons, protons) also exhibit wave-like properties.\nThe waves associated with moving particles are called matter waves or de Broglie waves.\n- Wavelength: $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$.",
+      "hi": "जिस प्रकार प्रकाश दोहरी प्रकृति (तरंग और कण) प्रदर्शित करता है, गतिमान भौतिक कण (जैसे इलेक्ट्रॉन, प्रोटॉन) भी तरंग जैसे गुण प्रदर्शित करते हैं।\nगतिमान कणों से जुड़ी तरंगों को द्रव्य तरंगें (matter waves) या डी ब्रोग्ली तरंगें कहा जाता है।\n- तरंगदैर्ध्य: $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Davisson and Germer Experiment",
+      "hi": "डेविसन और जर्मर का प्रयोग",
+      "hinglish": "Davisson Germer Experiment"
+    },
+    "content": {
+      "en": "This experiment provided the first experimental proof of the wave nature of electrons (and hence matter waves).\n- It demonstrated electron diffraction by a nickel crystal.\n- Maximum diffraction intensity was observed at an accelerating voltage of $54 \\text{ V}$ and a scattering angle of $50^\\circ$.",
+      "hi": "इस प्रयोग ने इलेक्ट्रॉनों की तरंग प्रकृति (और इसलिए द्रव्य तरंगों) का पहला प्रायोगिक प्रमाण प्रदान किया।\n- इसने निकल क्रिस्टल द्वारा इलेक्ट्रॉन विवर्तन (diffraction) को प्रदर्शित किया।\n- अधिकतम विवर्तन तीव्रता $54 \\text{ V}$ के त्वरित वोल्टेज और $50^\\circ$ के प्रकीर्णन कोण (scattering angle) पर देखी गई थी।"
     }
   }
 ]

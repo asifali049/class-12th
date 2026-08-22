@@ -2,12 +2,109 @@
   {
     "id": "n1",
     "title": {
-      "en": "Faraday's Law",
-      "hi": "फैराडे का नियम"
+      "en": "Magnetic Flux (ΦB)",
+      "hi": "चुंबकीय फ्लक्स (ΦB)",
+      "hinglish": "Magnetic Flux"
     },
     "content": {
-      "en": "Induced EMF is proportional to rate of change of magnetic flux.",
-      "hi": "प्रेरित EMF चुंबकीय फ्लक्स के परिवर्तन की दर के अनुक्रमानुपाती होता है।"
+      "en": "Magnetic flux through any surface is the number of magnetic field lines passing normally through that surface.\n$\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos \\theta$\n- It is a scalar quantity.\n- **SI Unit:** Weber (Wb) or $\\text{T}\\cdot\\text{m}^2$.\n- **CGS Unit:** Maxwell ($1 \\text{ Wb} = 10^8 \\text{ Maxwell}$).",
+      "hi": "किसी सतह से होकर गुजरने वाला चुंबकीय फ्लक्स उस सतह के लंबवत गुजरने वाली चुंबकीय क्षेत्र रेखाओं की संख्या है।\n$\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos \\theta$\n- यह एक अदिश राशि (scalar quantity) है।\n- **SI इकाई:** वेबर (Wb) या $\\text{T}\\cdot\\text{m}^2$।\n- **CGS इकाई:** मैक्सवेल ($1 \\text{ Wb} = 10^8 \\text{ Maxwell}$)।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Faraday's Laws of Electromagnetic Induction",
+      "hi": "फैराडे के विद्युत चुम्बकीय प्रेरण के नियम",
+      "hinglish": "Faraday's Laws"
+    },
+    "content": {
+      "en": "**First Law:** Whenever the magnetic flux linked with a closed circuit changes, an induced electromotive force (emf) is set up in it. It lasts as long as the change in flux continues.\n**Second Law:** The magnitude of the induced emf is equal to the time rate of change of magnetic flux linked with the circuit.\n$\\varepsilon = -\\frac{d\\Phi_B}{dt}$",
+      "hi": "**प्रथम नियम:** जब भी किसी बंद परिपथ से जुड़े चुंबकीय फ्लक्स में परिवर्तन होता है, तो उसमें एक प्रेरित विद्युत वाहक बल (emf) उत्पन्न हो जाता है। यह तब तक रहता है जब तक फ्लक्स में परिवर्तन जारी रहता है।\n**द्वितीय नियम:** प्रेरित emf का परिमाण परिपथ से जुड़े चुंबकीय फ्लक्स के परिवर्तन की समय दर के बराबर होता है।\n$\\varepsilon = -\\frac{d\\Phi_B}{dt}$"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Lenz's Law",
+      "hi": "लेन्ज़ का नियम",
+      "hinglish": "Lenz's Law"
+    },
+    "content": {
+      "en": "The direction of the induced current (or emf) is such that it opposes the change in magnetic flux that produced it. This is the significance of the negative sign in Faraday's law. \n- Lenz's law is a direct consequence of the **Law of Conservation of Energy**.",
+      "hi": "प्रेरित धारा (या emf) की दिशा ऐसी होती है कि वह उस कारण (चुंबकीय फ्लक्स में परिवर्तन) का विरोध करती है जिससे वह स्वयं उत्पन्न हुई है। फैराडे के नियम में ऋणात्मक चिह्न का यही महत्व है।\n- लेन्ज़ का नियम **ऊर्जा संरक्षण के नियम** का प्रत्यक्ष परिणाम है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Motional EMF",
+      "hi": "गतिक विद्युत वाहक बल (Motional EMF)",
+      "hinglish": "Motional EMF"
+    },
+    "content": {
+      "en": "When a straight conducting rod of length $l$ moves with velocity $v$ perpendicular to a uniform magnetic field $B$, an emf is induced across its ends.\n$\\varepsilon = B l v$\nIf the rod is rotating about one of its ends with angular velocity $\\omega$, the induced emf is:\n$\\varepsilon = \\frac{1}{2} B l^2 \\omega$",
+      "hi": "जब $l$ लंबाई का एक सीधा चालक छड़ एकसमान चुंबकीय क्षेत्र $B$ के लंबवत $v$ वेग से गति करता है, तो उसके सिरों के बीच एक emf प्रेरित होता है।\n$\\varepsilon = B l v$\nयदि छड़ अपने एक सिरे के परितः $\\omega$ कोणीय वेग से घूर्णन कर रही है, तो प्रेरित emf है:\n$\\varepsilon = \\frac{1}{2} B l^2 \\omega$"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Eddy Currents",
+      "hi": "भंवर धाराएँ (Eddy Currents)",
+      "hinglish": "Eddy Currents"
+    },
+    "content": {
+      "en": "When bulk pieces of conductors are subjected to changing magnetic flux, induced currents are produced in them. These circulating currents are called eddy currents.\n**Disadvantages:** They cause heating and loss of energy.\n**Applications:** Magnetic braking in trains, induction furnaces, electromagnetic damping in galvanometers.",
+      "hi": "जब चालकों के बड़े टुकड़ों (bulk pieces) को बदलते चुंबकीय फ्लक्स के अधीन रखा जाता है, तो उनमें प्रेरित धाराएँ उत्पन्न होती हैं। इन परिसंचारी (circulating) धाराओं को भंवर धाराएँ कहते हैं।\n**हानियाँ:** ये ऊष्मा उत्पन्न करती हैं और ऊर्जा की हानि का कारण बनती हैं।\n**अनुप्रयोग:** ट्रेनों में चुंबकीय ब्रेक, प्रेरण भट्ठी (induction furnace), धारामापी में विद्युत चुंबकीय अवमंदन (damping)।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Self-Induction",
+      "hi": "स्व-प्रेरण (Self-Induction)",
+      "hinglish": "Self-Induction"
+    },
+    "content": {
+      "en": "It is the phenomenon in which an opposing emf is induced in a coil due to a change in the current flowing through the same coil.\n$\\Phi_B = L I \\implies \\varepsilon = -L \\frac{dI}{dt}$\nWhere $L$ is the coefficient of self-induction or **inductance**.\n**SI Unit:** Henry (H).\n- Self-induction acts as electrical inertia.",
+      "hi": "यह वह घटना है जिसमें किसी कुंडली में बहने वाली धारा में परिवर्तन के कारण उसी कुंडली में एक विरोधी emf प्रेरित होता है।\n$\\Phi_B = L I \\implies \\varepsilon = -L \\frac{dI}{dt}$\nजहाँ $L$ स्व-प्रेरण गुणांक या **प्रेरकत्व (inductance)** है।\n**SI इकाई:** हेनरी (H)।\n- स्व-प्रेरण विद्युत जड़त्व (electrical inertia) के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "n7",
+    "title": {
+      "en": "Mutual Induction",
+      "hi": "अन्योन्य प्रेरण (Mutual Induction)",
+      "hinglish": "Mutual Induction"
+    },
+    "content": {
+      "en": "It is the phenomenon of production of an induced emf in one coil (secondary) due to a change in current in a neighboring coil (primary).\n$\\Phi_{B2} = M I_1 \\implies \\varepsilon_2 = -M \\frac{dI_1}{dt}$\nWhere $M$ is the coefficient of mutual induction.\n- Also measured in Henry (H).",
+      "hi": "यह एक कुंडली (प्राथमिक) में धारा के परिवर्तन के कारण पास रखी दूसरी कुंडली (द्वितीयक) में प्रेरित emf उत्पन्न होने की घटना है।\n$\\Phi_{B2} = M I_1 \\implies \\varepsilon_2 = -M \\frac{dI_1}{dt}$\nजहाँ $M$ अन्योन्य प्रेरण गुणांक है।\n- इसे भी हेनरी (H) में मापा जाता है।"
+    }
+  },
+  {
+    "id": "n8",
+    "title": {
+      "en": "Energy Stored in an Inductor",
+      "hi": "प्रेरक (Inductor) में संचित ऊर्जा",
+      "hinglish": "Energy stored in Inductor"
+    },
+    "content": {
+      "en": "To build up steady current in an inductor, work must be done against the induced emf. This work is stored as magnetic potential energy.\n$U = \\frac{1}{2} L I^2$\nWhere $L$ is inductance and $I$ is current.",
+      "hi": "किसी प्रेरक में स्थायी धारा स्थापित करने के लिए, प्रेरित emf के विरुद्ध कार्य करना पड़ता है। यह कार्य चुंबकीय स्थितिज ऊर्जा के रूप में संचित हो जाता है।\n$U = \\frac{1}{2} L I^2$\nजहाँ $L$ प्रेरकत्व है और $I$ धारा है।"
+    }
+  },
+  {
+    "id": "n9",
+    "title": {
+      "en": "AC Generator",
+      "hi": "एसी जनरेटर (प्रत्यावर्ती धारा जनित्र)",
+      "hinglish": "AC Generator"
+    },
+    "content": {
+      "en": "It converts mechanical energy into electrical energy based on electromagnetic induction.\n- A coil of $N$ turns and area $A$ rotates with angular velocity $\\omega$ in a uniform magnetic field $B$.\n- Induced emf is alternating: $\\varepsilon = \\varepsilon_0 \\sin \\omega t$, where $\\varepsilon_0 = NBA\\omega$ is the peak value of emf.",
+      "hi": "यह विद्युत चुम्बकीय प्रेरण के सिद्धांत पर यांत्रिक ऊर्जा को विद्युत ऊर्जा में परिवर्तित करता है।\n- $N$ फेरों और $A$ क्षेत्रफल वाली एक कुंडली एकसमान चुंबकीय क्षेत्र $B$ में $\\omega$ कोणीय वेग से घूर्णन करती है।\n- प्रेरित emf प्रत्यावर्ती (alternating) होता है: $\\varepsilon = \\varepsilon_0 \\sin \\omega t$, जहाँ $\\varepsilon_0 = NBA\\omega$ emf का शिखर मान (peak value) है।"
     }
   }
 ]

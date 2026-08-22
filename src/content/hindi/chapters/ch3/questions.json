@@ -2,15 +2,19 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Easy",
-    "marks": 2,
+    "difficulty": "Medium",
+    "marks": 5,
     "question": {
-      "en": "Explain the importance of कथा भारती (Stories).",
-      "hi": "कथा भारती (Stories) के महत्व को समझाइए।"
+      "en": "Discuss the central theme of the story 'Panchlight'.",
+      "hi": "कहानी 'पंचलाइट' के उद्देश्य (केंद्रीय भाव) पर प्रकाश डालिए।"
     },
     "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
-    }
+      "en": "The central theme is that during times of need or crisis, society forgets rigid caste and behavioral rules. The story humorously portrays rural ignorance, factionalism, and the eventual triumph of utility and forgiveness over petty prejudices.",
+      "hi": "केंद्रीय भाव यह है कि आवश्यकता या संकट के समय समाज कठोर जाति और व्यवहार के नियमों को भूल जाता है। कहानी ग्रामीण अज्ञानता, गुटबाजी और अंततः क्षुद्र पूर्वाग्रहों पर उपयोगिता और क्षमा की जीत को हास्यपूर्ण ढंग से प्रस्तुत करती है।"
+    },
+    "keywords": [
+      { "en": "rural life", "hi": "ग्रामीण जीवन" },
+      { "en": "superstition", "hi": "अंधविश्वास" }
+    ]
   }
 ]

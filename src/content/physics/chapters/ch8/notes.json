@@ -2,12 +2,73 @@
   {
     "id": "n1",
     "title": {
-      "en": "EM Waves",
-      "hi": "विद्युत चुंबकीय तरंगें"
+      "en": "Displacement Current",
+      "hi": "विस्थापन धारा (Displacement Current)",
+      "hinglish": "Displacement Current"
     },
     "content": {
-      "en": "Waves with changing E and B fields.",
-      "hi": "बदलते E और B क्षेत्रों वाली तरंगें।"
+      "en": "Displacement current is that current which comes into play in the region where the electric field and the electric flux are changing with time.\n$I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$\n- It was introduced by Maxwell to remove the inconsistency of Ampere's circuital law.\n- It produces a magnetic field just like a conduction current.",
+      "hi": "विस्थापन धारा वह धारा है जो उस क्षेत्र में उत्पन्न होती है जहाँ विद्युत क्षेत्र और विद्युत फ्लक्स समय के साथ बदल रहे होते हैं।\n$I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$\n- इसे एम्पीयर के परिपथीय नियम की विसंगति (inconsistency) को दूर करने के लिए मैक्सवेल द्वारा प्रस्तुत किया गया था।\n- यह चालन धारा (conduction current) की तरह ही चुंबकीय क्षेत्र उत्पन्न करती है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Maxwell's Equations",
+      "hi": "मैक्सवेल के समीकरण",
+      "hinglish": "Maxwell's Equations"
+    },
+    "content": {
+      "en": "Maxwell summarized the basic laws of electricity and magnetism into four fundamental equations:\n1. **Gauss's Law for Electricity:** $\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q}{\\epsilon_0}$\n2. **Gauss's Law for Magnetism:** $\\oint \\vec{B} \\cdot d\\vec{A} = 0$ (Monopoles don't exist)\n3. **Faraday's Law of Induction:** $\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}$\n4. **Ampere-Maxwell Law:** $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}$",
+      "hi": "मैक्सवेल ने विद्युत और चुंबकत्व के मूल नियमों को चार मूलभूत समीकरणों में संक्षेपित किया:\n1. **विद्युत के लिए गॉस का नियम:** $\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q}{\\epsilon_0}$\n2. **चुंबकत्व के लिए गॉस का नियम:** $\\oint \\vec{B} \\cdot d\\vec{A} = 0$ (एकल ध्रुव का अस्तित्व नहीं है)\n3. **फैराडे का प्रेरण का नियम:** $\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}$\n4. **एम्पीयर-मैक्सवेल नियम:** $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d) = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt}$"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Electromagnetic Waves (EM Waves)",
+      "hi": "विद्युत चुम्बकीय तरंगें (EM Waves)",
+      "hinglish": "Electromagnetic Waves"
+    },
+    "content": {
+      "en": "EM waves are coupled time-varying electric and magnetic fields that propagate in space. \n- They are produced by **accelerated charges**.\n- The electric field ($\\vec{E}$) and magnetic field ($\\vec{B}$) oscillate perpendicular to each other and perpendicular to the direction of propagation.\n- Speed in vacuum: $c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} \\approx 3 \\times 10^8 \\text{ m/s}$.",
+      "hi": "EM तरंगें समय के साथ बदलने वाले विद्युत और चुंबकीय क्षेत्र हैं जो अंतरिक्ष में संचरित होते हैं।\n- ये **त्वरित आवेशों (accelerated charges)** द्वारा उत्पन्न होती हैं।\n- विद्युत क्षेत्र ($\\vec{E}$) और चुंबकीय क्षेत्र ($\\vec{B}$) एक-दूसरे के लंबवत तथा संचरण की दिशा के लंबवत दोलन करते हैं।\n- निर्वात में चाल: $c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} \\approx 3 \\times 10^8 \\text{ m/s}$।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Properties of EM Waves",
+      "hi": "EM तरंगों के गुण",
+      "hinglish": "Properties of EM Waves"
+    },
+    "content": {
+      "en": "1. They do not require any material medium for propagation.\n2. They are transverse in nature.\n3. The ratio of magnitudes of $E$ and $B$ is constant: $c = \\frac{E_0}{B_0}$.\n4. They carry energy and momentum, and exert radiation pressure.\n5. They are not deflected by electric or magnetic fields (as they carry no charge).",
+      "hi": "1. इनके संचरण के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है।\n2. इनकी प्रकृति अनुप्रस्थ (transverse) होती है।\n3. $E$ और $B$ के परिमाणों का अनुपात नियत होता है: $c = \\frac{E_0}{B_0}$।\n4. ये ऊर्जा और संवेग वहन करती हैं, तथा विकिरण दाब (radiation pressure) डालती हैं।\n5. ये विद्युत या चुंबकीय क्षेत्रों द्वारा विक्षेपित नहीं होती हैं (क्योंकि इन पर कोई आवेश नहीं होता)।"
+    }
+  },
+  {
+    "id": "n5",
+    "title": {
+      "en": "Electromagnetic Spectrum",
+      "hi": "विद्युत चुम्बकीय स्पेक्ट्रम",
+      "hinglish": "EM Spectrum"
+    },
+    "content": {
+      "en": "The orderly distribution of EM waves in accordance with their wavelength or frequency is called the electromagnetic spectrum.\nOrder of increasing frequency (decreasing wavelength):\nRadio Waves < Microwaves < Infrared < Visible Light < Ultraviolet < X-Rays < Gamma Rays.",
+      "hi": "EM तरंगों का उनके तरंगदैर्ध्य (wavelength) या आवृत्ति (frequency) के अनुसार व्यवस्थित वितरण विद्युत चुम्बकीय स्पेक्ट्रम कहलाता है।\nबढ़ती आवृत्ति (घटती तरंगदैर्ध्य) का क्रम:\nरेडियो तरंगें < सूक्ष्म तरंगें (Microwaves) < अवरक्त (Infrared) < दृश्य प्रकाश (Visible Light) < पराबैंगनी (Ultraviolet) < एक्स-किरणें < गामा किरणें।"
+    }
+  },
+  {
+    "id": "n6",
+    "title": {
+      "en": "Uses of EM Waves",
+      "hi": "EM तरंगों के उपयोग",
+      "hinglish": "Uses of EM Waves"
+    },
+    "content": {
+      "en": "- **Radio:** Radio/TV communication.\n- **Microwaves:** Radar systems, microwave ovens.\n- **Infrared:** Physical therapy, remote controls, night vision.\n- **Visible:** Vision, photography.\n- **UV:** Water purification, detecting forged documents, LASIK.\n- **X-Rays:** Medical diagnostics, studying crystal structures.\n- **Gamma Rays:** Cancer treatment, food preservation.",
+      "hi": "- **रेडियो:** रेडियो/टीवी संचार।\n- **सूक्ष्म तरंगें (Microwaves):** रडार सिस्टम, माइक्रोवेव ओवन।\n- **अवरक्त (Infrared):** भौतिक चिकित्सा, रिमोट कंट्रोल, नाइट विजन।\n- **दृश्य (Visible):** दृष्टि (देखना), फोटोग्राफी।\n- **पराबैंगनी (UV):** जल शोधन, जाली दस्तावेजों का पता लगाना, LASIK आई सर्जरी।\n- **एक्स-किरणें:** चिकित्सा निदान (diagnostics), क्रिस्टल संरचनाओं का अध्ययन।\n- **गामा किरणें:** कैंसर का इलाज, खाद्य संरक्षण (food preservation)।"
     }
   }
 ]

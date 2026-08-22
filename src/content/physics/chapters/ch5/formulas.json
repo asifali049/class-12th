@@ -1,1 +1,85 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Magnetic Dipole Moment",
+      "hi": "चुंबकीय द्विध्रुव आघूर्ण",
+      "hinglish": "Magnetic Dipole Moment"
+    },
+    "formula": "m = q_m \\times 2l \\quad \\text{(Bar Magnet)}\nm = N I A \\quad \\text{(Current Loop)}",
+    "variables": [
+      { "symbol": "q_m", "name": { "en": "Pole strength", "hi": "ध्रुव प्रबलता" } },
+      { "symbol": "2l", "name": { "en": "Magnetic length", "hi": "चुंबकीय लंबाई" } },
+      { "symbol": "N", "name": { "en": "Number of turns", "hi": "फेरों की संख्या" } },
+      { "symbol": "I", "name": { "en": "Current", "hi": "विद्युत धारा" } },
+      { "symbol": "A", "name": { "en": "Area of loop", "hi": "लूप का क्षेत्रफल" } }
+    ],
+    "unit": { "en": "Am² or J/T", "hi": "Am² या J/T" }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Magnetic Field of a Bar Magnet (Axial Line)",
+      "hi": "छड़ चुंबक का अक्षीय रेखा पर चुंबकीय क्षेत्र",
+      "hinglish": "Axial Line par B"
+    },
+    "formula": "B = \\frac{\\mu_0}{4\\pi} \\frac{2mr}{(r^2 - l^2)^2} \\approx \\frac{\\mu_0}{4\\pi} \\frac{2m}{r^3} \\quad \\text{(for } r \\gg l \\text{)}",
+    "variables": [
+      { "symbol": "m", "name": { "en": "Magnetic dipole moment", "hi": "चुंबकीय द्विध्रुव आघूर्ण" } },
+      { "symbol": "r", "name": { "en": "Distance from centre", "hi": "केंद्र से दूरी" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Magnetic Field of a Bar Magnet (Equatorial Line)",
+      "hi": "छड़ चुंबक का निरक्षीय रेखा पर चुंबकीय क्षेत्र",
+      "hinglish": "Equatorial Line par B"
+    },
+    "formula": "B = \\frac{\\mu_0}{4\\pi} \\frac{m}{(r^2 + l^2)^{3/2}} \\approx \\frac{\\mu_0}{4\\pi} \\frac{m}{r^3} \\quad \\text{(for } r \\gg l \\text{)}",
+    "variables": [
+      { "symbol": "m", "name": { "en": "Magnetic dipole moment", "hi": "चुंबकीय द्विध्रुव आघूर्ण" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Torque on a Magnetic Dipole in a Uniform Field",
+      "hi": "एकसमान चुंबकीय क्षेत्र में द्विध्रुव पर बल आघूर्ण",
+      "hinglish": "Torque on Dipole"
+    },
+    "formula": "\\vec{\\tau} = \\vec{m} \\times \\vec{B} \\implies \\tau = mB \\sin \\theta",
+    "variables": [
+      { "symbol": "\\theta", "name": { "en": "Angle between m and B", "hi": "m और B के बीच का कोण" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Potential Energy of a Magnetic Dipole",
+      "hi": "चुंबकीय द्विध्रुव की स्थितिज ऊर्जा",
+      "hinglish": "Potential Energy of Dipole"
+    },
+    "formula": "U = -\\vec{m} \\cdot \\vec{B} = -mB \\cos \\theta",
+    "variables": [
+      { "symbol": "U", "name": { "en": "Potential Energy", "hi": "स्थितिज ऊर्जा" } }
+    ]
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Relations in Magnetism",
+      "hi": "चुंबकत्व में संबंध",
+      "hinglish": "Relations in Magnetism"
+    },
+    "formula": "B = \\mu_0 (H + M) \\\\ M = \\chi H \\\\ \\mu_r = 1 + \\chi",
+    "variables": [
+      { "symbol": "B", "name": { "en": "Magnetic Field", "hi": "चुंबकीय क्षेत्र" } },
+      { "symbol": "H", "name": { "en": "Magnetic Intensity", "hi": "चुंबकीय तीव्रता" } },
+      { "symbol": "M", "name": { "en": "Magnetisation", "hi": "चुंबकन" } },
+      { "symbol": "\\chi", "name": { "en": "Magnetic Susceptibility", "hi": "चुंबकीय प्रवृत्ति" } },
+      { "symbol": "\\mu_r", "name": { "en": "Relative Permeability", "hi": "आपेक्षिक चुंबकशीलता" } }
+    ]
+  }
+]

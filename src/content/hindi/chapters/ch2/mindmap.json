@@ -1,8 +1,21 @@
 {
   "id": "root",
   "label": {
-    "en": "काव्यांजलि (Poetry)",
-    "hi": "काव्यांजलि (Poetry)"
+    "en": "Kavyanjali (Poetry)",
+    "hi": "काव्यांजलि"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Pawan Dootika (Hariaudh)", "hi": "पवन दूतिका (हरिऔध)" }
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Kaikeyi Ka Anutap (Gupt)", "hi": "कैकेयी का अनुताप (गुप्त)" }
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Shraddha Manu (Prasad)", "hi": "श्रद्धा-मनु (प्रसाद)" }
+    }
+  ]
 }

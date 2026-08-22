@@ -1,8 +1,56 @@
 {
   "id": "root",
   "label": {
-    "en": "Magnetism",
-    "hi": "चुंबकत्व"
+    "en": "Moving Charges & Magnetism",
+    "hi": "गतिमान आवेश और चुंबकत्व"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Magnetic Field Sources",
+        "hi": "चुंबकीय क्षेत्र के स्रोत"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Biot-Savart Law", "hi": "बायो-सावर्ट नियम" } },
+        { "id": "c1b", "label": { "en": "Ampere's Law", "hi": "एम्पीयर का नियम" } },
+        { "id": "c1c", "label": { "en": "Straight Wire B = μ0 I / 2πr", "hi": "सीधा तार B = μ0 I / 2πr" } },
+        { "id": "c1d", "label": { "en": "Solenoid B = μ0 n I", "hi": "परिनालिका B = μ0 n I" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Magnetic Force",
+        "hi": "चुंबकीय बल"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "On Charge: F = q(v × B)", "hi": "आवेश पर: F = q(v × B)" } },
+        { "id": "c2b", "label": { "en": "On Wire: F = I(l × B)", "hi": "तार पर: F = I(l × B)" } },
+        { "id": "c2c", "label": { "en": "Between parallel wires", "hi": "समांतर तारों के बीच" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Motion in Magnetic Field",
+        "hi": "चुंबकीय क्षेत्र में गति"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Circular Path: r = mv/qB", "hi": "वृत्ताकार पथ: r = mv/qB" } },
+        { "id": "c3b", "label": { "en": "Helical Path", "hi": "कुंडलिनी पथ" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Galvanometer",
+        "hi": "धारामापी"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "To Ammeter (Parallel Shunt)", "hi": "एमीटर में (समांतर शंट)" } },
+        { "id": "c4b", "label": { "en": "To Voltmeter (Series High R)", "hi": "वोल्टमीटर में (श्रेणी उच्च R)" } }
+      ]
+    }
+  ]
 }

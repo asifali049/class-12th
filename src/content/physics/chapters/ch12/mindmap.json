@@ -4,5 +4,41 @@
     "en": "Atoms",
     "hi": "परमाणु"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Rutherford's Model",
+        "hi": "रदरफोर्ड मॉडल"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Alpha Scattering", "hi": "अल्फा प्रकीर्णन" } },
+        { "id": "c1b", "label": { "en": "Nucleus Discovered", "hi": "नाभिक की खोज" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Bohr's Model",
+        "hi": "बोर मॉडल"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "L = nh/2π", "hi": "L = nh/2π" } },
+        { "id": "c2b", "label": { "en": "hν = E2 - E1", "hi": "hν = E2 - E1" } },
+        { "id": "c2c", "label": { "en": "En = -13.6/n² eV", "hi": "En = -13.6/n² eV" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Hydrogen Spectrum",
+        "hi": "हाइड्रोजन स्पेक्ट्रम"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Lyman (UV, n1=1)", "hi": "लाइमन (UV, n1=1)" } },
+        { "id": "c3b", "label": { "en": "Balmer (Vis, n1=2)", "hi": "बामर (दृश्य, n1=2)" } },
+        { "id": "c3c", "label": { "en": "Paschen (IR, n1=3)", "hi": "पाश्चन (IR, n1=3)" } }
+      ]
+    }
+  ]
 }

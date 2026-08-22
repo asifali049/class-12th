@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Refraction through a Prism",
+      "hi": "प्रिज्म से होकर अपवर्तन",
+      "hinglish": "Refraction through Prism"
+    },
+    "description": {
+      "en": "Ray diagram showing incident ray, refracted ray, emergent ray, and the angle of deviation (δ).",
+      "hi": "आपतित किरण, अपवर्तित किरण, निर्गत किरण और विचलन कोण (δ) को दर्शाने वाला किरण आरेख।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 500 350\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g transform=\"translate(100, 250)\">\n    <!-- Prism Triangle -->\n    <polygon points=\"0,0 300,0 150,-200\" fill=\"#e0f2fe\" stroke=\"#3b82f6\" stroke-width=\"3\" />\n    <text x=\"145\" y=\"-210\" font-family=\"Arial\" font-size=\"18\" font-weight=\"bold\">A</text>\n\n    <!-- Incident Ray -->\n    <line x1=\"-50\" y1=\"-50\" x2=\"75\" y2=\"-100\" stroke=\"#ef4444\" stroke-width=\"2\" />\n    <path d=\"M -12 -65 L -10 -55 L 5 -75 Z\" fill=\"#ef4444\" />\n    <text x=\"-40\" y=\"-60\" font-family=\"Arial\" font-size=\"14\" fill=\"#ef4444\">Incident Ray</text>\n\n    <!-- Normal 1 -->\n    <line x1=\"30\" y1=\"-65\" x2=\"120\" y2=\"-135\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n    <text x=\"40\" y=\"-85\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\">i</text>\n\n    <!-- Refracted Ray (Inside Prism) -->\n    <line x1=\"75\" y1=\"-100\" x2=\"225\" y2=\"-100\" stroke=\"#ef4444\" stroke-width=\"2\" />\n\n    <!-- Normal 2 -->\n    <line x1=\"270\" y1=\"-65\" x2=\"180\" y2=\"-135\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n    <text x=\"245\" y=\"-85\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\">e</text>\n\n    <!-- Emergent Ray -->\n    <line x1=\"225\" y1=\"-100\" x2=\"350\" y2=\"-50\" stroke=\"#ef4444\" stroke-width=\"2\" />\n    <path d=\"M 295 -72 L 285 -65 L 310 -55 Z\" fill=\"#ef4444\" />\n    <text x=\"280\" y=\"-40\" font-family=\"Arial\" font-size=\"14\" fill=\"#ef4444\">Emergent Ray</text>\n\n    <!-- Extrapolated lines for Deviation -->\n    <line x1=\"75\" y1=\"-100\" x2=\"150\" y2=\"-130\" stroke=\"#f59e0b\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\" />\n    <line x1=\"225\" y1=\"-100\" x2=\"150\" y2=\"-130\" stroke=\"#f59e0b\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\" />\n    \n    <!-- Angle of Deviation Delta -->\n    <text x=\"145\" y=\"-140\" font-family=\"Arial\" font-size=\"16\" font-weight=\"bold\" fill=\"#f59e0b\">δ</text>\n  </g>\n</svg>",
+    "labels": []
+  }
+]

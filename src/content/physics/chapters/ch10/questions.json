@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Two independent monochromatic light sources cannot produce a sustained interference pattern because:",
+      "hi": "दो स्वतंत्र एकवर्णी (monochromatic) प्रकाश स्रोत एक स्थायी व्यतिकरण प्रतिरूप (sustained interference pattern) उत्पन्न नहीं कर सकते क्योंकि:",
+      "hinglish": "Do independent light sources sustained interference kyu nahi bana sakte?"
+    },
+    "options": [
+      { "en": "They have different wavelengths", "hi": "उनकी तरंगदैर्ध्य अलग-अलग होती है" },
+      { "en": "Their phase difference is not constant", "hi": "उनका कलांतर नियत नहीं होता है" },
+      { "en": "They emit light at different speeds", "hi": "वे अलग-अलग गति से प्रकाश उत्सर्जित करते हैं" },
+      { "en": "Their intensities are not equal", "hi": "उनकी तीव्रताएँ समान नहीं होती हैं" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "For sustained interference, the sources must be coherent, meaning their phase difference must remain constant over time. Two independent sources always have randomly changing phase differences.",
+      "hi": "स्थायी व्यतिकरण के लिए, स्रोतों का कला-संबद्ध (coherent) होना आवश्यक है, जिसका अर्थ है कि समय के साथ उनका कलांतर नियत रहना चाहिए। दो स्वतंत्र स्रोतों का कलांतर हमेशा बेतरतीब ढंग से बदलता रहता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "What happens to the interference pattern in Young's double-slit experiment if the entire apparatus is immersed in water?",
+      "hi": "यंग के द्वि-स्लिट प्रयोग में व्यतिकरण प्रतिरूप का क्या होता है यदि पूरे उपकरण को पानी में डुबो दिया जाए?",
+      "hinglish": "Agar YDSE setup ko pani me daal dein to interference pattern ka kya hoga?"
+    },
+    "idealAnswer": {
+      "en": "When the apparatus is immersed in water (or any denser medium), the wavelength of light decreases ($\\lambda_{water} = \\lambda_{air} / n$). \nSince the fringe width $\\beta = \\frac{\\lambda D}{d}$, a decrease in wavelength leads to a proportional **decrease in the fringe width** ($\\beta_{water} = \\beta_{air} / n$). The entire interference pattern shrinks.",
+      "hi": "जब उपकरण को पानी (या किसी सघन माध्यम) में डुबोया जाता है, तो प्रकाश की तरंगदैर्ध्य कम हो जाती है ($\\lambda_{water} = \\lambda_{air} / n$)।\nचूँकि फ्रिंज चौड़ाई $\\beta = \\frac{\\lambda D}{d}$ होती है, तरंगदैर्ध्य में कमी के कारण **फ्रिंज चौड़ाई में भी आनुपातिक रूप से कमी** आती है ($\\beta_{water} = \\beta_{air} / n$)। पूरा व्यतिकरण प्रतिरूप सिकुड़ जाता है।"
+    },
+    "keywords": [
+      { "en": "wavelength decreases", "hi": "तरंगदैर्ध्य कम हो जाती है" },
+      { "en": "fringe width decreases", "hi": "फ्रिंज चौड़ाई कम हो जाती है" },
+      { "en": "shrinks", "hi": "सिकुड़ता है" }
+    ]
+  }
+]

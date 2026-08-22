@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "In a pure inductive AC circuit, the phase difference between voltage and current is:",
+      "hi": "एक शुद्ध प्रेरणिक (inductive) AC परिपथ में, वोल्टेज और धारा के बीच कलांतर (phase difference) होता है:",
+      "hinglish": "Pure inductive AC circuit me voltage aur current ke beech phase difference kitna hota hai?"
+    },
+    "options": [
+      { "en": "0", "hi": "0" },
+      { "en": "π/4", "hi": "π/4" },
+      { "en": "π/2", "hi": "π/2" },
+      { "en": "π", "hi": "π" }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "In a pure inductive circuit, voltage leads the current by 90 degrees or π/2 radians.",
+      "hi": "शुद्ध प्रेरणिक परिपथ में, वोल्टेज धारा से 90 डिग्री या π/2 रेडियन आगे (leads) होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "What is 'wattless current'? In which circuits does it exist?",
+      "hi": "'वाटहीन धारा' (wattless current) क्या है? यह किन परिपथों में मौजूद होती है?",
+      "hinglish": "Wattless current kya hoti hai aur ye kin circuits me hoti hai?"
+    },
+    "idealAnswer": {
+      "en": "The current in an AC circuit is said to be **wattless** if the average power consumed by the circuit is zero ($P_{avg} = 0$).\nThis occurs when the phase difference between voltage and current is $90^\\circ$ ($\\pi/2$), meaning the power factor $\\cos \\phi = \\cos 90^\\circ = 0$.\nIt exists in purely inductive or purely capacitive circuits.",
+      "hi": "किसी AC परिपथ में धारा को **वाटहीन (wattless)** कहा जाता है यदि परिपथ द्वारा खपत की गई औसत शक्ति शून्य ($P_{avg} = 0$) हो।\nऐसा तब होता है जब वोल्टेज और धारा के बीच कलांतर $90^\\circ$ ($\\pi/2$) होता है, जिसका अर्थ है शक्ति गुणांक $\\cos \\phi = \\cos 90^\\circ = 0$।\nयह विशुद्ध रूप से प्रेरणिक (inductive) या विशुद्ध रूप से धारितीय (capacitive) परिपथों में मौजूद होती है।"
+    },
+    "keywords": [
+      { "en": "power is zero", "hi": "शक्ति शून्य है" },
+      { "en": "phase difference 90", "hi": "कलांतर 90" },
+      { "en": "pure inductive", "hi": "शुद्ध प्रेरणिक" },
+      { "en": "pure capacitive", "hi": "शुद्ध धारितीय" }
+    ]
+  }
+]

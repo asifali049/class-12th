@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Changing Magnetic Flux",
+      "hi": "चुंबकीय फ्लक्स में परिवर्तन",
+      "hinglish": "Flux Change methods"
+    },
+    "summary": {
+      "en": "Magnetic flux $\\Phi = BA \\cos \\theta$. An EMF can be induced by changing any of these three parameters:\n1. Changing Magnetic Field $B$ (e.g., moving a magnet).\n2. Changing Area $A$ (e.g., shrinking/expanding a loop, or sliding a rod).\n3. Changing Angle $\\theta$ (e.g., rotating a coil in a magnetic field, like in an AC generator).",
+      "hi": "चुंबकीय फ्लक्स $\\Phi = BA \\cos \\theta$। इन तीनों मापदंडों में से किसी एक को बदलकर EMF प्रेरित किया जा सकता है:\n1. चुंबकीय क्षेत्र $B$ बदलकर (जैसे चुंबक को गति कराकर)।\n2. क्षेत्रफल $A$ बदलकर (जैसे लूप को सिकोड़ना/फैलाना, या छड़ को खिसकाना)।\n3. कोण $\\theta$ बदलकर (जैसे चुंबकीय क्षेत्र में कुंडली को घुमाना, जैसा कि AC जनरेटर में होता है)।",
+      "hinglish": "EMF produce karne ke 3 tareeqe hain: B ko change karna, Area change karna, ya phir angle (theta) change karna jaise AC generator me hota hai."
+    },
+    "quickRecall": [
+      { "en": "Change B, A, or θ -> Induces EMF", "hi": "B, A, या θ बदलें -> EMF प्रेरित होता है" }
+    ]
+  }
+]

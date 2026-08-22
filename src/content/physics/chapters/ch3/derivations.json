@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Relation between Drift Velocity and Electric Current",
+      "hi": "अपवाह वेग और विद्युत धारा के बीच संबंध",
+      "hinglish": "Drift Velocity aur Current ka relation"
+    },
+    "given": {
+      "en": "A conductor of length $l$ and uniform cross-sectional area $A$. A potential difference $V$ is applied across its ends. The number density of free electrons is $n$.",
+      "hi": "$l$ लंबाई और एकसमान अनुप्रस्थ काट क्षेत्रफल $A$ वाला एक चालक। इसके सिरों पर $V$ विभवांतर लगाया गया है। मुक्त इलेक्ट्रॉनों का संख्या घनत्व $n$ है।"
+    },
+    "toFind": {
+      "en": "Expression for Current $I$ in terms of drift velocity $v_d$",
+      "hi": "अपवाह वेग $v_d$ के पदों में धारा $I$ का व्यंजक"
+    },
+    "concept": {
+      "en": "Calculate total charge in the conductor -> calculate time taken to cross -> Use $I = q/t$.",
+      "hi": "चालक में कुल आवेश की गणना करें -> पार करने में लगे समय की गणना करें -> $I = q/t$ का उपयोग करें।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Total Charge", "hi": "चरण 1: कुल आवेश" },
+        "content": {
+          "en": "Volume of the conductor = $A \\times l$\nTotal number of free electrons in the conductor $N = n \\times \\text{Volume} = nAl$\nTotal charge on these electrons $q = N \\times e = nAle$",
+          "hi": "चालक का आयतन = $A \\times l$\nचालक में मुक्त इलेक्ट्रॉनों की कुल संख्या $N = n \\times \\text{आयतन} = nAl$\nइन इलेक्ट्रॉनों पर कुल आवेश $q = N \\times e = nAle$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Time Taken", "hi": "चरण 2: लिया गया समय" },
+        "content": {
+          "en": "The time taken by the free electrons to cross the length of the conductor with drift velocity $v_d$ is:\n$t = \\frac{l}{v_d}$",
+          "hi": "अपवाह वेग $v_d$ से चालक की लंबाई को पार करने में मुक्त इलेक्ट्रॉनों द्वारा लिया गया समय:\n$t = \\frac{l}{v_d}$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Current", "hi": "चरण 3: विद्युत धारा" },
+        "content": {
+          "en": "Electric current is the rate of flow of charge.\n$I = \\frac{q}{t} = \\frac{nAle}{l/v_d} = nAev_d$",
+          "hi": "विद्युत धारा आवेश प्रवाह की दर है।\n$I = \\frac{q}{t} = \\frac{nAle}{l/v_d} = nAev_d$"
+        }
+      }
+    ],
+    "finalResult": "$I = n e A v_d$",
+    "examTip": {
+      "en": "This derivation is frequently asked for 3 marks. Don't forget to define 'n' properly as number density (number of electrons per unit volume), not just number of electrons.",
+      "hi": "यह डेरिवेशन अक्सर 3 अंकों के लिए पूछा जाता है। 'n' को केवल इलेक्ट्रॉनों की संख्या के बजाय संख्या घनत्व (प्रति एकांक आयतन में इलेक्ट्रॉनों की संख्या) के रूप में ठीक से परिभाषित करना न भूलें।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Deduction of Ohm's Law",
+      "hi": "ओम के नियम का निगमन",
+      "hinglish": "Ohm's Law Deduction"
+    },
+    "given": {
+      "en": "From the relation between current and drift velocity, and the expression for drift velocity.",
+      "hi": "धारा और अपवाह वेग के बीच संबंध, और अपवाह वेग के व्यंजक से।"
+    },
+    "toFind": {
+      "en": "Prove $V = IR$ theoretically",
+      "hi": "सैद्धांतिक रूप से $V = IR$ सिद्ध करें"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Express I in terms of E", "hi": "चरण 1: E के पदों में I व्यक्त करें" },
+        "content": {
+          "en": "We know $I = neAv_d$\nAnd drift velocity $v_d = \\frac{eE}{m} \\tau$\nSubstituting $v_d$ in the first equation:\n$I = neA \\left( \\frac{eE}{m} \\tau \\right) = \\frac{ne^2A\\tau}{m} E$",
+          "hi": "हम जानते हैं $I = neAv_d$\nऔर अपवाह वेग $v_d = \\frac{eE}{m} \\tau$\nपहले समीकरण में $v_d$ का मान रखने पर:\n$I = neA \\left( \\frac{eE}{m} \\tau \\right) = \\frac{ne^2A\\tau}{m} E$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Relate E and V", "hi": "चरण 2: E और V में संबंध" },
+        "content": {
+          "en": "The electric field $E$ can be written as $E = \\frac{V}{l}$, where $V$ is potential difference and $l$ is length.\n$I = \\frac{ne^2A\\tau}{m} \\left( \\frac{V}{l} \\right)$",
+          "hi": "विद्युत क्षेत्र $E$ को $E = \\frac{V}{l}$ लिखा जा सकता है, जहाँ $V$ विभवांतर और $l$ लंबाई है।\n$I = \\frac{ne^2A\\tau}{m} \\left( \\frac{V}{l} \\right)$"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Ohm's Law and Resistance", "hi": "चरण 3: ओम का नियम और प्रतिरोध" },
+        "content": {
+          "en": "Rearranging for $V$:\n$V = \\left( \\frac{ml}{ne^2A\\tau} \\right) I$\nAt a constant temperature, for a given conductor, the term in bracket is constant. Let's call it $R$.\n$V = I R$\nWhere $R = \\frac{ml}{ne^2\\tau A} = \\rho \\frac{l}{A}$",
+          "hi": "$V$ के लिए पुनर्व्यवस्थित करने पर:\n$V = \\left( \\frac{ml}{ne^2A\\tau} \\right) I$\nनियत ताप पर, दिए गए चालक के लिए कोष्ठक (bracket) वाला पद नियतांक (constant) होता है। इसे $R$ कहते हैं।\n$V = I R$\nजहाँ $R = \\frac{ml}{ne^2\\tau A} = \\rho \\frac{l}{A}$"
+        }
+      }
+    ],
+    "finalResult": "$V = IR$ where $\\rho = \\frac{m}{ne^2\\tau}$"
+  }
+]

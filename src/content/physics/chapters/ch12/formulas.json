@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Distance of Closest Approach",
+      "hi": "निकटतम पहुँच की दूरी",
+      "hinglish": "Distance of Closest Approach"
+    },
+    "formula": "r_0 = \\frac{1}{4\\pi\\epsilon_0} \\frac{(2e)(Ze)}{K} = \\frac{1}{4\\pi\\epsilon_0} \\frac{2Ze^2}{\\frac{1}{2}mv^2}",
+    "variables": [
+      { "symbol": "Z", "name": { "en": "Atomic number of target nucleus", "hi": "लक्ष्य नाभिक की परमाणु संख्या" } },
+      { "symbol": "K", "name": { "en": "Kinetic energy of alpha particle", "hi": "अल्फा कण की गतिज ऊर्जा" } }
+    ]
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Bohr's Quantization Condition",
+      "hi": "बोर की क्वांटीकरण शर्त",
+      "hinglish": "Bohr's Quantization"
+    },
+    "formula": "L = mvr = \\frac{nh}{2\\pi}",
+    "variables": [
+      { "symbol": "n", "name": { "en": "Principal quantum number (1, 2, 3...)", "hi": "मुख्य क्वांटम संख्या (1, 2, 3...)" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Radius of nth Orbit (Bohr Model)",
+      "hi": "nवीं कक्षा की त्रिज्या (बोर मॉडल)",
+      "hinglish": "Radius of nth orbit"
+    },
+    "formula": "r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2} \\implies r_n = 0.529 \\frac{n^2}{Z} \\text{ \\AA}",
+    "variables": [
+      { "symbol": "r_n", "name": { "en": "Radius of nth orbit", "hi": "nवीं कक्षा की त्रिज्या" } }
+    ]
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Velocity of Electron in nth Orbit",
+      "hi": "nवीं कक्षा में इलेक्ट्रॉन का वेग",
+      "hinglish": "Velocity in nth orbit"
+    },
+    "formula": "v_n = \\frac{e^2}{2\\epsilon_0 h} \\cdot \\frac{Z}{n} \\implies v_n \\approx \\frac{c}{137} \\cdot \\frac{Z}{n}",
+    "variables": [
+      { "symbol": "c", "name": { "en": "Speed of light", "hi": "प्रकाश की चाल" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Energy of Electron in nth Orbit",
+      "hi": "nवीं कक्षा में इलेक्ट्रॉन की ऊर्जा",
+      "hinglish": "Energy in nth orbit"
+    },
+    "formula": "E_n = -\\frac{me^4}{8\\epsilon_0^2 h^2} \\cdot \\frac{Z^2}{n^2} \\implies E_n = -13.6 \\frac{Z^2}{n^2} \\text{ eV}",
+    "variables": [
+      { "symbol": "E_n", "name": { "en": "Total energy", "hi": "कुल ऊर्जा" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Rydberg Formula (Wavelength of emitted light)",
+      "hi": "रिडबर्ग सूत्र (उत्सर्जित प्रकाश की तरंगदैर्ध्य)",
+      "hinglish": "Rydberg Formula"
+    },
+    "formula": "\\frac{1}{\\lambda} = R Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)",
+    "variables": [
+      { "symbol": "R", "name": { "en": "Rydberg constant ($\\approx 1.097 \\times 10^7 \\text{ m}^{-1}$)", "hi": "रिडबर्ग नियतांक ($\\approx 1.097 \\times 10^7 \\text{ m}^{-1}$)" } },
+      { "symbol": "n_1", "name": { "en": "Lower energy level", "hi": "निम्न ऊर्जा स्तर" } },
+      { "symbol": "n_2", "name": { "en": "Higher energy level", "hi": "उच्च ऊर्जा स्तर" } }
+    ]
+  }
+]

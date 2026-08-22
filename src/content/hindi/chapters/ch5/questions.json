@@ -2,15 +2,19 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Easy",
-    "marks": 2,
+    "difficulty": "Medium",
+    "marks": 5,
     "question": {
-      "en": "Explain the importance of संस्कृत दिग्दर्शिका (Sanskrit).",
-      "hi": "संस्कृत दिग्दर्शिका (Sanskrit) के महत्व को समझाइए।"
+      "en": "Draw a character sketch of Karna based on 'Rashmirathi'.",
+      "hi": "'रश्मिरथी' के आधार पर कर्ण का चरित्र-चित्रण कीजिए।"
     },
     "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
-    }
+      "en": "Karna is depicted as a great warrior (Mahavir), a loyal friend (Parama Mitra) to Duryodhana, a generous giver (Daanveer), and a man of great self-respect who fought against societal discrimination based on his supposed low birth.",
+      "hi": "कर्ण को एक महान योद्धा (महावीर), दुर्योधन के एक वफादार दोस्त (परम मित्र), एक उदार दाता (दानवीर), और महान आत्म-सम्मान वाले व्यक्ति के रूप में दर्शाया गया है, जिसने अपने कथित निम्न जन्म के आधार पर सामाजिक भेदभाव के खिलाफ लड़ाई लड़ी।"
+    },
+    "keywords": [
+      { "en": "Daanveer", "hi": "दानवीर" },
+      { "en": "loyal", "hi": "वफादार" }
+    ]
   }
 ]

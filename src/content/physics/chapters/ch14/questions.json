@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "In an n-type semiconductor, the majority charge carriers are:",
+      "hi": "n-प्रकार के अर्धचालक में, बहुसंख्यक आवेश वाहक (majority charge carriers) होते हैं:",
+      "hinglish": "n-type semiconductor me majority charge carriers kaun hote hain?"
+    },
+    "options": [
+      { "en": "Protons", "hi": "प्रोटॉन" },
+      { "en": "Holes", "hi": "होल्स" },
+      { "en": "Electrons", "hi": "इलेक्ट्रॉन" },
+      { "en": "Neutrons", "hi": "न्यूट्रॉन" }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "In an n-type semiconductor, doping is done with pentavalent impurities which donate extra electrons. Hence, electrons are the majority charge carriers.",
+      "hi": "n-प्रकार के अर्धचालक में, पंचसंयोजी (pentavalent) अशुद्धियों के साथ डोपिंग की जाती है जो अतिरिक्त इलेक्ट्रॉन दान करते हैं। इसलिए, इलेक्ट्रॉन बहुसंख्यक आवेश वाहक होते हैं।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Why does the conductivity of a semiconductor increase with a rise in temperature?",
+      "hi": "तापमान बढ़ने पर अर्धचालक की चालकता क्यों बढ़ जाती है?",
+      "hinglish": "Temperature badhane se semiconductor ki conductivity kyu badh jati hai?"
+    },
+    "idealAnswer": {
+      "en": "At absolute zero, a semiconductor acts as an insulator because all valence electrons are bound. \nAs temperature increases, thermal energy excites more electrons from the **valence band** to jump across the energy gap into the **conduction band**. This creates more electron-hole pairs, significantly increasing the number of free charge carriers, and hence, the **conductivity increases**.",
+      "hi": "परम शून्य ताप (absolute zero) पर, अर्धचालक एक विद्युतरोधी की तरह कार्य करता है क्योंकि सभी संयोजी इलेक्ट्रॉन बंधे होते हैं।\nजैसे-जैसे तापमान बढ़ता है, तापीय ऊर्जा **संयोजी बैंड (valence band)** से अधिक इलेक्ट्रॉनों को ऊर्जा अंतराल पार करके **चालन बैंड (conduction band)** में कूदने के लिए उत्तेजित करती है। यह अधिक इलेक्ट्रॉन-होल युग्म बनाता है, जिससे मुक्त आवेश वाहकों की संख्या काफी बढ़ जाती है, और इसलिए, **चालकता बढ़ जाती है**।"
+    },
+    "keywords": [
+      { "en": "valence band to conduction band", "hi": "संयोजी बैंड से चालन बैंड" },
+      { "en": "thermal energy", "hi": "तापीय ऊर्जा" },
+      { "en": "electron-hole pairs", "hi": "इलेक्ट्रॉन-होल युग्म" }
+    ]
+  }
+]

@@ -2,18 +2,97 @@
   {
     "id": "f1",
     "title": {
-      "en": "Ohm's Law",
-      "hi": "ओम का नियम"
+      "en": "Electric Current",
+      "hi": "विद्युत धारा",
+      "hinglish": "Electric Current"
     },
-    "formula": "V = IR",
+    "formula": "I = \\frac{q}{t} = \\frac{ne}{t}",
     "variables": [
-      {
-        "symbol": "I",
-        "name": {
-          "en": "Current",
-          "hi": "धारा"
-        }
-      }
-    ]
+      { "symbol": "I", "name": { "en": "Electric current", "hi": "विद्युत धारा" } },
+      { "symbol": "q", "name": { "en": "Charge", "hi": "आवेश" } },
+      { "symbol": "n", "name": { "en": "Number of electrons", "hi": "इलेक्ट्रॉनों की संख्या" } },
+      { "symbol": "e", "name": { "en": "Elementary charge (1.6 x 10^-19 C)", "hi": "मूल आवेश" } },
+      { "symbol": "t", "name": { "en": "Time", "hi": "समय" } }
+    ],
+    "unit": { "en": "Ampere (A)", "hi": "एम्पीयर (A)" }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Drift Velocity",
+      "hi": "अपवाह वेग",
+      "hinglish": "Drift Velocity"
+    },
+    "formula": "v_d = \\frac{e E}{m} \\tau",
+    "variables": [
+      { "symbol": "v_d", "name": { "en": "Drift velocity", "hi": "अपवाह वेग" } },
+      { "symbol": "E", "name": { "en": "Electric field", "hi": "विद्युत क्षेत्र" } },
+      { "symbol": "\\tau", "name": { "en": "Relaxation time", "hi": "श्रांतिकाल" } },
+      { "symbol": "m", "name": { "en": "Mass of electron", "hi": "इलेक्ट्रॉन का द्रव्यमान" } }
+    ],
+    "unit": { "en": "m/s", "hi": "m/s" }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Current in terms of Drift Velocity",
+      "hi": "अपवाह वेग के पदों में धारा",
+      "hinglish": "Current aur Drift Velocity"
+    },
+    "formula": "I = n e A v_d",
+    "variables": [
+      { "symbol": "n", "name": { "en": "Number density of free electrons", "hi": "मुक्त इलेक्ट्रॉनों का संख्या घनत्व" } },
+      { "symbol": "A", "name": { "en": "Area of cross-section", "hi": "अनुप्रस्थ काट का क्षेत्रफल" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Ohm's Law & Resistance",
+      "hi": "ओम का नियम और प्रतिरोध",
+      "hinglish": "Ohm's Law"
+    },
+    "formula": "V = I R \\quad \\text{and} \\quad R = \\rho \\frac{l}{A}",
+    "variables": [
+      { "symbol": "V", "name": { "en": "Potential difference", "hi": "विभवांतर" } },
+      { "symbol": "R", "name": { "en": "Resistance", "hi": "प्रतिरोध" } },
+      { "symbol": "\\rho", "name": { "en": "Resistivity", "hi": "प्रतिरोधकता" } },
+      { "symbol": "l", "name": { "en": "Length of conductor", "hi": "चालक की लंबाई" } }
+    ],
+    "unit": { "en": "Ohm (Ω)", "hi": "ओम (Ω)" }
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Temperature Coefficient of Resistance",
+      "hi": "प्रतिरोध ताप गुणांक",
+      "hinglish": "Temperature Coefficient of Resistance"
+    },
+    "formula": "R_T = R_0 [1 + \\alpha (T - T_0)]",
+    "variables": [
+      { "symbol": "R_T", "name": { "en": "Resistance at temp T", "hi": "T ताप पर प्रतिरोध" } },
+      { "symbol": "R_0", "name": { "en": "Resistance at initial temp T_0", "hi": "T_0 ताप पर प्रतिरोध" } },
+      { "symbol": "\\alpha", "name": { "en": "Temperature coefficient", "hi": "ताप गुणांक" } }
+    ],
+    "unit": { "en": "per °C or K^-1", "hi": "प्रति °C या K^-1" }
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Terminal Voltage of a Cell",
+      "hi": "सेल का टर्मिनल वोल्टेज",
+      "hinglish": "Cell ka Terminal Voltage"
+    },
+    "formula": "V = E - I r",
+    "variables": [
+      { "symbol": "E", "name": { "en": "EMF of the cell", "hi": "सेल का विद्युत वाहक बल" } },
+      { "symbol": "r", "name": { "en": "Internal resistance", "hi": "आंतरिक प्रतिरोध" } },
+      { "symbol": "I", "name": { "en": "Current drawn from cell", "hi": "सेल से ली गई धारा" } }
+    ],
+    "examTip": {
+      "en": "If the cell is being charged, the formula becomes V = E + Ir.",
+      "hi": "यदि सेल को चार्ज किया जा रहा है, तो सूत्र V = E + Ir हो जाता है।"
+    }
   }
 ]

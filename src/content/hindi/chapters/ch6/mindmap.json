@@ -1,8 +1,12 @@
 {
   "id": "root",
   "label": {
-    "en": "व्याकरण (Grammar)",
-    "hi": "व्याकरण (Grammar)"
+    "en": "Hindi Vyakaran",
+    "hi": "हिंदी व्याकरण"
   },
-  "children": []
+  "children": [
+    { "id": "c1", "label": { "en": "Ras, Chhand, Alankar", "hi": "रस, छंद, अलंकार" } },
+    { "id": "c2", "label": { "en": "Sandhi & Samas", "hi": "संधि और समास" } },
+    { "id": "c3", "label": { "en": "Letter Writing", "hi": "पत्र लेखन" } }
+  ]
 }

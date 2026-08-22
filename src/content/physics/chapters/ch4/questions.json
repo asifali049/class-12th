@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "A charged particle moves through a magnetic field. The effect of the field is to change the particle's:",
+      "hi": "एक आवेशित कण एक चुंबकीय क्षेत्र से होकर गुजरता है। क्षेत्र का प्रभाव कण के किस गुण को बदलना है:",
+      "hinglish": "Charged particle jab magnetic field se guzarta hai to field uska kya change karta hai?"
+    },
+    "options": [
+      { "en": "Speed", "hi": "चाल" },
+      { "en": "Direction of motion", "hi": "गति की दिशा" },
+      { "en": "Energy", "hi": "ऊर्जा" },
+      { "en": "Mass", "hi": "द्रव्यमान" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Magnetic force is always perpendicular to the velocity, so it only changes the direction of motion, not the speed or kinetic energy.",
+      "hi": "चुंबकीय बल हमेशा वेग के लंबवत होता है, इसलिए यह केवल गति की दिशा बदलता है, चाल या गतिज ऊर्जा नहीं।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "Under what condition is the force acting on a charge moving through a uniform magnetic field minimum?",
+      "hi": "किस स्थिति में एकसमान चुंबकीय क्षेत्र से होकर गतिमान आवेश पर लगने वाला बल न्यूनतम होता है?",
+      "hinglish": "Uniform magnetic field me moving charge par lagne wala force kab minimum hota hai?"
+    },
+    "idealAnswer": {
+      "en": "The magnetic force on a moving charge is $F = qvB \\sin \\theta$. This force is minimum (zero) when $\\sin \\theta = 0$, which means $\\theta = 0^\\circ$ or $180^\\circ$. Therefore, the force is minimum when the charge moves parallel or anti-parallel to the direction of the magnetic field.",
+      "hi": "गतिमान आवेश पर चुंबकीय बल $F = qvB \\sin \\theta$ होता है। यह बल तब न्यूनतम (शून्य) होता है जब $\\sin \\theta = 0$ हो, जिसका अर्थ है $\\theta = 0^\\circ$ या $180^\\circ$। इसलिए, बल तब न्यूनतम होता है जब आवेश चुंबकीय क्षेत्र की दिशा के समांतर या प्रति-समांतर गति करता है।"
+    },
+    "keywords": [
+      { "en": "parallel", "hi": "समांतर" },
+      { "en": "anti-parallel", "hi": "प्रति-समांतर" },
+      { "en": "theta is 0 or 180", "hi": "थीटा 0 या 180 है" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 3,
+    "question": {
+      "en": "How can a moving coil galvanometer be converted into a voltmeter? Explain with a formula.",
+      "hi": "चल कुंडली धारामापी को वोल्टमीटर में कैसे बदला जा सकता है? सूत्र सहित समझाइए।",
+      "hinglish": "Moving coil galvanometer ko voltmeter me kaise convert kar sakte hain?"
+    },
+    "idealAnswer": {
+      "en": "A galvanometer is converted into a voltmeter by connecting a **high resistance ($R$) in series** with it. A voltmeter needs high resistance so that it draws negligible current from the circuit.\nIf $G$ is the galvanometer resistance and $I_g$ is the current for full-scale deflection, then the voltage range $V$ is given by:\n$V = I_g(G + R)$\n$\\implies R = \\frac{V}{I_g} - G$",
+      "hi": "एक धारामापी को वोल्टमीटर में बदलने के लिए इसके **श्रेणीक्रम (series) में एक उच्च प्रतिरोध ($R$)** जोड़ा जाता है। वोल्टमीटर का प्रतिरोध उच्च होना चाहिए ताकि वह परिपथ से नगण्य (negligible) धारा ले।\nयदि $G$ धारामापी का प्रतिरोध है और $I_g$ पूर्ण पैमाने (full-scale) विक्षेप के लिए धारा है, तो वोल्टेज परास (range) $V$ का सूत्र है:\n$V = I_g(G + R)$\n$\\implies R = \\frac{V}{I_g} - G$"
+    },
+    "keywords": [
+      { "en": "high resistance", "hi": "उच्च प्रतिरोध" },
+      { "en": "in series", "hi": "श्रेणीक्रम में" }
+    ]
+  }
+]

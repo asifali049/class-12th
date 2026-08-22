@@ -2,15 +2,19 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Easy",
-    "marks": 2,
+    "difficulty": "Medium",
+    "marks": 5,
     "question": {
-      "en": "Explain the importance of काव्यांजलि (Poetry).",
-      "hi": "काव्यांजलि (Poetry) के महत्व को समझाइए।"
+      "en": "Describe the central theme of 'Pawan Dootika'.",
+      "hi": "'पवन दूतिका' का केंद्रीय भाव (मूल भाव) स्पष्ट कीजिए।"
     },
     "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
-    }
+      "en": "The central theme is the profound pain of separation (Virah) experienced by Radha. However, Hariaudh Ji has portrayed Radha not just as a grieving lover, but as a compassionate woman who cares for the welfare of others, asking the wind to help suffering people on its way to Krishna.",
+      "hi": "केंद्रीय विषय राधा द्वारा अनुभव की गई वियोग (विरह) की गहरी पीड़ा है। हालाँकि, हरिऔध जी ने राधा को न केवल एक दुखी प्रेमिका के रूप में चित्रित किया है, बल्कि एक दयालु महिला के रूप में भी चित्रित किया है जो दूसरों के कल्याण की परवाह करती है, पवन से कृष्ण के रास्ते में पीड़ित लोगों की मदद करने के लिए कहती है।"
+    },
+    "keywords": [
+      { "en": "separation", "hi": "विरह" },
+      { "en": "compassionate", "hi": "दयालु" }
+    ]
   }
 ]

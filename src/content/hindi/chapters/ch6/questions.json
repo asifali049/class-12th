@@ -1,16 +1,23 @@
 [
   {
     "id": "q1",
-    "type": "subjective",
+    "type": "objective",
     "difficulty": "Easy",
-    "marks": 2,
+    "marks": 1,
     "question": {
-      "en": "Explain the importance of व्याकरण (Grammar).",
-      "hi": "व्याकरण (Grammar) के महत्व को समझाइए।"
+      "en": "What is the Sthai Bhav of Shringar Ras?",
+      "hi": "श्रृंगार रस का स्थायी भाव क्या है?"
     },
-    "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
+    "options": [
+      { "en": "Hasya (Laughter)", "hi": "हास" },
+      { "en": "Rati (Love)", "hi": "रति" },
+      { "en": "Krodh (Anger)", "hi": "क्रोध" },
+      { "en": "Shok (Sorrow)", "hi": "शोक" }
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "en": "The Sthai Bhav of Shringar Ras is 'Rati' (Love/Attraction).",
+      "hi": "श्रृंगार रस का स्थायी भाव 'रति' (प्रेम/आकर्षण) है।"
     }
   }
 ]

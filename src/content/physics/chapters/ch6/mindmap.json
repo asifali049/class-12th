@@ -1,8 +1,50 @@
 {
   "id": "root",
   "label": {
-    "en": "EMI",
-    "hi": "विद्युत चुंबकीय प्रेरण"
+    "en": "Electromagnetic Induction",
+    "hi": "विद्युत चुम्बकीय प्रेरण"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Faraday's Laws",
+        "hi": "फैराडे के नियम"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "e = -dΦ/dt", "hi": "e = -dΦ/dt" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Lenz's Law",
+        "hi": "लेन्ज़ का नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Conservation of Energy", "hi": "ऊर्जा संरक्षण" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Motional EMF",
+        "hi": "गतिक EMF"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "e = B l v", "hi": "e = B l v" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Inductance",
+        "hi": "प्रेरकत्व"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Self-Induction (L)", "hi": "स्व-प्रेरण (L)" } },
+        { "id": "c4b", "label": { "en": "Mutual Induction (M)", "hi": "अन्योन्य प्रेरण (M)" } }
+      ]
+    }
+  ]
 }

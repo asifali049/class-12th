@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Inconsistency of Ampere's Law and Displacement Current",
+      "hi": "एम्पीयर के नियम की विसंगति और विस्थापन धारा",
+      "hinglish": "Inconsistency of Ampere's Law"
+    },
+    "given": {
+      "en": "A parallel plate capacitor being charged by a battery. Ampere's circuital law: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$.",
+      "hi": "एक बैटरी द्वारा आवेशित किया जा रहा समांतर प्लेट संधारित्र। एम्पीयर का परिपथीय नियम: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$।"
+    },
+    "toFind": {
+      "en": "Show the inconsistency and introduce Displacement Current.",
+      "hi": "विसंगति दर्शाइए और विस्थापन धारा को प्रस्तुत कीजिए।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Applying Ampere's Law", "hi": "चरण 1: एम्पीयर का नियम लागू करना" },
+        "content": {
+          "en": "Consider a circular loop $C_1$ around the wire connecting to the capacitor plate. A flat surface $S_1$ bounds it. Current passing is $I$.\n$\\oint_{C_1} \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$",
+          "hi": "संधारित्र प्लेट से जुड़ने वाले तार के चारों ओर एक वृत्ताकार लूप $C_1$ पर विचार करें। एक समतल सतह $S_1$ इसे घेरती है। गुजरने वाली धारा $I$ है।\n$\\oint_{C_1} \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$"
+        }
+      },
+      {
+        "title": { "en": "Step 2: The Inconsistency", "hi": "चरण 2: विसंगति (Inconsistency)" },
+        "content": {
+          "en": "Now consider a pot-shaped surface $S_2$ which bounds the same loop $C_1$ but passes between the plates of the capacitor. No conduction current flows between the plates (vacuum/dielectric).\nSo, $\\oint_{C_1} \\vec{B} \\cdot d\\vec{l} = 0$.\nThis creates a contradiction ($B$ cannot be both $\\mu_0 I/2\\pi r$ and $0$ at the same point).",
+          "hi": "अब एक बर्तन के आकार की सतह $S_2$ पर विचार करें जो उसी लूप $C_1$ को घेरती है लेकिन संधारित्र की प्लेटों के बीच से गुजरती है। प्लेटों के बीच कोई चालन धारा नहीं बहती है (निर्वात/परावैद्युत)।\nइसलिए, $\\oint_{C_1} \\vec{B} \\cdot d\\vec{l} = 0$।\nयह एक विरोधाभास पैदा करता है (एक ही बिंदु पर $B$ का मान $\\mu_0 I/2\\pi r$ और $0$ दोनों नहीं हो सकता)।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Maxwell's Correction", "hi": "चरण 3: मैक्सवेल का सुधार" },
+        "content": {
+          "en": "Maxwell argued that the changing electric field between the plates must produce a magnetic field. Let electric field be $E = \\frac{q}{\\epsilon_0 A}$.\nElectric flux $\\Phi_E = E \\times A = \\frac{q}{\\epsilon_0}$.\nDifferentiating with respect to time $t$:\n$\\frac{d\\Phi_E}{dt} = \\frac{1}{\\epsilon_0} \\frac{dq}{dt} = \\frac{I}{\\epsilon_0}$\nSo, $I = \\epsilon_0 \\frac{d\\Phi_E}{dt}$. This is the displacement current $I_d$.",
+          "hi": "मैक्सवेल ने तर्क दिया कि प्लेटों के बीच बदलते विद्युत क्षेत्र को एक चुंबकीय क्षेत्र उत्पन्न करना चाहिए। माना विद्युत क्षेत्र $E = \\frac{q}{\\epsilon_0 A}$ है।\nविद्युत फ्लक्स $\\Phi_E = E \\times A = \\frac{q}{\\epsilon_0}$।\nसमय $t$ के सापेक्ष अवकलन (differentiating) करने पर:\n$\\frac{d\\Phi_E}{dt} = \\frac{1}{\\epsilon_0} \\frac{dq}{dt} = \\frac{I}{\\epsilon_0}$\nइसलिए, $I = \\epsilon_0 \\frac{d\\Phi_E}{dt}$। यही विस्थापन धारा $I_d$ है।"
+        }
+      }
+    ],
+    "finalResult": "Modified Ampere-Maxwell Law: $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d)$",
+    "examTip": {
+      "en": "Conduction current $I_c$ and displacement current $I_d$ are individually discontinuous, but their sum ($I_c + I_d$) is continuous across any circuit.",
+      "hi": "चालन धारा $I_c$ और विस्थापन धारा $I_d$ व्यक्तिगत रूप से असंतत (discontinuous) हैं, लेकिन उनका योग ($I_c + I_d$) किसी भी परिपथ में संतत (continuous) होता है।"
+    }
+  }
+]

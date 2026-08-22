@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "The work function of caesium is 2.14 eV. Find the threshold frequency for caesium.",
+      "hi": "सीज़ियम का कार्य फलन 2.14 eV है। सीज़ियम के लिए देहली आवृत्ति ज्ञात कीजिए।",
+      "hinglish": "Caesium ka work function 2.14 eV hai. Threshold frequency nikalo."
+    },
+    "given": {
+      "en": "Work function $\\Phi_0 = 2.14 \\text{ eV} = 2.14 \\times 1.6 \\times 10^{-19} \\text{ J}$\n$h = 6.63 \\times 10^{-34} \\text{ Js}$",
+      "hi": "कार्य फलन $\\Phi_0 = 2.14 \\text{ eV} = 2.14 \\times 1.6 \\times 10^{-19} \\text{ J}$\n$h = 6.63 \\times 10^{-34} \\text{ Js}$"
+    },
+    "required": {
+      "en": "Threshold frequency $\\nu_0$",
+      "hi": "देहली आवृत्ति $\\nu_0$"
+    },
+    "formula": "\\Phi_0 = h\\nu_0 \\implies \\nu_0 = \\frac{\\Phi_0}{h}",
+    "substitution": "\\nu_0 = \\frac{2.14 \\times 1.6 \\times 10^{-19}}{6.63 \\times 10^{-34}}",
+    "calculation": "\\nu_0 = \\frac{3.424 \\times 10^{-19}}{6.63 \\times 10^{-34}}\n\\nu_0 = 0.516 \\times 10^{15} \\text{ Hz}\n\\nu_0 = 5.16 \\times 10^{14} \\text{ Hz}",
+    "finalAnswer": "5.16 \\times 10^{14}",
+    "unit": "Hz",
+    "examTip": {
+      "en": "Work function is usually given in eV. Don't forget to convert it to Joules by multiplying by $1.6 \\times 10^{-19}$ before using it with Planck's constant.",
+      "hi": "कार्य फलन आमतौर पर eV में दिया जाता है। प्लांक नियतांक के साथ इसका उपयोग करने से पहले इसे $1.6 \\times 10^{-19}$ से गुणा करके जूल में बदलना न भूलें।"
+    }
+  }
+]

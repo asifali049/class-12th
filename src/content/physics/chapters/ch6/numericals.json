@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "A jet plane is travelling towards west at a speed of 1800 km/h. What is the voltage difference developed between the ends of the wing having a span of 25 m, if the Earth's magnetic field at the location has a magnitude of 5 × 10⁻⁴ T and the dip angle is 30°?",
+      "hi": "एक जेट विमान 1800 km/h की गति से पश्चिम की ओर उड़ रहा है। यदि विमान के पंखों का फैलाव 25 m है, और उस स्थान पर पृथ्वी के चुंबकीय क्षेत्र का परिमाण 5 × 10⁻⁴ T तथा नति कोण 30° है, तो पंखों के सिरों के बीच उत्पन्न विभवांतर (voltage difference) क्या होगा?",
+      "hinglish": "Ek jet plane 1800 km/h se west ja raha hai. Wingspan 25m hai. Earth ka B = 5x10^-4 T aur dip angle 30 degree hai. Wings ke ends ke beech voltage kya hoga?"
+    },
+    "given": {
+      "en": "$v = 1800 \\text{ km/h} = 1800 \\times \\frac{5}{18} = 500 \\text{ m/s}$\n$l = 25 \\text{ m}$\n$B = 5 \\times 10^{-4} \\text{ T}$, $\\delta = 30^\\circ$",
+      "hi": "$v = 1800 \\text{ km/h} = 1800 \\times \\frac{5}{18} = 500 \\text{ m/s}$\n$l = 25 \\text{ m}$\n$B = 5 \\times 10^{-4} \\text{ T}$, $\\delta = 30^\\circ$"
+    },
+    "required": {
+      "en": "Induced EMF $\\varepsilon$",
+      "hi": "प्रेरित EMF $\\varepsilon$"
+    },
+    "formula": "The vertical component of Earth's magnetic field ($B_v = B \\sin \\delta$) is cut by the wings.\n$\\varepsilon = B_v l v = (B \\sin \\delta) l v$",
+    "substitution": "\\varepsilon = (5 \\times 10^{-4} \\times \\sin 30^\\circ) \\times 25 \\times 500",
+    "calculation": "\\varepsilon = (5 \\times 10^{-4} \\times 0.5) \\times 12500\n\\varepsilon = 2.5 \\times 10^{-4} \\times 12500\n\\varepsilon = 3.125 \\text{ V}",
+    "finalAnswer": "3.125",
+    "unit": "V"
+  }
+]

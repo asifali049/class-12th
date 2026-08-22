@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "num1",
+    "difficulty": "medium",
+    "question": {
+      "en": "In Young's double-slit experiment, the slits are separated by 0.28 mm and the screen is placed 1.4 m away. The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. Determine the wavelength of light used in the experiment.",
+      "hi": "यंग के द्वि-स्लिट प्रयोग में, स्लिटों के बीच की दूरी 0.28 mm है और स्क्रीन 1.4 m दूर रखी गई है। केंद्रीय चमकीली फ्रिंज और चौथी चमकीली फ्रिंज के बीच की दूरी 1.2 cm मापी गई है। प्रयोग में प्रयुक्त प्रकाश की तरंगदैर्ध्य ज्ञात कीजिए।",
+      "hinglish": "YDSE me slits ka distance 0.28mm aur screen 1.4m door hai. 4th bright fringe central fringe se 1.2cm door hai. Wavelength (lambda) nikalo."
+    },
+    "given": {
+      "en": "$d = 0.28 \\text{ mm} = 0.28 \\times 10^{-3} \\text{ m}$\n$D = 1.4 \\text{ m}$\n$n = 4$, $y_4 = 1.2 \\text{ cm} = 1.2 \\times 10^{-2} \\text{ m}$",
+      "hi": "$d = 0.28 \\text{ mm} = 0.28 \\times 10^{-3} \\text{ m}$\n$D = 1.4 \\text{ m}$\n$n = 4$, $y_4 = 1.2 \\text{ cm} = 1.2 \\times 10^{-2} \\text{ m}$"
+    },
+    "required": {
+      "en": "Wavelength $\\lambda$",
+      "hi": "तरंगदैर्ध्य $\\lambda$"
+    },
+    "formula": "Distance of $n^{th}$ bright fringe is $y_n = n \\frac{\\lambda D}{d}$\nSo, $\\lambda = \\frac{y_n d}{n D}$",
+    "substitution": "\\lambda = \\frac{(1.2 \\times 10^{-2}) \\times (0.28 \\times 10^{-3})}{4 \\times 1.4}",
+    "calculation": "\\lambda = \\frac{0.336 \\times 10^{-5}}{5.6}\n\\lambda = 0.06 \\times 10^{-5} \\text{ m}\n\\lambda = 600 \\times 10^{-9} \\text{ m} = 600 \\text{ nm}",
+    "finalAnswer": "600",
+    "unit": "nm",
+    "examTip": {
+      "en": "Always convert all units to standard SI units (meters) before calculation to avoid powers of 10 errors.",
+      "hi": "10 की घात की त्रुटियों से बचने के लिए गणना से पहले हमेशा सभी इकाइयों को मानक SI इकाइयों (मीटर) में बदलें।"
+    }
+  }
+]

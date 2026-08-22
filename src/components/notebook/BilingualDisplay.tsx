@@ -9,6 +9,29 @@ interface BilingualDisplayProps {
   className?: string;
 }
 
+const latexDelimiters = [
+  { left: '$$', right: '$$', display: true },
+  { left: '\\[', right: '\\]', display: true },
+  { left: '$', right: '$', display: false },
+  { left: '\\(', right: '\\)', display: false }
+];
+
+// Utility to render basic markdown bold syntax alongside Latex
+function parseText(text: string) {
+  if (!text) return null;
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+          return <strong key={index}><Latex delimiters={latexDelimiters} strict={false}>{part.slice(2, -2)}</Latex></strong>;
+        }
+        return <Latex delimiters={latexDelimiters} strict={false} key={index}>{part}</Latex>;
+      })}
+    </>
+  );
+}
+
 export function BilingualDisplay({ content, language, asHeading = false, className = '' }: BilingualDisplayProps) {
   if (!content) return null;
 
@@ -20,10 +43,10 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     if (language === 'hi') {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          {content.hi ? <div className={hindiClass}><Latex>{content.hi}</Latex></div> : null}
+          {content.hi ? <div className={hindiClass}>{parseText(content.hi)}</div> : null}
           {/* Optionally show English term if it's very short, but for now we prioritize clean single-language display unless it's a heading where both might be useful */}
           {asHeading && content.en && (
-            <div className={`${englishClass} text-[0.8em] text-slate-500 opacity-80`}><Latex>{content.en}</Latex></div>
+            <div className={`${englishClass} text-[0.8em] text-slate-500 opacity-80`}>{parseText(content.en)}</div>
           )}
         </div>
       );
@@ -32,7 +55,7 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     if (language === 'en') {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          {content.en ? <div className={englishClass}><Latex>{content.en}</Latex></div> : null}
+          {content.en ? <div className={englishClass}>{parseText(content.en)}</div> : null}
         </div>
       );
     }
@@ -40,8 +63,8 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     // hinglish mode
     return (
       <div className={`flex flex-col gap-2 ${className}`}>
-        {(content.hinglish || content.en) ? <div className={englishClass}><Latex>{content.hinglish || content.en || ''}</Latex></div> : null}
-        {content.hi ? <div className={`${hindiClass} text-slate-600 opacity-90`}><Latex>{content.hi}</Latex></div> : null}
+        {(content.hinglish || content.en) ? <div className={englishClass}>{parseText(content.hinglish || content.en || '')}</div> : null}
+        {content.hi ? <div className={`${hindiClass} text-slate-600 opacity-90`}>{parseText(content.hi)}</div> : null}
       </div>
     );
   }
@@ -54,7 +77,7 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
   const hasDevanagari = /[\u0900-\u097F]/.test(text);
   
   if (!hasDevanagari) {
-    return <span className={`${englishClass} ${className}`}><Latex>{text}</Latex></span>;
+    return <span className={`${englishClass} ${className}`}>{parseText(text)}</span>;
   }
 
   // If it's a single string with mixed content, we'll try to apply both classes sensibly
@@ -68,22 +91,22 @@ export function BilingualDisplay({ content, language, asHeading = false, classNa
     if (language === 'hi') {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          <div className={hindiClass}><Latex>{hiPart}</Latex></div>
-          {asHeading && <div className={`${englishClass} text-[0.8em] text-slate-500 opacity-80`}><Latex>{enPart}</Latex></div>}
+          <div className={hindiClass}>{parseText(hiPart)}</div>
+          {asHeading && <div className={`${englishClass} text-[0.8em] text-slate-500 opacity-80`}>{parseText(enPart)}</div>}
         </div>
       );
     } else if (language === 'en') {
-      return <div className={`${englishClass} ${className}`}><Latex>{enPart}</Latex></div>;
+      return <div className={`${englishClass} ${className}`}>{parseText(enPart)}</div>;
     } else {
       return (
         <div className={`flex flex-col gap-1 ${className}`}>
-          <div className={englishClass}><Latex>{enPart}</Latex></div>
-          <div className={`${hindiClass} text-slate-600 opacity-90`}><Latex>{hiPart}</Latex></div>
+          <div className={englishClass}>{parseText(enPart)}</div>
+          <div className={`${hindiClass} text-slate-600 opacity-90`}>{parseText(hiPart)}</div>
         </div>
       );
     }
   }
 
   // For mixed paragraphs without simple brackets, just fallback to Hindi line-height for safety
-  return <div className={`${hindiClass} ${className}`}><Latex>{text}</Latex></div>;
+  return <div className={`${hindiClass} ${className}`}>{parseText(text)}</div>;
 }

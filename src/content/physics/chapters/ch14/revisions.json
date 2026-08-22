@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Majority vs Minority Carriers",
+      "hi": "बहुसंख्यक बनाम अल्पसंख्यक वाहक",
+      "hinglish": "Majority vs Minority Carriers"
+    },
+    "summary": {
+      "en": "- **N-Type Semiconductor:** Formed by doping with Pentavalent impurities (e.g., P, As, Sb). They have 5 valence electrons. 4 form bonds, 1 is free. So, **Electrons** are majority carriers, **Holes** are minority carriers.\n- **P-Type Semiconductor:** Formed by doping with Trivalent impurities (e.g., B, Al, In). They have 3 valence electrons. They create a vacancy (hole) when forming bonds. So, **Holes** are majority carriers, **Electrons** are minority carriers.",
+      "hi": "- **N-प्रकार का अर्धचालक:** पंचसंयोजी (Pentavalent) अशुद्धियों (उदा. P, As, Sb) की डोपिंग से बनता है। इनमें 5 संयोजी इलेक्ट्रॉन होते हैं। 4 बंध बनाते हैं, 1 मुक्त रहता है। इसलिए, **इलेक्ट्रॉन** बहुसंख्यक वाहक हैं, **होल्स** अल्पसंख्यक वाहक हैं।\n- **P-प्रकार का अर्धचालक:** त्रिसंयोजी (Trivalent) अशुद्धियों (उदा. B, Al, In) की डोपिंग से बनता है। इनमें 3 संयोजी इलेक्ट्रॉन होते हैं। बंध बनाते समय वे एक रिक्ति (होल) बनाते हैं। इसलिए, **होल्स** बहुसंख्यक वाहक हैं, **इलेक्ट्रॉन** अल्पसंख्यक वाहक हैं।",
+      "hinglish": "N-type me pentavalent (5) dalte hain, to extra electron milta hai. N-type me Electron majority me hote hain. P-type me trivalent (3) dalte hain, to hole banta hai. P-type me Hole majority me hote hain."
+    },
+    "quickRecall": [
+      { "en": "N-Type: Pentavalent -> e- majority", "hi": "N-प्रकार: पंचसंयोजी -> e- बहुसंख्यक" },
+      { "en": "P-Type: Trivalent -> hole majority", "hi": "P-प्रकार: त्रिसंयोजी -> होल बहुसंख्यक" }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Depletion Region in Biasing",
+      "hi": "बायसिंग में अवक्षय परत",
+      "hinglish": "Depletion Region in Biasing"
+    },
+    "summary": {
+      "en": "- In **Forward Bias** (P to +ve, N to -ve), the applied voltage opposes the barrier potential. The depletion region **narrows down** and resistance decreases.\n- In **Reverse Bias** (P to -ve, N to +ve), the applied voltage supports the barrier potential. The depletion region **widens** and resistance increases to a very high value.",
+      "hi": "- **अग्र बायस (Forward Bias)** (P को +ve से, N को -ve से) में, आरोपित विभव प्राचीर विभव (barrier potential) का विरोध करता है। अवक्षय परत **संकीर्ण (पतली)** हो जाती है और प्रतिरोध कम हो जाता है।\n- **पश्च बायस (Reverse Bias)** (P को -ve से, N को +ve से) में, आरोपित विभव प्राचीर विभव का समर्थन करता है। अवक्षय परत **चौड़ी** हो जाती है और प्रतिरोध बहुत अधिक बढ़ जाता है।",
+      "hinglish": "Forward bias me depletion layer patli ho jati hai aur current flow karta hai. Reverse bias me depletion layer moti ho jati hai aur current ruk jata hai."
+    },
+    "quickRecall": [
+      { "en": "Forward Bias: Depletion region narrows", "hi": "अग्र बायस: अवक्षय परत पतली होती है" },
+      { "en": "Reverse Bias: Depletion region widens", "hi": "पश्च बायस: अवक्षय परत चौड़ी होती है" }
+    ]
+  }
+]

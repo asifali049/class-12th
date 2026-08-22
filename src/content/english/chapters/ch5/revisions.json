@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Quick Review",
+      "hi": "त्वरित समीक्षा",
+      "hinglish": "Quick Review"
+    },
+    "summary": {
+      "en": "Summary being updated.",
+      "hi": "सारांश अपडेट किया जा रहा है।"
+    },
+    "quickRecall": []
+  }
+]

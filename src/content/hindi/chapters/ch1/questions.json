@@ -5,12 +5,60 @@
     "difficulty": "Easy",
     "marks": 2,
     "question": {
-      "en": "Explain the importance of गद्य गरिमा (Prose).",
-      "hi": "गद्य गरिमा (Prose) के महत्व को समझाइए।"
+      "en": "According to the essay 'Rashtra Ka Swaroop', what are the three main elements of a nation?",
+      "hi": "'राष्ट्र का स्वरूप' निबंध के अनुसार, राष्ट्र के तीन मुख्य तत्व कौन-से हैं?",
+      "hinglish": "'Rashtra Ka Swaroop' ke anusaar rashtra ke teen mukhya tatva kya hain?"
     },
     "idealAnswer": {
-      "en": "It is very important for the board exams.",
-      "hi": "यह बोर्ड परीक्षाओं के लिए बहुत महत्वपूर्ण है।"
+      "en": "The three main elements of a nation are: Earth (Bhumi), People (Jan), and Culture (Sanskriti).",
+      "hi": "राष्ट्र के तीन मुख्य तत्व हैं: भूमि, जन (मनुष्य), और संस्कृति।"
+    },
+    "keywords": [
+      { "en": "Earth", "hi": "भूमि" },
+      { "en": "People", "hi": "जन" },
+      { "en": "Culture", "hi": "संस्कृति" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 5,
+    "question": {
+      "en": "Explain the meaning of 'Culture is the soul of the nation' as described by Vasudev Sharan Agarwal.",
+      "hi": "वासुदेव शरण अग्रवाल द्वारा वर्णित 'संस्कृति राष्ट्र की आत्मा है' का अर्थ स्पष्ट कीजिए।",
+      "hinglish": "'Sanskriti rashtra ki aatma hai' iska kya matlab hai?"
+    },
+    "idealAnswer": {
+      "en": "Without culture, a nation is just a lifeless body. The true development and identity of a nation depend on its cultural heritage, traditions, and values. Culture unites the people and gives meaning to their existence on the land.",
+      "hi": "संस्कृति के बिना राष्ट्र एक निर्जीव शरीर के समान है। किसी राष्ट्र का वास्तविक विकास और पहचान उसकी सांस्कृतिक विरासत, परंपराओं और मूल्यों पर निर्भर करती है। संस्कृति लोगों को एकजुट करती है और भूमि पर उनके अस्तित्व को अर्थ देती है।"
+    },
+    "keywords": [
+      { "en": "soul", "hi": "आत्मा" },
+      { "en": "lifeless", "hi": "निर्जीव" },
+      { "en": "identity", "hi": "पहचान" }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Who is the author of the essay 'Ashok Ke Phool'?",
+      "hi": "'अशोक के फूल' निबंध के लेखक कौन हैं?",
+      "hinglish": "'Ashok Ke Phool' ke lekhak kaun hain?"
+    },
+    "options": [
+      { "en": "Vasudev Sharan Agarwal", "hi": "वासुदेव शरण अग्रवाल" },
+      { "en": "Hazari Prasad Dwivedi", "hi": "हजारी प्रसाद द्विवेदी" },
+      { "en": "Mahadevi Verma", "hi": "महादेवी वर्मा" },
+      { "en": "A.P.J. Abdul Kalam", "hi": "ए.पी.जे. अब्दुल कलाम" }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "'Ashok Ke Phool' is a famous essay written by Acharya Hazari Prasad Dwivedi.",
+      "hi": "'अशोक के फूल' आचार्य हजारी प्रसाद द्विवेदी द्वारा लिखा गया एक प्रसिद्ध निबंध है।"
     }
   }
 ]

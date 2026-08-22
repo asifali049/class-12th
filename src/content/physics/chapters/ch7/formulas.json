@@ -1,1 +1,94 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "RMS Voltage and Current",
+      "hi": "RMS वोल्टेज और धारा",
+      "hinglish": "RMS Values"
+    },
+    "formula": "V_{rms} = \\frac{V_0}{\\sqrt{2}} \\quad ; \\quad I_{rms} = \\frac{I_0}{\\sqrt{2}}",
+    "variables": [
+      { "symbol": "V_0", "name": { "en": "Peak Voltage", "hi": "शिखर वोल्टेज" } },
+      { "symbol": "I_0", "name": { "en": "Peak Current", "hi": "शिखर धारा" } }
+    ],
+    "importance": "High"
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Inductive and Capacitive Reactance",
+      "hi": "प्रेरणिक और धारितीय प्रतिघात",
+      "hinglish": "Reactance"
+    },
+    "formula": "X_L = \\omega L = 2\\pi f L \\\\ X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}",
+    "variables": [
+      { "symbol": "f", "name": { "en": "Frequency", "hi": "आवृत्ति" } },
+      { "symbol": "L", "name": { "en": "Inductance", "hi": "प्रेरकत्व" } },
+      { "symbol": "C", "name": { "en": "Capacitance", "hi": "धारिता" } }
+    ],
+    "unit": { "en": "Ohms (Ω)", "hi": "ओम (Ω)" }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Impedance of LCR Circuit",
+      "hi": "LCR परिपथ की प्रतिबाधा",
+      "hinglish": "Impedance of LCR"
+    },
+    "formula": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+    "variables": [
+      { "symbol": "Z", "name": { "en": "Impedance", "hi": "प्रतिबाधा" } }
+    ],
+    "unit": { "en": "Ohms (Ω)", "hi": "ओम (Ω)" }
+  },
+  {
+    "id": "f4",
+    "title": {
+      "en": "Phase Angle in LCR",
+      "hi": "LCR में कला कोण",
+      "hinglish": "Phase Angle"
+    },
+    "formula": "\\tan \\phi = \\frac{X_L - X_C}{R}",
+    "variables": [
+      { "symbol": "\\phi", "name": { "en": "Phase difference between V and I", "hi": "V और I के बीच कलांतर" } }
+    ]
+  },
+  {
+    "id": "f5",
+    "title": {
+      "en": "Resonant Frequency",
+      "hi": "अनुनादी आवृत्ति",
+      "hinglish": "Resonant Frequency"
+    },
+    "formula": "f_r = \\frac{1}{2\\pi \\sqrt{LC}}",
+    "variables": [
+      { "symbol": "f_r", "name": { "en": "Resonant Frequency", "hi": "अनुनादी आवृत्ति" } }
+    ],
+    "unit": { "en": "Hertz (Hz)", "hi": "हर्ट्ज़ (Hz)" }
+  },
+  {
+    "id": "f6",
+    "title": {
+      "en": "Average Power and Power Factor",
+      "hi": "औसत शक्ति और शक्ति गुणांक",
+      "hinglish": "Power & Power Factor"
+    },
+    "formula": "P_{avg} = V_{rms} I_{rms} \\cos \\phi \\quad ; \\quad \\cos \\phi = \\frac{R}{Z}",
+    "variables": [
+      { "symbol": "\\cos \\phi", "name": { "en": "Power Factor", "hi": "शक्ति गुणांक" } }
+    ]
+  },
+  {
+    "id": "f7",
+    "title": {
+      "en": "Transformer Equations",
+      "hi": "ट्रांसफार्मर समीकरण",
+      "hinglish": "Transformer Formula"
+    },
+    "formula": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s}",
+    "variables": [
+      { "symbol": "N_s", "name": { "en": "Secondary turns", "hi": "द्वितीयक फेरे" } },
+      { "symbol": "N_p", "name": { "en": "Primary turns", "hi": "प्राथमिक फेरे" } }
+    ]
+  }
+]

@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Curie's Law and Temperature",
+      "hi": "क्यूरी का नियम और ताप",
+      "hinglish": "Curie's Law"
+    },
+    "summary": {
+      "en": "For paramagnetic materials, the susceptibility is inversely proportional to absolute temperature ($\\chi \\propto 1/T$). For ferromagnetic materials, when heated above a certain critical temperature called **Curie Temperature ($T_C$)**, the domains break down and it transforms into a paramagnetic material.",
+      "hi": "अनुचुंबकीय (paramagnetic) पदार्थों के लिए, प्रवृत्ति (susceptibility) परम ताप के व्युत्क्रमानुपाती होती है ($\\chi \\propto 1/T$)। लौह-चुंबकीय (ferromagnetic) पदार्थों के लिए, जब उन्हें एक निश्चित क्रांतिक ताप, जिसे **क्यूरी ताप ($T_C$)** कहते हैं, से ऊपर गर्म किया जाता है, तो डोमेन टूट जाते हैं और यह अनुचुंबकीय पदार्थ में बदल जाता है।",
+      "hinglish": "Ferromagnetic material ko heat karne par uske magnetic domains toot jate hain, aur Curie temperature ke upar wo paramagnetic ban jata hai."
+    },
+    "quickRecall": [
+      { "en": "Paramagnetic: χ ∝ 1/T", "hi": "अनुचुंबकीय: χ ∝ 1/T" },
+      { "en": "T > Tc : Ferromagnetic -> Paramagnetic", "hi": "T > Tc : लौह-चुंबकीय -> अनुचुंबकीय" }
+    ]
+  }
+]

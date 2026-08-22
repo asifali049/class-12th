@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Key Stories & Authors",
+      "hi": "प्रमुख कहानियाँ और लेखक",
+      "hinglish": "Important Stories"
+    },
+    "summary": {
+      "en": "1. Panchlight (Phanishwar Nath Renu)\n2. Bahadur (Amarkant)\n3. Karmnasha Ki Haar (Shivprasad Singh)",
+      "hi": "1. पंचलाइट (फणीश्वरनाथ रेणु)\n2. बहादुर (अमरकांत)\n3. कर्मनाशा की हार (शिवप्रसाद सिंह)"
+    },
+    "quickRecall": [
+      { "en": "Godhan - Panchlight", "hi": "गोधन - पंचलाइट" },
+      { "en": "Bhairav Pandey - Karmnasha Ki Haar", "hi": "भैरव पांडे - कर्मनाशा की हार" }
+    ]
+  }
+]

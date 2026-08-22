@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Fringe Width in Young's Double Slit Experiment",
+      "hi": "यंग के द्वि-स्लिट प्रयोग में फ्रिंज चौड़ाई",
+      "hinglish": "Fringe Width in YDSE"
+    },
+    "given": {
+      "en": "Two slits $S_1$ and $S_2$ separated by distance $d$. Screen is at distance $D$. A point $P$ on screen is at distance $y$ from the center $O$.",
+      "hi": "दो स्लिट $S_1$ और $S_2$ जिनके बीच की दूरी $d$ है। स्क्रीन $D$ दूरी पर है। स्क्रीन पर एक बिंदु $P$, केंद्र $O$ से $y$ दूरी पर है।"
+    },
+    "toFind": {
+      "en": "Expression for the fringe width $\\beta$.",
+      "hi": "फ्रिंज चौड़ाई $\\beta$ का व्यंजक।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Path Difference", "hi": "चरण 1: पथांतर (Path Difference)" },
+        "content": {
+          "en": "The path difference between waves reaching $P$ is $\\Delta x = S_2P - S_1P$.\nBy geometry, $\\Delta x \\approx d \\sin \\theta$. Since $\\theta$ is very small, $\\sin \\theta \\approx \\tan \\theta = \\frac{y}{D}$.\nTherefore, $\\Delta x = \\frac{y d}{D}$.",
+          "hi": "बिंदु $P$ तक पहुँचने वाली तरंगों के बीच पथांतर $\\Delta x = S_2P - S_1P$ है।\nज्यामिति (geometry) से, $\\Delta x \\approx d \\sin \\theta$। चूँकि $\\theta$ बहुत छोटा है, $\\sin \\theta \\approx \\tan \\theta = \\frac{y}{D}$।\nइसलिए, $\\Delta x = \\frac{y d}{D}$।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Position of Bright Fringes (Maxima)", "hi": "चरण 2: चमकीली फ्रिंजों (उच्चिष्ठ) की स्थिति" },
+        "content": {
+          "en": "For constructive interference, path difference $\\Delta x = n\\lambda$ (where $n = 0, 1, 2...$).\nSo, $\\frac{y_n d}{D} = n\\lambda \\implies y_n = n \\frac{\\lambda D}{d}$.\nThis gives the position of the $n^{th}$ bright fringe.",
+          "hi": "संपोषी व्यतिकरण के लिए, पथांतर $\\Delta x = n\\lambda$ (जहाँ $n = 0, 1, 2...$)।\nइसलिए, $\\frac{y_n d}{D} = n\\lambda \\implies y_n = n \\frac{\\lambda D}{d}$।\nयह $n$वीं चमकीली फ्रिंज की स्थिति देता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Calculating Fringe Width", "hi": "चरण 3: फ्रिंज चौड़ाई की गणना" },
+        "content": {
+          "en": "Fringe width ($\\beta$) is the distance between two consecutive bright fringes.\n$\\beta = y_{n+1} - y_n = (n+1)\\frac{\\lambda D}{d} - n\\frac{\\lambda D}{d}$\n$\\beta = \\frac{\\lambda D}{d}$",
+          "hi": "फ्रिंज चौड़ाई ($\\beta$) दो लगातार चमकीली फ्रिंजों के बीच की दूरी है।\n$\\beta = y_{n+1} - y_n = (n+1)\\frac{\\lambda D}{d} - n\\frac{\\lambda D}{d}$\n$\\beta = \\frac{\\lambda D}{d}$"
+        }
+      }
+    ],
+    "finalResult": "$\\beta = \\frac{\\lambda D}{d}$",
+    "examTip": {
+      "en": "The fringe width is the same for both bright and dark fringes. It depends directly on wavelength, so red fringes are wider than blue fringes.",
+      "hi": "चमकीली और काली दोनों फ्रिंजों के लिए फ्रिंज चौड़ाई समान होती है। यह सीधे तरंगदैर्ध्य पर निर्भर करती है, इसलिए लाल फ्रिंजें नीली फ्रिंजों से अधिक चौड़ी होती हैं।"
+    }
+  }
+]

@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following electromagnetic waves has the highest frequency?",
+      "hi": "निम्नलिखित में से किस विद्युतचुंबकीय तरंग की आवृत्ति सबसे अधिक होती है?",
+      "hinglish": "Inme se kis electromagnetic wave ki frequency sabse zyada hoti hai?"
+    },
+    "options": [
+      {
+        "en": "X-rays",
+        "hi": "X-किरणें"
+      },
+      {
+        "en": "Gamma rays",
+        "hi": "गामा किरणें"
+      },
+      {
+        "en": "Ultraviolet rays",
+        "hi": "पराबैंगनी किरणें"
+      },
+      {
+        "en": "Microwaves",
+        "hi": "सूक्ष्म तरंगें"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Gamma rays have the shortest wavelength and hence the highest frequency in the electromagnetic spectrum.",
+      "hi": "विद्युतचुंबकीय स्पेक्ट्रम में गामा किरणों की तरंगदैर्ध्य सबसे छोटी होती है और इसलिए इनकी आवृत्ति सबसे अधिक होती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Displacement current is produced by:",
+      "hi": "विस्थापन धारा किसके द्वारा उत्पन्न होती है:",
+      "hinglish": "Displacement current kiske karan produce hoti hai:"
+    },
+    "options": [
+      {
+        "en": "Time-varying electric field",
+        "hi": "समय-परिवर्ती विद्युत क्षेत्र"
+      },
+      {
+        "en": "Time-varying magnetic field",
+        "hi": "समय-परिवर्ती चुंबकीय क्षेत्र"
+      },
+      {
+        "en": "Steady electric field",
+        "hi": "स्थिर विद्युत क्षेत्र"
+      },
+      {
+        "en": "Steady magnetic field",
+        "hi": "स्थिर चुंबकीय क्षेत्र"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "According to Maxwell, a changing electric field (or flux) with time gives rise to a displacement current ($I_d = \\epsilon_0 d\\Phi_E/dt$).",
+      "hi": "मैक्सवेल के अनुसार, समय के साथ बदलता हुआ विद्युत क्षेत्र (या फ्लक्स) विस्थापन धारा ($I_d = \\epsilon_0 d\\Phi_E/dt$) को जन्म देता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Name the electromagnetic waves used for studying crystal structure of solids. What is its frequency range?",
+      "hi": "ठोस पदार्थों की क्रिस्टल संरचना के अध्ययन के लिए प्रयुक्त विद्युतचुंबकीय तरंगों का नाम बताइए। इसकी आवृत्ति परास क्या है?",
+      "hinglish": "Solids ki crystal structure study karne ke liye kaunsi EM waves use hoti hain? Unki frequency range kya hai?"
+    },
+    "idealAnswer": {
+      "en": "X-rays are used for studying the crystal structure of solids.\nTheir frequency range is approximately from $3 \\times 10^{16} \\text{ Hz}$ to $3 \\times 10^{19} \\text{ Hz}$.",
+      "hi": "ठोस पदार्थों की क्रिस्टल संरचना के अध्ययन के लिए X-किरणों का उपयोग किया जाता है।\nइनकी आवृत्ति परास लगभग $3 \\times 10^{16} \\text{ Hz}$ से $3 \\times 10^{19} \\text{ Hz}$ तक होती है।"
+    },
+    "keywords": [
+      {
+        "en": "X-rays",
+        "hi": "X-किरणें"
+      },
+      {
+        "en": "3 x 10^16 to 3 x 10^19 Hz",
+        "hi": "3 x 10^16 से 3 x 10^19 Hz"
+      }
+    ],
+    "tips": {
+      "en": "Memorizing the applications and rough frequency/wavelength ranges of different EM waves is crucial for 1-2 mark questions.",
+      "hi": "1-2 अंक वाले प्रश्नों के लिए विभिन्न EM तरंगों के अनुप्रयोगों और अनुमानित आवृत्ति/तरंगदैर्ध्य परास को याद रखना महत्वपूर्ण है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "Write any three characteristics of electromagnetic waves.",
+      "hi": "विद्युतचुंबकीय तरंगों की किन्हीं तीन विशेषताओं को लिखिए।",
+      "hinglish": "Electromagnetic waves ki koi teen characteristics likhiye."
+    },
+    "idealAnswer": {
+      "en": "1. Electromagnetic waves are produced by accelerated or oscillating charges.\n2. They do not require any material medium for their propagation and travel in a vacuum with the speed of light ($c = 3 \\times 10^8 \\text{ m/s}$).\n3. They are transverse in nature, meaning the electric and magnetic fields oscillate perpendicular to each other and perpendicular to the direction of wave propagation.",
+      "hi": "1. विद्युतचुंबकीय तरंगें त्वरित या दोलन करते आवेशों द्वारा उत्पन्न होती हैं।\n2. इन्हें अपने संचरण के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है और ये निर्वात में प्रकाश की चाल ($c = 3 \\times 10^8 \\text{ m/s}$) से यात्रा करती हैं।\n3. ये प्रकृति में अनुप्रस्थ होती हैं, जिसका अर्थ है कि विद्युत और चुंबकीय क्षेत्र एक दूसरे के लंबवत और तरंग संचरण की दिशा के लंबवत दोलन करते हैं।"
+    },
+    "keywords": [
+      {
+        "en": "accelerated charges",
+        "hi": "त्वरित आवेश"
+      },
+      {
+        "en": "no medium required",
+        "hi": "माध्यम की आवश्यकता नहीं"
+      },
+      {
+        "en": "transverse nature",
+        "hi": "अनुप्रस्थ प्रकृति"
+      }
+    ],
+    "tips": {
+      "en": "Listing points clearly rather than writing a paragraph makes it easier for the examiner to award full marks.",
+      "hi": "पैराग्राफ लिखने के बजाय बिंदुओं को स्पष्ट रूप से सूचीबद्ध करने से परीक्षक के लिए पूरे अंक देना आसान हो जाता है।"
+    }
+  }
+]

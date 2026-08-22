@@ -1,0 +1,64 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Electromagnetic Induction",
+    "hi": "विद्युतचुंबकीय प्रेरण",
+    "hinglish": "Electromagnetic Induction"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Magnetic Flux",
+        "hi": "चुंबकीय फ्लक्स"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Φ = B·A = BA cosθ", "hi": "Φ = B·A = BA cosθ" } },
+        { "id": "c1b", "label": { "en": "Unit: Weber (Wb)", "hi": "मात्रक: वेबर (Wb)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Laws of EMI",
+        "hi": "EMI के नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Faraday's Laws (e = -dΦ/dt)", "hi": "फैराडे के नियम (e = -dΦ/dt)" } },
+        { "id": "c2b", "label": { "en": "Lenz's Law (Direction & Energy Conservation)", "hi": "लेन्ज का नियम (दिशा और ऊर्जा संरक्षण)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Motional EMF",
+        "hi": "गतिक EMF"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Linear motion: e = Blv", "hi": "रैखिक गति: e = Blv" } },
+        { "id": "c3b", "label": { "en": "Rotational motion: e = 1/2 Bωl²", "hi": "घूर्णन गति: e = 1/2 Bωl²" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Induction",
+        "hi": "प्रेरण"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Self Induction (e = -L di/dt)", "hi": "स्व-प्रेरण (e = -L di/dt)" } },
+        { "id": "c4b", "label": { "en": "Mutual Induction (e = -M di/dt)", "hi": "अन्योन्य प्रेरण (e = -M di/dt)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Energy in Inductor",
+        "hi": "प्रेरक में ऊर्जा"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "U = 1/2 LI²", "hi": "U = 1/2 LI²" } }
+      ]
+    }
+  ]
+}

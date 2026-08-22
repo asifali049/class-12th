@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The magnetic field at the centre of a circular coil of radius $r$ carrying current $I$ is:",
+      "hi": "$I$ धारावाही $r$ त्रिज्या की वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र है:",
+      "hinglish": "Current $I$ aur radius $r$ wali circular coil ke centre par magnetic field kya hoga:"
+    },
+    "options": [
+      {
+        "en": "Directly proportional to $r$",
+        "hi": "$r$ के अनुक्रमानुपाती"
+      },
+      {
+        "en": "Inversely proportional to $r$",
+        "hi": "$r$ के व्युत्क्रमानुपाती"
+      },
+      {
+        "en": "Directly proportional to $I^2$",
+        "hi": "$I^2$ के अनुक्रमानुपाती"
+      },
+      {
+        "en": "Inversely proportional to $I$",
+        "hi": "$I$ के व्युत्क्रमानुपाती"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "The magnetic field at the centre is $B = \\frac{\\mu_0 I}{2r}$. Hence, $B \\propto \\frac{1}{r}$.",
+      "hi": "केंद्र पर चुंबकीय क्षेत्र $B = \\frac{\\mu_0 I}{2r}$ है। अतः, $B \\propto \\frac{1}{r}$।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "A charged particle moves through a magnetic field perpendicular to its direction. Then:",
+      "hi": "एक आवेशित कण एक चुंबकीय क्षेत्र से उसकी दिशा के लंबवत गति करता है। तब:",
+      "hinglish": "Ek charged particle magnetic field ke perpendicular move karta hai. Tab:"
+    },
+    "options": [
+      {
+        "en": "Both momentum and kinetic energy of the particle change",
+        "hi": "कण के संवेग और गतिज ऊर्जा दोनों बदलते हैं"
+      },
+      {
+        "en": "Both momentum and kinetic energy remain constant",
+        "hi": "संवेग और गतिज ऊर्जा दोनों स्थिर रहते हैं"
+      },
+      {
+        "en": "Kinetic energy changes but momentum remains constant",
+        "hi": "गतिज ऊर्जा बदलती है लेकिन संवेग स्थिर रहता है"
+      },
+      {
+        "en": "Momentum changes but kinetic energy remains constant",
+        "hi": "संवेग बदलता है लेकिन गतिज ऊर्जा स्थिर रहती है"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "Magnetic force is perpendicular to velocity, so it does no work. Kinetic energy and speed remain constant. But direction of velocity changes, so momentum changes.",
+      "hi": "चुंबकीय बल वेग के लंबवत होता है, इसलिए यह कोई कार्य नहीं करता है। गतिज ऊर्जा और चाल स्थिर रहते हैं। लेकिन वेग की दिशा बदल जाती है, इसलिए संवेग बदलता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "State Ampere's circuital law.",
+      "hi": "एम्पीयर का परिपथीय नियम लिखिए।",
+      "hinglish": "Ampere's circuital law state karein."
+    },
+    "idealAnswer": {
+      "en": "Ampere's circuital law states that the line integral of magnetic field ($\\vec{B}$) around any closed path in free space is equal to absolute permeability ($\\mu_0$) times the net steady current enclosed by the path.",
+      "hi": "एम्पीयर के परिपथीय नियम के अनुसार, मुक्त आकाश में किसी बंद पथ के अनुदिश चुंबकीय क्षेत्र ($\\vec{B}$) का रेखीय समाकलन, उस पथ द्वारा घिरी कुल स्थायी धारा और निर्वात की चुंबकशीलता ($\\mu_0$) के गुणनफल के बराबर होता है।"
+    },
+    "keywords": [
+      {
+        "en": "line integral",
+        "hi": "रेखीय समाकलन"
+      },
+      {
+        "en": "closed path",
+        "hi": "बंद पथ"
+      },
+      {
+        "en": "mu_0 times net current",
+        "hi": "mu_0 गुना कुल धारा"
+      }
+    ],
+    "tips": {
+      "en": "Writing the mathematical form $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$ along with the statement will guarantee full marks.",
+      "hi": "कथन के साथ गणितीय रूप $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$ लिखने से पूरे अंक सुनिश्चित होंगे।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 3,
+    "question": {
+      "en": "Write the expression for Lorentz magnetic force on a particle of charge $q$ moving with velocity $\\vec{v}$ in a magnetic field $\\vec{B}$. When is it maximum and when is it minimum?",
+      "hi": "चुंबकीय क्षेत्र $\\vec{B}$ में $\\vec{v}$ वेग से गतिमान $q$ आवेश वाले कण पर लगने वाले लॉरेंज चुंबकीय बल का व्यंजक लिखिए। यह कब अधिकतम और कब न्यूनतम होता है?",
+      "hinglish": "Magnetic field $\\vec{B}$ me $\\vec{v}$ velocity se move karte charge $q$ par Lorentz magnetic force ka expression likhiye. Ye kab maximum aur kab minimum hota hai?"
+    },
+    "idealAnswer": {
+      "en": "Expression: $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ or $F = qvB \\sin\\theta$, where $\\theta$ is the angle between velocity and magnetic field.\nMaximum: When the particle moves perpendicular to the magnetic field ($\\theta = 90^{\\circ}$), $\\sin 90^{\\circ} = 1$, so $F_{max} = qvB$.\nMinimum: When the particle moves parallel or anti-parallel to the magnetic field ($\\theta = 0^{\\circ}$ or $180^{\\circ}$), $\\sin\\theta = 0$, so $F_{min} = 0$.",
+      "hi": "व्यंजक: $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ या $F = qvB \\sin\\theta$, जहाँ $\\theta$ वेग और चुंबकीय क्षेत्र के बीच का कोण है।\nअधिकतम: जब कण चुंबकीय क्षेत्र के लंबवत गति करता है ($\\theta = 90^{\\circ}$), $\\sin 90^{\\circ} = 1$, अतः $F_{max} = qvB$।\nन्यूनतम: जब कण चुंबकीय क्षेत्र के समांतर या प्रति-समांतर गति करता है ($\\theta = 0^{\\circ}$ या $180^{\\circ}$), $\\sin\\theta = 0$, अतः $F_{min} = 0$।"
+    },
+    "keywords": [
+      {
+        "en": "F = q(v x B)",
+        "hi": "F = q(v x B)"
+      },
+      {
+        "en": "Maximum at 90 degrees",
+        "hi": "90 डिग्री पर अधिकतम"
+      },
+      {
+        "en": "Minimum at 0 or 180 degrees",
+        "hi": "0 या 180 डिग्री पर न्यूनतम"
+      }
+    ],
+    "tips": {
+      "en": "Clearly define the angle $\\theta$ in your answer.",
+      "hi": "अपने उत्तर में कोण $\\theta$ को स्पष्ट रूप से परिभाषित करें।"
+    }
+  }
+]

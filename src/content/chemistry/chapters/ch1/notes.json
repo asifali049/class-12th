@@ -1,0 +1,236 @@
+[
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Introduction to Solutions",
+      "hi": "1. विलयन का परिचय"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits.",
+      "hi": "विलयन दो या दो से अधिक रासायनिक रूप से अक्रिय पदार्थों का एक समांगी मिश्रण है जिसका संघटन कुछ सीमाओं के भीतर परिवर्तित किया जा सकता है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Solute: The component present in smaller quantity.",
+        "hi": "विलेय: वह घटक जो कम मात्रा में उपस्थित होता है।"
+      },
+      {
+        "en": "Solvent: The component present in larger quantity.",
+        "hi": "विलायक: वह घटक जो अधिक मात्रा में उपस्थित होता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Methods of Expressing Concentration of Solutions",
+      "hi": "2. विलयन की सांद्रता व्यक्त करने की विधियाँ"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Molarity (M):",
+      "hi": "मोलरता (M):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Number of moles of solute dissolved in 1 Litre of the solution. It is temperature dependent.",
+      "hi": "1 लीटर विलयन में घुले विलेय के मोलों की संख्या। यह तापमान पर निर्भर करती है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Molality (m):",
+      "hi": "मोललता (m):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Number of moles of solute dissolved in 1 kg of the solvent. It is independent of temperature.",
+      "hi": "1 किग्रा विलायक में घुले विलेय के मोलों की संख्या। यह तापमान से स्वतंत्र है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Mole Fraction (x):",
+      "hi": "मोल अंश (x):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Ratio of number of moles of one component to the total number of moles of all the components in the solution. $x_A + x_B = 1$. It is independent of temperature.",
+      "hi": "किसी एक घटक के मोलों की संख्या और विलयन में उपस्थित सभी घटकों के कुल मोलों की संख्या का अनुपात। $x_A + x_B = 1$। यह तापमान से स्वतंत्र है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Solubility",
+      "hi": "3. विलेयता"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Maximum amount of a solute that can be dissolved in a specified amount of solvent at a constant temperature.",
+      "hi": "एक निश्चित तापमान पर विलायक की एक निश्चित मात्रा में घुल सकने वाले विलेय की अधिकतम मात्रा।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Henry's Law:",
+      "hi": "हेनरी का नियम:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "At a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas present above the surface of liquid or solution.",
+      "hi": "स्थिर तापमान पर, किसी द्रव में गैस की विलेयता द्रव या विलयन की सतह के ऊपर उपस्थित गैस के आंशिक दाब के समानुपाती होती है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "p = K_H \\cdot x"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Raoult's Law",
+      "hi": "4. राउल्ट का नियम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "For a solution of volatile liquids, the partial vapour pressure of each component of the solution is directly proportional to its mole fraction present in solution.",
+      "hi": "वाष्पशील द्रवों के विलयन के लिए, विलयन के प्रत्येक घटक का आंशिक वाष्प दाब विलयन में उपस्थित उसके मोल अंश के समानुपाती होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "p_1 = p_1^0 \\cdot x_1"
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Ideal Solutions:",
+      "hi": "आदर्श विलयन:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Solutions that obey Raoult's law over the entire range of concentration. For them, $\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$. (e.g., Benzene + Toluene)",
+      "hi": "वे विलयन जो सांद्रता के संपूर्ण परास में राउल्ट के नियम का पालन करते हैं। इनके लिए, $\\Delta H_{mix} = 0$ और $\\Delta V_{mix} = 0$। (उदा., बेंजीन + टॉलूईन)"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Non-Ideal Solutions:",
+      "hi": "अनादर्श विलयन:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Solutions that do not obey Raoult's law. They show either positive deviation (A-B interactions weaker than A-A/B-B) or negative deviation (A-B interactions stronger).",
+      "hi": "वे विलयन जो राउल्ट के नियम का पालन नहीं करते हैं। वे या तो धनात्मक विचलन (A-B अन्योन्यक्रियाएं A-A/B-B से कमजोर) या ऋणात्मक विचलन (A-B अन्योन्यक्रियाएं मजबूत) दर्शाते हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Colligative Properties",
+      "hi": "5. अणुसंख्य गुणधर्म"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Properties of dilute solutions that depend only on the number of solute particles and not on their nature.",
+      "hi": "तनु विलयनों के वे गुणधर्म जो केवल विलेय कणों की संख्या पर निर्भर करते हैं, न कि उनकी प्रकृति पर।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Relative Lowering of Vapour Pressure: $(p_1^0 - p_1) / p_1^0 = x_2$",
+        "hi": "वाष्प दाब का आपेक्षिक अवनमन: $(p_1^0 - p_1) / p_1^0 = x_2$"
+      },
+      {
+        "en": "Elevation of Boiling Point ($\\Delta T_b$): The boiling point of a solvent increases when a non-volatile solute is added. $\\Delta T_b = K_b \\cdot m$",
+        "hi": "क्वथनांक का उन्नयन ($\\Delta T_b$): जब कोई अवाष्पशील विलेय मिलाया जाता है तो विलायक का क्वथनांक बढ़ जाता है। $\\Delta T_b = K_b \\cdot m$"
+      },
+      {
+        "en": "Depression of Freezing Point ($\\Delta T_f$): The freezing point of a solvent decreases when a non-volatile solute is added. $\\Delta T_f = K_f \\cdot m$",
+        "hi": "हिमांक का अवनमन ($\\Delta T_f$): जब कोई अवाष्पशील विलेय मिलाया जाता है तो विलायक का हिमांक कम हो जाता है। $\\Delta T_f = K_f \\cdot m$"
+      },
+      {
+        "en": "Osmotic Pressure ($\\pi$): The excess pressure that must be applied to a solution to prevent osmosis (movement of solvent through semi-permeable membrane). $\\pi = CRT$",
+        "hi": "परासरण दाब ($\\pi$): परासरण (अर्धपारगम्य झिल्ली के माध्यम से विलायक की गति) को रोकने के लिए विलयन पर लगाया जाने वाला अतिरिक्त दाब। $\\pi = CRT$"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Abnormal Molar Masses and van't Hoff Factor",
+      "hi": "6. असामान्य मोलर द्रव्यमान और वांट हॉफ गुणांक"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "When solute particles undergo association or dissociation in solution, the number of particles changes, leading to abnormal molar masses calculated from colligative properties.",
+      "hi": "जब विलेय के कण विलयन में संगुणन या वियोजन से गुजरते हैं, तो कणों की संख्या बदल जाती है, जिससे अणुसंख्य गुणधर्मों से परिकलित मोलर द्रव्यमान असामान्य हो जाता है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "van't Hoff Factor (i):",
+      "hi": "वांट हॉफ गुणांक (i):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Ratio of normal molar mass to abnormal molar mass, or ratio of observed colligative property to calculated colligative property.",
+      "hi": "सामान्य मोलर द्रव्यमान और असामान्य मोलर द्रव्यमान का अनुपात, या प्रेक्षित अणुसंख्य गुणधर्म और परिकलित अणुसंख्य गुणधर्म का अनुपात।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "For dissociation: $i > 1$",
+        "hi": "वियोजन के लिए: $i > 1$"
+      },
+      {
+        "en": "For association: $i < 1$",
+        "hi": "संगुणन के लिए: $i < 1$"
+      },
+      {
+        "en": "No association/dissociation: $i = 1$",
+        "hi": "कोई संगुणन/वियोजन नहीं: $i = 1$"
+      }
+    ]
+  }
+]

@@ -1,15 +1,180 @@
 [
   {
     "type": "heading",
-    "text": "Moving Charges and Magnetism"
+    "text": {
+      "en": "1. Magnetic Force",
+      "hi": "1. चुंबकीय बल"
+    }
   },
   {
     "type": "paragraph",
-    "text": "Oersted discovered that a moving charge produces a magnetic field around it."
+    "text": {
+      "en": "When a magnetic field is applied, it exerts a force on a moving charge. This is called the magnetic Lorentz force.",
+      "hi": "जब कोई चुंबकीय क्षेत्र लगाया जाता है, तो यह गतिमान आवेश पर एक बल लगाता है। इसे चुंबकीय लॉरेंज बल कहा जाता है।"
+    }
   },
   {
     "type": "formula",
-    "equation": "F = qvB sin\theta",
-    "label": "Magnetic Force"
+    "equation": "\\vec{F} = q(\\vec{v} \\times \\vec{B})",
+    "label": {
+      "en": "Magnitude: F = qvB sin θ",
+      "hi": "परिमाण: F = qvB sin θ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The direction of this force is perpendicular to both the velocity vector and the magnetic field vector, and can be found using Fleming's Left-Hand Rule or Right-Hand Cross Product Rule.",
+      "hi": "इस बल की दिशा वेग सदिश और चुंबकीय क्षेत्र सदिश दोनों के लंबवत होती है, और इसे फ्लेमिंग के बाएं हाथ के नियम या दाएं हाथ के सदिश गुणन नियम का उपयोग करके ज्ञात किया जा सकता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Lorentz Force",
+      "hi": "2. लॉरेंज बल"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "When a charged particle moves in a region where both electric field (E) and magnetic field (B) are present, the total force experienced by it is the vector sum of the electric and magnetic forces. This is called the Lorentz force.",
+      "hi": "जब एक आवेशित कण ऐसे क्षेत्र में गति करता है जहां विद्युत क्षेत्र (E) और चुंबकीय क्षेत्र (B) दोनों मौजूद हों, तो उसके द्वारा अनुभव किया गया कुल बल विद्युत और चुंबकीय बलों का सदिश योग होता है। इसे लॉरेंज बल कहते हैं।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Motion in a Magnetic Field",
+      "hi": "3. चुंबकीय क्षेत्र में गति"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "If a charged particle enters a uniform magnetic field perpendicularly (θ = 90°), it experiences a maximum force which acts as a centripetal force, making it move in a circular path.",
+      "hi": "यदि कोई आवेशित कण एकसमान चुंबकीय क्षेत्र में लंबवत (θ = 90°) प्रवेश करता है, तो यह एक अधिकतम बल का अनुभव करता है जो अभिकेंद्र बल के रूप में कार्य करता है, जिससे यह वृत्ताकार पथ में गति करता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "r = \\frac{mv}{qB}",
+    "label": {
+      "en": "Radius of circular path",
+      "hi": "वृत्ताकार पथ की त्रिज्या"
+    }
+  },
+  {
+    "type": "tip",
+    "text": {
+      "en": "If the particle enters at an angle other than 0°, 90°, or 180°, its path will be a helix.",
+      "hi": "यदि कण 0°, 90°, या 180° के अलावा किसी अन्य कोण पर प्रवेश करता है, तो इसका पथ एक कुंडलिनी (helix) होगा।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Biot-Savart Law",
+      "hi": "4. बायो-सावर्ट का नियम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The Biot-Savart law relates the magnetic field to the magnitude, direction, length, and proximity of the electric current that produces it.",
+      "hi": "बायो-सावर्ट का नियम चुंबकीय क्षेत्र को उसे उत्पन्न करने वाली विद्युत धारा के परिमाण, दिशा, लंबाई और निकटता से संबंधित करता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I(d\\vec{l} \\times \\hat{r})}{r^2}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Ampere's Circuital Law",
+      "hi": "5. एम्पीयर का परिपथीय नियम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The line integral of the magnetic field around any closed path in free space is equal to absolute permeability (μ₀) times the net steady current enclosed by the path.",
+      "hi": "मुक्त आकाश में किसी बंद पथ के अनुदिश चुंबकीय क्षेत्र का रेखीय समाकलन, उस पथ द्वारा घिरी कुल स्थायी धारा और निरपेक्ष चुंबकशीलता (μ₀) के गुणनफल के बराबर होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Magnetic Field of a Solenoid",
+      "hi": "6. परिनालिका का चुंबकीय क्षेत्र"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A long, tightly wound helical coil of wire is called a solenoid. The magnetic field inside a long ideal solenoid is uniform and parallel to its axis.",
+      "hi": "तार की एक लंबी, कसकर लपेटी गई कुंडलित संरचना को परिनालिका कहते हैं। एक लंबी आदर्श परिनालिका के अंदर चुंबकीय क्षेत्र एकसमान और इसके अक्ष के समांतर होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "B = \\mu_0 n I",
+    "label": {
+      "en": "n = number of turns per unit length",
+      "hi": "n = प्रति एकांक लंबाई में फेरों की संख्या"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Force between two parallel current carrying wires",
+      "hi": "7. दो समांतर धारावाही तारों के बीच बल"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Two parallel conductors carrying current in the same direction attract each other, while those carrying current in opposite directions repel each other.",
+      "hi": "समान दिशा में धारा ले जाने वाले दो समांतर चालक एक-दूसरे को आकर्षित करते हैं, जबकि विपरीत दिशाओं में धारा ले जाने वाले एक-दूसरे को प्रतिकर्षित करते हैं।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+    "label": {
+      "en": "Force per unit length",
+      "hi": "प्रति एकांक लंबाई पर बल"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Moving Coil Galvanometer",
+      "hi": "8. चल कुंडली धारामापी (Moving Coil Galvanometer)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "It is an instrument used for the detection and measurement of small electric currents. Its working is based on the principle that a current-carrying coil placed in a magnetic field experiences a torque.",
+      "hi": "यह एक उपकरण है जिसका उपयोग छोटी विद्युत धाराओं का पता लगाने और मापने के लिए किया जाता है। इसकी कार्यप्रणाली इस सिद्धांत पर आधारित है कि चुंबकीय क्षेत्र में रखी गई धारावाही कुंडली बल आघूर्ण का अनुभव करती है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "I = \\left(\\frac{k}{NAB}\\right) \\theta",
+    "label": {
+      "en": "k = restoring torque per unit twist",
+      "hi": "k = प्रति एकांक ऐंठन प्रत्यानयन बल आघूर्ण"
+    }
   }
 ]

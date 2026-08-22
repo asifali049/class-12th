@@ -1,10 +1,235 @@
 [
   {
     "type": "heading",
-    "text": "Ray Optics and Optical Instruments"
+    "text": {
+      "en": "1. Reflection of Light",
+      "hi": "1. प्रकाश का परावर्तन"
+    }
   },
   {
     "type": "paragraph",
-    "text": "Light travels in a straight line. Topics include Reflection, Refraction, and Lenses."
+    "text": {
+      "en": "The bouncing back of light into the same medium after striking a surface is called reflection.",
+      "hi": "किसी सतह से टकराने के बाद प्रकाश का उसी माध्यम में वापस लौटना परावर्तन कहलाता है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Laws of Reflection:",
+      "hi": "परावर्तन के नियम:"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Angle of incidence is equal to the angle of reflection (i = r).",
+        "hi": "आपतन कोण परावर्तन कोण के बराबर होता है (i = r)।"
+      },
+      {
+        "en": "The incident ray, the reflected ray, and the normal at the point of incidence, all lie in the same plane.",
+        "hi": "आपतित किरण, परावर्तित किरण और आपतन बिंदु पर अभिलंब, तीनों एक ही तल में होते हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Spherical Mirrors",
+      "hi": "2. गोलीय दर्पण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A mirror whose reflecting surface is a part of a hollow sphere of glass. They are of two types: Concave (converging) and Convex (diverging).",
+      "hi": "वह दर्पण जिसकी परावर्तक सतह कांच के एक खोखले गोले का भाग होती है। ये दो प्रकार के होते हैं: अवतल (अभिसारी) और उत्तल (अपसारी)।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+    "label": {
+      "en": "Mirror Formula",
+      "hi": "दर्पण सूत्र"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "m = \\frac{h'}{h} = -\\frac{v}{u}",
+    "label": {
+      "en": "Linear Magnification",
+      "hi": "रेखीय आवर्धन"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Refraction of Light",
+      "hi": "3. प्रकाश का अपवर्तन"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The phenomenon of change in the path of light as it goes from one transparent medium to another is called refraction.",
+      "hi": "प्रकाश के एक पारदर्शी माध्यम से दूसरे पारदर्शी माध्यम में जाने पर उसके मार्ग में परिवर्तन की घटना को अपवर्तन कहते हैं।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Snell's Law:",
+      "hi": "स्नेल का नियम:"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{\\sin i}{\\sin r} = \\text{constant} = ^1n_2 = \\frac{n_2}{n_1}"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Total Internal Reflection (TIR)",
+      "hi": "4. पूर्ण आंतरिक परावर्तन (TIR)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "When a ray of light traveling from a denser to a rarer medium is incident at an angle greater than the critical angle, it is completely reflected back into the denser medium.",
+      "hi": "जब सघन से विरल माध्यम में जाने वाली प्रकाश की किरण क्रांतिक कोण से अधिक कोण पर आपतित होती है, तो यह पूरी तरह से सघन माध्यम में वापस परावर्तित हो जाती है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Conditions for TIR:",
+      "hi": "TIR के लिए शर्तें:"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Light must travel from an optically denser to a rarer medium.",
+        "hi": "प्रकाश को प्रकाशिक रूप से सघन माध्यम से विरल माध्यम में जाना चाहिए।"
+      },
+      {
+        "en": "The angle of incidence must be greater than the critical angle (i > C).",
+        "hi": "आपतन कोण क्रांतिक कोण से बड़ा होना चाहिए (i > C)।"
+      }
+    ]
+  },
+  {
+    "type": "formula",
+    "equation": "\\sin C = \\frac{1}{n}",
+    "label": {
+      "en": "Relation between critical angle and refractive index",
+      "hi": "क्रांतिक कोण और अपवर्तनांक के बीच संबंध"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Refraction at Spherical Surfaces and by Lenses",
+      "hi": "5. गोलीय पृष्ठों पर और लेंसों द्वारा अपवर्तन"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}",
+    "label": {
+      "en": "Refraction formula for a spherical surface",
+      "hi": "गोलीय पृष्ठ के लिए अपवर्तन सूत्र"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{1}{f} = (n_{21} - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right)",
+    "label": {
+      "en": "Lens Maker's Formula",
+      "hi": "लेंस निर्माता का सूत्र"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}",
+    "label": {
+      "en": "Thin Lens Formula",
+      "hi": "पतले लेंस का सूत्र"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Dispersion by a Prism",
+      "hi": "6. प्रिज्म द्वारा विक्षेपण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The phenomenon of splitting of white light into its constituent colors is called dispersion.",
+      "hi": "श्वेत प्रकाश का उसके घटक रंगों में विभक्त होने की घटना को विक्षेपण कहते हैं।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "n = \\frac{\\sin \\left( \\frac{A + \\delta_m}{2} \\right)}{\\sin \\left( \\frac{A}{2} \\right)}",
+    "label": {
+      "en": "Prism Formula",
+      "hi": "प्रिज्म सूत्र"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Optical Instruments",
+      "hi": "7. प्रकाशिक यंत्र"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Simple Microscope:",
+      "hi": "सरल सूक्ष्मदर्शी:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A convex lens of short focal length. Magnifying power when image is at near point (D): $M = 1 + \\frac{D}{f}$.",
+      "hi": "कम फोकस दूरी का एक उत्तल लेंस। जब प्रतिबिंब निकट बिंदु (D) पर बनता है तो आवर्धन क्षमता: $M = 1 + \\frac{D}{f}$।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Compound Microscope:",
+      "hi": "यौगिक सूक्ष्मदर्शी:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Consists of two convex lenses: objective and eyepiece. Magnifying power: $M = m_o \\times m_e$.",
+      "hi": "दो उत्तल लेंसों से बना होता है: अभिदृश्यक और नेत्रिका। आवर्धन क्षमता: $M = m_o \\times m_e$।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Astronomical Telescope:",
+      "hi": "खगोलीय दूरदर्शी:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Used to observe distant heavenly bodies. Magnifying power in normal adjustment: $M = \\frac{f_o}{f_e}$.",
+      "hi": "दूरस्थ खगोलीय पिंडों को देखने के लिए प्रयुक्त होता है। सामान्य समायोजन में आवर्धन क्षमता: $M = \\frac{f_o}{f_e}$।"
+    }
   }
 ]

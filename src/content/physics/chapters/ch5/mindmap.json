@@ -1,0 +1,58 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Magnetism & Matter",
+    "hi": "चुंबकत्व एवं द्रव्य",
+    "hinglish": "Magnetism aur Matter"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Bar Magnet",
+        "hi": "छड़ चुंबक"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Magnetic Field Lines", "hi": "चुंबकीय क्षेत्र रेखाएं" } },
+        { "id": "c1b", "label": { "en": "Magnetic Dipole Moment", "hi": "चुंबकीय द्विध्रुव आघूर्ण" } },
+        { "id": "c1c", "label": { "en": "Torque (τ = mB sinθ)", "hi": "बल आघूर्ण (τ = mB sinθ)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Earth's Magnetism",
+        "hi": "पृथ्वी का चुंबकत्व"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Declination (θ)", "hi": "दिक्पात (θ)" } },
+        { "id": "c2b", "label": { "en": "Dip / Inclination (δ)", "hi": "नमन कोण (δ)" } },
+        { "id": "c2c", "label": { "en": "Horizontal Component (B_H)", "hi": "क्षैतिज घटक (B_H)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Magnetic Properties",
+        "hi": "चुंबकीय गुण"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Magnetization (M)", "hi": "चुंबकन (M)" } },
+        { "id": "c3b", "label": { "en": "Magnetic Intensity (H)", "hi": "चुंबकीय तीव्रता (H)" } },
+        { "id": "c3c", "label": { "en": "Susceptibility (χ)", "hi": "चुंबकीय प्रवृत्ति (χ)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Classification of Materials",
+        "hi": "पदार्थों का वर्गीकरण"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Diamagnetic (Repelled, χ < 0)", "hi": "प्रतिचुंबकीय (प्रतिकर्षित, χ < 0)" } },
+        { "id": "c4b", "label": { "en": "Paramagnetic (Attracted, χ > 0)", "hi": "अनुचुंबकीय (आकर्षित, χ > 0)" } },
+        { "id": "c4c", "label": { "en": "Ferromagnetic (Strongly attracted, χ >> 0)", "hi": "लौहचुंबकीय (प्रबलता से आकर्षित, χ >> 0)" } }
+      ]
+    }
+  ]
+}

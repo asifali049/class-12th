@@ -1,0 +1,80 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "easy",
+    "question": {
+      "en": "Magnetic flux linked with a coil changes from 12 Wb to 6 Wb in 2 seconds. Calculate the induced emf.",
+      "hi": "किसी कुंडली से बद्ध चुंबकीय फ्लक्स 2 सेकंड में 12 Wb से 6 Wb हो जाता है। प्रेरित विद्युत वाहक बल की गणना कीजिए।",
+      "hinglish": "Kisi coil se linked magnetic flux 2 seconds me 12 Wb se 6 Wb ho jata hai. Induced emf calculate karein."
+    },
+    "given": {
+      "en": "$\\Phi_1 = 12 \\text{ Wb}$<br>$\\Phi_2 = 6 \\text{ Wb}$<br>$\\Delta t = 2 \\text{ s}$",
+      "hi": "$\\Phi_1 = 12 \\text{ Wb}$<br>$\\Phi_2 = 6 \\text{ Wb}$<br>$\\Delta t = 2 \\text{ s}$"
+    },
+    "required": {
+      "en": "Induced emf ($e$)",
+      "hi": "प्रेरित विद्युत वाहक बल ($e$)"
+    },
+    "formula": "$e = -\\frac{\\Phi_2 - \\Phi_1}{\\Delta t}$",
+    "substitution": "$e = -\\frac{6 - 12}{2}$",
+    "calculation": "$e = -\\frac{-6}{2} = 3$",
+    "finalAnswer": "$3$",
+    "unit": "V",
+    "examTip": {
+      "en": "The negative sign in the formula ensures the emf comes out positive if flux is decreasing, matching Lenz's Law.",
+      "hi": "सूत्र में ऋणात्मक चिह्न यह सुनिश्चित करता है कि यदि फ्लक्स घट रहा है तो emf धनात्मक आए, जो लेन्ज के नियम के अनुरूप है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "A 10 m long metallic rod is rotated with an angular frequency of 400 rad/s about an axis normal to the rod passing through its one end. The other end of the rod is in contact with a circular metallic ring. A constant and uniform magnetic field of 0.5 T parallel to the axis exists everywhere. Calculate the emf developed between the center and the ring.",
+      "hi": "10 m लंबी एक धातु की छड़ को उसके एक सिरे से गुजरने वाले और छड़ के अभिलंबवत अक्ष के परितः 400 rad/s की कोणीय आवृत्ति के साथ घुमाया जाता है। छड़ का दूसरा सिरा एक वृत्ताकार धातु के वलय के संपर्क में है। अक्ष के समांतर 0.5 T का एक नियत और एकसमान चुंबकीय क्षेत्र हर जगह मौजूद है। केंद्र और वलय के बीच उत्पन्न emf की गणना कीजिए।",
+      "hinglish": "10 m long metallic rod ko 400 rad/s angular frequency se rotate kiya jata hai about an axis normal to rod passing through one end. Dusra end metallic ring ke contact me hai. 0.5 T ka uniform magnetic field axis ke parallel hai. Center aur ring ke beech developed emf calculate karein."
+    },
+    "given": {
+      "en": "$l = 10 \\text{ m}$<br>$\\omega = 400 \\text{ rad/s}$<br>$B = 0.5 \\text{ T}$",
+      "hi": "$l = 10 \\text{ m}$<br>$\\omega = 400 \\text{ rad/s}$<br>$B = 0.5 \\text{ T}$"
+    },
+    "required": {
+      "en": "Induced emf ($e$)",
+      "hi": "प्रेरित विद्युत वाहक बल ($e$)"
+    },
+    "formula": "$e = \\frac{1}{2} B \\omega l^2$",
+    "substitution": "$e = \\frac{1}{2} \\times 0.5 \\times 400 \\times (10)^2$",
+    "calculation": "$e = 0.5 \\times 200 \\times 100$<br>$e = 100 \\times 100$<br>$e = 10000$",
+    "finalAnswer": "$10000$ or $10 \\text{ kV}$",
+    "unit": "V",
+    "examTip": {
+      "en": "This is a standard formula for motional emf in a rotating rod. Do not confuse it with $e = Blv$.",
+      "hi": "यह घूर्णन करती छड़ में गतिक emf का मानक सूत्र है। इसे $e = Blv$ के साथ भ्रमित न करें।"
+    }
+  },
+  {
+    "id": "n3",
+    "difficulty": "hard",
+    "question": {
+      "en": "Two concentric circular coils, one of small radius $r_1$ and the other of large radius $r_2$, such that $r_1 \\ll r_2$, are placed co-axially with centers coinciding. Obtain the mutual inductance of the arrangement.",
+      "hi": "दो संकेंद्रित वृत्ताकार कुंडलियां, एक छोटी त्रिज्या $r_1$ की और दूसरी बड़ी त्रिज्या $r_2$ की, इस प्रकार कि $r_1 \\ll r_2$, समाक्षीय रूप से रखी गई हैं और उनके केंद्र संपाती हैं। इस व्यवस्था का अन्योन्य प्रेरकत्व ज्ञात कीजिए।",
+      "hinglish": "Do concentric circular coils hain (radius $r_1$ and $r_2$, where $r_1 \\ll r_2$), co-axially placed with same center. Is arrangement ka mutual inductance nikalein."
+    },
+    "given": {
+      "en": "Radius of inner coil = $r_1$<br>Radius of outer coil = $r_2$<br>Condition: $r_1 \\ll r_2$",
+      "hi": "आंतरिक कुंडली की त्रिज्या = $r_1$<br>बाहरी कुंडली की त्रिज्या = $r_2$<br>शर्त: $r_1 \\ll r_2$"
+    },
+    "required": {
+      "en": "Mutual Inductance ($M$)",
+      "hi": "अन्योन्य प्रेरकत्व ($M$)"
+    },
+    "formula": "$M = \\frac{\\Phi_{1}}{I_2}$ where $\\Phi_{1} = B_2 \\times A_1$",
+    "substitution": "Magnetic field due to outer coil at center: $B_2 = \\frac{\\mu_0 I_2}{2 r_2}$<br>Flux linked with inner coil: $\\Phi_{1} = B_2 \\times \\pi r_1^2 = \\left( \\frac{\\mu_0 I_2}{2 r_2} \\right) \\pi r_1^2$",
+    "calculation": "$M = \\frac{\\Phi_{1}}{I_2} = \\frac{\\mu_0 \\pi r_1^2}{2 r_2}$",
+    "finalAnswer": "$\\frac{\\mu_0 \\pi r_1^2}{2 r_2}$",
+    "unit": "H",
+    "examTip": {
+      "en": "Since $r_1 \\ll r_2$, the magnetic field $B_2$ can be considered uniform over the area of the inner coil. This approximation is crucial for this derivation/numerical.",
+      "hi": "चूंकि $r_1 \\ll r_2$ है, इसलिए चुंबकीय क्षेत्र $B_2$ को आंतरिक कुंडली के क्षेत्रफल पर एकसमान माना जा सकता है। यह सन्निकटन इस व्युत्पत्ति/संख्यात्मक के लिए महत्वपूर्ण है।"
+    }
+  }
+]

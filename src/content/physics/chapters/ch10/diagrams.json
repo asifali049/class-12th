@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Young's Double Slit Experiment",
+      "hi": "यंग का द्वि-स्लिट प्रयोग",
+      "hinglish": "YDSE (Young's Double Slit Experiment)"
+    },
+    "description": {
+      "en": "Experimental setup for YDSE showing monochromatic light passing through two narrow slits $S_1$ and $S_2$, producing an interference pattern on the screen.",
+      "hi": "YDSE के लिए प्रायोगिक व्यवस्था जो दो संकीर्ण स्लिटों $S_1$ और $S_2$ से गुजरने वाले एकवर्णी प्रकाश को दर्शाती है, जिससे पर्दे पर व्यतिकरण प्रतिरूप उत्पन्न होता है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Light Source -->\n  <circle cx=\"30\" cy=\"150\" r=\"5\" fill=\"#f59e0b\" />\n  <text x=\"25\" y=\"170\" font-family=\"Arial\" font-size=\"14\">S</text>\n  <!-- Wavefronts from S -->\n  <path d=\"M50,110 Q65,150 50,190\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"1\" opacity=\"0.5\" />\n  <path d=\"M70,90 Q95,150 70,210\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"1\" opacity=\"0.5\" />\n\n  <!-- Double Slit Barrier -->\n  <rect x=\"120\" y=\"20\" width=\"10\" height=\"100\" fill=\"#4b5563\" />\n  <rect x=\"120\" y=\"130\" width=\"10\" height=\"40\" fill=\"#4b5563\" />\n  <rect x=\"120\" y=\"180\" width=\"10\" height=\"100\" fill=\"#4b5563\" />\n\n  <!-- Slit Labels -->\n  <text x=\"100\" y=\"128\" font-family=\"Arial\" font-size=\"14\">S₁</text>\n  <text x=\"100\" y=\"188\" font-family=\"Arial\" font-size=\"14\">S₂</text>\n\n  <!-- Distance d between slits -->\n  <line x1=\"140\" y1=\"125\" x2=\"140\" y2=\"175\" stroke=\"#000\" stroke-width=\"1\" stroke-dasharray=\"2,2\" />\n  <text x=\"145\" y=\"155\" font-family=\"Arial\" font-size=\"12\">d</text>\n\n  <!-- Screen -->\n  <rect x=\"400\" y=\"20\" width=\"10\" height=\"260\" fill=\"#9ca3af\" />\n  <text x=\"420\" y=\"155\" font-family=\"Arial\" font-size=\"14\">Screen</text>\n\n  <!-- Distance D -->\n  <line x1=\"130\" y1=\"280\" x2=\"400\" y2=\"280\" stroke=\"#000\" stroke-width=\"1\" />\n  <line x1=\"130\" y1=\"275\" x2=\"130\" y2=\"285\" stroke=\"#000\" stroke-width=\"1\" />\n  <line x1=\"400\" y1=\"275\" x2=\"400\" y2=\"285\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"260\" y=\"295\" font-family=\"Arial\" font-size=\"14\">D</text>\n\n  <!-- Central axis -->\n  <line x1=\"125\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"#9ca3af\" stroke-width=\"1\" stroke-dasharray=\"5,5\" />\n  <text x=\"415\" y=\"155\" font-family=\"Arial\" font-size=\"12\">O</text>\n\n  <!-- Rays to a point P on screen -->\n  <line x1=\"130\" y1=\"125\" x2=\"400\" y2=\"70\" stroke=\"#ef4444\" stroke-width=\"1.5\" />\n  <line x1=\"130\" y1=\"175\" x2=\"400\" y2=\"70\" stroke=\"#3b82f6\" stroke-width=\"1.5\" />\n  <circle cx=\"400\" cy=\"70\" r=\"3\" fill=\"#10b981\" />\n  <text x=\"415\" y=\"75\" font-family=\"Arial\" font-size=\"14\">P</text>\n\n  <!-- Distance y -->\n  <line x1=\"380\" y1=\"150\" x2=\"380\" y2=\"70\" stroke=\"#000\" stroke-width=\"1\" stroke-dasharray=\"2,2\" />\n  <text x=\"365\" y=\"115\" font-family=\"Arial\" font-size=\"12\">y</text>\n\n  <!-- Interference Pattern (Illustrative) -->\n  <path d=\"M405,150 Q430,150 405,130 Q430,130 405,110 Q430,110 405,90 Q430,90 405,70\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" />\n  <path d=\"M405,150 Q430,150 405,170 Q430,170 405,190 Q430,190 405,210 Q430,210 405,230\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" />\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 25,
+        "y": 140,
+        "text": {
+          "en": "$S$",
+          "hi": "$S$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 90,
+        "y": 115,
+        "text": {
+          "en": "$S_1$",
+          "hi": "$S_1$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 90,
+        "y": 175,
+        "text": {
+          "en": "$S_2$",
+          "hi": "$S_2$"
+        }
+      },
+      {
+        "id": "l4",
+        "x": 415,
+        "y": 65,
+        "text": {
+          "en": "$P$",
+          "hi": "$P$"
+        }
+      },
+      {
+        "id": "l5",
+        "x": 415,
+        "y": 145,
+        "text": {
+          "en": "$O$",
+          "hi": "$O$"
+        }
+      }
+    ]
+  }
+]

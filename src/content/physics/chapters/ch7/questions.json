@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "In a purely inductive AC circuit, the current:",
+      "hi": "एक विशुद्ध प्रेरणिक AC परिपथ में, धारा:",
+      "hinglish": "Purely inductive AC circuit me, current:"
+    },
+    "options": [
+      {
+        "en": "leads the voltage by 90°",
+        "hi": "वोल्टेज से 90° आगे होती है"
+      },
+      {
+        "en": "lags the voltage by 90°",
+        "hi": "वोल्टेज से 90° पीछे होती है"
+      },
+      {
+        "en": "is in phase with the voltage",
+        "hi": "वोल्टेज के समान कला में होती है"
+      },
+      {
+        "en": "lags the voltage by 45°",
+        "hi": "वोल्टेज से 45° पीछे होती है"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "In an inductor, the induced emf opposes the change in current. Hence, current takes time to build up and lags behind the voltage by a phase angle of 90° (π/2).",
+      "hi": "एक प्रेरक में, प्रेरित emf धारा में परिवर्तन का विरोध करता है। इसलिए, धारा को बनने में समय लगता है और यह वोल्टेज से 90° (π/2) के कला कोण से पीछे रहती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "The core of a transformer is laminated to reduce:",
+      "hi": "ट्रांसफार्मर के क्रोड को पटलित (laminated) क्यों किया जाता है, किसे कम करने के लिए:",
+      "hinglish": "Transformer ki core ko laminated kyun karte hain, kya reduce karne ke liye:"
+    },
+    "options": [
+      {
+        "en": "Copper loss",
+        "hi": "ताम्र हानि"
+      },
+      {
+        "en": "Magnetic flux leakage",
+        "hi": "चुंबकीय फ्लक्स का क्षरण"
+      },
+      {
+        "en": "Eddy current loss",
+        "hi": "भंवर धारा हानि"
+      },
+      {
+        "en": "Hysteresis loss",
+        "hi": "शैथिल्य हानि"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Laminating the core breaks the continuous conducting path, which reduces the magnitude of eddy currents and thereby minimizes eddy current losses (heating of the core).",
+      "hi": "क्रोड को पटलित करने से निरंतर चालन पथ टूट जाता है, जिससे भंवर धाराओं का परिमाण कम हो जाता है और इस प्रकार भंवर धारा हानि (क्रोड का गर्म होना) कम हो जाती है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "What is meant by 'wattless current'?",
+      "hi": "'वाटहीन धारा' से क्या तात्पर्य है?",
+      "hinglish": "'Wattless current' ka kya matlab hai?"
+    },
+    "idealAnswer": {
+      "en": "In an AC circuit containing only a pure inductor or a pure capacitor, the phase difference between voltage and current is 90° (π/2). Thus, the power factor ($\\cos 90^{\\circ}$) is zero. The average power consumed is zero, despite current flowing in the circuit. Such a current is called wattless current.",
+      "hi": "केवल शुद्ध प्रेरक या शुद्ध संधारित्र वाले AC परिपथ में, वोल्टेज और धारा के बीच कलांतर 90° (π/2) होता है। इस प्रकार, शक्ति गुणांक ($\\cos 90^{\\circ}$) शून्य होता है। परिपथ में धारा प्रवाहित होने के बावजूद व्यय औसत शक्ति शून्य होती है। ऐसी धारा को वाटहीन धारा कहा जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "pure inductor/capacitor",
+        "hi": "शुद्ध प्रेरक/संधारित्र"
+      },
+      {
+        "en": "phase difference 90",
+        "hi": "कलांतर 90"
+      },
+      {
+        "en": "average power zero",
+        "hi": "औसत शक्ति शून्य"
+      }
+    ],
+    "tips": {
+      "en": "Mentioning the formula $P = VI \\cos\\phi$ where $\\phi = 90^{\\circ}$ strengthens the answer.",
+      "hi": "सूत्र $P = VI \\cos\\phi$ का उल्लेख करना जहाँ $\\phi = 90^{\\circ}$ है, उत्तर को मजबूत बनाता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 3,
+    "question": {
+      "en": "Define electrical resonance in a series LCR circuit. Write the formula for resonant frequency.",
+      "hi": "एक श्रेणी LCR परिपथ में विद्युत अनुनाद को परिभाषित कीजिए। अनुनादी आवृत्ति का सूत्र लिखिए।",
+      "hinglish": "Series LCR circuit me electrical resonance ko define karein. Resonant frequency ka formula likhein."
+    },
+    "idealAnswer": {
+      "en": "Electrical resonance occurs in a series LCR circuit when the inductive reactance equals the capacitive reactance ($X_L = X_C$). Under this condition, the total impedance of the circuit is purely resistive and minimum ($Z = R$), and the current is maximum.\nThe resonant frequency is the frequency of the AC source at which resonance occurs. Its formula is $f_r = \\frac{1}{2\\pi \\sqrt{LC}}$.",
+      "hi": "एक श्रेणी LCR परिपथ में विद्युत अनुनाद तब होता है जब प्रेरणिक प्रतिघात धारितीय प्रतिघात के बराबर होता है ($X_L = X_C$)। इस स्थिति में, परिपथ की कुल प्रतिबाधा विशुद्ध रूप से प्रतिरोधी और न्यूनतम ($Z = R$) होती है, और धारा अधिकतम होती है।\nअनुनादी आवृत्ति AC स्रोत की वह आवृत्ति है जिस पर अनुनाद होता है। इसका सूत्र $f_r = \\frac{1}{2\\pi \\sqrt{LC}}$ है।"
+    },
+    "keywords": [
+      {
+        "en": "X_L = X_C",
+        "hi": "X_L = X_C"
+      },
+      {
+        "en": "Impedance minimum Z = R",
+        "hi": "प्रतिबाधा न्यूनतम Z = R"
+      },
+      {
+        "en": "Current maximum",
+        "hi": "धारा अधिकतम"
+      }
+    ],
+    "tips": {
+      "en": "Ensure you write both conditions: $X_L = X_C$ and impedance becomes minimum ($Z=R$).",
+      "hi": "सुनिश्चित करें कि आप दोनों शर्तें लिखें: $X_L = X_C$ और प्रतिबाधा न्यूनतम ($Z=R$) हो जाती है।"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Phasor Diagram of Series LCR Circuit",
+      "hi": "श्रेणी LCR परिपथ का फेजर आरेख",
+      "hinglish": "Series LCR circuit ka phasor diagram"
+    },
+    "description": {
+      "en": "Phasor diagram showing voltages across Resistor ($V_R$), Inductor ($V_L$), and Capacitor ($V_C$). Here, $V_L > V_C$ is assumed.",
+      "hi": "प्रतिरोधक ($V_R$), प्रेरक ($V_L$), और संधारित्र ($V_C$) के सिरों पर वोल्टेज को दर्शाने वाला फेजर आरेख। यहाँ, $V_L > V_C$ माना गया है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Axes (Current I is on x-axis) -->\n  <line x1=\"150\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n  <line x1=\"150\" y1=\"250\" x2=\"150\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n\n  <!-- Current I (Reference, along x-axis) -->\n  <line x1=\"150\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#10b981\" stroke-width=\"3\" />\n  <polygon points=\"300,150 292,145 292,155\" fill=\"#10b981\" />\n\n  <!-- V_R (in phase with I) -->\n  <line x1=\"150\" y1=\"150\" x2=\"260\" y2=\"150\" stroke=\"#ef4444\" stroke-width=\"4\" />\n  <polygon points=\"260,150 252,146 252,154\" fill=\"#ef4444\" />\n\n  <!-- V_L (Leads I by 90) -->\n  <line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"60\" stroke=\"#ef4444\" stroke-width=\"4\" />\n  <polygon points=\"150,60 146,68 154,68\" fill=\"#ef4444\" />\n\n  <!-- V_C (Lags I by 90) -->\n  <line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"220\" stroke=\"#ef4444\" stroke-width=\"4\" />\n  <polygon points=\"150,220 146,212 154,212\" fill=\"#ef4444\" />\n\n  <!-- Resultant of V_L and V_C (V_L - V_C) -->\n  <line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"95\" stroke=\"#f59e0b\" stroke-width=\"4\" />\n  <polygon points=\"150,95 146,103 154,103\" fill=\"#f59e0b\" />\n\n  <!-- Parallelogram completion for resultant V -->\n  <line x1=\"150\" y1=\"95\" x2=\"260\" y2=\"95\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n  <line x1=\"260\" y1=\"150\" x2=\"260\" y2=\"95\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n\n  <!-- Resultant Voltage V -->\n  <line x1=\"150\" y1=\"150\" x2=\"260\" y2=\"95\" stroke=\"#3b82f6\" stroke-width=\"4\" />\n  <polygon points=\"260,95 251,96 256,104\" fill=\"#3b82f6\" />\n\n  <!-- Phase angle phi -->\n  <path d=\"M190,150 Q188,140 185,133\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 310,
+        "y": 145,
+        "text": {
+          "en": "$I$",
+          "hi": "$I$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 265,
+        "y": 165,
+        "text": {
+          "en": "$V_R$",
+          "hi": "$V_R$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 120,
+        "y": 70,
+        "text": {
+          "en": "$V_L$",
+          "hi": "$V_L$"
+        }
+      },
+      {
+        "id": "l4",
+        "x": 120,
+        "y": 215,
+        "text": {
+          "en": "$V_C$",
+          "hi": "$V_C$"
+        }
+      },
+      {
+        "id": "l5",
+        "x": 75,
+        "y": 105,
+        "text": {
+          "en": "$V_L - V_C$",
+          "hi": "$V_L - V_C$"
+        }
+      },
+      {
+        "id": "l6",
+        "x": 270,
+        "y": 90,
+        "text": {
+          "en": "$V$",
+          "hi": "$V$"
+        }
+      },
+      {
+        "id": "l7",
+        "x": 200,
+        "y": 138,
+        "text": {
+          "en": "$\\phi$",
+          "hi": "$\\phi$"
+        }
+      }
+    ]
+  }
+]

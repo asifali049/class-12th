@@ -1,10 +1,224 @@
 [
   {
     "type": "heading",
-    "text": "Alternating Current"
+    "text": {
+      "en": "1. Alternating Current (AC)",
+      "hi": "1. प्रत्यावर्ती धारा (AC)"
+    }
   },
   {
     "type": "paragraph",
-    "text": "An alternating current (AC) is an electric current which periodically reverses direction."
+    "text": {
+      "en": "An alternating current is one whose magnitude changes continuously with time and direction reverses periodically.",
+      "hi": "प्रत्यावर्ती धारा वह है जिसका परिमाण समय के साथ लगातार बदलता है और दिशा समय-समय पर उलट जाती है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "I = I_0 \\sin \\omega t \\quad \\text{and} \\quad V = V_0 \\sin \\omega t",
+    "label": {
+      "en": "I₀, V₀ = Peak values, ω = Angular frequency",
+      "hi": "I₀, V₀ = शिखर मान, ω = कोणीय आवृत्ति"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Mean and RMS Value of AC",
+      "hi": "2. AC का औसत और RMS मान"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Mean Value (Over half cycle):",
+      "hi": "औसत मान (आधे चक्र पर):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Mean value of AC over a full cycle is zero. Over a half cycle, it is 0.637 times the peak value.",
+      "hi": "एक पूर्ण चक्र में AC का औसत मान शून्य होता है। आधे चक्र में, यह शिखर मान का 0.637 गुना होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "I_{mean} = \\frac{2 I_0}{\\pi} \\approx 0.637 I_0"
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "RMS Value (Root Mean Square):",
+      "hi": "RMS मान (वर्ग माध्य मूल):"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "It is that steady current which would produce the same heat in a given resistance in a given time as is produced by the given AC. Also called virtual or effective value.",
+      "hi": "यह वह दिष्ट धारा है जो किसी दिए गए प्रतिरोध में दिए गए समय में उतनी ही ऊष्मा उत्पन्न करेगी जितनी कि दी गई AC द्वारा उत्पन्न होती है। इसे आभासी या प्रभावी मान भी कहा जाता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "I_{rms} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. AC Circuit containing only Resistor (R)",
+      "hi": "3. केवल प्रतिरोधक (R) युक्त AC परिपथ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "In a purely resistive circuit, the current and voltage are in the same phase. (Phase difference = 0).",
+      "hi": "एक विशुद्ध प्रतिरोधी परिपथ में, धारा और वोल्टेज समान कला में होते हैं। (कलांतर = 0)।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. AC Circuit containing only Inductor (L)",
+      "hi": "4. केवल प्रेरक (L) युक्त AC परिपथ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "In a purely inductive circuit, the voltage leads the current by a phase angle of π/2 (90°).",
+      "hi": "एक विशुद्ध प्रेरणिक परिपथ में, वोल्टेज धारा से π/2 (90°) के कला कोण से आगे रहता है (अग्रगामी होता है)।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "X_L = \\omega L = 2\\pi f L",
+    "label": {
+      "en": "Inductive Reactance",
+      "hi": "प्रेरणिक प्रतिघात"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. AC Circuit containing only Capacitor (C)",
+      "hi": "5. केवल संधारित्र (C) युक्त AC परिपथ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "In a purely capacitive circuit, the current leads the voltage by a phase angle of π/2 (90°).",
+      "hi": "एक विशुद्ध धारितीय परिपथ में, धारा वोल्टेज से π/2 (90°) के कला कोण से आगे रहती है (अग्रगामी होती है)।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}",
+    "label": {
+      "en": "Capacitive Reactance",
+      "hi": "धारितीय प्रतिघात"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. LCR Series Circuit",
+      "hi": "6. LCR श्रेणी परिपथ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "When an inductor L, capacitor C and resistor R are connected in series to an AC source, the total opposition offered is called Impedance (Z).",
+      "hi": "जब एक प्रेरक L, संधारित्र C और प्रतिरोधक R को एक AC स्रोत से श्रेणीक्रम में जोड़ा जाता है, तो प्रस्तुत कुल विरोध को प्रतिबाधा (Z) कहा जाता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "Z = \\sqrt{R^2 + (X_L - X_C)^2}"
+  },
+  {
+    "type": "formula",
+    "equation": "\\tan \\phi = \\frac{X_L - X_C}{R}",
+    "label": {
+      "en": "Phase Angle",
+      "hi": "कला कोण"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Resonance Condition:",
+      "hi": "अनुनाद की स्थिति:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "When X_L = X_C, the impedance is minimum (Z = R) and current is maximum. This state is called electrical resonance.",
+      "hi": "जब X_L = X_C होता है, तो प्रतिबाधा न्यूनतम (Z = R) होती है और धारा अधिकतम होती है। इस अवस्था को विद्युत अनुनाद कहा जाता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "f_r = \\frac{1}{2\\pi \\sqrt{LC}}",
+    "label": {
+      "en": "Resonant Frequency",
+      "hi": "अनुनादी आवृत्ति"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Power in AC Circuit",
+      "hi": "7. AC परिपथ में शक्ति"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The average power dissipated in an AC circuit over a complete cycle depends on voltage, current and the phase angle between them.",
+      "hi": "एक पूर्ण चक्र में AC परिपथ में व्यय औसत शक्ति वोल्टेज, धारा और उनके बीच के कला कोण पर निर्भर करती है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "P_{avg} = V_{rms} I_{rms} \\cos \\phi",
+    "label": {
+      "en": "cos φ is called Power Factor",
+      "hi": "cos φ को शक्ति गुणांक कहते हैं"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "For purely inductive or capacitive circuit, φ = 90°, cos φ = 0. Therefore, P_avg = 0. The current is called Wattless Current.",
+      "hi": "विशुद्ध प्रेरणिक या धारितीय परिपथ के लिए, φ = 90°, cos φ = 0 होता है। इसलिए, P_avg = 0 होता है। इस धारा को वाटहीन धारा कहा जाता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Transformer",
+      "hi": "8. ट्रांसफार्मर"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A device used to increase or decrease alternating voltage. It works on the principle of mutual induction. It cannot be used for DC.",
+      "hi": "प्रत्यावर्ती वोल्टेज को बढ़ाने या घटाने के लिए प्रयुक्त एक उपकरण। यह अन्योन्य प्रेरण के सिद्धांत पर कार्य करता है। इसका उपयोग DC के लिए नहीं किया जा सकता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s} = k",
+    "label": {
+      "en": "k = Transformation Ratio",
+      "hi": "k = परिणमन अनुपात"
+    }
   }
 ]

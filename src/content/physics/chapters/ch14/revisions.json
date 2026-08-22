@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Semiconductors & Doping",
+      "hi": "अर्धचालक और डोपिंग",
+      "hinglish": "Semiconductors & Doping"
+    },
+    "summary": {
+      "en": "Intrinsic: pure (n_e = n_h). Extrinsic: n-type (pentavalent, majority electrons), p-type (trivalent, majority holes). Mass action law: n_e * n_h = n_i².",
+      "hi": "निज: शुद्ध (n_e = n_h)। अपद्रव्यी: n-प्रकार (पंचसंयोजी, बहुसंख्यक इलेक्ट्रॉन), p-प्रकार (त्रिसंयोजी, बहुसंख्यक होल)। द्रव्यमान क्रिया नियम: n_e * n_h = n_i²।",
+      "hinglish": "Intrinsic: pure (n_e = n_h). Extrinsic: n-type (pentavalent, majority electrons), p-type (trivalent, majority holes). Mass action law: n_e * n_h = n_i²."
+    },
+    "quickRecall": [
+      {
+        "en": "n-type: Pentavalent (P, As, Sb)",
+        "hi": "n-प्रकार: पंचसंयोजी (P, As, Sb)"
+      },
+      {
+        "en": "p-type: Trivalent (B, Al, In)",
+        "hi": "p-प्रकार: त्रिसंयोजी (B, Al, In)"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "p-n Junction & Rectifier",
+      "hi": "p-n संधि और दिष्टकारी",
+      "hinglish": "p-n Junction & Rectifier"
+    },
+    "summary": {
+      "en": "Forward bias: narrow depletion region, conducts. Reverse bias: wide depletion region, blocks. Rectifier converts AC to DC using this property.",
+      "hi": "अग्र बायस: संकीर्ण अवक्षय परत, चालन करता है। पश्च बायस: चौड़ी अवक्षय परत, रोकता है। दिष्टकारी इस गुण का उपयोग करके AC को DC में परिवर्तित करता है।",
+      "hinglish": "Forward bias: narrow depletion region, conduct karta hai. Reverse bias: wide depletion region, block karta hai. Rectifier is property ka use karke AC ko DC me convert karta hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Forward bias: conducts",
+        "hi": "अग्र बायस: चालन करता है"
+      }
+    ]
+  }
+]

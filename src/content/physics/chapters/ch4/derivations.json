@@ -1,0 +1,126 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Magnetic Field at the Centre of a Circular Current Loop",
+      "hi": "वृत्ताकार धारावाही पाश के केंद्र पर चुंबकीय क्षेत्र",
+      "hinglish": "Circular current loop ke centre par magnetic field"
+    },
+    "given": {
+      "en": "A circular loop of radius $R$ carrying current $I$. We need to find the magnetic field at its centre $O$.",
+      "hi": "$R$ त्रिज्या का एक वृत्ताकार पाश जिसमें $I$ धारा प्रवाहित हो रही है। हमें इसके केंद्र $O$ पर चुंबकीय क्षेत्र ज्ञात करना है।"
+    },
+    "toFind": {
+      "en": "Expression for Magnetic field $B$ at the centre.",
+      "hi": "केंद्र पर चुंबकीय क्षेत्र $B$ के लिए व्यंजक।"
+    },
+    "concept": {
+      "en": "Biot-Savart Law: $dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$",
+      "hi": "बायो-सावर्ट का नियम: $dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Consider a small element",
+          "hi": "चरण 1: एक छोटे अवयव पर विचार करें"
+        },
+        "content": {
+          "en": "Consider a small current element $dl$ on the loop. The distance of this element from the centre is $R$. The angle between the current element $dl$ and the position vector $R$ is $90^{\\circ}$.",
+          "hi": "पाश पर एक छोटे धारा अवयव $dl$ पर विचार करें। केंद्र से इस अवयव की दूरी $R$ है। धारा अवयव $dl$ और स्थिति सदिश $R$ के बीच का कोण $90^{\\circ}$ है।"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Apply Biot-Savart Law",
+          "hi": "चरण 2: बायो-सावर्ट का नियम लागू करें"
+        },
+        "content": {
+          "en": "According to Biot-Savart Law, the magnetic field at the centre due to this element is:<br>$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin 90^{\\circ}}{R^2} = \\frac{\\mu_0}{4\\pi} \\frac{I dl}{R^2}$",
+          "hi": "बायो-सावर्ट नियम के अनुसार, इस अवयव के कारण केंद्र पर चुंबकीय क्षेत्र है:<br>$dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin 90^{\\circ}}{R^2} = \\frac{\\mu_0}{4\\pi} \\frac{I dl}{R^2}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Integrate over the whole loop",
+          "hi": "चरण 3: संपूर्ण पाश के लिए समाकलन करें"
+        },
+        "content": {
+          "en": "The total magnetic field at the centre is the integral of $dB$ over the entire circumference of the loop ($2\\pi R$).<br>$B = \\int dB = \\int \\frac{\\mu_0 I}{4\\pi R^2} dl$<br>$B = \\frac{\\mu_0 I}{4\\pi R^2} \\int dl$<br>$B = \\frac{\\mu_0 I}{4\\pi R^2} (2\\pi R)$",
+          "hi": "केंद्र पर कुल चुंबकीय क्षेत्र पाश की संपूर्ण परिधि ($2\\pi R$) पर $dB$ का समाकलन है।<br>$B = \\int dB = \\int \\frac{\\mu_0 I}{4\\pi R^2} dl$<br>$B = \\frac{\\mu_0 I}{4\\pi R^2} \\int dl$<br>$B = \\frac{\\mu_0 I}{4\\pi R^2} (2\\pi R)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Final Expression",
+          "hi": "चरण 4: अंतिम व्यंजक"
+        },
+        "content": {
+          "en": "Simplifying the above expression:<br>$B = \\frac{\\mu_0 I}{2R}$<br>If there are $N$ turns in the coil, then:<br>$B = \\frac{\\mu_0 N I}{2R}$",
+          "hi": "उपरोक्त व्यंजक को सरल करने पर:<br>$B = \\frac{\\mu_0 I}{2R}$<br>यदि कुंडली में $N$ फेरे हों, तो:<br>$B = \\frac{\\mu_0 N I}{2R}$"
+        }
+      }
+    ],
+    "finalResult": "B = \\frac{\\mu_0 I}{2R}",
+    "examTip": {
+      "en": "The direction of this magnetic field is given by the Right-Hand Thumb Rule.",
+      "hi": "इस चुंबकीय क्षेत्र की दिशा दाएं हाथ के अंगूठे के नियम द्वारा दी जाती है।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Force between Two Parallel Current Carrying Conductors",
+      "hi": "दो समांतर धारावाही चालकों के बीच बल",
+      "hinglish": "Do parallel current carrying conductors ke beech force"
+    },
+    "given": {
+      "en": "Two long parallel straight conductors carrying currents $I_1$ and $I_2$ in the same direction, separated by a distance $d$.",
+      "hi": "दो लंबे समांतर सीधे चालक जिनमें $I_1$ और $I_2$ धारा समान दिशा में प्रवाहित हो रही है, एक-दूसरे से $d$ दूरी पर हैं।"
+    },
+    "toFind": {
+      "en": "Force per unit length between them.",
+      "hi": "उनके बीच प्रति एकांक लंबाई पर बल।"
+    },
+    "concept": {
+      "en": "Magnetic field produced by one wire exerts a force on the other. <br>$B = \\frac{\\mu_0 I}{2\\pi d}$ and $F = I l B \\sin 90^{\\circ}$",
+      "hi": "एक तार द्वारा उत्पन्न चुंबकीय क्षेत्र दूसरे पर बल लगाता है। <br>$B = \\frac{\\mu_0 I}{2\\pi d}$ और $F = I l B \\sin 90^{\\circ}$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Magnetic Field due to wire 1",
+          "hi": "चरण 1: तार 1 के कारण चुंबकीय क्षेत्र"
+        },
+        "content": {
+          "en": "Wire 1 carries current $I_1$. The magnetic field produced by it at a distance $d$ (where wire 2 is placed) is:<br>$B_1 = \\frac{\\mu_0 I_1}{2\\pi d}$<br>By right-hand grip rule, this field is perpendicular to wire 2 and points downwards.",
+          "hi": "तार 1 में $I_1$ धारा है। इसके द्वारा $d$ दूरी (जहाँ तार 2 रखा है) पर उत्पन्न चुंबकीय क्षेत्र है:<br>$B_1 = \\frac{\\mu_0 I_1}{2\\pi d}$<br>दाएं हाथ के अंगूठे के नियम से, यह क्षेत्र तार 2 के लंबवत है और नीचे की ओर है।"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Force on wire 2",
+          "hi": "चरण 2: तार 2 पर बल"
+        },
+        "content": {
+          "en": "Wire 2, carrying current $I_2$ and length $l$, experiences a force in this magnetic field $B_1$.<br>$F_2 = I_2 l B_1 \\sin 90^{\\circ}$<br>$F_2 = I_2 l B_1$",
+          "hi": "तार 2, जिसमें $I_2$ धारा है और लंबाई $l$ है, इस चुंबकीय क्षेत्र $B_1$ में एक बल का अनुभव करता है।<br>$F_2 = I_2 l B_1 \\sin 90^{\\circ}$<br>$F_2 = I_2 l B_1$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Force per unit length",
+          "hi": "चरण 3: प्रति एकांक लंबाई पर बल"
+        },
+        "content": {
+          "en": "Substituting $B_1$:<br>$F_2 = I_2 l \\left( \\frac{\\mu_0 I_1}{2\\pi d} \\right)$<br>Therefore, the force per unit length $f = \\frac{F}{l}$ is:<br>$f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$",
+          "hi": "$B_1$ का मान रखने पर:<br>$F_2 = I_2 l \\left( \\frac{\\mu_0 I_1}{2\\pi d} \\right)$<br>इसलिए, प्रति एकांक लंबाई बल $f = \\frac{F}{l}$ है:<br>$f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$"
+        }
+      }
+    ],
+    "finalResult": "f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+    "examTip": {
+      "en": "Currents in same direction attract, opposite directions repel. This formula is also used to define the SI unit of current, Ampere (1 A).",
+      "hi": "समान दिशा में धाराएं आकर्षित करती हैं, विपरीत दिशाएं प्रतिकर्षित करती हैं। इस सूत्र का उपयोग धारा के SI मात्रक, एम्पीयर (1 A) को परिभाषित करने के लिए भी किया जाता है।"
+    }
+  }
+]

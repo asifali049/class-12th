@@ -1,0 +1,126 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Conditions for Constructive and Destructive Interference",
+      "hi": "संपोषी और विनाशी व्यतिकरण की शर्तें",
+      "hinglish": "Constructive aur Destructive Interference ki conditions"
+    },
+    "given": {
+      "en": "Two coherent waves with displacements $y_1 = a_1 \\sin \\omega t$ and $y_2 = a_2 \\sin (\\omega t + \\phi)$.",
+      "hi": "विस्थापन $y_1 = a_1 \\sin \\omega t$ और $y_2 = a_2 \\sin (\\omega t + \\phi)$ वाली दो कला संबद्ध तरंगें।"
+    },
+    "toFind": {
+      "en": "Resultant intensity and the conditions for maximum and minimum intensity.",
+      "hi": "परिणामी तीव्रता और अधिकतम तथा न्यूनतम तीव्रता की शर्तें।"
+    },
+    "concept": {
+      "en": "Principle of superposition: $y = y_1 + y_2$. Intensity is directly proportional to the square of the amplitude ($I \\propto A^2$).",
+      "hi": "अध्यारोपण का सिद्धांत: $y = y_1 + y_2$। तीव्रता आयाम के वर्ग के अनुक्रमानुपाती होती है ($I \\propto A^2$)।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Superposition of waves",
+          "hi": "चरण 1: तरंगों का अध्यारोपण"
+        },
+        "content": {
+          "en": "$y = y_1 + y_2 = a_1 \\sin \\omega t + a_2 \\sin (\\omega t + \\phi)$\\n$y = a_1 \\sin \\omega t + a_2 (\\sin \\omega t \\cos \\phi + \\cos \\omega t \\sin \\phi)$\\n$y = (a_1 + a_2 \\cos \\phi) \\sin \\omega t + (a_2 \\sin \\phi) \\cos \\omega t$",
+          "hi": "$y = y_1 + y_2 = a_1 \\sin \\omega t + a_2 \\sin (\\omega t + \\phi)$\\n$y = a_1 \\sin \\omega t + a_2 (\\sin \\omega t \\cos \\phi + \\cos \\omega t \\sin \\phi)$\\n$y = (a_1 + a_2 \\cos \\phi) \\sin \\omega t + (a_2 \\sin \\phi) \\cos \\omega t$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Resultant Amplitude",
+          "hi": "चरण 2: परिणामी आयाम"
+        },
+        "content": {
+          "en": "Let $a_1 + a_2 \\cos \\phi = R \\cos \\theta$ and $a_2 \\sin \\phi = R \\sin \\theta$.\\nThen, $y = R \\sin(\\omega t + \\theta)$.\\nSquaring and adding the assumed equations:\\n$R^2 \\cos^2 \\theta + R^2 \\sin^2 \\theta = (a_1 + a_2 \\cos \\phi)^2 + (a_2 \\sin \\phi)^2$\\n$R^2 = a_1^2 + a_2^2 \\cos^2 \\phi + 2a_1 a_2 \\cos \\phi + a_2^2 \\sin^2 \\phi$\\n$R^2 = a_1^2 + a_2^2 + 2a_1 a_2 \\cos \\phi$",
+          "hi": "माना $a_1 + a_2 \\cos \\phi = R \\cos \\theta$ और $a_2 \\sin \\phi = R \\sin \\theta$।\\nतब, $y = R \\sin(\\omega t + \\theta)$।\\nमानी गई समीकरणों का वर्ग करके जोड़ने पर:\\n$R^2 \\cos^2 \\theta + R^2 \\sin^2 \\theta = (a_1 + a_2 \\cos \\phi)^2 + (a_2 \\sin \\phi)^2$\\n$R^2 = a_1^2 + a_2^2 \\cos^2 \\phi + 2a_1 a_2 \\cos \\phi + a_2^2 \\sin^2 \\phi$\\n$R^2 = a_1^2 + a_2^2 + 2a_1 a_2 \\cos \\phi$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Resultant Intensity",
+          "hi": "चरण 3: परिणामी तीव्रता"
+        },
+        "content": {
+          "en": "Since Intensity $I \\propto R^2$, let $I = K R^2$, $I_1 = K a_1^2$, $I_2 = K a_2^2$.\\n$I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos \\phi$",
+          "hi": "चूंकि तीव्रता $I \\propto R^2$, माना $I = K R^2$, $I_1 = K a_1^2$, $I_2 = K a_2^2$।\\n$I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos \\phi$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Conditions for Max/Min Intensity",
+          "hi": "चरण 4: अधिकतम/न्यूनतम तीव्रता की शर्तें"
+        },
+        "content": {
+          "en": "**Constructive (Max):** $\\cos \\phi = +1 \\implies \\phi = 2n\\pi$ ($n = 0, 1, 2...$).\\nPath diff: $\\Delta x = \\frac{\\lambda}{2\\pi} \\times 2n\\pi = n\\lambda$.\\n**Destructive (Min):** $\\cos \\phi = -1 \\implies \\phi = (2n-1)\\pi$ ($n = 1, 2...$).\\nPath diff: $\\Delta x = \\frac{\\lambda}{2\\pi} \\times (2n-1)\\pi = (2n-1)\\frac{\\lambda}{2}$.",
+          "hi": "**संपोषी (अधिकतम):** $\\cos \\phi = +1 \\implies \\phi = 2n\\pi$ ($n = 0, 1, 2...$)।\\nपथांतर: $\\Delta x = \\frac{\\lambda}{2\\pi} \\times 2n\\pi = n\\lambda$।\\n**विनाशी (न्यूनतम):** $\\cos \\phi = -1 \\implies \\phi = (2n-1)\\pi$ ($n = 1, 2...$)।\\nपथांतर: $\\Delta x = \\frac{\\lambda}{2\\pi} \\times (2n-1)\\pi = (2n-1)\\frac{\\lambda}{2}$।"
+        }
+      }
+    ],
+    "finalResult": "I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos \\phi",
+    "examTip": {
+      "en": "Always mention the relation between phase difference ($\\phi$) and path difference ($\\Delta x$) explicitly: $\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$.",
+      "hi": "हमेशा कलांतर ($\\phi$) और पथांतर ($\\Delta x$) के बीच संबंध का स्पष्ट रूप से उल्लेख करें: $\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Fringe Width in Young's Double Slit Experiment",
+      "hi": "यंग के द्वि-स्लिट प्रयोग में फ्रिंज चौड़ाई",
+      "hinglish": "YDSE me Fringe Width"
+    },
+    "given": {
+      "en": "Two slits $S_1, S_2$ separated by distance $d$. Screen is at distance $D$. A point $P$ on screen is at distance $y$ from the central maximum $O$.",
+      "hi": "$d$ दूरी द्वारा अलग की गई दो स्लिटें $S_1, S_2$। पर्दा $D$ दूरी पर है। पर्दे पर एक बिंदु $P$ केंद्रीय उच्चिष्ठ $O$ से $y$ दूरी पर है।"
+    },
+    "toFind": {
+      "en": "Expression for fringe width ($\\beta$).",
+      "hi": "फ्रिंज चौड़ाई ($\\beta$) के लिए व्यंजक।"
+    },
+    "concept": {
+      "en": "Path difference $\\Delta x = S_2P - S_1P$. For bright fringe, $\\Delta x = n\\lambda$.",
+      "hi": "पथांतर $\\Delta x = S_2P - S_1P$। चमकीली फ्रिंज के लिए, $\\Delta x = n\\lambda$।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Calculate Path Difference",
+          "hi": "चरण 1: पथांतर की गणना"
+        },
+        "content": {
+          "en": "From geometry, $(S_2P)^2 - (S_1P)^2 = \\left(D^2 + (y + d/2)^2\\right) - \\left(D^2 + (y - d/2)^2\\right)$\\n$(S_2P - S_1P)(S_2P + S_1P) = 2yd$\\nSince $P$ is very close to $O$, $S_2P \\approx S_1P \\approx D$. So, $S_2P + S_1P \\approx 2D$.\\n$\\Delta x = S_2P - S_1P = \\frac{2yd}{2D} = \\frac{yd}{D}$",
+          "hi": "ज्यामिति से, $(S_2P)^2 - (S_1P)^2 = \\left(D^2 + (y + d/2)^2\\right) - \\left(D^2 + (y - d/2)^2\\right)$\\n$(S_2P - S_1P)(S_2P + S_1P) = 2yd$\\nचूंकि $P$, $O$ के बहुत करीब है, $S_2P \\approx S_1P \\approx D$। इसलिए, $S_2P + S_1P \\approx 2D$।\\n$\\Delta x = S_2P - S_1P = \\frac{2yd}{2D} = \\frac{yd}{D}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Position of nth bright fringe",
+          "hi": "चरण 2: nवीं चमकीली फ्रिंज की स्थिति"
+        },
+        "content": {
+          "en": "For constructive interference (bright fringe), $\\Delta x = n\\lambda$.\\n$\\frac{y_n d}{D} = n\\lambda \\implies y_n = \\frac{n\\lambda D}{d}$",
+          "hi": "संपोषी व्यतिकरण (चमकीली फ्रिंज) के लिए, $\\Delta x = n\\lambda$।\\n$\\frac{y_n d}{D} = n\\lambda \\implies y_n = \\frac{n\\lambda D}{d}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Calculate Fringe Width",
+          "hi": "चरण 3: फ्रिंज चौड़ाई की गणना"
+        },
+        "content": {
+          "en": "Fringe width ($\\beta$) is the distance between two consecutive bright fringes.\\n$\\beta = y_{n+1} - y_n$\\n$\\beta = \\frac{(n+1)\\lambda D}{d} - \\frac{n\\lambda D}{d} = \\frac{\\lambda D}{d}$",
+          "hi": "फ्रिंज चौड़ाई ($\\beta$) दो क्रमागत चमकीली फ्रिंजों के बीच की दूरी है।\\n$\\beta = y_{n+1} - y_n$\\n$\\beta = \\frac{(n+1)\\lambda D}{d} - \\frac{n\\lambda D}{d} = \\frac{\\lambda D}{d}$"
+        }
+      }
+    ],
+    "finalResult": "\\beta = \\frac{\\lambda D}{d}",
+    "examTip": {
+      "en": "The fringe width for dark fringes is identical to that of bright fringes. Both are equally spaced.",
+      "hi": "अदीप्त फ्रिंजों के लिए फ्रिंज चौड़ाई चमकीली फ्रिंजों के समान ही होती है। दोनों समान दूरी पर होती हैं।"
+    }
+  }
+]

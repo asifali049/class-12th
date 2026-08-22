@@ -1,0 +1,63 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Semiconductors",
+    "hi": "अर्धचालक",
+    "hinglish": "Semiconductors"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Energy Bands",
+        "hi": "ऊर्जा बैंड"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Valence Band (VB)", "hi": "संयोजी बैंड (VB)" } },
+        { "id": "c1b", "label": { "en": "Conduction Band (CB)", "hi": "चालन बैंड (CB)" } },
+        { "id": "c1c", "label": { "en": "Energy Gap (Eg ~ 1eV)", "hi": "ऊर्जा अंतराल (Eg ~ 1eV)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Types",
+        "hi": "प्रकार"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Intrinsic (Pure)", "hi": "निज (शुद्ध)" } },
+        {
+          "id": "c2b",
+          "label": { "en": "Extrinsic (Doped)", "hi": "अपद्रव्यी (डोपयुक्त)" },
+          "children": [
+            { "id": "c2b1", "label": { "en": "n-type (Pentavalent)", "hi": "n-प्रकार (पंचसंयोजी)" } },
+            { "id": "c2b2", "label": { "en": "p-type (Trivalent)", "hi": "p-प्रकार (त्रिसंयोजी)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "p-n Junction",
+        "hi": "p-n संधि"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Depletion Region", "hi": "अवक्षय परत" } },
+        { "id": "c3b", "label": { "en": "Barrier Potential", "hi": "प्राचीर विभव" } },
+        { "id": "c3c", "label": { "en": "Forward & Reverse Bias", "hi": "अग्र एवं पश्च बायस" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Applications",
+        "hi": "अनुप्रयोग"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Half-Wave Rectifier", "hi": "अर्ध-तरंग दिष्टकारी" } },
+        { "id": "c4b", "label": { "en": "Full-Wave Rectifier", "hi": "पूर्ण-तरंग दिष्टकारी" } }
+      ]
+    }
+  ]
+}

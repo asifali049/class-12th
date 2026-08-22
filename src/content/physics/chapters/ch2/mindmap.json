@@ -1,0 +1,68 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Electrostatic Potential & Capacitance",
+    "hi": "स्थिर वैद्युत विभव और धारिता",
+    "hinglish": "Electrostatic Potential aur Capacitance"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electric Potential",
+        "hi": "विद्युत विभव"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "V = W/q", "hi": "V = W/q" } },
+        { "id": "c1b", "label": { "en": "Potential due to point charge", "hi": "बिंदु आवेश के कारण विभव" } },
+        { "id": "c1c", "label": { "en": "Potential due to dipole", "hi": "द्विध्रुव के कारण विभव" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Equipotential Surfaces",
+        "hi": "समविभव पृष्ठ"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Properties", "hi": "गुण" } },
+        { "id": "c2b", "label": { "en": "Relation with E-field (E = -dV/dr)", "hi": "विद्युत क्षेत्र से संबंध (E = -dV/dr)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Potential Energy",
+        "hi": "स्थितिज ऊर्जा"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "System of charges", "hi": "आवेशों का निकाय" } },
+        { "id": "c3b", "label": { "en": "Dipole in external field", "hi": "बाह्य क्षेत्र में द्विध्रुव" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Capacitance",
+        "hi": "विद्युत धारिता"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Concept (C = Q/V)", "hi": "अवधारणा (C = Q/V)" } },
+        { "id": "c4b", "label": { "en": "Parallel Plate Capacitor", "hi": "समांतर प्लेट संधारित्र" } },
+        { "id": "c4c", "label": { "en": "Effect of Dielectric", "hi": "परावैद्युत का प्रभाव" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Combination of Capacitors",
+        "hi": "संधारित्रों का संयोजन"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Series (1/C = 1/C₁ + 1/C₂)", "hi": "श्रेणीक्रम (1/C = 1/C₁ + 1/C₂)" } },
+        { "id": "c5b", "label": { "en": "Parallel (C = C₁ + C₂)", "hi": "समांतर क्रम (C = C₁ + C₂)" } },
+        { "id": "c5c", "label": { "en": "Energy Stored (U = 1/2 CV²)", "hi": "संचित ऊर्जा (U = 1/2 CV²)" } }
+      ]
+    }
+  ]
+}

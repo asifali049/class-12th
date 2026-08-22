@@ -1,0 +1,136 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Radius of nth Bohr Orbit of Hydrogen Atom",
+      "hi": "हाइड्रोजन परमाणु की nवीं बोहर कक्षा की त्रिज्या",
+      "hinglish": "Hydrogen Atom ki nth Bohr Orbit ki Radius"
+    },
+    "given": {
+      "en": "An electron of mass $m$ and charge $e$ revolving around a hydrogen nucleus (charge $+e$) in a circular orbit of radius $r$ with velocity $v$.",
+      "hi": "$r$ त्रिज्या की वृत्ताकार कक्षा में $v$ वेग से हाइड्रोजन नाभिक (आवेश $+e$) के चारों ओर घूमने वाला $m$ द्रव्यमान और $e$ आवेश का एक इलेक्ट्रॉन।"
+    },
+    "toFind": {
+      "en": "Expression for the radius of the nth orbit ($r_n$).",
+      "hi": "nवीं कक्षा की त्रिज्या ($r_n$) के लिए व्यंजक।"
+    },
+    "concept": {
+      "en": "1. Electrostatic force provides the centripetal force: $\\frac{1}{4\\pi\\epsilon_0} \\frac{e \\cdot e}{r^2} = \\frac{mv^2}{r}$.\n2. Bohr's quantization condition: $mvr = \\frac{nh}{2\\pi}$.",
+      "hi": "1. स्थिरविद्युत बल अभिकेंद्र बल प्रदान करता है: $\\frac{1}{4\\pi\\epsilon_0} \\frac{e \\cdot e}{r^2} = \\frac{mv^2}{r}$।\n2. बोहर की क्वांटमीकरण शर्त: $mvr = \\frac{nh}{2\\pi}$।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Force Balance Equation",
+          "hi": "चरण 1: बल संतुलन समीकरण"
+        },
+        "content": {
+          "en": "Centripetal Force = Electrostatic Force\\n$\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r^2}$\\n$mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r} \\quad \\dots (1)$",
+          "hi": "अभिकेंद्र बल = स्थिरविद्युत बल\\n$\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r^2}$\\n$mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r} \\quad \\dots (1)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Use Bohr's Quantization Condition",
+          "hi": "चरण 2: बोहर की क्वांटमीकरण शर्त का उपयोग"
+        },
+        "content": {
+          "en": "From Bohr's postulate:\\n$mvr = \\frac{nh}{2\\pi}$\\n$\\implies v = \\frac{nh}{2\\pi mr} \\quad \\dots (2)$",
+          "hi": "बोहर की अभिधारणा से:\\n$mvr = \\frac{nh}{2\\pi}$\\n$\\implies v = \\frac{nh}{2\\pi mr} \\quad \\dots (2)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Substitute velocity in force equation",
+          "hi": "चरण 3: बल समीकरण में वेग का मान रखना"
+        },
+        "content": {
+          "en": "Substituting eq (2) in eq (1):\\n$m \\left( \\frac{nh}{2\\pi mr} \\right)^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\n$m \\frac{n^2 h^2}{4\\pi^2 m^2 r^2} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\n$\\frac{n^2 h^2}{\\pi m r} = \\frac{e^2}{\\epsilon_0}$",
+          "hi": "समीकरण (2) का मान समीकरण (1) में रखने पर:\\n$m \\left( \\frac{nh}{2\\pi mr} \\right)^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\n$m \\frac{n^2 h^2}{4\\pi^2 m^2 r^2} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\n$\\frac{n^2 h^2}{\\pi m r} = \\frac{e^2}{\\epsilon_0}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Solve for r",
+          "hi": "चरण 4: r के लिए हल करना"
+        },
+        "content": {
+          "en": "Rearranging for $r$ (which is $r_n$ for nth orbit):\\n$r_n = \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2}$",
+          "hi": "$r$ (जो nवीं कक्षा के लिए $r_n$ है) के लिए पुनर्व्यवस्थित करने पर:\\n$r_n = \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2}$"
+        }
+      }
+    ],
+    "finalResult": "r_n = \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2} \\propto n^2",
+    "examTip": {
+      "en": "Notice that $r_n \\propto n^2$. The radius of the first orbit ($n=1$) is called Bohr radius ($a_0 \\approx 0.53 \\text{ \\AA}$). So $r_n = a_0 n^2$.",
+      "hi": "ध्यान दें कि $r_n \\propto n^2$। पहली कक्षा ($n=1$) की त्रिज्या को बोहर त्रिज्या ($a_0 \\approx 0.53 \\text{ \\AA}$) कहा जाता है। इसलिए $r_n = a_0 n^2$।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Total Energy of Electron in nth Bohr Orbit",
+      "hi": "nवीं बोहर कक्षा में इलेक्ट्रॉन की कुल ऊर्जा",
+      "hinglish": "nth Bohr Orbit me Electron ki Total Energy"
+    },
+    "given": {
+      "en": "An electron in the nth orbit of a hydrogen atom with radius $r_n$ and velocity $v_n$.",
+      "hi": "त्रिज्या $r_n$ और वेग $v_n$ के साथ हाइड्रोजन परमाणु की nवीं कक्षा में एक इलेक्ट्रॉन।"
+    },
+    "toFind": {
+      "en": "Expression for the total energy ($E_n$) of the electron.",
+      "hi": "इलेक्ट्रॉन की कुल ऊर्जा ($E_n$) के लिए व्यंजक।"
+    },
+    "concept": {
+      "en": "Total Energy ($E$) = Kinetic Energy ($K$) + Potential Energy ($U$).",
+      "hi": "कुल ऊर्जा ($E$) = गतिज ऊर्जा ($K$) + स्थितिज ऊर्जा ($U$)।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Calculate Kinetic Energy",
+          "hi": "चरण 1: गतिज ऊर्जा की गणना"
+        },
+        "content": {
+          "en": "From force balance: $\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r^2} \\implies mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\nKinetic Energy $K = \\frac{1}{2}mv^2 = \\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r}$",
+          "hi": "बल संतुलन से: $\\frac{mv^2}{r} = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r^2} \\implies mv^2 = \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$\\nगतिज ऊर्जा $K = \\frac{1}{2}mv^2 = \\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Calculate Potential Energy",
+          "hi": "चरण 2: स्थितिज ऊर्जा की गणना"
+        },
+        "content": {
+          "en": "Potential Energy $U = \\frac{1}{4\\pi\\epsilon_0} \\frac{(+e)(-e)}{r} = -\\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$",
+          "hi": "स्थितिज ऊर्जा $U = \\frac{1}{4\\pi\\epsilon_0} \\frac{(+e)(-e)}{r} = -\\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Total Energy in terms of r",
+          "hi": "चरण 3: r के पदों में कुल ऊर्जा"
+        },
+        "content": {
+          "en": "Total Energy $E = K + U$\\n$E = \\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r} - \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r} = -\\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r}$",
+          "hi": "कुल ऊर्जा $E = K + U$\\n$E = \\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r} - \\frac{1}{4\\pi\\epsilon_0} \\frac{e^2}{r} = -\\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{r}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Substitute r_n",
+          "hi": "चरण 4: r_n का मान रखना"
+        },
+        "content": {
+          "en": "We know $r_n = \\frac(\\epsilon_0 h^2 n^2)(\\pi m e^2)$. Substituting this in $E$:\\n$E_n = -\\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{\\left( \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2} \\right)}$\\n$E_n = -\\frac{me^4}{8\\epsilon_0^2 h^2 n^2}$",
+          "hi": "हम जानते हैं कि $r_n = \\frac(\\epsilon_0 h^2 n^2)(\\pi m e^2)$। इसे $E$ में रखने पर:\\n$E_n = -\\frac{1}{8\\pi\\epsilon_0} \\frac{e^2}{\\left( \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2} \\right)}$\\n$E_n = -\\frac{me^4}{8\\epsilon_0^2 h^2 n^2}$"
+        }
+      }
+    ],
+    "finalResult": "E_n = -\\frac{me^4}{8\\epsilon_0^2 h^2 n^2} = -\\frac{13.6}{n^2} \\text{ eV}",
+    "examTip": {
+      "en": "The negative sign indicates that the electron is bound to the nucleus. Remember the relation $E = -K = U/2$.",
+      "hi": "ऋणात्मक चिह्न यह दर्शाता है कि इलेक्ट्रॉन नाभिक से बंधा हुआ है। संबंध $E = -K = U/2$ याद रखें।"
+    }
+  }
+]

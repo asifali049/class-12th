@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Lenses & Mirrors",
+      "hi": "लेंस और दर्पण",
+      "hinglish": "Lenses & Mirrors"
+    },
+    "summary": {
+      "en": "Mirror formula: 1/v + 1/u = 1/f. Lens formula: 1/v - 1/u = 1/f. Proper sign convention is crucial (real is negative u, v depends on case).",
+      "hi": "दर्पण सूत्र: 1/v + 1/u = 1/f. लेंस सूत्र: 1/v - 1/u = 1/f. उचित चिह्न परिपाटी महत्वपूर्ण है (वास्तविक के लिए u ऋणात्मक है, v स्थिति पर निर्भर करता है)।",
+      "hinglish": "Mirror formula: 1/v + 1/u = 1/f. Lens formula: 1/v - 1/u = 1/f. Proper sign convention crucial hai (u negative hota hai, v case pe depend karta hai)."
+    },
+    "quickRecall": [
+      {
+        "en": "Mirror m = -v/u",
+        "hi": "दर्पण m = -v/u"
+      },
+      {
+        "en": "Lens m = v/u",
+        "hi": "लेंस m = v/u"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Total Internal Reflection",
+      "hi": "पूर्ण आंतरिक परावर्तन",
+      "hinglish": "Total Internal Reflection"
+    },
+    "summary": {
+      "en": "TIR occurs when light goes from denser to rarer medium and angle of incidence > critical angle. Used in optical fibers and prisms.",
+      "hi": "TIR तब होता है जब प्रकाश सघन से विरल माध्यम में जाता है और आपतन कोण > क्रांतिक कोण होता है। इसका उपयोग ऑप्टिकल फाइबर और प्रिज्म में किया जाता है।",
+      "hinglish": "TIR tab hota hai jab light denser se rarer medium me jaye aur angle of incidence > critical angle ho. Optical fibers aur prisms me use hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "sin(C) = 1/n",
+        "hi": "sin(C) = 1/n"
+      }
+    ]
+  },
+  {
+    "id": "rev3",
+    "topic": {
+      "en": "Optical Instruments",
+      "hi": "प्रकाशिक यंत्र",
+      "hinglish": "Optical Instruments"
+    },
+    "summary": {
+      "en": "Microscopes magnify tiny near objects (M = m_o * m_e). Telescopes magnify distant large objects (M = f_o / f_e in normal adjustment).",
+      "hi": "सूक्ष्मदर्शी पास की छोटी वस्तुओं को आवर्धित करते हैं (M = m_o * m_e)। दूरदर्शी दूर की बड़ी वस्तुओं को आवर्धित करते हैं (सामान्य समायोजन में M = f_o / f_e)।",
+      "hinglish": "Microscopes paas ki choti objects ko magnify karte hain (M = m_o * m_e). Telescopes door ki badi objects ko magnify karte hain (normal adjustment me M = f_o / f_e)."
+    },
+    "quickRecall": [
+      {
+        "en": "Telescope M = f_o / f_e",
+        "hi": "दूरदर्शी M = f_o / f_e"
+      }
+    ]
+  }
+]

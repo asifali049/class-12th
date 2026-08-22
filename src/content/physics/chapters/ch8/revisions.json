@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Displacement Current",
+      "hi": "विस्थापन धारा",
+      "hinglish": "Displacement Current"
+    },
+    "summary": {
+      "en": "Changing electric field (or flux) produces displacement current, bridging the gap in Ampere's Law for circuits with capacitors.",
+      "hi": "बदलता हुआ विद्युत क्षेत्र (या फ्लक्स) विस्थापन धारा उत्पन्न करता है, जो संधारित्रों वाले परिपथों के लिए एम्पीयर के नियम में अंतर को पाटता है।",
+      "hinglish": "Changing electric field (ya flux) displacement current produce karta hai, jo capacitors wale circuits me Ampere's Law ka gap fill karta hai."
+    },
+    "quickRecall": [
+      {
+        "en": "I_d = ε₀ dΦ_E/dt",
+        "hi": "I_d = ε₀ dΦ_E/dt"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Nature of EM Waves",
+      "hi": "EM तरंगों की प्रकृति",
+      "hinglish": "Nature of EM Waves"
+    },
+    "summary": {
+      "en": "EM waves are transverse, consist of mutually perpendicular oscillating E and B fields, and travel at the speed of light c in a vacuum.",
+      "hi": "EM तरंगें अनुप्रस्थ होती हैं, परस्पर लंबवत दोलन करते E और B क्षेत्रों से बनी होती हैं, और निर्वात में प्रकाश की चाल c से यात्रा करती हैं।",
+      "hinglish": "EM waves transverse hoti hain, mutually perpendicular oscillating E aur B fields se banti hain, aur vacuum me light ki speed c se travel karti hain."
+    },
+    "quickRecall": [
+      {
+        "en": "c = E₀ / B₀",
+        "hi": "c = E₀ / B₀"
+      },
+      {
+        "en": "c = 1 / √(μ₀ε₀)",
+        "hi": "c = 1 / √(μ₀ε₀)"
+      }
+    ]
+  },
+  {
+    "id": "rev3",
+    "topic": {
+      "en": "EM Spectrum",
+      "hi": "EM स्पेक्ट्रम",
+      "hinglish": "EM Spectrum"
+    },
+    "summary": {
+      "en": "Sequence (increasing freq): Radio < Micro < IR < Visible < UV < X-ray < Gamma. Each has distinct sources and applications.",
+      "hi": "क्रम (बढ़ती आवृत्ति): रेडियो < माइक्रो < IR < दृश्य < UV < X-किरण < गामा। प्रत्येक के अलग-अलग स्रोत और अनुप्रयोग हैं।",
+      "hinglish": "Sequence (increasing freq): Radio < Micro < IR < Visible < UV < X-ray < Gamma. Har ek ke alag sources aur applications hain."
+    },
+    "quickRecall": [
+      {
+        "en": "Radio: lowest freq",
+        "hi": "रेडियो: न्यूनतम आवृत्ति"
+      },
+      {
+        "en": "Gamma: highest freq",
+        "hi": "गामा: उच्चतम आवृत्ति"
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Relation between Drift Velocity and Electric Current",
+      "hi": "अनुगमन वेग और विद्युत धारा में संबंध",
+      "hinglish": "Drift Velocity aur Electric Current me relation"
+    },
+    "given": {
+      "en": "A conductor of length $l$ and uniform cross-sectional area $A$. Number density of free electrons is $n$.",
+      "hi": "लंबाई $l$ और एकसमान अनुप्रस्थ काट क्षेत्रफल $A$ का एक चालक। मुक्त इलेक्ट्रॉनों का संख्या घनत्व $n$ है।"
+    },
+    "toFind": {
+      "en": "Relation between electric current $I$ and drift velocity $v_d$.",
+      "hi": "विद्युत धारा $I$ और अनुगमन वेग $v_d$ के बीच संबंध।"
+    },
+    "concept": {
+      "en": "Total charge $q = (\\text{Total electrons}) \\times e$<br>Current $I = q / t$",
+      "hi": "कुल आवेश $q = (\\text{कुल इलेक्ट्रॉन}) \\times e$<br>विद्युत धारा $I = q / t$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Total volume and number of electrons",
+          "hi": "चरण 1: कुल आयतन और इलेक्ट्रॉनों की संख्या"
+        },
+        "content": {
+          "en": "Volume of the conductor = $A \\times l$<br>Total number of free electrons in the conductor $N = n \\times A \\times l$",
+          "hi": "चालक का आयतन = $A \\times l$<br>चालक में मुक्त इलेक्ट्रॉनों की कुल संख्या $N = n \\times A \\times l$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Total Charge",
+          "hi": "चरण 2: कुल आवेश"
+        },
+        "content": {
+          "en": "If $e$ is the charge of an electron, then the total charge in the conductor is:<br>$q = N \\times e = (n A l) e$",
+          "hi": "यदि $e$ एक इलेक्ट्रॉन का आवेश है, तो चालक में कुल आवेश है:<br>$q = N \\times e = (n A l) e$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Time taken to cross the conductor",
+          "hi": "चरण 3: चालक को पार करने में लगा समय"
+        },
+        "content": {
+          "en": "The time taken by an electron to cross the length $l$ with drift velocity $v_d$ is:<br>$t = \\frac{l}{v_d}$",
+          "hi": "इलेक्ट्रॉन द्वारा अनुगमन वेग $v_d$ से $l$ लंबाई को पार करने में लगा समय है:<br>$t = \\frac{l}{v_d}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Calculate Current",
+          "hi": "चरण 4: विद्युत धारा की गणना"
+        },
+        "content": {
+          "en": "By definition of current, $I = \\frac{q}{t}$.<br>Substituting $q$ and $t$:<br>$I = \\frac{n A l e}{(l / v_d)}$<br>$I = n A e v_d$",
+          "hi": "विद्युत धारा की परिभाषा से, $I = \\frac{q}{t}$।<br>$q$ और $t$ का मान रखने पर:<br>$I = \\frac{n A l e}{(l / v_d)}$<br>$I = n A e v_d$"
+        }
+      }
+    ],
+    "finalResult": "I = n A e v_d",
+    "examTip": {
+      "en": "Very important derivation. Often asked for 3 marks. Remember to clearly state what $n$ represents (number density, not total number).",
+      "hi": "बहुत महत्वपूर्ण व्युत्पत्ति। अक्सर 3 अंकों के लिए पूछा जाता है। याद रखें कि $n$ स्पष्ट रूप से बताएं कि यह क्या दर्शाता है (संख्या घनत्व, कुल संख्या नहीं)।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Deduction of Ohm's Law from Drift Velocity",
+      "hi": "अनुगमन वेग के आधार पर ओम के नियम की व्युत्पत्ति",
+      "hinglish": "Drift Velocity se Ohm's Law ka deduction"
+    },
+    "given": {
+      "en": "A conductor of length $l$, area $A$, with a potential difference $V$ applied across its ends.",
+      "hi": "लंबाई $l$ और क्षेत्रफल $A$ का एक चालक, जिसके सिरों पर $V$ विभवांतर लगाया गया है।"
+    },
+    "toFind": {
+      "en": "Ohm's law $V \\propto I$ and expression for Resistance $R$.",
+      "hi": "ओम का नियम $V \\propto I$ और प्रतिरोध $R$ के लिए व्यंजक।"
+    },
+    "concept": {
+      "en": "Electric field $E = V / l$<br>Drift velocity $v_d = \\frac{eE}{m} \\tau$<br>Current $I = n A e v_d$",
+      "hi": "विद्युत क्षेत्र $E = V / l$<br>अनुगमन वेग $v_d = \\frac{eE}{m} \\tau$<br>धारा $I = n A e v_d$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Drift Velocity Formula",
+          "hi": "चरण 1: अनुगमन वेग का सूत्र"
+        },
+        "content": {
+          "en": "We know that drift velocity is given by:<br>$v_d = \\frac{e E}{m} \\tau$<br>Where $E = \\frac{V}{l}$, so:<br>$v_d = \\frac{e V}{m l} \\tau$",
+          "hi": "हम जानते हैं कि अनुगमन वेग होता है:<br>$v_d = \\frac{e E}{m} \\tau$<br>चूंकि $E = \\frac{V}{l}$, इसलिए:<br>$v_d = \\frac{e V}{m l} \\tau$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Relation with Current",
+          "hi": "चरण 2: विद्युत धारा के साथ संबंध"
+        },
+        "content": {
+          "en": "We also know the relation between current and drift velocity:<br>$I = n A e v_d$",
+          "hi": "हम विद्युत धारा और अनुगमन वेग के बीच का संबंध भी जानते हैं:<br>$I = n A e v_d$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Substitution",
+          "hi": "चरण 3: प्रतिस्थापन"
+        },
+        "content": {
+          "en": "Substitute the value of $v_d$ in the current equation:<br>$I = n A e \\left( \\frac{e V}{m l} \\tau \\right)$<br>$I = \\left( \\frac{n e^2 A \\tau}{m l} \\right) V$",
+          "hi": "विद्युत धारा के समीकरण में $v_d$ का मान रखें:<br>$I = n A e \\left( \\frac{e V}{m l} \\tau \\right)$<br>$I = \\left( \\frac{n e^2 A \\tau}{m l} \\right) V$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Conclusion",
+          "hi": "चरण 4: निष्कर्ष"
+        },
+        "content": {
+          "en": "Rearranging the terms, we get:<br>$\\frac{V}{I} = \\frac{m l}{n e^2 A \\tau}$<br>At a constant temperature, the term on the right side is a constant, which is the resistance $R$ of the conductor.<br>$\\frac{V}{I} = R \\implies V = IR$",
+          "hi": "पदों को व्यवस्थित करने पर, हम प्राप्त करते हैं:<br>$\\frac{V}{I} = \\frac{m l}{n e^2 A \\tau}$<br>नियत ताप पर, दाईं ओर का पद एक नियतांक है, जो चालक का प्रतिरोध $R$ है।<br>$\\frac{V}{I} = R \\implies V = IR$"
+        }
+      }
+    ],
+    "finalResult": "R = \\frac{m l}{n e^2 A \\tau}",
+    "examTip": {
+      "en": "From this, we also deduce the formula for resistivity $\\rho = \\frac{m}{n e^2 \\tau}$. This is a classic 5-mark question in board exams.",
+      "hi": "इससे हम प्रतिरोधकता का सूत्र $\\rho = \\frac{m}{n e^2 \\tau}$ भी प्राप्त करते हैं। यह बोर्ड परीक्षाओं में 5 अंकों का एक क्लासिक प्रश्न है।"
+    }
+  }
+]

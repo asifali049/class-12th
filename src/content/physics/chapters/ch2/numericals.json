@@ -1,0 +1,80 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "easy",
+    "question": {
+      "en": "Calculate the electric potential at a distance of $9 \\text{ cm}$ from a point charge of $4 \\times 10^{-7} \\text{ C}$.",
+      "hi": "$4 \\times 10^{-7} \\text{ C}$ के बिंदु आवेश से $9 \\text{ cm}$ की दूरी पर विद्युत विभव की गणना करें।",
+      "hinglish": "$4 \\times 10^{-7} \\text{ C}$ point charge se $9 \\text{ cm}$ distance par electric potential calculate karein."
+    },
+    "given": {
+      "en": "$q = 4 \\times 10^{-7} \\text{ C}$<br>$r = 9 \\text{ cm} = 9 \\times 10^{-2} \\text{ m}$",
+      "hi": "$q = 4 \\times 10^{-7} \\text{ C}$<br>$r = 9 \\text{ cm} = 9 \\times 10^{-2} \\text{ m}$"
+    },
+    "required": {
+      "en": "Electric Potential ($V$)",
+      "hi": "विद्युत विभव ($V$)"
+    },
+    "formula": "$V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}$",
+    "substitution": "$V = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-7})}{9 \\times 10^{-2}}$",
+    "calculation": "$V = \\frac{36 \\times 10^2}{9 \\times 10^{-2}}$<br>$V = 4 \\times 10^4$",
+    "finalAnswer": "$4 \\times 10^4$",
+    "unit": "V",
+    "examTip": {
+      "en": "Always remember to convert cm into meters. This is a very common place where students lose marks.",
+      "hi": "हमेशा cm को मीटर में बदलना याद रखें। यह एक बहुत ही सामान्य जगह है जहाँ छात्र अंक खो देते हैं।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "Two charges $3 \\times 10^{-8} \\text{ C}$ and $-2 \\times 10^{-8} \\text{ C}$ are located $15 \\text{ cm}$ apart. At what point on the line joining the two charges is the electric potential zero?",
+      "hi": "दो आवेश $3 \\times 10^{-8} \\text{ C}$ और $-2 \\times 10^{-8} \\text{ C}$ एक दूसरे से $15 \\text{ cm}$ की दूरी पर स्थित हैं। दोनों आवेशों को मिलाने वाली रेखा पर किस बिंदु पर विद्युत विभव शून्य होगा?",
+      "hinglish": "Do charges $3 \\times 10^{-8} \\text{ C}$ aur $-2 \\times 10^{-8} \\text{ C}$ ek doosre se $15 \\text{ cm}$ door hain. Unhe join karne wali line par kis point par electric potential zero hoga?"
+    },
+    "given": {
+      "en": "$q_1 = 3 \\times 10^{-8} \\text{ C}$<br>$q_2 = -2 \\times 10^{-8} \\text{ C}$<br>Total distance $d = 15 \\text{ cm}$",
+      "hi": "$q_1 = 3 \\times 10^{-8} \\text{ C}$<br>$q_2 = -2 \\times 10^{-8} \\text{ C}$<br>कुल दूरी $d = 15 \\text{ cm}$"
+    },
+    "required": {
+      "en": "Distance $x$ from $q_1$ where $V=0$",
+      "hi": "$q_1$ से वह दूरी $x$ जहाँ $V=0$ हो"
+    },
+    "formula": "$V = V_1 + V_2 = 0$<br>$\\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{q_1}{x} + \\frac{q_2}{15-x} \\right) = 0$",
+    "substitution": "$\\frac{3 \\times 10^{-8}}{x} + \\frac{-2 \\times 10^{-8}}{15-x} = 0$",
+    "calculation": "$\\frac{3}{x} = \\frac{2}{15-x}$<br>$3(15-x) = 2x$<br>$45 - 3x = 2x$<br>$45 = 5x$<br>$x = 9 \\text{ cm}$",
+    "finalAnswer": "$9$",
+    "unit": "cm from positive charge",
+    "examTip": {
+      "en": "There can be two such points: one between the charges and one outside. This calculation shows the point between them.",
+      "hi": "ऐसे दो बिंदु हो सकते हैं: एक आवेशों के बीच और एक बाहर। यह गणना उनके बीच के बिंदु को दर्शाती है।"
+    }
+  },
+  {
+    "id": "n3",
+    "difficulty": "hard",
+    "question": {
+      "en": "A parallel plate capacitor with air between the plates has a capacitance of $8 \\text{ pF}$. What will be the capacitance if the distance between the plates is reduced by half, and the space between them is filled with a substance of dielectric constant 6?",
+      "hi": "प्लेटों के बीच वायु वाले एक समांतर प्लेट संधारित्र की धारिता $8 \\text{ pF}$ है। यदि प्लेटों के बीच की दूरी आधी कर दी जाए, और उनके बीच के स्थान को 6 परावैद्युतांक वाले पदार्थ से भर दिया जाए, तो धारिता क्या होगी?",
+      "hinglish": "Air wale parallel plate capacitor ki capacitance $8 \\text{ pF}$ hai. Agar plates ke beech ki distance aadhi kar di jaye aur unke beech $K=6$ ka dielectric material bhar diya jaye, toh capacitance kitni hogi?"
+    },
+    "given": {
+      "en": "Initial capacitance $C_0 = 8 \\text{ pF}$<br>New distance $d' = d/2$<br>Dielectric constant $K = 6$",
+      "hi": "प्रारंभिक धारिता $C_0 = 8 \\text{ pF}$<br>नई दूरी $d' = d/2$<br>परावैद्युतांक $K = 6$"
+    },
+    "required": {
+      "en": "New Capacitance ($C'$)",
+      "hi": "नई धारिता ($C'$)"
+    },
+    "formula": "$C_0 = \\frac{\\varepsilon_0 A}{d}$<br>$C' = \\frac{K \\varepsilon_0 A}{d'}$",
+    "substitution": "$C' = \\frac{6 \\cdot \\varepsilon_0 A}{d/2}$",
+    "calculation": "$C' = 12 \\left( \\frac{\\varepsilon_0 A}{d} \\right)$<br>$C' = 12 \\times C_0$<br>$C' = 12 \\times 8 \\text{ pF}$",
+    "finalAnswer": "$96$",
+    "unit": "pF",
+    "examTip": {
+      "en": "Understand how varying distance ($d$) and area ($A$) along with dielectric constant ($K$) directly affect capacitance.",
+      "hi": "समझें कि दूरी ($d$) और क्षेत्रफल ($A$) के साथ-साथ परावैद्युतांक ($K$) को बदलने से धारिता कैसे प्रभावित होती है।"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Motional EMF",
+      "hi": "गतिक विद्युत वाहक बल",
+      "hinglish": "Motional EMF"
+    },
+    "description": {
+      "en": "A conducting rod moving on a U-shaped rail in a uniform magnetic field directed into the plane of the paper.",
+      "hi": "कागज के तल के लंबवत अंदर की ओर निर्देशित एकसमान चुंबकीय क्षेत्र में U-आकार की रेल पर गतिमान एक चालक छड़।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Magnetic Field (Crosses indicating into the page) -->\n  <g stroke=\"#9ca3af\" stroke-width=\"2\">\n    <!-- Row 1 -->\n    <path d=\"M50,40 L70,60 M70,40 L50,60\" />\n    <path d=\"M130,40 L150,60 M150,40 L130,60\" />\n    <path d=\"M210,40 L230,60 M230,40 L210,60\" />\n    <path d=\"M290,40 L310,60 M310,40 L290,60\" />\n    <!-- Row 2 -->\n    <path d=\"M50,110 L70,130 M70,110 L50,130\" />\n    <path d=\"M130,110 L150,130 M150,110 L130,130\" />\n    <path d=\"M210,110 L230,130 M230,110 L210,130\" />\n    <path d=\"M290,110 L310,130 M310,110 L290,130\" />\n    <!-- Row 3 -->\n    <path d=\"M50,180 L70,200 M70,180 L50,200\" />\n    <path d=\"M130,180 L150,200 M150,180 L130,200\" />\n    <path d=\"M210,180 L230,200 M230,180 L210,200\" />\n    <path d=\"M290,180 L310,200 M310,180 L290,200\" />\n    <!-- Row 4 -->\n    <path d=\"M50,250 L70,270 M70,250 L50,270\" />\n    <path d=\"M130,250 L150,270 M150,250 L130,270\" />\n    <path d=\"M210,250 L230,270 M230,250 L210,270\" />\n    <path d=\"M290,250 L310,270 M310,250 L290,270\" />\n  </g>\n\n  <!-- U-shaped Rail -->\n  <path d=\"M350,80 L80,80 L80,230 L350,230\" fill=\"none\" stroke=\"#4b5563\" stroke-width=\"6\" />\n\n  <!-- Conducting Rod -->\n  <line x1=\"220\" y1=\"60\" x2=\"220\" y2=\"250\" stroke=\"#f59e0b\" stroke-width=\"12\" stroke-linecap=\"round\" />\n\n  <!-- Velocity Vector -->\n  <line x1=\"230\" y1=\"155\" x2=\"280\" y2=\"155\" stroke=\"#ef4444\" stroke-width=\"3\" />\n  <polygon points=\"280,155 272,148 272,162\" fill=\"#ef4444\" />\n\n  <!-- Dimension lines -->\n  <!-- Length of rod -->\n  <line x1=\"60\" y1=\"80\" x2=\"60\" y2=\"230\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <line x1=\"55\" y1=\"80\" x2=\"65\" y2=\"80\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <line x1=\"55\" y1=\"230\" x2=\"65\" y2=\"230\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  \n  <!-- Distance x -->\n  <line x1=\"80\" y1=\"245\" x2=\"220\" y2=\"245\" stroke=\"#10b981\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n\n  <!-- Induced current direction (clockwise here, since flux out is decreasing/flux in is increasing) -->\n  <!-- Actually, flux into page is increasing, so induced field is out of page. By RHR, current is counter-clockwise. -->\n  <path d=\"M150,70 Q130,70 120,90\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"3\" />\n  <polygon points=\"120,90 115,80 127,82\" fill=\"#8b5cf6\" />\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 260,
+        "y": 145,
+        "text": {
+          "en": "$\\vec{v}$",
+          "hi": "$\\vec{v}$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 30,
+        "y": 160,
+        "text": {
+          "en": "$l$",
+          "hi": "$l$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 140,
+        "y": 265,
+        "text": {
+          "en": "$x$",
+          "hi": "$x$"
+        }
+      },
+      {
+        "id": "l4",
+        "x": 300,
+        "y": 30,
+        "text": {
+          "en": "$\\vec{B} \\otimes$",
+          "hi": "$\\vec{B} \\otimes$"
+        }
+      },
+      {
+        "id": "l5",
+        "x": 130,
+        "y": 65,
+        "text": {
+          "en": "$I$",
+          "hi": "$I$"
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "equation": "E = h\\nu = \\frac{hc}{\\lambda}",
+    "description": {
+      "en": "Energy of a Photon",
+      "hi": "फोटॉन की ऊर्जा"
+    },
+    "variables": {
+      "en": "E = Energy\nh = Planck's constant (6.63 x 10^-34 J s)\nν = Frequency\nc = Speed of light\nλ = Wavelength",
+      "hi": "E = ऊर्जा\nh = प्लांक नियतांक (6.63 x 10^-34 J s)\nν = आवृत्ति\nc = प्रकाश की चाल\nλ = तरंगदैर्ध्य"
+    }
+  },
+  {
+    "equation": "p = \\frac{E}{c} = \\frac{h}{\\lambda}",
+    "description": {
+      "en": "Momentum of a Photon",
+      "hi": "फोटॉन का संवेग"
+    },
+    "variables": {
+      "en": "p = Momentum",
+      "hi": "p = संवेग"
+    }
+  },
+  {
+    "equation": "\\Phi_0 = h\\nu_0 = \\frac{hc}{\\lambda_0}",
+    "description": {
+      "en": "Work Function",
+      "hi": "कार्य फलन"
+    },
+    "variables": {
+      "en": "Φ₀ = Work function\nν₀ = Threshold frequency\nλ₀ = Threshold wavelength",
+      "hi": "Φ₀ = कार्य फलन\nν₀ = देहली आवृत्ति\nλ₀ = देहली तरंगदैर्ध्य"
+    }
+  },
+  {
+    "equation": "K_{max} = e V_0",
+    "description": {
+      "en": "Maximum Kinetic Energy and Stopping Potential",
+      "hi": "अधिकतम गतिज ऊर्जा और निरोधी विभव"
+    },
+    "variables": {
+      "en": "K_max = Maximum kinetic energy\ne = Charge of an electron (1.6 x 10^-19 C)\nV₀ = Stopping potential",
+      "hi": "K_max = अधिकतम गतिज ऊर्जा\ne = इलेक्ट्रॉन का आवेश (1.6 x 10^-19 C)\nV₀ = निरोधी विभव"
+    }
+  },
+  {
+    "equation": "h\\nu = \\Phi_0 + K_{max}",
+    "description": {
+      "en": "Einstein's Photoelectric Equation",
+      "hi": "आइंस्टीन का प्रकाश-विद्युत समीकरण"
+    },
+    "variables": {
+      "en": "hν = Energy of incident photon\nΦ₀ = Work function\nK_max = Maximum kinetic energy of photoelectron",
+      "hi": "hν = आपतित फोटॉन की ऊर्जा\nΦ₀ = कार्य फलन\nK_max = प्रकाश-इलेक्ट्रॉन की अधिकतम गतिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "e V_0 = h\\nu - h\\nu_0 = h(\\nu - \\nu_0)",
+    "description": {
+      "en": "Stopping Potential in terms of Frequencies",
+      "hi": "आवृत्तियों के पदों में निरोधी विभव"
+    },
+    "variables": {
+      "en": "V₀ = Stopping potential\nν = Incident frequency\nν₀ = Threshold frequency",
+      "hi": "V₀ = निरोधी विभव\nν = आपतित आवृत्ति\nν₀ = देहली आवृत्ति"
+    }
+  },
+  {
+    "equation": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+    "description": {
+      "en": "de Broglie Wavelength",
+      "hi": "डी ब्रोग्ली तरंगदैर्ध्य"
+    },
+    "variables": {
+      "en": "λ = de Broglie wavelength\nh = Planck's constant\np = Momentum\nm = Mass of particle\nv = Velocity of particle",
+      "hi": "λ = डी ब्रोग्ली तरंगदैर्ध्य\nh = प्लांक नियतांक\np = संवेग\nm = कण का द्रव्यमान\nv = कण का वेग"
+    }
+  },
+  {
+    "equation": "\\lambda = \\frac{h}{\\sqrt{2mK}}",
+    "description": {
+      "en": "de Broglie Wavelength in terms of Kinetic Energy",
+      "hi": "गतिज ऊर्जा के पदों में डी ब्रोग्ली तरंगदैर्ध्य"
+    },
+    "variables": {
+      "en": "K = Kinetic energy of the particle",
+      "hi": "K = कण की गतिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "\\lambda = \\frac{h}{\\sqrt{2mqV}}",
+    "description": {
+      "en": "de Broglie Wavelength of an Accelerated Charge",
+      "hi": "त्वरित आवेश की डी ब्रोग्ली तरंगदैर्ध्य"
+    },
+    "variables": {
+      "en": "q = Charge of the particle\nV = Accelerating potential difference",
+      "hi": "q = कण का आवेश\nV = त्वरित करने वाला विभवांतर"
+    }
+  },
+  {
+    "equation": "\\lambda = \\frac{1.227}{\\sqrt{V}} \\text{ nm}",
+    "description": {
+      "en": "de Broglie Wavelength of an Electron",
+      "hi": "इलेक्ट्रॉन की डी ब्रोग्ली तरंगदैर्ध्य"
+    },
+    "variables": {
+      "en": "V = Accelerating potential difference in Volts",
+      "hi": "V = वोल्ट में त्वरित करने वाला विभवांतर"
+    }
+  }
+]

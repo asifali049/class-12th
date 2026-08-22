@@ -1,0 +1,69 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Current Electricity",
+    "hi": "विद्युत धारा",
+    "hinglish": "Current Electricity"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Electric Current",
+        "hi": "विद्युत धारा"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "I = q/t", "hi": "I = q/t" } },
+        { "id": "c1b", "label": { "en": "Current Density (J)", "hi": "धारा घनत्व (J)" } },
+        { "id": "c1c", "label": { "en": "Drift Velocity (v_d)", "hi": "अनुगमन वेग (v_d)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Ohm's Law",
+        "hi": "ओम का नियम"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "V = IR", "hi": "V = IR" } },
+        { "id": "c2b", "label": { "en": "Resistance (R = ρ l/A)", "hi": "प्रतिरोध (R = ρ l/A)" } },
+        { "id": "c2c", "label": { "en": "Temperature dependence", "hi": "ताप पर निर्भरता" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Cells & Batteries",
+        "hi": "सेल और बैटरी"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "EMF and Internal Resistance", "hi": "विद्युत वाहक बल और आंतरिक प्रतिरोध" } },
+        { "id": "c3b", "label": { "en": "Series Combination", "hi": "श्रेणीक्रम संयोजन" } },
+        { "id": "c3c", "label": { "en": "Parallel Combination", "hi": "समांतर क्रम संयोजन" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Kirchhoff's Laws",
+        "hi": "किरचॉफ के नियम"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "KCL (Junction Rule: ΣI = 0)", "hi": "KCL (संधि नियम: ΣI = 0)" } },
+        { "id": "c4b", "label": { "en": "KVL (Loop Rule: ΣΔV = 0)", "hi": "KVL (लूप नियम: ΣΔV = 0)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Measuring Instruments",
+        "hi": "मापक यंत्र"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Wheatstone Bridge", "hi": "व्हीटस्टोन सेतु" } },
+        { "id": "c5b", "label": { "en": "Meter Bridge", "hi": "मीटर सेतु" } },
+        { "id": "c5c", "label": { "en": "Potentiometer (Concept)", "hi": "विभवमापी (अवधारणा)" } }
+      ]
+    }
+  ]
+}

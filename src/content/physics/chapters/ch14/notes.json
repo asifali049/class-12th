@@ -1,10 +1,202 @@
 [
   {
     "type": "heading",
-    "text": "Semiconductor Electronics"
+    "text": {
+      "en": "1. Energy Bands in Solids",
+      "hi": "1. ठोसों में ऊर्जा बैंड"
+    }
   },
   {
     "type": "paragraph",
-    "text": "Energy bands in solids, intrinsic and extrinsic semiconductors, p-n junction diode, logic gates."
+    "text": {
+      "en": "According to quantum mechanics, the discrete energy levels of isolated atoms split into continuous bands of energy levels when they come together to form a solid crystal.",
+      "hi": "क्वांटम यांत्रिकी के अनुसार, विलगित परमाणुओं के असतत ऊर्जा स्तर ऊर्जा स्तरों के सतत बैंड में विभाजित हो जाते हैं जब वे एक ठोस क्रिस्टल बनाने के लिए एक साथ आते हैं।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Valence Band (VB): The highest energy band which is completely or partially filled with electrons at absolute zero.",
+        "hi": "संयोजी बैंड (VB): उच्चतम ऊर्जा बैंड जो परम शून्य पर इलेक्ट्रॉनों से पूरी तरह या आंशिक रूप से भरा होता है।"
+      },
+      {
+        "en": "Conduction Band (CB): The lowest permitted energy band above the valence band. Electrons here can move freely and contribute to conduction.",
+        "hi": "चालन बैंड (CB): संयोजी बैंड के ऊपर सबसे कम अनुमत ऊर्जा बैंड। यहाँ इलेक्ट्रॉन स्वतंत्र रूप से घूम सकते हैं और चालन में योगदान कर सकते हैं।"
+      },
+      {
+        "en": "Energy Gap ($E_g$): The gap between the top of the VB and the bottom of the CB where no allowed energy levels exist for electrons.",
+        "hi": "ऊर्जा अंतराल ($E_g$): VB के शीर्ष और CB के तल के बीच का अंतराल जहाँ इलेक्ट्रॉनों के लिए कोई अनुमत ऊर्जा स्तर मौजूद नहीं होता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Classification of Materials on the basis of Energy Bands",
+      "hi": "2. ऊर्जा बैंड के आधार पर पदार्थों का वर्गीकरण"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Metals (Conductors): VB and CB overlap ($E_g = 0$). Plenty of free electrons are available.",
+        "hi": "धातु (चालक): VB और CB अतिव्याप्त होते हैं ($E_g = 0$)। प्रचुर मात्रा में मुक्त इलेक्ट्रॉन उपलब्ध होते हैं।"
+      },
+      {
+        "en": "Insulators: Large energy gap ($E_g > 3 \\text{ eV}$). VB is full, CB is empty.",
+        "hi": "विद्युतरोधी: बड़ा ऊर्जा अंतराल ($E_g > 3 \\text{ eV}$)। VB भरा होता है, CB खाली होता है।"
+      },
+      {
+        "en": "Semiconductors: Small energy gap ($E_g \\approx 1 \\text{ eV}$). At 0 K, they behave as insulators. At room temperature, some electrons jump to CB.",
+        "hi": "अर्धचालक: छोटा ऊर्जा अंतराल ($E_g \\approx 1 \\text{ eV}$)। 0 K पर, वे विद्युतरोधी के रूप में व्यवहार करते हैं। कमरे के तापमान पर, कुछ इलेक्ट्रॉन CB में कूद जाते हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Intrinsic and Extrinsic Semiconductors",
+      "hi": "3. निज और अपद्रव्यी अर्धचालक"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Intrinsic Semiconductors:",
+      "hi": "निज अर्धचालक:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Pure semiconductors (like pure Si or Ge) where electrical conductivity is solely due to thermally generated electrons and holes. Here, $n_e = n_h = n_i$ (intrinsic carrier concentration).",
+      "hi": "शुद्ध अर्धचालक (जैसे शुद्ध Si या Ge) जहाँ विद्युत चालकता पूरी तरह से ऊष्मीय रूप से उत्पन्न इलेक्ट्रॉनों और होलों के कारण होती है। यहाँ, $n_e = n_h = n_i$ (निज वाहक सांद्रता)।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Extrinsic Semiconductors:",
+      "hi": "अपद्रव्यी अर्धचालक:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Impure semiconductors obtained by adding a small amount of suitable impurity (doping) to an intrinsic semiconductor to increase its conductivity.",
+      "hi": "किसी निज अर्धचालक की चालकता बढ़ाने के लिए उसमें उपयुक्त अशुद्धि (डोपिंग) की थोड़ी मात्रा मिलाकर प्राप्त अशुद्ध अर्धचालक।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "n-type: Doped with pentavalent impurity (P, As, Sb). Electrons are majority carriers ($n_e \\gg n_h$).",
+        "hi": "n-प्रकार: पंचसंयोजी अशुद्धि (P, As, Sb) के साथ डोप किया गया। इलेक्ट्रॉन बहुसंख्यक वाहक होते हैं ($n_e \\gg n_h$)।"
+      },
+      {
+        "en": "p-type: Doped with trivalent impurity (B, Al, In). Holes are majority carriers ($n_h \\gg n_e$).",
+        "hi": "p-प्रकार: त्रिसंयोजी अशुद्धि (B, Al, In) के साथ डोप किया गया। होल बहुसंख्यक वाहक होते हैं ($n_h \\gg n_e$)।"
+      }
+    ]
+  },
+  {
+    "type": "formula",
+    "equation": "n_e \\cdot n_h = n_i^2",
+    "label": {
+      "en": "Mass Action Law",
+      "hi": "द्रव्यमान क्रिया नियम"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. p-n Junction",
+      "hi": "4. p-n संधि"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A p-n junction is formed when a p-type semiconductor is suitably joined to an n-type semiconductor.",
+      "hi": "एक p-n संधि तब बनती है जब एक p-प्रकार के अर्धचालक को n-प्रकार के अर्धचालक के साथ उपयुक्त रूप से जोड़ा जाता है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Depletion Region: A thin layer at the junction devoid of free charge carriers due to diffusion of electrons and holes.",
+        "hi": "अवक्षय परत: इलेक्ट्रॉनों और होलों के विसरण के कारण मुक्त आवेश वाहकों से रहित संधि पर एक पतली परत।"
+      },
+      {
+        "en": "Barrier Potential: The potential difference developed across the depletion region which opposes further diffusion of carriers.",
+        "hi": "प्राचीर विभव: अवक्षय परत के पार उत्पन्न विभवांतर जो वाहकों के आगे विसरण का विरोध करता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Semiconductor Diode and Biasing",
+      "hi": "5. अर्धचालक डायोड और बायसिंग"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Forward Bias:",
+      "hi": "अग्र बायस:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "p-side connected to positive terminal, n-side to negative. Depletion width decreases, barrier potential decreases. Current flows easily (large forward current).",
+      "hi": "p-सिरा धनात्मक टर्मिनल से, n-सिरा ऋणात्मक से जुड़ा होता है। अवक्षय चौड़ाई कम हो जाती है, प्राचीर विभव कम हो जाता है। धारा आसानी से प्रवाहित होती है (बड़ी अग्र धारा)।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Reverse Bias:",
+      "hi": "पश्च बायस:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "p-side connected to negative terminal, n-side to positive. Depletion width increases, barrier potential increases. Only a tiny leakage current flows due to minority carriers.",
+      "hi": "p-सिरा ऋणात्मक टर्मिनल से, n-सिरा धनात्मक से जुड़ा होता है। अवक्षय चौड़ाई बढ़ जाती है, प्राचीर विभव बढ़ जाता है। अल्पसंख्यक वाहकों के कारण केवल एक बहुत छोटी क्षरण धारा प्रवाहित होती है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. p-n Junction Diode as a Rectifier",
+      "hi": "6. दिष्टकारी के रूप में p-n संधि डायोड"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Rectification is the process of converting alternating current (AC) into direct current (DC). A diode acts as a rectifier because it conducts only in forward bias.",
+      "hi": "प्रत्यावर्ती धारा (AC) को दिष्ट धारा (DC) में बदलने की प्रक्रिया को दिष्टकरण कहते हैं। एक डायोड दिष्टकारी के रूप में कार्य करता है क्योंकि यह केवल अग्र बायस में चालन करता है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Half-Wave Rectifier: Uses one diode. Converts only half of the AC input cycle into pulsating DC.",
+        "hi": "अर्ध-तरंग दिष्टकारी: एक डायोड का उपयोग करता है। AC इनपुट चक्र के केवल आधे भाग को स्पंदित DC में परिवर्तित करता है।"
+      },
+      {
+        "en": "Full-Wave Rectifier: Uses two diodes and a center-tapped transformer. Converts both halves of the AC input cycle into pulsating DC.",
+        "hi": "पूर्ण-तरंग दिष्टकारी: दो डायोड और एक सेंटर-टैप्ड ट्रांसफार्मर का उपयोग करता है। AC इनपुट चक्र के दोनों हिस्सों को स्पंदित DC में परिवर्तित करता है।"
+      }
+    ]
   }
 ]

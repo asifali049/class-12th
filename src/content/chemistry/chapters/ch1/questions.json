@@ -1,0 +1,140 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following concentration terms is independent of temperature?",
+      "hi": "निम्नलिखित में से कौन सा सांद्रता पद तापमान से स्वतंत्र है?",
+      "hinglish": "Inme se kaun sa concentration term temperature se independent hai?"
+    },
+    "options": [
+      {
+        "en": "Molarity",
+        "hi": "मोलरता"
+      },
+      {
+        "en": "Molality",
+        "hi": "मोललता"
+      },
+      {
+        "en": "Normality",
+        "hi": "नॉर्मलता"
+      },
+      {
+        "en": "Formality",
+        "hi": "फॉर्मलता"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Molality involves masses (moles of solute per kg of solvent), and mass does not change with temperature. Molarity involves volume, which changes with temperature.",
+      "hi": "मोललता में द्रव्यमान (प्रति किलोग्राम विलायक में विलेय के मोल) शामिल होता है, और द्रव्यमान तापमान के साथ नहीं बदलता है। मोलरता में आयतन शामिल होता है, जो तापमान के साथ बदलता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "A mixture of two completely miscible non-ideal liquids which boil at a constant temperature like a pure liquid is known as:",
+      "hi": "दो पूरी तरह से मिश्रणीय अनादर्श द्रवों का मिश्रण जो एक शुद्ध द्रव की तरह एक स्थिर तापमान पर उबलता है, क्या कहलाता है:",
+      "hinglish": "Do completely miscible non-ideal liquids ka mixture jo ek pure liquid ki tarah constant temperature par boil hota hai, kya kahlata hai:"
+    },
+    "options": [
+      {
+        "en": "Azeotropic mixture",
+        "hi": "एजियोट्रोपिक मिश्रण (स्थिरक्वाथी)"
+      },
+      {
+        "en": "Eutectic mixture",
+        "hi": "गलनक्रांतिक (Eutectic) मिश्रण"
+      },
+      {
+        "en": "Ideal mixture",
+        "hi": "आदर्श मिश्रण"
+      },
+      {
+        "en": "Solid solution",
+        "hi": "ठोस विलयन"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Azeotropes are binary mixtures having the same composition in liquid and vapour phase and boil at a constant temperature. In such cases, it is not possible to separate the components by fractional distillation.",
+      "hi": "एजियोट्रोप (स्थिरक्वाथी) ऐसे द्विअंगी मिश्रण होते हैं जिनका द्रव और वाष्प अवस्था में संघटन समान होता है और वे एक स्थिर तापमान पर उबलते हैं। ऐसे मामलों में, प्रभाजी आसवन द्वारा घटकों को अलग करना संभव नहीं है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "State Henry's law and mention one of its important applications.",
+      "hi": "हेनरी का नियम बताइए और इसका एक महत्वपूर्ण अनुप्रयोग लिखिए।",
+      "hinglish": "Henry's law state karein aur iska ek important application bataiye."
+    },
+    "idealAnswer": {
+      "en": "Henry's Law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas present above the surface of liquid or solution. Mathematically, $p = K_H \\cdot x$.\nApplication: To increase the solubility of $CO_2$ in soft drinks and soda water, the bottle is sealed under high pressure.",
+      "hi": "हेनरी के नियम के अनुसार, स्थिर तापमान पर, किसी द्रव में गैस की विलेयता द्रव या विलयन की सतह के ऊपर उपस्थित गैस के आंशिक दाब के समानुपाती होती है। गणितीय रूप से, $p = K_H \\cdot x$।\nअनुप्रयोग: शीतल पेय और सोडा वाटर में $CO_2$ की विलेयता बढ़ाने के लिए, बोतल को उच्च दाब पर सील किया जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "solubility of a gas",
+        "hi": "गैस की विलेयता"
+      },
+      {
+        "en": "proportional to partial pressure",
+        "hi": "आंशिक दाब के समानुपाती"
+      },
+      {
+        "en": "soft drinks",
+        "hi": "शीतल पेय"
+      }
+    ],
+    "tips": {
+      "en": "Don't forget to write the mathematical formula $p = K_H x$ along with the statement.",
+      "hi": "कथन के साथ गणितीय सूत्र $p = K_H x$ लिखना न भूलें।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "What is meant by positive and negative deviations from Raoult's law? Give one example of each.",
+      "hi": "राउल्ट के नियम से धनात्मक और ऋणात्मक विचलन का क्या अर्थ है? प्रत्येक का एक उदाहरण दीजिए।",
+      "hinglish": "Raoult's law se positive aur negative deviations ka kya matlab hai? Har ek ka ek example dein."
+    },
+    "idealAnswer": {
+      "en": "Positive Deviation: When the partial vapour pressure of each component and the total vapour pressure of the solution are greater than the predicted values by Raoult's law, it is called positive deviation. Here, A-B interactions are weaker than A-A and B-B interactions. Example: Ethanol + Acetone.\nNegative Deviation: When the partial vapour pressure and total vapour pressure are less than the predicted values, it is called negative deviation. Here, A-B interactions are stronger than A-A and B-B interactions. Example: Phenol + Aniline.",
+      "hi": "धनात्मक विचलन: जब प्रत्येक घटक का आंशिक वाष्प दाब और विलयन का कुल वाष्प दाब राउल्ट के नियम द्वारा अनुमानित मानों से अधिक होता है, तो इसे धनात्मक विचलन कहा जाता है। यहाँ, A-B अन्योन्यक्रियाएं A-A और B-B अन्योन्यक्रियाओं की तुलना में कमजोर होती हैं। उदाहरण: एथेनॉल + एसीटोन।\nऋणात्मक विचलन: जब आंशिक वाष्प दाब और कुल वाष्प दाब अनुमानित मानों से कम होते हैं, तो इसे ऋणात्मक विचलन कहा जाता है। यहाँ, A-B अन्योन्यक्रियाएं A-A और B-B अन्योन्यक्रियाओं की तुलना में अधिक मजबूत होती हैं। उदाहरण: फिनोल + एनिलीन।"
+    },
+    "keywords": [
+      {
+        "en": "greater than predicted",
+        "hi": "अनुमानित से अधिक"
+      },
+      {
+        "en": "weaker interactions",
+        "hi": "कमजोर अन्योन्यक्रियाएं"
+      },
+      {
+        "en": "less than predicted",
+        "hi": "अनुमानित से कम"
+      },
+      {
+        "en": "stronger interactions",
+        "hi": "मजबूत अन्योन्यक्रियाएं"
+      }
+    ],
+    "tips": {
+      "en": "Mentioning the intermolecular interactions (A-B vs A-A/B-B) is key to explaining the cause of deviation.",
+      "hi": "विचलन का कारण समझाने के लिए अंतर-आणविक अन्योन्यक्रियाओं (A-B बनाम A-A/B-B) का उल्लेख करना महत्वपूर्ण है।"
+    }
+  }
+]

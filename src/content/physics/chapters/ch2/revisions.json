@@ -1,11 +1,108 @@
 [
   {
     "id": "rev1",
-    "topic": "Electric Potential",
-    "summary": "Potential is work done per unit charge (V=W/q). Scalar quantity. Unit: Volt.",
+    "topic": {
+      "en": "Electric Potential",
+      "hi": "विद्युत विभव",
+      "hinglish": "Electric Potential"
+    },
+    "summary": {
+      "en": "Potential is the work done per unit charge. It is a scalar quantity. Potential at a point due to a point charge is V = q / (4πε₀r).",
+      "hi": "विभव प्रति एकांक आवेश किया गया कार्य है। यह एक अदिश राशि है। बिंदु आवेश के कारण किसी बिंदु पर विभव V = q / (4πε₀r) होता है।",
+      "hinglish": "Potential work done per unit charge hota hai. Ye scalar quantity hai. Point charge ke karan potential V = q / (4πε₀r) hota hai."
+    },
     "quickRecall": [
-      "V = W/q",
-      "Potential due to point charge: V = kq/r"
+      {
+        "en": "V = W/q₀",
+        "hi": "V = W/q₀"
+      },
+      {
+        "en": "V = 1/(4πε₀) · q/r",
+        "hi": "V = 1/(4πε₀) · q/r"
+      },
+      {
+        "en": "Unit: Volt (V)",
+        "hi": "मात्रक: वोल्ट (V)",
+        "hinglish": "Unit: Volt (V)"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Equipotential Surfaces",
+      "hi": "समविभव पृष्ठ",
+      "hinglish": "Equipotential Surfaces"
+    },
+    "summary": {
+      "en": "Surfaces with the same potential everywhere. Work done to move a charge on it is zero. Electric field is always perpendicular to it.",
+      "hi": "ऐसे पृष्ठ जहाँ हर जगह विभव समान होता है। इस पर आवेश को ले जाने में किया गया कार्य शून्य होता है। विद्युत क्षेत्र इसके लंबवत होता है।",
+      "hinglish": "Wo surfaces jahan potential same ho. Charge move karne me work done zero hota hai. Electric field hamesha perpendicular hoti hai."
+    },
+    "quickRecall": [
+      {
+        "en": "W = 0",
+        "hi": "W = 0"
+      },
+      {
+        "en": "E is perpendicular to surface",
+        "hi": "E पृष्ठ के लंबवत है",
+        "hinglish": "E surface ke perpendicular hai"
+      },
+      {
+        "en": "E = -dV/dr",
+        "hi": "E = -dV/dr"
+      }
+    ]
+  },
+  {
+    "id": "rev3",
+    "topic": {
+      "en": "Potential Energy",
+      "hi": "स्थितिज ऊर्जा",
+      "hinglish": "Potential Energy"
+    },
+    "summary": {
+      "en": "Energy required to assemble a system of charges by bringing them from infinity. U = (1/4πε₀) (q₁q₂/r).",
+      "hi": "आवेशों के निकाय को अनंत से लाकर व्यवस्थित करने में आवश्यक ऊर्जा। U = (1/4πε₀) (q₁q₂/r)।",
+      "hinglish": "Charges ko infinity se laakar assemble karne me lagi energy. U = (1/4πε₀) (q₁q₂/r)."
+    },
+    "quickRecall": [
+      {
+        "en": "U = qV",
+        "hi": "U = qV"
+      },
+      {
+        "en": "U = 1/(4πε₀) · q₁q₂/r",
+        "hi": "U = 1/(4πε₀) · q₁q₂/r"
+      }
+    ]
+  },
+  {
+    "id": "rev4",
+    "topic": {
+      "en": "Capacitance",
+      "hi": "विद्युत धारिता",
+      "hinglish": "Capacitance"
+    },
+    "summary": {
+      "en": "Ability of a conductor to store charge. C = Q/V. For a parallel plate capacitor, C = ε₀A/d. A dielectric increases capacitance by factor K.",
+      "hi": "किसी चालक के आवेश को संचित करने की क्षमता। C = Q/V। समांतर प्लेट संधारित्र के लिए, C = ε₀A/d। परावैद्युत से धारिता K गुनी हो जाती है।",
+      "hinglish": "Charge store karne ki capacity. C = Q/V. Parallel plate ke liye C = ε₀A/d. Dielectric daalne par capacitance K times badh jati hai."
+    },
+    "quickRecall": [
+      {
+        "en": "C = Q/V",
+        "hi": "C = Q/V"
+      },
+      {
+        "en": "C = ε₀A/d",
+        "hi": "C = ε₀A/d"
+      },
+      {
+        "en": "C_medium = K · C_vacuum",
+        "hi": "C_माध्यम = K · C_निर्वात"
+      }
     ]
   }
 ]

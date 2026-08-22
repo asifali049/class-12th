@@ -1,0 +1,49 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Electromagnetic Waves",
+    "hi": "विद्युतचुंबकीय तरंगें",
+    "hinglish": "Electromagnetic Waves"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Displacement Current",
+        "hi": "विस्थापन धारा"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "I_d = ε₀ dΦ_E/dt", "hi": "I_d = ε₀ dΦ_E/dt" } },
+        { "id": "c1b", "label": { "en": "Ampere-Maxwell Law", "hi": "एम्पीयर-मैक्सवेल नियम" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "EM Waves Nature",
+        "hi": "EM तरंगों की प्रकृति"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Transverse (E ⊥ B ⊥ v)", "hi": "अनुप्रस्थ (E ⊥ B ⊥ v)" } },
+        { "id": "c2b", "label": { "en": "c = E₀/B₀", "hi": "c = E₀/B₀" } },
+        { "id": "c2c", "label": { "en": "c = 1/√(μ₀ε₀)", "hi": "c = 1/√(μ₀ε₀)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "EM Spectrum",
+        "hi": "EM स्पेक्ट्रम"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Radio Waves (Comm.)", "hi": "रेडियो तरंगें (संचार)" } },
+        { "id": "c3b", "label": { "en": "Microwaves (Radar)", "hi": "सूक्ष्म तरंगें (रडार)" } },
+        { "id": "c3c", "label": { "en": "Infrared (Heat)", "hi": "अवरक्त (ऊष्मा)" } },
+        { "id": "c3d", "label": { "en": "Visible Light", "hi": "दृश्य प्रकाश" } },
+        { "id": "c3e", "label": { "en": "Ultraviolet", "hi": "पराबैंगनी" } },
+        { "id": "c3f", "label": { "en": "X-Rays (Medical)", "hi": "X-किरणें (चिकित्सा)" } },
+        { "id": "c3g", "label": { "en": "Gamma Rays (Nuclear)", "hi": "गामा किरणें (नाभिकीय)" } }
+      ]
+    }
+  ]
+}

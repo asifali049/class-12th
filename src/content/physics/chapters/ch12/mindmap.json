@@ -1,0 +1,68 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Atoms",
+    "hi": "परमाणु",
+    "hinglish": "Atoms"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Rutherford Model",
+        "hi": "रदरफोर्ड मॉडल"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Alpha Scattering", "hi": "अल्फा प्रकीर्णन" } },
+        { "id": "c1b", "label": { "en": "Nucleus Discovery", "hi": "नाभिक की खोज" } },
+        { "id": "c1c", "label": { "en": "Distance of Closest Approach", "hi": "निकटतम पहुँच की दूरी" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Bohr Model",
+        "hi": "बोहर मॉडल"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Stationary Orbits", "hi": "स्थिर कक्षाएँ" } },
+        { "id": "c2b", "label": { "en": "mvr = nh/2π", "hi": "mvr = nh/2π" } },
+        { "id": "c2c", "label": { "en": "hν = E_i - E_f", "hi": "hν = E_i - E_f" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Energy Levels (H-atom)",
+        "hi": "ऊर्जा स्तर (H-परमाणु)"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "E_n = -13.6/n² eV", "hi": "E_n = -13.6/n² eV" } },
+        { "id": "c3b", "label": { "en": "Ground state: -13.6 eV", "hi": "मूल अवस्था: -13.6 eV" } },
+        { "id": "c3c", "label": { "en": "Ionization energy: +13.6 eV", "hi": "आयनन ऊर्जा: +13.6 eV" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Spectral Series",
+        "hi": "स्पेक्ट्रमी श्रेणियां"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Lyman (UV, n=1)", "hi": "लाइमन (UV, n=1)" } },
+        { "id": "c4b", "label": { "en": "Balmer (Visible, n=2)", "hi": "बामर (दृश्य, n=2)" } },
+        { "id": "c4c", "label": { "en": "Paschen, Brackett, Pfund (IR)", "hi": "पाश्चन, ब्रैकेट, फंड (IR)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "de Broglie's Explanation",
+        "hi": "डी ब्रोग्ली की व्याख्या"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Standing waves: 2πr = nλ", "hi": "अप्रगामी तरंगें: 2πr = nλ" } }
+      ]
+    }
+  ]
+}

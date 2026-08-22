@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The phenomenon of total internal reflection occurs when the angle of incidence is:",
+      "hi": "पूर्ण आंतरिक परावर्तन की घटना तब होती है जब आपतन कोण:",
+      "hinglish": "Total internal reflection (TIR) ka phenomenon kab hota hai jab angle of incidence:"
+    },
+    "options": [
+      {
+        "en": "less than the critical angle",
+        "hi": "क्रांतिक कोण से कम होता है"
+      },
+      {
+        "en": "equal to the critical angle",
+        "hi": "क्रांतिक कोण के बराबर होता है"
+      },
+      {
+        "en": "greater than the critical angle",
+        "hi": "क्रांतिक कोण से अधिक होता है"
+      },
+      {
+        "en": "zero",
+        "hi": "शून्य होता है"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Total Internal Reflection (TIR) only happens when light travels from a denser to a rarer medium and the angle of incidence is strictly greater than the critical angle ($i > C$).",
+      "hi": "पूर्ण आंतरिक परावर्तन (TIR) केवल तभी होता है जब प्रकाश सघन से विरल माध्यम में जाता है और आपतन कोण क्रांतिक कोण से पूर्णतः अधिक होता है ($i > C$)।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Two thin lenses of power +5 D and -2 D are placed in contact. The focal length of the combination is:",
+      "hi": "+5 D और -2 D क्षमता वाले दो पतले लेंस संपर्क में रखे गए हैं। संयोजन की फोकस दूरी क्या है:",
+      "hinglish": "+5 D aur -2 D power wale do thin lenses contact me rakhe gaye hain. Combination ki focal length kya hogi:"
+    },
+    "options": [
+      {
+        "en": "33.3 cm",
+        "hi": "33.3 cm"
+      },
+      {
+        "en": "-33.3 cm",
+        "hi": "-33.3 cm"
+      },
+      {
+        "en": "3 cm",
+        "hi": "3 cm"
+      },
+      {
+        "en": "10 cm",
+        "hi": "10 cm"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Total power $P = P_1 + P_2 = 5 - 2 = +3 \\text{ D}$.\\nFocal length $f = \\frac{100}{P} \\text{ cm} = \\frac{100}{3} = 33.3 \\text{ cm}$.",
+      "hi": "कुल क्षमता $P = P_1 + P_2 = 5 - 2 = +3 \\text{ D}$।\\nफोकस दूरी $f = \\frac{100}{P} \\text{ cm} = \\frac{100}{3} = 33.3 \\text{ cm}$।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Why does the sky appear blue?",
+      "hi": "आकाश नीला क्यों दिखाई देता है?",
+      "hinglish": "Aakash neela kyun dikhai deta hai?"
+    },
+    "idealAnswer": {
+      "en": "The sky appears blue due to the phenomenon of Rayleigh scattering of light by the atmosphere. According to Rayleigh's law, the intensity of scattered light is inversely proportional to the fourth power of wavelength ($\\frac{1}{\\lambda^4}$). Since blue light has a shorter wavelength than red light, it is scattered much more strongly by the fine particles in the atmosphere, giving the sky its blue color.",
+      "hi": "वायुमंडल द्वारा प्रकाश के रैले प्रकीर्णन की घटना के कारण आकाश नीला दिखाई देता है। रैले के नियम के अनुसार, प्रकीर्णित प्रकाश की तीव्रता तरंगदैर्ध्य की चौथी घात ($\\frac{1}{\\lambda^4}$) के व्युत्क्रमानुपाती होती है। चूंकि नीले प्रकाश की तरंगदैर्ध्य लाल प्रकाश की तुलना में कम होती है, इसलिए यह वायुमंडल में मौजूद सूक्ष्म कणों द्वारा बहुत अधिक प्रकीर्णित होता है, जिससे आकाश को उसका नीला रंग मिलता है।"
+    },
+    "keywords": [
+      {
+        "en": "Rayleigh scattering",
+        "hi": "रैले प्रकीर्णन"
+      },
+      {
+        "en": "inversely proportional to lambda^4",
+        "hi": "लैम्ब्डा^4 के व्युत्क्रमानुपाती"
+      },
+      {
+        "en": "shorter wavelength scattered more",
+        "hi": "छोटी तरंगदैर्ध्य अधिक प्रकीर्णित"
+      }
+    ],
+    "tips": {
+      "en": "Mentioning the relationship $I \\propto \\frac{1}{\\lambda^4}$ is key to getting full marks.",
+      "hi": "संबंध $I \\propto \\frac{1}{\\lambda^4}$ का उल्लेख करना पूरे अंक प्राप्त करने की कुंजी है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 3,
+    "question": {
+      "en": "State the two conditions necessary for total internal reflection to occur. Give one practical application of it.",
+      "hi": "पूर्ण आंतरिक परावर्तन के होने के लिए आवश्यक दो शर्तों का उल्लेख कीजिए। इसका एक व्यावहारिक अनुप्रयोग दीजिए।",
+      "hinglish": "Total internal reflection (TIR) hone ke liye do zaroori conditions bataiye. Iska ek practical application dijiye."
+    },
+    "idealAnswer": {
+      "en": "The two necessary conditions for total internal reflection are:\n1. Light must travel from an optically denser medium to an optically rarer medium.\n2. The angle of incidence in the denser medium must be greater than the critical angle for the given pair of media.\nPractical Application: Optical fibers use total internal reflection to transmit light signals over long distances with minimal loss of intensity. They are widely used in telecommunications and medical endoscopy.",
+      "hi": "पूर्ण आंतरिक परावर्तन के लिए दो आवश्यक शर्तें हैं:\n1. प्रकाश को प्रकाशिक रूप से सघन माध्यम से प्रकाशिक रूप से विरल माध्यम में जाना चाहिए।\n2. सघन माध्यम में आपतन कोण दिए गए माध्यमों के युग्म के लिए क्रांतिक कोण से अधिक होना चाहिए।\nव्यावहारिक अनुप्रयोग: प्रकाशिक तंतु (ऑप्टिकल फाइबर) लंबी दूरी तक प्रकाश संकेतों को न्यूनतम तीव्रता हानि के साथ प्रसारित करने के लिए पूर्ण आंतरिक परावर्तन का उपयोग करते हैं। इनका व्यापक रूप से दूरसंचार और चिकित्सा एंडोस्कोपी में उपयोग किया जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "denser to rarer medium",
+        "hi": "सघन से विरल माध्यम"
+      },
+      {
+        "en": "incidence angle > critical angle",
+        "hi": "आपतन कोण > क्रांतिक कोण"
+      },
+      {
+        "en": "Optical fibers",
+        "hi": "प्रकाशिक तंतु (ऑप्टिकल फाइबर)"
+      }
+    ],
+    "tips": {
+      "en": "Other valid applications include Mirage, Brilliance of Diamond, and Totally Reflecting Prisms.",
+      "hi": "अन्य मान्य अनुप्रयोगों में मृगतृष्णा, हीरे की चमक और पूर्ण परावर्तक प्रिज्म शामिल हैं।"
+    }
+  }
+]

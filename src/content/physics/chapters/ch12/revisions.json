@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Bohr Model",
+      "hi": "बोहर मॉडल",
+      "hinglish": "Bohr Model"
+    },
+    "summary": {
+      "en": "Electrons orbit without radiating if mvr = nh/2π. Energy levels are E_n = -13.6/n² eV. Radius r_n ∝ n².",
+      "hi": "यदि mvr = nh/2π हो, तो इलेक्ट्रॉन विकिरण के बिना कक्षा में परिक्रमा करते हैं। ऊर्जा स्तर E_n = -13.6/n² eV हैं। त्रिज्या r_n ∝ n²।",
+      "hinglish": "Electrons bina radiate kiye orbit karte hain agar mvr = nh/2π ho. Energy levels E_n = -13.6/n² eV hote hain. Radius r_n ∝ n²."
+    },
+    "quickRecall": [
+      {
+        "en": "E_n = -13.6/n² eV",
+        "hi": "E_n = -13.6/n² eV"
+      },
+      {
+        "en": "mvr = nh/2π",
+        "hi": "mvr = nh/2π"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Hydrogen Spectra",
+      "hi": "हाइड्रोजन स्पेक्ट्रा",
+      "hinglish": "Hydrogen Spectra"
+    },
+    "summary": {
+      "en": "Transitions emit photons: 1/λ = R(1/n_f² - 1/n_i²). Series: Lyman (n_f=1, UV), Balmer (n_f=2, Visible), Paschen (n_f=3, IR).",
+      "hi": "संक्रमण फोटॉन उत्सर्जित करते हैं: 1/λ = R(1/n_f² - 1/n_i²)। श्रेणियां: लाइमन (n_f=1, UV), बामर (n_f=2, दृश्य), पाश्चन (n_f=3, IR)।",
+      "hinglish": "Transitions photons emit karte hain: 1/λ = R(1/n_f² - 1/n_i²). Series: Lyman (n_f=1, UV), Balmer (n_f=2, Visible), Paschen (n_f=3, IR)."
+    },
+    "quickRecall": [
+      {
+        "en": "Balmer: n_f = 2 (Visible)",
+        "hi": "बामर: n_f = 2 (दृश्य)"
+      }
+    ]
+  }
+]

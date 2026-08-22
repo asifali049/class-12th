@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "In Rutherford's alpha-particle scattering experiment, what conclusion was drawn from the fact that most alpha-particles passed straight through the gold foil?",
+      "hi": "रदरफोर्ड के अल्फा-कण प्रकीर्णन प्रयोग में, इस तथ्य से क्या निष्कर्ष निकाला गया कि अधिकांश अल्फा-कण सोने की पन्नी से सीधे गुजर गए?",
+      "hinglish": "Rutherford ke alpha-particle scattering experiment me, is fact se kya conclusion nikala gaya ki mostly alpha-particles gold foil se seedhe paas ho gaye?"
+    },
+    "options": [
+      {
+        "en": "Atom has a positive center",
+        "hi": "परमाणु का एक धनात्मक केंद्र है"
+      },
+      {
+        "en": "Most of the space in an atom is empty",
+        "hi": "परमाणु में अधिकांश स्थान खाली है"
+      },
+      {
+        "en": "Electrons revolve in circular orbits",
+        "hi": "इलेक्ट्रॉन वृत्ताकार कक्षाओं में घूमते हैं"
+      },
+      {
+        "en": "Nucleus is very dense",
+        "hi": "नाभिक बहुत सघन है"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Since most alpha particles passed through without any deflection, it indicates that the major part of the atom must be empty space.",
+      "hi": "चूंकि अधिकांश अल्फा कण बिना किसी विक्षेपण के गुजर गए, यह इंगित करता है कि परमाणु का मुख्य भाग खाली स्थान होना चाहिए।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "The transition from state $n=4$ to $n=1$ in a hydrogen atom results in the emission of a photon belonging to which spectral series?",
+      "hi": "हाइड्रोजन परमाणु में अवस्था $n=4$ से $n=1$ में संक्रमण के परिणामस्वरूप किस स्पेक्ट्रमी श्रेणी से संबंधित फोटॉन का उत्सर्जन होता है?",
+      "hinglish": "Hydrogen atom me state $n=4$ se $n=1$ me transition se emit hone wala photon kis spectral series ka hota hai?"
+    },
+    "options": [
+      {
+        "en": "Balmer series",
+        "hi": "बामर श्रेणी"
+      },
+      {
+        "en": "Paschen series",
+        "hi": "पाश्चन श्रेणी"
+      },
+      {
+        "en": "Brackett series",
+        "hi": "ब्रैकेट श्रेणी"
+      },
+      {
+        "en": "Lyman series",
+        "hi": "लाइमन श्रेणी"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "Transitions ending at the ground state ($n_f = 1$) belong to the Lyman series, which lies in the ultraviolet region.",
+      "hi": "मूल अवस्था ($n_f = 1$) पर समाप्त होने वाले संक्रमण लाइमन श्रेणी के अंतर्गत आते हैं, जो पराबैंगनी क्षेत्र में स्थित है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 2,
+    "question": {
+      "en": "State Bohr's quantization condition for angular momentum of an electron in an atom.",
+      "hi": "किसी परमाणु में इलेक्ट्रॉन के कोणीय संवेग के लिए बोहर की क्वांटमीकरण शर्त बताइए।",
+      "hinglish": "Atom me electron ke angular momentum ke liye Bohr ki quantization condition bataiye."
+    },
+    "idealAnswer": {
+      "en": "Bohr's quantization condition states that an electron can revolve only in those circular orbits for which its orbital angular momentum ($L = mvr$) is an integral multiple of $h / (2\\pi)$. Mathematically, $mvr = n\\frac{h}{2\\pi}$, where $n$ is an integer (principal quantum number) and $h$ is Planck's constant.",
+      "hi": "बोहर की क्वांटमीकरण शर्त यह बताती है कि एक इलेक्ट्रॉन केवल उन्हीं वृत्ताकार कक्षाओं में घूम सकता है जिनके लिए उसका कक्षीय कोणीय संवेग ($L = mvr$), $h / (2\\pi)$ का एक पूर्णांक गुणज होता है। गणितीय रूप से, $mvr = n\\frac{h}{2\\pi}$, जहाँ $n$ एक पूर्णांक (मुख्य क्वांटम संख्या) है और $h$ प्लांक नियतांक है।"
+    },
+    "keywords": [
+      {
+        "en": "integral multiple",
+        "hi": "पूर्णांक गुणज"
+      },
+      {
+        "en": "h / 2pi",
+        "hi": "h / 2pi"
+      },
+      {
+        "en": "mvr = nh / 2pi",
+        "hi": "mvr = nh / 2pi"
+      }
+    ],
+    "tips": {
+      "en": "Always write the mathematical formula along with the statement.",
+      "hi": "कथन के साथ-साथ हमेशा गणितीय सूत्र भी लिखें।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 3,
+    "question": {
+      "en": "How does de Broglie's hypothesis explain Bohr's second postulate of quantization of angular momentum?",
+      "hi": "डी ब्रोग्ली की परिकल्पना कोणीय संवेग के क्वांटमीकरण की बोहर की द्वितीय अभिधारणा की व्याख्या कैसे करती है?",
+      "hinglish": "de Broglie ki hypothesis angular momentum ke quantization ke Bohr ke second postulate ko kaise explain karti hai?"
+    },
+    "idealAnswer": {
+      "en": "De Broglie proposed that an electron in a circular orbit behaves as a standing matter wave. For the wave to be continuous and not cancel itself out, the circumference of the orbit must be an integral multiple of the de Broglie wavelength. So, $2\\pi r = n\\lambda$. But according to de Broglie, $\\lambda = \\frac{h}{mv}$. Substituting this, we get $2\\pi r = n\\frac{h}{mv}$, which rearranges to $mvr = \\frac{nh}{2\\pi}$. This is exactly Bohr's second postulate.",
+      "hi": "डी ब्रोग्ली ने प्रस्तावित किया कि एक वृत्ताकार कक्षा में एक इलेक्ट्रॉन अप्रगामी द्रव्य तरंग के रूप में व्यवहार करता है। तरंग के निरंतर रहने और स्वयं को रद्द न करने के लिए, कक्षा की परिधि डी ब्रोग्ली तरंगदैर्ध्य का एक पूर्णांक गुणज होनी चाहिए। इसलिए, $2\\pi r = n\\lambda$। लेकिन डी ब्रोग्ली के अनुसार, $\\lambda = \\frac{h}{mv}$। इसे रखने पर, हमें $2\\pi r = n\\frac{h}{mv}$ मिलता है, जिसे पुनर्व्यवस्थित करने पर $mvr = \\frac{nh}{2\\pi}$ प्राप्त होता है। यह ठीक बोहर की द्वितीय अभिधारणा है।"
+    },
+    "keywords": [
+      {
+        "en": "standing wave",
+        "hi": "अप्रगामी तरंग"
+      },
+      {
+        "en": "circumference = n * wavelength",
+        "hi": "परिधि = n * तरंगदैर्ध्य"
+      },
+      {
+        "en": "lambda = h/mv",
+        "hi": "lambda = h/mv"
+      }
+    ],
+    "tips": {
+      "en": "The logical sequence $2\\pi r = n\\lambda \\rightarrow \\lambda = h/mv \\rightarrow mvr = nh/2\\pi$ is the core of this answer.",
+      "hi": "तार्किक क्रम $2\\pi r = n\\lambda \\rightarrow \\lambda = h/mv \\rightarrow mvr = nh/2\\pi$ इस उत्तर का मुख्य भाग है।"
+    }
+  }
+]

@@ -1,10 +1,149 @@
 [
   {
     "type": "heading",
-    "text": "Electromagnetic Waves"
+    "text": {
+      "en": "1. Displacement Current",
+      "hi": "1. विस्थापन धारा"
+    }
   },
   {
     "type": "paragraph",
-    "text": "Waves that are created as a result of vibrations between an electric field and a magnetic field."
+    "text": {
+      "en": "Displacement current is the current which comes into existence whenever there is a change in the electric field (or electric flux) with respect to time.",
+      "hi": "विस्थापन धारा वह धारा है जो तब अस्तित्व में आती है जब समय के साथ विद्युत क्षेत्र (या विद्युत फ्लक्स) में परिवर्तन होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}",
+    "label": {
+      "en": "Maxwell's modification to Ampere's law includes this term.",
+      "hi": "एम्पीयर के नियम में मैक्सवेल के संशोधन में यह पद शामिल है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Ampere-Maxwell Law",
+      "hi": "2. एम्पीयर-मैक्सवेल नियम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The line integral of magnetic field along a closed loop is equal to μ₀ times the total current (conduction current + displacement current) passing through the surface.",
+      "hi": "किसी बंद लूप के अनुदिश चुंबकीय क्षेत्र का रेखीय समाकलन सतह से गुजरने वाली कुल धारा (चालन धारा + विस्थापन धारा) के μ₀ गुना के बराबर होता है।"
+    }
+  },
+  {
+    "type": "formula",
+    "equation": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d) = \\mu_0 \\left( I_c + \\epsilon_0 \\frac{d\\Phi_E}{dt} \\right)"
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Electromagnetic Waves",
+      "hi": "3. विद्युतचुंबकीय तरंगें"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "EM waves are coupled time-varying electric and magnetic fields that propagate in space. They are produced by accelerated or oscillating charges.",
+      "hi": "EM तरंगें युग्मित समय-परिवर्ती विद्युत और चुंबकीय क्षेत्र हैं जो अंतरिक्ष में संचरित होते हैं। ये त्वरित या दोलन करते आवेशों द्वारा उत्पन्न होती हैं।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Characteristics of EM Waves:",
+      "hi": "EM तरंगों की विशेषताएं:"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "They do not require any material medium for propagation.",
+        "hi": "इन्हें संचरण के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है।"
+      },
+      {
+        "en": "They are transverse in nature (E and B are perpendicular to each other and to the direction of propagation).",
+        "hi": "ये प्रकृति में अनुप्रस्थ होती हैं (E और B एक दूसरे के और संचरण की दिशा के लंबवत होते हैं)।"
+      },
+      {
+        "en": "They travel in a vacuum with the speed of light (c = 3 × 10⁸ m/s).",
+        "hi": "ये निर्वात में प्रकाश की चाल (c = 3 × 10⁸ m/s) से यात्रा करती हैं।"
+      },
+      {
+        "en": "They carry energy and momentum.",
+        "hi": "ये ऊर्जा और संवेग वहन करती हैं।"
+      }
+    ]
+  },
+  {
+    "type": "formula",
+    "equation": "c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} \\quad \\text{and} \\quad c = \\frac{E_0}{B_0}",
+    "label": {
+      "en": "Speed of EM wave in vacuum",
+      "hi": "निर्वात में EM तरंग की चाल"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Electromagnetic Spectrum",
+      "hi": "4. विद्युतचुंबकीय स्पेक्ट्रम"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The orderly distribution of electromagnetic waves according to their wavelength or frequency is called the electromagnetic spectrum.",
+      "hi": "विद्युतचुंबकीय तरंगों का उनकी तरंगदैर्ध्य या आवृत्ति के अनुसार व्यवस्थित वितरण विद्युतचुंबकीय स्पेक्ट्रम कहलाता है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Order of increasing frequency (decreasing wavelength):",
+      "hi": "बढ़ती आवृत्ति (घटती तरंगदैर्ध्य) का क्रम:"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Radio Waves < Microwaves < Infrared < Visible Light < Ultraviolet < X-Rays < Gamma Rays",
+      "hi": "रेडियो तरंगें < सूक्ष्म तरंगें < अवरक्त < दृश्य प्रकाश < पराबैंगनी < X-किरणें < गामा किरणें"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Radio waves: Used in radio and TV communication systems.",
+        "hi": "रेडियो तरंगें: रेडियो और टीवी संचार प्रणालियों में प्रयुक्त।"
+      },
+      {
+        "en": "Microwaves: Used in radar systems and microwave ovens.",
+        "hi": "सूक्ष्म तरंगें: रडार प्रणालियों और माइक्रोवेव ओवन में प्रयुक्त।"
+      },
+      {
+        "en": "Infrared: Heat waves, used in night vision devices and TV remotes.",
+        "hi": "अवरक्त: ऊष्मा तरंगें, नाइट विजन उपकरणों और टीवी रिमोट में प्रयुक्त।"
+      },
+      {
+        "en": "Ultraviolet: Used to destroy bacteria, causes tanning.",
+        "hi": "पराबैंगनी: बैक्टीरिया को नष्ट करने के लिए प्रयुक्त, टैनिंग का कारण बनती है।"
+      },
+      {
+        "en": "X-Rays: Used in medical diagnosis (bone fractures) and studying crystal structures.",
+        "hi": "X-किरणें: चिकित्सा निदान (हड्डी के फ्रैक्चर) और क्रिस्टल संरचनाओं के अध्ययन में प्रयुक्त।"
+      },
+      {
+        "en": "Gamma Rays: Highest frequency, used in cancer therapy.",
+        "hi": "गामा किरणें: उच्चतम आवृत्ति, कैंसर चिकित्सा में प्रयुक्त।"
+      }
+    ]
   }
 ]

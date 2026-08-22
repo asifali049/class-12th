@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Lenz's law is a consequence of the law of conservation of:",
+      "hi": "लेन्ज का नियम किसके संरक्षण के नियम का परिणाम है:",
+      "hinglish": "Lenz's law kis conservation law par based hai:"
+    },
+    "options": [
+      {
+        "en": "Charge",
+        "hi": "आवेश"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Lenz's law states that induced current opposes the change that produces it. The mechanical work done in opposing this change is converted into electrical energy, obeying the conservation of energy.",
+      "hi": "लेन्ज के नियम के अनुसार प्रेरित धारा उस परिवर्तन का विरोध करती है जो इसे उत्पन्न करता है। इस परिवर्तन का विरोध करने में किया गया यांत्रिक कार्य विद्युत ऊर्जा में परिवर्तित हो जाता है, जो ऊर्जा संरक्षण का पालन करता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "The unit of self-inductance is:",
+      "hi": "स्व-प्रेरकत्व का मात्रक है:",
+      "hinglish": "Self-inductance ka unit kya hai:"
+    },
+    "options": [
+      {
+        "en": "Weber",
+        "hi": "वेबर"
+      },
+      {
+        "en": "Tesla",
+        "hi": "टेस्ला"
+      },
+      {
+        "en": "Henry",
+        "hi": "हेनरी"
+      },
+      {
+        "en": "Farad",
+        "hi": "फैराड"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "The SI unit of self-inductance (and mutual inductance) is Henry (H).",
+      "hi": "स्व-प्रेरकत्व (और अन्योन्य प्रेरकत्व) का SI मात्रक हेनरी (H) है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "State Faraday's laws of electromagnetic induction.",
+      "hi": "फैराडे के विद्युतचुंबकीय प्रेरण के नियम लिखिए।",
+      "hinglish": "Faraday ke EMI ke laws state karein."
+    },
+    "idealAnswer": {
+      "en": "First Law: Whenever the magnetic flux linked with a closed circuit changes, an emf is induced in it which lasts only as long as the change in flux continues.\nSecond Law: The magnitude of the induced emf is equal to the rate of change of magnetic flux linked with the closed circuit ($e = -d\\Phi/dt$).",
+      "hi": "प्रथम नियम: जब भी किसी बंद परिपथ से बद्ध चुंबकीय फ्लक्स में परिवर्तन होता है, तो उसमें एक emf प्रेरित होता है जो केवल तब तक रहता है जब तक फ्लक्स में परिवर्तन जारी रहता है।\nद्वितीय नियम: प्रेरित emf का परिमाण बंद परिपथ से बद्ध चुंबकीय फ्लक्स में परिवर्तन की दर के बराबर होता है ($e = -d\\Phi/dt$)।"
+    },
+    "keywords": [
+      {
+        "en": "change in magnetic flux",
+        "hi": "चुंबकीय फ्लक्स में परिवर्तन"
+      },
+      {
+        "en": "rate of change",
+        "hi": "परिवर्तन की दर"
+      }
+    ],
+    "tips": {
+      "en": "Always mention that the induced emf lasts only as long as the change in flux continues.",
+      "hi": "हमेशा उल्लेख करें कि प्रेरित emf केवल तब तक रहता है जब तक फ्लक्स में परिवर्तन जारी रहता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 3,
+    "question": {
+      "en": "Define mutual inductance. On what factors does the mutual inductance of two coils depend?",
+      "hi": "अन्योन्य प्रेरकत्व को परिभाषित कीजिए। दो कुंडलियों का अन्योन्य प्रेरकत्व किन कारकों पर निर्भर करता है?",
+      "hinglish": "Mutual inductance kya hai? Do coils ka mutual inductance kin factors par depend karta hai?"
+    },
+    "idealAnswer": {
+      "en": "Definition: Mutual inductance is numerically equal to the magnetic flux linked with one coil when a unit current flows through the neighboring coil ($\\Phi_s = MI_p$).\nFactors:\n1. Number of turns in both coils ($N_1, N_2$).\n2. Size and shape (area, length) of the coils.\n3. Relative orientation and distance between the coils.\n4. Permeability of the core material placed between the coils.",
+      "hi": "परिभाषा: अन्योन्य प्रेरकत्व संख्यात्मक रूप से उस चुंबकीय फ्लक्स के बराबर होता है जो एक कुंडली से तब बद्ध होता है जब पास की कुंडली में इकाई धारा प्रवाहित होती है ($\\Phi_s = MI_p$)।\nकारक:\n1. दोनों कुंडलियों में फेरों की संख्या ($N_1, N_2$)।\n2. कुंडलियों का आकार और आकृति (क्षेत्रफल, लंबाई)।\n3. कुंडलियों के बीच सापेक्ष विन्यास और दूरी।\n4. कुंडलियों के बीच रखे क्रोड पदार्थ की चुंबकशीलता।"
+    },
+    "keywords": [
+      {
+        "en": "flux for unit current",
+        "hi": "इकाई धारा के लिए फ्लक्स"
+      },
+      {
+        "en": "number of turns",
+        "hi": "फेरों की संख्या"
+      },
+      {
+        "en": "orientation",
+        "hi": "विन्यास"
+      },
+      {
+        "en": "permeability of core",
+        "hi": "क्रोड की चुंबकशीलता"
+      }
+    ],
+    "tips": {
+      "en": "List the factors point-wise for better readability and scoring.",
+      "hi": "बेहतर पठनीयता और स्कोरिंग के लिए कारकों को बिंदुवार (point-wise) सूचीबद्ध करें।"
+    }
+  }
+]

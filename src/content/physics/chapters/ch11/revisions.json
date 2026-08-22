@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Photoelectric Equation",
+      "hi": "प्रकाश-विद्युत समीकरण",
+      "hinglish": "Photoelectric Equation"
+    },
+    "summary": {
+      "en": "Einstein's equation: K_max = hν - Φ₀. Kinetic energy depends on frequency, not intensity. Emission stops below threshold frequency ν₀.",
+      "hi": "आइंस्टीन का समीकरण: K_max = hν - Φ₀। गतिज ऊर्जा आवृत्ति पर निर्भर करती है, तीव्रता पर नहीं। देहली आवृत्ति ν₀ के नीचे उत्सर्जन रुक जाता है।",
+      "hinglish": "Einstein's equation: K_max = hν - Φ₀. Kinetic energy frequency par depend karti hai, intensity par nahi. Threshold frequency ν₀ ke neeche emission nahi hota."
+    },
+    "quickRecall": [
+      {
+        "en": "eV₀ = hν - Φ₀",
+        "hi": "eV₀ = hν - Φ₀"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Photon & Matter Waves",
+      "hi": "फोटॉन और द्रव्य तरंगें",
+      "hinglish": "Photon & Matter Waves"
+    },
+    "summary": {
+      "en": "Light behaves as particles (photons) with energy E = hc/λ. Moving matter behaves as waves with de Broglie wavelength λ = h/p.",
+      "hi": "प्रकाश E = hc/λ ऊर्जा वाले कणों (फोटॉनों) की तरह व्यवहार करता है। गतिमान द्रव्य डी ब्रोग्ली तरंगदैर्ध्य λ = h/p वाली तरंगों की तरह व्यवहार करता है।",
+      "hinglish": "Light particles (photons) ki tarah behave karti hai jinki energy E = hc/λ hai. Moving matter waves ki tarah behave karta hai jiski de Broglie wavelength λ = h/p hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Photon p = h/λ",
+        "hi": "फोटॉन p = h/λ"
+      },
+      {
+        "en": "Electron λ = 1.227/√V nm",
+        "hi": "इलेक्ट्रॉन λ = 1.227/√V nm"
+      }
+    ]
+  }
+]

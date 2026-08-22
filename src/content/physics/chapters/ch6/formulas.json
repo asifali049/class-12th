@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "equation": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos \\theta",
+    "description": {
+      "en": "Magnetic Flux",
+      "hi": "चुंबकीय फ्लक्स"
+    },
+    "variables": {
+      "en": "ΦB = Magnetic flux\nB = Magnetic field\nA = Area vector\nθ = Angle between B and normal to the area",
+      "hi": "ΦB = चुंबकीय फ्लक्स\nB = चुंबकीय क्षेत्र\nA = क्षेत्रफल सदिश\nθ = B और क्षेत्रफल के अभिलंब के बीच का कोण"
+    }
+  },
+  {
+    "equation": "e = -\\frac{d\\Phi_B}{dt}",
+    "description": {
+      "en": "Faraday's Law of EMI",
+      "hi": "फैराडे का विद्युतचुंबकीय प्रेरण का नियम"
+    },
+    "variables": {
+      "en": "e = Induced emf\ndΦB/dt = Rate of change of magnetic flux",
+      "hi": "e = प्रेरित विद्युत वाहक बल\ndΦB/dt = चुंबकीय फ्लक्स में परिवर्तन की दर"
+    }
+  },
+  {
+    "equation": "e = -N \\frac{d\\Phi_B}{dt}",
+    "description": {
+      "en": "Faraday's Law for N turns",
+      "hi": "N फेरों के लिए फैराडे का नियम"
+    },
+    "variables": {
+      "en": "N = Number of turns",
+      "hi": "N = फेरों की संख्या"
+    }
+  },
+  {
+    "equation": "e = B l v",
+    "description": {
+      "en": "Motional EMF",
+      "hi": "गतिक विद्युत वाहक बल"
+    },
+    "variables": {
+      "en": "B = Magnetic field\nl = Length of conductor\nv = Velocity",
+      "hi": "B = चुंबकीय क्षेत्र\nl = चालक की लंबाई\nv = वेग"
+    }
+  },
+  {
+    "equation": "\\Phi = L I",
+    "description": {
+      "en": "Magnetic Flux in terms of Self Inductance",
+      "hi": "स्व-प्रेरकत्व के पदों में चुंबकीय फ्लक्स"
+    },
+    "variables": {
+      "en": "L = Self-inductance\nI = Current",
+      "hi": "L = स्व-प्रेरकत्व\nI = धारा"
+    }
+  },
+  {
+    "equation": "e = -L \\frac{dI}{dt}",
+    "description": {
+      "en": "Induced EMF due to Self Induction",
+      "hi": "स्व-प्रेरण के कारण प्रेरित विद्युत वाहक बल"
+    },
+    "variables": {
+      "en": "L = Self-inductance\ndI/dt = Rate of change of current",
+      "hi": "L = स्व-प्रेरकत्व\ndI/dt = धारा परिवर्तन की दर"
+    }
+  },
+  {
+    "equation": "L = \\frac{\\mu_0 N^2 A}{l} = \\mu_0 n^2 A l",
+    "description": {
+      "en": "Self Inductance of a Solenoid",
+      "hi": "परिनालिका का स्व-प्रेरकत्व"
+    },
+    "variables": {
+      "en": "N = Total turns\nn = Turns per unit length\nl = Length\nA = Area",
+      "hi": "N = कुल फेरे\nn = प्रति एकांक लंबाई फेरे\nl = लंबाई\nA = क्षेत्रफल"
+    }
+  },
+  {
+    "equation": "U = \\frac{1}{2} L I^2",
+    "description": {
+      "en": "Magnetic Energy Stored in an Inductor",
+      "hi": "प्रेरक में संचित चुंबकीय ऊर्जा"
+    },
+    "variables": {
+      "en": "U = Magnetic potential energy",
+      "hi": "U = चुंबकीय स्थितिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "e_s = -M \\frac{dI_p}{dt}",
+    "description": {
+      "en": "Induced EMF due to Mutual Induction",
+      "hi": "अन्योन्य प्रेरण के कारण प्रेरित विद्युत वाहक बल"
+    },
+    "variables": {
+      "en": "M = Mutual inductance\nIp = Current in primary coil",
+      "hi": "M = अन्योन्य प्रेरकत्व\nIp = प्राथमिक कुंडली में धारा"
+    }
+  },
+  {
+    "equation": "M = \\mu_0 n_1 n_2 \\pi r_1^2 l",
+    "description": {
+      "en": "Mutual Inductance of two Coaxial Solenoids",
+      "hi": "दो समाक्षीय परिनालिकाओं का अन्योन्य प्रेरकत्व"
+    },
+    "variables": {
+      "en": "n₁, n₂ = Turns per unit length\nr₁ = Radius of inner solenoid\nl = Length",
+      "hi": "n₁, n₂ = प्रति एकांक लंबाई फेरे\nr₁ = आंतरिक परिनालिका की त्रिज्या\nl = लंबाई"
+    }
+  }
+]

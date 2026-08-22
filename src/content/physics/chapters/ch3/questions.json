@@ -1,1 +1,174 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The electrical resistance of a conductor depends upon:",
+      "hi": "किसी चालक का विद्युत प्रतिरोध निर्भर करता है:",
+      "hinglish": "Conductor ka electrical resistance kis par depend karta hai:"
+    },
+    "options": [
+      {
+        "en": "Length of the conductor",
+        "hi": "चालक की लंबाई पर"
+      },
+      {
+        "en": "Cross-sectional area",
+        "hi": "अनुप्रस्थ काट के क्षेत्रफल पर"
+      },
+      {
+        "en": "Nature of material",
+        "hi": "पदार्थ की प्रकृति पर"
+      },
+      {
+        "en": "All of the above",
+        "hi": "उपरोक्त सभी"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "Resistance $R = \\rho(l/A)$. It depends on length ($l$), area ($A$), nature of material ($\\rho$), and temperature.",
+      "hi": "प्रतिरोध $R = \\rho(l/A)$। यह लंबाई ($l$), क्षेत्रफल ($A$), पदार्थ की प्रकृति ($\\rho$) और ताप पर निर्भर करता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Kirchhoff's first law (sum of currents at a junction is zero) is a consequence of:",
+      "hi": "किरचॉफ का प्रथम नियम (संधि पर धाराओं का योग शून्य होता है) किसका परिणाम है:",
+      "hinglish": "Kirchhoff ka first law kis conservation law par based hai:"
+    },
+    "options": [
+      {
+        "en": "Conservation of Energy",
+        "hi": "ऊर्जा संरक्षण"
+      },
+      {
+        "en": "Conservation of Charge",
+        "hi": "आवेश संरक्षण"
+      },
+      {
+        "en": "Conservation of Momentum",
+        "hi": "संवेग संरक्षण"
+      },
+      {
+        "en": "Conservation of Mass",
+        "hi": "द्रव्यमान संरक्षण"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Charge cannot accumulate at a junction. The total charge entering the junction per unit time equals the total charge leaving it.",
+      "hi": "किसी संधि पर आवेश जमा नहीं हो सकता। प्रति एकांक समय में संधि में प्रवेश करने वाला कुल आवेश उससे बाहर निकलने वाले कुल आवेश के बराबर होता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "With increase in temperature, the conductivity of a semiconductor:",
+      "hi": "तापमान बढ़ने के साथ, अर्धचालक की चालकता:",
+      "hinglish": "Temperature badhne par, semiconductor ki conductivity:"
+    },
+    "options": [
+      {
+        "en": "Increases",
+        "hi": "बढ़ती है"
+      },
+      {
+        "en": "Decreases",
+        "hi": "घटती है"
+      },
+      {
+        "en": "Remains constant",
+        "hi": "स्थिर रहती है"
+      },
+      {
+        "en": "First increases then decreases",
+        "hi": "पहले बढ़ती है फिर घटती है"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "In a semiconductor, as temperature increases, more covalent bonds break, generating more charge carriers (electrons and holes). Hence, its conductivity increases.",
+      "hi": "अर्धचालक में, ताप बढ़ने पर अधिक सहसंयोजक बंध टूटते हैं, जिससे अधिक आवेश वाहक (इलेक्ट्रॉन और होल) उत्पन्न होते हैं। इसलिए, इसकी चालकता बढ़ जाती है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Define drift velocity of electrons.",
+      "hi": "इलेक्ट्रॉनों के अनुगमन वेग को परिभाषित कीजिए।",
+      "hinglish": "Electrons ka drift velocity define karein."
+    },
+    "idealAnswer": {
+      "en": "The average velocity with which free electrons get drifted towards the positive end of a conductor under the influence of an external electric field is called drift velocity.",
+      "hi": "वह औसत वेग जिससे मुक्त इलेक्ट्रॉन बाह्य विद्युत क्षेत्र के प्रभाव में चालक के धनात्मक सिरे की ओर खिसकते हैं, अनुगमन वेग (अपवाह वेग) कहलाता है।"
+    },
+    "keywords": [
+      {
+        "en": "average velocity",
+        "hi": "औसत वेग"
+      },
+      {
+        "en": "drifted towards positive end",
+        "hi": "धनात्मक सिरे की ओर खिसकते हैं"
+      },
+      {
+        "en": "external electric field",
+        "hi": "बाह्य विद्युत क्षेत्र"
+      }
+    ],
+    "tips": {
+      "en": "It's important to mention 'average velocity' and 'external electric field'.",
+      "hi": "अपने उत्तर में 'औसत वेग' और 'बाह्य विद्युत क्षेत्र' का उल्लेख करना महत्वपूर्ण है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 5,
+    "question": {
+      "en": "State Kirchhoff's laws for electrical networks. Use these laws to deduce the condition for balance in a Wheatstone bridge.",
+      "hi": "विद्युत परिपथों के लिए किरचॉफ के नियम लिखिए। इन नियमों का उपयोग करके व्हीटस्टोन सेतु के संतुलन की शर्त प्राप्त कीजिए।",
+      "hinglish": "Electrical networks ke liye Kirchhoff's laws likhiye. In laws ka use karke Wheatstone bridge ki balanced condition derive karein."
+    },
+    "idealAnswer": {
+      "en": "First Law (KCL): The algebraic sum of currents meeting at any junction is zero ($\\sum I = 0$).\nSecond Law (KVL): In any closed loop, the algebraic sum of changes in potential is zero ($\\sum \\Delta V = 0$).\nWheatstone Bridge condition: Consider a bridge with arms P, Q, R, S and a galvanometer G. Under balanced condition, no current flows through the galvanometer ($I_g = 0$). Applying KVL to loop ABDA: $-I_1 P + 0 + I_2 R = 0 \\implies I_1 P = I_2 R$. Applying KVL to loop BCDB: $-I_1 Q + 0 + I_2 S = 0 \\implies I_1 Q = I_2 S$. Dividing the two equations gives $P/Q = R/S$.",
+      "hi": "प्रथम नियम (KCL): किसी संधि पर मिलने वाली सभी धाराओं का बीजगणितीय योग शून्य होता है ($\\sum I = 0$)।\nद्वितीय नियम (KVL): किसी बंद लूप में विभव परिवर्तनों का बीजगणितीय योग शून्य होता है ($\\sum \\Delta V = 0$)।\nव्हीटस्टोन सेतु की शर्त: माना P, Q, R, S भुजाओं और एक धारामापी G वाला सेतु है। संतुलन की स्थिति में, धारामापी से कोई धारा प्रवाहित नहीं होती है ($I_g = 0$)। लूप ABDA में KVL लगाने पर: $-I_1 P + 0 + I_2 R = 0 \\implies I_1 P = I_2 R$। लूप BCDB में KVL लगाने पर: $-I_1 Q + 0 + I_2 S = 0 \\implies I_1 Q = I_2 S$। दोनों समीकरणों को विभाजित करने पर $P/Q = R/S$ प्राप्त होता है।"
+    },
+    "keywords": [
+      {
+        "en": "KCL sum I = 0",
+        "hi": "KCL धाराओं का योग = 0"
+      },
+      {
+        "en": "KVL sum V = 0",
+        "hi": "KVL विभव परिवर्तनों का योग = 0"
+      },
+      {
+        "en": "balanced I_g = 0",
+        "hi": "संतुलन I_g = 0"
+      },
+      {
+        "en": "P/Q = R/S",
+        "hi": "P/Q = R/S"
+      }
+    ],
+    "tips": {
+      "en": "Draw the circuit diagram of the Wheatstone bridge and clearly mark the loops and current directions before applying KVL.",
+      "hi": "KVL लागू करने से पहले व्हीटस्टोन सेतु का परिपथ चित्र बनाएं और लूप तथा धारा की दिशाओं को स्पष्ट रूप से अंकित करें।"
+    }
+  }
+]

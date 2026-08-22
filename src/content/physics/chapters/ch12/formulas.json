@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "equation": "r_0 = \\frac{1}{4\\pi\\epsilon_0} \\frac{2Ze^2}{K}",
+    "description": {
+      "en": "Distance of Closest Approach",
+      "hi": "निकटतम पहुँच की दूरी"
+    },
+    "variables": {
+      "en": "r₀ = Distance of closest approach\nZ = Atomic number of target nucleus\ne = Elementary charge\nK = Kinetic energy of alpha particle",
+      "hi": "r₀ = निकटतम पहुँच की दूरी\nZ = लक्ष्य नाभिक का परमाणु क्रमांक\ne = मूल आवेश\nK = अल्फा कण की गतिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "mvr = \\frac{nh}{2\\pi}",
+    "description": {
+      "en": "Bohr's Quantization Condition",
+      "hi": "बोहर की क्वांटमीकरण शर्त"
+    },
+    "variables": {
+      "en": "m = Mass of electron\nv = Velocity of electron\nr = Radius of orbit\nn = Principal quantum number (1, 2, 3...)\nh = Planck's constant",
+      "hi": "m = इलेक्ट्रॉन का द्रव्यमान\nv = इलेक्ट्रॉन का वेग\nr = कक्षा की त्रिज्या\nn = मुख्य क्वांटम संख्या (1, 2, 3...)\nh = प्लांक नियतांक"
+    }
+  },
+  {
+    "equation": "r_n = \\frac{\\epsilon_0 h^2 n^2}{\\pi m e^2} \\approx 0.529 \\frac{n^2}{Z} \\text{ \\AA}",
+    "description": {
+      "en": "Radius of nth Bohr Orbit",
+      "hi": "nवीं बोहर कक्षा की त्रिज्या"
+    },
+    "variables": {
+      "en": "r_n = Radius of nth orbit\nn = Principal quantum number\nZ = Atomic number (1 for Hydrogen)",
+      "hi": "r_n = nवीं कक्षा की त्रिज्या\nn = मुख्य क्वांटम संख्या\nZ = परमाणु क्रमांक (हाइड्रोजन के लिए 1)"
+    }
+  },
+  {
+    "equation": "v_n = \\frac{e^2}{2\\epsilon_0 h n} \\approx \\frac{c}{137} \\frac{Z}{n}",
+    "description": {
+      "en": "Velocity of Electron in nth Orbit",
+      "hi": "nवीं कक्षा में इलेक्ट्रॉन का वेग"
+    },
+    "variables": {
+      "en": "v_n = Velocity in nth orbit\nc = Speed of light",
+      "hi": "v_n = nवीं कक्षा में वेग\nc = प्रकाश की चाल"
+    }
+  },
+  {
+    "equation": "E_n = -\\frac{me^4}{8\\epsilon_0^2 h^2 n^2} \\approx -\\frac{13.6 Z^2}{n^2} \\text{ eV}",
+    "description": {
+      "en": "Total Energy of Electron in nth Orbit",
+      "hi": "nवीं कक्षा में इलेक्ट्रॉन की कुल ऊर्जा"
+    },
+    "variables": {
+      "en": "E_n = Total energy\nZ = Atomic number\nn = Principal quantum number",
+      "hi": "E_n = कुल ऊर्जा\nZ = परमाणु क्रमांक\nn = मुख्य क्वांटम संख्या"
+    }
+  },
+  {
+    "equation": "E = K + U = \\frac{1}{2}U = -K",
+    "description": {
+      "en": "Relation between Energies in Bohr Orbit",
+      "hi": "बोहर कक्षा में ऊर्जाओं के बीच संबंध"
+    },
+    "variables": {
+      "en": "E = Total Energy\nK = Kinetic Energy\nU = Potential Energy",
+      "hi": "E = कुल ऊर्जा\nK = गतिज ऊर्जा\nU = स्थितिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "\\frac{1}{\\lambda} = R \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)",
+    "description": {
+      "en": "Rydberg Formula for Hydrogen Spectrum",
+      "hi": "हाइड्रोजन स्पेक्ट्रम के लिए रिडबर्ग सूत्र"
+    },
+    "variables": {
+      "en": "λ = Wavelength of emitted photon\nR = Rydberg constant (1.097 × 10^7 m^-1)\nn_f = Final orbit number\nn_i = Initial orbit number (n_i > n_f)",
+      "hi": "λ = उत्सर्जित फोटॉन की तरंगदैर्ध्य\nR = रिडबर्ग नियतांक (1.097 × 10^7 m^-1)\nn_f = अंतिम कक्षा संख्या\nn_i = प्रारंभिक कक्षा संख्या (n_i > n_f)"
+    }
+  }
+]

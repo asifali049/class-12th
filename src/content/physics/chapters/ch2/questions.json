@@ -1,1 +1,174 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "What is the SI unit of Electric Potential?",
+      "hi": "विद्युत विभव का SI मात्रक क्या है?",
+      "hinglish": "Electric potential ka SI unit kya hai?"
+    },
+    "options": [
+      {
+        "en": "Newton/Coulomb",
+        "hi": "न्यूटन/कूलॉम"
+      },
+      {
+        "en": "Joule/Coulomb (Volt)",
+        "hi": "जूल/कूलॉम (वोल्ट)"
+      },
+      {
+        "en": "Coulomb/Joule",
+        "hi": "कूलॉम/जूल"
+      },
+      {
+        "en": "Newton-meter",
+        "hi": "न्यूटन-मीटर"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Electric potential $V = W/q$. The unit of work is Joule and charge is Coulomb. Hence, Joule/Coulomb, which is also called Volt.",
+      "hi": "विद्युत विभव $V = W/q$। कार्य का मात्रक जूल और आवेश का मात्रक कूलॉम है। अतः जूल/कूलॉम, जिसे वोल्ट भी कहते हैं।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "The work done in moving a test charge over an equipotential surface is:",
+      "hi": "समविभव पृष्ठ पर परीक्षण आवेश को ले जाने में किया गया कार्य है:",
+      "hinglish": "Equipotential surface par test charge ko move karne mein kiya gaya work done kya hota hai:"
+    },
+    "options": [
+      {
+        "en": "Positive",
+        "hi": "धनात्मक"
+      },
+      {
+        "en": "Negative",
+        "hi": "ऋणात्मक"
+      },
+      {
+        "en": "Zero",
+        "hi": "शून्य"
+      },
+      {
+        "en": "Maximum",
+        "hi": "अधिकतम"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Since potential difference between any two points on an equipotential surface is zero, work done ($W = q \\Delta V$) is also zero.",
+      "hi": "चूंकि समविभव पृष्ठ पर किन्हीं दो बिंदुओं के बीच विभवांतर शून्य होता है, इसलिए किया गया कार्य ($W = q \\Delta V$) भी शून्य होता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "When a dielectric material is introduced between the plates of a charged capacitor, its capacitance:",
+      "hi": "जब आवेशित संधारित्र की प्लेटों के बीच परावैद्युत पदार्थ रखा जाता है, तो इसकी धारिता:",
+      "hinglish": "Jab capacitor ki plates ke beech dielectric material rakha jata hai, toh uski capacitance:"
+    },
+    "options": [
+      {
+        "en": "Increases",
+        "hi": "बढ़ती है"
+      },
+      {
+        "en": "Decreases",
+        "hi": "घटती है"
+      },
+      {
+        "en": "Remains same",
+        "hi": "समान रहती है"
+      },
+      {
+        "en": "Becomes zero",
+        "hi": "शून्य हो जाती है"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "Capacitance becomes $K$ times the original capacitance ($C = K C_0$), where $K$ is the dielectric constant of the medium. Since $K > 1$, capacitance increases.",
+      "hi": "धारिता मूल धारिता की $K$ गुनी ($C = K C_0$) हो जाती है, जहाँ $K$ माध्यम का परावैद्युतांक है। चूंकि $K > 1$, इसलिए धारिता बढ़ती है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Define an equipotential surface. Write its any two properties.",
+      "hi": "समविभव पृष्ठ को परिभाषित कीजिए। इसके कोई दो गुण लिखिए।",
+      "hinglish": "Equipotential surface kya hai? Iski do properties likhein."
+    },
+    "idealAnswer": {
+      "en": "An equipotential surface is a surface over which the electric potential is the same at every point.\nProperties:\n1. No work is done in moving a test charge from one point to another on an equipotential surface.\n2. The electric field is always perpendicular to the equipotential surface at every point.",
+      "hi": "समविभव पृष्ठ वह पृष्ठ है जिसके प्रत्येक बिंदु पर विद्युत विभव समान होता है।\nगुण:\n1. समविभव पृष्ठ पर परीक्षण आवेश को एक बिंदु से दूसरे बिंदु तक ले जाने में कोई कार्य नहीं किया जाता है।\n2. विद्युत क्षेत्र हमेशा समविभव पृष्ठ के लंबवत होता है।"
+    },
+    "keywords": [
+      {
+        "en": "same potential",
+        "hi": "समान विभव"
+      },
+      {
+        "en": "work done is zero",
+        "hi": "किया गया कार्य शून्य"
+      },
+      {
+        "en": "electric field perpendicular",
+        "hi": "विद्युत क्षेत्र लंबवत"
+      }
+    ],
+    "tips": {
+      "en": "This is a frequently asked 2-mark question in UP Board exams.",
+      "hi": "यह यूपी बोर्ड परीक्षाओं में अक्सर पूछा जाने वाला 2-अंक का प्रश्न है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "subjective",
+    "difficulty": "Board Level",
+    "marks": 5,
+    "question": {
+      "en": "Derive an expression for the energy stored in a parallel plate capacitor. If a dielectric is introduced between the plates, how does the stored energy change (assuming the battery is disconnected)?",
+      "hi": "समांतर प्लेट संधारित्र में संचित ऊर्जा के लिए व्यंजक प्राप्त कीजिए। यदि प्लेटों के बीच परावैद्युत पदार्थ रखा जाए, तो संचित ऊर्जा कैसे बदलती है (यह मानते हुए कि बैटरी हटा दी गई है)?",
+      "hinglish": "Parallel plate capacitor mein stored energy ka expression derive karein. Agar battery disconnect karke dielectric daalein, toh energy par kya effect padega?"
+    },
+    "idealAnswer": {
+      "en": "Let a capacitor of capacitance $C$ be charged to a potential $V$ with total charge $Q$. During charging, if charge is $q$ and potential is $v = q/C$, work done to add small charge $dq$ is $dW = v dq = (q/C) dq$.\nTotal work done $W = \\int_0^Q (q/C) dq = \\frac{1}{2C} [q^2]_0^Q = \\frac{Q^2}{2C}$. This work is stored as potential energy $U = \\frac{Q^2}{2C} = \\frac{1}{2}CV^2$.\nIf battery is disconnected, charge $Q$ remains constant. When dielectric $K$ is introduced, new capacitance $C' = KC$. The new energy $U' = \\frac{Q^2}{2C'} = \\frac{Q^2}{2KC} = \\frac{U}{K}$. Thus, stored energy decreases by a factor of $K$.",
+      "hi": "माना $C$ धारिता वाले संधारित्र को $V$ विभव तक $Q$ कुल आवेश से आवेशित किया गया है। आवेशन के दौरान, यदि आवेश $q$ और विभव $v = q/C$ है, तो सूक्ष्म आवेश $dq$ जोड़ने में किया गया कार्य $dW = v dq = (q/C) dq$ है।\nकुल कार्य $W = \\int_0^Q (q/C) dq = \\frac{1}{2C} [q^2]_0^Q = \\frac{Q^2}{2C}$। यह कार्य स्थितिज ऊर्जा $U = \\frac{Q^2}{2C} = \\frac{1}{2}CV^2$ के रूप में संचित होता है।\nयदि बैटरी हटा दी जाए, तो आवेश $Q$ स्थिर रहता है। जब परावैद्युत $K$ रखा जाता है, तो नई धारिता $C' = KC$ होती है। नई ऊर्जा $U' = \\frac{Q^2}{2C'} = \\frac{Q^2}{2KC} = \\frac{U}{K}$। अतः, संचित ऊर्जा $K$ गुना कम हो जाती है।"
+    },
+    "keywords": [
+      {
+        "en": "work done dW = v dq",
+        "hi": "किया गया कार्य dW = v dq"
+      },
+      {
+        "en": "U = Q^2/2C = 1/2 CV^2",
+        "hi": "U = Q^2/2C = 1/2 CV^2"
+      },
+      {
+        "en": "battery disconnected Q constant",
+        "hi": "बैटरी हटी, Q स्थिर"
+      },
+      {
+        "en": "energy decreases by K",
+        "hi": "ऊर्जा K गुना कम होती है"
+      }
+    ],
+    "tips": {
+      "en": "Remember that if the battery is kept connected, V is constant, and energy increases by K times.",
+      "hi": "याद रखें कि यदि बैटरी जुड़ी रहती है, तो V स्थिर रहता है, और ऊर्जा K गुना बढ़ जाती है।"
+    }
+  }
+]

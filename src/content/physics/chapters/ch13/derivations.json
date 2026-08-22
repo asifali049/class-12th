@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Nuclear Density is Independent of Mass Number",
+      "hi": "नाभिकीय घनत्व द्रव्यमान संख्या से स्वतंत्र होता है",
+      "hinglish": "Nuclear Density Mass Number se independent hoti hai"
+    },
+    "given": {
+      "en": "A nucleus of mass number $A$ and radius $R$. Empirical relation for radius is $R = R_0 A^{1/3}$, where $R_0 = 1.2 \\times 10^{-15} \\text{ m}$.",
+      "hi": "द्रव्यमान संख्या $A$ और त्रिज्या $R$ वाला एक नाभिक। त्रिज्या के लिए प्रयोगसिद्ध संबंध $R = R_0 A^{1/3}$ है, जहाँ $R_0 = 1.2 \\times 10^{-15} \\text{ m}$ है।"
+    },
+    "toFind": {
+      "en": "To prove that the density of the nucleus is constant and independent of $A$.",
+      "hi": "यह सिद्ध करना कि नाभिक का घनत्व नियत है और $A$ से स्वतंत्र है।"
+    },
+    "concept": {
+      "en": "Density ($\\rho$) = Mass of nucleus / Volume of nucleus. Assume mass of a proton $\\approx$ mass of a neutron $\\approx m_n$. Thus, total mass of nucleus $\\approx A \\cdot m_n$.",
+      "hi": "घनत्व ($\\rho$) = नाभिक का द्रव्यमान / नाभिक का आयतन। मान लीजिए एक प्रोटॉन का द्रव्यमान $\\approx$ एक न्यूट्रॉन का द्रव्यमान $\\approx m_n$ है। इस प्रकार, नाभिक का कुल द्रव्यमान $\\approx A \\cdot m_n$।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Express Mass of Nucleus",
+          "hi": "चरण 1: नाभिक का द्रव्यमान व्यक्त करना"
+        },
+        "content": {
+          "en": "Let $m_n$ be the average mass of a nucleon (proton or neutron).\\nTotal mass of nucleus, $M = A \\times m_n$",
+          "hi": "माना $m_n$ एक न्यूक्लिऑन (प्रोटॉन या न्यूट्रॉन) का औसत द्रव्यमान है।\\nनाभिक का कुल द्रव्यमान, $M = A \\times m_n$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Express Volume of Nucleus",
+          "hi": "चरण 2: नाभिक का आयतन व्यक्त करना"
+        },
+        "content": {
+          "en": "Assuming the nucleus to be spherical, its volume is:\\n$V = \\frac{4}{3}\\pi R^3$\\nSubstituting $R = R_0 A^{1/3}$:\\n$V = \\frac{4}{3}\\pi (R_0 A^{1/3})^3 = \\frac{4}{3}\\pi R_0^3 A$",
+          "hi": "नाभिक को गोलाकार मानते हुए, इसका आयतन है:\\n$V = \\frac{4}{3}\\pi R^3$\\n$R = R_0 A^{1/3}$ का मान रखने पर:\\n$V = \\frac{4}{3}\\pi (R_0 A^{1/3})^3 = \\frac{4}{3}\\pi R_0^3 A$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Calculate Density",
+          "hi": "चरण 3: घनत्व की गणना"
+        },
+        "content": {
+          "en": "Nuclear Density $\\rho = \\frac{\\text{Mass}}{\\text{Volume}} = \\frac{M}{V}$\\n$\\rho = \\frac{A \\cdot m_n}{\\frac{4}{3}\\pi R_0^3 A}$",
+          "hi": "नाभिकीय घनत्व $\\rho = \\frac{\\text{द्रव्यमान}}{\\text{आयतन}} = \\frac{M}{V}$\\n$\\rho = \\frac{A \\cdot m_n}{\\frac{4}{3}\\pi R_0^3 A}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Cancel A and conclude",
+          "hi": "चरण 4: A को निरस्त करना और निष्कर्ष निकालना"
+        },
+        "content": {
+          "en": "The mass number $A$ cancels out from the numerator and denominator:\\n$\\rho = \\frac{3 m_n}{4\\pi R_0^3}$\\nSince $m_n$ and $R_0$ are constants, the nuclear density $\\rho$ is constant for all nuclei and is independent of mass number $A$.",
+          "hi": "अंश और हर से द्रव्यमान संख्या $A$ निरस्त हो जाती है:\\n$\\rho = \\frac{3 m_n}{4\\pi R_0^3}$\\nचूँकि $m_n$ और $R_0$ नियतांक हैं, सभी नाभिकों के लिए नाभिकीय घनत्व $\\rho$ नियत है और द्रव्यमान संख्या $A$ से स्वतंत्र है।"
+        }
+      }
+    ],
+    "finalResult": "\\rho = \\frac{3 m_n}{4\\pi R_0^3} \\approx 2.3 \\times 10^{17} \\text{ kg/m}^3",
+    "examTip": {
+      "en": "This is a standard 2-mark question. Clearly state the assumption that mass of a nucleon is $m_n$ and write the final value of density if you remember it.",
+      "hi": "यह 2 अंकों का एक मानक प्रश्न है। स्पष्ट रूप से यह मान्यता बताएं कि एक न्यूक्लिऑन का द्रव्यमान $m_n$ है और यदि आपको याद है तो घनत्व का अंतिम मान लिखें।"
+    }
+  }
+]

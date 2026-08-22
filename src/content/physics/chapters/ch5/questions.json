@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The angle of dip at the magnetic equator is:",
+      "hi": "चुंबकीय भूमध्य रेखा पर नमन कोण होता है:",
+      "hinglish": "Magnetic equator par dip angle kitna hota hai:"
+    },
+    "options": [
+      {
+        "en": "0°",
+        "hi": "0°"
+      },
+      {
+        "en": "45°",
+        "hi": "45°"
+      },
+      {
+        "en": "90°",
+        "hi": "90°"
+      },
+      {
+        "en": "180°",
+        "hi": "180°"
+      }
+    ],
+    "correctOptionIndex": 0,
+    "explanation": {
+      "en": "At the magnetic equator, the earth's magnetic field is perfectly horizontal, so the angle of dip (inclination) is 0°.",
+      "hi": "चुंबकीय भूमध्य रेखा पर, पृथ्वी का चुंबकीय क्षेत्र पूर्णतः क्षैतिज होता है, इसलिए नमन कोण (नति कोण) 0° होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following materials is repelled by an external magnetic field?",
+      "hi": "निम्नलिखित में से कौन सा पदार्थ बाह्य चुंबकीय क्षेत्र द्वारा प्रतिकर्षित होता है?",
+      "hinglish": "Inme se kaunsa material external magnetic field se repel hota hai?"
+    },
+    "options": [
+      {
+        "en": "Iron (Ferromagnetic)",
+        "hi": "लोहा (लौहचुंबकीय)"
+      },
+      {
+        "en": "Aluminum (Paramagnetic)",
+        "hi": "एल्युमिनियम (अनुचुंबकीय)"
+      },
+      {
+        "en": "Bismuth (Diamagnetic)",
+        "hi": "बिस्मथ (प्रतिचुंबकीय)"
+      },
+      {
+        "en": "Cobalt (Ferromagnetic)",
+        "hi": "कोबाल्ट (लौहचुंबकीय)"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "Diamagnetic materials develop a weak magnetization in the opposite direction to the applied magnetic field, hence they are feebly repelled.",
+      "hi": "प्रतिचुंबकीय पदार्थ लगाए गए चुंबकीय क्षेत्र के विपरीत दिशा में क्षीण चुंबकन विकसित करते हैं, इसलिए वे क्षीण रूप से प्रतिकर्षित होते हैं।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Easy",
+    "marks": 2,
+    "question": {
+      "en": "Define magnetic declination.",
+      "hi": "चुंबकीय दिक्पात को परिभाषित कीजिए।",
+      "hinglish": "Magnetic declination kya hota hai, define karein."
+    },
+    "idealAnswer": {
+      "en": "Magnetic declination at a place is defined as the angle between the geographic meridian and the magnetic meridian at that place.",
+      "hi": "किसी स्थान पर चुंबकीय दिक्पात उस स्थान पर भौगोलिक याम्योत्तर और चुंबकीय याम्योत्तर के बीच के कोण के रूप में परिभाषित किया जाता है।"
+    },
+    "keywords": [
+      {
+        "en": "angle",
+        "hi": "कोण"
+      },
+      {
+        "en": "geographic meridian",
+        "hi": "भौगोलिक याम्योत्तर"
+      },
+      {
+        "en": "magnetic meridian",
+        "hi": "चुंबकीय याम्योत्तर"
+      }
+    ],
+    "tips": {
+      "en": "Always mention both 'geographic meridian' and 'magnetic meridian' clearly.",
+      "hi": "हमेशा 'भौगोलिक याम्योत्तर' और 'चुंबकीय याम्योत्तर' दोनों का स्पष्ट रूप से उल्लेख करें।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "State any three differences between paramagnetic and diamagnetic materials.",
+      "hi": "अनुचुंबकीय और प्रतिचुंबकीय पदार्थों के बीच किन्हीं तीन अंतरों को लिखिए।",
+      "hinglish": "Paramagnetic aur diamagnetic materials ke beech koi teen differences likhiye."
+    },
+    "idealAnswer": {
+      "en": "1. Paramagnetic materials are feebly attracted by a magnet, while diamagnetic materials are feebly repelled.\n2. In a non-uniform magnetic field, paramagnetic materials tend to move from weaker to stronger parts of the field. Diamagnetic materials move from stronger to weaker parts.\n3. Magnetic susceptibility (χ) is small and positive for paramagnetic materials, whereas it is small and negative for diamagnetic materials.",
+      "hi": "1. अनुचुंबकीय पदार्थ चुंबक द्वारा क्षीण रूप से आकर्षित होते हैं, जबकि प्रतिचुंबकीय पदार्थ क्षीण रूप से प्रतिकर्षित होते हैं।\n2. असमान चुंबकीय क्षेत्र में, अनुचुंबकीय पदार्थ क्षेत्र के दुर्बल भाग से प्रबल भाग की ओर जाने की प्रवृत्ति रखते हैं। प्रतिचुंबकीय पदार्थ प्रबल से दुर्बल भाग की ओर जाते हैं।\n3. अनुचुंबकीय पदार्थों के लिए चुंबकीय प्रवृत्ति (χ) छोटी और धनात्मक होती है, जबकि प्रतिचुंबकीय पदार्थों के लिए यह छोटी और ऋणात्मक होती है।"
+    },
+    "keywords": [
+      {
+        "en": "attracted vs repelled",
+        "hi": "आकर्षित बनाम प्रतिकर्षित"
+      },
+      {
+        "en": "weaker to stronger",
+        "hi": "दुर्बल से प्रबल"
+      },
+      {
+        "en": "positive vs negative susceptibility",
+        "hi": "धनात्मक बनाम ऋणात्मक प्रवृत्ति"
+      }
+    ],
+    "tips": {
+      "en": "Using a tabular format for differences is highly recommended in board exams.",
+      "hi": "बोर्ड परीक्षाओं में अंतर लिखने के लिए सारणीबद्ध (tabular) प्रारूप का उपयोग करने की अत्यधिक अनुशंसा की जाती है।"
+    }
+  }
+]

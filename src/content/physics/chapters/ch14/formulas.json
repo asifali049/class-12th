@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "equation": "n_e \\cdot n_h = n_i^2",
+    "description": {
+      "en": "Law of Mass Action",
+      "hi": "द्रव्यमान क्रिया नियम"
+    },
+    "variables": {
+      "en": "n_e = Number density of electrons\nn_h = Number density of holes\nn_i = Intrinsic carrier concentration",
+      "hi": "n_e = इलेक्ट्रॉनों का संख्या घनत्व\nn_h = होलों का संख्या घनत्व\nn_i = निज वाहक सांद्रता"
+    }
+  },
+  {
+    "equation": "I = I_e + I_h",
+    "description": {
+      "en": "Total Current in a Semiconductor",
+      "hi": "अर्धचालक में कुल धारा"
+    },
+    "variables": {
+      "en": "I = Total current\nI_e = Electron current\nI_h = Hole current",
+      "hi": "I = कुल धारा\nI_e = इलेक्ट्रॉन धारा\nI_h = होल धारा"
+    }
+  },
+  {
+    "equation": "n_e \\approx N_D \\quad \\text{(for n-type)}",
+    "description": {
+      "en": "Electron Concentration in n-type",
+      "hi": "n-प्रकार में इलेक्ट्रॉन सांद्रता"
+    },
+    "variables": {
+      "en": "N_D = Density of donor atoms",
+      "hi": "N_D = दाता परमाणुओं का घनत्व"
+    }
+  },
+  {
+    "equation": "n_h \\approx N_A \\quad \\text{(for p-type)}",
+    "description": {
+      "en": "Hole Concentration in p-type",
+      "hi": "p-प्रकार में होल सांद्रता"
+    },
+    "variables": {
+      "en": "N_A = Density of acceptor atoms",
+      "hi": "N_A = ग्राही परमाणुओं का घनत्व"
+    }
+  },
+  {
+    "equation": "\\sigma = e(n_e \\mu_e + n_h \\mu_h)",
+    "description": {
+      "en": "Conductivity of a Semiconductor",
+      "hi": "अर्धचालक की चालकता"
+    },
+    "variables": {
+      "en": "σ = Conductivity\ne = Elementary charge\nμ_e = Mobility of electrons\nμ_h = Mobility of holes",
+      "hi": "σ = चालकता\ne = मूल आवेश\nμ_e = इलेक्ट्रॉनों की गतिशीलता\nμ_h = होलों की गतिशीलता"
+    }
+  },
+  {
+    "equation": "\\nu_{out} = \\nu_{in}",
+    "description": {
+      "en": "Output Frequency of Half-Wave Rectifier",
+      "hi": "अर्ध-तरंग दिष्टकारी की आउटपुट आवृत्ति"
+    },
+    "variables": {
+      "en": "ν_out = Ripple frequency at output\nν_in = Input AC frequency",
+      "hi": "ν_out = आउटपुट पर उर्मिका आवृत्ति\nν_in = इनपुट AC आवृत्ति"
+    }
+  },
+  {
+    "equation": "\\nu_{out} = 2\\nu_{in}",
+    "description": {
+      "en": "Output Frequency of Full-Wave Rectifier",
+      "hi": "पूर्ण-तरंग दिष्टकारी की आउटपुट आवृत्ति"
+    },
+    "variables": {
+      "en": "ν_out = Ripple frequency at output\nν_in = Input AC frequency",
+      "hi": "ν_out = आउटपुट पर उर्मिका आवृत्ति\nν_in = इनपुट AC आवृत्ति"
+    }
+  }
+]

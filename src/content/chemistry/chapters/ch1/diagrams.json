@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Elevation of Boiling Point",
+      "hi": "क्वथनांक का उन्नयन",
+      "hinglish": "Elevation of Boiling Point"
+    },
+    "description": {
+      "en": "Vapour pressure-temperature curve showing the elevation of boiling point of a solvent when a non-volatile solute is added.",
+      "hi": "वाष्प दाब-तापमान वक्र जो दर्शाता है कि अवाष्पशील विलेय मिलाने पर विलायक के क्वथनांक में उन्नयन कैसे होता है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"320\" x2=\"450\" y2=\"320\" stroke=\"#9ca3af\" stroke-width=\"2\" /> <!-- T axis -->\n  <line x1=\"60\" y1=\"320\" x2=\"60\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" /> <!-- P axis -->\n\n  <!-- 1 atm Pressure Line -->\n  <line x1=\"60\" y1=\"100\" x2=\"450\" y2=\"100\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"5,5\" />\n  <text x=\"10\" y=\"105\" font-family=\"Arial\" font-size=\"14\" fill=\"#4b5563\">1 atm</text>\n\n  <!-- Axis Labels -->\n  <text x=\"220\" y=\"360\" font-family=\"Arial\" font-size=\"14\" fill=\"#4b5563\">Temperature (T)</text>\n  <text x=\"20\" y=\"220\" font-family=\"Arial\" font-size=\"14\" fill=\"#4b5563\" transform=\"rotate(-90 20,220)\">Vapour Pressure (p)</text>\n\n  <!-- Curve 1: Pure Solvent -->\n  <path d=\"M 80 280 Q 200 180 320 80\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\" />\n  <text x=\"160\" y=\"180\" font-family=\"Arial\" font-size=\"14\" fill=\"#3b82f6\" transform=\"rotate(-30 160,180)\">Pure Solvent</text>\n\n  <!-- Curve 2: Solution -->\n  <path d=\"M 140 280 Q 260 180 400 80\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\" />\n  <text x=\"230\" y=\"200\" font-family=\"Arial\" font-size=\"14\" fill=\"#ef4444\" transform=\"rotate(-30 230,200)\">Solution</text>\n\n  <!-- Intersections -->\n  <circle cx=\"296\" cy=\"100\" r=\"4\" fill=\"#000\" />\n  <circle cx=\"372\" cy=\"100\" r=\"4\" fill=\"#000\" />\n\n  <!-- Vertical Drop Lines -->\n  <line x1=\"296\" y1=\"100\" x2=\"296\" y2=\"320\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <line x1=\"372\" y1=\"100\" x2=\"372\" y2=\"320\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n\n  <!-- Temperature Labels on X-axis -->\n  <text x=\"285\" y=\"340\" font-family=\"Arial\" font-size=\"14\">T_b°</text>\n  <text x=\"365\" y=\"340\" font-family=\"Arial\" font-size=\"14\">T_b</text>\n\n  <!-- Delta Tb Indicator -->\n  <line x1=\"296\" y1=\"290\" x2=\"372\" y2=\"290\" stroke=\"#000\" stroke-width=\"1\" />\n  <polygon points=\"296,290 304,286 304,294\" fill=\"#000\" stroke=\"none\" />\n  <polygon points=\"372,290 364,286 364,294\" fill=\"#000\" stroke=\"none\" />\n  <text x=\"320\" y=\"280\" font-family=\"Arial\" font-size=\"14\" fill=\"#000\">ΔT_b</text>\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 380,
+        "y": 140,
+        "text": {
+          "en": "Solution boils at higher temp",
+          "hi": "विलयन उच्च ताप पर उबलता है"
+        }
+      }
+    ]
+  }
+]

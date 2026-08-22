@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Energy Level Diagram of Hydrogen Atom",
+      "hi": "हाइड्रोजन परमाणु का ऊर्जा स्तर आरेख",
+      "hinglish": "Hydrogen Atom ka Energy Level Diagram"
+    },
+    "description": {
+      "en": "Energy level diagram showing various spectral series (Lyman, Balmer, Paschen, Brackett, Pfund) of the hydrogen atom.",
+      "hi": "हाइड्रोजन परमाणु की विभिन्न स्पेक्ट्रमी श्रेणियों (लाइमन, बामर, पाश्चन, ब्रैकेट, फंड) को दर्शाने वाला ऊर्जा स्तर आरेख।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 500 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Energy Axis -->\n  <line x1=\"50\" y1=\"350\" x2=\"50\" y2=\"30\" stroke=\"#9ca3af\" stroke-width=\"2\" />\n  <text x=\"30\" y=\"20\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\">E (eV)</text>\n\n  <!-- n=1 (Ground State) -->\n  <line x1=\"50\" y1=\"350\" x2=\"450\" y2=\"350\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"460\" y=\"355\" font-family=\"Arial\" font-size=\"14\">n=1</text>\n  <text x=\"10\" y=\"355\" font-family=\"Arial\" font-size=\"14\">-13.6</text>\n\n  <!-- n=2 -->\n  <line x1=\"50\" y1=\"200\" x2=\"450\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <text x=\"460\" y=\"205\" font-family=\"Arial\" font-size=\"14\">n=2</text>\n  <text x=\"15\" y=\"205\" font-family=\"Arial\" font-size=\"14\">-3.40</text>\n\n  <!-- n=3 -->\n  <line x1=\"50\" y1=\"120\" x2=\"450\" y2=\"120\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"460\" y=\"125\" font-family=\"Arial\" font-size=\"14\">n=3</text>\n  <text x=\"15\" y=\"125\" font-family=\"Arial\" font-size=\"14\">-1.51</text>\n\n  <!-- n=4 -->\n  <line x1=\"50\" y1=\"80\" x2=\"450\" y2=\"80\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"460\" y=\"85\" font-family=\"Arial\" font-size=\"14\">n=4</text>\n  <text x=\"15\" y=\"85\" font-family=\"Arial\" font-size=\"14\">-0.85</text>\n\n  <!-- n=5 -->\n  <line x1=\"50\" y1=\"60\" x2=\"450\" y2=\"60\" stroke=\"#000\" stroke-width=\"0.5\" />\n  <text x=\"460\" y=\"65\" font-family=\"Arial\" font-size=\"14\">n=5</text>\n  <text x=\"15\" y=\"65\" font-family=\"Arial\" font-size=\"14\">-0.54</text>\n\n  <!-- n=infinity -->\n  <line x1=\"50\" y1=\"40\" x2=\"450\" y2=\"40\" stroke=\"#9ca3af\" stroke-width=\"1\" stroke-dasharray=\"5,5\" />\n  <text x=\"460\" y=\"45\" font-family=\"Arial\" font-size=\"14\">n=∞</text>\n  <text x=\"20\" y=\"45\" font-family=\"Arial\" font-size=\"14\">0.00</text>\n\n  <!-- Lyman Series -->\n  <g stroke=\"#8b5cf6\" stroke-width=\"1.5\">\n    <line x1=\"100\" y1=\"200\" x2=\"100\" y2=\"345\" />\n    <polygon points=\"100,350 96,342 104,342\" fill=\"#8b5cf6\" stroke=\"none\" />\n    <line x1=\"130\" y1=\"120\" x2=\"130\" y2=\"345\" />\n    <polygon points=\"130,350 126,342 134,342\" fill=\"#8b5cf6\" stroke=\"none\" />\n    <line x1=\"160\" y1=\"80\" x2=\"160\" y2=\"345\" />\n    <polygon points=\"160,350 156,342 164,342\" fill=\"#8b5cf6\" stroke=\"none\" />\n    <line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"345\" />\n    <polygon points=\"190,350 186,342 194,342\" fill=\"#8b5cf6\" stroke=\"none\" />\n  </g>\n  <text x=\"125\" y=\"370\" font-family=\"Arial\" font-size=\"14\" fill=\"#8b5cf6\" text-anchor=\"middle\">Lyman</text>\n\n  <!-- Balmer Series -->\n  <g stroke=\"#ef4444\" stroke-width=\"1.5\">\n    <line x1=\"240\" y1=\"120\" x2=\"240\" y2=\"195\" />\n    <polygon points=\"240,200 236,192 244,192\" fill=\"#ef4444\" stroke=\"none\" />\n    <line x1=\"270\" y1=\"80\" x2=\"270\" y2=\"195\" />\n    <polygon points=\"270,200 266,192 274,192\" fill=\"#ef4444\" stroke=\"none\" />\n    <line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"195\" />\n    <polygon points=\"300,200 296,192 304,192\" fill=\"#ef4444\" stroke=\"none\" />\n  </g>\n  <text x=\"270\" y=\"225\" font-family=\"Arial\" font-size=\"14\" fill=\"#ef4444\" text-anchor=\"middle\">Balmer</text>\n\n  <!-- Paschen Series -->\n  <g stroke=\"#f59e0b\" stroke-width=\"1.5\">\n    <line x1=\"350\" y1=\"80\" x2=\"350\" y2=\"115\" />\n    <polygon points=\"350,120 346,112 354,112\" fill=\"#f59e0b\" stroke=\"none\" />\n    <line x1=\"375\" y1=\"60\" x2=\"375\" y2=\"115\" />\n    <polygon points=\"375,120 371,112 379,112\" fill=\"#f59e0b\" stroke=\"none\" />\n    <line x1=\"400\" y1=\"40\" x2=\"400\" y2=\"115\" />\n    <polygon points=\"400,120 396,112 404,112\" fill=\"#f59e0b\" stroke=\"none\" />\n  </g>\n  <text x=\"375\" y=\"145\" font-family=\"Arial\" font-size=\"14\" fill=\"#f59e0b\" text-anchor=\"middle\">Paschen</text>\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 80,
+        "y": 380,
+        "text": {
+          "en": "UV Region",
+          "hi": "पराबैंगनी क्षेत्र"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 235,
+        "y": 245,
+        "text": {
+          "en": "Visible",
+          "hi": "दृश्य"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 340,
+        "y": 165,
+        "text": {
+          "en": "Infrared",
+          "hi": "अवरक्त"
+        }
+      }
+    ]
+  }
+]

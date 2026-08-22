@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Relative Lowering of Vapour Pressure",
+      "hi": "वाष्प दाब का आपेक्षिक अवनमन",
+      "hinglish": "Relative Lowering of Vapour Pressure"
+    },
+    "given": {
+      "en": "A solution containing a non-volatile solute (component 2) dissolved in a volatile solvent (component 1). Let $p_1^0$ be the vapour pressure of pure solvent.",
+      "hi": "एक विलयन जिसमें एक वाष्पशील विलायक (घटक 1) में एक अवाष्पशील विलेय (घटक 2) घुला है। माना $p_1^0$ शुद्ध विलायक का वाष्प दाब है।"
+    },
+    "toFind": {
+      "en": "Expression relating relative lowering of vapour pressure to mole fraction of solute.",
+      "hi": "वाष्प दाब के आपेक्षिक अवनमन और विलेय के मोल अंश को संबंधित करने वाला व्यंजक।"
+    },
+    "concept": {
+      "en": "Raoult's Law: $p_1 = p_1^0 \\cdot x_1$. Since solute is non-volatile, the vapour pressure of solution is only due to the solvent ($p = p_1$).",
+      "hi": "राउल्ट का नियम: $p_1 = p_1^0 \\cdot x_1$। चूँकि विलेय अवाष्पशील है, विलयन का वाष्प दाब केवल विलायक के कारण होता है ($p = p_1$)।"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Apply Raoult's Law",
+          "hi": "चरण 1: राउल्ट का नियम लागू करना"
+        },
+        "content": {
+          "en": "According to Raoult's law, the vapour pressure of the solvent in the solution is:\\n$p_1 = p_1^0 x_1$\\nwhere $x_1$ is the mole fraction of the solvent.",
+          "hi": "राउल्ट के नियम के अनुसार, विलयन में विलायक का वाष्प दाब है:\\n$p_1 = p_1^0 x_1$\\nजहाँ $x_1$ विलायक का मोल अंश है।"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Find Lowering of Vapour Pressure",
+          "hi": "चरण 2: वाष्प दाब का अवनमन ज्ञात करना"
+        },
+        "content": {
+          "en": "The lowering of vapour pressure ($\\Delta p$) is the difference between vapour pressure of pure solvent and that of the solution:\\n$\\Delta p = p_1^0 - p_1$\\nSubstitute $p_1$:\\n$\\Delta p = p_1^0 - p_1^0 x_1 = p_1^0 (1 - x_1)$",
+          "hi": "वाष्प दाब का अवनमन ($\\Delta p$) शुद्ध विलायक के वाष्प दाब और विलयन के वाष्प दाब के बीच का अंतर है:\\n$\\Delta p = p_1^0 - p_1$\\n$p_1$ का मान रखने पर:\\n$\\Delta p = p_1^0 - p_1^0 x_1 = p_1^0 (1 - x_1)$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Relate to Solute Mole Fraction",
+          "hi": "चरण 3: विलेय के मोल अंश से संबंध"
+        },
+        "content": {
+          "en": "We know that sum of mole fractions $x_1 + x_2 = 1$, which gives $1 - x_1 = x_2$.\\nTherefore,\\n$\\Delta p = p_1^0 x_2$",
+          "hi": "हम जानते हैं कि मोल अंशों का योग $x_1 + x_2 = 1$ होता है, जिससे $1 - x_1 = x_2$ प्राप्त होता है।\\nइसलिए,\\n$\\Delta p = p_1^0 x_2$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Relative Lowering",
+          "hi": "चरण 4: आपेक्षिक अवनमन"
+        },
+        "content": {
+          "en": "Divide by $p_1^0$ to get the relative lowering of vapour pressure:\\n$\\frac{\\Delta p}{p_1^0} = \\frac{p_1^0 - p_1}{p_1^0} = x_2$",
+          "hi": "वाष्प दाब का आपेक्षिक अवनमन प्राप्त करने के लिए $p_1^0$ से भाग दें:\\n$\\frac{\\Delta p}{p_1^0} = \\frac{p_1^0 - p_1}{p_1^0} = x_2$"
+        }
+      }
+    ],
+    "finalResult": "\\frac{p_1^0 - p_1}{p_1^0} = x_2",
+    "examTip": {
+      "en": "For a dilute solution, $n_2 \\ll n_1$, so $x_2 = \\frac{n_2}{n_1 + n_2} \\approx \\frac{n_2}{n_1} = \\frac{w_2 M_1}{M_2 w_1}$. This approximation is often used in numericals to find molar mass $M_2$.",
+      "hi": "तनु विलयन के लिए, $n_2 \\ll n_1$, इसलिए $x_2 = \\frac{n_2}{n_1 + n_2} \\approx \\frac{n_2}{n_1} = \\frac{w_2 M_1}{M_2 w_1}$। इस सन्निकटन का उपयोग अक्सर संख्यात्मक प्रश्नों में मोलर द्रव्यमान $M_2$ ज्ञात करने के लिए किया जाता है।"
+    }
+  }
+]

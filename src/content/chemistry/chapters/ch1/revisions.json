@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Colligative Properties",
+      "hi": "अणुसंख्य गुणधर्म",
+      "hinglish": "Colligative Properties"
+    },
+    "summary": {
+      "en": "Properties depending only on number of solute particles. Includes RLVP, elevation of boiling point, depression of freezing point, and osmotic pressure. Used to determine molar mass of solute.",
+      "hi": "गुणधर्म जो केवल विलेय कणों की संख्या पर निर्भर करते हैं। इनमें RLVP, क्वथनांक का उन्नयन, हिमांक का अवनमन और परासरण दाब शामिल हैं। विलेय का मोलर द्रव्यमान निर्धारित करने के लिए उपयोग किया जाता है।",
+      "hinglish": "Properties jo sirf solute particles ke number par depend karte hain. Isme RLVP, elevation of boiling point, depression of freezing point, aur osmotic pressure shamil hain. Solute ka molar mass determine karne ke liye use hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "π = CRT",
+        "hi": "π = CRT"
+      },
+      {
+        "en": "ΔT_b = K_b * m",
+        "hi": "ΔT_b = K_b * m"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Raoult's Law & Ideal Solutions",
+      "hi": "राउल्ट का नियम और आदर्श विलयन",
+      "hinglish": "Raoult's Law & Ideal Solutions"
+    },
+    "summary": {
+      "en": "p = p° * x. Ideal solutions obey this over entire range (ΔH_mix=0, ΔV_mix=0). Non-ideal solutions show positive (weaker interaction) or negative (stronger interaction) deviations.",
+      "hi": "p = p° * x. आदर्श विलयन संपूर्ण परास में इसका पालन करते हैं (ΔH_mix=0, ΔV_mix=0)। अनादर्श विलयन धनात्मक (कमजोर अन्योन्यक्रिया) या ऋणात्मक (मजबूत अन्योन्यक्रिया) विचलन दर्शाते हैं।",
+      "hinglish": "p = p° * x. Ideal solutions entire range me iska palan karte hain (ΔH_mix=0, ΔV_mix=0). Non-ideal solutions positive (weaker interaction) ya negative (stronger interaction) deviations show karte hain."
+    },
+    "quickRecall": [
+      {
+        "en": "Ideal: ΔH_mix = 0, ΔV_mix = 0",
+        "hi": "आदर्श: ΔH_mix = 0, ΔV_mix = 0"
+      }
+    ]
+  }
+]

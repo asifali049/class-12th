@@ -1,0 +1,112 @@
+[
+  {
+    "equation": "M = \\frac{w_B}{M_B} \\times \\frac{1000}{V(\\text{in mL})}",
+    "description": {
+      "en": "Molarity (M)",
+      "hi": "मोलरता (M)"
+    },
+    "variables": {
+      "en": "w_B = Mass of solute in grams\nM_B = Molar mass of solute\nV = Volume of solution in mL",
+      "hi": "w_B = ग्राम में विलेय का द्रव्यमान\nM_B = विलेय का मोलर द्रव्यमान\nV = mL में विलयन का आयतन"
+    }
+  },
+  {
+    "equation": "m = \\frac{w_B}{M_B} \\times \\frac{1000}{w_A(\\text{in g})}",
+    "description": {
+      "en": "Molality (m)",
+      "hi": "मोललता (m)"
+    },
+    "variables": {
+      "en": "w_B = Mass of solute in grams\nM_B = Molar mass of solute\nw_A = Mass of solvent in grams",
+      "hi": "w_B = ग्राम में विलेय का द्रव्यमान\nM_B = विलेय का मोलर द्रव्यमान\nw_A = ग्राम में विलायक का द्रव्यमान"
+    }
+  },
+  {
+    "equation": "x_A = \\frac{n_A}{n_A + n_B}, \\quad x_B = \\frac{n_B}{n_A + n_B}",
+    "description": {
+      "en": "Mole Fraction (x)",
+      "hi": "मोल अंश (x)"
+    },
+    "variables": {
+      "en": "n_A, n_B = Number of moles of components A and B\nx_A, x_B = Mole fractions",
+      "hi": "n_A, n_B = घटक A और B के मोलों की संख्या\nx_A, x_B = मोल अंश"
+    }
+  },
+  {
+    "equation": "p = K_H \\cdot x",
+    "description": {
+      "en": "Henry's Law",
+      "hi": "हेनरी का नियम"
+    },
+    "variables": {
+      "en": "p = Partial pressure of the gas\nK_H = Henry's law constant\nx = Mole fraction of gas in solution",
+      "hi": "p = गैस का आंशिक दाब\nK_H = हेनरी नियम नियतांक\nx = विलयन में गैस का मोल अंश"
+    }
+  },
+  {
+    "equation": "p_1 = p_1^0 \\cdot x_1",
+    "description": {
+      "en": "Raoult's Law (for volatile solute)",
+      "hi": "राउल्ट का नियम (वाष्पशील विलेय के लिए)"
+    },
+    "variables": {
+      "en": "p_1 = Partial vapour pressure of component 1\np_1^0 = Vapour pressure of pure component 1\nx_1 = Mole fraction of component 1",
+      "hi": "p_1 = घटक 1 का आंशिक वाष्प दाब\np_1^0 = शुद्ध घटक 1 का वाष्प दाब\nx_1 = घटक 1 का मोल अंश"
+    }
+  },
+  {
+    "equation": "\\frac{p_1^0 - p_1}{p_1^0} = i \\cdot x_2",
+    "description": {
+      "en": "Relative Lowering of Vapour Pressure",
+      "hi": "वाष्प दाब का आपेक्षिक अवनमन"
+    },
+    "variables": {
+      "en": "p_1^0 = Vapour pressure of pure solvent\np_1 = Vapour pressure of solution\ni = van't Hoff factor\nx_2 = Mole fraction of solute",
+      "hi": "p_1^0 = शुद्ध विलायक का वाष्प दाब\np_1 = विलयन का वाष्प दाब\ni = वांट हॉफ गुणांक\nx_2 = विलेय का मोल अंश"
+    }
+  },
+  {
+    "equation": "\\Delta T_b = i \\cdot K_b \\cdot m",
+    "description": {
+      "en": "Elevation of Boiling Point",
+      "hi": "क्वथनांक का उन्नयन"
+    },
+    "variables": {
+      "en": "ΔT_b = Elevation in boiling point (T_b - T_b^0)\nK_b = Molal elevation constant (Ebullioscopic constant)\nm = Molality\ni = van't Hoff factor",
+      "hi": "ΔT_b = क्वथनांक में उन्नयन (T_b - T_b^0)\nK_b = मोलल उन्नयन नियतांक (इबुलियोस्कोपिक नियतांक)\nm = मोललता\ni = वांट हॉफ गुणांक"
+    }
+  },
+  {
+    "equation": "\\Delta T_f = i \\cdot K_f \\cdot m",
+    "description": {
+      "en": "Depression of Freezing Point",
+      "hi": "हिमांक का अवनमन"
+    },
+    "variables": {
+      "en": "ΔT_f = Depression in freezing point (T_f^0 - T_f)\nK_f = Molal depression constant (Cryoscopic constant)\nm = Molality\ni = van't Hoff factor",
+      "hi": "ΔT_f = हिमांक में अवनमन (T_f^0 - T_f)\nK_f = मोलल अवनमन नियतांक (क्रायोस्कोपिक नियतांक)\nm = मोललता\ni = वांट हॉफ गुणांक"
+    }
+  },
+  {
+    "equation": "\\pi = i \\cdot CRT",
+    "description": {
+      "en": "Osmotic Pressure",
+      "hi": "परासरण दाब"
+    },
+    "variables": {
+      "en": "π = Osmotic pressure\nC = Molarity (concentration)\nR = Gas constant\nT = Temperature in Kelvin\ni = van't Hoff factor",
+      "hi": "π = परासरण दाब\nC = मोलरता (सांद्रता)\nR = गैस नियतांक\nT = केल्विन में तापमान\ni = वांट हॉफ गुणांक"
+    }
+  },
+  {
+    "equation": "i = \\frac{\\text{Normal molar mass}}{\\text{Abnormal molar mass}}",
+    "description": {
+      "en": "van't Hoff Factor",
+      "hi": "वांट हॉफ गुणांक"
+    },
+    "variables": {
+      "en": "i = van't Hoff factor",
+      "hi": "i = वांट हॉफ गुणांक"
+    }
+  }
+]

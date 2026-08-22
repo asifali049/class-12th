@@ -1,0 +1,80 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "easy",
+    "question": {
+      "en": "The peak voltage of an AC supply is 300 V. What is the rms voltage?",
+      "hi": "एक AC आपूर्ति का शिखर वोल्टेज 300 V है। rms वोल्टेज क्या है?",
+      "hinglish": "AC supply ka peak voltage 300 V hai. Iska rms voltage kya hoga?"
+    },
+    "given": {
+      "en": "$V_0 = 300 \\text{ V}$",
+      "hi": "$V_0 = 300 \\text{ V}$"
+    },
+    "required": {
+      "en": "RMS Voltage ($V_{rms}$)",
+      "hi": "RMS वोल्टेज ($V_{rms}$)"
+    },
+    "formula": "$V_{rms} = \\frac{V_0}{\\sqrt{2}}$",
+    "substitution": "$V_{rms} = \\frac{300}{1.414}$",
+    "calculation": "$V_{rms} \\approx 300 \\times 0.707$<br>$V_{rms} = 212.1$",
+    "finalAnswer": "$212.1$",
+    "unit": "V",
+    "examTip": {
+      "en": "Remember the value of $1/\\sqrt{2} \\approx 0.707$ for quicker calculations.",
+      "hi": "तेज गणना के लिए $1/\\sqrt{2} \\approx 0.707$ का मान याद रखें।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "medium",
+    "question": {
+      "en": "A 100 Ω resistor is connected to a 220 V, 50 Hz ac supply. What is the rms value of current in the circuit? What is the net power consumed over a full cycle?",
+      "hi": "100 Ω का एक प्रतिरोधक 220 V, 50 Hz ac आपूर्ति से जुड़ा है। परिपथ में धारा का rms मान क्या है? एक पूर्ण चक्र में व्यय होने वाली कुल शक्ति क्या है?",
+      "hinglish": "Ek 100 Ω resistor ko 220 V, 50 Hz ac supply se connect kiya gaya hai. Circuit me current ka rms value kya hoga? Ek full cycle me net power consumed kitni hogi?"
+    },
+    "given": {
+      "en": "$R = 100 \\, \\Omega$<br>$V_{rms} = 220 \\text{ V}$<br>$f = 50 \\text{ Hz}$",
+      "hi": "$R = 100 \\, \\Omega$<br>$V_{rms} = 220 \\text{ V}$<br>$f = 50 \\text{ Hz}$"
+    },
+    "required": {
+      "en": "RMS Current ($I_{rms}$) and Net Power ($P$)",
+      "hi": "RMS धारा ($I_{rms}$) और कुल शक्ति ($P$)"
+    },
+    "formula": "1) $I_{rms} = \\frac{V_{rms}}{R}$<br>2) $P = V_{rms} I_{rms} \\cos \\phi$<br>(For pure resistor, $\\cos \\phi = 1$)",
+    "substitution": "1) $I_{rms} = \\frac{220}{100}$<br>2) $P = 220 \\times 2.2 \\times 1$",
+    "calculation": "1) $I_{rms} = 2.2 \\text{ A}$<br>2) $P = 484 \\text{ W}$",
+    "finalAnswer": "$I_{rms} = 2.2 \\text{ A}$, $P = 484 \\text{ W}$",
+    "unit": "",
+    "examTip": {
+      "en": "When voltage is given like '220V AC', it is ALWAYS the RMS voltage, not the peak voltage.",
+      "hi": "जब वोल्टेज '220V AC' के रूप में दिया जाता है, तो यह हमेशा RMS वोल्टेज होता है, शिखर वोल्टेज नहीं।"
+    }
+  },
+  {
+    "id": "n3",
+    "difficulty": "hard",
+    "question": {
+      "en": "A series LCR circuit with $R = 20 \\Omega$, $L = 1.5 \\text{ H}$ and $C = 35 \\mu\\text{F}$ is connected to a variable-frequency 200 V ac supply. When the frequency of the supply equals the natural frequency of the circuit, what is the average power transferred to the circuit in one complete cycle?",
+      "hi": "$R = 20 \\Omega$, $L = 1.5 \\text{ H}$ और $C = 35 \\mu\\text{F}$ वाला एक LCR श्रेणी परिपथ एक परिवर्तनीय-आवृत्ति 200 V ac आपूर्ति से जुड़ा है। जब आपूर्ति की आवृत्ति परिपथ की स्वाभाविक आवृत्ति के बराबर हो जाती है, तो एक पूर्ण चक्र में परिपथ को स्थानांतरित औसत शक्ति क्या होगी?",
+      "hinglish": "Ek series LCR circuit jisme $R = 20 \\Omega$, $L = 1.5 \\text{ H}$ aur $C = 35 \\mu\\text{F}$ hai, variable-frequency 200 V ac supply se connected hai. Jab supply frequency circuit ki natural frequency ke equal ho, tab ek complete cycle me transfer hui average power kya hogi?"
+    },
+    "given": {
+      "en": "$R = 20 \\, \\Omega$<br>$L = 1.5 \\text{ H}$<br>$C = 35 \\times 10^{-6} \\text{ F}$<br>$V_{rms} = 200 \\text{ V}$<br>Condition: Resonance ($f_{supply} = f_{natural}$)",
+      "hi": "$R = 20 \\, \\Omega$<br>$L = 1.5 \\text{ H}$<br>$C = 35 \\times 10^{-6} \\text{ F}$<br>$V_{rms} = 200 \\text{ V}$<br>स्थिति: अनुनाद ($f_{supply} = f_{natural}$)"
+    },
+    "required": {
+      "en": "Average Power ($P$)",
+      "hi": "औसत शक्ति ($P$)"
+    },
+    "formula": "At resonance, $X_L = X_C$<br>So, $Z = R$<br>$I_{rms} = \\frac{V_{rms}}{Z} = \\frac{V_{rms}}{R}$<br>$P = V_{rms} I_{rms}$ (since $\\cos \\phi = 1$ at resonance)",
+    "substitution": "$I_{rms} = \\frac{200}{20} = 10 \\text{ A}$<br>$P = 200 \\times 10$",
+    "calculation": "$P = 2000$",
+    "finalAnswer": "$2000$",
+    "unit": "W",
+    "examTip": {
+      "en": "At resonance, the LCR circuit behaves like a purely resistive circuit. The impedance is minimum and current is maximum.",
+      "hi": "अनुनाद पर, LCR परिपथ एक विशुद्ध प्रतिरोधी परिपथ की तरह व्यवहार करता है। प्रतिबाधा न्यूनतम होती है और धारा अधिकतम होती है।"
+    }
+  }
+]

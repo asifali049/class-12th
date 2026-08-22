@@ -1,0 +1,54 @@
+[
+  {
+    "id": "n1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Calculate the molality of 2.5 g of ethanoic acid (CH$_3$COOH) in 75 g of benzene.",
+      "hi": "75 ग्राम बेंजीन में 2.5 ग्राम एथेनोइक अम्ल (CH$_3$COOH) की मोललता की गणना कीजिए।",
+      "hinglish": "75 g benzene me 2.5 g ethanoic acid (CH$_3$COOH) ki molality calculate karein."
+    },
+    "given": {
+      "en": "Mass of solute (ethanoic acid), $w_B = 2.5 \\text{ g}$<br>Mass of solvent (benzene), $w_A = 75 \\text{ g}$",
+      "hi": "विलेय (एथेनोइक अम्ल) का द्रव्यमान, $w_B = 2.5 \\text{ g}$<br>विलायक (बेंजीन) का द्रव्यमान, $w_A = 75 \\text{ g}$"
+    },
+    "required": {
+      "en": "Molality ($m$)",
+      "hi": "मोललता ($m$)"
+    },
+    "formula": "$m = \\frac{w_B}{M_B} \\times \\frac{1000}{w_A(\\text{in g})}$",
+    "substitution": "Molar mass of C$_2$H$_4$O$_2$: $M_B = 2(12) + 4(1) + 2(16) = 60 \\text{ g mol}^{-1}$<br>$m = \\frac{2.5}{60} \\times \\frac{1000}{75}$",
+    "calculation": "$m = \\frac{2.5 \\times 1000}{60 \\times 75} = \\frac{2500}{4500} = \\frac{5}{9} = 0.556 \\text{ mol kg}^{-1}$",
+    "finalAnswer": "$0.556 \\text{ m}$",
+    "unit": "mol kg^{-1}",
+    "examTip": {
+      "en": "Remember to convert the mass of the solvent to kg by multiplying by 1000 in the numerator if given in grams. Molality is denoted by small 'm'.",
+      "hi": "यदि विलायक का द्रव्यमान ग्राम में दिया गया है, तो अंश में 1000 से गुणा करके उसे kg में बदलना याद रखें। मोललता को छोटे 'm' से दर्शाया जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "difficulty": "hard",
+    "question": {
+      "en": "Boiling point of water at 750 mm Hg is 99.63°C. How much sucrose is to be added to 500 g of water such that it boils at 100°C? (Given $K_b \\text{ for water} = 0.52 \\text{ K kg mol}^{-1}$)",
+      "hi": "750 mm Hg पर जल का क्वथनांक 99.63°C है। 500 ग्राम जल में कितना सुक्रोज मिलाया जाए कि यह 100°C पर उबले? (जल के लिए $K_b = 0.52 \\text{ K kg mol}^{-1}$)",
+      "hinglish": "750 mm Hg par water ka boiling point 99.63°C hai. 500 g water me kitna sucrose add karein ki yeh 100°C par boil ho? (Given $K_b \\text{ for water} = 0.52 \\text{ K kg mol}^{-1}$)"
+    },
+    "given": {
+      "en": "Elevation in boiling point $\\Delta T_b = 100 - 99.63 = 0.37 \\text{ °C}$ (or $0.37 \\text{ K}$)<br>Mass of solvent (water), $w_A = 500 \\text{ g}$<br>$K_b = 0.52 \\text{ K kg mol}^{-1}$",
+      "hi": "क्वथनांक में उन्नयन $\\Delta T_b = 100 - 99.63 = 0.37 \\text{ °C}$ (या $0.37 \\text{ K}$)<br>विलायक (जल) का द्रव्यमान, $w_A = 500 \\text{ g}$<br>$K_b = 0.52 \\text{ K kg mol}^{-1}$"
+    },
+    "required": {
+      "en": "Mass of sucrose ($w_B$)",
+      "hi": "सुक्रोज का द्रव्यमान ($w_B$)"
+    },
+    "formula": "$\\Delta T_b = K_b \\times m = K_b \\times \\frac{w_B \\times 1000}{M_B \\times w_A}$<br>$\\implies w_B = \\frac{\\Delta T_b \\times M_B \\times w_A}{K_b \\times 1000}$",
+    "substitution": "Molar mass of sucrose (C$_{12}$H$_{22}$O$_{11}$): $M_B = 12(12) + 22(1) + 11(16) = 342 \\text{ g mol}^{-1}$<br>$w_B = \\frac{0.37 \\times 342 \\times 500}{0.52 \\times 1000}$",
+    "calculation": "$w_B = \\frac{0.37 \\times 342}{0.52 \\times 2} = \\frac{126.54}{1.04} \\approx 121.67 \\text{ g}$",
+    "finalAnswer": "$121.67 \\text{ g}$",
+    "unit": "g",
+    "examTip": {
+      "en": "The difference in temperature in Celsius is numerically equal to the difference in Kelvin ($\\Delta T_b \\text{ in °C} = \\Delta T_b \\text{ in K}$). Always calculate molar mass of sucrose correctly as 342 g/mol.",
+      "hi": "सेल्सियस में तापमान में अंतर केल्विन में अंतर के संख्यात्मक रूप से बराबर होता है ($\\Delta T_b \\text{ in °C} = \\Delta T_b \\text{ in K}$)। सुक्रोज का मोलर द्रव्यमान हमेशा सही ढंग से 342 g/mol परिकलित करें।"
+    }
+  }
+]

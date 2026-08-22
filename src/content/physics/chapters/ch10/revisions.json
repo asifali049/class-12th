@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "rev1",
+    "topic": {
+      "en": "Interference & YDSE",
+      "hi": "व्यतिकरण और YDSE",
+      "hinglish": "Interference & YDSE"
+    },
+    "summary": {
+      "en": "Superposition of coherent waves creates interference. YDSE shows this with bright (constructive, Δx=nλ) and dark (destructive) fringes of width β=λD/d.",
+      "hi": "कला संबद्ध तरंगों का अध्यारोपण व्यतिकरण उत्पन्न करता है। YDSE इसे चमकीली (संपोषी, Δx=nλ) और अदीप्त (विनाशी) फ्रिंजों के साथ दर्शाता है जिनकी चौड़ाई β=λD/d होती है।",
+      "hinglish": "Coherent waves ka superposition interference banata hai. YDSE isko bright (constructive, Δx=nλ) aur dark (destructive) fringes se show karta hai, width β=λD/d ke sath."
+    },
+    "quickRecall": [
+      {
+        "en": "Fringe Width β = λD/d",
+        "hi": "फ्रिंज चौड़ाई β = λD/d"
+      }
+    ]
+  },
+  {
+    "id": "rev2",
+    "topic": {
+      "en": "Diffraction",
+      "hi": "विवर्तन",
+      "hinglish": "Diffraction"
+    },
+    "summary": {
+      "en": "Bending of light around edges. In single slit, the central maximum is widest (2λD/a). Intensity decreases for higher order maxima, unlike interference.",
+      "hi": "किनारों के चारों ओर प्रकाश का मुड़ना। एकल स्लिट में, केंद्रीय उच्चिष्ठ सबसे चौड़ा (2λD/a) होता है। व्यतिकरण के विपरीत, उच्च क्रम के उच्चिष्ठों के लिए तीव्रता कम हो जाती है।",
+      "hinglish": "Edges ke around light ka bend hona. Single slit me, central max sabse choda (2λD/a) hota hai. Interference ke unlike, higher order maxima ki intensity kam hoti hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Minima: a sinθ = nλ",
+        "hi": "निम्निष्ठ: a sinθ = nλ"
+      }
+    ]
+  },
+  {
+    "id": "rev3",
+    "topic": {
+      "en": "Polarization",
+      "hi": "ध्रुवण",
+      "hinglish": "Polarization"
+    },
+    "summary": {
+      "en": "Restricting light vibrations to one plane. Unpolarized light intensity halves after first polarizer. Malus's law gives I = I₀cos²θ for subsequent polarizers.",
+      "hi": "प्रकाश के कंपनों को एक तल तक सीमित करना। पहले ध्रुवक के बाद अध्रुवित प्रकाश की तीव्रता आधी हो जाती है। बाद के ध्रुवकों के लिए मैलस का नियम I = I₀cos²θ देता है।",
+      "hinglish": "Light vibrations ko ek plane me restrict karna. First polarizer ke baad unpolarized light ki intensity half ho jati hai. Next polarizers ke liye Malus ka law I = I₀cos²θ use hota hai."
+    },
+    "quickRecall": [
+      {
+        "en": "Malus's Law: I = I₀ cos²θ",
+        "hi": "मैलस का नियम: I = I₀ cos²θ"
+      }
+    ]
+  }
+]

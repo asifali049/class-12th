@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Elements of Earth's Magnetic Field",
+      "hi": "पृथ्वी के चुंबकीय क्षेत्र के अवयव",
+      "hinglish": "Earth ke magnetic field ke elements"
+    },
+    "description": {
+      "en": "The three elements of Earth's magnetic field are Magnetic Declination (θ), Angle of Dip (δ), and Horizontal Component (B_H).",
+      "hi": "पृथ्वी के चुंबकीय क्षेत्र के तीन अवयव हैं चुंबकीय दिक्पात (θ), नमन कोण (δ) और क्षैतिज घटक (B_H)।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Reference Planes -->\n  <!-- Geographic Meridian Plane (Back) -->\n  <polygon points=\"150,50 300,30 300,200 150,220\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"2\" />\n  \n  <!-- Magnetic Meridian Plane (Front, rotated) -->\n  <polygon points=\"150,50 250,80 250,250 150,220\" fill=\"#dbeafe\" opacity=\"0.8\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n\n  <!-- Vectors and Angles -->\n  <!-- Horizontal line (Geographic North) -->\n  <line x1=\"150\" y1=\"50\" x2=\"280\" y2=\"34\" stroke=\"#6b7280\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n  <!-- Horizontal line (Magnetic North) -->\n  <line x1=\"150\" y1=\"50\" x2=\"235\" y2=\"75\" stroke=\"#3b82f6\" stroke-width=\"3\" />\n  <polygon points=\"235,75 228,70 225,78\" fill=\"#3b82f6\" />\n\n  <!-- Total Earth Magnetic Field B -->\n  <line x1=\"150\" y1=\"50\" x2=\"210\" y2=\"160\" stroke=\"#ef4444\" stroke-width=\"3\" />\n  <polygon points=\"210,160 200,152 208,148\" fill=\"#ef4444\" />\n\n  <!-- Vertical Component B_V -->\n  <line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"200\" stroke=\"#10b981\" stroke-width=\"3\" />\n  <polygon points=\"150,200 145,190 155,190\" fill=\"#10b981\" />\n\n  <!-- Completion of Rectangle in Magnetic Meridian -->\n  <line x1=\"235\" y1=\"75\" x2=\"210\" y2=\"160\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n  <line x1=\"150\" y1=\"200\" x2=\"210\" y2=\"160\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4\" />\n\n  <!-- Angles arcs -->\n  <!-- Declination theta -->\n  <path d=\"M220,42 Q230,55 205,66\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" />\n  <!-- Dip delta -->\n  <path d=\"M180,59 Q175,80 168,83\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 250,
+        "y": 70,
+        "text": {
+          "en": "$B_H$",
+          "hi": "$B_H$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 130,
+        "y": 190,
+        "text": {
+          "en": "$B_V$",
+          "hi": "$B_V$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 220,
+        "y": 165,
+        "text": {
+          "en": "$B$",
+          "hi": "$B$"
+        }
+      },
+      {
+        "id": "l4",
+        "x": 230,
+        "y": 45,
+        "text": {
+          "en": "$\\theta$",
+          "hi": "$\\theta$"
+        }
+      },
+      {
+        "id": "l5",
+        "x": 185,
+        "y": 80,
+        "text": {
+          "en": "$\\delta$",
+          "hi": "$\\delta$"
+        }
+      }
+    ]
+  }
+]

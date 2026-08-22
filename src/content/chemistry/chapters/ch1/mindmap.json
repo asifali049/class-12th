@@ -1,0 +1,74 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Solutions",
+    "hi": "विलयन",
+    "hinglish": "Solutions"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Concentration Terms",
+        "hi": "सांद्रता पद"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Molarity (M) [Temp Dep.]", "hi": "मोलरता (M) [तापमान निर्भर]" } },
+        { "id": "c1b", "label": { "en": "Molality (m) [Temp Indep.]", "hi": "मोललता (m) [तापमान स्वतंत्र]" } },
+        { "id": "c1c", "label": { "en": "Mole Fraction (x)", "hi": "मोल अंश (x)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Solubility of Gases",
+        "hi": "गैसों की विलेयता"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Henry's Law (p = K_H x)", "hi": "हेनरी का नियम (p = K_H x)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Raoult's Law",
+        "hi": "राउल्ट का नियम"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Ideal Solutions (Obey Law)", "hi": "आदर्श विलयन (नियम का पालन)" } },
+        {
+          "id": "c3b",
+          "label": { "en": "Non-Ideal Solutions", "hi": "अनादर्श विलयन" },
+          "children": [
+            { "id": "c3b1", "label": { "en": "Positive Deviation", "hi": "धनात्मक विचलन" } },
+            { "id": "c3b2", "label": { "en": "Negative Deviation", "hi": "ऋणात्मक विचलन" } }
+          ]
+        },
+        { "id": "c3c", "label": { "en": "Azeotropes", "hi": "एजियोट्रोप (स्थिरक्वाथी)" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Colligative Properties",
+        "hi": "अणुसंख्य गुणधर्म"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "RLVP (Δp/p° = x₂)", "hi": "RLVP (Δp/p° = x₂)" } },
+        { "id": "c4b", "label": { "en": "ΔT_b = K_b m", "hi": "ΔT_b = K_b m" } },
+        { "id": "c4c", "label": { "en": "ΔT_f = K_f m", "hi": "ΔT_f = K_f m" } },
+        { "id": "c4d", "label": { "en": "Osmotic Pressure (π = CRT)", "hi": "परासरण दाब (π = CRT)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Abnormal Molar Mass",
+        "hi": "असामान्य मोलर द्रव्यमान"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "van't Hoff Factor (i)", "hi": "वांट हॉफ गुणांक (i)" } }
+      ]
+    }
+  ]
+}

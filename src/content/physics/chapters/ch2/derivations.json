@@ -1,0 +1,126 @@
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Electric Potential due to a Point Charge",
+      "hi": "बिंदु आवेश के कारण विद्युत विभव",
+      "hinglish": "Point charge ki wajah se Electric Potential"
+    },
+    "given": {
+      "en": "A point charge $+q$ is placed at origin O. We need to find the potential at point P at distance $r$.",
+      "hi": "एक बिंदु आवेश $+q$ मूल बिंदु O पर स्थित है। हमें $r$ दूरी पर स्थित बिंदु P पर विभव ज्ञात करना है।"
+    },
+    "toFind": {
+      "en": "Electric potential $V$ at point P.",
+      "hi": "बिंदु P पर विद्युत विभव $V$।"
+    },
+    "concept": {
+      "en": "Work done by external force in moving test charge $q_0$ from infinity to $r$: $W = -\\int_{\\infty}^{r} \\vec{F} \\cdot d\\vec{r}$<br>Potential $V = W/q_0$",
+      "hi": "परीक्षण आवेश $q_0$ को अनंत से $r$ तक लाने में बाह्य बल द्वारा किया गया कार्य: $W = -\\int_{\\infty}^{r} \\vec{F} \\cdot d\\vec{r}$<br>विभव $V = W/q_0$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Force on Test Charge",
+          "hi": "चरण 1: परीक्षण आवेश पर बल"
+        },
+        "content": {
+          "en": "Let a test charge $q_0$ be placed at distance $x$ from $O$. The electrostatic force of repulsion is:<br>$\\vec{F} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{x^2} \\hat{x}$",
+          "hi": "माना $O$ से $x$ दूरी पर एक परीक्षण आवेश $q_0$ रखा है। स्थिर वैद्युत प्रतिकर्षण बल है:<br>$\\vec{F} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{x^2} \\hat{x}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Small Work Done",
+          "hi": "चरण 2: किया गया सूक्ष्म कार्य"
+        },
+        "content": {
+          "en": "Work done in moving $q_0$ towards $O$ by a small distance $dx$ against the electric force is:<br>$dW = \\vec{F} \\cdot d\\vec{x} = F dx \\cos(180^\\circ) = -F dx$",
+          "hi": "$q_0$ को विद्युत बल के विरुद्ध $O$ की ओर छोटी दूरी $dx$ तक ले जाने में किया गया कार्य है:<br>$dW = \\vec{F} \\cdot d\\vec{x} = F dx \\cos(180^\\circ) = -F dx$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Total Work Done",
+          "hi": "चरण 3: कुल किया गया कार्य"
+        },
+        "content": {
+          "en": "Total work done in bringing $q_0$ from infinity to distance $r$ is:<br>$W = \\int_{\\infty}^{r} -\\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{x^2} dx$<br>$W = -\\frac{q q_0}{4\\pi\\varepsilon_0} \\left[ -\\frac{1}{x} \\right]_{\\infty}^{r} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{r}$",
+          "hi": "$q_0$ को अनंत से $r$ दूरी तक लाने में किया गया कुल कार्य है:<br>$W = \\int_{\\infty}^{r} -\\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{x^2} dx$<br>$W = -\\frac{q q_0}{4\\pi\\varepsilon_0} \\left[ -\\frac{1}{x} \\right]_{\\infty}^{r} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q q_0}{r}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 4: Calculate Potential",
+          "hi": "चरण 4: विभव की गणना"
+        },
+        "content": {
+          "en": "By definition, electric potential $V = \\frac{W}{q_0}$. Substituting $W$:<br>$V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}$",
+          "hi": "परिभाषा के अनुसार, विद्युत विभव $V = \\frac{W}{q_0}$। $W$ का मान रखने पर:<br>$V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}$"
+        }
+      }
+    ],
+    "finalResult": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
+    "examTip": {
+      "en": "This derivation is very common. Always write the limits of integration carefully from infinity to r.",
+      "hi": "यह व्युत्पत्ति बहुत सामान्य है। समाकलन की सीमाएँ हमेशा अनंत से r तक सावधानीपूर्वक लिखें।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "Capacitance of a Parallel Plate Capacitor",
+      "hi": "समांतर प्लेट संधारित्र की धारिता",
+      "hinglish": "Parallel Plate Capacitor ki Capacitance"
+    },
+    "given": {
+      "en": "Two parallel plates of area $A$ separated by distance $d$. Plate 1 has charge $+Q$ (surface charge density $+\\sigma$) and Plate 2 has charge $-Q$ (surface charge density $-\\sigma$).",
+      "hi": "क्षेत्रफल $A$ की दो समांतर प्लेटें जो $d$ दूरी पर हैं। प्लेट 1 पर आवेश $+Q$ (पृष्ठ आवेश घनत्व $+\\sigma$) और प्लेट 2 पर आवेश $-Q$ (पृष्ठ आवेश घनत्व $-\\sigma$) है।"
+    },
+    "toFind": {
+      "en": "The capacitance $C$ of the parallel plate capacitor.",
+      "hi": "समांतर प्लेट संधारित्र की धारिता $C$।"
+    },
+    "concept": {
+      "en": "Electric field between plates $E = \\frac{\\sigma}{\\varepsilon_0}$<br>Potential difference $V = E \\cdot d$<br>Capacitance $C = \\frac{Q}{V}$",
+      "hi": "प्लेटों के बीच विद्युत क्षेत्र $E = \\frac{\\sigma}{\\varepsilon_0}$<br>विभवांतर $V = E \\cdot d$<br>धारिता $C = \\frac{Q}{V}$"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Step 1: Electric Field Between Plates",
+          "hi": "चरण 1: प्लेटों के बीच विद्युत क्षेत्र"
+        },
+        "content": {
+          "en": "By Gauss's law, the uniform electric field between the plates is:<br>$E = \\frac{\\sigma}{\\varepsilon_0}$<br>Where $\\sigma = \\frac{Q}{A}$",
+          "hi": "गॉस के नियम से, प्लेटों के बीच एकसमान विद्युत क्षेत्र है:<br>$E = \\frac{\\sigma}{\\varepsilon_0}$<br>जहाँ $\\sigma = \\frac{Q}{A}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 2: Potential Difference",
+          "hi": "चरण 2: विभवांतर"
+        },
+        "content": {
+          "en": "The potential difference $V$ between the plates separated by distance $d$ is:<br>$V = E \\cdot d = \\left(\\frac{\\sigma}{\\varepsilon_0}\\right) d = \\frac{Qd}{A\\varepsilon_0}$",
+          "hi": "$d$ दूरी पर स्थित प्लेटों के बीच विभवांतर $V$ है:<br>$V = E \\cdot d = \\left(\\frac{\\sigma}{\\varepsilon_0}\\right) d = \\frac{Qd}{A\\varepsilon_0}$"
+        }
+      },
+      {
+        "title": {
+          "en": "Step 3: Calculate Capacitance",
+          "hi": "चरण 3: धारिता की गणना"
+        },
+        "content": {
+          "en": "By definition, capacitance is $C = \\frac{Q}{V}$. Substituting $V$:<br>$C = \\frac{Q}{\\frac{Qd}{A\\varepsilon_0}} = \\frac{\\varepsilon_0 A}{d}$",
+          "hi": "परिभाषा के अनुसार, धारिता $C = \\frac{Q}{V}$ है। $V$ का मान रखने पर:<br>$C = \\frac{Q}{\\frac{Qd}{A\\varepsilon_0}} = \\frac{\\varepsilon_0 A}{d}$"
+        }
+      }
+    ],
+    "finalResult": "C = \\frac{\\varepsilon_0 A}{d}",
+    "examTip": {
+      "en": "Often asked with a follow-up question about what happens when a dielectric is inserted.",
+      "hi": "अक्सर यह पूछा जाता है कि यदि प्लेटों के बीच परावैद्युत पदार्थ रख दिया जाए तो क्या होगा।"
+    }
+  }
+]

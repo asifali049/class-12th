@@ -1,0 +1,69 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Ray Optics",
+    "hi": "किरण प्रकाशिकी",
+    "hinglish": "Ray Optics"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Reflection",
+        "hi": "परावर्तन"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Mirrors (Concave/Convex)", "hi": "दर्पण (अवतल/उत्तल)" } },
+        { "id": "c1b", "label": { "en": "1/v + 1/u = 1/f", "hi": "1/v + 1/u = 1/f" } },
+        { "id": "c1c", "label": { "en": "m = -v/u", "hi": "m = -v/u" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Refraction",
+        "hi": "अपवर्तन"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "Snell's Law: n = sin(i)/sin(r)", "hi": "स्नेल का नियम: n = sin(i)/sin(r)" } },
+        { "id": "c2b", "label": { "en": "TIR & Critical Angle (sinC = 1/n)", "hi": "TIR और क्रांतिक कोण (sinC = 1/n)" } },
+        { "id": "c2c", "label": { "en": "Optical Fibers, Mirage", "hi": "प्रकाशिक तंतु, मृगतृष्णा" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Lenses",
+        "hi": "लेंस"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Lens Maker's Formula", "hi": "लेंस निर्माता का सूत्र" } },
+        { "id": "c3b", "label": { "en": "1/v - 1/u = 1/f", "hi": "1/v - 1/u = 1/f" } },
+        { "id": "c3c", "label": { "en": "Power P = 1/f", "hi": "क्षमता P = 1/f" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Prism",
+        "hi": "प्रिज्म"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Dispersion", "hi": "विक्षेपण" } },
+        { "id": "c4b", "label": { "en": "n = sin((A+δm)/2) / sin(A/2)", "hi": "n = sin((A+δm)/2) / sin(A/2)" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Optical Instruments",
+        "hi": "प्रकाशिक यंत्र"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Simple Microscope", "hi": "सरल सूक्ष्मदर्शी" } },
+        { "id": "c5b", "label": { "en": "Compound Microscope", "hi": "यौगिक सूक्ष्मदर्शी" } },
+        { "id": "c5c", "label": { "en": "Astronomical Telescope", "hi": "खगोलीय दूरदर्शी" } }
+      ]
+    }
+  ]
+}

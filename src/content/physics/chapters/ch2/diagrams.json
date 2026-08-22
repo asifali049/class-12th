@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Parallel Plate Capacitor",
+      "hi": "समांतर प्लेट संधारित्र",
+      "hinglish": "Parallel Plate Capacitor"
+    },
+    "description": {
+      "en": "A parallel plate capacitor consists of two large plane parallel conducting plates separated by a small distance. The electric field between the plates is uniform.",
+      "hi": "एक समांतर प्लेट संधारित्र में दो बड़ी समतल समांतर चालक प्लेटें होती हैं जो एक-दूसरे से अल्प दूरी पर होती हैं। प्लेटों के बीच विद्युत क्षेत्र एकसमान होता है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Plates -->\n  <rect x=\"100\" y=\"50\" width=\"20\" height=\"200\" fill=\"#3b82f6\" opacity=\"0.8\" />\n  <rect x=\"280\" y=\"50\" width=\"20\" height=\"200\" fill=\"#ef4444\" opacity=\"0.8\" />\n\n  <!-- Electric Field Lines -->\n  <line x1=\"280\" y1=\"70\" x2=\"120\" y2=\"70\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n  <polygon points=\"120,70 130,65 130,75\" fill=\"#8b5cf6\" />\n  <line x1=\"280\" y1=\"110\" x2=\"120\" y2=\"110\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n  <polygon points=\"120,110 130,105 130,115\" fill=\"#8b5cf6\" />\n  <line x1=\"280\" y1=\"150\" x2=\"120\" y2=\"150\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n  <polygon points=\"120,150 130,145 130,155\" fill=\"#8b5cf6\" />\n  <line x1=\"280\" y1=\"190\" x2=\"120\" y2=\"190\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n  <polygon points=\"120,190 130,185 130,195\" fill=\"#8b5cf6\" />\n  <line x1=\"280\" y1=\"230\" x2=\"120\" y2=\"230\" stroke=\"#8b5cf6\" stroke-width=\"2\" />\n  <polygon points=\"120,230 130,225 130,235\" fill=\"#8b5cf6\" />\n\n  <!-- Connections -->\n  <line x1=\"100\" y1=\"150\" x2=\"50\" y2=\"150\" stroke=\"black\" stroke-width=\"2\" />\n  <line x1=\"300\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"black\" stroke-width=\"2\" />\n\n  <!-- Fringing Fields (Edges) -->\n  <path d=\"M280,50 Q200,20 120,50\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2\" stroke-dasharray=\"4\"/>\n  <path d=\"M280,250 Q200,280 120,250\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2\" stroke-dasharray=\"4\"/>\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 25,
+        "y": 45,
+        "text": {
+          "en": "$-Q$",
+          "hi": "$-Q$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 75,
+        "y": 45,
+        "text": {
+          "en": "$+Q$",
+          "hi": "$+Q$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 48,
+        "y": 55,
+        "text": {
+          "en": "$\\vec{E}$",
+          "hi": "$\\vec{E}$"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dg2",
+    "title": {
+      "en": "Equipotential Surfaces of a Point Charge",
+      "hi": "बिंदु आवेश के समविभव पृष्ठ",
+      "hinglish": "Point charge ke equipotential surfaces"
+    },
+    "description": {
+      "en": "For a single point charge, the equipotential surfaces are concentric spherical shells with the charge at the center.",
+      "hi": "एकल बिंदु आवेश के लिए, समविभव पृष्ठ आवेश को केंद्र मानकर बने संकेंद्रित गोलीय कोश होते हैं।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Equipotential Surfaces -->\n  <circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-dasharray=\"5,5\" />\n  <circle cx=\"150\" cy=\"150\" r=\"70\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-dasharray=\"5,5\" />\n  <circle cx=\"150\" cy=\"150\" r=\"40\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-dasharray=\"5,5\" />\n  \n  <!-- Electric Field Lines -->\n  <line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"30\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"150,30 145,40 155,40\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"270\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"150,270 145,260 155,260\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"30\" y2=\"150\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"30,150 40,145 40,155\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"270,150 260,145 260,155\" fill=\"#3b82f6\" />\n  \n  <line x1=\"150\" y1=\"150\" x2=\"65\" y2=\"65\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"65,65 68,78 78,68\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"235\" y2=\"65\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"235,65 222,68 232,78\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"65\" y2=\"235\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"65,235 78,232 68,222\" fill=\"#3b82f6\" />\n  <line x1=\"150\" y1=\"150\" x2=\"235\" y2=\"235\" stroke=\"#3b82f6\" stroke-width=\"2\" />\n  <polygon points=\"235,235 232,222 222,232\" fill=\"#3b82f6\" />\n\n  <!-- Central Charge -->\n  <circle cx=\"150\" cy=\"150\" r=\"15\" fill=\"#ef4444\" />\n  <line x1=\"145\" y1=\"150\" x2=\"155\" y2=\"150\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <line x1=\"150\" y1=\"145\" x2=\"150\" y2=\"155\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" />\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 60,
+        "y": 60,
+        "text": {
+          "en": "$V_1$",
+          "hi": "$V_1$"
+        }
+      },
+      {
+        "id": "l2",
+        "x": 75,
+        "y": 75,
+        "text": {
+          "en": "$V_2$",
+          "hi": "$V_2$"
+        }
+      },
+      {
+        "id": "l3",
+        "x": 90,
+        "y": 90,
+        "text": {
+          "en": "$V_3$",
+          "hi": "$V_3$"
+        }
+      }
+    ]
+  }
+]

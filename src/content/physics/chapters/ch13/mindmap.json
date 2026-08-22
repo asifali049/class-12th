@@ -1,0 +1,67 @@
+{
+  "id": "root",
+  "label": {
+    "en": "Nuclei",
+    "hi": "नाभिक",
+    "hinglish": "Nuclei"
+  },
+  "children": [
+    {
+      "id": "c1",
+      "label": {
+        "en": "Composition & Size",
+        "hi": "संरचना और आकार"
+      },
+      "children": [
+        { "id": "c1a", "label": { "en": "Protons + Neutrons (A = Z + N)", "hi": "प्रोटॉन + न्यूट्रॉन (A = Z + N)" } },
+        { "id": "c1b", "label": { "en": "Radius R = R₀A^(1/3)", "hi": "त्रिज्या R = R₀A^(1/3)" } },
+        { "id": "c1c", "label": { "en": "Density is constant", "hi": "घनत्व नियत है" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": {
+        "en": "Mass-Energy",
+        "hi": "द्रव्यमान-ऊर्जा"
+      },
+      "children": [
+        { "id": "c2a", "label": { "en": "E = mc²", "hi": "E = mc²" } },
+        { "id": "c2b", "label": { "en": "1 u = 931.5 MeV", "hi": "1 u = 931.5 MeV" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": {
+        "en": "Binding Energy",
+        "hi": "बंधन ऊर्जा"
+      },
+      "children": [
+        { "id": "c3a", "label": { "en": "Mass Defect (ΔM)", "hi": "द्रव्यमान क्षति (ΔM)" } },
+        { "id": "c3b", "label": { "en": "BE = ΔM × c²", "hi": "BE = ΔM × c²" } },
+        { "id": "c3c", "label": { "en": "BE/A determines stability", "hi": "BE/A स्थायित्व निर्धारित करता है" } }
+      ]
+    },
+    {
+      "id": "c4",
+      "label": {
+        "en": "Nuclear Force",
+        "hi": "नाभिकीय बल"
+      },
+      "children": [
+        { "id": "c4a", "label": { "en": "Strongest, short-range", "hi": "सबसे मजबूत, लघु-परासी" } },
+        { "id": "c4b", "label": { "en": "Charge independent", "hi": "आवेश से स्वतंत्र" } }
+      ]
+    },
+    {
+      "id": "c5",
+      "label": {
+        "en": "Nuclear Reactions",
+        "hi": "नाभिकीय अभिक्रियाएँ"
+      },
+      "children": [
+        { "id": "c5a", "label": { "en": "Fission (Heavy splits)", "hi": "विखंडन (भारी टूटता है)" } },
+        { "id": "c5b", "label": { "en": "Fusion (Light combine)", "hi": "संलयन (हल्के जुड़ते हैं)" } }
+      ]
+    }
+  ]
+}

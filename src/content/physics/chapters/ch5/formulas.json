@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "equation": "m = I A",
+    "description": {
+      "en": "Magnetic Dipole Moment of a Current Loop",
+      "hi": "धारा पाश का चुंबकीय द्विध्रुव आघूर्ण"
+    },
+    "variables": {
+      "en": "m = Magnetic moment\nI = Current\nA = Area",
+      "hi": "m = चुंबकीय आघूर्ण\nI = धारा\nA = क्षेत्रफल"
+    }
+  },
+  {
+    "equation": "m = N I A",
+    "description": {
+      "en": "Magnetic Dipole Moment of a Coil",
+      "hi": "कुंडली का चुंबकीय द्विध्रुव आघूर्ण"
+    },
+    "variables": {
+      "en": "N = Number of turns",
+      "hi": "N = फेरों की संख्या"
+    }
+  },
+  {
+    "equation": "m = q_m \\times 2l",
+    "description": {
+      "en": "Magnetic Dipole Moment of a Bar Magnet",
+      "hi": "छड़ चुंबक का चुंबकीय द्विध्रुव आघूर्ण"
+    },
+    "variables": {
+      "en": "q_m = Pole strength\n2l = Magnetic length",
+      "hi": "q_m = ध्रुव प्रबलता\n2l = चुंबकीय लंबाई"
+    }
+  },
+  {
+    "equation": "\\tau = m B \\sin \\theta",
+    "description": {
+      "en": "Torque on a Magnetic Dipole in a Magnetic Field",
+      "hi": "चुंबकीय क्षेत्र में चुंबकीय द्विध्रुव पर बल आघूर्ण"
+    },
+    "variables": {
+      "en": "τ = Torque\nm = Magnetic moment\nB = Magnetic field\nθ = Angle between m and B",
+      "hi": "τ = बल आघूर्ण\nm = चुंबकीय आघूर्ण\nB = चुंबकीय क्षेत्र\nθ = m और B के बीच का कोण"
+    }
+  },
+  {
+    "equation": "U = -m B \\cos \\theta = -\\vec{m} \\cdot \\vec{B}",
+    "description": {
+      "en": "Potential Energy of a Magnetic Dipole",
+      "hi": "चुंबकीय द्विध्रुव की स्थितिज ऊर्जा"
+    },
+    "variables": {
+      "en": "U = Potential energy",
+      "hi": "U = स्थितिज ऊर्जा"
+    }
+  },
+  {
+    "equation": "B_H = B_e \\cos \\delta",
+    "description": {
+      "en": "Horizontal Component of Earth's Magnetic Field",
+      "hi": "पृथ्वी के चुंबकीय क्षेत्र का क्षैतिज घटक"
+    },
+    "variables": {
+      "en": "B_H = Horizontal component\nB_e = Total magnetic field of Earth\nδ = Angle of dip",
+      "hi": "B_H = क्षैतिज घटक\nB_e = पृथ्वी का कुल चुंबकीय क्षेत्र\nδ = नमन कोण"
+    }
+  },
+  {
+    "equation": "B_V = B_e \\sin \\delta",
+    "description": {
+      "en": "Vertical Component of Earth's Magnetic Field",
+      "hi": "पृथ्वी के चुंबकीय क्षेत्र का ऊर्ध्वाधर घटक"
+    },
+    "variables": {
+      "en": "B_V = Vertical component",
+      "hi": "B_V = ऊर्ध्वाधर घटक"
+    }
+  },
+  {
+    "equation": "\\tan \\delta = \\frac{B_V}{B_H}",
+    "description": {
+      "en": "Angle of Dip",
+      "hi": "नमन कोण"
+    },
+    "variables": {
+      "en": "δ = Angle of dip",
+      "hi": "δ = नमन कोण"
+    }
+  }
+]

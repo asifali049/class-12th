@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dg1",
+    "title": {
+      "en": "Binding Energy per Nucleon Curve",
+      "hi": "प्रति न्यूक्लिऑन बंधन ऊर्जा वक्र",
+      "hinglish": "Binding Energy per Nucleon Curve"
+    },
+    "description": {
+      "en": "Graph showing the variation of binding energy per nucleon ($BE/A$) with mass number ($A$). It highlights the regions of nuclear fusion and fission.",
+      "hi": "द्रव्यमान संख्या ($A$) के साथ प्रति न्यूक्लिऑन बंधन ऊर्जा ($BE/A$) के परिवर्तन को दर्शाने वाला ग्राफ। यह नाभिकीय संलयन और विखंडन के क्षेत्रों को उजागर करता है।"
+    },
+    "svgContent": "<svg viewBox=\"0 0 550 350\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"300\" x2=\"500\" y2=\"300\" stroke=\"#9ca3af\" stroke-width=\"2\" /> <!-- X-axis (Mass Number A) -->\n  <line x1=\"60\" y1=\"300\" x2=\"60\" y2=\"40\" stroke=\"#9ca3af\" stroke-width=\"2\" /> <!-- Y-axis (BE/A) -->\n\n  <!-- Axis Labels -->\n  <text x=\"240\" y=\"335\" font-family=\"Arial\" font-size=\"14\" fill=\"#4b5563\">Mass Number (A)</text>\n  <text x=\"20\" y=\"200\" font-family=\"Arial\" font-size=\"14\" fill=\"#4b5563\" transform=\"rotate(-90 20,200)\">BE/A (MeV/nucleon)</text>\n\n  <!-- X-axis Ticks -->\n  <text x=\"100\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">50</text>\n  <text x=\"180\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">100</text>\n  <text x=\"260\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">150</text>\n  <text x=\"340\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">200</text>\n  <text x=\"420\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">250</text>\n\n  <!-- Y-axis Ticks -->\n  <text x=\"45\" y=\"265\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">2</text>\n  <text x=\"45\" y=\"215\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">4</text>\n  <text x=\"45\" y=\"165\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">6</text>\n  <text x=\"45\" y=\"115\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">8</text>\n  <text x=\"38\" y=\"65\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">10</text>\n  <text x=\"45\" y=\"315\" font-family=\"Arial\" font-size=\"12\" fill=\"#6b7280\">0</text>\n\n  <!-- Grid Lines (optional, keeping minimal) -->\n  <line x1=\"60\" y1=\"115\" x2=\"500\" y2=\"115\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-dasharray=\"4,4\" />\n\n  <!-- The Curve -->\n  <path d=\"M 65 290 Q 75 140 85 110 Q 110 80 140 95 Q 200 110 300 120 Q 400 140 480 165\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"3\" />\n\n  <!-- Key Nuclei Points (Approximate positions) -->\n  <circle cx=\"75\" cy=\"200\" r=\"3\" fill=\"#ef4444\" /> <text x=\"80\" y=\"210\" font-family=\"Arial\" font-size=\"12\">²H</text>\n  <circle cx=\"80\" cy=\"125\" r=\"3\" fill=\"#ef4444\" /> <text x=\"65\" y=\"120\" font-family=\"Arial\" font-size=\"12\">⁴He</text>\n  <circle cx=\"110\" cy=\"95\" r=\"3\" fill=\"#ef4444\" /> <text x=\"110\" y=\"85\" font-family=\"Arial\" font-size=\"12\">⁵⁶Fe</text>\n  <circle cx=\"450\" cy=\"155\" r=\"3\" fill=\"#ef4444\" /> <text x=\"450\" y=\"170\" font-family=\"Arial\" font-size=\"12\">²³⁸U</text>\n\n  <!-- Fusion Region Annotation -->\n  <rect x=\"80\" y=\"250\" width=\"80\" height=\"20\" rx=\"10\" fill=\"#10b981\" opacity=\"0.2\" />\n  <text x=\"90\" y=\"265\" font-family=\"Arial\" font-size=\"12\" fill=\"#047857\">Fusion →</text>\n\n  <!-- Fission Region Annotation -->\n  <rect x=\"380\" y=\"200\" width=\"80\" height=\"20\" rx=\"10\" fill=\"#f59e0b\" opacity=\"0.2\" />\n  <text x=\"385\" y=\"215\" font-family=\"Arial\" font-size=\"12\" fill=\"#b45309\">← Fission</text>\n\n  <!-- Max Stability Region -->\n  <line x1=\"110\" y1=\"75\" x2=\"110\" y2=\"90\" stroke=\"#6b7280\" stroke-width=\"1\" />\n  <text x=\"75\" y=\"65\" font-family=\"Arial\" font-size=\"12\" fill=\"#4b5563\">Max Stability (8.8 MeV)</text>\n\n</svg>",
+    "labels": [
+      {
+        "id": "l1",
+        "x": 250,
+        "y": 60,
+        "text": {
+          "en": "Broad maximum (~8.5 MeV) for 30 < A < 170",
+          "hi": "30 < A < 170 के लिए चौड़ा उच्चिष्ठ (~8.5 MeV)"
+        }
+      }
+    ]
+  }
+]

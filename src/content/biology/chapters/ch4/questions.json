@@ -1,96 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "The genotype of a person with Turner syndrome is:",
-      "hi": "टर्नर सिंड्रोम वाले व्यक्ति का जीनोटाइप है:"
+      "en": "In a monohybrid cross between a tall plant (TT) and a dwarf plant (tt), the phenotypic ratio in the F2 generation is:",
+      "hi": "एक लंबे पौधे (TT) और एक बौने पौधे (tt) के बीच मोनोहाइब्रिड संकरण (cross) में, F2 पीढ़ी में फेनोटाइपिक अनुपात क्या होता है:"
     },
     "options": [
-      {
-        "en": "44 + XXY",
-        "hi": "44 + XXY"
-      },
-      {
-        "en": "44 + XO",
-        "hi": "44 + XO"
-      },
-      {
-        "en": "44 + XYY",
-        "hi": "44 + XYY"
-      },
-      {
-        "en": "44 + XXX",
-        "hi": "44 + XXX"
-      }
+      { "id": "o1", "text": { "en": "1 : 2 : 1", "hi": "1 : 2 : 1" } },
+      { "id": "o2", "text": { "en": "3 : 1", "hi": "3 : 1" } },
+      { "id": "o3", "text": { "en": "9 : 3 : 3 : 1", "hi": "9 : 3 : 3 : 1" } },
+      { "id": "o4", "text": { "en": "1 : 1", "hi": "1 : 1" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "Turner's syndrome is caused by the absence of one X chromosome (45, with XO).",
-      "hi": "टर्नर सिंड्रोम एक X गुणसूत्र की अनुपस्थिति के कारण होता है (45, XO के साथ)।"
+      "en": "In the F2 generation of a monohybrid cross, 3/4th of the plants are tall and 1/4th are dwarf, giving a phenotypic ratio of 3:1.",
+      "hi": "मोनोहाइब्रिड संकरण की F2 पीढ़ी में, 3/4 पौधे लंबे और 1/4 बौने होते हैं, जिससे 3:1 का फेनोटाइपिक अनुपात मिलता है।"
     }
   },
   {
-    "id": "q_mcq_2",
+    "id": "q2",
     "type": "mcq",
-    "difficulty": "Medium",
-    "marks": 1,
+    "difficulty": "hard",
     "question": {
-      "en": "A cross between F1 hybrid and its recessive parent is called:",
-      "hi": "F1 संकर (hybrid) और उसके अप्रभावी (recessive) माता-पिता के बीच के क्रॉस को कहा जाता है:"
+      "en": "If a colour-blind man marries a woman who is homozygous for normal colour vision, the probability of their son being colour-blind is:",
+      "hi": "यदि एक वर्णांध (colour-blind) पुरुष सामान्य रंग दृष्टि वाली समयुग्मजी (homozygous) महिला से विवाह करता है, तो उनके पुत्र के वर्णांध होने की प्रायिकता क्या है:"
     },
     "options": [
-      {
-        "en": "Back cross",
-        "hi": "बैक क्रॉस"
-      },
-      {
-        "en": "Test cross",
-        "hi": "टेस्ट क्रॉस"
-      },
-      {
-        "en": "Monohybrid cross",
-        "hi": "मोनोहाइब्रिड क्रॉस"
-      },
-      {
-        "en": "Dihybrid cross",
-        "hi": "डाईहाइब्रिड क्रॉस"
-      }
+      { "id": "o1", "text": { "en": "0%", "hi": "0%" } },
+      { "id": "o2", "text": { "en": "50%", "hi": "50%" } },
+      { "id": "o3", "text": { "en": "75%", "hi": "75%" } },
+      { "id": "o4", "text": { "en": "100%", "hi": "100%" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o1",
     "explanation": {
-      "en": "A test cross is used to determine the genotype of a dominant phenotype by crossing it with a homozygous recessive individual.",
-      "hi": "एक टेस्ट क्रॉस का उपयोग प्रमुख फीनोटाइप के जीनोटाइप को निर्धारित करने के लिए किया जाता है।"
+      "en": "Colour blindness is an X-linked recessive trait. The son inherits his Y chromosome from his father and his X chromosome from his normal mother. Thus, the son will have a normal X chromosome and will not be colour-blind (0%).",
+      "hi": "वर्णांधता एक X-सहलग्न अप्रभावी लक्षण है। पुत्र अपने पिता से Y गुणसूत्र और अपनी सामान्य माँ से X गुणसूत्र प्राप्त करता है। इस प्रकार, पुत्र में सामान्य X गुणसूत्र होगा और वह वर्णांध नहीं होगा (0%)।"
     }
   },
   {
     "id": "q3",
-    "type": "subjective",
-    "difficulty": "Hard",
-    "marks": 5,
+    "type": "mcq",
+    "difficulty": "medium",
     "question": {
-      "en": "Describe the chromosomal theory of inheritance.",
-      "hi": "वंशागति के गुणसूत्रीय सिद्धांत (Chromosomal theory of inheritance) का वर्णन करें।"
+      "en": "Which of the following conditions is an example of a chromosomal disorder?",
+      "hi": "निम्नलिखित में से कौन सी स्थिति गुणसूत्रीय विकार का एक उदाहरण है?"
     },
-    "idealAnswer": {
-      "en": "Proposed by Sutton and Boveri. It states that chromosomes are the vehicles of genetic heredity. Key points: 1. Both chromosomes and genes occur in pairs in diploid cells. 2. Homologous chromosomes separate during meiosis. 3. Fertilization restores the diploid condition. 4. Chromosomes segregate and assort independently, leading to genetic variation.",
-      "hi": "सटन और बोवेरी द्वारा प्रस्तावित। यह बताता है कि गुणसूत्र आनुवंशिकता के वाहन हैं। मुख्य बिंदु: 1. द्विगुणित कोशिकाओं में गुणसूत्र और जीन दोनों जोड़े में होते हैं। 2. समजात गुणसूत्र अर्धसूत्रीविभाजन के दौरान अलग होते हैं। 3. निषेचन द्विगुणित स्थिति को पुनर्स्थापित करता है। 4. गुणसूत्र अलग और स्वतंत्र रूप से अपव्यूहन करते हैं, जिससे आनुवंशिक भिन्नता होती है।"
+    "options": [
+      { "id": "o1", "text": { "en": "Haemophilia", "hi": "हीमोफीलिया" } },
+      { "id": "o2", "text": { "en": "Sickle-cell anaemia", "hi": "सिकल-सेल एनीमिया" } },
+      { "id": "o3", "text": { "en": "Down's syndrome", "hi": "डाउन सिंड्रोम" } },
+      { "id": "o4", "text": { "en": "Phenylketonuria", "hi": "फेनिलकेटोनुरिया" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Down's syndrome is caused by the trisomy of chromosome 21, making it a chromosomal disorder. The others are Mendelian disorders.",
+      "hi": "डाउन सिंड्रोम गुणसूत्र 21 की ट्राइसॉमी के कारण होता है, जो इसे एक गुणसूत्रीय विकार बनाता है। अन्य मेंडेलियन विकार हैं।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a test cross? Give its significance.",
+      "hi": "परीक्षण संकरण (Test cross) क्या है? इसका महत्व बताएं।"
     },
-    "keywords": [
-      {
-        "en": "Sutton and Boveri",
-        "hi": "सटन और बोवेरी"
-      },
-      {
-        "en": "pairs",
-        "hi": "जोड़े"
-      },
-      {
-        "en": "meiosis",
-        "hi": "अर्धसूत्रीविभाजन"
-      }
-    ]
+    "answer": {
+      "en": "**Test Cross**: A cross between an organism showing a dominant phenotype (whose genotype is to be determined) and a homozygous recessive parent.\n**Significance**: It is used to determine whether the dominant phenotype is homozygous (e.g., TT) or heterozygous (e.g., Tt).",
+      "hi": "**परीक्षण संकरण**: एक प्रभावी फेनोटाइप (जिसका जीनोटाइप निर्धारित किया जाना है) दिखाने वाले जीव और एक समयुग्मजी अप्रभावी जनक के बीच संकरण।\n**महत्व**: इसका उपयोग यह निर्धारित करने के लिए किया जाता है कि प्रभावी फेनोटाइप समयुग्मजी (उदा., TT) है या विषमयुग्मजी (उदा., Tt)।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain why human males are heterogametic and birds are homogametic males.",
+      "hi": "स्पष्ट करें कि मानव नर विषमयुग्मजी (heterogametic) क्यों होते हैं और पक्षियों में नर समयुग्मजी (homogametic) क्यों होते हैं।"
+    },
+    "answer": {
+      "en": "In **humans**, males have one X and one Y chromosome (XY). Thus, they produce two different types of gametes (50% carrying X and 50% carrying Y), making them **heterogametic**.\nIn **birds**, the sex determination is of ZZ-ZW type. Males have two identical Z chromosomes (ZZ), producing only one type of gamete (all with Z), making them **homogametic**.",
+      "hi": "**मनुष्यों** में, नर में एक X और एक Y गुणसूत्र (XY) होता है। इस प्रकार, वे दो अलग-अलग प्रकार के युग्मक बनाते हैं, जिससे वे **विषमयुग्मजी** बन जाते हैं।\n**पक्षियों** में, लिंग निर्धारण ZZ-ZW प्रकार का होता है। नर में दो समान Z गुणसूत्र (ZZ) होते हैं, जो केवल एक ही प्रकार का युग्मक बनाते हैं, जिससे वे **समयुग्मजी** बन जाते हैं।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "State and explain the Law of Independent Assortment with the help of a dihybrid cross.",
+      "hi": "एक द्विसंकर (dihybrid) क्रॉस की सहायता से स्वतंत्र अपव्यूहन (Independent Assortment) के नियम का उल्लेख और व्याख्या करें।"
+    },
+    "answer": {
+      "en": "**Law of Independent Assortment**: It states that when two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters.\n**Explanation via Dihybrid Cross**: Mendel crossed a pea plant with Round Yellow seeds (RRYY) and Wrinkled Green seeds (rryy). The F1 generation was all Round Yellow (RrYy). When F1 was self-pollinated, the F2 generation yielded 4 phenotypes in the ratio 9:3:3:1 (9 Round Yellow : 3 Round Green : 3 Wrinkled Yellow : 1 Wrinkled Green). This proved that the 'R' and 'r' alleles segregated completely independently of the 'Y' and 'y' alleles.",
+      "hi": "**स्वतंत्र अपव्यूहन का नियम**: यह बताता है कि जब एक संकर में लक्षणों के दो जोड़े संयुक्त होते हैं, तो लक्षणों की एक जोड़ी का पृथक्करण दूसरी जोड़ी से स्वतंत्र होता है।\n**द्विसंकर क्रॉस द्वारा स्पष्टीकरण**: मेंडल ने गोल पीले बीज (RRYY) वाले पौधे का झुर्रीदार हरे बीज (rryy) वाले पौधे के साथ क्रॉस किया। F1 पीढ़ी गोल पीली (RrYy) थी। F1 को स्व-परागण कराने पर, F2 में 9:3:3:1 के अनुपात में 4 फेनोटाइप प्राप्त हुए। इसने साबित कर दिया कि 'R' और 'r' एलील 'Y' और 'y' एलील से पूरी तरह से स्वतंत्र रूप से अलग हो गए।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "What are chromosomal disorders? Describe Down's syndrome and Klinefelter's syndrome.",
+      "hi": "गुणसूत्रीय विकार क्या हैं? डाउन सिंड्रोम और क्लाइनफेल्टर सिंड्रोम का वर्णन करें।"
+    },
+    "answer": {
+      "en": "**Chromosomal Disorders**: Genetic disorders caused by the absence, excess, or abnormal arrangement of one or more chromosomes.\n**1. Down's Syndrome**: Caused by the presence of an additional copy of chromosome number 21 (Trisomy 21). Symptoms include short stature, small round head, furrowed tongue, partially open mouth, and mental retardation.\n**2. Klinefelter's Syndrome**: Caused by the presence of an additional copy of X-chromosome in males, resulting in a karyotype of 47, XXY. Such individuals are sterile males with overall masculine development but with some feminine features (e.g., development of breasts - Gynaecomastia).",
+      "hi": "**गुणसूत्रीय विकार**: एक या अधिक गुणसूत्रों की अनुपस्थिति, अधिकता या असामान्य व्यवस्था के कारण होने वाले आनुवंशिक विकार।\n**1. डाउन सिंड्रोम**: गुणसूत्र संख्या 21 की एक अतिरिक्त प्रति (ट्राइसॉमी 21) के कारण होता है। लक्षणों में छोटा कद, गोल सिर, आंशिक रूप से खुला मुंह और मानसिक मंदता शामिल हैं।\n**2. क्लाइनफेल्टर सिंड्रोम**: पुरुषों में X-गुणसूत्र की एक अतिरिक्त प्रति (47, XXY) के कारण होता है। ऐसे व्यक्ति बाँझ नर होते हैं जिनमें कुछ स्त्री लक्षण (जैसे, स्तनों का विकास - गाइनैकोमेस्टिया) होते हैं।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "Observe a pedigree chart where a disease skips generations and affects males and females equally. What type of inheritance does this represent?",
+      "hi": "एक वंशावली चार्ट (pedigree chart) देखें जहाँ एक बीमारी पीढ़ियों को छोड़ देती है (skips generations) और नर और मादा दोनों को समान रूप से प्रभावित करती है। यह किस प्रकार की वंशागति का प्रतिनिधित्व करता है?"
+    },
+    "answer": {
+      "en": "This represents an **Autosomal Recessive** trait. Because it skips generations, it is recessive. Because it affects both males and females equally, it is autosomal (not sex-linked). Example: Sickle-cell anaemia.",
+      "hi": "यह एक **ऑटोसोमल अप्रभावी (Autosomal Recessive)** लक्षण का प्रतिनिधित्व करता है। क्योंकि यह पीढ़ियों को छोड़ देता है, यह अप्रभावी है। क्योंकि यह नर और मादा दोनों को समान रूप से प्रभावित करता है, यह ऑटोसोमल है (लिंग-सहलग्न नहीं)। उदाहरण: सिकल-सेल एनीमिया।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "ABO blood grouping in humans is an example of:",
+      "hi": "मनुष्यों में ABO रक्त समूह किसका उदाहरण है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Incomplete dominance", "hi": "अपूर्ण प्रभाविता" } },
+      { "id": "o2", "text": { "en": "Co-dominance and multiple allelism", "hi": "सह-प्रभाविता और बहुविकल्पता (Multiple allelism)" } },
+      { "id": "o3", "text": { "en": "Pleiotropy", "hi": "प्लियोट्रॉपी" } },
+      { "id": "o4", "text": { "en": "Polygenic inheritance", "hi": "बहुजीनी वंशागति" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "ABO blood groups are controlled by the gene 'I' which has three alleles (IA, IB, i), showing multiple allelism. When IA and IB are present together, they both express themselves, showing co-dominance.",
+      "hi": "ABO रक्त समूहों को जीन 'I' द्वारा नियंत्रित किया जाता है जिसमें तीन एलील (IA, IB, i) होते हैं, जो बहुविकल्पता (multiple allelism) दिखाते हैं। जब IA और IB एक साथ मौजूद होते हैं, तो वे दोनों खुद को व्यक्त करते हैं, जो सह-प्रभाविता (co-dominance) को दर्शाता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Who proposed the Chromosomal Theory of Inheritance? What did it state?",
+      "hi": "वंशागति का गुणसूत्रीय सिद्धांत किसने प्रस्तावित किया? इसमें क्या कहा गया था?"
+    },
+    "answer": {
+      "en": "It was proposed by **Walter Sutton and Theodor Boveri**. They stated that the behaviour of chromosomes during meiosis was parallel to the behaviour of genes. They united chromosomal segregation with Mendelian principles, explaining that genes are located on chromosomes.",
+      "hi": "यह **वाल्टर सटन और थियोडोर बोवेरी** द्वारा प्रस्तावित किया गया था। उन्होंने कहा कि अर्धसूत्रीविभाजन के दौरान गुणसूत्रों का व्यवहार जीन के व्यवहार के समानांतर था। उन्होंने स्पष्ट किया कि जीन गुणसूत्रों पर स्थित होते हैं।"
+    }
   }
 ]

@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Age Pyramids for Human Population",
+      "hi": "मानव जनसंख्या के लिए आयु पिरामिड"
+    },
+    "description": {
+      "en": "Representation of age pyramids showing three different growth statuses of a population based on the proportion of pre-reproductive, reproductive, and post-reproductive individuals.",
+      "hi": "आयु पिरामिडों का प्रतिनिधित्व जो पूर्व-प्रजनन, प्रजनन और उत्तर-प्रजनन वाले व्यक्तियों के अनुपात के आधार पर जनसंख्या की तीन अलग-अलग विकास स्थितियों को दर्शाता है।"
+    },
+    "svgCode": "<svg viewBox='0 0 800 400' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.pre-rep{fill:#fef08a;stroke:#ca8a04;stroke-width:2;}.rep{fill:#93c5fd;stroke:#2563eb;stroke-width:2;}.post-rep{fill:#fca5a5;stroke:#dc2626;stroke-width:2;}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;text-anchor:middle;}.text-small{font-size:12px;font-family:sans-serif;fill:#475569;text-anchor:middle;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 50)'><text x='100' y='300' class='text-main'>Expanding</text><polygon points='20,250 180,250 160,200 40,200' class='pre-rep'/><polygon points='40,200 160,200 130,130 70,130' class='rep'/><polygon points='70,130 130,130 110,50 90,50' class='post-rep'/></g><g transform='translate(300, 50)'><text x='100' y='300' class='text-main'>Stable</text><polygon points='40,250 160,250 160,200 40,200' class='pre-rep'/><polygon points='40,200 160,200 130,130 70,130' class='rep'/><polygon points='70,130 130,130 110,50 90,50' class='post-rep'/></g><g transform='translate(550, 50)'><text x='100' y='300' class='text-main'>Declining</text><polygon points='60,250 140,250 160,200 40,200' class='pre-rep'/><polygon points='40,200 160,200 130,130 70,130' class='rep'/><polygon points='70,130 130,130 110,50 90,50' class='post-rep'/></g><g transform='translate(20, 20)'><rect x='10' y='10' width='20' height='20' class='post-rep'/><text x='100' y='25' class='text-small' style='text-anchor:start'>Post-reproductive</text><rect x='10' y='40' width='20' height='20' class='rep'/><text x='100' y='55' class='text-small' style='text-anchor:start'>Reproductive</text><rect x='10' y='70' width='20' height='20' class='pre-rep'/><text x='100' y='85' class='text-small' style='text-anchor:start'>Pre-reproductive</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 150, "y": 320, "text": { "en": "Pre > Rep (Growing)", "hi": "पूर्व > प्रजनन (बढ़ रहा है)" } },
+      { "id": "l2", "x": 650, "y": 320, "text": { "en": "Pre < Rep (Shrinking)", "hi": "पूर्व < प्रजनन (सिकुड़ रहा है)" } }
+    ]
+  },
+  {
+    "id": "dia2",
+    "title": {
+      "en": "Population Growth Curves",
+      "hi": "जनसंख्या वृद्धि वक्र (Growth Curves)"
+    },
+    "description": {
+      "en": "Graph showing Exponential growth (J-shaped curve) when resources are unlimited, and Logistic growth (S-shaped/Sigmoid curve) when resources are limited by carrying capacity (K).",
+      "hi": "संसाधन असीमित होने पर घातीय (Exponential) वृद्धि (J-आकार का वक्र) और वहन क्षमता (K) द्वारा संसाधन सीमित होने पर लॉजिस्टिक वृद्धि (S-आकार/सिग्मॉइड वक्र) दिखाने वाला ग्राफ़।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 400' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.axis{stroke:#1e293b;stroke-width:2;}.exp-curve{fill:none;stroke:#ef4444;stroke-width:4;stroke-dasharray:5,5;}.log-curve{fill:none;stroke:#2563eb;stroke-width:4;}.k-line{stroke:#10b981;stroke-width:2;stroke-dasharray:10,5;}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:14px;font-family:sans-serif;fill:#475569;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 20)'><line x1='50' y1='300' x2='500' y2='300' class='axis'/><line x1='50' y1='300' x2='50' y2='20' class='axis'/><text x='250' y='340' class='text-main'>Time (t)</text><text x='20' y='160' transform='rotate(-90 20,160)' class='text-main'>Population density (N)</text><line x1='50' y1='80' x2='500' y2='80' class='k-line'/><text x='510' y='85' class='text-main' fill='#10b981'>K</text><path d='M 50 300 Q 250 300 350 20' class='exp-curve'/><path d='M 50 300 Q 200 300 250 190 T 450 80' class='log-curve'/><text x='360' y='40' class='text-main' fill='#ef4444'>Exponential (a)</text><text x='400' y='130' class='text-main' fill='#2563eb'>Logistic (b)</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 560, "y": 80, "text": { "en": "Carrying Capacity (K)", "hi": "वहन क्षमता (K)" } },
+      { "id": "l2", "x": 420, "y": 30, "text": { "en": "dN/dt = rN", "hi": "dN/dt = rN" } },
+      { "id": "l3", "x": 450, "y": 150, "text": { "en": "dN/dt = rN(K-N)/K", "hi": "dN/dt = rN(K-N)/K" } }
+    ]
+  }
+]

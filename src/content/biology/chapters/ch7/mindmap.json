@@ -1,8 +1,65 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Human Health",
-    "hi": "मानव स्वास्थ्य"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Human Health and Disease", "hi": "मानव स्वास्थ्य तथा रोग" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Common Diseases", "hi": "सामान्य रोग" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Bacterial (Typhoid, Pneumonia)", "hi": "जीवाणु (टाइफाइड, निमोनिया)" } },
+        { "id": "n1_2", "label": { "en": "Viral (Common cold)", "hi": "विषाणु (सामान्य सर्दी)" } },
+        { "id": "n1_3", "label": { "en": "Protozoan (Malaria, Amoebiasis)", "hi": "प्रोटोजोआ (मलेरिया, अमीबायासिस)" } },
+        { "id": "n1_4", "label": { "en": "Fungal (Ringworm)", "hi": "कवक (दाद)" } },
+        { "id": "n1_5", "label": { "en": "Helminthic (Ascariasis, Filariasis)", "hi": "कृमि (एस्कारियासिस, फाइलेरिया)" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Immunity", "hi": "प्रतिरक्षा" },
+      "children": [
+        {
+          "id": "n2_1",
+          "label": { "en": "Innate (Non-specific)", "hi": "सहज (गैर-विशिष्ट)" },
+          "children": [
+            { "id": "n2_1_1", "label": { "en": "Physical & Physiological Barriers", "hi": "शारीरिक और कार्यिकीय बाधाएं" } },
+            { "id": "n2_1_2", "label": { "en": "Cellular & Cytokine Barriers", "hi": "कोशिकीय और साइटोकाइन बाधाएं" } }
+          ]
+        },
+        {
+          "id": "n2_2",
+          "label": { "en": "Acquired (Specific)", "hi": "उपार्जित (विशिष्ट)" },
+          "children": [
+            { "id": "n2_2_1", "label": { "en": "Humoral (B-cells, Antibodies)", "hi": "ह्यूमरल (B-कोशिकाएं, एंटीबॉडी)" } },
+            { "id": "n2_2_2", "label": { "en": "Cell-Mediated (T-cells)", "hi": "कोशिका-मध्यस्थता (T-कोशिकाएं)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Immune System Disorders", "hi": "प्रतिरक्षा प्रणाली के विकार" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Allergy (IgE)", "hi": "एलर्जी (IgE)" } },
+        { "id": "n3_2", "label": { "en": "Autoimmunity (Rheumatoid arthritis)", "hi": "ऑटोइम्यूनिटी (रुमेटीइड गठिया)" } },
+        { "id": "n3_3", "label": { "en": "AIDS (HIV, Macrophage & T-helper)", "hi": "एड्स (HIV, मैक्रोफेज और T-हेल्पर)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Cancer", "hi": "कैंसर" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Loss of contact inhibition", "hi": "संपर्क निषेध का नुकसान" } },
+        { "id": "n4_2", "label": { "en": "Benign vs Malignant (Metastasis)", "hi": "बिनाइन बनाम मैलिग्नेंट (मेटास्टेसिस)" } }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": { "en": "Drugs & Alcohol Abuse", "hi": "नशीली दवाओं और शराब का दुरुपयोग" },
+      "children": [
+        { "id": "n5_1", "label": { "en": "Opioids (Heroin)", "hi": "ओपिओइड (हेरोइन)" } },
+        { "id": "n5_2", "label": { "en": "Cannabinoids (Marijuana)", "hi": "कैनबिनोइड्स (मारिजुआना)" } },
+        { "id": "n5_3", "label": { "en": "Coca Alkaloids (Cocaine)", "hi": "कोका एल्कलॉइड (कोकीन)" } }
+      ]
+    }
+  ]
 }

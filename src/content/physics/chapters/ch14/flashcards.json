@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Energy Bands", "hi": "ऊर्जा बैंड" },
+    "definition": { "en": "Closely spaced energy levels in a solid. Valence Band (VB) contains valence electrons; Conduction Band (CB) contains free electrons.", "hi": "ठोस में निकटवर्ती ऊर्जा स्तर। संयोजकता बैंड (VB) में संयोजकता इलेक्ट्रॉन होते हैं; चालन बैंड (CB) में मुक्त इलेक्ट्रॉन होते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Energy Band Gap ($E_g$)", "hi": "ऊर्जा बैंड गैप ($E_g$)" },
+    "definition": { "en": "The energy gap between the top of the valence band and the bottom of the conduction band. $E_g = 0$ for metals, $> 3\\text{ eV}$ for insulators, $< 3\\text{ eV}$ for semiconductors.", "hi": "संयोजकता बैंड के शीर्ष और चालन बैंड के तल के बीच ऊर्जा का अंतर। धातुओं के लिए $E_g = 0$, कुचालकों के लिए $> 3\\text{ eV}$, अर्धचालकों के लिए $< 3\\text{ eV}$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Intrinsic Semiconductor", "hi": "नैज अर्धचालक" },
+    "definition": { "en": "Pure semiconductor (e.g., pure Si or Ge) without any impurity. Number of electrons ($n_e$) = Number of holes ($n_h$).", "hi": "बिना किसी अशुद्धता के शुद्ध अर्धचालक (उदा., शुद्ध Si या Ge)। इलेक्ट्रॉनों की संख्या ($n_e$) = होल की संख्या ($n_h$)।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "n-type Semiconductor", "hi": "n-प्रकार का अर्धचालक" },
+    "definition": { "en": "Formed by doping with pentavalent impurity (P, As, Sb). Electrons are majority carriers ($n_e \\gg n_h$).", "hi": "पंचसंयोजी अशुद्धता (P, As, Sb) के साथ डोपिंग द्वारा निर्मित। इलेक्ट्रॉन बहुसंख्यक वाहक होते हैं ($n_e \\gg n_h$)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "p-type Semiconductor", "hi": "p-प्रकार का अर्धचालक" },
+    "definition": { "en": "Formed by doping with trivalent impurity (B, Al, In). Holes are majority carriers ($n_h \\gg n_e$).", "hi": "त्रिसंयोजी अशुद्धता (B, Al, In) के साथ डोपिंग द्वारा निर्मित। होल बहुसंख्यक वाहक होते हैं ($n_h \\gg n_e$)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Depletion Region", "hi": "अवक्षय क्षेत्र" },
+    "definition": { "en": "A narrow region near the p-n junction devoid of mobile charge carriers, containing only immobile ions.", "hi": "p-n संधि के पास एक संकरा क्षेत्र जो मोबाइल आवेश वाहकों से रहित होता है, जिसमें केवल गतिहीन आयन होते हैं।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Potential Barrier", "hi": "विभव प्राचीर" },
+    "definition": { "en": "The potential difference created across the p-n junction due to the accumulation of immobile ions in the depletion region.", "hi": "अवक्षय क्षेत्र में गतिहीन आयनों के संचय के कारण p-n संधि के आर-पार उत्पन्न विभवांतर।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Forward Bias", "hi": "अग्र अभिनति" },
+    "definition": { "en": "p-side connected to positive terminal, n-side to negative. Depletion width decreases, allows large current.", "hi": "p-साइड धनात्मक टर्मिनल से जुड़ा है, n-साइड ऋणात्मक से। अवक्षय चौड़ाई कम हो जाती है, बड़ी धारा प्रवाहित होने देता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Reverse Bias", "hi": "पश्च अभिनति" },
+    "definition": { "en": "p-side connected to negative terminal, n-side to positive. Depletion width increases, very small leakage current flows.", "hi": "p-साइड ऋणात्मक टर्मिनल से जुड़ा है, n-साइड धनात्मक से। अवक्षय चौड़ाई बढ़ जाती है, बहुत कम रिसाव धारा प्रवाहित होती है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Rectifier", "hi": "दिष्टकारी" },
+    "definition": { "en": "A device (using p-n junction diodes) that converts alternating current (AC) into direct current (DC).", "hi": "एक उपकरण (p-n संधि डायोड का उपयोग करके) जो प्रत्यावर्ती धारा (AC) को दिष्ट धारा (DC) में परिवर्तित करता है।" }
+  }
+]

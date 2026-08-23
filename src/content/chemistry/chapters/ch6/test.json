@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch6",
+  "title": {
+    "en": "Chemistry Chapter 6 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 6 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following compounds undergoes $S_N1$ reaction most readily?",
+        "hi": "निम्नलिखित में से कौन सा यौगिक सबसे आसानी से $S_N1$ अभिक्रिया से गुजरता है?"
+      },
+      "options": [
+        {
+          "en": "Methyl chloride",
+          "hi": "मिथाइल क्लोराइड"
+        },
+        {
+          "en": "Primary alkyl halide",
+          "hi": "प्राथमिक (Primary) एल्काइल हैलाइड"
+        },
+        {
+          "en": "Secondary alkyl halide",
+          "hi": "द्वितीयक (Secondary) एल्काइल हैलाइड"
+        },
+        {
+          "en": "Tertiary alkyl halide",
+          "hi": "तृतीयक (Tertiary) एल्काइल हैलाइड"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "$S_N1$ reaction proceeds via a carbocation intermediate. Tertiary carbocations are the most stable due to maximum hyperconjugation and +I effect, making tertiary alkyl halides most reactive towards $S_N1$.",
+        "hi": "$S_N1$ अभिक्रिया एक कार्बोकैटायन मध्यवर्ती के माध्यम से आगे बढ़ती है। अधिकतम अतिसंयुग्मन (hyperconjugation) और +I प्रभाव के कारण तृतीयक कार्बोकैटायन सबसे स्थिर होते हैं, जिससे तृतीयक एल्काइल हैलाइड $S_N1$ के प्रति सबसे अधिक प्रतिक्रियाशील हो जाते हैं।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The reaction of an alkyl halide with alcoholic KOH yields mainly:",
+        "hi": "अल्कोहल KOH के साथ एल्काइल हैलाइड की अभिक्रिया मुख्य रूप से क्या उत्पन्न करती है?"
+      },
+      "options": [
+        {
+          "en": "An alcohol",
+          "hi": "एक अल्कोहल"
+        },
+        {
+          "en": "An alkene",
+          "hi": "एक एल्कीन"
+        },
+        {
+          "en": "An alkane",
+          "hi": "एक एल्केन"
+        },
+        {
+          "en": "An ether",
+          "hi": "एक ईथर"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Alcoholic KOH acts as a strong base and favors elimination (dehydrohalogenation) over substitution, resulting in the formation of an alkene.",
+        "hi": "एल्कोहलिक KOH एक मजबूत क्षार के रूप में कार्य करता है और प्रतिस्थापन पर विलोपन (डीहाइड्रोहैलोजनेशन) का पक्ष लेता है, जिसके परिणामस्वरूप एल्कीन का निर्माण होता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Aryl halides are less reactive than alkyl halides towards nucleophilic substitution reactions because of:",
+        "hi": "एरील हैलाइड न्यूक्लियोफिलिक प्रतिस्थापन अभिक्रियाओं के प्रति एल्काइल हैलाइड की तुलना में कम प्रतिक्रियाशील होते हैं क्योंकि:"
+      },
+      "options": [
+        {
+          "en": "Resonance stabilization",
+          "hi": "अनुनाद स्थिरीकरण (Resonance stabilization)"
+        },
+        {
+          "en": "$sp^2$ hybridization of carbon attached to halogen",
+          "hi": "हैलोजन से जुड़े कार्बन का $sp^2$ संकरण"
+        },
+        {
+          "en": "Instability of phenyl cation",
+          "hi": "फिनाइल धनायन की अस्थिरता"
+        },
+        {
+          "en": "All of the above",
+          "hi": "उपरोक्त सभी"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "Aryl halides are very unreactive towards nucleophilic substitution due to resonance (partial double bond character of C-X bond), $sp^2$ hybridization of the C atom making the bond stronger, and the instability of the phenyl cation.",
+        "hi": "अनुनाद (C-X बांड का आंशिक डबल बांड वर्ण), C परमाणु का $sp^2$ संकरण जो बंधन को मजबूत बनाता है, और फिनाइल धनायन की अस्थिरता के कारण एरील हैलाइड न्यूक्लियोफिलिक प्रतिस्थापन के प्रति बहुत कम प्रतिक्रियाशील होते हैं।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Chiral molecules are those which are:",
+        "hi": "कायरल (Chiral) अणु वे हैं जो:"
+      },
+      "options": [
+        {
+          "en": "Superimposable on their mirror image",
+          "hi": "अपनी दर्पण छवि पर अध्यारोपित (Superimposable) होते हैं"
+        },
+        {
+          "en": "Non-superimposable on their mirror image",
+          "hi": "अपनी दर्पण छवि पर अध्यारोपित नहीं होते हैं"
+        },
+        {
+          "en": "Optically inactive",
+          "hi": "प्रकाशिक रूप से निष्क्रिय होते हैं"
+        },
+        {
+          "en": "Symmetric in all respects",
+          "hi": "सभी मामलों में सममित (Symmetric) होते हैं"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "A molecule is chiral if it cannot be superimposed on its mirror image (like left and right hands). Such molecules are optically active.",
+        "hi": "एक अणु कायरल है यदि इसे अपनी दर्पण छवि (बाएं और दाएं हाथ की तरह) पर अध्यारोपित नहीं किया जा सकता है। ऐसे अणु प्रकाशिक रूप से सक्रिय होते हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Wurtz reaction involves the use of which metal in dry ether?",
+        "hi": "वुर्ट्ज़ (Wurtz) अभिक्रिया में शुष्क ईथर में किस धातु का उपयोग किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Zinc",
+          "hi": "जिंक"
+        },
+        {
+          "en": "Sodium",
+          "hi": "सोडियम"
+        },
+        {
+          "en": "Magnesium",
+          "hi": "मैग्नीशियम"
+        },
+        {
+          "en": "Copper",
+          "hi": "तांबा"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "In Wurtz reaction, alkyl halides react with sodium in dry ether to form higher alkanes containing double the number of carbon atoms present in the halide.",
+        "hi": "वुर्ट्ज़ अभिक्रिया में, एल्काइल हैलाइड शुष्क ईथर में सोडियम के साथ अभिक्रिया करके हैलाइड में मौजूद कार्बन परमाणुओं की संख्या से दोगुने उच्च एल्केन बनाते हैं।"
+      }
+    }
+  ]
+}

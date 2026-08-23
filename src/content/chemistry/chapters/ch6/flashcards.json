@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Alkyl Halides (Haloalkanes)", "hi": "एल्काइल हैलाइड (हैलोएल्केन)" },
+    "definition": { "en": "Compounds in which one or more hydrogen atoms of an alkane are replaced by halogen atoms. General formula $R-X$.", "hi": "वे यौगिक जिनमें एल्केन के एक या अधिक हाइड्रोजन परमाणुओं को हैलोजन परमाणुओं द्वारा प्रतिस्थापित किया जाता है। सामान्य सूत्र $R-X$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Aryl Halides (Haloarenes)", "hi": "एरील हैलाइड (हैलोएरीन)" },
+    "definition": { "en": "Compounds in which a halogen atom is directly attached to the $sp^2$ hybridized carbon atom of an aromatic ring.", "hi": "वे यौगिक जिनमें हैलोजन परमाणु सीधे एक सुगंधित (aromatic) वलय के $sp^2$ संकरित कार्बन परमाणु से जुड़ा होता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "$S_N1$ Reaction", "hi": "$S_N1$ अभिक्रिया" },
+    "definition": { "en": "Substitution Nucleophilic Unimolecular. Proceeds in two steps via a carbocation intermediate. Rate depends only on substrate concentration. Favors tertiary halides.", "hi": "प्रतिस्थापन न्यूक्लियोफिलिक एकअणुक। कार्बोकैटायन मध्यवर्ती के माध्यम से दो चरणों में आगे बढ़ता है। दर केवल सब्सट्रेट सांद्रता पर निर्भर करती है। तृतीयक हैलाइड का पक्ष लेता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "$S_N2$ Reaction", "hi": "$S_N2$ अभिक्रिया" },
+    "definition": { "en": "Substitution Nucleophilic Bimolecular. Proceeds in a single step with a transition state. Rate depends on both substrate and nucleophile. Favors primary halides.", "hi": "प्रतिस्थापन न्यूक्लियोफिलिक द्विअणुक। संक्रमण अवस्था के साथ एक ही चरण में आगे बढ़ता है। दर सब्सट्रेट और न्यूक्लियोफाइल दोनों पर निर्भर करती है। प्राथमिक हैलाइड का पक्ष लेता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Chirality", "hi": "कायरलता (Chirality)" },
+    "definition": { "en": "Property of an object (or molecule) of being non-superimposable on its mirror image. Necessary condition for optical activity.", "hi": "किसी वस्तु (या अणु) का अपनी दर्पण छवि पर अध्यारोपित न होने का गुण। प्रकाशिक गतिविधि के लिए आवश्यक शर्त।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Enantiomers", "hi": "एナンटिओमर्स (Enantiomers)" },
+    "definition": { "en": "Stereoisomers that are non-superimposable mirror images of each other. They rotate plane-polarized light in opposite directions.", "hi": "त्रिविम समावयवी (Stereoisomers) जो एक दूसरे के गैर-अध्यारोपित दर्पण चित्र हैं। वे समतल-ध्रुवीकृत प्रकाश को विपरीत दिशाओं में घुमाते हैं।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Racemic Mixture", "hi": "रेसेमिक मिश्रण" },
+    "definition": { "en": "An equimolar mixture of two enantiomers. It is optically inactive due to external compensation.", "hi": "दो एナンटिओमर्स का समतुल्य मिश्रण। बाहरी मुआवजे के कारण यह प्रकाशिक रूप से निष्क्रिय है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Markovnikov's Rule", "hi": "मार्कोवनिकोव का नियम" },
+    "definition": { "en": "When an unsymmetrical reagent adds to an unsymmetrical alkene, the negative part of the reagent attaches to the carbon with fewer hydrogen atoms.", "hi": "जब एक असममित अभिकर्मक एक असममित एल्कीन में जुड़ता है, तो अभिकर्मक का ऋणात्मक भाग उस कार्बन से जुड़ता है जिसमें कम हाइड्रोजन परमाणु होते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Saytzeff (Zaitsev) Rule", "hi": "सैटज़ेफ (Zaitsev) का नियम" },
+    "definition": { "en": "In dehydrohalogenation reactions, the more highly substituted alkene is the major product.", "hi": "डीहाइड्रोहैलोजनेशन अभिक्रियाओं में, अधिक अत्यधिक प्रतिस्थापित एल्कीन प्रमुख उत्पाद है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Grignard Reagent", "hi": "ग्रिग्नार्ड अभिकर्मक" },
+    "definition": { "en": "Alkyl magnesium halides ($R-Mg-X$). Very reactive organometallic compounds used to synthesize various organic compounds.", "hi": "एल्काइल मैग्नीशियम हैलाइड ($R-Mg-X$)। बहुत प्रतिक्रियाशील ऑर्गनोमेटैलिक यौगिक जिनका उपयोग विभिन्न कार्बनिक यौगिकों को संश्लेषित करने के लिए किया जाता है।" }
+  }
+]

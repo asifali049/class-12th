@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Evolution", "hi": "विकास (Evolution)" },
+    "definition": { "en": "The process of continuous, gradual, and cumulative change in the characteristics of populations over successive generations.", "hi": "क्रमिक पीढ़ियों में आबादी की विशेषताओं में निरंतर, क्रमिक और संचयी परिवर्तन की प्रक्रिया।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Homologous Organs", "hi": "समजात अंग (Homologous Organs)" },
+    "definition": { "en": "Organs which have the same fundamental structure and embryonic origin but perform different functions (e.g., forelimbs of mammals).", "hi": "वे अंग जिनकी मूलभूत संरचना और भ्रूणीय उत्पत्ति समान होती है लेकिन वे अलग-अलग कार्य करते हैं (उदा., स्तनधारियों के अग्रपाद)।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Analogous Organs", "hi": "समरूप अंग (Analogous Organs)" },
+    "definition": { "en": "Organs which have similar functions but different structural details and origins (e.g., wings of insects and birds).", "hi": "वे अंग जिनके कार्य समान होते हैं लेकिन संरचनात्मक विवरण और उत्पत्ति भिन्न होती है (उदा., कीड़ों और पक्षियों के पंख)।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Divergent Evolution", "hi": "अपसारी विकास (Divergent Evolution)" },
+    "definition": { "en": "Evolutionary pattern where species sharing a common ancestry become more distinct due to differential selection pressure.", "hi": "विकासवादी पैटर्न जहां विभेदक चयन दबाव (differential selection pressure) के कारण एक सामान्य पूर्वज साझा करने वाली प्रजातियां अधिक विशिष्ट हो जाती हैं।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Convergent Evolution", "hi": "अभिसारी विकास (Convergent Evolution)" },
+    "definition": { "en": "Evolutionary pattern where unrelated organisms independently evolve similar traits as a result of having to adapt to similar environments.", "hi": "विकासवादी पैटर्न जहां असंबंधित जीव समान वातावरण के अनुकूल होने के परिणामस्वरूप स्वतंत्र रूप से समान लक्षण विकसित करते हैं।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Adaptive Radiation", "hi": "अनुकूली विकिरण (Adaptive Radiation)" },
+    "definition": { "en": "The diversification of a group of individuals into forms filling different ecological niches from a common ancestor.", "hi": "एक सामान्य पूर्वज से विभिन्न पारिस्थितिक निश (ecological niches) को भरने वाले रूपों में व्यक्तियों के समूह का विविधीकरण।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Natural Selection", "hi": "प्राकृतिक चयन (Natural Selection)" },
+    "definition": { "en": "The process whereby organisms better adapted to their environment tend to survive and produce more offspring.", "hi": "वह प्रक्रिया जिसके द्वारा अपने पर्यावरण के अनुकूल जीव जीवित रहते हैं और अधिक संतान पैदा करते हैं।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Saltation", "hi": "साल्टेशन (Saltation)" },
+    "definition": { "en": "A single step large mutation that, according to Hugo deVries, is the cause of speciation.", "hi": "एकल चरण बड़ा उत्परिवर्तन जो, ह्यूगो डी व्रीज के अनुसार, प्रजाति निर्माण का कारण है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Genetic Drift", "hi": "आनुवंशिक बहाव (Genetic Drift)" },
+    "definition": { "en": "A change in the allele frequency of a population as a result of chance events rather than natural selection.", "hi": "प्राकृतिक चयन के बजाय संयोग (chance) की घटनाओं के परिणामस्वरूप आबादी की एलील आवृत्ति में बदलाव।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Founder Effect", "hi": "संस्थापक प्रभाव (Founder Effect)" },
+    "definition": { "en": "The loss of genetic variation that occurs when a new population is established by a very small number of individuals from a larger population.", "hi": "आनुवंशिक विविधता की हानि जो तब होती है जब एक बड़ी आबादी के बहुत कम संख्या में व्यक्तियों द्वारा एक नई आबादी स्थापित की जाती है।" }
+  }
+]

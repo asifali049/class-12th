@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch1",
+  "title": {
+    "en": "Physics Chapter 1 Mock Test",
+    "hi": "भौतिकी अध्याय 1 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "If the distance between two point charges is doubled, the electrostatic force between them becomes:",
+        "hi": "यदि दो बिंदु आवेशों के बीच की दूरी को दोगुना कर दिया जाए, तो उनके बीच स्थिर वैद्युत बल हो जाता है:"
+      },
+      "options": [
+        {
+          "en": "Double",
+          "hi": "दोगुना"
+        },
+        {
+          "en": "Half",
+          "hi": "आधा"
+        },
+        {
+          "en": "One-fourth",
+          "hi": "एक-चौथाई"
+        },
+        {
+          "en": "Four times",
+          "hi": "चार गुना"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "According to Coulomb's law, $F \\propto 1/r^2$. If r becomes 2r, the new force $F' \\propto 1/(2r)^2 = 1/4r^2$. Thus, $F' = F/4$.",
+        "hi": "कूलॉम के नियम के अनुसार, $F \\propto 1/r^2$। यदि r, 2r हो जाता है, तो नया बल $F' \\propto 1/(2r)^2 = 1/4r^2$। इस प्रकार, $F' = F/4$।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "An electric dipole placed in a uniform electric field experiences:",
+        "hi": "एकसमान विद्युत क्षेत्र में रखा गया एक विद्युत द्विध्रुव अनुभव करता है:"
+      },
+      "options": [
+        {
+          "en": "Only a net force",
+          "hi": "केवल एक कुल बल"
+        },
+        {
+          "en": "Only a torque",
+          "hi": "केवल एक बल आघूर्ण"
+        },
+        {
+          "en": "Both net force and torque",
+          "hi": "कुल बल और बल आघूर्ण दोनों"
+        },
+        {
+          "en": "Neither force nor torque",
+          "hi": "न तो बल और न ही बल आघूर्ण"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "In a uniform electric field, the net force on a dipole is always zero ($+qE$ and $-qE$ cancel out). However, the two forces form a couple, resulting in a net torque $\\tau = pE \\sin\\theta$.",
+        "hi": "एकसमान विद्युत क्षेत्र में, द्विध्रुव पर कुल बल हमेशा शून्य होता है ($+qE$ और $-qE$ एक दूसरे को रद्द करते हैं)। हालाँकि, दोनों बल एक युग्म (couple) बनाते हैं, जिसके परिणामस्वरूप कुल बल आघूर्ण $\\tau = pE \\sin\\theta$ होता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "What is the electric flux through a cube enclosing a charge q at its center?",
+        "hi": "एक घन के केंद्र में q आवेश संलग्न होने पर उसके माध्यम से विद्युत फ्लक्स क्या है?"
+      },
+      "options": [
+        {
+          "en": "$q/\\epsilon_0$",
+          "hi": "$q/\\epsilon_0$"
+        },
+        {
+          "en": "$q/6\\epsilon_0$",
+          "hi": "$q/6\\epsilon_0$"
+        },
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "$6q/\\epsilon_0$",
+          "hi": "$6q/\\epsilon_0$"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "According to Gauss's Law, the total flux through any closed surface is $q_{\\text{enclosed}}/\\epsilon_0$, regardless of its shape.",
+        "hi": "गॉस के नियम के अनुसार, किसी भी बंद सतह से गुजरने वाला कुल फ्लक्स $q_{\\text{enclosed}}/\\epsilon_0$ होता है, चाहे उसका आकार कुछ भी हो।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "The electric field inside a hollow conducting sphere is:",
+        "hi": "एक खोखले चालक गोले के अंदर विद्युत क्षेत्र होता है:"
+      },
+      "options": [
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "Uniform but non-zero",
+          "hi": "एकसमान लेकिन गैर-शून्य"
+        },
+        {
+          "en": "Maximum at the center",
+          "hi": "केंद्र में अधिकतम"
+        },
+        {
+          "en": "Depends on the radius",
+          "hi": "त्रिज्या पर निर्भर करता है"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Charges reside only on the outer surface of a conductor. Inside the hollow conductor, the enclosed charge is zero. By Gauss's Law, the electric field inside is zero.",
+        "hi": "आवेश केवल चालक की बाहरी सतह पर रहते हैं। खोखले चालक के अंदर, संलग्न आवेश शून्य होता है। गॉस के नियम से, अंदर का विद्युत क्षेत्र शून्य होता है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "When a glass rod is rubbed with silk, it acquires a positive charge because:",
+        "hi": "जब कांच की छड़ को रेशम से रगड़ा जाता है, तो यह धनात्मक आवेश प्राप्त कर लेती है क्योंकि:"
+      },
+      "options": [
+        {
+          "en": "Protons are added to it",
+          "hi": "इसमें प्रोटॉन जोड़े जाते हैं"
+        },
+        {
+          "en": "Protons are removed from it",
+          "hi": "इससे प्रोटॉन हटा दिए जाते हैं"
+        },
+        {
+          "en": "Electrons are added to it",
+          "hi": "इसमें इलेक्ट्रॉन जोड़े जाते हैं"
+        },
+        {
+          "en": "Electrons are removed from it",
+          "hi": "इससे इलेक्ट्रॉन हटा दिए जाते हैं"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "During friction, electrons are loosely bound in glass and get transferred to silk. Loss of electrons makes the glass rod positively charged.",
+        "hi": "घर्षण के दौरान, इलेक्ट्रॉन कांच में शिथिल रूप से बंधे होते हैं और रेशम में स्थानांतरित हो जाते हैं। इलेक्ट्रॉनों के नुकसान से कांच की छड़ धनावेशित हो जाती है।"
+      }
+    }
+  ]
+}

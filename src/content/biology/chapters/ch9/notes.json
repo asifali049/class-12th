@@ -1,24 +1,114 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Principles of Biotechnology",
-      "hi": "जैव प्रौद्योगिकी के सिद्धांत"
-    },
-    "content": {
-      "en": "Involves genetic engineering (altering genetic material) and bioprocess engineering. Father of genetic engineering is Paul Berg.",
-      "hi": "इसमें आनुवंशिक इंजीनियरिंग (आनुवंशिक पदार्थ को बदलना) और बायोप्रोसेस इंजीनियरिंग शामिल है।"
+    "type": "heading",
+    "text": {
+      "en": "Biotechnology: Principles and Processes",
+      "hi": "जैव प्रौद्योगिकी: सिद्धांत और प्रक्रियाएं"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Tools of rDNA Technology",
-      "hi": "rDNA तकनीक के साधन"
-    },
-    "content": {
-      "en": "Restriction Enzymes (molecular scissors), Cloning Vectors (like pBR322 to carry DNA), and Competent host cells (like E. coli).",
-      "hi": "रेस्ट्रिक्शन एंजाइम (आणविक कैंची), क्लोनिंग वैक्टर (जैसे pBR322) और सक्षम मेजबान कोशिकाएं।"
+    "type": "paragraph",
+    "text": {
+      "en": "Biotechnology deals with techniques of using live organisms or enzymes from organisms to produce products and processes useful to humans. The European Federation of Biotechnology (EFB) defines it as: 'The integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.'",
+      "hi": "जैव प्रौद्योगिकी (Biotechnology) मनुष्यों के लिए उपयोगी उत्पादों और प्रक्रियाओं का उत्पादन करने के लिए जीवित जीवों या जीवों के एंजाइमों का उपयोग करने की तकनीकों से संबंधित है। यूरोपियन फेडरेशन ऑफ बायोटेक्नोलॉजी (EFB) इसे इस प्रकार परिभाषित करता है: 'उत्पादों और सेवाओं के लिए प्राकृतिक विज्ञान और जीवों, कोशिकाओं, उसके अंगों और आणविक अनुरूपों (molecular analogues) का एकीकरण।'"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Principles of Biotechnology",
+      "hi": "1. जैव प्रौद्योगिकी के सिद्धांत"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Genetic Engineering: Techniques to alter the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype of the host organism.",
+        "hi": "आनुवंशिक इंजीनियरिंग (Genetic Engineering): आनुवंशिक सामग्री (DNA और RNA) के रसायन विज्ञान को बदलने की तकनीकें, इन्हें मेजबान जीवों में पेश करने और इस प्रकार मेजबान जीव के फेनोटाइप को बदलने के लिए।"
+      },
+      {
+        "en": "Bioprocess Engineering: Maintenance of sterile (microbial contamination-free) ambience in chemical engineering processes to enable growth of only the desired microbe/eukaryotic cell in large quantities for the manufacture of biotechnological products like antibiotics, vaccines, enzymes, etc.",
+        "hi": "बायोप्रोसेस इंजीनियरिंग: एंटीबायोटिक्स, टीके, एंजाइम आदि जैसे जैव प्रौद्योगिकी उत्पादों के निर्माण के लिए बड़ी मात्रा में केवल वांछित सूक्ष्मजीव/यूकेरियोटिक कोशिका के विकास को सक्षम करने के लिए रासायनिक इंजीनियरिंग प्रक्रियाओं में बाँझ (माइक्रोबियल संदूषण-मुक्त) वातावरण का रखरखाव।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Construction of First Artificial Recombinant DNA",
+      "hi": "2. पहले कृत्रिम पुनः संयोजक (Recombinant) DNA का निर्माण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The first recombinant DNA was constructed by Stanley Cohen and Herbert Boyer in 1972. They isolated the antibiotic resistance gene by cutting out a piece of DNA from a plasmid which was responsible for conferring antibiotic resistance. This cut piece of DNA was then linked with the plasmid DNA of Salmonella typhimurium.",
+      "hi": "पहला पुनः संयोजक (recombinant) DNA 1972 में स्टेनली कोहेन (Stanley Cohen) और हर्बर्ट बोयर (Herbert Boyer) द्वारा बनाया गया था। उन्होंने एक प्लास्मिड से DNA के एक टुकड़े को काटकर एंटीबायोटिक प्रतिरोध जीन को अलग किया जो एंटीबायोटिक प्रतिरोध प्रदान करने के लिए जिम्मेदार था। इस कटे हुए DNA टुकड़े को फिर साल्मोनेला टाइफिम्यूरियम के प्लास्मिड DNA से जोड़ा गया।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Tools of Recombinant DNA Technology",
+      "hi": "3. Recombinant DNA तकनीक के उपकरण"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "1. Restriction Enzymes (Molecular Scissors): Belong to a larger class of enzymes called nucleases (Exonucleases and Endonucleases). Restriction endonucleases make cuts at specific positions within the DNA. Each recognizes a specific palindromic nucleotide sequence (e.g., EcoRI recognizes GAATTC). They cut the DNA slightly away from the center of the palindrome sites, leaving single-stranded overhanging stretches called 'sticky ends'.\n2. DNA Ligase (Molecular Glue): Enzyme which joins the broken DNA fragments by forming phosphodiester bonds. It joins the sticky ends of the foreign DNA and vector DNA.\n3. Cloning Vectors: Plasmids and bacteriophages have the ability to replicate within bacterial cells independent of the control of chromosomal DNA. Vectors are engineered to help easy linking of foreign DNA and selection of recombinants from non-recombinants. Examples: pBR322 (plasmid), Ti plasmid of Agrobacterium tumefaciens (used to deliver genes into plants).\n4. Competent Host: For transformation with recombinant DNA. Since DNA is a hydrophilic molecule, it cannot pass through cell membranes. The bacterial cells are made 'competent' to take up DNA by treating them with a specific concentration of a divalent cation (like calcium). Other methods include micro-injection (direct injection into the nucleus of animal cell) and biolistics/gene gun (bombarding plant cells with high velocity micro-particles of gold or tungsten coated with DNA).",
+      "hi": "1. रेस्ट्रिक्शन एंजाइम (आणविक कैंची): न्यूक्लीज (एक्सोन्यूक्लाइज और एंडोन्यूक्लीज) नामक एंजाइमों के एक बड़े वर्ग से संबंधित हैं। रेस्ट्रिक्शन एंडोन्यूक्लीज DNA के भीतर विशिष्ट स्थानों पर कटौती करते हैं। प्रत्येक एक विशिष्ट पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम को पहचानता है (उदा., EcoRI GAATTC को पहचानता है)। वे DNA को पैलिंड्रोम साइटों के केंद्र से थोड़ा दूर काटते हैं, जिससे 'चिपचिपे सिरे (sticky ends)' कहलाने वाले सिंगल-स्ट्रैंडेड लटकते हिस्से रह जाते हैं।\n2. DNA लाइगेज (आणविक गोंद): एंजाइम जो फॉस्फोडाइस्टर बॉन्ड बनाकर टूटे हुए DNA टुकड़ों को जोड़ता है। यह विदेशी DNA और वेक्टर DNA के चिपचिपे सिरों को जोड़ता है।\n3. क्लोनिंग वेक्टर: प्लास्मिड और बैक्टीरियोफेज में क्रोमोसोमल DNA के नियंत्रण से स्वतंत्र रूप से जीवाणु कोशिकाओं के भीतर प्रतिकृति बनाने की क्षमता होती है। वैक्टर को विदेशी DNA को आसानी से जोड़ने और गैर-पुनः संयोजकों (non-recombinants) से पुनः संयोजकों के चयन में मदद करने के लिए इंजीनियर किया जाता है। उदाहरण: pBR322 (प्लास्मिड), एग्रोबैक्टीरियम ट्यूमेफेशियन्स का Ti प्लास्मिड (पौधों में जीन पहुंचाने के लिए उपयोग किया जाता है)।\n4. सक्षम मेजबान (Competent Host): Recombinant DNA के साथ परिवर्तन (transformation) के लिए। चूँकि DNA एक हाइड्रोफिलिक (जल-प्रेमी) अणु है, यह कोशिका झिल्ली से नहीं गुजर सकता। जीवाणु कोशिकाओं को एक विशिष्ट सांद्रता वाले द्विसंयोजक धनायन (जैसे कैल्शियम) के साथ उपचारित करके DNA को ग्रहण करने के लिए 'सक्षम' बनाया जाता है। अन्य तरीकों में माइक्रो-इंजेक्शन (पशु कोशिका के केंद्रक में सीधा इंजेक्शन) और बायोलिस्टिक्स/जीन गन (DNA से लेपित सोने या टंगस्टन के उच्च वेग वाले सूक्ष्म-कणों से पौधों की कोशिकाओं पर बमबारी) शामिल हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Processes of Recombinant DNA Technology",
+      "hi": "4. Recombinant DNA तकनीक की प्रक्रियाएं"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Isolation of the Genetic Material (DNA): Cells are treated with enzymes (Lysozyme for bacteria, Cellulase for plants, Chitinase for fungus) to break open the cell wall. RNA is removed by Ribonuclease, and proteins by Proteases. Purified DNA ultimately precipitates out after the addition of chilled ethanol.",
+        "hi": "आनुवंशिक सामग्री (DNA) का अलगाव: कोशिका भित्ति को तोड़ने के लिए कोशिकाओं को एंजाइमों (बैक्टीरिया के लिए लाइसोसोम, पौधों के लिए सेल्युलेस, कवक के लिए चिटिनेज) के साथ उपचारित किया जाता है। RNA को राइबोन्यूक्लिज़ द्वारा और प्रोटीन को प्रोटीज द्वारा हटा दिया जाता है। शुद्ध DNA अंततः ठंडा एथेनॉल मिलाने के बाद अवक्षेपित (precipitates) हो जाता है।"
+      },
+      {
+        "en": "Cutting of DNA at Specific Locations: Using restriction enzyme incubations. Gel electrophoresis is employed to check the progression of a restriction enzyme digestion. DNA is negatively charged, so it moves towards the positive electrode (anode).",
+        "hi": "विशिष्ट स्थानों पर DNA को काटना: रेस्ट्रिक्शन एंजाइम इनक्यूबेशन का उपयोग करना। रेस्ट्रिक्शन एंजाइम पाचन की प्रगति की जांच करने के लिए जेल वैद्युतकणसंचलन (Gel electrophoresis) का उपयोग किया जाता है। DNA ऋणात्मक रूप से आवेशित होता है, इसलिए यह धनात्मक इलेक्ट्रोड (एनोड) की ओर बढ़ता है।"
+      },
+      {
+        "en": "Amplification of Gene of Interest using PCR: Polymerase Chain Reaction (PCR) is used to synthesize multiple copies of the gene of interest in vitro using two sets of primers and the enzyme DNA polymerase (Taq polymerase). Steps: Denaturation, Annealing, and Extension.",
+        "hi": "PCR का उपयोग करके रुचि के जीन का प्रवर्धन (Amplification): पोलीमरेज़ चेन रिएक्शन (PCR) का उपयोग इन विट्रो में रुचि के जीन की कई प्रतियां बनाने के लिए किया जाता है, जिसमें दो सेट प्राइमरों और एंजाइम DNA पोलीमरेज़ (Taq पोलीमरेज़) का उपयोग किया जाता है। चरण: विकृतीकरण (Denaturation), एनीलिंग (Annealing), और विस्तार (Extension)।"
+      },
+      {
+        "en": "Insertion of Recombinant DNA into Host Cell/Organism: Using transformation methods (like heat shock, microinjection, gene gun).",
+        "hi": "मेजबान कोशिका/जीव में Recombinant DNA का सम्मिलन: परिवर्तन विधियों (जैसे हीट शॉक, माइक्रोइंजेक्शन, जीन गन) का उपयोग करना।"
+      },
+      {
+        "en": "Obtaining the Foreign Gene Product: The alien DNA multiplies and expresses itself to produce a desirable protein. When produced on a large scale in bioreactors, it's called a recombinant protein.",
+        "hi": "विदेशी जीन उत्पाद प्राप्त करना: विदेशी DNA गुणा करता है और वांछनीय प्रोटीन का उत्पादन करने के लिए खुद को व्यक्त करता है। जब बायोरिएक्टर में बड़े पैमाने पर उत्पादन किया जाता है, तो इसे पुनः संयोजक प्रोटीन (recombinant protein) कहा जाता है।"
+      },
+      {
+        "en": "Downstream Processing: The processes include separation and purification of the product, formulation with suitable preservatives, and strict quality control testing before it is ready for marketing.",
+        "hi": "डाउनस्ट्रीम प्रोसेसिंग: प्रक्रियाओं में उत्पाद का पृथक्करण और शुद्धिकरण, उपयुक्त परिरक्षकों (preservatives) के साथ निर्माण, और विपणन (marketing) के लिए तैयार होने से पहले सख्त गुणवत्ता नियंत्रण परीक्षण शामिल हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Bioreactors",
+      "hi": "5. बायोरिएक्टर (Bioreactors)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Bioreactors are large vessels (100-1000 litres) in which raw materials are biologically converted into specific products, individual enzymes, etc., using microbial, plant, animal, or human cells. They provide optimal conditions for achieving the desired product (temperature, pH, substrate, salts, vitamins, oxygen). The most commonly used bioreactors are of the stirring type (Simple stirred-tank and Sparged stirred-tank bioreactor).",
+      "hi": "बायोरिएक्टर बड़े बर्तन (100-1000 लीटर) होते हैं जिनमें कच्चे माल को जैविक रूप से विशिष्ट उत्पादों, व्यक्तिगत एंजाइमों आदि में परिवर्तित किया जाता है, माइक्रोबियल, पौधे, जानवर या मानव कोशिकाओं का उपयोग करके। वे वांछित उत्पाद (तापमान, पीएच, सब्सट्रेट, लवण, विटामिन, ऑक्सीजन) प्राप्त करने के लिए इष्टतम स्थितियां (optimal conditions) प्रदान करते हैं। सबसे अधिक इस्तेमाल किए जाने वाले बायोरिएक्टर सरगर्मी प्रकार (Stirring type) के होते हैं (सिंपल स्टिरड-टैंक और स्पार्ग स्टिरड-टैंक बायोरिएक्टर)।"
     }
   }
 ]

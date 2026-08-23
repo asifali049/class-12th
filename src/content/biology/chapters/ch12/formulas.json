@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Primary Productivity Relationship",
+      "hi": "प्राथमिक उत्पादकता संबंध"
+    },
+    "formula": "\\text{NPP} = \\text{GPP} - R",
+    "variables": [
+      {
+        "name": "\\text{NPP}",
+        "description": { "en": "Net Primary Productivity (Biomass available to consumers)", "hi": "शुद्ध प्राथमिक उत्पादकता (उपभोक्ताओं के लिए उपलब्ध बायोमास)" }
+      },
+      {
+        "name": "\\text{GPP}",
+        "description": { "en": "Gross Primary Productivity (Total rate of photosynthesis)", "hi": "सकल प्राथमिक उत्पादकता (प्रकाश संश्लेषण की कुल दर)" }
+      },
+      {
+        "name": "R",
+        "description": { "en": "Respiration losses (Energy used by plants themselves)", "hi": "श्वसन हानि (पौधों द्वारा स्वयं उपयोग की जाने वाली ऊर्जा)" }
+      }
+    ],
+    "applications": {
+      "en": "Fundamental equation of ecosystem energetics. NPP is what is actually available for heterotrophs.",
+      "hi": "पारिस्थितिकी तंत्र ऊर्जावान (energetics) का मौलिक समीकरण। NPP वह है जो वास्तव में हेटरोट्रॉफ़्स के लिए उपलब्ध है।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Lindeman's 10% Law of Energy Transfer",
+      "hi": "लिंडेमैन का ऊर्जा हस्तांतरण का 10% नियम"
+    },
+    "formula": "E_{n+1} = E_n \\times 10\\%",
+    "variables": [
+      {
+        "name": "E_n",
+        "description": { "en": "Energy at a given trophic level", "hi": "किसी दिए गए पोषी स्तर (trophic level) पर ऊर्जा" }
+      },
+      {
+        "name": "E_{n+1}",
+        "description": { "en": "Energy available to the next trophic level", "hi": "अगले पोषी स्तर के लिए उपलब्ध ऊर्जा" }
+      }
+    ],
+    "applications": {
+      "en": "Explains why food chains are short (usually 3-4 trophic levels) and why the pyramid of energy is always upright.",
+      "hi": "बताता है कि खाद्य श्रृंखलाएँ छोटी क्यों होती हैं (आमतौर पर 3-4 पोषी स्तर) और ऊर्जा का पिरामिड हमेशा सीधा (upright) क्यों होता है।"
+    }
+  }
+]

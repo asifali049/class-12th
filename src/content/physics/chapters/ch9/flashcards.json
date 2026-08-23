@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Reflection of Light", "hi": "प्रकाश का परावर्तन" },
+    "definition": { "en": "Bouncing back of light into the same medium. Laws: $\\angle i = \\angle r$, and incident ray, normal, reflected ray lie in same plane.", "hi": "प्रकाश का उसी माध्यम में वापस उछलना। नियम: $\\angle i = \\angle r$, और आपतित किरण, अभिलंब, परावर्तित किरण एक ही तल में स्थित होते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Refraction of Light", "hi": "प्रकाश का अपवर्तन" },
+    "definition": { "en": "Bending of light when it passes from one medium to another. Snell's law: $\\frac{\\sin i}{\\sin r} = \\mu_{21} = \\frac{\\mu_2}{\\mu_1}$.", "hi": "जब प्रकाश एक माध्यम से दूसरे माध्यम में जाता है तो उसका मुड़ना। स्नेल का नियम: $\\frac{\\sin i}{\\sin r} = \\mu_{21} = \\frac{\\mu_2}{\\mu_1}$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Total Internal Reflection (TIR)", "hi": "पूर्ण आंतरिक परावर्तन (TIR)" },
+    "definition": { "en": "When light travels from denser to rarer medium and angle of incidence $i > i_c$ (critical angle), it completely reflects back. $\\sin i_c = 1/\\mu$.", "hi": "जब प्रकाश सघन से विरल माध्यम में जाता है और आपतन कोण $i > i_c$ (क्रांतिक कोण) होता है, तो यह पूरी तरह से वापस परावर्तित हो जाता है। $\\sin i_c = 1/\\mu$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Mirror Formula", "hi": "दर्पण सूत्र" },
+    "definition": { "en": "$\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$. (Valid for both concave and convex mirrors using Cartesian sign convention).", "hi": "$\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$। (कार्तीय चिह्न परिपाटी का उपयोग करते हुए अवतल और उत्तल दोनों दर्पणों के लिए मान्य)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Lens Maker's Formula", "hi": "लेंस मेकर का सूत्र" },
+    "definition": { "en": "$\\frac{1}{f} = (\\mu - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$. Relates focal length to refractive index and radii of curvature.", "hi": "$\\frac{1}{f} = (\\mu - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$। फोकस दूरी को अपवर्तनांक और वक्रता त्रिज्या से संबंधित करता है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Power of a Lens (P)", "hi": "लेंस की क्षमता (P)" },
+    "definition": { "en": "Ability to converge or diverge rays. $P = 1/f$ (in meters). SI unit: Dioptre (D).", "hi": "किरणों को अभिसारित (converge) या अपसारित (diverge) करने की क्षमता। $P = 1/f$ (मीटर में)। SI इकाई: डायोप्टर (D)।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Dispersion of Light", "hi": "प्रकाश का विक्षेपण" },
+    "definition": { "en": "Splitting of white light into its constituent colors (VIBGYOR) when passing through a prism due to different refractive indices for different colors.", "hi": "विभिन्न रंगों के लिए अलग-अलग अपवर्तनांक के कारण प्रिज्म से गुजरने पर श्वेत प्रकाश का उसके घटक रंगों (VIBGYOR) में विभाजित होना।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Scattering of Light", "hi": "प्रकाश का प्रकीर्णन" },
+    "definition": { "en": "Change in direction of light by atmospheric particles. Rayleigh scattering: Intensity $I \\propto 1/\\lambda^4$. Explains blue sky and red sunsets.", "hi": "वायुमंडलीय कणों द्वारा प्रकाश की दिशा में परिवर्तन। रेले (Rayleigh) प्रकीर्णन: तीव्रता $I \\propto 1/\\lambda^4$। नीले आकाश और लाल सूर्यास्त की व्याख्या करता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Microscope Magnification", "hi": "सूक्ष्मदर्शी आवर्धन" },
+    "definition": { "en": "Simple: $M = 1 + D/f$. Compound: $M = m_o \\times m_e = (v_o/u_o)(1 + D/f_e)$.", "hi": "सरल: $M = 1 + D/f$। संयुक्त (Compound): $M = m_o \\times m_e = (v_o/u_o)(1 + D/f_e)$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Telescope Magnification", "hi": "दूरदर्शी आवर्धन" },
+    "definition": { "en": "For normal adjustment (image at infinity), $M = f_o / f_e$. Length of telescope $L = f_o + f_e$.", "hi": "सामान्य समायोजन (अनंत पर छवि) के लिए, $M = f_o / f_e$। दूरदर्शी की लंबाई $L = f_o + f_e$।" }
+  }
+]

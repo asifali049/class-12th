@@ -1,37 +1,43 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Human Reproduction",
-    "hi": "मानव जनन"
-  },
-  "children": [
+  "id": "m2",
+  "title": { "en": "Human Reproduction", "hi": "मानव जनन" },
+  "nodes": [
     {
-      "id": "c1",
-      "label": {
-        "en": "Male System",
-        "hi": "नर तंत्र"
-      }
+      "id": "n1",
+      "label": { "en": "Male System", "hi": "पुरुष तंत्र" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Testes (Sperm & Androgens)", "hi": "वृषण (शुक्राणु और एण्ड्रोजन)" } },
+        { "id": "n1_2", "label": { "en": "Accessory Ducts & Glands", "hi": "सहायक नलिकाएं और ग्रंथियां" } },
+        { "id": "n1_3", "label": { "en": "Spermatogenesis", "hi": "शुक्राणुजनन" } }
+      ]
     },
     {
-      "id": "c2",
-      "label": {
-        "en": "Female System",
-        "hi": "मादा तंत्र"
-      }
+      "id": "n2",
+      "label": { "en": "Female System", "hi": "महिला तंत्र" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Ovaries (Ovum & Estrogen/Progesterone)", "hi": "अंडाशय (डिंब और एस्ट्रोजन/प्रोजेस्टेरोन)" } },
+        { "id": "n2_2", "label": { "en": "Uterus, Fallopian Tubes, Vagina", "hi": "गर्भाशय, फैलोपियन ट्यूब, योनि" } },
+        { "id": "n2_3", "label": { "en": "Oogenesis & Menstrual Cycle", "hi": "अंडजनन और आर्तव चक्र" } }
+      ]
     },
     {
-      "id": "c3",
-      "label": {
-        "en": "Gametogenesis",
-        "hi": "युग्मकजनन"
-      }
+      "id": "n3",
+      "label": { "en": "Fertilization & Implantation", "hi": "निषेचन और आरोपण" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Ampulla (Syngamy -> Zygote)", "hi": "एम्पुला (युग्मक संलयन -> युग्मनज)" } },
+        { "id": "n3_2", "label": { "en": "Cleavage (Morula -> Blastocyst)", "hi": "विदलन (मोरुला -> ब्लास्टोसिस्ट)" } },
+        { "id": "n3_3", "label": { "en": "Blastocyst attaches to Endometrium", "hi": "ब्लास्टोसिस्ट एंडोमेट्रियम से जुड़ता है" } }
+      ]
     },
     {
-      "id": "c4",
-      "label": {
-        "en": "Menstrual Cycle",
-        "hi": "आर्तव चक्र"
-      }
+      "id": "n4",
+      "label": { "en": "Pregnancy & Parturition", "hi": "गर्भावस्था और प्रसव" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Placenta (hCG, hPL, Progesterone)", "hi": "अपरा (hCG, hPL, प्रोजेस्टेरोन)" } },
+        { "id": "n4_2", "label": { "en": "Gestation (9 months)", "hi": "गर्भावधि (9 महीने)" } },
+        { "id": "n4_3", "label": { "en": "Parturition (Oxytocin)", "hi": "प्रसव (ऑक्सीटोसिन)" } },
+        { "id": "n4_4", "label": { "en": "Lactation (Colostrum)", "hi": "स्तनपान (कोलोस्ट्रम)" } }
+      ]
     }
   ]
 }

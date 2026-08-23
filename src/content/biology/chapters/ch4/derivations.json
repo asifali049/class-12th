@@ -2,38 +2,50 @@
   {
     "id": "d1",
     "title": {
-      "en": "Monohybrid Cross (Punnett Square)",
-      "hi": "एकसंकर क्रॉस (पुन्नट स्क्वायर)"
+      "en": "Test Cross Procedure",
+      "hi": "परीक्षण संकरण (Test Cross) प्रक्रिया"
+    },
+    "concept": {
+      "en": "A cross between an organism with a dominant phenotype (but unknown genotype) and a homozygous recessive organism to determine the unknown genotype.",
+      "hi": "अज्ञात जीनोटाइप वाले प्रभावी फेनोटाइप वाले जीव और समयुग्मजी अप्रभावी (homozygous recessive) जीव के बीच संकरण (cross) ताकि अज्ञात जीनोटाइप का पता लगाया जा सके।"
     },
     "steps": [
       {
-        "en": "Parents: TT (Tall) x tt (Dwarf)",
-        "hi": "माता-पिता: TT (लंबा) x tt (बौना)"
+        "title": { "en": "Step 1: Identify the Unknown", "hi": "चरण 1: अज्ञात की पहचान करें" },
+        "content": {
+          "en": "An organism exhibits a dominant trait (e.g., Violet flowers in pea, which can be WW or Ww).",
+          "hi": "एक जीव प्रभावी लक्षण प्रदर्शित करता है (उदा., मटर में बैंगनी फूल, जो WW या Ww हो सकता है)।"
+        }
       },
       {
-        "en": "Gametes: T and t",
-        "hi": "युग्मक: T और t"
+        "title": { "en": "Step 2: Cross with Recessive Parent", "hi": "चरण 2: अप्रभावी जनक के साथ क्रॉस" },
+        "content": {
+          "en": "Cross this unknown plant with a plant showing the recessive trait (White flowers, ww).",
+          "hi": "इस अज्ञात पौधे को अप्रभावी लक्षण (सफेद फूल, ww) दिखाने वाले पौधे के साथ क्रॉस करें।"
+        }
       },
       {
-        "en": "F1 Generation: Tt (All Tall)",
-        "hi": "F1 पीढ़ी: Tt (सभी लंबे)"
+        "title": { "en": "Step 3: Analyze the Progeny - Scenario A", "hi": "चरण 3: संतति का विश्लेषण - परिदृश्य A" },
+        "content": {
+          "en": "If all progeny bear violet flowers (Ww), the unknown parent must be homozygous dominant (WW).",
+          "hi": "यदि सभी संतानों में बैंगनी फूल (Ww) आते हैं, तो अज्ञात जनक समयुग्मजी प्रभावी (WW) होना चाहिए।"
+        }
       },
       {
-        "en": "Selfing F1: Tt x Tt",
-        "hi": "F1 स्वपरागण: Tt x Tt"
-      },
-      {
-        "en": "Gametes: T, t from both sides",
-        "hi": "युग्मक: T, t दोनों तरफ से"
-      },
-      {
-        "en": "F2 Generation: TT (Tall), Tt (Tall), Tt (Tall), tt (Dwarf)",
-        "hi": "F2 पीढ़ी: TT (लंबा), Tt (लंबा), Tt (लंबा), tt (बौना)"
+        "title": { "en": "Step 4: Analyze the Progeny - Scenario B", "hi": "चरण 4: संतति का विश्लेषण - परिदृश्य B" },
+        "content": {
+          "en": "If half the progeny are violet (Ww) and half are white (ww), the unknown parent must be heterozygous (Ww).",
+          "hi": "यदि आधी संतानों में बैंगनी (Ww) और आधी में सफेद (ww) फूल आते हैं, तो अज्ञात जनक विषमयुग्मजी (Ww) होना चाहिए।"
+        }
       }
     ],
     "conclusion": {
-      "en": "Phenotypic ratio is 3:1. Genotypic ratio is 1:2:1.",
-      "hi": "फीनोटाइपिक अनुपात 3:1 है। जीनोटाइपिक अनुपात 1:2:1 है।"
+      "en": "A test cross effectively reveals the genotype of an organism exhibiting a dominant phenotype by analyzing the phenotypic ratio of its offspring.",
+      "hi": "एक परीक्षण संकरण (test cross) अपने संतानों के फेनोटाइपिक अनुपात का विश्लेषण करके प्रभावी फेनोटाइप प्रदर्शित करने वाले जीव के जीनोटाइप को प्रभावी ढंग से प्रकट करता है।"
+    },
+    "examTip": {
+      "en": "In a typical test cross for a monohybrid heterozygous trait, the expected phenotypic ratio is 1:1.",
+      "hi": "एक मोनोहाइब्रिड विषमयुग्मजी (heterozygous) लक्षण के लिए एक विशिष्ट टेस्ट क्रॉस में, अपेक्षित फेनोटाइपिक अनुपात 1:1 होता है।"
     }
   }
 ]

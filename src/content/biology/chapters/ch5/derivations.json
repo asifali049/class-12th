@@ -2,30 +2,57 @@
   {
     "id": "d1",
     "title": {
-      "en": "Mechanism of Translation",
-      "hi": "स्थानांतरण (Translation) की प्रक्रिया"
+      "en": "Mechanism of DNA Replication",
+      "hi": "DNA प्रतिकृति (Replication) की क्रियाविधि"
+    },
+    "concept": {
+      "en": "The semi-conservative process by which a double-stranded DNA molecule is copied to produce two identical DNA molecules. It occurs during the S-phase of the cell cycle.",
+      "hi": "अर्ध-संरक्षी (semi-conservative) प्रक्रिया जिसके द्वारा एक डबल-स्ट्रैंडेड DNA अणु की प्रतिलिपि बनाकर दो समान DNA अणु बनाए जाते हैं। यह कोशिका चक्र के S-चरण के दौरान होता है।"
     },
     "steps": [
       {
-        "en": "Charging of tRNA (Aminoacylation).",
-        "hi": "tRNA की चार्जिंग (एमीनोएसिलेशन)।"
+        "title": { "en": "Step 1: Origin of Replication", "hi": "चरण 1: प्रतिकृति का मूल (Origin of Replication)" },
+        "content": {
+          "en": "Replication begins at a specific region on the DNA called the origin of replication (ori).",
+          "hi": "प्रतिकृति DNA पर एक विशिष्ट क्षेत्र से शुरू होती है जिसे प्रतिकृति का मूल (ori) कहा जाता है।"
+        }
       },
       {
-        "en": "Initiation: Small ribosomal subunit binds to mRNA at start codon (AUG).",
-        "hi": "दीक्षा (Initiation): छोटी राइबोसोमल सबयूनिट स्टार्ट कोडॉन (AUG) पर mRNA से जुड़ती है।"
+        "title": { "en": "Step 2: Unwinding of DNA", "hi": "चरण 2: DNA का खुलना (Unwinding)" },
+        "content": {
+          "en": "The DNA double helix is unwound by the enzyme Helicase, creating a Y-shaped structure called a replication fork.",
+          "hi": "DNA डबल हेलिक्स को हेलिकेस (Helicase) एंजाइम द्वारा खोला जाता है, जिससे Y-आकार की संरचना बनती है जिसे प्रतिकृति फोर्क (replication fork) कहा जाता है।"
+        }
       },
       {
-        "en": "Elongation: Ribosome moves along mRNA, adding amino acids.",
-        "hi": "दीर्घीकरण (Elongation): राइबोसोम mRNA के साथ आगे बढ़ता है, एमिनो एसिड जोड़ता है।"
+        "title": { "en": "Step 3: Continuous Synthesis (Leading Strand)", "hi": "चरण 3: निरंतर संश्लेषण (Leading Strand)" },
+        "content": {
+          "en": "DNA-dependent DNA polymerase catalyzes the polymerization in the 5' -> 3' direction. On the template strand with 3' -> 5' polarity, the replication is continuous.",
+          "hi": "DNA-निर्भर DNA पोलीमरेज़ 5' -> 3' दिशा में बहुलकीकरण (polymerization) को उत्प्रेरित करता है। 3' -> 5' ध्रुवीयता वाले टेम्पलेट स्ट्रैंड पर, प्रतिकृति निरंतर (continuous) होती है।"
+        }
       },
       {
-        "en": "Termination: Reaches a stop codon (UAA, UAG, UGA), polypeptide is released.",
-        "hi": "समापन (Termination): स्टॉप कोडॉन पर पहुँचता है, पॉलीपेप्टाइड रिलीज़ होता है।"
+        "title": { "en": "Step 4: Discontinuous Synthesis (Lagging Strand)", "hi": "चरण 4: असंतत संश्लेषण (Lagging Strand)" },
+        "content": {
+          "en": "On the other template strand (5' -> 3' polarity), replication is discontinuous, forming short Okazaki fragments.",
+          "hi": "दूसरे टेम्पलेट स्ट्रैंड (5' -> 3' ध्रुवीयता) पर, प्रतिकृति असंतत (discontinuous) होती है, जिससे छोटे ओकाजाकी खंड (Okazaki fragments) बनते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Joining Fragments", "hi": "चरण 5: खंडों को जोड़ना" },
+        "content": {
+          "en": "The discontinuously synthesized Okazaki fragments are later joined by the enzyme DNA ligase.",
+          "hi": "असंतत रूप से संश्लेषित ओकाजाकी खंड बाद में DNA लाइगेज (ligase) एंजाइम द्वारा जोड़ दिए जाते हैं।"
+        }
       }
     ],
     "conclusion": {
-      "en": "This leads to the formation of a fully functional protein.",
-      "hi": "इससे पूरी तरह कार्यात्मक प्रोटीन का निर्माण होता है।"
+      "en": "At the end of the process, two identical DNA double helices are formed, each retaining one parental strand and one newly synthesized strand.",
+      "hi": "प्रक्रिया के अंत में, दो समान DNA डबल हेलिक्स बनते हैं, जिनमें से प्रत्येक में एक पैतृक स्ट्रैंड और एक नया संश्लेषित स्ट्रैंड होता है।"
+    },
+    "examTip": {
+      "en": "Remember that DNA Polymerase only works in the 5' to 3' direction. Hence the difference between leading and lagging strands.",
+      "hi": "याद रखें कि DNA पोलीमरेज़ केवल 5' से 3' दिशा में काम करता है। इसलिए लीडिंग और लैगिंग स्ट्रैंड्स के बीच अंतर होता है।"
     }
   }
 ]

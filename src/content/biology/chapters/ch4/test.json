@@ -1,0 +1,148 @@
+{
+  "id": "t4",
+  "title": { "en": "Chapter 4 Mock Test: Principles of Inheritance and Variation", "hi": "अध्याय 4 मॉक टेस्ट: वंशागति तथा विविधता के सिद्धांत" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "How many pairs of contrasting characters in pea plants were studied by Mendel in his experiments?", "hi": "मेंडल ने अपने प्रयोगों में मटर के पौधों में विपरीत लक्षणों के कितने जोड़ों का अध्ययन किया?" },
+      "options": [
+        { "id": "o1", "text": { "en": "5", "hi": "5" } },
+        { "id": "o2", "text": { "en": "6", "hi": "6" } },
+        { "id": "o3", "text": { "en": "7", "hi": "7" } },
+        { "id": "o4", "text": { "en": "8", "hi": "8" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Mendel selected 7 pairs of true-breeding pea varieties with contrasting traits.", "hi": "मेंडल ने विपरीत लक्षणों वाली मटर की 7 जोड़ी शुद्ध-प्रजनन किस्मों का चयन किया।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The law of segregation is also known as:", "hi": "विंसंयोजन (Segregation) के नियम को किस अन्य नाम से भी जाना जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Law of purity of gametes", "hi": "युग्मकों की शुद्धता का नियम" } },
+        { "id": "o2", "text": { "en": "Law of dominance", "hi": "प्रभाविता का नियम" } },
+        { "id": "o3", "text": { "en": "Law of independent assortment", "hi": "स्वतंत्र अपव्यूहन का नियम" } },
+        { "id": "o4", "text": { "en": "Law of incomplete dominance", "hi": "अपूर्ण प्रभाविता का नियम" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Because during gamete formation alleles segregate so that each gamete carries only one allele, it's called the law of purity of gametes.", "hi": "चूंकि युग्मक निर्माण के दौरान एलील अलग हो जाते हैं ताकि प्रत्येक युग्मक में केवल एक एलील हो, इसे युग्मकों की शुद्धता का नियम कहा जाता है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In snapdragon, when a red flower plant is crossed with a white flower plant, F1 progeny has pink flowers. This is an example of:", "hi": "स्नैपड्रैगन में, जब एक लाल फूल वाले पौधे को सफेद फूल वाले पौधे के साथ क्रॉस किया जाता है, तो F1 संतति में गुलाबी फूल होते हैं। यह किसका एक उदाहरण है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Co-dominance", "hi": "सह-प्रभाविता" } },
+        { "id": "o2", "text": { "en": "Incomplete dominance", "hi": "अपूर्ण प्रभाविता" } },
+        { "id": "o3", "text": { "en": "Multiple allelism", "hi": "बहुविकल्पता" } },
+        { "id": "o4", "text": { "en": "Pleiotropy", "hi": "प्लियोट्रॉपी" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "In incomplete dominance, the F1 hybrid phenotype is intermediate between the two parents.", "hi": "अपूर्ण प्रभाविता में, F1 संकर फेनोटाइप माता-पिता दोनों के बीच का होता है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following describes the sex determination in honey bees?", "hi": "निम्नलिखित में से कौन मधुमक्खियों में लिंग निर्धारण का वर्णन करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "XX-XY type", "hi": "XX-XY प्रकार" } },
+        { "id": "o2", "text": { "en": "ZZ-ZW type", "hi": "ZZ-ZW प्रकार" } },
+        { "id": "o3", "text": { "en": "XX-XO type", "hi": "XX-XO प्रकार" } },
+        { "id": "o4", "text": { "en": "Haplodiploid type", "hi": "अगुणित-द्विगुणित (Haplodiploid) प्रकार" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Honey bees show haplodiploid sex determination where males are haploid (n=16) and females are diploid (2n=32).", "hi": "मधुमक्खियाँ अगुणित-द्विगुणित लिंग निर्धारण दिखाती हैं जहाँ नर अगुणित (n=16) होते हैं और मादाएँ द्विगुणित (2n=32) होती हैं।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by:", "hi": "एक महिला के X गुणसूत्रों में से एक पर X-सहलग्न (X-linked) विकार है। यह गुणसूत्र किसको वंशागत हो सकता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Only daughters", "hi": "केवल बेटियाँ" } },
+        { "id": "o2", "text": { "en": "Only sons", "hi": "केवल बेटे" } },
+        { "id": "o3", "text": { "en": "Only grandchildren", "hi": "केवल पोते-पोतियां" } },
+        { "id": "o4", "text": { "en": "Both sons and daughters", "hi": "बेटे और बेटियां दोनों" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "A mother passes one of her X chromosomes to all her children, regardless of whether they are male or female.", "hi": "एक माँ अपने सभी बच्चों को अपना एक X गुणसूत्र पास करती है, चाहे वे पुरुष हों या महिला।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Down's syndrome is due to:", "hi": "डाउन सिंड्रोम किसके कारण होता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Monosomy of X chromosome", "hi": "X गुणसूत्र की मोनोसोमी" } },
+        { "id": "o2", "text": { "en": "Trisomy of chromosome 21", "hi": "गुणसूत्र 21 की ट्राइसॉमी" } },
+        { "id": "o3", "text": { "en": "Trisomy of X chromosome", "hi": "X गुणसूत्र की ट्राइसॉमी" } },
+        { "id": "o4", "text": { "en": "Nullisomy of chromosome 21", "hi": "गुणसूत्र 21 की नलीसोमी (Nullisomy)" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Down's syndrome is caused by an extra copy of chromosome 21 (Trisomy 21).", "hi": "डाउन सिंड्रोम गुणसूत्र 21 की एक अतिरिक्त प्रति (ट्राइसॉमी 21) के कारण होता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "The term 'linkage' was coined by:", "hi": "'सहलग्नता' (Linkage) शब्द किसने गढ़ा था:" },
+      "options": [
+        { "id": "o1", "text": { "en": "G. Mendel", "hi": "जी. मेंडल" } },
+        { "id": "o2", "text": { "en": "W. Sutton", "hi": "डब्ल्यू. सटन" } },
+        { "id": "o3", "text": { "en": "T.H. Morgan", "hi": "टी.एच. मॉर्गन" } },
+        { "id": "o4", "text": { "en": "T. Boveri", "hi": "टी. बोवेरी" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "T.H. Morgan coined the term linkage based on his work with Drosophila.", "hi": "टी.एच. मॉर्गन ने ड्रोसोफिला के साथ अपने काम के आधार पर सहलग्नता शब्द गढ़ा।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Klinefelter's syndrome is characterised by a karyotype of:", "hi": "क्लाइनफेल्टर सिंड्रोम की विशेषता किस कैरियोटाइप द्वारा होती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "45, XO", "hi": "45, XO" } },
+        { "id": "o2", "text": { "en": "47, XXY", "hi": "47, XXY" } },
+        { "id": "o3", "text": { "en": "47, XYY", "hi": "47, XYY" } },
+        { "id": "o4", "text": { "en": "46, XY", "hi": "46, XY" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Klinefelter's syndrome occurs due to the presence of an extra X chromosome in males (47, XXY).", "hi": "क्लाइनफेल्टर सिंड्रोम पुरुषों में एक अतिरिक्त X गुणसूत्र (47, XXY) की उपस्थिति के कारण होता है।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In a dihybrid cross, if you get 9:3:3:1 ratio, it denotes that:", "hi": "यदि आपको द्विसंकर (dihybrid) संकरण में 9:3:3:1 का अनुपात मिलता है, तो यह दर्शाता है कि:" },
+      "options": [
+        { "id": "o1", "text": { "en": "The alleles of two genes are interacting with each other", "hi": "दो जीनों के एलील एक दूसरे के साथ परस्पर क्रिया कर रहे हैं" } },
+        { "id": "o2", "text": { "en": "It is a multigenic inheritance", "hi": "यह एक बहुजीनी (multigenic) वंशागति है" } },
+        { "id": "o3", "text": { "en": "It is a case of multiple allelism", "hi": "यह बहुविकल्पता का मामला है" } },
+        { "id": "o4", "text": { "en": "The alleles of two genes are segregating independently", "hi": "दो जीनों के एलील स्वतंत्र रूप से अलग (segregate) हो रहे हैं" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The 9:3:3:1 phenotypic ratio is the classic proof of Mendel's Law of Independent Assortment.", "hi": "9:3:3:1 का फेनोटाइपिक अनुपात मेंडल के स्वतंत्र अपव्यूहन के नियम का उत्कृष्ट प्रमाण है।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Sickle-cell anaemia is:", "hi": "सिकल-सेल एनीमिया क्या है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Autosomal dominant trait", "hi": "ऑटोसोमल प्रभावी लक्षण" } },
+        { "id": "o2", "text": { "en": "Autosomal recessive trait", "hi": "ऑटोसोमल अप्रभावी लक्षण" } },
+        { "id": "o3", "text": { "en": "Sex-linked dominant trait", "hi": "लिंग-सहलग्न प्रभावी लक्षण" } },
+        { "id": "o4", "text": { "en": "Sex-linked recessive trait", "hi": "लिंग-सहलग्न अप्रभावी लक्षण" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Sickle-cell anaemia is an autosome-linked recessive trait that can be transmitted from parents to offspring when both partners are carrier for the gene (or heterozygous).", "hi": "सिकल-सेल एनीमिया एक ऑटोसोम-सहलग्न अप्रभावी लक्षण है जो माता-पिता से संतानों में तब जा सकता है जब दोनों भागीदार जीन के लिए वाहक (या विषमयुग्मजी) हों।" }
+    }
+  ]
+}

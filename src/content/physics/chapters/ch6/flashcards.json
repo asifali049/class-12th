@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Magnetic Flux ($\\Phi_B$)", "hi": "चुंबकीय फ्लक्स ($\\Phi_B$)" },
+    "definition": { "en": "Total number of magnetic field lines passing through a surface. $\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos\\theta$. SI unit: Weber (Wb).", "hi": "किसी सतह से गुजरने वाली चुंबकीय क्षेत्र रेखाओं की कुल संख्या। $\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA \\cos\\theta$। SI इकाई: वेबर (Wb)।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Electromagnetic Induction", "hi": "विद्युत चुम्बकीय प्रेरण" },
+    "definition": { "en": "The phenomenon of production of induced emf (and current) in a closed circuit due to change in magnetic flux linked with it.", "hi": "किसी बंद परिपथ से जुड़े चुंबकीय फ्लक्स में परिवर्तन के कारण प्रेरित ईएमएफ (और धारा) के उत्पन्न होने की घटना।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Faraday's Law", "hi": "फैराडे का नियम" },
+    "definition": { "en": "The magnitude of induced emf is equal to the rate of change of magnetic flux. $e = -N \\frac{d\\Phi_B}{dt}$.", "hi": "प्रेरित ईएमएफ का परिमाण चुंबकीय फ्लक्स के परिवर्तन की दर के बराबर होता है। $e = -N \\frac{d\\Phi_B}{dt}$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Lenz's Law", "hi": "लेंज का नियम" },
+    "definition": { "en": "The direction of induced current is such that it opposes the change in magnetic flux that produced it (Signified by the negative sign in Faraday's law).", "hi": "प्रेरित धारा की दिशा ऐसी होती है कि यह उस चुंबकीय फ्लक्स में परिवर्तन का विरोध करती है जिसने इसे उत्पन्न किया है (फैराडे के नियम में ऋणात्मक चिह्न द्वारा दर्शाया गया)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Motional EMF", "hi": "गतिक EMF" },
+    "definition": { "en": "EMF induced across the ends of a conductor moving in a magnetic field. $e = Bvl$ (for perpendicular motion).", "hi": "चुंबकीय क्षेत्र में गतिमान चालक के सिरों पर प्रेरित EMF। $e = Bvl$ (लंबवत गति के लिए)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Eddy Currents", "hi": "भंवर धाराएं" },
+    "definition": { "en": "Circulating currents induced in bulk pieces of conductors when subjected to changing magnetic flux.", "hi": "परिवर्तित चुंबकीय फ्लक्स के अधीन होने पर चालकों के थोक टुकड़ों (bulk pieces) में प्रेरित परिसंचारी धाराएँ।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Self-Inductance (L)", "hi": "स्व-प्रेरण (L)" },
+    "definition": { "en": "Property of a coil to oppose any change in current through itself. $\\Phi = LI$ and $e = -L \\frac{dI}{dt}$. SI Unit: Henry (H).", "hi": "किसी कुंडली का वह गुण जो स्वयं से प्रवाहित धारा में किसी भी परिवर्तन का विरोध करता है। $\\Phi = LI$ और $e = -L \\frac{dI}{dt}$। SI इकाई: हेनरी (H)।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Mutual Inductance (M)", "hi": "अन्योन्य प्रेरण (M)" },
+    "definition": { "en": "Property of two coils where change in current in one induces emf in the other. $\\Phi_2 = M I_1$ and $e_2 = -M \\frac{dI_1}{dt}$.", "hi": "दो कुंडलियों का वह गुण जहाँ एक में धारा का परिवर्तन दूसरी में ईएमएफ प्रेरित करता है। $\\Phi_2 = M I_1$ और $e_2 = -M \\frac{dI_1}{dt}$।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Energy Stored in Inductor", "hi": "प्रेरक में संचित ऊर्जा" },
+    "definition": { "en": "Work done in establishing current $I$ in an inductor is stored as magnetic potential energy. $U = \\frac{1}{2} L I^2$.", "hi": "एक प्रेरक में धारा $I$ स्थापित करने में किया गया कार्य चुंबकीय स्थितिज ऊर्जा के रूप में संचित होता है। $U = \\frac{1}{2} L I^2$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "AC Generator Principle", "hi": "AC जनरेटर का सिद्धांत" },
+    "definition": { "en": "Based on electromagnetic induction. A coil rotating in a magnetic field produces alternating emf: $e = e_0 \\sin(\\omega t)$, where $e_0 = NBA\\omega$.", "hi": "विद्युत चुम्बकीय प्रेरण पर आधारित। चुंबकीय क्षेत्र में घूमने वाली कुंडली प्रत्यावर्ती ईएमएफ उत्पन्न करती है: $e = e_0 \\sin(\\omega t)$, जहाँ $e_0 = NBA\\omega$।" }
+  }
+]

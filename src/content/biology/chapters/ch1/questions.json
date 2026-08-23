@@ -1,149 +1,160 @@
 [
   {
     "id": "q1",
-    "type": "objective",
-    "difficulty": "Easy",
-    "marks": 1,
-    "question": {
-      "en": "The highly resistant organic material present in the exine is:",
-      "hi": "बाह्यचोल (exine) में मौजूद अत्यधिक प्रतिरोधी कार्बनिक पदार्थ है:"
-    },
-    "options": [
-      {
-        "en": "Cellulose",
-        "hi": "सेल्यूलोज"
-      },
-      {
-        "en": "Pectin",
-        "hi": "पेक्टिन"
-      },
-      {
-        "en": "Sporopollenin",
-        "hi": "स्पोरोपोलेनिन"
-      },
-      {
-        "en": "Lignin",
-        "hi": "लिग्निन"
-      }
-    ],
-    "correctAnswer": 2,
-    "explanation": {
-      "en": "Sporopollenin is one of the most resistant organic materials.",
-      "hi": "स्पोरोपोलेनिन ज्ञात सबसे प्रतिरोधी कार्बनिक पदार्थों में से एक है।"
-    }
-  },
-  {
-    "id": "q_mcq_1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "Male gametophyte in angiosperms produces:",
-      "hi": "एंजियोस्पर्म में नर युग्मकोद्भिद उत्पन्न करता है:"
+      "en": "The innermost wall layer of microsporangium which nourishes the developing pollen grains is:",
+      "hi": "लघुबीजाणुधानी (microsporangium) की सबसे भीतरी भित्ति परत जो विकसित हो रहे परागकणों को पोषण देती है, वह है:"
     },
     "options": [
-      {
-        "en": "Single sperm and a vegetative cell",
-        "hi": "एक शुक्राणु और एक कायिक कोशिका"
-      },
-      {
-        "en": "Single sperm and two vegetative cells",
-        "hi": "एक शुक्राणु और दो कायिक कोशिकाएं"
-      },
-      {
-        "en": "Two sperms and a vegetative cell",
-        "hi": "दो शुक्राणु और एक कायिक कोशिका"
-      },
-      {
-        "en": "Three sperms",
-        "hi": "तीन शुक्राणु"
-      }
+      { "id": "o1", "text": { "en": "Endothecium", "hi": "अंतस्थीशियम (Endothecium)" } },
+      { "id": "o2", "text": { "en": "Tapetum", "hi": "टेपेटम (Tapetum)" } },
+      { "id": "o3", "text": { "en": "Epidermis", "hi": "बाह्यत्वचा (Epidermis)" } },
+      { "id": "o4", "text": { "en": "Middle layers", "hi": "मध्य परतें" } }
     ],
-    "correctOptionIndex": 2,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "The mature male gametophyte has 1 vegetative cell and 2 sperms.",
-      "hi": "परिपक्व नर युग्मकोद्भिद में 1 कायिक कोशिका और 2 शुक्राणु होते हैं।"
-    }
-  },
-  {
-    "id": "q_mcq_2",
-    "type": "mcq",
-    "difficulty": "Medium",
-    "marks": 1,
-    "question": {
-      "en": "Which of the following has proved helpful in preserving pollen as fossils?",
-      "hi": "निम्नलिखित में से क्या परागकणों को जीवाश्मों के रूप में संरक्षित करने में सहायक सिद्ध हुआ है?"
-    },
-    "options": [
-      {
-        "en": "Pollenkitt",
-        "hi": "पॉलेनकिट"
-      },
-      {
-        "en": "Cellulosic intine",
-        "hi": "सेल्युलोसिक अंतःचोल"
-      },
-      {
-        "en": "Oil content",
-        "hi": "तेल की मात्रा"
-      },
-      {
-        "en": "Sporopollenin",
-        "hi": "स्पोरोपोलेनिन"
-      }
-    ],
-    "correctOptionIndex": 3,
-    "explanation": {
-      "en": "Sporopollenin is highly resistant to degradation.",
-      "hi": "स्पोरोपोलेनिन क्षरण के प्रति अत्यधिक प्रतिरोधी है।"
+      "en": "The innermost layer of the microsporangium is the tapetum. Its primary function is to provide nourishment to the developing pollen grains.",
+      "hi": "लघुबीजाणुधानी की सबसे भीतरी परत टेपेटम है। इसका प्राथमिक कार्य विकसित हो रहे परागकणों को पोषण प्रदान करना है।"
     }
   },
   {
     "id": "q2",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
+    "type": "mcq",
+    "difficulty": "medium",
     "question": {
-      "en": "Differentiate between microsporogenesis and megasporogenesis.",
-      "hi": "लघुबीजाणुजनन और गुरुबीजाणुजनन के बीच अंतर स्पष्ट कीजिए।"
+      "en": "Which of the following is resistant to enzyme action, high temperature, and strong acids?",
+      "hi": "निम्नलिखित में से कौन एंजाइम क्रिया, उच्च तापमान और मजबूत एसिड के प्रतिरोधी है?"
     },
-    "idealAnswer": {
-      "en": "Microsporogenesis forms microspores from PMC. Megasporogenesis forms megaspores from MMC.",
-      "hi": "लघुबीजाणुजनन PMC से लघुबीजाणुओं का निर्माण करता है। गुरुबीजाणुजनन MMC से गुरुबीजाणुओं का निर्माण करता है।"
-    },
-    "keywords": [
-      {
-        "en": "PMC",
-        "hi": "पराग मातृ कोशिका"
-      },
-      {
-        "en": "MMC",
-        "hi": "गुरुबीजाणु मातृ कोशिका"
-      }
-    ]
+    "options": [
+      { "id": "o1", "text": { "en": "Pectin", "hi": "पेक्टिन" } },
+      { "id": "o2", "text": { "en": "Cellulose", "hi": "सेल्यूलोज" } },
+      { "id": "o3", "text": { "en": "Sporopollenin", "hi": "स्पोरोपोलेनिन (Sporopollenin)" } },
+      { "id": "o4", "text": { "en": "Lignin", "hi": "लिग्निन" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Sporopollenin is one of the most resistant organic materials known. It makes up the exine (outer layer) of the pollen grain.",
+      "hi": "स्पोरोपोलेनिन ज्ञात सबसे प्रतिरोधी कार्बनिक पदार्थों में से एक है। यह परागकण का बाह्यचोल (बाहरी परत) बनाता है।"
+    }
   },
   {
     "id": "q3",
-    "type": "subjective",
-    "difficulty": "Hard",
-    "marks": 5,
+    "type": "mcq",
+    "difficulty": "hard",
     "question": {
-      "en": "Explain the structure of a typical angiosperm embryo sac.",
-      "hi": "एक सामान्य एंजियोस्पर्म भ्रूणकोष की संरचना की व्याख्या कीजिए।"
+      "en": "In angiosperms, a functional megaspore develops into:",
+      "hi": "आवृतबीजी (angiosperms) में, एक कार्यात्मक गुरुबीजाणु (functional megaspore) किसमें विकसित होता है:"
     },
-    "idealAnswer": {
-      "en": "It is 8-nucleate and 7-celled. Contains Egg Apparatus (2 synergids, 1 egg), Antipodal Cells (3 cells), and Central Cell (2 polar nuclei).",
-      "hi": "यह 8-केंद्रक और 7-कोशिका वाला होता है। इसमें अंड उपकरण (2 सहायक, 1 अंड), प्रतिव्यासांत कोशिकाएं (3 कोशिकाएं) और केंद्रीय कोशिका (2 ध्रुवीय केंद्रक) शामिल हैं।"
+    "options": [
+      { "id": "o1", "text": { "en": "Embryo sac", "hi": "भ्रूणकोष (Embryo sac)" } },
+      { "id": "o2", "text": { "en": "Endosperm", "hi": "भ्रूणपोष (Endosperm)" } },
+      { "id": "o3", "text": { "en": "Ovule", "hi": "बीजांड (Ovule)" } },
+      { "id": "o4", "text": { "en": "Pollen sac", "hi": "परागकोश (Pollen sac)" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "The functional megaspore (n) undergoes three mitotic divisions to form a 7-celled, 8-nucleate structure called the embryo sac (female gametophyte).",
+      "hi": "कार्यात्मक गुरुबीजाणु (n) भ्रूणकोष (मादा युग्मकोद्भिद) नामक 7-कोशिका, 8-केंद्रक संरचना बनाने के लिए तीन समसूत्री विभाजन से गुजरता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is meant by monosporic development of a female gametophyte?",
+      "hi": "मादा युग्मकोद्भिद के मोनोस्पोरिक (monosporic) विकास का क्या अर्थ है?"
     },
-    "keywords": [
-      {
-        "en": "Egg Apparatus",
-        "hi": "अंड उपकरण"
-      },
-      {
-        "en": "Antipodals",
-        "hi": "प्रतिव्यासांत"
-      }
-    ]
+    "answer": {
+      "en": "Out of the four megaspores formed from the megaspore mother cell (MMC) by meiosis, usually three degenerate and only one remains functional. The method of embryo sac formation from a single functional megaspore is termed monosporic development.",
+      "hi": "अर्धसूत्रीविभाजन द्वारा गुरुबीजाणु मातृ कोशिका (MMC) से बने चार गुरुबीजाणुओं में से, आमतौर पर तीन पतित (degenerate) हो जाते हैं और केवल एक कार्यात्मक रहता है। एक एकल कार्यात्मक गुरुबीजाणु से भ्रूणकोष निर्माण की विधि को मोनोस्पोरिक विकास कहा जाता है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Differentiate between autogamy and geitonogamy.",
+      "hi": "स्वयुग्मन (autogamy) और सजातपुष्पी (geitonogamy) परागण के बीच अंतर स्पष्ट कीजिए।"
+    },
+    "answer": {
+      "en": "**Autogamy**: Transfer of pollen grains from the anther to the stigma of the *same flower*. It requires synchrony in pollen release and stigma receptivity.\n**Geitonogamy**: Transfer of pollen grains from the anther to the stigma of *another flower of the same plant*. It is functionally cross-pollination but genetically similar to autogamy.",
+      "hi": "**स्वयुग्मन (Autogamy)**: परागकणों का परागकोश से *उसी फूल* के वर्तिकाग्र तक स्थानांतरण। इसके लिए पराग की रिहाई और वर्तिकाग्र ग्रहणशीलता में तालमेल की आवश्यकता होती है।\n**सजातपुष्पी (Geitonogamy)**: परागकणों का परागकोश से *उसी पौधे के दूसरे फूल* के वर्तिकाग्र तक स्थानांतरण। यह कार्यात्मक रूप से पर-परागण है लेकिन आनुवंशिक रूप से स्वयुग्मन के समान है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain the process of double fertilization in angiosperms. Why is it called so?",
+      "hi": "आवृतबीजी (angiosperms) में दोहरे निषेचन (double fertilization) की प्रक्रिया को समझाइए। इसे ऐसा क्यों कहा जाता है?"
+    },
+    "answer": {
+      "en": "When the pollen tube enters the embryo sac, it releases two male gametes (n). \n1. **Syngamy**: One male gamete fuses with the egg cell (n) to form a diploid zygote (2n), which develops into an embryo.\n2. **Triple Fusion**: The other male gamete (n) fuses with the two polar nuclei (n+n) in the central cell to form a triploid Primary Endosperm Nucleus (PEN, 3n), which develops into the endosperm.\nBecause two types of fusions (syngamy and triple fusion) occur in the same embryo sac, this unique event is called double fertilization.",
+      "hi": "जब पराग नली भ्रूणकोष में प्रवेश करती है, तो यह दो नर युग्मक (n) छोड़ती है।\n1. **युग्मक संलयन (Syngamy)**: एक नर युग्मक अंड कोशिका (n) के साथ मिलकर एक द्विगुणित युग्मनज (2n) बनाता है, जो भ्रूण में विकसित होता है।\n2. **त्रिसंलयन (Triple Fusion)**: दूसरा नर युग्मक केंद्रीय कोशिका में दो ध्रुवीय केंद्रकों (n+n) के साथ मिलकर एक त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN, 3n) बनाता है, जो भ्रूणपोष में विकसित होता है।\nचूंकि एक ही भ्रूणकोष में दो प्रकार के संलयन (युग्मक संलयन और त्रिसंलयन) होते हैं, इस अनूठी घटना को दोहरा निषेचन कहा जाता है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Apomixis? How is it different from Polyembryony? Give examples.",
+      "hi": "असंगजनन (Apomixis) क्या है? यह बहुभ्रूणता (Polyembryony) से किस प्रकार भिन्न है? उदाहरण दें।"
+    },
+    "answer": {
+      "en": "**Apomixis** is a form of asexual reproduction that mimics sexual reproduction, where seeds are formed *without fertilization*. Example: Species of Asteraceae and grasses. It is highly useful in agriculture to produce hybrid seeds that do not segregate traits.\n**Polyembryony** is the occurrence of *more than one embryo* in a single seed. It often happens when nucellar cells surrounding the embryo sac start dividing and protrude into the embryo sac. Example: Citrus and Mango.",
+      "hi": "**असंगजनन (Apomixis)** अलैंगिक प्रजनन का एक रूप है जो यौन प्रजनन की नकल करता है, जहां बीज *निषेचन के बिना* बनते हैं। उदाहरण: एस्टरेसिया और घास की प्रजातियां। हाइब्रिड बीज का उत्पादन करने के लिए कृषि में यह अत्यधिक उपयोगी है।\n**बहुभ्रूणता (Polyembryony)** एक ही बीज में *एक से अधिक भ्रूण* की उपस्थिति है। यह अक्सर तब होता है जब भ्रूणकोष के आसपास की बीजांडकाय कोशिकाएं विभाजित होने लगती हैं और भ्रूणकोष में फैल जाती हैं। उदाहरण: नींबू और आम।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In a mature angiosperm embryo sac, where is the filiform apparatus located and what is its function?",
+      "hi": "एक परिपक्व आवृतबीजी भ्रूणकोष में, तंतुरूप उपकरण (filiform apparatus) कहाँ स्थित होता है और इसका कार्य क्या है?"
+    },
+    "answer": {
+      "en": "The filiform apparatus is a set of special cellular thickenings located at the **micropylar tip of the synergids** in the embryo sac. Its primary function is to **guide the entry of the pollen tube** into the synergid for the release of male gametes.",
+      "hi": "तंतुरूप उपकरण (filiform apparatus) भ्रूणकोष में **सहायक कोशिकाओं के बीजांडद्वारी सिरे** पर स्थित विशेष कोशिकीय गाढ़ेपन का एक सेट है। इसका प्राथमिक कार्य नर युग्मकों की रिहाई के लिए सहायक कोशिका में **पराग नली के प्रवेश का मार्गदर्शन करना** है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "If the chromosome number of a plant's leaf cell is 24, what will be the chromosome number in its endosperm and synergid cell, respectively?",
+      "hi": "यदि किसी पौधे की पत्ती की कोशिका की गुणसूत्र संख्या 24 है, तो उसके भ्रूणपोष और सहायक कोशिका में क्रमशः गुणसूत्र संख्या क्या होगी?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "36 and 12", "hi": "36 और 12" } },
+      { "id": "o2", "text": { "en": "12 and 24", "hi": "12 और 24" } },
+      { "id": "o3", "text": { "en": "24 and 12", "hi": "24 और 12" } },
+      { "id": "o4", "text": { "en": "36 and 24", "hi": "36 और 24" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "Leaf cell is diploid (2n = 24), so haploid (n) = 12. \nEndosperm is triploid (3n) = 3 × 12 = 36.\nSynergid cell is haploid (n) = 12.",
+      "hi": "पत्ती कोशिका द्विगुणित (2n = 24) है, इसलिए अगुणित (n) = 12।\nभ्रूणपोष त्रिगुणित (3n) = 3 × 12 = 36 है।\nसहायक कोशिका अगुणित (n) = 12 है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is an emasculation? Why is it done?",
+      "hi": "विपुंसन (Emasculation) क्या है? यह क्यों किया जाता है?"
+    },
+    "answer": {
+      "en": "**Emasculation** is the process of removal of anthers from the flower bud before the anther dehisces, using a pair of forceps. It is done by plant breeders in artificial hybridization to **prevent self-pollination** in bisexual flowers, ensuring that only desired pollen grains are used for pollination.",
+      "hi": "**विपुंसन (Emasculation)** संदंश (forceps) की एक जोड़ी का उपयोग करके परागकोश के फटने से पहले फूल की कली से परागकोशों को हटाने की प्रक्रिया है। कृत्रिम संकरण में पादप प्रजनकों द्वारा द्विलिंगी फूलों में **स्व-परागण को रोकने** के लिए ऐसा किया जाता है, यह सुनिश्चित करते हुए कि परागण के लिए केवल वांछित परागकणों का उपयोग किया जाता है।"
+    }
   }
 ]

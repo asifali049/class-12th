@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Allele", "hi": "एलील (Allele)" },
+    "definition": { "en": "Genes which code for a pair of contrasting traits are known as alleles, i.e., they are slightly different forms of the same gene.", "hi": "जीन जो विपरीत लक्षणों की एक जोड़ी के लिए कोड करते हैं, उन्हें एलील के रूप में जाना जाता है, अर्थात, वे एक ही जीन के थोड़े अलग रूप हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Homozygous", "hi": "समयुग्मजी (Homozygous)" },
+    "definition": { "en": "An organism with two identical alleles for a particular trait (e.g., TT or tt).", "hi": "किसी विशेष लक्षण के लिए दो समान एलील वाला जीव (उदा., TT या tt)।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Heterozygous", "hi": "विषमयुग्मजी (Heterozygous)" },
+    "definition": { "en": "An organism with two different alleles for a particular trait (e.g., Tt).", "hi": "किसी विशेष लक्षण के लिए दो अलग-अलग एलील वाला जीव (उदा., Tt)।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Phenotype", "hi": "फेनोटाइप (Phenotype)" },
+    "definition": { "en": "The observable physical or biochemical characteristics of an organism, determined by both genetic make-up and environmental influences.", "hi": "जीव के अवलोकनीय भौतिक या जैव रासायनिक लक्षण, जो आनुवंशिक बनावट और पर्यावरणीय प्रभावों दोनों द्वारा निर्धारित होते हैं।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Genotype", "hi": "जीनोटाइप (Genotype)" },
+    "definition": { "en": "The genetic constitution of an organism.", "hi": "जीव का आनुवंशिक संगठन (genetic constitution)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Test Cross", "hi": "परीक्षण संकरण (Test Cross)" },
+    "definition": { "en": "A cross between an organism showing a dominant phenotype and a homozygous recessive parent to determine the former's genotype.", "hi": "एक प्रभावी फेनोटाइप दिखाने वाले जीव और उसके जीनोटाइप को निर्धारित करने के लिए एक समयुग्मजी अप्रभावी जनक के बीच संकरण।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Co-dominance", "hi": "सह-प्रभाविता (Co-dominance)" },
+    "definition": { "en": "A condition in which both alleles of a gene pair in a heterozygote are fully expressed (e.g., AB blood group).", "hi": "ऐसी स्थिति जिसमें हेटेरोज़ायगोट में जीन जोड़ी के दोनों एलील पूरी तरह से व्यक्त होते हैं (उदा., AB रक्त समूह)।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Linkage", "hi": "सहलग्नता (Linkage)" },
+    "definition": { "en": "The physical association of genes located on the same chromosome, tending to be inherited together.", "hi": "एक ही गुणसूत्र पर स्थित जीनों का भौतिक जुड़ाव, जो एक साथ वंशागत (inherit) होने की प्रवृत्ति रखते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Pleiotropy", "hi": "प्लियोट्रॉपी (Pleiotropy)" },
+    "definition": { "en": "A condition where a single gene exhibits multiple phenotypic expressions (e.g., Phenylketonuria).", "hi": "ऐसी स्थिति जहां एक जीन कई फेनोटाइपिक अभिव्यक्तियां प्रदर्शित करता है (उदा., फेनिलकेटोनुरिया)।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Aneuploidy", "hi": "असुगुणिता (Aneuploidy)" },
+    "definition": { "en": "Failure of segregation of chromatids during cell division cycle resulting in the gain or loss of a chromosome(s) (e.g., Down's syndrome).", "hi": "कोशिका विभाजन चक्र के दौरान क्रोमैटिड के पृथक्करण में विफलता जिसके परिणामस्वरूप गुणसूत्र(ओं) की वृद्धि या हानि होती है (उदा., डाउन सिंड्रोम)।" }
+  }
+]

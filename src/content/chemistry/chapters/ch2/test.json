@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch2",
+  "title": {
+    "en": "Chemistry Chapter 2 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 2 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "The molar conductivity of a strong electrolyte:",
+        "hi": "एक प्रबल वैद्युत अपघट्य (strong electrolyte) की मोलर चालकता (molar conductivity):"
+      },
+      "options": [
+        {
+          "en": "Increases sharply with dilution",
+          "hi": "तनुता (dilution) के साथ तेजी से बढ़ती है"
+        },
+        {
+          "en": "Increases slowly with dilution",
+          "hi": "तनुता के साथ धीरे-धीरे बढ़ती है"
+        },
+        {
+          "en": "Decreases with dilution",
+          "hi": "तनुता के साथ घटती है"
+        },
+        {
+          "en": "Remains constant",
+          "hi": "स्थिर रहती है"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "For strong electrolytes, molar conductivity ($\\Lambda_m$) increases slowly with dilution due to the decrease in interionic attractions as ions move further apart. It follows Kohlrausch's empirical equation $\\Lambda_m = \\Lambda_m^0 - A\\sqrt{c}$.",
+        "hi": "प्रबल वैद्युत अपघट्यों के लिए, मोलर चालकता ($\\Lambda_m$) तनुता के साथ धीरे-धीरे बढ़ती है क्योंकि आयनों के दूर जाने से अंतर-आयनिक आकर्षण कम हो जाता है। यह कोलराउश के अनुभवजन्य समीकरण $\\Lambda_m = \\Lambda_m^0 - A\\sqrt{c}$ का पालन करता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following describes the relationship between standard cell potential ($E^0_{cell}$) and equilibrium constant ($K_c$)?",
+        "hi": "निम्नलिखित में से कौन मानक सेल विभव ($E^0_{cell}$) और साम्य स्थिरांक ($K_c$) के बीच संबंध का वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "$E^0_{cell} = \\frac{RT}{nF} \\ln K_c$",
+          "hi": "$E^0_{cell} = \\frac{RT}{nF} \\ln K_c$"
+        },
+        {
+          "en": "$E^0_{cell} = \\frac{nF}{RT} \\ln K_c$",
+          "hi": "$E^0_{cell} = \\frac{nF}{RT} \\ln K_c$"
+        },
+        {
+          "en": "$\\Delta G^0 = -RT \\ln K_c$",
+          "hi": "$\\Delta G^0 = -RT \\ln K_c$"
+        },
+        {
+          "en": "Both A and C are correct formulations",
+          "hi": "A और C दोनों सही सूत्र हैं"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "At equilibrium, $E_{cell} = 0$. From Nernst equation, $E^0_{cell} = \\frac{2.303RT}{nF} \\log K_c = \\frac{RT}{nF} \\ln K_c$. Also, standard Gibbs free energy $\\Delta G^0 = -nFE^0_{cell} = -RT \\ln K_c$.",
+        "hi": "साम्यावस्था पर, $E_{cell} = 0$। नर्नस्ट समीकरण से, $E^0_{cell} = \\frac{2.303RT}{nF} \\log K_c = \\frac{RT}{nF} \\ln K_c$। साथ ही, मानक गिब्स मुक्त ऊर्जा $\\Delta G^0 = -nFE^0_{cell} = -RT \\ln K_c$।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "In a galvanic cell (like Daniell cell), the anode is:",
+        "hi": "एक गैल्वेनिक सेल (जैसे डेनियल सेल) में, एनोड होता है:"
+      },
+      "options": [
+        {
+          "en": "Positive and oxidation occurs",
+          "hi": "धनात्मक और ऑक्सीकरण होता है"
+        },
+        {
+          "en": "Negative and oxidation occurs",
+          "hi": "ऋणात्मक और ऑक्सीकरण होता है"
+        },
+        {
+          "en": "Positive and reduction occurs",
+          "hi": "धनात्मक और अपचयन (reduction) होता है"
+        },
+        {
+          "en": "Negative and reduction occurs",
+          "hi": "ऋणात्मक और अपचयन होता है"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "In a galvanic cell, oxidation always occurs at the anode. Since electrons are produced there (e.g., $Zn \\to Zn^{2+} + 2e^-$), it is the negative terminal.",
+        "hi": "गैल्वेनिक सेल में, एनोड पर हमेशा ऑक्सीकरण होता है। चूँकि वहाँ इलेक्ट्रॉन उत्पन्न होते हैं (उदा., $Zn \\to Zn^{2+} + 2e^-$), यह ऋणात्मक टर्मिनल होता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "According to Faraday's First Law of Electrolysis, the mass of the substance deposited at an electrode is proportional to:",
+        "hi": "फैराडे के इलेक्ट्रोलिसिस के प्रथम नियम के अनुसार, इलेक्ट्रोड पर जमा हुए पदार्थ का द्रव्यमान किसके समानुपाती होता है?"
+      },
+      "options": [
+        {
+          "en": "Time only",
+          "hi": "केवल समय"
+        },
+        {
+          "en": "Current only",
+          "hi": "केवल धारा"
+        },
+        {
+          "en": "Quantity of electricity passed",
+          "hi": "प्रवाहित विद्युत की मात्रा (आवेश)"
+        },
+        {
+          "en": "Equivalent weight of the substance",
+          "hi": "पदार्थ का तुल्यांकी भार"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Faraday's First Law states $m \\propto Q$, where $Q$ is the quantity of electricity (charge in Coulombs) passed through the electrolyte ($Q = It$). So, $m = ZIt$.",
+        "hi": "फैराडे का प्रथम नियम कहता है $m \\propto Q$, जहाँ $Q$ विद्युत अपघट्य से प्रवाहित विद्युत की मात्रा (कूलॉम में आवेश) है ($Q = It$)। इसलिए, $m = ZIt$।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Rusting of iron is catalyzed by:",
+        "hi": "लोहे में जंग लगना किसके द्वारा उत्प्रेरित (catalyzed) होता है?"
+      },
+      "options": [
+        {
+          "en": "$H^+$ ions",
+          "hi": "$H^+$ आयन"
+        },
+        {
+          "en": "$OH^-$ ions",
+          "hi": "$OH^-$ आयन"
+        },
+        {
+          "en": "Dry air",
+          "hi": "शुष्क हवा"
+        },
+        {
+          "en": "Zinc",
+          "hi": "जिंक"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Rusting of iron (corrosion) is an electrochemical phenomenon. The presence of $H^+$ ions (acidic conditions from dissolved $CO_2$) accelerates the reduction of oxygen, acting as a catalyst.",
+        "hi": "लोहे में जंग लगना (संक्षारण) एक विद्युत रासायनिक घटना है। $H^+$ आयनों की उपस्थिति (घुलित $CO_2$ से अम्लीय स्थिति) ऑक्सीजन की कमी को तेज करती है, एक उत्प्रेरक के रूप में कार्य करती है।"
+      }
+    }
+  ]
+}

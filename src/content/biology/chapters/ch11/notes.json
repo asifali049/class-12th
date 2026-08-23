@@ -1,24 +1,143 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Organisms & Environment",
-      "hi": "जीव और पर्यावरण"
-    },
-    "content": {
-      "en": "Key abiotic factors: temperature, water, light, soil. Organisms respond by Regulating, Conforming, Migrating, or Suspending.",
-      "hi": "प्रमुख अजैविक कारक: तापमान, पानी, प्रकाश, मिट्टी।"
+    "type": "heading",
+    "text": {
+      "en": "Organisms and Populations",
+      "hi": "जीव और समष्टियां (Populations)"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Population Interactions",
-      "hi": "समष्टि पारस्परिक क्रियाएँ"
-    },
-    "content": {
-      "en": "Mutualism (+/+), Competition (-/-), Predation (+/-), Parasitism (+/-), Commensalism (+/0), Amensalism (-/0).",
-      "hi": "सहोपकारिता (+/+), प्रतिस्पर्धा (-/-), परभक्षण (+/-), परजीविता (+/-), सहभोजिता (+/0), अंतरजातीय परजीविता (-/0)।"
+    "type": "paragraph",
+    "text": {
+      "en": "Ecology is a subject which studies the interactions among organisms and between the organism and its physical (abiotic) environment. Ecology is basically concerned with four levels of biological organisation: organisms, populations, communities, and biomes. This chapter focuses on ecology at organismic and population levels.",
+      "hi": "पारिस्थितिकी (Ecology) एक ऐसा विषय है जो जीवों के बीच और जीव और उसके भौतिक (अजैविक) वातावरण के बीच बातचीत का अध्ययन करता है। पारिस्थितिकी मूल रूप से जैविक संगठन के चार स्तरों से संबंधित है: जीव, समष्टि (populations), समुदाय और बायोम। यह अध्याय जीव और समष्टि स्तरों पर पारिस्थितिकी पर केंद्रित है।"
     }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Organism and Its Environment",
+      "hi": "1. जीव और उसका पर्यावरण"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Ecology at the organismic level is essentially physiological ecology which tries to understand how different organisms are adapted to their environments in terms of not only survival but also reproduction. The rotation of our planet around the Sun and the tilt of its axis cause annual variations in the intensity and duration of temperature, resulting in distinct seasons. These variations together with annual variation in precipitation (rain and snow) account for the formation of major biomes such as desert, rain forest, and tundra.",
+      "hi": "जीव स्तर पर पारिस्थितिकी अनिवार्य रूप से शारीरिक पारिस्थितिकी है जो यह समझने की कोशिश करती है कि विभिन्न जीव न केवल जीवित रहने के मामले में बल्कि प्रजनन के मामले में भी अपने पर्यावरण के अनुकूल कैसे होते हैं। सूर्य के चारों ओर हमारे ग्रह का घूमना और इसके अक्ष का झुकाव तापमान की तीव्रता और अवधि में वार्षिक भिन्नता का कारण बनता है, जिसके परिणामस्वरूप अलग-अलग मौसम होते हैं। वर्षा (बारिश और बर्फ) में वार्षिक भिन्नता के साथ ये विविधताएं प्रमुख बायोम जैसे रेगिस्तान, वर्षा वन और टुंड्रा के निर्माण के लिए जिम्मेदार हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Major Abiotic Factors",
+      "hi": "2. प्रमुख अजैविक कारक (Abiotic Factors)"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Temperature: The most ecologically relevant environmental factor. It ranges from subzero levels in polar areas to >50°C in tropical deserts. Organisms that can tolerate a wide range of temperatures are called eurythermal, while those restricted to a narrow range are stenothermal.",
+        "hi": "तापमान (Temperature): पारिस्थितिक रूप से सबसे प्रासंगिक पर्यावरणीय कारक। यह ध्रुवीय क्षेत्रों में शून्य से नीचे के स्तर से लेकर उष्णकटिबंधीय रेगिस्तानों में >50°C तक होता है। जो जीव तापमान की एक विस्तृत श्रृंखला को सहन कर सकते हैं उन्हें यूरीथर्मल (eurythermal) कहा जाता है, जबकि एक संकीर्ण सीमा तक सीमित जीवों को स्टेनोथर्मल (stenothermal) कहा जाता है।"
+      },
+      {
+        "en": "Water: Next to temperature, water is the most important factor influencing the life of organisms. For aquatic organisms, the quality (chemical composition, pH) of water becomes important. The salt concentration is less than 5 ppt in inland waters, 30-35 ppt in the sea, and >100 ppt in some hypersaline lagoons. Euryhaline organisms tolerate a wide range of salinities, while stenohaline are restricted to a narrow range.",
+        "hi": "जल (Water): तापमान के बाद, जीवों के जीवन को प्रभावित करने वाला पानी सबसे महत्वपूर्ण कारक है। जलीय जीवों के लिए, पानी की गुणवत्ता (रासायनिक संरचना, पीएच) महत्वपूर्ण हो जाती है। नमक की सांद्रता अंतर्देशीय जल में 5 ppt से कम, समुद्र में 30-35 ppt और कुछ हाइपरसेलाइन लैगून में >100 ppt होती है। यूरीहेलाइन (Euryhaline) जीव लवणता की एक विस्तृत श्रृंखला को सहन करते हैं, जबकि स्टेनोहेलाइन (stenohaline) एक संकीर्ण सीमा तक सीमित होते हैं।"
+      },
+      {
+        "en": "Light: Plants produce food through photosynthesis, a process which is only possible when sunlight is available as a source of energy. Many species of small plants (herbs and shrubs) growing in forests are adapted to photosynthesize optimally under very low light conditions (sciophytes). For animals, light is important for foraging, reproductive, and migratory activities.",
+        "hi": "प्रकाश (Light): पौधे प्रकाश संश्लेषण के माध्यम से भोजन का उत्पादन करते हैं, एक ऐसी प्रक्रिया जो केवल तभी संभव है जब ऊर्जा के स्रोत के रूप में सूर्य का प्रकाश उपलब्ध हो। जंगलों में उगने वाले छोटे पौधों (जड़ी-बूटियों और झाड़ियों) की कई प्रजातियां बहुत कम रोशनी की स्थिति (सियोफाइट्स - sciophytes) के तहत बेहतर ढंग से प्रकाश संश्लेषण करने के लिए अनुकूलित होती हैं। जानवरों के लिए, प्रकाश चारा खोजने, प्रजनन और प्रवासी गतिविधियों के लिए महत्वपूर्ण है।"
+      },
+      {
+        "en": "Soil: The nature and properties of soil in different places vary depending on the climate, the weathering process, whether soil is transported or sedimentary, and how soil development occurred. Various characteristics of the soil such as soil composition, grain size and aggregation determine the percolation and water holding capacity of the soils.",
+        "hi": "मिट्टी (Soil): विभिन्न स्थानों में मिट्टी की प्रकृति और गुण जलवायु, अपक्षय प्रक्रिया, क्या मिट्टी को ले जाया जाता है या तलछटी, और मिट्टी का विकास कैसे हुआ, इसके आधार पर भिन्न होते हैं। मिट्टी की विभिन्न विशेषताएं जैसे मिट्टी की संरचना, अनाज का आकार और एकत्रीकरण मिट्टी की छिद्रण और जल धारण क्षमता का निर्धारण करते हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Responses to Abiotic Factors",
+      "hi": "3. अजैविक कारकों के प्रति प्रतिक्रियाएँ"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Regulate: Some organisms are able to maintain homeostasis by physiological (sometimes behavioral) means which ensures constant body temperature, constant osmotic concentration, etc. All birds and mammals, and a very few lower vertebrate and invertebrate species are indeed capable of such regulation (thermoregulation and osmoregulation).",
+        "hi": "नियमन (Regulate): कुछ जीव शारीरिक (कभी-कभी व्यवहारिक) साधनों द्वारा होमियोस्टेसिस (homeostasis) बनाए रखने में सक्षम होते हैं जो शरीर का निरंतर तापमान, निरंतर आसमाटिक एकाग्रता आदि सुनिश्चित करता है। सभी पक्षी और स्तनधारी, और बहुत कम निचले कशेरुक और अकशेरुकी प्रजातियां वास्तव में इस तरह के नियमन (थर्मोरेग्यूलेशन और ऑस्मोरेग्यूलेशन) में सक्षम हैं।"
+      },
+      {
+        "en": "Conform: An overwhelming majority (99 per cent) of animals and nearly all plants cannot maintain a constant internal environment. Their body temperature changes with the ambient temperature. In aquatic animals, the osmotic concentration of the body fluids changes with that of the ambient water. These animals and plants are simply conformers.",
+        "hi": "अनुरूप (Conform): जानवरों का भारी बहुमत (99 प्रतिशत) और लगभग सभी पौधे एक निरंतर आंतरिक वातावरण नहीं बनाए रख सकते हैं। परिवेश के तापमान के साथ उनके शरीर का तापमान बदल जाता है। जलीय जानवरों में, शरीर के तरल पदार्थों की आसमाटिक एकाग्रता परिवेश के पानी के साथ बदल जाती है। ये जानवर और पौधे बस कन्फॉर्मर हैं।"
+      },
+      {
+        "en": "Migrate: The organism can move away temporarily from the stressful habitat to a more hospitable area and return when stressful period is over. (e.g., Birds migrating from Siberia to Keoladeo National Park in Rajasthan).",
+        "hi": "प्रवास (Migrate): जीव तनावपूर्ण आवास से अस्थायी रूप से अधिक मेहमाननवाज क्षेत्र में जा सकता है और तनावपूर्ण अवधि समाप्त होने पर लौट सकता है। (उदा., साइबेरिया से राजस्थान के केवलादेव राष्ट्रीय उद्यान में पलायन करने वाले पक्षी)।"
+      },
+      {
+        "en": "Suspend: In bacteria, fungi and lower plants, various kinds of thick-walled spores are formed which help them to survive unfavourable conditions. In higher plants, seeds and some other vegetative reproductive structures serve as means to tide over periods of stress. Animals might undergo Hibernation (winter sleep, e.g., bears) or Aestivation (summer sleep, e.g., snails, fish). Under unfavourable conditions many zooplankton species in lakes and ponds are known to enter diapause, a stage of suspended development.",
+        "hi": "निलंबित (Suspend): बैक्टीरिया, कवक और निचले पौधों में, विभिन्न प्रकार के मोटी दीवार वाले बीजाणु (spores) बनते हैं जो उन्हें प्रतिकूल परिस्थितियों से बचने में मदद करते हैं। उच्च पौधों में, बीज और कुछ अन्य वनस्पति प्रजनन संरचनाएं तनाव की अवधि को दूर करने के साधन के रूप में काम करती हैं। जानवर हाइबरनेशन (सर्दियों की नींद, उदा., भालू) या एस्टीवेशन (गर्मियों की नींद, उदा., घोंघे, मछली) से गुजर सकते हैं। प्रतिकूल परिस्थितियों में झीलों और तालाबों में कई ज़ूप्लैंकटन प्रजातियां डायपॉज़ (diapause) में प्रवेश करने के लिए जानी जाती हैं, जो निलंबित विकास का एक चरण है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Populations & Population Attributes",
+      "hi": "4. समष्टियां (Populations) और समष्टि विशेषताएँ"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "A population is defined as a group of individuals of the same species living in a particular geographical area, sharing or competing for similar resources, and potentially interbreeding. While an individual organism is the one that has to cope with a changed environment, it is at the population level that natural selection operates to evolve the desired traits.\n\nAttributes:\n- Birth rates and Death rates: Refer to per capita births and deaths.\n- Sex Ratio: The ratio of males to females in a population.\n- Age Distribution: Plotting the age distribution (percent individuals of a given age or age group) for the population results in an age pyramid. The shape of the pyramids reflects the growth status of the population - (a) whether it is growing, (b) stable or (c) declining.",
+      "hi": "समष्टि (Population) को एक ही प्रजाति के व्यक्तियों के समूह के रूप में परिभाषित किया जाता है जो किसी विशेष भौगोलिक क्षेत्र में रहते हैं, समान संसाधनों को साझा करते हैं या प्रतिस्पर्धा करते हैं, और संभावित रूप से संभोग करते हैं। जबकि एक व्यक्तिगत जीव वह है जिसे बदले हुए वातावरण का सामना करना पड़ता है, यह जनसंख्या स्तर पर है कि प्राकृतिक चयन (natural selection) वांछित लक्षणों को विकसित करने के लिए संचालित होता है।\n\nविशेषताएँ:\n- जन्म दर और मृत्यु दर: प्रति व्यक्ति जन्म और मृत्यु का संदर्भ लें।\n- लिंग अनुपात (Sex Ratio): जनसंख्या में पुरुषों और महिलाओं का अनुपात।\n- आयु वितरण: जनसंख्या के लिए आयु वितरण (दिए गए आयु या आयु वर्ग के व्यक्तियों का प्रतिशत) को आलेखित करने से आयु पिरामिड बनता है। पिरामिडों का आकार जनसंख्या की विकास स्थिति को दर्शाता है - (a) क्या यह बढ़ रहा है, (b) स्थिर है या (c) घट रहा है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Population Interactions",
+      "hi": "5. जनसंख्या सहभागिता (Population Interactions)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "In nature, animals, plants and microbes do not and cannot live in isolation but interact in various ways to form a biological community. Interactions can be beneficial (+), detrimental (-), or neutral (0) to either of the species.",
+      "hi": "प्रकृति में, जानवर, पौधे और रोगाणु अलगाव में नहीं रहते हैं और नहीं रह सकते हैं, बल्कि एक जैविक समुदाय बनाने के लिए विभिन्न तरीकों से बातचीत करते हैं। सहभागिता दोनों में से किसी भी प्रजाति के लिए फायदेमंद (+), हानिकारक (-), या तटस्थ (0) हो सकती है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Mutualism (+/+): Both species benefit. Example: Lichens (fungi and photosynthesising algae/cyanobacteria). The fungi help in the absorption of nutrients and provide protection while the alga/cyanobacterium prepares the food.",
+        "hi": "सहोपकारिता (Mutualism) (+/+): दोनों प्रजातियों को लाभ होता है। उदाहरण: लाइकेन (कवक और प्रकाश संश्लेषक शैवाल/साइनोबैक्टीरिया)। कवक पोषक तत्वों के अवशोषण में मदद करते हैं और सुरक्षा प्रदान करते हैं जबकि शैवाल/साइनोबैक्टीरियम भोजन तैयार करते हैं।"
+      },
+      {
+        "en": "Competition (-/-): Both species suffer. Can occur between closely related species (interspecific) competing for the same limited resources. Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same resources cannot co-exist indefinitely.",
+        "hi": "प्रतिस्पर्धा (Competition) (-/-): दोनों प्रजातियों को नुकसान होता है। समान सीमित संसाधनों के लिए प्रतिस्पर्धा करने वाली निकट से संबंधित प्रजातियों (अंतर-विशिष्ट) के बीच हो सकता है। गॉस के 'प्रतिस्पर्धी बहिष्करण सिद्धांत (Competitive Exclusion Principle)' में कहा गया है कि समान संसाधनों के लिए प्रतिस्पर्धा करने वाली दो निकट से संबंधित प्रजातियां अनिश्चित काल तक एक साथ नहीं रह सकती हैं।"
+      },
+      {
+        "en": "Predation (+/-): One species (predator) benefits by hunting and killing the other (prey). Predators act as conduits for energy transfer across trophic levels. Example: Tiger and Deer.",
+        "hi": "परभक्षण (Predation) (+/-): एक प्रजाति (शिकारी) दूसरी (शिकार) का शिकार करके और उसे मारकर लाभान्वित होती है। शिकारी ट्रॉफिक स्तरों के पार ऊर्जा हस्तांतरण के लिए नाली (conduits) के रूप में कार्य करते हैं। उदाहरण: बाघ और हिरण।"
+      },
+      {
+        "en": "Parasitism (+/-): One species (parasite) benefits at the expense of the other (host). The parasite gets free lodging and meals. Ectoparasites feed on the external surface (lice on humans, ticks on dogs). Endoparasites live inside the host body (liver fluke, plasmodium).",
+        "hi": "परजीविता (Parasitism) (+/-): एक प्रजाति (परजीवी) दूसरे (मेजबान) की कीमत पर लाभान्वित होती है। परजीवी को मुफ्त आवास और भोजन मिलता है। एक्टोपारासाइट्स बाहरी सतह पर फ़ीड करते हैं (मनुष्यों पर जूँ, कुत्तों पर टिक्स)। एंडोपारासाइट्स मेजबान शरीर (लीवर फ्लूक, प्लास्मोडियम) के अंदर रहते हैं।"
+      },
+      {
+        "en": "Commensalism (+/0): One species benefits while the other is neither harmed nor benefited. Example: An orchid growing as an epiphyte on a mango branch gets support, while the mango tree gets no benefit.",
+        "hi": "सहभोजिता (Commensalism) (+/0): एक प्रजाति को लाभ होता है जबकि दूसरी को न तो नुकसान होता है और न ही लाभ होता है। उदाहरण: आम की शाखा पर एपिफाइट के रूप में उगने वाले आर्किड को समर्थन मिलता है, जबकि आम के पेड़ को कोई लाभ नहीं होता है।"
+      },
+      {
+        "en": "Amensalism (-/0): One species is harmed while the other is unaffected. Example: Penicillium secretes penicillin that kills bacteria, but the fungus is unaffected.",
+        "hi": "अमेन्सेलिज़्म (Amensalism) (-/0): एक प्रजाति को नुकसान होता है जबकि दूसरी अप्रभावित रहती है। उदाहरण: पेनिसिलियम पेनिसिलिन स्रावित करता है जो बैक्टीरिया को मारता है, लेकिन कवक अप्रभावित रहता है।"
+      }
+    ]
   }
 ]

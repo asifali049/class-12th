@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Coordination Entity", "hi": "उपसहसंयोजन सत्ता" },
+    "definition": { "en": "A central metal atom or ion bonded to a fixed number of ions or molecules (ligands). Example: $[CoCl_3(NH_3)_3]$.", "hi": "एक केंद्रीय धातु परमाणु या आयन जो एक निश्चित संख्या में आयनों या अणुओं (लिगैंड्स) से बंधा होता है। उदाहरण: $[CoCl_3(NH_3)_3]$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Ligands", "hi": "लिगैंड" },
+    "definition": { "en": "Ions or molecules bound to the central atom/ion in the coordination entity. They act as Lewis bases (electron pair donors).", "hi": "उपसहसंयोजन सत्ता में केंद्रीय परमाणु/आयन से बंधे आयन या अणु। वे लुईस क्षार (इलेक्ट्रॉन युग्म दाता) के रूप में कार्य करते हैं।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Coordination Number", "hi": "उपसहसंयोजन संख्या (CN)" },
+    "definition": { "en": "The total number of ligand donor atoms to which the metal is directly bonded. For $[PtCl_6]^{2-}$, CN is 6.", "hi": "लिगैंड दाता परमाणुओं की कुल संख्या जिनसे धातु सीधे जुड़ी होती है। $[PtCl_6]^{2-}$ के लिए, CN 6 है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Chelate Ligand", "hi": "कीलेट (Chelate) लिगैंड" },
+    "definition": { "en": "A di- or polydentate ligand that uses two or more donor atoms to bind a single metal ion, forming a ring structure. Imparts extra stability.", "hi": "एक द्वि- या बहुदंती लिगैंड जो एक धातु आयन को बांधने के लिए दो या अधिक दाता परमाणुओं का उपयोग करता है, एक वलय संरचना बनाता है। अतिरिक्त स्थिरता प्रदान करता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Werner's Theory", "hi": "वर्नर का सिद्धांत" },
+    "definition": { "en": "Metals possess two types of valencies: Primary (ionizable, corresponds to oxidation state) and Secondary (non-ionizable, corresponds to coordination number).", "hi": "धातुओं में दो प्रकार की संयोजकताएँ होती हैं: प्राथमिक (आयनकारी, ऑक्सीकरण अवस्था से मेल खाती है) और द्वितीयक (गैर-आयनकारी, उपसहसंयोजन संख्या से मेल खाती है)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Geometrical Isomerism", "hi": "ज्यामितीय समावयवता" },
+    "definition": { "en": "Arises in heteroleptic complexes due to different possible geometric arrangements of ligands (cis and trans forms). Common in square planar and octahedral complexes.", "hi": "लिगैंड्स की विभिन्न संभावित ज्यामितीय व्यवस्था (सिस और ट्रांस रूप) के कारण हेटेरोलेप्टिक परिसरों में उत्पन्न होती है। वर्ग समतलीय और अष्टफलकीय परिसरों में आम है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Optical Isomerism", "hi": "प्रकाशिक समावयवता" },
+    "definition": { "en": "Chiral complexes that are non-superimposable on their mirror images. Rotate plane-polarized light (dextro and laevo forms). Common in octahedral complexes with chelating ligands.", "hi": "कायरल संकुल जो अपनी दर्पण छवियों पर अध्यारोपित (superimposable) नहीं होते हैं। समतल-ध्रुवीकृत प्रकाश (डेक्सट्रो और लेवो रूप) को घुमाते हैं। कीलेटिंग लिगैंड वाले अष्टफलकीय परिसरों में आम है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Valence Bond Theory (VBT)", "hi": "संयोजकता बंध सिद्धांत (VBT)" },
+    "definition": { "en": "Explains bonding in terms of hybridization of metal orbitals (e.g., $sp^3, dsp^2, d^2sp^3$) overlapping with ligand orbitals.", "hi": "लिगैंड कक्षकों के साथ अतिव्यापन (overlapping) करने वाले धातु कक्षकों (उदा., $sp^3, dsp^2, d^2sp^3$) के संकरण के संदर्भ में बंधन की व्याख्या करता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Crystal Field Theory (CFT)", "hi": "क्रिस्टल क्षेत्र सिद्धांत (CFT)" },
+    "definition": { "en": "An electrostatic model assuming ligands as point charges. Causes splitting of degenerate d-orbitals into lower ($t_{2g}$) and higher ($e_g$) energy levels in an octahedral field.", "hi": "लिगैंड्स को बिंदु आवेश मानने वाला एक स्थिर वैद्युत मॉडल। एक अष्टफलकीय क्षेत्र में अपभ्रष्ट (degenerate) d-कक्षकों को निम्न ($t_{2g}$) और उच्च ($e_g$) ऊर्जा स्तरों में विभाजित करने का कारण बनता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Spectrochemical Series", "hi": "स्पेक्ट्रोकेमिकल श्रेणी" },
+    "definition": { "en": "An arrangement of ligands in order of their increasing crystal field splitting power ($\\Delta_o$). $I^- < Br^- < ... < H_2O < ... < NH_3 < ... < CN^- < CO$.", "hi": "लिगैंड्स की उनकी बढ़ती क्रिस्टल क्षेत्र विपाटन शक्ति ($\\Delta_o$) के क्रम में एक व्यवस्था। $I^- < Br^- < ... < H_2O < ... < NH_3 < ... < CN^- < CO$।" }
+  }
+]

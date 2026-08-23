@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Pathogen", "hi": "रोगजनक (Pathogen)" },
+    "definition": { "en": "Disease causing organisms like bacteria, viruses, fungi, protozoans, helminths, etc.", "hi": "रोग पैदा करने वाले जीव जैसे बैक्टीरिया, वायरस, कवक, प्रोटोजोआ, कृमि आदि।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Antibody", "hi": "एंटीबॉडी (Antibody)" },
+    "definition": { "en": "Y-shaped proteins produced by B-lymphocytes in response to pathogens into our blood to fight with them (represented as H2L2).", "hi": "रोगजनकों से लड़ने के लिए हमारे रक्त में बी-लिम्फोसाइटों द्वारा उत्पादित Y-आकार के प्रोटीन (H2L2 के रूप में दर्शाया गया)।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Antigen", "hi": "प्रतिजन (Antigen)" },
+    "definition": { "en": "Any foreign substance (usually a protein or polysaccharide) that induces an immune response in the body, especially the production of antibodies.", "hi": "कोई भी विदेशी पदार्थ (आमतौर पर एक प्रोटीन या पॉलीसेकेराइड) जो शरीर में प्रतिरक्षा प्रतिक्रिया को प्रेरित करता है, विशेष रूप से एंटीबॉडी का उत्पादन।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Interferons", "hi": "इंटरफेरॉन (Interferons)" },
+    "definition": { "en": "Proteins secreted by virus-infected cells which protect non-infected cells from further viral infection (part of cytokine barrier).", "hi": "वायरस-संक्रमित कोशिकाओं द्वारा स्रावित प्रोटीन जो गैर-संक्रमित कोशिकाओं को आगे के वायरल संक्रमण से बचाते हैं (साइटोकाइन बाधा का हिस्सा)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Vaccination", "hi": "टीकाकरण (Vaccination)" },
+    "definition": { "en": "The process of introduction of a preparation of antigenic proteins of pathogen or inactivated/weakened pathogen (vaccine) into the body to generate active immunity.", "hi": "सक्रिय प्रतिरक्षा उत्पन्न करने के लिए शरीर में रोगजनक या निष्क्रिय/कमजोर रोगजनक (टीका) के एंटीजेनिक प्रोटीन की तैयारी शुरू करने की प्रक्रिया।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Allergy", "hi": "एलर्जी (Allergy)" },
+    "definition": { "en": "The exaggerated response of the immune system to certain antigens present in the environment (allergens). IgE antibodies are produced.", "hi": "पर्यावरण (एलर्जेंस) में मौजूद कुछ एंटीजन के प्रति प्रतिरक्षा प्रणाली की अतिरंजित प्रतिक्रिया। IgE एंटीबॉडी का उत्पादन होता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Metastasis", "hi": "मेटास्टेसिस (Metastasis)" },
+    "definition": { "en": "The most feared property of malignant tumors, where cells slough off from tumors and reach distant sites through blood to start new tumors.", "hi": "मैलिग्नेंट ट्यूमर की सबसे खतरनाक संपत्ति, जहां कोशिकाएं ट्यूमर से दूर हो जाती हैं और नए ट्यूमर शुरू करने के लिए रक्त के माध्यम से दूर के स्थानों तक पहुंच जाती हैं।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Retrovirus", "hi": "रेट्रोवायरस (Retrovirus)" },
+    "definition": { "en": "A group of RNA viruses (e.g., HIV) that insert a DNA copy of their genome into the host cell in order to replicate, using the enzyme reverse transcriptase.", "hi": "RNA वायरस (उदा., HIV) का एक समूह जो रिवर्स ट्रांसक्रिप्टेज़ एंजाइम का उपयोग करके प्रतिकृति बनाने के लिए मेजबान कोशिका में अपने जीनोम की DNA प्रतिलिपि सम्मिलित करता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Contact Inhibition", "hi": "संपर्क निषेध (Contact Inhibition)" },
+    "definition": { "en": "A property of normal cells by virtue of which contact with other cells inhibits their uncontrolled growth. Cancer cells lose this property.", "hi": "सामान्य कोशिकाओं का एक गुण जिसके आधार पर अन्य कोशिकाओं के संपर्क से उनकी अनियंत्रित वृद्धि रुक ​​जाती है। कैंसर कोशिकाएं इस गुण को खो देती हैं।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Withdrawal Syndrome", "hi": "विड्रॉल सिंड्रोम (Withdrawal Syndrome)" },
+    "definition": { "en": "Anxiety, shakiness, nausea, and sweating resulting from the sudden discontinuation of the regular dose of drugs or alcohol.", "hi": "दवाओं या शराब की नियमित खुराक को अचानक बंद करने के परिणामस्वरूप चिंता, कंपकंपी, मतली और पसीना।" }
+  }
+]

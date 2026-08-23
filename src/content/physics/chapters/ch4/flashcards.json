@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Oersted's Experiment", "hi": "ऑर्स्टेड का प्रयोग" },
+    "definition": { "en": "Discovered that a current-carrying wire produces a magnetic field around it, linking electricity and magnetism.", "hi": "खोज की कि एक धारावाही तार अपने चारों ओर एक चुंबकीय क्षेत्र उत्पन्न करता है, जो बिजली और चुंबकत्व को जोड़ता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Biot-Savart Law", "hi": "बायो-सावर्ट नियम" },
+    "definition": { "en": "Magnetic field due to a current element $Idl$: $d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2}$.", "hi": "एक धारा अल्पांश $Idl$ के कारण चुंबकीय क्षेत्र: $d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2}$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Ampere's Circuital Law", "hi": "एम्पीयर का परिपथीय नियम" },
+    "definition": { "en": "The line integral of magnetic field around a closed loop is $\\mu_0$ times the total current threading the loop. $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$.", "hi": "एक बंद लूप के चारों ओर चुंबकीय क्षेत्र का रेखीय समाकलन लूप से गुजरने वाली कुल धारा का $\\mu_0$ गुना होता है। $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Lorentz Force", "hi": "लॉरेंज बल" },
+    "definition": { "en": "Total force on a charge $q$ moving with velocity $v$ in both electric and magnetic fields: $\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$.", "hi": "विद्युत और चुंबकीय दोनों क्षेत्रों में $v$ वेग से गतिमान आवेश $q$ पर कुल बल: $\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Magnetic Force on Current Wire", "hi": "धारावाही तार पर चुंबकीय बल" },
+    "definition": { "en": "Force on a straight wire of length $L$ carrying current $I$ in a uniform magnetic field: $\\vec{F} = I(\\vec{L} \\times \\vec{B})$.", "hi": "एकसमान चुंबकीय क्षेत्र में $I$ धारा ले जाने वाले $L$ लंबाई के सीधे तार पर बल: $\\vec{F} = I(\\vec{L} \\times \\vec{B})$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Force between Parallel Wires", "hi": "समानांतर तारों के बीच बल" },
+    "definition": { "en": "Force per unit length: $f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$. Same direction attract, opposite direction repel.", "hi": "प्रति इकाई लंबाई पर बल: $f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$। समान दिशा में आकर्षित करते हैं, विपरीत दिशा में प्रतिकर्षित करते हैं।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Definition of Ampere", "hi": "एम्पीयर की परिभाषा" },
+    "definition": { "en": "Current which, when flowing in two infinite parallel wires 1m apart in vacuum, produces a force of $2 \\times 10^{-7} N/m$ between them.", "hi": "वह धारा जो निर्वात में 1 मीटर की दूरी पर रखे दो अनंत समानांतर तारों में प्रवाहित होने पर उनके बीच $2 \\times 10^{-7} N/m$ का बल उत्पन्न करती है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Torque on Current Loop", "hi": "धारा लूप पर बल आघूर्ण" },
+    "definition": { "en": "Torque $\\vec{\\tau} = \\vec{m} \\times \\vec{B}$, where $\\vec{m} = NIA$ is the magnetic dipole moment of the loop.", "hi": "बल आघूर्ण $\\vec{\\tau} = \\vec{m} \\times \\vec{B}$, जहाँ $\\vec{m} = NIA$ लूप का चुंबकीय द्विध्रुव आघूर्ण है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Moving Coil Galvanometer", "hi": "चल कुंडली गैल्वेनोमीटर" },
+    "definition": { "en": "Device to measure small currents. Principle: A current-carrying coil in a magnetic field experiences a torque. $I = \\frac{k}{NAB} \\phi$.", "hi": "अल्प धाराओं को मापने का उपकरण। सिद्धांत: चुंबकीय क्षेत्र में एक धारावाही कुंडली बल आघूर्ण का अनुभव करती है। $I = \\frac{k}{NAB} \\phi$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Conversion of Galvanometer", "hi": "गैल्वेनोमीटर का रूपांतरण" },
+    "definition": { "en": "To Ammeter: Connect low resistance (shunt) in parallel. To Voltmeter: Connect high resistance in series.", "hi": "एमीटर में: समानांतर में कम प्रतिरोध (शंट) जोड़ें। वोल्टमीटर में: श्रृंखला में उच्च प्रतिरोध जोड़ें।" }
+  }
+]

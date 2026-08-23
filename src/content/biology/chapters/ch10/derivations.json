@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of RNA interference (RNAi) in Tobacco plants",
+      "hi": "तंबाकू के पौधों में RNA इंटरफेरेंस (RNAi) का तंत्र"
+    },
+    "concept": {
+      "en": "RNA interference (RNAi) is a method of cellular defense in all eukaryotes. It involves silencing of a specific mRNA due to a complementary double-stranded RNA (dsRNA) molecule that binds to and prevents translation of the mRNA.",
+      "hi": "RNA इंटरफेरेंस (RNAi) सभी यूकेरियोट्स में सेलुलर रक्षा की एक विधि है। इसमें एक पूरक डबल-स्ट्रैंडेड RNA (dsRNA) अणु के कारण एक विशिष्ट mRNA को शांत (silencing) करना शामिल है जो mRNA के अनुवाद को रोकता है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Introduction of Nematode Specific Genes", "hi": "चरण 1: नेमाटोड विशिष्ट जीन का परिचय" },
+        "content": {
+          "en": "Using Agrobacterium vectors, nematode-specific genes are introduced into the host plant (tobacco).",
+          "hi": "एग्रोबैक्टीरियम वैक्टर का उपयोग करके, नेमाटोड-विशिष्ट जीन को मेजबान पौधे (तंबाकू) में पेश किया जाता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Production of dsRNA", "hi": "चरण 2: dsRNA का उत्पादन" },
+        "content": {
+          "en": "The introduction of DNA is such that it produces both sense and anti-sense RNA in the host cells. These two RNAs being complementary to each other form a double-stranded RNA (dsRNA).",
+          "hi": "DNA की शुरूआत ऐसी है कि यह मेजबान कोशिकाओं में सेंस और एंटी-सेंस RNA दोनों का उत्पादन करता है। एक दूसरे के पूरक होने के कारण ये दोनों RNA एक डबल-स्ट्रैंडेड RNA (dsRNA) बनाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Initiation of RNAi", "hi": "चरण 3: RNAi की शुरुआत" },
+        "content": {
+          "en": "The presence of this dsRNA initiates the RNA interference (RNAi) mechanism within the host plant cells.",
+          "hi": "इस dsRNA की उपस्थिति मेजबान पौधे की कोशिकाओं के भीतर RNA इंटरफेरेंस (RNAi) तंत्र को आरंभ करती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Silencing of Nematode mRNA", "hi": "चरण 4: नेमाटोड mRNA का शांत (Silencing) होना" },
+        "content": {
+          "en": "When the nematode (Meloidegyne incognitia) infects the root and tries to feed, the specific mRNA produced by the nematode is bound by the complementary RNA from the host, preventing its translation (silencing).",
+          "hi": "जब नेमाटोड (मेलॉयडेगाइन इन्कोग्निटिया) जड़ को संक्रमित करता है और खाने की कोशिश करता है, तो नेमाटोड द्वारा निर्मित विशिष्ट mRNA मेजबान के पूरक RNA से बंध जाता है, जिससे इसका अनुवाद (silencing) रुक जाता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Death of the Parasite", "hi": "चरण 5: परजीवी की मृत्यु" },
+        "content": {
+          "en": "Since the specific mRNA is silenced, the parasite cannot synthesize essential proteins and fails to survive in the transgenic host.",
+          "hi": "चूंकि विशिष्ट mRNA शांत हो गया है, इसलिए परजीवी आवश्यक प्रोटीन का संश्लेषण नहीं कर सकता है और ट्रांसजेनिक मेजबान में जीवित रहने में विफल रहता है।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "Consequently, the transgenic plant gets protected from the parasite, leading to normal growth and yield.",
+      "hi": "नतीजतन, ट्रांसजेनिक पौधे को परजीवी से बचाया जाता है, जिससे सामान्य विकास और उपज होती है।"
+    },
+    "examTip": {
+      "en": "Remember that RNAi is present in *all* eukaryotic organisms as a method of cellular defense.",
+      "hi": "याद रखें कि सेलुलर रक्षा की एक विधि के रूप में *सभी* यूकेरियोटिक जीवों में RNAi मौजूद है।"
+    }
+  }
+]

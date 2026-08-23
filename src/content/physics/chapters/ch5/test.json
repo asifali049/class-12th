@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch5",
+  "title": {
+    "en": "Physics Chapter 5 Mock Test",
+    "hi": "भौतिकी अध्याय 5 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "The magnetic dipole moment of a revolving electron is:",
+        "hi": "एक परिक्रमण करते (revolving) इलेक्ट्रॉन का चुंबकीय द्विध्रुव आघूर्ण (magnetic dipole moment) है:"
+      },
+      "options": [
+        {
+          "en": "evr/2",
+          "hi": "evr/2"
+        },
+        {
+          "en": "evr",
+          "hi": "evr"
+        },
+        {
+          "en": "ev/2r",
+          "hi": "ev/2r"
+        },
+        {
+          "en": "e/2vr",
+          "hi": "e/2vr"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Magnetic moment $m = I A$. $I = e/T = ev/(2\\pi r)$ and $A = \\pi r^2$. So $m = (ev/2\\pi r) \\times (\\pi r^2) = evr/2$.",
+        "hi": "चुंबकीय आघूर्ण $m = I A$। $I = e/T = ev/(2\\pi r)$ और $A = \\pi r^2$। इसलिए $m = (ev/2\\pi r) \\times (\\pi r^2) = evr/2$।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The Earth behaves as a magnet with magnetic field pointing approximately from:",
+        "hi": "पृथ्वी एक चुंबक के रूप में व्यवहार करती है जिसका चुंबकीय क्षेत्र लगभग किस दिशा में संकेत करता है?"
+      },
+      "options": [
+        {
+          "en": "North to South",
+          "hi": "उत्तर से दक्षिण"
+        },
+        {
+          "en": "South to North",
+          "hi": "दक्षिण से उत्तर"
+        },
+        {
+          "en": "East to West",
+          "hi": "पूर्व से पश्चिम"
+        },
+        {
+          "en": "West to East",
+          "hi": "पश्चिम से पूर्व"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Geographic North behaves like a magnetic South pole, and Geographic South behaves like a magnetic North pole. So field lines outside the Earth point from geographic South to geographic North.",
+        "hi": "भौगोलिक उत्तर एक चुंबकीय दक्षिणी ध्रुव की तरह व्यवहार करता है, और भौगोलिक दक्षिण एक चुंबकीय उत्तरी ध्रुव की तरह व्यवहार करता है। इसलिए पृथ्वी के बाहर क्षेत्र रेखाएँ भौगोलिक दक्षिण से भौगोलिक उत्तर की ओर इशारा करती हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following materials is diamagnetic?",
+        "hi": "निम्नलिखित में से कौन सा पदार्थ प्रतिचुंबकीय (diamagnetic) है?"
+      },
+      "options": [
+        {
+          "en": "Iron",
+          "hi": "लोहा"
+        },
+        {
+          "en": "Aluminum",
+          "hi": "एल्युमिनियम"
+        },
+        {
+          "en": "Bismuth",
+          "hi": "बिस्मथ"
+        },
+        {
+          "en": "Nickel",
+          "hi": "निकल"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Bismuth, Copper, Water, Gold are diamagnetic. Aluminum is paramagnetic. Iron and Nickel are ferromagnetic.",
+        "hi": "बिस्मथ, तांबा, पानी, सोना प्रतिचुंबकीय (diamagnetic) हैं। एल्युमिनियम अनुचुंबकीय (paramagnetic) है। लोहा और निकल लौहचुंबकीय (ferromagnetic) हैं।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "The relative magnetic permeability ($\\mu_r$) of a ferromagnetic substance is:",
+        "hi": "एक लौहचुंबकीय पदार्थ की आपेक्षिक चुंबकशीलता ($\\mu_r$) होती है:"
+      },
+      "options": [
+        {
+          "en": "$\\mu_r < 1$",
+          "hi": "$\\mu_r < 1$"
+        },
+        {
+          "en": "$\\mu_r \\approx 1$",
+          "hi": "$\\mu_r \\approx 1$"
+        },
+        {
+          "en": "$\\mu_r > 1$ (slightly)",
+          "hi": "$\\mu_r > 1$ (थोड़ी अधिक)"
+        },
+        {
+          "en": "$\\mu_r \\gg 1$",
+          "hi": "$\\mu_r \\gg 1$ (बहुत अधिक)"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "For ferromagnetic materials (like Iron), $\\mu_r$ is very large (hundreds or thousands). For paramagnetic, it's slightly $>1$, and for diamagnetic, it's $<1$.",
+        "hi": "लौहचुंबकीय पदार्थों (जैसे लोहा) के लिए, $\\mu_r$ बहुत बड़ा (सैकड़ों या हजारों) होता है। अनुचुंबकीय के लिए, यह थोड़ा $>1$ है, और प्रतिचुंबकीय के लिए, यह $<1$ है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "According to Curie's Law, the magnetic susceptibility of a paramagnetic material is:",
+        "hi": "क्यूरी के नियम के अनुसार, एक अनुचुंबकीय पदार्थ की चुंबकीय प्रवृत्ति (susceptibility) होती है:"
+      },
+      "options": [
+        {
+          "en": "Directly proportional to absolute temperature",
+          "hi": "परम ताप के अनुक्रमानुपाती"
+        },
+        {
+          "en": "Inversely proportional to absolute temperature",
+          "hi": "परम ताप के व्युत्क्रमानुपाती"
+        },
+        {
+          "en": "Independent of temperature",
+          "hi": "तापमान से स्वतंत्र"
+        },
+        {
+          "en": "Directly proportional to square of temperature",
+          "hi": "तापमान के वर्ग के अनुक्रमानुपाती"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Curie's Law states $\\chi \\propto 1/T$, or $\\chi = C/T$. Susceptibility decreases as temperature increases.",
+        "hi": "क्यूरी का नियम कहता है कि $\\chi \\propto 1/T$, या $\\chi = C/T$। तापमान बढ़ने पर प्रवृत्ति घट जाती है।"
+      }
+    }
+  ]
+}

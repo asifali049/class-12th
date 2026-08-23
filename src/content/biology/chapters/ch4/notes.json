@@ -1,46 +1,161 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Mendel's Laws of Inheritance",
-      "hi": "मेंडल के वंशागति के नियम"
-    },
-    "content": {
-      "en": "Gregor Mendel conducted hybridization experiments on garden peas (Pisum sativum). He proposed Law of Dominance, Law of Segregation (alleles do not blend, separate during gamete formation), and Law of Independent Assortment.",
-      "hi": "ग्रेगर मेंडल ने उद्यान मटर (पिसम सैटिवम) पर संकरण प्रयोग किए। उन्होंने प्रभाविता का नियम (Law of Dominance), विसंयोजन का नियम (Law of Segregation - युग्मक निर्माण के दौरान अलग होना), और स्वतंत्र अपव्यूहन का नियम (Law of Independent Assortment) प्रस्तावित किया।"
+    "type": "heading",
+    "text": {
+      "en": "Principles of Inheritance and Variation",
+      "hi": "वंशागति तथा विविधता के सिद्धांत"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Incomplete Dominance & Co-dominance",
-      "hi": "अपूर्ण प्रभाविता और सह-प्रभाविता"
-    },
-    "content": {
-      "en": "Incomplete Dominance: F1 phenotype is intermediate (e.g., pink flowers in Snapdragon). Co-dominance: Both alleles express themselves fully in F1 (e.g., ABO blood grouping in humans).",
-      "hi": "अपूर्ण प्रभाविता (Incomplete Dominance): F1 फीनोटाइप मध्यवर्ती होता है (उदा., स्नैपड्रैगन में गुलाबी फूल)। सह-प्रभाविता (Co-dominance): दोनों एलील F1 में खुद को पूरी तरह से व्यक्त करते हैं (उदा., मनुष्यों में ABO रक्त समूह)।"
+    "type": "paragraph",
+    "text": {
+      "en": "Genetics is the subject that deals with the inheritance, as well as the variation of characters from parents to offspring. Inheritance is the process by which characters are passed on from parent to progeny; it is the basis of heredity. Variation is the degree by which progeny differ from their parents.",
+      "hi": "आनुवंशिकी (Genetics) वह विषय है जो माता-पिता से संतानों में लक्षणों की वंशागति (inheritance) के साथ-साथ विविधता (variation) से संबंधित है। वंशागति वह प्रक्रिया है जिसके द्वारा लक्षण माता-पिता से संतति में जाते हैं; यह आनुवंशिकता का आधार है। विविधता वह डिग्री है जिसके द्वारा संतति अपने माता-पिता से भिन्न होती है।"
     }
   },
   {
-    "id": "n3",
-    "title": {
-      "en": "Chromosomal Theory of Inheritance & Linkage",
-      "hi": "वंशागति का गुणसूत्रीय सिद्धांत और सहलग्नता"
-    },
-    "content": {
-      "en": "Proposed by Sutton and Boveri. Thomas Hunt Morgan proved it experimentally using Drosophila melanogaster. Linkage refers to the physical association of genes on a chromosome, which do not assort independently.",
-      "hi": "सटन और बोवेरी द्वारा प्रस्तावित। थॉमस हंट मॉर्गन ने ड्रोसोफिला मेलानोगास्टर का उपयोग करके इसे प्रयोगात्मक रूप से सिद्ध किया। सहलग्नता (Linkage) एक गुणसूत्र पर जीन के भौतिक जुड़ाव को संदर्भित करती है, जो स्वतंत्र रूप से अलग नहीं होते हैं।"
+    "type": "heading",
+    "text": {
+      "en": "1. Mendel's Laws of Inheritance",
+      "hi": "1. मेंडल के वंशागति के नियम"
     }
   },
   {
-    "id": "n4",
-    "title": {
-      "en": "Genetic Disorders",
-      "hi": "आनुवंशिक विकार"
-    },
-    "content": {
-      "en": "Mendelian disorders (Haemophilia, Sickle-cell anaemia, Color blindness) are determined by alteration in a single gene. Chromosomal disorders (Down's syndrome, Turner's syndrome, Klinefelter's syndrome) are caused by absence/excess of chromosomes.",
-      "hi": "मेंडेलियन विकार (हीमोफीलिया, सिकल-सेल एनीमिया, वर्णांधता) एक ही जीन में परिवर्तन से निर्धारित होते हैं। गुणसूत्रीय विकार (डाउन सिंड्रोम, टर्नर सिंड्रोम, क्लाइनफेल्टर सिंड्रोम) गुणसूत्रों की अनुपस्थिति/अधिकता के कारण होते हैं।"
+    "type": "paragraph",
+    "text": {
+      "en": "Gregor Mendel, conducted hybridisation experiments on garden peas (Pisum sativum) for seven years (1856-1863) and proposed the laws of inheritance in living organisms. He selected 7 pairs of true-breeding pea varieties that were opposite in traits (e.g., tall/dwarf plants, yellow/green seeds).",
+      "hi": "ग्रेगर मेंडल ने सात वर्षों (1856-1863) तक गार्डन मटर (Pisum sativum) पर संकरण प्रयोग किए और जीवित जीवों में वंशागति के नियमों का प्रस्ताव रखा। उन्होंने मटर की 7 जोड़ी शुद्ध-प्रजनन किस्मों का चयन किया जिनके लक्षण विपरीत थे (उदा., लंबे/बौने पौधे, पीले/हरे बीज)।"
     }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Law of Dominance: In a dissimilar pair of factors (genes) for a trait, one dominates (dominant) the other (recessive). It explains the expression of only one of the parental characters in a monohybrid cross in the F1 and the expression of both in the F2.",
+      "hi": "प्रभाविता का नियम (Law of Dominance): किसी लक्षण के लिए कारकों (जीन) के एक असमान जोड़े में, एक दूसरे पर हावी (प्रभावी - dominant) होता है, जबकि दूसरा अप्रभावी (recessive) होता है। यह F1 में मोनोहाइब्रिड क्रॉस में माता-पिता के लक्षणों में से केवल एक की अभिव्यक्ति और F2 में दोनों की अभिव्यक्ति की व्याख्या करता है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Law of Segregation: The alleles do not show any blending and both the characters are recovered as such in the F2 generation. Though the parents contain two alleles during gamete formation, the factors or alleles of a pair segregate from each other such that a gamete receives only one of the two factors.",
+      "hi": "विंसंयोजन का नियम (Law of Segregation): एलील कोई सम्मिश्रण (blending) नहीं दिखाते हैं और F2 पीढ़ी में दोनों लक्षण वैसे ही प्राप्त हो जाते हैं। यद्यपि माता-पिता में दो एलील होते हैं, युग्मक निर्माण के दौरान एक जोड़े के कारक या एलील एक-दूसरे से अलग (segregate) हो जाते हैं ताकि एक युग्मक को दो कारकों में से केवल एक ही मिले।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Incomplete Dominance and Co-dominance",
+      "hi": "2. अपूर्ण प्रभाविता (Incomplete Dominance) और सह-प्रभाविता (Co-dominance)"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Incomplete Dominance: The F1 hybrid phenotype does not resemble either of the two parents and is in between the two. Example: Flower colour in snapdragon (Antirrhinum majus) where a cross between red (RR) and white (rr) produces pink (Rr) flowers.",
+        "hi": "अपूर्ण प्रभाविता: F1 संकर (hybrid) फेनोटाइप दोनों माता-पिता में से किसी के जैसा नहीं होता है और दोनों के बीच का होता है। उदाहरण: स्नैपड्रैगन (Antirrhinum majus) में फूल का रंग, जहाँ लाल (RR) और सफेद (rr) के बीच संकरण से गुलाबी (Rr) फूल पैदा होते हैं।"
+      },
+      {
+        "en": "Co-dominance: The F1 generation resembles both parents simultaneously. Example: ABO blood grouping in human beings, where alleles IA and IB are completely dominant over i, but when IA and IB are present together, they both express their own types of sugars.",
+        "hi": "सह-प्रभाविता: F1 पीढ़ी एक साथ दोनों माता-पिता के समान होती है। उदाहरण: मनुष्यों में ABO रक्त समूह, जहाँ एलील IA और IB दोनों i पर पूरी तरह से प्रभावी हैं, लेकिन जब IA और IB एक साथ मौजूद होते हैं, तो वे दोनों अपने स्वयं के प्रकार की शर्करा व्यक्त करते हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Law of Independent Assortment",
+      "hi": "3. स्वतंत्र अपव्यूहन का नियम (Law of Independent Assortment)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Based on his observations on dihybrid crosses (crosses between plants differing in two traits, e.g., seed shape and colour), Mendel proposed this law. It states that 'when two pairs of traits are combined in a hybrid, segregation of one pair of characters is independent of the other pair of characters'.",
+      "hi": "द्विसंकर (dihybrid) क्रॉस (दो लक्षणों में भिन्न पौधों के बीच संकरण, उदा., बीज का आकार और रंग) पर अपने अवलोकनों के आधार पर, मेंडल ने इस नियम का प्रस्ताव रखा। इसमें कहा गया है कि 'जब एक संकर (hybrid) में लक्षणों के दो जोड़े संयुक्त होते हैं, तो लक्षणों की एक जोड़ी का पृथक्करण लक्षणों की दूसरी जोड़ी से स्वतंत्र होता है'।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Chromosomal Theory of Inheritance",
+      "hi": "4. वंशागति का गुणसूत्रीय सिद्धांत"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Proposed by Sutton and Boveri in 1902. They united the knowledge of chromosomal segregation with Mendelian principles. They noted that the behaviour of chromosomes during meiosis was parallel to the behaviour of genes. Genes are located on chromosomes, and homologous chromosomes separate during meiosis, carrying the genes with them.",
+      "hi": "1902 में सटन (Sutton) और बोवेरी (Boveri) द्वारा प्रस्तावित। उन्होंने गुणसूत्र पृथक्करण के ज्ञान को मेंडेलियन सिद्धांतों के साथ जोड़ा। उन्होंने देखा कि अर्धसूत्रीविभाजन (meiosis) के दौरान गुणसूत्रों का व्यवहार जीन के व्यवहार के समानांतर था। जीन गुणसूत्रों पर स्थित होते हैं, और समजात गुणसूत्र अर्धसूत्रीविभाजन के दौरान अलग हो जाते हैं, और जीन को अपने साथ ले जाते हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Linkage and Recombination",
+      "hi": "5. सहलग्नता (Linkage) और पुनर्संयोजन (Recombination)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "T.H. Morgan carried out several dihybrid crosses in Drosophila (fruit flies) to study genes that were sex-linked. He coined the term 'linkage' to describe the physical association of genes on a chromosome, and 'recombination' to describe the generation of non-parental gene combinations. Tightly linked genes show very low recombination.",
+      "hi": "टी.एच. मॉर्गन ने लिंग-सहलग्न जीन का अध्ययन करने के लिए ड्रोसोफिला (फल मक्खियों) में कई द्विसंकर क्रॉस किए। उन्होंने एक गुणसूत्र पर जीन के भौतिक जुड़ाव का वर्णन करने के लिए 'सहलग्नता' शब्द गढ़ा, और गैर-पैतृक जीन संयोजनों के निर्माण का वर्णन करने के लिए 'पुनर्संयोजन' शब्द गढ़ा। कसकर जुड़े जीन बहुत कम पुनर्संयोजन दिखाते हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Sex Determination",
+      "hi": "6. लिंग निर्धारण"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "XX-XY type: In humans and Drosophila. Males are heterogametic (produce X and Y bearing sperms), females are homogametic (XX).",
+        "hi": "XX-XY प्रकार: मनुष्यों और ड्रोसोफिला में। नर विषमयुग्मजी (heterogametic) होते हैं (X और Y युक्त शुक्राणु पैदा करते हैं), मादाएं समयुग्मजी (XX) होती हैं।"
+      },
+      {
+        "en": "XX-XO type: In many grasshoppers. Males have only one X chromosome (XO), females have two (XX).",
+        "hi": "XX-XO प्रकार: कई टिड्डों में। नर में केवल एक X गुणसूत्र (XO) होता है, मादाओं में दो (XX) होते हैं।"
+      },
+      {
+        "en": "ZZ-ZW type: In birds. Females are heterogametic (ZW) and males are homogametic (ZZ). Here, female determines the sex of the offspring.",
+        "hi": "ZZ-ZW प्रकार: पक्षियों में। मादाएं विषमयुग्मजी (ZW) होती हैं और नर समयुग्मजी (ZZ) होते हैं। यहाँ, मादा संतति का लिंग निर्धारित करती है।"
+      },
+      {
+        "en": "Haplodiploid type: In honey bees. Males (drones) develop parthenogenetically from unfertilised eggs (n=16), while females (queens/workers) develop from fertilised eggs (2n=32).",
+        "hi": "अगुणित-द्विगुणित प्रकार: मधुमक्खियों में। नर (ड्रोन) अनिषेचित अंडे (n=16) से अनिषेकजनन (parthenogenetically) द्वारा विकसित होते हैं, जबकि मादाएं (रानी/श्रमिक) निषेचित अंडे (2n=32) से विकसित होती हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Genetic Disorders",
+      "hi": "7. आनुवंशिक विकार"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Genetic disorders are broadly grouped into Mendelian disorders and Chromosomal disorders.",
+      "hi": "आनुवंशिक विकारों को मोटे तौर पर मेंडेलियन विकारों और गुणसूत्र विकारों में बांटा गया है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Mendelian Disorders: Determined by alteration or mutation in a single gene. e.g., Haemophilia (sex-linked recessive), Sickle-cell anaemia (autosomal recessive), Colour blindness, Phenylketonuria, Thalassemia.",
+        "hi": "मेंडेलियन विकार: एक जीन में परिवर्तन या उत्परिवर्तन द्वारा निर्धारित। उदा., हीमोफीलिया (लिंग-सहलग्न अप्रभावी), सिकल-सेल एनीमिया (ऑटोसोमल अप्रभावी), वर्णांधता, फेनिलकेटोनुरिया, थैलेसीमिया।"
+      },
+      {
+        "en": "Chromosomal Disorders: Caused by absence or excess or abnormal arrangement of one or more chromosomes. e.g., Down's syndrome (Trisomy of chromosome 21), Klinefelter's syndrome (47, XXY in males), Turner's syndrome (45, XO in females).",
+        "hi": "गुणसूत्रीय विकार: एक या अधिक गुणसूत्रों की अनुपस्थिति, अधिकता या असामान्य व्यवस्था के कारण होते हैं। उदा., डाउन सिंड्रोम (गुणसूत्र 21 की ट्राइसॉमी), क्लाइनफेल्टर सिंड्रोम (नर में 47, XXY), टर्नर सिंड्रोम (मादाओं में 45, XO)।"
+      }
+    ]
   }
 ]

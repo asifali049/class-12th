@@ -12,7 +12,7 @@ interface MindMapRendererProps {
 }
 
 export default function MindMapRenderer({ mindmap, language }: MindMapRendererProps) {
-  if (!mindmap) {
+  if (!mindmap || (Array.isArray(mindmap) && mindmap.length === 0) || Object.keys(mindmap).length === 0) {
     return <EmptyState title="Mind Map" message="The interactive mind map for this chapter is being prepared." />;
   }
 
@@ -32,9 +32,12 @@ export default function MindMapRenderer({ mindmap, language }: MindMapRendererPr
   );
 }
 
-function MindMapNodeView({ node, isRoot = false, language }: { node: MindMapNode; isRoot?: boolean; language: Language }) {
+function MindMapNodeView({ node, isRoot = false, language }: { node: any; isRoot?: boolean; language: Language }) {
   const [isExpanded, setIsExpanded] = useState(true);
-  const hasChildren = node.children && node.children.length > 0;
+  
+  const displayLabel = node.title || node.label;
+  const displayChildren = node.nodes || node.children;
+  const hasChildren = displayChildren && displayChildren.length > 0;
 
   return (
     <div className={`relative ${isRoot ? '' : 'ml-8 mt-4'}`}>
@@ -65,7 +68,7 @@ function MindMapNodeView({ node, isRoot = false, language }: { node: MindMapNode
               : 'bg-white border-slate-200 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300'
           }
         `}>
-          <BilingualDisplay content={node.label} language={language} />
+          <BilingualDisplay content={displayLabel} language={language} />
         </div>
       </div>
 
@@ -75,7 +78,7 @@ function MindMapNodeView({ node, isRoot = false, language }: { node: MindMapNode
             <div className="absolute left-3 top-0 bottom-0 w-px bg-slate-300 dark:bg-slate-700"></div>
           )}
           <div className={`${isRoot ? 'ml-3' : 'ml-0'}`}>
-            {node.children!.map((child) => (
+            {displayChildren!.map((child: any) => (
               <MindMapNodeView key={child.id} node={child} language={language} />
             ))}
           </div>

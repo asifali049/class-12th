@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Galvanic Cell", "hi": "गैल्वेनिक सेल" },
+    "definition": { "en": "An electrochemical cell that converts the chemical energy of a spontaneous redox reaction into electrical energy.", "hi": "एक विद्युत रासायनिक सेल जो एक स्वतःस्फूर्त (spontaneous) रेडॉक्स प्रतिक्रिया की रासायनिक ऊर्जा को विद्युत ऊर्जा में परिवर्तित करता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Electrolytic Cell", "hi": "विद्युत अपघटनी सेल" },
+    "definition": { "en": "An electrochemical cell that uses electrical energy to drive a non-spontaneous chemical reaction.", "hi": "एक विद्युत रासायनिक सेल जो गैर-स्वतःस्फूर्त रासायनिक प्रतिक्रिया को चलाने के लिए विद्युत ऊर्जा का उपयोग करता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Standard Electrode Potential ($E^0$)", "hi": "मानक इलेक्ट्रोड विभव ($E^0$)" },
+    "definition": { "en": "The potential difference developed between metal electrode and its ions in solution at 1M concentration, 298K, and 1 atm pressure. Reference is SHE ($E^0 = 0.00V$).", "hi": "1M सांद्रता, 298K और 1 atm दबाव पर धातु इलेक्ट्रोड और विलयन में उसके आयनों के बीच उत्पन्न विभवांतर। संदर्भ SHE ($E^0 = 0.00V$) है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Nernst Equation", "hi": "नर्नस्ट समीकरण" },
+    "definition": { "en": "Relates electrode potential to ion concentration. $E = E^0 - \\frac{2.303RT}{nF} \\log\\frac{[\\text{Product}]}{[\\text{Reactant}]}$. At 298K, term becomes $0.0591/n$.", "hi": "इलेक्ट्रोड विभव को आयन सांद्रता से जोड़ता है। $E = E^0 - \\frac{2.303RT}{nF} \\log\\frac{[\\text{Product}]}{[\\text{Reactant}]}$। 298K पर, पद $0.0591/n$ हो जाता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Conductivity ($\\kappa$)", "hi": "चालकता ($\\kappa$)" },
+    "definition": { "en": "Conductance of 1 $cm^3$ of the conductor. Reciprocal of resistivity. $\\kappa = 1/\\rho = G(l/A)$. Unit: $S \\text{ m}^{-1}$ or $S \\text{ cm}^{-1}$.", "hi": "चालक के 1 $cm^3$ की चालकता। प्रतिरोधकता का व्युत्क्रम। $\\kappa = 1/\\rho = G(l/A)$। इकाई: $S \\text{ m}^{-1}$ या $S \\text{ cm}^{-1}$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Molar Conductivity ($\\Lambda_m$)", "hi": "मोलर चालकता ($\\Lambda_m$)" },
+    "definition": { "en": "Conducting power of all the ions produced by dissolving 1 mole of an electrolyte in solution. $\\Lambda_m = \\frac{\\kappa \\times 1000}{C}$.", "hi": "विलयन में 1 मोल वैद्युत अपघट्य घोलने पर उत्पन्न सभी आयनों की चालक शक्ति। $\\Lambda_m = \\frac{\\kappa \\times 1000}{C}$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Kohlrausch's Law", "hi": "कोलराउश का नियम" },
+    "definition": { "en": "Limiting molar conductivity of an electrolyte is the sum of the individual contributions of the anion and cation of the electrolyte. $\\Lambda_m^0 = \\nu_+ \\lambda_+^0 + \\nu_- \\lambda_-^0$.", "hi": "किसी वैद्युत अपघट्य की सीमांत मोलर चालकता वैद्युत अपघट्य के ऋणायन और धनायन के व्यक्तिगत योगदान का योग है। $\\Lambda_m^0 = \\nu_+ \\lambda_+^0 + \\nu_- \\lambda_-^0$।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Faraday's Laws of Electrolysis", "hi": "फैराडे के इलेक्ट्रोलिसिस के नियम" },
+    "definition": { "en": "1st: Mass deposited $m = ZIt$. 2nd: When same current is passed through different electrolytes, masses deposited are proportional to their equivalent weights ($m \\propto E$).", "hi": "पहला: जमा हुआ द्रव्यमान $m = ZIt$। दूसरा: जब अलग-अलग वैद्युत अपघट्यों से समान धारा प्रवाहित की जाती है, तो जमा हुए द्रव्यमान उनके तुल्यांकी भार के समानुपाती होते हैं ($m \\propto E$)।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Primary Batteries", "hi": "प्राथमिक बैटरियाँ" },
+    "definition": { "en": "Batteries in which the cell reaction is not reversible. Once the chemicals are consumed, the battery becomes dead. Example: Dry cell, Mercury cell.", "hi": "बैटरियां जिनमें सेल प्रतिक्रिया प्रतिवर्ती (reversible) नहीं होती है। एक बार रसायनों का सेवन करने के बाद, बैटरी मृत हो जाती है। उदाहरण: शुष्क सेल, मर्करी सेल।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Secondary Batteries", "hi": "द्वितीयक बैटरियाँ" },
+    "definition": { "en": "Batteries that can be recharged by passing current through them in the opposite direction. Example: Lead storage battery, Ni-Cd cell.", "hi": "बैटरियां जिन्हें विपरीत दिशा में धारा प्रवाहित करके रिचार्ज किया जा सकता है। उदाहरण: लेड संचायक बैटरी (Lead storage battery), Ni-Cd सेल।" }
+  }
+]

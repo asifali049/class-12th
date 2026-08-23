@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch12",
+  "title": {
+    "en": "Physics Chapter 12 Mock Test",
+    "hi": "भौतिकी अध्याय 12 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "In Rutherford's alpha-particle scattering experiment, the reason for the backward scattering of alpha particles was:",
+        "hi": "रदरफोर्ड के अल्फा-कण प्रकीर्णन प्रयोग में, अल्फा कणों के पीछे की ओर प्रकीर्णन (backward scattering) का कारण था:"
+      },
+      "options": [
+        {
+          "en": "Presence of electrons in the atom",
+          "hi": "परमाणु में इलेक्ट्रॉनों की उपस्थिति"
+        },
+        {
+          "en": "Presence of a heavy, positively charged nucleus at the center",
+          "hi": "केंद्र में एक भारी, धनावेशित नाभिक की उपस्थिति"
+        },
+        {
+          "en": "Uniform distribution of positive charge",
+          "hi": "धनात्मक आवेश का समान वितरण"
+        },
+        {
+          "en": "The high speed of alpha particles",
+          "hi": "अल्फा कणों की उच्च गति"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "The large angle scattering (even $180^\\circ$) is only possible if the entire positive charge and most of the mass of the atom are concentrated in a very small central region (nucleus).",
+        "hi": "बड़े कोण प्रकीर्णन (यहाँ तक कि $180^\\circ$) तभी संभव है जब संपूर्ण धनात्मक आवेश और परमाणु का अधिकांश द्रव्यमान एक बहुत छोटे केंद्रीय क्षेत्र (नाभिक) में केंद्रित हो।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "According to Bohr's postulate, an electron can revolve only in those orbits for which its angular momentum is an integral multiple of:",
+        "hi": "बोर की अभिधारणा के अनुसार, एक इलेक्ट्रॉन केवल उन्हीं कक्षाओं में चक्कर लगा सकता है जिनके लिए उसका कोणीय संवेग (angular momentum) किसका एक पूर्णांक गुणक (integral multiple) होता है?"
+      },
+      "options": [
+        {
+          "en": "$h/\\pi$",
+          "hi": "$h/\\pi$"
+        },
+        {
+          "en": "$h/2\\pi$",
+          "hi": "$h/2\\pi$"
+        },
+        {
+          "en": "$2\\pi/h$",
+          "hi": "$2\\pi/h$"
+        },
+        {
+          "en": "$h/4\\pi$",
+          "hi": "$h/4\\pi$"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Bohr's quantization condition for angular momentum is $L = mvr = n \\frac{h}{2\\pi}$, where $n$ is an integer.",
+        "hi": "कोणीय संवेग के लिए बोर की परिमाणीकरण (quantization) स्थिति $L = mvr = n \\frac{h}{2\\pi}$ है, जहाँ $n$ एक पूर्णांक है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The total energy of an electron in the nth stationary orbit of a hydrogen atom is proportional to:",
+        "hi": "हाइड्रोजन परमाणु की n-वीं स्थिर कक्षा में एक इलेक्ट्रॉन की कुल ऊर्जा किसके अनुक्रमानुपाती होती है?"
+      },
+      "options": [
+        {
+          "en": "$n$",
+          "hi": "$n$"
+        },
+        {
+          "en": "$1/n$",
+          "hi": "$1/n$"
+        },
+        {
+          "en": "$n^2$",
+          "hi": "$n^2$"
+        },
+        {
+          "en": "$1/n^2$",
+          "hi": "$1/n^2$"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "The total energy $E_n = -\\frac{13.6}{n^2} \\text{ eV}$. Therefore, $E_n \\propto 1/n^2$.",
+        "hi": "कुल ऊर्जा $E_n = -\\frac{13.6}{n^2} \\text{ eV}$। इसलिए, $E_n \\propto 1/n^2$।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Which spectral series of the hydrogen atom lies in the visible region of the electromagnetic spectrum?",
+        "hi": "हाइड्रोजन परमाणु की कौन सी स्पेक्ट्रमी श्रेणी विद्युत चुम्बकीय स्पेक्ट्रम के दृश्य क्षेत्र (visible region) में स्थित है?"
+      },
+      "options": [
+        {
+          "en": "Lyman series",
+          "hi": "लाइमन श्रेणी (Lyman series)"
+        },
+        {
+          "en": "Balmer series",
+          "hi": "बामर श्रेणी (Balmer series)"
+        },
+        {
+          "en": "Paschen series",
+          "hi": "पाश्चन श्रेणी (Paschen series)"
+        },
+        {
+          "en": "Brackett series",
+          "hi": "ब्रैकेट श्रेणी (Brackett series)"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Lyman is in UV region, Balmer is in visible region, and Paschen, Brackett, Pfund are in the infrared region.",
+        "hi": "लाइमन पराबैंगनी (UV) क्षेत्र में है, बामर दृश्य क्षेत्र में है, और पाश्चन, ब्रैकेट, फंड अवरक्त (infrared) क्षेत्र में हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The radius of the first Bohr orbit (Bohr radius) of hydrogen atom is approximately:",
+        "hi": "हाइड्रोजन परमाणु की पहली बोर कक्षा की त्रिज्या (बोर त्रिज्या) लगभग है:"
+      },
+      "options": [
+        {
+          "en": "0.53 Å",
+          "hi": "0.53 Å"
+        },
+        {
+          "en": "1.06 Å",
+          "hi": "1.06 Å"
+        },
+        {
+          "en": "0.26 Å",
+          "hi": "0.26 Å"
+        },
+        {
+          "en": "2.12 Å",
+          "hi": "2.12 Å"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "The Bohr radius $r_1 = a_0 = 0.529 \\text{ \\AA} \\approx 0.53 \\text{ \\AA}$. Radius of nth orbit is $r_n = n^2 a_0$.",
+        "hi": "बोर त्रिज्या $r_1 = a_0 = 0.529 \\text{ \\AA} \\approx 0.53 \\text{ \\AA}$। n-वीं कक्षा की त्रिज्या $r_n = n^2 a_0$ है।"
+      }
+    }
+  ]
+}

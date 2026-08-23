@@ -22,6 +22,8 @@ export default async function SubjectPage(props: { params: Promise<{ id: string 
   const allNumericals: Record<string, any[]> = {};
   const allDiagrams: Record<string, any[]> = {};
   const allMindMaps: Record<string, any> = {};
+  const allTests: Record<string, any> = {};
+  const allFlashcards: Record<string, any[]> = {};
 
   const contentDir = path.join(process.cwd(), 'src/content', subjectId, 'chapters');
 
@@ -71,6 +73,16 @@ export default async function SubjectPage(props: { params: Promise<{ id: string 
       if (fs.existsSync(mindmapPath)) {
         allMindMaps[chapterKey] = JSON.parse(fs.readFileSync(mindmapPath, 'utf-8'));
       }
+
+      const testPath = path.join(chapterPath, 'test.json');
+      if (fs.existsSync(testPath)) {
+        allTests[chapterKey] = JSON.parse(fs.readFileSync(testPath, 'utf-8'));
+      }
+
+      const flashcardsPath = path.join(chapterPath, 'flashcards.json');
+      if (fs.existsSync(flashcardsPath)) {
+        allFlashcards[chapterKey] = JSON.parse(fs.readFileSync(flashcardsPath, 'utf-8'));
+      }
     }
   }
 
@@ -86,6 +98,8 @@ export default async function SubjectPage(props: { params: Promise<{ id: string 
       allNumericals={allNumericals}
       allDiagrams={allDiagrams}
       allMindMaps={allMindMaps}
+      allTests={allTests}
+      allFlashcards={allFlashcards}
     />
   );
 }

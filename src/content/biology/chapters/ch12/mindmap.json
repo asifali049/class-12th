@@ -1,8 +1,58 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Ecosystem",
-    "hi": "पारितंत्र"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Ecosystem", "hi": "पारितंत्र" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Structure", "hi": "संरचना" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Abiotic (Non-living)", "hi": "अजैविक (निर्जीव)" } },
+        { "id": "n1_2", "label": { "en": "Biotic (Living)", "hi": "जैविक (जीवित)" } },
+        { "id": "n1_3", "label": { "en": "Stratification (Vertical distribution)", "hi": "स्तरीकरण (ऊर्ध्वाधर वितरण)" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Functions", "hi": "कार्य" },
+      "children": [
+        {
+          "id": "n2_1",
+          "label": { "en": "Productivity", "hi": "उत्पादकता" },
+          "children": [
+            { "id": "n2_1_1", "label": { "en": "Primary (GPP, NPP)", "hi": "प्राथमिक (GPP, NPP)" } },
+            { "id": "n2_1_2", "label": { "en": "Secondary (Consumers)", "hi": "द्वितीयक (उपभोक्ता)" } }
+          ]
+        },
+        {
+          "id": "n2_2",
+          "label": { "en": "Decomposition", "hi": "अपघटन" },
+          "children": [
+            { "id": "n2_2_1", "label": { "en": "Fragmentation", "hi": "विखंडन" } },
+            { "id": "n2_2_2", "label": { "en": "Leaching", "hi": "लीचिंग" } },
+            { "id": "n2_2_3", "label": { "en": "Catabolism", "hi": "अपचय" } },
+            { "id": "n2_2_4", "label": { "en": "Humification", "hi": "ह्यूमिफिकेशन" } },
+            { "id": "n2_2_5", "label": { "en": "Mineralisation", "hi": "खनिजीकरण" } }
+          ]
+        },
+        {
+          "id": "n2_3",
+          "label": { "en": "Energy Flow", "hi": "ऊर्जा प्रवाह" },
+          "children": [
+            { "id": "n2_3_1", "label": { "en": "Unidirectional (Sun -> Producers -> Consumers)", "hi": "एकदिशीय (सूर्य -> उत्पादक -> उपभोक्ता)" } },
+            { "id": "n2_3_2", "label": { "en": "10% Law", "hi": "10% नियम" } },
+            { "id": "n2_3_3", "label": { "en": "Food Chains (GFC, DFC) & Web", "hi": "खाद्य श्रृंखला (GFC, DFC) और वेब" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Ecological Pyramids", "hi": "पारिस्थितिक पिरामिड" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Pyramid of Number", "hi": "संख्या का पिरामिड" } },
+        { "id": "n3_2", "label": { "en": "Pyramid of Biomass (Inverted in Aquatic)", "hi": "बायोमास का पिरामिड (जलीय में उल्टा)" } },
+        { "id": "n3_3", "label": { "en": "Pyramid of Energy (Always Upright)", "hi": "ऊर्जा का पिरामिड (हमेशा सीधा)" } }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Work Function ($\\Phi_0$)", "hi": "कार्य फलन ($\\Phi_0$)" },
+    "definition": { "en": "The minimum energy required by an electron to just escape from the metal surface. Measured in electron-volts (eV).", "hi": "धातु की सतह से बाहर निकलने के लिए इलेक्ट्रॉन द्वारा आवश्यक न्यूनतम ऊर्जा। इलेक्ट्रॉन-वोल्ट (eV) में मापा जाता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Electron Volt (eV)", "hi": "इलेक्ट्रॉन वोल्ट (eV)" },
+    "definition": { "en": "Energy gained by an electron when accelerated through a potential difference of 1 Volt. $1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J}$.", "hi": "1 वोल्ट के विभवांतर के माध्यम से त्वरित होने पर एक इलेक्ट्रॉन द्वारा प्राप्त ऊर्जा। $1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J}$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Photoelectric Effect", "hi": "प्रकाश वैद्युत प्रभाव" },
+    "definition": { "en": "The phenomenon of emission of electrons from a metal surface when electromagnetic radiation of sufficiently high frequency falls on it.", "hi": "धातु की सतह से इलेक्ट्रॉनों के उत्सर्जन की घटना जब पर्याप्त रूप से उच्च आवृत्ति का विद्युत चुम्बकीय विकिरण उस पर पड़ता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Threshold Frequency ($\\nu_0$)", "hi": "देहली आवृत्ति ($\\nu_0$)" },
+    "definition": { "en": "The minimum frequency of incident radiation below which no photoelectric emission takes place, regardless of intensity.", "hi": "आपतित विकिरण की वह न्यूनतम आवृत्ति जिसके नीचे कोई प्रकाश वैद्युत उत्सर्जन नहीं होता है, चाहे तीव्रता कुछ भी हो।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Stopping Potential ($V_0$)", "hi": "निरोधी विभव ($V_0$)" },
+    "definition": { "en": "The minimum negative (retarding) potential given to the anode with respect to cathode for which the photoelectric current becomes zero.", "hi": "कैथोड के संबंध में एनोड को दिया गया वह न्यूनतम ऋणात्मक (retarding) विभव जिसके लिए प्रकाश वैद्युत धारा शून्य हो जाती है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Einstein's Photoelectric Equation", "hi": "आइंस्टीन का प्रकाश वैद्युत समीकरण" },
+    "definition": { "en": "Energy of photon = Work function + Max Kinetic Energy of electron. $h\\nu = \\Phi_0 + K_{max}$.", "hi": "फोटॉन की ऊर्जा = कार्य फलन + इलेक्ट्रॉन की अधिकतम गतिज ऊर्जा। $h\\nu = \\Phi_0 + K_{max}$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Photon", "hi": "फोटॉन" },
+    "definition": { "en": "A quantum of electromagnetic radiation having energy $E = h\\nu = hc/\\lambda$ and momentum $p = E/c = h/\\lambda$.", "hi": "विद्युत चुम्बकीय विकिरण का एक क्वांटम जिसमें ऊर्जा $E = h\\nu = hc/\\lambda$ और संवेग $p = E/c = h/\\lambda$ होता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Matter Waves", "hi": "द्रव्य तरंगें" },
+    "definition": { "en": "Waves associated with moving material particles. Proposed by de Broglie.", "hi": "गतिमान पदार्थ कणों से जुड़ी तरंगें। डी-ब्रोग्ली द्वारा प्रस्तावित।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "De Broglie Wavelength", "hi": "डी-ब्रोग्ली तरंग दैर्ध्य" },
+    "definition": { "en": "Wavelength associated with a moving particle of momentum $p$. $\\lambda = h/p = h/(mv)$.", "hi": "संवेग $p$ वाले गतिमान कण से जुड़ी तरंग दैर्ध्य। $\\lambda = h/p = h/(mv)$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Intensity of Light", "hi": "प्रकाश की तीव्रता" },
+    "definition": { "en": "Number of photons crossing unit area per unit time. Increasing intensity increases number of photoelectrons but not their kinetic energy.", "hi": "प्रति इकाई समय प्रति इकाई क्षेत्र को पार करने वाले फोटॉनों की संख्या। तीव्रता बढ़ाने से फोटोइलेक्ट्रॉनों की संख्या बढ़ती है लेकिन उनकी गतिज ऊर्जा नहीं।" }
+  }
+]

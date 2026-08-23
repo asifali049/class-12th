@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "Which antibody is abundantly present in colostrum?",
-      "hi": "कोलोस्ट्रम में कौन सी एंटीबॉडी प्रचुर मात्रा में मौजूद होती है?"
+      "en": "The toxic substance responsible for the chill and high fever recurring every three to four days in malaria is:",
+      "hi": "मलेरिया में हर तीन से चार दिन में बार-बार आने वाली ठंड और तेज बुखार के लिए जिम्मेदार विषैला पदार्थ कौन सा है:"
     },
     "options": [
-      {
-        "en": "IgG",
-        "hi": "IgG"
-      },
-      {
-        "en": "IgA",
-        "hi": "IgA"
-      },
-      {
-        "en": "IgM",
-        "hi": "IgM"
-      },
-      {
-        "en": "IgE",
-        "hi": "IgE"
-      }
+      { "id": "o1", "text": { "en": "Interferon", "hi": "इंटरफेरॉन" } },
+      { "id": "o2", "text": { "en": "Haemozoin", "hi": "हीमोज़ोइन" } },
+      { "id": "o3", "text": { "en": "Hirudin", "hi": "हिरुडिन" } },
+      { "id": "o4", "text": { "en": "Colostrum", "hi": "कोलोस्ट्रम" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "Colostrum contains abundant IgA antibodies to protect the infant.",
-      "hi": "कोलोस्ट्रम में शिशु की रक्षा के लिए प्रचुर मात्रा में IgA एंटीबॉडी होती है।"
+      "en": "When RBCs rupture, they release a toxic substance called haemozoin, which is responsible for the chill and high fever in malaria.",
+      "hi": "जब RBC टूटते हैं, तो वे हीमोज़ोइन नामक एक विषैला पदार्थ छोड़ते हैं, जो मलेरिया में ठंड और तेज बुखार के लिए जिम्मेदार होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following is an example of naturally acquired passive immunity?",
+      "hi": "निम्नलिखित में से कौन सा प्राकृतिक रूप से उपार्जित निष्क्रिय प्रतिरक्षा (naturally acquired passive immunity) का एक उदाहरण है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Vaccination against polio", "hi": "पोलियो के खिलाफ टीकाकरण" } },
+      { "id": "o2", "text": { "en": "Getting chickenpox and recovering", "hi": "चिकनपॉक्स होना और ठीक होना" } },
+      { "id": "o3", "text": { "en": "Transfer of antibodies from mother to fetus across placenta", "hi": "प्लेसेंटा के माध्यम से माँ से भ्रूण में एंटीबॉडी का स्थानांतरण" } },
+      { "id": "o4", "text": { "en": "Injection of anti-tetanus serum", "hi": "एंटी-टेटनस सीरम का इंजेक्शन" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Transfer of IgG antibodies across the placenta and IgA through colostrum are examples of naturally acquired passive immunity (ready-made antibodies given naturally).",
+      "hi": "प्लेसेंटा के माध्यम से IgG एंटीबॉडी का स्थानांतरण और कोलोस्ट्रम के माध्यम से IgA प्राकृतिक रूप से उपार्जित निष्क्रिय प्रतिरक्षा के उदाहरण हैं (प्राकृतिक रूप से दिए गए रेडी-मेड एंटीबॉडी)।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The yellowish fluid colostrum secreted by mother during initial days of lactation is very essential to impart immunity to newborn infants because it contains:",
+      "hi": "स्तनपान के शुरुआती दिनों में माँ द्वारा स्रावित पीला द्रव कोलोस्ट्रम नवजात शिशुओं को प्रतिरक्षा प्रदान करने के लिए बहुत आवश्यक है क्योंकि इसमें होता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Immunoglobulin A (IgA)", "hi": "इम्युनोग्लोबुलिन A (IgA)" } },
+      { "id": "o2", "text": { "en": "Natural killer cells", "hi": "प्राकृतिक हत्यारा कोशिकाएं (Natural killer cells)" } },
+      { "id": "o3", "text": { "en": "Monocytes", "hi": "मोनोसाइट्स" } },
+      { "id": "o4", "text": { "en": "Macrophages", "hi": "मैक्रोफेज" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "Colostrum is rich in IgA antibodies which protect the infant from infections.",
+      "hi": "कोलोस्ट्रम IgA एंटीबॉडी में समृद्ध है जो शिशु को संक्रमण से बचाता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between benign and malignant tumors?",
+      "hi": "बिनाइन (Benign) और मैलिग्नेंट (Malignant) ट्यूमर के बीच क्या अंतर है?"
+    },
+    "answer": {
+      "en": "**Benign tumors** normally remain confined to their original location and do not spread to other parts of the body. They cause little damage. \n**Malignant tumors** are a mass of proliferating cells (neoplastic cells) that grow rapidly, invade, and damage surrounding normal tissues. Cells sloughed from such tumors reach distant sites through blood and start a new tumor there (Metastasis).",
+      "hi": "**बिनाइन ट्यूमर** आमतौर पर अपने मूल स्थान तक ही सीमित रहते हैं और शरीर के अन्य भागों में नहीं फैलते हैं। वे कम नुकसान पहुंचाते हैं।\n**मैलिग्नेंट ट्यूमर** फैलने वाली कोशिकाओं (नियोप्लास्टिक कोशिकाओं) का एक द्रव्यमान है जो तेजी से बढ़ता है, आसपास के सामान्य ऊतकों पर आक्रमण करता है और उन्हें नुकसान पहुंचाता है। ऐसे ट्यूमर से निकली कोशिकाएं रक्त के माध्यम से दूर के स्थानों तक पहुंचती हैं और वहां एक नया ट्यूमर शुरू करती हैं (मेटास्टेसिस)।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Name the primary and secondary lymphoid organs.",
+      "hi": "प्राथमिक और द्वितीयक लिम्फोइड अंगों (lymphoid organs) के नाम बताइए।"
+    },
+    "answer": {
+      "en": "**Primary lymphoid organs**: Bone marrow and Thymus (where immature lymphocytes differentiate into antigen-sensitive lymphocytes).\n**Secondary lymphoid organs**: Spleen, lymph nodes, tonsils, Peyer's patches of small intestine, and appendix (where lymphocytes interact with antigens).",
+      "hi": "**प्राथमिक लिम्फोइड अंग**: अस्थि मज्जा (Bone marrow) और थाइमस (जहां अपरिपक्व लिम्फोसाइट्स एंटीजन-संवेदनशील लिम्फोसाइटों में अंतर करते हैं)।\n**द्वितीयक लिम्फोइड अंग**: प्लीहा (Spleen), लिम्फ नोड्स, टॉन्सिल, छोटी आंत के पेयर पैच और अपेंडिक्स (जहां लिम्फोसाइट्स एंटीजन के साथ बातचीत करते हैं)।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the replication of HIV in a human body after infection.",
+      "hi": "संक्रमण के बाद मानव शरीर में HIV की प्रतिकृति (replication) का वर्णन करें।"
+    },
+    "answer": {
+      "en": "After getting into the body of the person, the HIV enters into macrophages. Here, the RNA genome of the virus replicates to form viral DNA with the help of the enzyme **reverse transcriptase**. \nThis viral DNA gets incorporated into host cell's DNA and directs the infected cells to produce virus particles. The macrophages continue to produce virus and act like an HIV factory.\nSimultaneously, HIV enters into **helper T-lymphocytes (TH)**, replicates and produces progeny viruses. The progeny viruses released in the blood attack other helper T-lymphocytes, causing a progressive decrease in the number of helper T-lymphocytes. This leads to a severe weakening of the immune system.",
+      "hi": "व्यक्ति के शरीर में प्रवेश करने के बाद, HIV मैक्रोफेज में प्रवेश करता है। यहां, वायरस का RNA जीनोम एंजाइम **रिवर्स ट्रांसक्रिप्टेज़** की मदद से वायरल DNA बनाने के लिए प्रतिकृति करता है।\nयह वायरल DNA मेजबान कोशिका के DNA में शामिल हो जाता है और संक्रमित कोशिकाओं को वायरस कणों का उत्पादन करने का निर्देश देता है। मैक्रोफेज वायरस का उत्पादन जारी रखते हैं और HIV कारखाने की तरह कार्य करते हैं।\nइसके साथ ही, HIV **हेल्पर टी-लिम्फोसाइट्स (TH)** में प्रवेश करता है, प्रतिकृति करता है और संतति वायरस पैदा करता है। रक्त में जारी संतति वायरस अन्य हेल्पर टी-लिम्फोसाइटों पर हमला करते हैं, जिससे हेल्पर टी-लिम्फोसाइटों की संख्या में प्रगतिशील कमी आती है। इससे प्रतिरक्षा प्रणाली गंभीर रूप से कमजोर हो जाती है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "What is Innate Immunity? Describe the different types of barriers under it.",
+      "hi": "सहज प्रतिरक्षा (Innate Immunity) क्या है? इसके अंतर्गत विभिन्न प्रकार की बाधाओं (barriers) का वर्णन करें।"
+    },
+    "answer": {
+      "en": "**Innate immunity** is non-specific type of defense, that is present at the time of birth. It consists of four types of barriers:\n1. **Physical barriers**: Skin on our body is the main barrier. Mucus coating of the epithelium lining the respiratory, gastrointestinal, and urogenital tracts also helps in trapping microbes.\n2. **Physiological barriers**: Acid in the stomach, saliva in the mouth, tears from eyes prevent microbial growth.\n3. **Cellular barriers**: Certain types of leukocytes (WBC) like polymorphonuclear leukocytes (PMNL-neutrophils), monocytes, and natural killer (type of lymphocytes) in the blood, as well as macrophages in tissues, can phagocytose and destroy microbes.\n4. **Cytokine barriers**: Virus-infected cells secrete proteins called interferons which protect non-infected cells from further viral infection.",
+      "hi": "**सहज प्रतिरक्षा** गैर-विशिष्ट प्रकार की रक्षा है, जो जन्म के समय मौजूद होती है। इसमें चार प्रकार की बाधाएँ होती हैं:\n1. **शारीरिक बाधाएँ**: हमारे शरीर पर त्वचा मुख्य बाधा है। श्वसन, जठरांत्र और मूत्रजननांगी पथों को अस्तर करने वाले उपकला (epithelium) का बलगम लेप (Mucus coating) भी रोगाणुओं को फंसाने में मदद करता है।\n2. **शारीरिक (Physiological) बाधाएँ**: पेट में एसिड, मुंह में लार, आंखों से आंसू रोगाणुओं के विकास को रोकते हैं।\n3. **कोशिकीय बाधाएँ**: कुछ प्रकार के ल्यूकोसाइट्स (WBC) जैसे कि पॉलीमोर्फोन्यूक्लियर ल्यूकोसाइट्स (PMNL-न्यूट्रोफिल), मोनोसाइट्स, और रक्त में प्राकृतिक हत्यारा (लिम्फोसाइट्स के प्रकार), साथ ही ऊतकों में मैक्रोफेज, रोगाणुओं को नष्ट (phagocytose) कर सकते हैं।\n4. **साइटोकाइन बाधाएँ**: वायरस-संक्रमित कोशिकाएं इंटरफेरॉन नामक प्रोटीन का स्राव करती हैं जो गैर-संक्रमित कोशिकाओं को आगे के वायरल संक्रमण से बचाते हैं।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In the structure of an antibody molecule, what does 'H2L2' signify?",
+      "hi": "एक एंटीबॉडी अणु की संरचना में, 'H2L2' क्या दर्शाता है?"
+    },
+    "answer": {
+      "en": "'H2L2' signifies that an antibody molecule consists of four peptide chains: two small light chains (L2) and two longer heavy chains (H2).",
+      "hi": "'H2L2' दर्शाता है कि एक एंटीबॉडी अणु में चार पेप्टाइड श्रृंखलाएं होती हैं: दो छोटी हल्की श्रृंखलाएं (L2) और दो लंबी भारी श्रृंखलाएं (H2)।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following drugs is extracted from the latex of poppy plant (Papaver somniferum)?",
+      "hi": "खसखस के पौधे (पापावर सोम्निफेरम) के लेटेक्स से निम्नलिखित में से कौन सी दवा निकाली जाती है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Cocaine", "hi": "कोकीन" } },
+      { "id": "o2", "text": { "en": "Hashish", "hi": "हशीश" } },
+      { "id": "o3", "text": { "en": "Heroin", "hi": "हेरोइन" } },
+      { "id": "o4", "text": { "en": "Marijuana", "hi": "मारिजुआना" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Heroin (smack), which is chemically diacetylmorphine, is formed by the acetylation of morphine, which is extracted from the latex of the poppy plant.",
+      "hi": "हेरोइन (स्मैक), जो रासायनिक रूप से डायसेटाइलमॉर्फिन है, मॉर्फिन के एसिटिलीकरण द्वारा बनता है, जिसे खसखस के पौधे के लेटेक्स से निकाला जाता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is an autoimmune disease? Give one example.",
+      "hi": "ऑटोइम्यून बीमारी क्या है? एक उदाहरण दीजिए।"
+    },
+    "answer": {
+      "en": "**Autoimmune disease**: A condition where the body's immune system mistakenly attacks its own normal cells, due to genetic or unknown reasons.\n**Example**: Rheumatoid arthritis.",
+      "hi": "**ऑटोइम्यून बीमारी**: एक ऐसी स्थिति जिसमें आनुवंशिक या अज्ञात कारणों से शरीर की प्रतिरक्षा प्रणाली गलती से अपनी ही सामान्य कोशिकाओं पर हमला करती है।\n**उदाहरण**: रुमेटीइड गठिया (Rheumatoid arthritis)।"
     }
   }
 ]

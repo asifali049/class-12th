@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Carbonyl Group", "hi": "कार्बोनिल समूह" },
+    "definition": { "en": "A functional group consisting of a carbon atom double-bonded to an oxygen atom ($>C=O$). Found in aldehydes, ketones, and carboxylic acids.", "hi": "एक कार्यात्मक समूह जिसमें एक ऑक्सीजन परमाणु ($>C=O$) से दोगुना बंधा हुआ कार्बन परमाणु होता है। एल्डिहाइड, कीटोन और कार्बोक्जिलिक एसिड में पाया जाता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Aldehydes", "hi": "एल्डिहाइड" },
+    "definition": { "en": "Organic compounds in which the carbonyl group is attached to a carbon atom at the end of a carbon chain. General formula $R-CHO$.", "hi": "कार्बनिक यौगिक जिनमें कार्बोनिल समूह कार्बन श्रृंखला के अंत में एक कार्बन परमाणु से जुड़ा होता है। सामान्य सूत्र $R-CHO$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Ketones", "hi": "कीटोन" },
+    "definition": { "en": "Organic compounds in which the carbonyl group is attached to two carbon atoms within a carbon chain. General formula $R-CO-R'$.", "hi": "कार्बनिक यौगिक जिनमें कार्बोनिल समूह कार्बन श्रृंखला के भीतर दो कार्बन परमाणुओं से जुड़ा होता है। सामान्य सूत्र $R-CO-R'$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Carboxylic Acids", "hi": "कार्बोक्जिलिक एसिड" },
+    "definition": { "en": "Organic compounds containing a carboxyl group ($-COOH$), which is a carbonyl group attached to a hydroxyl group.", "hi": "एक कार्बोक्सिल समूह ($-COOH$) वाले कार्बनिक यौगिक, जो एक हाइड्रॉक्सिल समूह से जुड़ा एक कार्बोनिल समूह है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Rosenmund Reduction", "hi": "रोजेनमुंड (Rosenmund) अपचयन" },
+    "definition": { "en": "Hydrogenation of acyl chloride over palladium on barium sulfate ($Pd-BaSO_4$) to produce an aldehyde.", "hi": "एल्डिहाइड बनाने के लिए बेरियम सल्फेट ($Pd-BaSO_4$) पर पैलेडियम के ऊपर एसाइल क्लोराइड का हाइड्रोजनीकरण।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Clemmensen Reduction", "hi": "क्लीमेंसन अपचयन" },
+    "definition": { "en": "Reduction of the carbonyl group of aldehydes and ketones to a methylene group ($-CH_2-$) using zinc amalgam and conc. $HCl$.", "hi": "जिंक अमलगम और सांद्र $HCl$ का उपयोग करके एल्डिहाइड और केटोन्स के कार्बोनिल समूह को मेथिलीन समूह ($-CH_2-$) में अपचयित करना।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Wolff-Kishner Reduction", "hi": "वोल्फ-किश्नर अपचयन" },
+    "definition": { "en": "Reduction of aldehydes and ketones to alkanes by heating with hydrazine and a strong base (like $KOH$) in a high boiling solvent.", "hi": "एक उच्च उबलते विलायक में हाइड्राज़ीन और एक मजबूत क्षार (जैसे $KOH$) के साथ गर्म करके एल्डिहाइड और कीटोन का एल्केन में अपचयन।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Tollens' Test", "hi": "टॉलेन का परीक्षण" },
+    "definition": { "en": "A chemical test to distinguish aldehydes from ketones. Aldehydes reduce Tollens' reagent ($Ag(NH_3)_2^+$) to metallic silver (silver mirror).", "hi": "कीटोन से एल्डिहाइड को अलग करने के लिए एक रासायनिक परीक्षण। एल्डिहाइड टॉलेन अभिकर्मक ($Ag(NH_3)_2^+$) को धात्विक चांदी (सिल्वर मिरर) में अपचयित करते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Aldol Condensation", "hi": "एल्डोल संघनन" },
+    "definition": { "en": "Reaction of aldehydes or ketones having at least one $\\alpha$-hydrogen in the presence of a dilute base to form $\\beta$-hydroxy aldehydes/ketones.", "hi": "तनु क्षार की उपस्थिति में कम से कम एक $\\alpha$-हाइड्रोजन वाले एल्डिहाइड या कीटोन की अभिक्रिया जिससे $\\beta$-हाइड्रॉक्सी एल्डिहाइड/कीटोन बनते हैं।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Cannizzaro Reaction", "hi": "कैनिज़ारो अभिक्रिया" },
+    "definition": { "en": "Aldehydes with no $\\alpha$-hydrogen undergo self-oxidation and reduction (disproportionation) in concentrated alkali to form alcohol and a carboxylic acid salt.", "hi": "बिना $\\alpha$-हाइड्रोजन वाले एल्डिहाइड अल्कोहल और कार्बोक्जिलिक एसिड लवण बनाने के लिए सांद्र क्षार में स्व-ऑक्सीकरण और अपचयन (असमानुपातन) से गुजरते हैं।" }
+  }
+]

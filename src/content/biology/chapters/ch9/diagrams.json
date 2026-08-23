@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Action of Restriction Enzyme",
+      "hi": "रेस्ट्रिक्शन एंजाइम की क्रिया"
+    },
+    "description": {
+      "en": "Schematic representation showing how a restriction enzyme (EcoRI) cuts vector DNA and foreign DNA at the same palindromic sequence to create sticky ends, which are then joined by DNA ligase.",
+      "hi": "एक योजनाबद्ध प्रतिनिधित्व जो दिखाता है कि कैसे एक रेस्ट्रिक्शन एंजाइम (EcoRI) वेक्टर DNA और विदेशी DNA को एक ही पैलिंड्रोमिक अनुक्रम पर काटकर चिपचिपे सिरे बनाता है, जो फिर DNA लाइगेज द्वारा जुड़ जाते हैं।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 500' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.dna-backbone-v{stroke:#0284c7;stroke-width:10;stroke-linecap:round;}.dna-backbone-f{stroke:#ef4444;stroke-width:10;stroke-linecap:round;}.base{font-family:monospace;font-size:18px;font-weight:bold;fill:#1e293b;}.text-main{font-size:14px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:12px;font-family:sans-serif;fill:#475569;}.arrow{stroke:#64748b;stroke-width:2;marker-end:url(#arrowhead);}</style><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#64748b'/></marker></defs><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 30)'><text x='50' y='20' class='text-main' fill='#0284c7'>Vector DNA</text><line x1='30' y1='50' x2='250' y2='50' class='dna-backbone-v'/><line x1='30' y1='80' x2='250' y2='80' class='dna-backbone-v'/><text x='100' y='55' class='base'>G A A T T C</text><text x='100' y='85' class='base'>C T T A A G</text><polyline points='110,30 110,40 100,50' fill='none' stroke='black' stroke-width='2'/><text x='250' y='20' class='text-main' fill='#ef4444'>Foreign DNA</text><line x1='280' y1='50' x2='500' y2='50' class='dna-backbone-f'/><line x1='280' y1='80' x2='500' y2='80' class='dna-backbone-f'/><text x='300' y='55' class='base'>G A A T T C</text><text x='300' y='85' class='base'>C T T A A G</text><polyline points='395,100 395,90 405,80' fill='none' stroke='black' stroke-width='2'/><text x='180' y='130' class='text-small'>EcoRI cuts the DNA between bases G and A only</text><line x1='265' y1='140' x2='265' y2='170' class='arrow'/><text x='50' y='190' class='text-main' fill='#0284c7'>Sticky Ends (Vector)</text><line x1='30' y1='220' x2='100' y2='220' class='dna-backbone-v'/><line x1='30' y1='250' x2='170' y2='250' class='dna-backbone-v'/><text x='100' y='225' class='base'>G</text><text x='100' y='255' class='base'>C T T A A</text><text x='250' y='190' class='text-main' fill='#ef4444'>Sticky Ends (Foreign)</text><line x1='280' y1='220' x2='420' y2='220' class='dna-backbone-f'/><line x1='350' y1='250' x2='420' y2='250' class='dna-backbone-f'/><text x='280' y='225' class='base'>A A T T C</text><text x='395' y='255' class='base'>G</text><text x='180' y='290' class='text-small'>DNA fragments join at sticky ends using DNA Ligase</text><line x1='265' y1='300' x2='265' y2='330' class='arrow'/><text x='180' y='360' class='text-main'>Recombinant DNA</text><line x1='80' y1='390' x2='230' y2='390' class='dna-backbone-v'/><line x1='80' y1='420' x2='230' y2='420' class='dna-backbone-v'/><line x1='230' y1='390' x2='380' y2='390' class='dna-backbone-f'/><line x1='230' y1='420' x2='380' y2='420' class='dna-backbone-f'/><text x='180' y='395' class='base'>G</text><text x='180' y='425' class='base'>C T T A A</text><text x='230' y='395' class='base'>A A T T C</text><text x='330' y='425' class='base'>G</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 100, "y": 70, "text": { "en": "Palindromic Sequence", "hi": "पैलिंड्रोमिक अनुक्रम" } },
+      { "id": "l2", "x": 300, "y": 270, "text": { "en": "Sticky ends form H-bonds", "hi": "चिपचिपे सिरे (Sticky ends) H-बांड बनाते हैं" } }
+    ]
+  },
+  {
+    "id": "dia2",
+    "title": {
+      "en": "Polymerase Chain Reaction (PCR)",
+      "hi": "पोलीमरेज़ चेन रिएक्शन (PCR)"
+    },
+    "description": {
+      "en": "The three steps of PCR: Denaturation, Annealing, and Extension, used for amplification of a gene of interest.",
+      "hi": "PCR के तीन चरण: विकृतीकरण (Denaturation), एनीलिंग (Annealing), और विस्तार (Extension), जिसका उपयोग रुचि के जीन के प्रवर्धन के लिए किया जाता है।"
+    },
+    "svgCode": "<svg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.dna{stroke:#1d4ed8;stroke-width:4;fill:none;}.new-dna{stroke:#22c55e;stroke-width:4;fill:none;}.primer{stroke:#dc2626;stroke-width:6;stroke-linecap:round;}.text-main{font-size:14px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:12px;font-family:sans-serif;fill:#475569;}.arrow{stroke:#94a3b8;stroke-width:2;marker-end:url(#arrowhead);}</style><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#94a3b8'/></marker></defs><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 30)'><text x='150' y='20' class='text-main'>Region to be amplified</text><line x1='50' y1='40' x2='400' y2='40' class='dna'/><line x1='50' y1='50' x2='400' y2='50' class='dna'/><text x='30' y='45' class='text-small'>5'</text><text x='410' y='45' class='text-small'>3'</text><text x='30' y='55' class='text-small'>3'</text><text x='410' y='55' class='text-small'>5'</text><line x1='200' y1='70' x2='200' y2='90' class='arrow'/><text x='220' y='85' class='text-main'>1. Denaturation (Heat ~94°C)</text><line x1='50' y1='120' x2='400' y2='120' class='dna'/><line x1='50' y1='160' x2='400' y2='160' class='dna'/><line x1='200' y1='180' x2='200' y2='200' class='arrow'/><text x='220' y='195' class='text-main'>2. Annealing (~55°C)</text><text x='220' y='210' class='text-small'>Primers attach</text><line x1='50' y1='240' x2='400' y2='240' class='dna'/><line x1='50' y1='280' x2='400' y2='280' class='dna'/><line x1='330' y1='245' x2='370' y2='245' class='primer'/><line x1='80' y1='275' x2='120' y2='275' class='primer'/><line x1='200' y1='300' x2='200' y2='320' class='arrow'/><text x='220' y='315' class='text-main'>3. Extension (~72°C)</text><text x='220' y='330' class='text-small'>Taq Polymerase + dNTPs</text><line x1='50' y1='360' x2='400' y2='360' class='dna'/><line x1='50' y1='370' x2='370' y2='370' class='new-dna'/><line x1='330' y1='370' x2='370' y2='370' class='primer'/><line x1='80' y1='400' x2='400' y2='400' class='new-dna'/><line x1='80' y1='400' x2='120' y2='400' class='primer'/><line x1='50' y1='410' x2='400' y2='410' class='dna'/><text x='150' y='460' class='text-main'>Amplified ~ 1 Billion times</text><text x='150' y='475' class='text-small'>(after ~30 cycles)</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 100, "y": 300, "text": { "en": "Primers", "hi": "प्राइमर्स" } }
+    ]
+  }
+]

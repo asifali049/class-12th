@@ -1,0 +1,148 @@
+{
+  "id": "t11",
+  "title": { "en": "Chapter 11 Mock Test: Organisms and Populations", "hi": "अध्याय 11 मॉक टेस्ट: जीव और समष्टियां" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Organisms that can tolerate and thrive in a wide range of temperatures are called:", "hi": "तापमान की एक विस्तृत श्रृंखला में सहन करने और पनपने वाले जीवों को कहा जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Stenothermal", "hi": "स्टेनोथर्मल" } },
+        { "id": "o2", "text": { "en": "Eurythermal", "hi": "यूरीथर्मल" } },
+        { "id": "o3", "text": { "en": "Poikilothermal", "hi": "पॉइकिलोथर्मल" } },
+        { "id": "o4", "text": { "en": "Homeothermal", "hi": "होमियोथर्मल" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Eurythermal organisms can tolerate a wide range of temperatures. Stenothermal organisms are restricted to a narrow range.", "hi": "यूरीथर्मल जीव तापमान की एक विस्तृत श्रृंखला को सहन कर सकते हैं। स्टेनोथर्मल जीव एक संकीर्ण सीमा तक सीमित हैं।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Mycorrhiza is an example of:", "hi": "माइकोराइजा (Mycorrhiza) किसका एक उदाहरण है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Symbiotic relationship", "hi": "सहजीवी संबंध (Symbiotic relationship)" } },
+        { "id": "o2", "text": { "en": "Ectoparasitism", "hi": "एक्टोपारासिटिज़्म" } },
+        { "id": "o3", "text": { "en": "Endoparasitism", "hi": "एंडोपारासिटिज़्म" } },
+        { "id": "o4", "text": { "en": "Decomposers", "hi": "डीकंपोजर" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Mycorrhizae are associations between fungi and the roots of higher plants. It's a mutualistic (+/+) symbiotic relationship.", "hi": "माइकोराइजा कवक और उच्च पौधों की जड़ों के बीच संघ हैं। यह एक सहोपकारी (mutualistic) (+/+) सहजीवी संबंध है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "If a population grows in a habitat with limited resources, the growth curve obtained is:", "hi": "यदि एक समष्टि (population) सीमित संसाधनों वाले आवास में बढ़ती है, तो प्राप्त वृद्धि वक्र (growth curve) है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "J-shaped", "hi": "J-आकार" } },
+        { "id": "o2", "text": { "en": "S-shaped (Sigmoid)", "hi": "S-आकार (सिग्मॉइड)" } },
+        { "id": "o3", "text": { "en": "Linear", "hi": "रैखिक" } },
+        { "id": "o4", "text": { "en": "Exponential", "hi": "घातीय (Exponential)" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Populations with limited resources show logistic growth, which produces an S-shaped (sigmoid) curve, leveling off at carrying capacity (K).", "hi": "सीमित संसाधनों वाली समष्टियां लॉजिस्टिक वृद्धि दिखाती हैं, जो एक S-आकार (सिग्मॉइड) वक्र पैदा करती है, जो वहन क्षमता (K) पर समतल होती है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In the logistic growth equation dN/dt = rN(K-N/K), what does 'K' represent?", "hi": "लॉजिस्टिक वृद्धि समीकरण dN/dt = rN(K-N/K) में, 'K' क्या दर्शाता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Intrinsic rate of natural increase", "hi": "प्राकृतिक वृद्धि की आंतरिक दर" } },
+        { "id": "o2", "text": { "en": "Carrying capacity", "hi": "वहन क्षमता (Carrying capacity)" } },
+        { "id": "o3", "text": { "en": "Population density at time t", "hi": "समय t पर जनसंख्या घनत्व" } },
+        { "id": "o4", "text": { "en": "Environmental resistance", "hi": "पर्यावरणीय प्रतिरोध" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "K stands for Carrying capacity, which is the maximum number of individuals of a population that a given environment can sustain with its resources.", "hi": "K वहन क्षमता के लिए है, जो एक जनसंख्या के व्यक्तियों की अधिकतम संख्या है जिसे कोई दिया गया वातावरण अपने संसाधनों के साथ बनाए रख सकता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "An association of individuals of different species living in the same habitat and having functional interactions is:", "hi": "एक ही आवास में रहने वाले और कार्यात्मक अंतःक्रिया करने वाले विभिन्न प्रजातियों के व्यक्तियों का संघ है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Ecosystem", "hi": "पारिस्थितिकी तंत्र" } },
+        { "id": "o2", "text": { "en": "Population", "hi": "समष्टि (Population)" } },
+        { "id": "o3", "text": { "en": "Ecological niche", "hi": "पारिस्थितिक स्थान (niche)" } },
+        { "id": "o4", "text": { "en": "Biotic community", "hi": "जैविक समुदाय (Biotic community)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "A population is a group of individuals of the *same* species. An association of interacting populations of *different* species forms a biotic community.", "hi": "एक समष्टि *समान* प्रजातियों के व्यक्तियों का एक समूह है। *विभिन्न* प्रजातियों की परस्पर क्रिया करने वाली समष्टियों का एक संघ एक जैविक समुदाय बनाता है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which one of the following is an example of Commensalism?", "hi": "निम्नलिखित में से कौन सा सहभोजिता (Commensalism) का उदाहरण है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Cuckoo laying eggs in crow's nest", "hi": "कौवे के घोंसले में कोयल का अंडे देना" } },
+        { "id": "o2", "text": { "en": "Orchid growing on a mango tree", "hi": "आम के पेड़ पर उगने वाला आर्किड" } },
+        { "id": "o3", "text": { "en": "Plasmodium living in human blood", "hi": "मानव रक्त में रहने वाला प्लास्मोडियम" } },
+        { "id": "o4", "text": { "en": "Tiger hunting a deer", "hi": "बाघ द्वारा हिरण का शिकार" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "An orchid on a mango tree is commensalism (+/0). The orchid benefits (gets support/light), and the mango tree is neither harmed nor benefited.", "hi": "आम के पेड़ पर एक आर्किड सहभोजिता (+/0) है। आर्किड को लाभ होता है (समर्थन/प्रकाश मिलता है), और आम के पेड़ को न तो नुकसान होता है और न ही लाभ होता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "A biologist studied the population of rats in a barn. He found that the average natality was 250, average mortality 240, immigration 20 and emigration 30. The net increase in population is:", "hi": "एक जीवविज्ञानी ने खलिहान में चूहों की आबादी का अध्ययन किया। उसने पाया कि औसत जन्म दर 250, औसत मृत्यु दर 240, अप्रवासन (immigration) 20 और उत्प्रवास (emigration) 30 था। जनसंख्या में शुद्ध वृद्धि है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "10", "hi": "10" } },
+        { "id": "o2", "text": { "en": "15", "hi": "15" } },
+        { "id": "o3", "text": { "en": "0", "hi": "0" } },
+        { "id": "o4", "text": { "en": "20", "hi": "20" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Population increase = (Natality + Immigration) - (Mortality + Emigration) = (250 + 20) - (240 + 30) = 270 - 270 = 0.", "hi": "जनसंख्या वृद्धि = (जन्म + अप्रवासन) - (मृत्यु + उत्प्रवास) = (250 + 20) - (240 + 30) = 270 - 270 = 0।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "What type of human population is represented by an age pyramid with a broad base?", "hi": "एक व्यापक (broad) आधार वाले आयु पिरामिड द्वारा किस प्रकार की मानव जनसंख्या का प्रतिनिधित्व किया जाता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Stable population", "hi": "स्थिर जनसंख्या" } },
+        { "id": "o2", "text": { "en": "Declining population", "hi": "घटती जनसंख्या" } },
+        { "id": "o3", "text": { "en": "Expanding population", "hi": "बढ़ती (Expanding) जनसंख्या" } },
+        { "id": "o4", "text": { "en": "Vanishing population", "hi": "लुप्त होती जनसंख्या" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "A broad base indicates a large proportion of young (pre-reproductive) individuals, which means the population will grow rapidly in the future.", "hi": "एक व्यापक आधार युवा (पूर्व-प्रजनन) व्यक्तियों के एक बड़े अनुपात को इंगित करता है, जिसका अर्थ है कि भविष्य में जनसंख्या तेजी से बढ़ेगी।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Under unfavourable conditions, many zooplankton species in lakes and ponds enter:", "hi": "प्रतिकूल परिस्थितियों में, झीलों और तालाबों में कई ज़ूप्लैंकटन प्रजातियां किसमें प्रवेश करती हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Diapause", "hi": "डायपॉज़ (Diapause)" } },
+        { "id": "o2", "text": { "en": "Hibernation", "hi": "हाइबरनेशन" } },
+        { "id": "o3", "text": { "en": "Aestivation", "hi": "एस्टीवेशन" } },
+        { "id": "o4", "text": { "en": "Migration", "hi": "प्रवास" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Zooplanktons enter diapause, a stage of suspended development, to survive unfavourable environmental conditions.", "hi": "ज़ूप्लैंकटन प्रतिकूल पर्यावरणीय परिस्थितियों से बचने के लिए डायपॉज़ (निलंबित विकास का एक चरण) में प्रवेश करते हैं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The interaction where one species is harmed and the other is unaffected is called:", "hi": "वह अंतःक्रिया (interaction) जहां एक प्रजाति को नुकसान होता है और दूसरी अप्रभावित रहती है, कहलाती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Amensalism", "hi": "अमेन्सेलिज़्म (Amensalism)" } },
+        { "id": "o2", "text": { "en": "Commensalism", "hi": "सहभोजिता (Commensalism)" } },
+        { "id": "o3", "text": { "en": "Parasitism", "hi": "परजीविता (Parasitism)" } },
+        { "id": "o4", "text": { "en": "Competition", "hi": "प्रतिस्पर्धा (Competition)" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In Amensalism (-/0), one species is harmed (-) and the other is unaffected (0). Example: Penicillium killing bacteria.", "hi": "अमेन्सेलिज़्म (-/0) में, एक प्रजाति को नुकसान (-) होता है और दूसरी अप्रभावित (0) होती है। उदाहरण: पेनिसिलियम का बैक्टीरिया को मारना।" }
+    }
+  ]
+}

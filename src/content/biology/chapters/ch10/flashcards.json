@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "GMO (Genetically Modified Organism)", "hi": "GMO (आनुवंशिक रूप से संशोधित जीव)" },
+    "definition": { "en": "Plants, bacteria, fungi, and animals whose genes have been altered by manipulation.", "hi": "पौधे, बैक्टीरिया, कवक और जानवर जिनके जीन में हेरफेर द्वारा परिवर्तन किया गया है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Bt Toxin", "hi": "Bt विष (Toxin)" },
+    "definition": { "en": "An insecticidal protein produced by the bacterium Bacillus thuringiensis. It kills insects by creating pores in their midgut.", "hi": "जीवाणु बैसिलस थुरिंजिएंसिस द्वारा निर्मित एक कीटनाशक प्रोटीन। यह कीड़ों के मिडगट में छिद्र बनाकर उन्हें मारता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "RNA Interference (RNAi)", "hi": "RNA इंटरफेरेंस (RNAi)" },
+    "definition": { "en": "A cellular defense mechanism in eukaryotes where a specific mRNA is silenced by a complementary dsRNA, preventing its translation.", "hi": "यूकेरियोट्स में एक सेलुलर रक्षा तंत्र जहां एक विशिष्ट mRNA को एक पूरक dsRNA द्वारा शांत किया जाता है, जिससे इसके अनुवाद को रोका जा सके।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Cry gene", "hi": "Cry जीन" },
+    "definition": { "en": "The gene in Bacillus thuringiensis that codes for the Bt toxin protein (e.g., cryIAc, cryIIAb).", "hi": "बैसिलस थुरिंजिएंसिस में वह जीन जो Bt विष प्रोटीन के लिए कोड करता है (उदा., cryIAc, cryIIAb)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Pro-insulin", "hi": "प्रो-इंसुलिन" },
+    "definition": { "en": "The inactive precursor form of insulin that contains an extra stretch of polypeptide called the C-peptide.", "hi": "इंसुलिन का निष्क्रिय अग्रदूत रूप जिसमें C-पेप्टाइड नामक पॉलीपेप्टाइड का अतिरिक्त खिंचाव होता है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "C-Peptide", "hi": "C-पेप्टाइड" },
+    "definition": { "en": "An extra stretch of polypeptide present in pro-insulin but removed during its maturation into functional insulin.", "hi": "पॉलीपेप्टाइड का एक अतिरिक्त खिंचाव जो प्रो-इंसुलिन में मौजूद होता है लेकिन कार्यात्मक इंसुलिन में परिपक्व होने के दौरान हटा दिया जाता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Gene Therapy", "hi": "जीन थेरेपी" },
+    "definition": { "en": "A collection of methods that allows the correction of a gene defect diagnosed in a child or embryo (e.g., ADA deficiency treatment).", "hi": "विधियों का एक संग्रह जो बच्चे या भ्रूण (जैसे, ADA की कमी का उपचार) में निदान किए गए जीन दोष के सुधार की अनुमति देता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Transgenic Animals", "hi": "ट्रांसजेनिक जानवर" },
+    "definition": { "en": "Animals that have had their DNA manipulated to possess and express an extra (foreign) gene.", "hi": "जिन जानवरों के DNA में एक अतिरिक्त (विदेशी) जीन रखने और व्यक्त करने के लिए हेरफेर किया गया है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "GEAC", "hi": "GEAC" },
+    "definition": { "en": "Genetic Engineering Approval Committee. An Indian organization that makes decisions regarding GM research validity and GMO introduction safety.", "hi": "जेनेटिक इंजीनियरिंग अप्रूवल कमेटी। एक भारतीय संगठन जो GM अनुसंधान की वैधता और GMO परिचय सुरक्षा के संबंध में निर्णय लेता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Biopiracy", "hi": "बायोपायरेसी (Biopiracy)" },
+    "definition": { "en": "The use of bio-resources by multinational companies without proper authorization from the countries and people concerned without compensatory payment.", "hi": "प्रतिपूरक भुगतान के बिना संबंधित देशों और लोगों से उचित प्राधिकरण के बिना बहुराष्ट्रीय कंपनियों द्वारा जैव-संसाधनों का उपयोग।" }
+  }
+]

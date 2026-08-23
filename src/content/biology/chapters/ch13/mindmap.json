@@ -1,8 +1,71 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Biodiversity",
-    "hi": "जैव-विविधता"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Biodiversity and Conservation", "hi": "जैव-विविधता एवं संरक्षण" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Levels of Biodiversity", "hi": "जैव विविधता के स्तर" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Genetic", "hi": "आनुवंशिक" } },
+        { "id": "n1_2", "label": { "en": "Species", "hi": "प्रजाति" } },
+        { "id": "n1_3", "label": { "en": "Ecological", "hi": "पारिस्थितिक" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Patterns of Biodiversity", "hi": "जैव विविधता के प्रतिरूप" },
+      "children": [
+        {
+          "id": "n2_1",
+          "label": { "en": "Latitudinal Gradient", "hi": "अक्षांशीय प्रवणता" },
+          "children": [
+            { "id": "n2_1_1", "label": { "en": "Max in Tropics", "hi": "उष्णकटिबंधीय में अधिकतम" } },
+            { "id": "n2_1_2", "label": { "en": "Decreases towards poles", "hi": "ध्रुवों की ओर घटता है" } }
+          ]
+        },
+        {
+          "id": "n2_2",
+          "label": { "en": "Species-Area Relationship", "hi": "प्रजाति-क्षेत्र संबंध" },
+          "children": [
+            { "id": "n2_2_1", "label": { "en": "Hyperbola on normal scale", "hi": "सामान्य स्केल पर हाइपरबोला" } },
+            { "id": "n2_2_2", "label": { "en": "Straight line on Log scale", "hi": "लॉग स्केल पर सीधी रेखा" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Loss (The Evil Quartet)", "hi": "नुकसान (द एविल क्वार्टेट)" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Habitat Loss & Fragmentation", "hi": "आवास का नुकसान और विखंडन" } },
+        { "id": "n3_2", "label": { "en": "Over-exploitation", "hi": "अति-दोहन" } },
+        { "id": "n3_3", "label": { "en": "Alien Species Invasions", "hi": "विदेशी प्रजातियों का आक्रमण" } },
+        { "id": "n3_4", "label": { "en": "Co-extinctions", "hi": "सह-विलुप्ति" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Conservation Strategies", "hi": "संरक्षण रणनीतियाँ" },
+      "children": [
+        {
+          "id": "n4_1",
+          "label": { "en": "In-situ (On-site)", "hi": "स्वस्थाने (On-site)" },
+          "children": [
+            { "id": "n4_1_1", "label": { "en": "National Parks", "hi": "राष्ट्रीय उद्यान" } },
+            { "id": "n4_1_2", "label": { "en": "Biosphere Reserves", "hi": "जीवमंडल भंडार" } },
+            { "id": "n4_1_3", "label": { "en": "Hotspots & Sacred Groves", "hi": "हॉटस्पॉट और पवित्र उपवन" } }
+          ]
+        },
+        {
+          "id": "n4_2",
+          "label": { "en": "Ex-situ (Off-site)", "hi": "बाह्यस्थाने (Off-site)" },
+          "children": [
+            { "id": "n4_2_1", "label": { "en": "Zoos & Botanical Gardens", "hi": "चिड़ियाघर और वनस्पति उद्यान" } },
+            { "id": "n4_2_2", "label": { "en": "Seed Banks", "hi": "बीज बैंक" } },
+            { "id": "n4_2_3", "label": { "en": "Cryopreservation", "hi": "क्रायोप्रिजर्वेशन" } }
+          ]
+        }
+      ]
+    }
+  ]
 }

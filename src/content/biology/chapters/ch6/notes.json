@@ -1,35 +1,195 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Origin of Life",
-      "hi": "जीवन की उत्पत्ति"
-    },
-    "content": {
-      "en": "Oparin and Haldane proposed chemical evolution. Miller-Urey experiment proved it by forming amino acids from simple gases.",
-      "hi": "ओपेरिन और हाल्डेन ने रासायनिक विकास का प्रस्ताव रखा। मिलर-यूरे प्रयोग ने इसे सिद्ध किया।"
+    "type": "heading",
+    "text": {
+      "en": "Evolution",
+      "hi": "विकास (Evolution)"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Evidences for Evolution",
-      "hi": "विकास के प्रमाण"
-    },
-    "content": {
-      "en": "Homologous organs (same origin, different function, e.g., forelimbs of mammals) show divergent evolution. Analogous organs (different origin, same function, e.g., wings of birds and insects) show convergent evolution.",
-      "hi": "समजात अंग (Homologous - समान उत्पत्ति, अलग कार्य) अपसारी विकास (divergent evolution) दिखाते हैं। समरूप अंग (Analogous - अलग उत्पत्ति, समान कार्य) अभिसारी विकास (convergent evolution) दिखाते हैं।"
+    "type": "paragraph",
+    "text": {
+      "en": "Evolutionary biology is the study of history of life forms on earth. Evolutionary biology deals with how life originated on earth and how diverse forms of flora and fauna have developed over millions of years.",
+      "hi": "विकासवादी जीव विज्ञान पृथ्वी पर जीवन के रूपों के इतिहास का अध्ययन है। विकासवादी जीव विज्ञान इस बात से संबंधित है कि पृथ्वी पर जीवन की उत्पत्ति कैसे हुई और लाखों वर्षों में वनस्पतियों और जीवों के विविध रूप कैसे विकसित हुए हैं।"
     }
   },
   {
-    "id": "n3",
-    "title": {
-      "en": "Hardy-Weinberg Principle",
-      "hi": "हार्डी-वेनबर्ग सिद्धांत"
-    },
-    "content": {
-      "en": "States that allele frequencies in a population are stable and is constant from generation to generation in the absence of disturbing factors.",
-      "hi": "यह बताता है कि एक समष्टि (population) में एलील आवृत्तियां (allele frequencies) स्थिर होती हैं।"
+    "type": "heading",
+    "text": {
+      "en": "1. Origin of Life",
+      "hi": "1. जीवन की उत्पत्ति"
     }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The universe is about 20 billion years old. The Big Bang theory attempts to explain to us the origin of universe. Earth was formed about 4.5 billion years back. There was no atmosphere on early earth.",
+      "hi": "ब्रह्मांड लगभग 20 अरब वर्ष पुराना है। बिग बैंग सिद्धांत (Big Bang theory) हमें ब्रह्मांड की उत्पत्ति को समझाने का प्रयास करता है। पृथ्वी का निर्माण लगभग 4.5 अरब वर्ष पहले हुआ था। प्रारंभिक पृथ्वी पर कोई वायुमंडल नहीं था।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Theory of Spontaneous Generation (Abiogenesis): Stated that life came out of decaying and rotting matter like straw, mud, etc. Louis Pasteur carefully disproved it.",
+        "hi": "स्वतः जनन का सिद्धांत (Abiogenesis): इसमें कहा गया है कि जीवन सड़े हुए और सड़ने वाले पदार्थ जैसे पुआल, कीचड़ आदि से निकला है। लुई पाश्चर ने इसे सावधानीपूर्वक गलत साबित किया।"
+      },
+      {
+        "en": "Oparin-Haldane Theory (Chemical Evolution): Proposed that the first form of life could have come from pre-existing non-living organic molecules (e.g. RNA, protein, etc.) and that formation of life was preceded by chemical evolution.",
+        "hi": "ओपेरिन-हेल्डेन सिद्धांत (रासायनिक विकास): प्रस्तावित किया कि जीवन का पहला रूप पहले से मौजूद निर्जीव कार्बनिक अणुओं (उदा. RNA, प्रोटीन, आदि) से आ सकता था और जीवन के निर्माण से पहले रासायनिक विकास हुआ था।"
+      },
+      {
+        "en": "Miller-Urey Experiment (1953): Created conditions similar to primitive earth in a laboratory (high temperature, volcanic storms, reducing atmosphere containing CH4, NH3, etc.). They observed formation of amino acids, proving chemical evolution.",
+        "hi": "मिलर-उरे प्रयोग (1953): प्रयोगशाला में आदिम पृथ्वी के समान स्थितियां (उच्च तापमान, ज्वालामुखीय तूफान, CH4, NH3 आदि युक्त कम करने वाला वातावरण) बनाईं। उन्होंने अमीनो एसिड का निर्माण देखा, जिससे रासायनिक विकास साबित हुआ।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Evidences for Evolution",
+      "hi": "2. विकास के प्रमाण"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Paleontological Evidence: Fossils are remains of hard parts of life-forms found in rocks. A study of fossils in different sedimentary layers indicates the geological period in which they existed.",
+        "hi": "जीवाश्म विज्ञान संबंधी प्रमाण (Paleontological Evidence): जीवाश्म चट्टानों में पाए जाने वाले जीवन-रूपों के कठोर भागों के अवशेष हैं। विभिन्न अवसादी परतों में जीवाश्मों का अध्ययन उस भूवैज्ञानिक अवधि को इंगित करता है जिसमें वे मौजूद थे।"
+      },
+      {
+        "en": "Homologous Organs: Organs having the same fundamental structure but different functions (e.g., forelimbs of whales, bats, Cheetah, and humans). This indicates Divergent Evolution.",
+        "hi": "समजात अंग (Homologous Organs): वे अंग जिनकी मूलभूत संरचना समान होती है लेकिन कार्य भिन्न होते हैं (उदा., व्हेल, चमगादड़, चीता और मनुष्यों के अग्रपाद)। यह अपसारी विकास (Divergent Evolution) को इंगित करता है।"
+      },
+      {
+        "en": "Analogous Organs: Organs having different anatomical structures but performing similar functions (e.g., wings of butterfly and of birds). This indicates Convergent Evolution.",
+        "hi": "समरूप अंग (Analogous Organs): विभिन्न शारीरिक संरचनाओं वाले लेकिन समान कार्य करने वाले अंग (उदा., तितली और पक्षियों के पंख)। यह अभिसारी विकास (Convergent Evolution) को इंगित करता है।"
+      },
+      {
+        "en": "Biochemical Evidence: Similarities in proteins and genes performing a given function among diverse organisms give clues to common ancestry.",
+        "hi": "जैव रासायनिक प्रमाण: विविध जीवों के बीच एक निश्चित कार्य करने वाले प्रोटीन और जीन में समानताएं सामान्य वंश (common ancestry) का सुराग देती हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Adaptive Radiation",
+      "hi": "3. अनुकूली विकिरण (Adaptive Radiation)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The process of evolution of different species in a given geographical area starting from a point and literally radiating to other areas of geography (habitats) is called adaptive radiation. Darwin's finches and Australian marsupials are excellent examples.",
+      "hi": "किसी दिए गए भौगोलिक क्षेत्र में एक बिंदु से शुरू होकर अन्य भौगोलिक क्षेत्रों (आवासों) में सचमुच विकिरण (radiating) करने वाली विभिन्न प्रजातियों के विकास की प्रक्रिया को अनुकूली विकिरण कहा जाता है। डार्विन की फिंच (Darwin's finches) और ऑस्ट्रेलियाई मार्सुपियल्स बेहतरीन उदाहरण हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Biological Evolution and Darwin's Theory",
+      "hi": "4. जैविक विकास और डार्विन का सिद्धांत"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Charles Darwin, based on his observations during a sea voyage in a sail ship called H.M.S. Beagle, concluded that existing living forms share similarities to varying degrees not only among themselves but also with life forms that existed millions of years ago. The two key concepts of Darwinian Theory of Evolution are:\n1. Branching descent\n2. Natural selection",
+      "hi": "चार्ल्स डार्विन ने एच.एम.एस. बीगल (H.M.S. Beagle) नामक एक जहाज में समुद्री यात्रा के दौरान अपने अवलोकनों के आधार पर यह निष्कर्ष निकाला कि मौजूदा जीवित रूप न केवल आपस में, बल्कि उन जीवन रूपों के साथ भी अलग-अलग डिग्री तक समानताएं साझा करते हैं जो लाखों साल पहले मौजूद थे। डार्विन के विकासवादी सिद्धांत की दो प्रमुख अवधारणाएँ हैं:\n1. ब्रांचिंग डिसेंट (Branching descent)\n2. प्राकृतिक चयन (Natural selection)"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Mechanism of Evolution",
+      "hi": "5. विकास की क्रियाविधि"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Hugo deVries based on his work on evening primrose brought forth the idea of mutations (large difference arising suddenly in a population). He believed that it is mutation which causes evolution and not the minor variations (heritable) that Darwin talked about. Mutations are random and directionless while Darwinian variations are small and directional. Evolution for Darwin was gradual, while deVries believed mutation caused speciation and hence called it saltation (single step large mutation).",
+      "hi": "ह्यूगो डी व्रीज (Hugo deVries) ने ईवनिंग प्रिमरोज (evening primrose) पर अपने काम के आधार पर उत्परिवर्तन (mutations) का विचार सामने रखा (जनसंख्या में अचानक बड़ा अंतर पैदा होना)। उनका मानना था कि विकास उत्परिवर्तन के कारण होता है, न कि उन मामूली विविधताओं (वंशानुगत) के कारण जिनके बारे में डार्विन ने बात की थी। उत्परिवर्तन यादृच्छिक (random) और दिशाहीन होते हैं जबकि डार्विनियन विविधताएं छोटी और दिशात्मक होती हैं। डार्विन के लिए विकास क्रमिक (gradual) था, जबकि डी व्रीज का मानना था कि उत्परिवर्तन के कारण प्रजाति निर्माण (speciation) होता है और इसलिए इसे साल्टेशन (single step large mutation) कहा जाता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Hardy-Weinberg Principle",
+      "hi": "6. हार्डी-वेनबर्ग सिद्धांत"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "This principle states that allele frequencies in a population are stable and is constant from generation to generation. The gene pool remains a constant. This is called genetic equilibrium. Sum total of all the allelic frequencies is 1. When frequency measured differs from expected values, the difference indicates the extent of evolutionary change.",
+      "hi": "यह सिद्धांत बताता है कि एक आबादी में एलील आवृत्तियां (allele frequencies) स्थिर होती हैं और पीढ़ी दर पीढ़ी स्थिर रहती हैं। जीन पूल स्थिर रहता है। इसे आनुवंशिक संतुलन (genetic equilibrium) कहा जाता है। सभी एलील आवृत्तियों का कुल योग 1 है। जब मापी गई आवृत्ति अपेक्षित मूल्यों से भिन्न होती है, तो अंतर विकासवादी परिवर्तन की सीमा को इंगित करता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. A Brief Account of Evolution",
+      "hi": "7. विकास का एक संक्षिप्त विवरण"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "About 2000 mya (million years ago) the first cellular forms of life appeared on earth.",
+        "hi": "लगभग 2000 mya (मिलियन वर्ष पूर्व) पृथ्वी पर जीवन के पहले कोशिकीय रूप दिखाई दिए।"
+      },
+      {
+        "en": "By the time of 500 mya, invertebrates were formed and active.",
+        "hi": "500 mya के समय तक, अकशेरुकी (invertebrates) बन गए थे और सक्रिय थे।"
+      },
+      {
+        "en": "Jawless fish probably evolved around 350 mya.",
+        "hi": "जबड़े रहित मछली संभवतः 350 mya के आसपास विकसित हुई।"
+      },
+      {
+        "en": "Amphibians evolved into reptiles. Reptiles dominated the earth for next 200 million years (e.g., Dinosaurs).",
+        "hi": "उभयचर (Amphibians) सरीसृप (reptiles) में विकसित हुए। सरीसृपों ने अगले 200 मिलियन वर्षों तक पृथ्वी पर प्रभुत्व जमाया (उदा., डायनासोर)।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Origin and Evolution of Man",
+      "hi": "8. मानव की उत्पत्ति और विकास"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "About 15 mya, primates called Dryopithecus and Ramapithecus were existing.",
+        "hi": "लगभग 15 mya, ड्रायोपिथेकस (Dryopithecus) और रामापिथेकस (Ramapithecus) नामक प्राइमेट मौजूद थे।"
+      },
+      {
+        "en": "Australopithecines probably lived in East African grasslands about 2 mya.",
+        "hi": "ऑस्ट्रेलोपिथेकस संभवतः लगभग 2 mya पूर्वी अफ्रीकी घास के मैदानों में रहते थे।"
+      },
+      {
+        "en": "Homo habilis: First human-like being (hominid). Brain capacity 650-800cc.",
+        "hi": "होमो हैबिलिस (Homo habilis): पहला मानव जैसा प्राणी (होमिनिड)। मस्तिष्क क्षमता 650-800cc।"
+      },
+      {
+        "en": "Homo erectus: Fossil discovered in Java (1891). Lived about 1.5 mya. Brain capacity ~900cc.",
+        "hi": "होमो इरेक्टस (Homo erectus): जावा (1891) में खोजा गया जीवाश्म। लगभग 1.5 mya रहते थे। मस्तिष्क क्षमता ~900cc।"
+      },
+      {
+        "en": "Neanderthal man: Brain size 1400cc. Lived in near east and central Asia between 1,00,000-40,000 years back.",
+        "hi": "निएंडरथल मानव (Neanderthal man): मस्तिष्क का आकार 1400cc। 1,00,000-40,000 साल पहले निकट पूर्व और मध्य एशिया में रहते थे।"
+      },
+      {
+        "en": "Homo sapiens: Arose in Africa and moved across continents. Developed into distinct races.",
+        "hi": "होमो सेपियन्स (Homo sapiens): अफ्रीका में उत्पन्न हुए और महाद्वीपों में चले गए। विशिष्ट नस्लों में विकसित हुए।"
+      }
+    ]
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Alternating Current (AC)", "hi": "प्रत्यावर्ती धारा (AC)" },
+    "definition": { "en": "Electric current whose magnitude changes continuously with time and direction reverses periodically. $I = I_0 \\sin(\\omega t)$.", "hi": "वह विद्युत धारा जिसका परिमाण समय के साथ लगातार बदलता है और दिशा समय-समय पर उलट जाती है। $I = I_0 \\sin(\\omega t)$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "RMS Value of AC", "hi": "AC का वर्ग माध्य मूल (RMS) मान" },
+    "definition": { "en": "Value of steady current which would produce the same heat in a resistor in a given time as is produced by AC. $I_{rms} = I_0 / \\sqrt{2} \\approx 0.707 I_0$.", "hi": "स्थिर धारा का वह मान जो किसी प्रतिरोधक में दिए गए समय में उतनी ही ऊष्मा उत्पन्न करेगा जितनी AC द्वारा उत्पन्न होती है। $I_{rms} = I_0 / \\sqrt{2} \\approx 0.707 I_0$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Inductive Reactance ($X_L$)", "hi": "प्रेरणिक प्रतिघात ($X_L$)" },
+    "definition": { "en": "Opposition offered by an inductor to the flow of AC. $X_L = \\omega L = 2\\pi fL$. Directly proportional to frequency.", "hi": "AC के प्रवाह के लिए एक प्रेरक द्वारा प्रस्तुत विरोध। $X_L = \\omega L = 2\\pi fL$। आवृत्ति के अनुक्रमानुपाती।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Capacitive Reactance ($X_C$)", "hi": "धारितीय प्रतिघात ($X_C$)" },
+    "definition": { "en": "Opposition offered by a capacitor to the flow of AC. $X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi fC}$. Inversely proportional to frequency.", "hi": "AC के प्रवाह के लिए एक संधारित्र द्वारा प्रस्तुत विरोध। $X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi fC}$। आवृत्ति के व्युत्क्रमानुपाती।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Impedance (Z)", "hi": "प्रतिबाधा (Z)" },
+    "definition": { "en": "Total opposition offered by L, C, and R in an AC circuit. $Z = \\sqrt{R^2 + (X_L - X_C)^2}$. SI unit: Ohm ($\\Omega$).", "hi": "एक AC परिपथ में L, C और R द्वारा प्रस्तुत कुल विरोध। $Z = \\sqrt{R^2 + (X_L - X_C)^2}$। SI इकाई: ओम ($\\Omega$)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Resonance in Series LCR", "hi": "श्रृंखला LCR में अनुनाद" },
+    "definition": { "en": "Condition when $X_L = X_C$, so $Z = R$ (minimum) and current is maximum. Resonant frequency $f_r = \\frac{1}{2\\pi\\sqrt{LC}}$.", "hi": "वह स्थिति जब $X_L = X_C$, इसलिए $Z = R$ (न्यूनतम) और धारा अधिकतम होती है। अनुनाद आवृत्ति $f_r = \\frac{1}{2\\pi\\sqrt{LC}}$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Quality Factor (Q-factor)", "hi": "गुणवत्ता कारक (Q-factor)" },
+    "definition": { "en": "Measures the sharpness of resonance. $Q = \\frac{1}{R} \\sqrt{\\frac{L}{C}} = \\frac{\\omega_r L}{R}$. Higher Q means sharper tuning.", "hi": "अनुनाद की तीक्ष्णता को मापता है। $Q = \\frac{1}{R} \\sqrt{\\frac{L}{C}} = \\frac{\\omega_r L}{R}$। उच्च Q का अर्थ है तेज ट्यूनिंग।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Power in AC Circuit", "hi": "AC परिपथ में शक्ति" },
+    "definition": { "en": "Average power $P_{avg} = V_{rms} I_{rms} \\cos\\phi$, where $\\cos\\phi = R/Z$ is the power factor.", "hi": "औसत शक्ति $P_{avg} = V_{rms} I_{rms} \\cos\\phi$, जहाँ $\\cos\\phi = R/Z$ शक्ति गुणांक है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Transformer", "hi": "ट्रांसफार्मर" },
+    "definition": { "en": "Device used to increase (step-up) or decrease (step-down) AC voltage, working on the principle of mutual induction. $V_s/V_p = N_s/N_p$.", "hi": "अन्योन्य प्रेरण के सिद्धांत पर काम करने वाला, AC वोल्टेज को बढ़ाने (स्टेप-अप) या घटाने (स्टेप-डाउन) के लिए उपयोग किया जाने वाला उपकरण। $V_s/V_p = N_s/N_p$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Wattless Current", "hi": "वाटहीन धारा" },
+    "definition": { "en": "The component of current in an AC circuit ($I_{rms} \\sin\\phi$) which does not consume any average power.", "hi": "AC परिपथ में धारा का वह घटक ($I_{rms} \\sin\\phi$) जो किसी औसत शक्ति का उपभोग नहीं करता है।" }
+  }
+]

@@ -23,7 +23,7 @@ export class Engine {
   }
 
   async runTask(task: GenerationTask, maxAttempts = 3) {
-    let currentStatus = this.store.getSectionStatus(task.subjectId, task.chapterId, task.section);
+    const currentStatus = this.store.getSectionStatus(task.subjectId, task.chapterId, task.section);
 
     if (currentStatus.status === 'approved' || currentStatus.status === 'published') {
       console.log(`[${task.subjectId}/${task.chapterId}/${task.section}] Already approved. Skipping.`);

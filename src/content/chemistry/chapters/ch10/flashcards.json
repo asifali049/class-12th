@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Carbohydrates", "hi": "कार्बोहाइड्रेट" },
+    "definition": { "en": "Optically active polyhydroxy aldehydes or ketones, or compounds which produce them on hydrolysis. Mostly have the formula $C_x(H_2O)_y$.", "hi": "प्रकाशिक रूप से सक्रिय पॉलीहाइड्रॉक्सी एल्डिहाइड या कीटोन, या ऐसे यौगिक जो हाइड्रोलिसिस पर उन्हें उत्पन्न करते हैं। अधिकतर इनका सूत्र $C_x(H_2O)_y$ होता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Monosaccharides", "hi": "मोनोसैकेराइड" },
+    "definition": { "en": "Simplest carbohydrates that cannot be hydrolyzed into simpler units (e.g., Glucose, Fructose, Ribose).", "hi": "सबसे सरल कार्बोहाइड्रेट जिन्हें सरल इकाइयों में हाइड्रोलाइज नहीं किया जा सकता है (उदा., ग्लूकोज, फ्रक्टोज, राइबोज)।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Glycosidic Linkage", "hi": "ग्लाइकोसिडिक बंधन" },
+    "definition": { "en": "An oxide linkage formed by the loss of a water molecule that joins two monosaccharide units together to form disaccharides or polysaccharides.", "hi": "एक पानी के अणु के नुकसान से बनने वाला एक ऑक्साइड बंधन जो दो मोनोसैकेराइड इकाइयों को एक साथ जोड़कर डिसैकेराइड या पॉलीसेकेराइड बनाता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Amino Acids", "hi": "अमीनो एसिड" },
+    "definition": { "en": "Organic compounds containing both an amino group ($-NH_2$) and a carboxyl group ($-COOH$). Building blocks of proteins.", "hi": "कार्बनिक यौगिक जिनमें एक एमिनो समूह ($-NH_2$) और एक कार्बोक्सिल समूह ($-COOH$) दोनों होते हैं। प्रोटीन के निर्माण खंड।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Zwitterion", "hi": "ज्विटरआयन (Zwitterion)" },
+    "definition": { "en": "A dipolar ion formed in aqueous solution of an amino acid by the transfer of a proton from the carboxyl group to the amino group.", "hi": "कार्बोक्सिल समूह से एमिनो समूह में प्रोटॉन के स्थानांतरण द्वारा अमीनो एसिड के जलीय विलयन में बनने वाला द्विध्रुवीय (dipolar) आयन।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Peptide Linkage", "hi": "पेप्टाइड बंधन" },
+    "definition": { "en": "An amide bond ($-CO-NH-$) formed between the carboxyl group of one amino acid and the amino group of another, with the elimination of water.", "hi": "पानी के निष्कासन के साथ एक अमीनो एसिड के कार्बोक्सिल समूह और दूसरे के एमिनो समूह के बीच बनने वाला एक एमाइड बांड ($-CO-NH-$)।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Denaturation of Proteins", "hi": "प्रोटीन का विकृतीकरण (Denaturation)" },
+    "definition": { "en": "Loss of biological activity and 3D structure of a protein due to changes in pH or temperature. Primary structure remains intact.", "hi": "pH या तापमान में परिवर्तन के कारण प्रोटीन की जैविक गतिविधि और 3D संरचना का नुकसान। प्राथमिक संरचना बरकरार रहती है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Nucleotides", "hi": "न्यूक्लियोटाइड्स" },
+    "definition": { "en": "Building blocks of nucleic acids consisting of a pentose sugar, a nitrogenous base, and a phosphate group.", "hi": "पेंटोज शर्करा, नाइट्रोजनी क्षार और फॉस्फेट समूह से मिलकर बने न्यूक्लिक एसिड के निर्माण खंड।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "DNA (Deoxyribonucleic Acid)", "hi": "DNA (डीऑक्सीराइबोन्यूक्लिक एसिड)" },
+    "definition": { "en": "Genetic material containing 2'-deoxyribose sugar and bases A, G, C, T. Exists as a double helix.", "hi": "2'-डीऑक्सीराइबोज शर्करा और क्षार A, G, C, T युक्त आनुवंशिक सामग्री। एक दोहरे हेलिक्स के रूप में मौजूद है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Vitamins", "hi": "विटामिन" },
+    "definition": { "en": "Essential organic compounds required in small amounts in the diet for normal health, growth, and nutrition. Categorized as fat-soluble (A, D, E, K) or water-soluble (B, C).", "hi": "सामान्य स्वास्थ्य, विकास और पोषण के लिए आहार में कम मात्रा में आवश्यक कार्बनिक यौगिक। वसा में घुलनशील (A, D, E, K) या पानी में घुलनशील (B, C) के रूप में वर्गीकृत।" }
+  }
+]

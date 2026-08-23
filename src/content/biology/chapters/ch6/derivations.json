@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of Natural Selection (Darwinism)",
+      "hi": "प्राकृतिक चयन की क्रियाविधि (डार्विनवाद)"
+    },
+    "concept": {
+      "en": "The process by which organisms better adapted to their environment tend to survive and produce more offspring. It is the core mechanism of biological evolution.",
+      "hi": "वह प्रक्रिया जिसके द्वारा अपने पर्यावरण के अनुकूल जीव जीवित रहते हैं और अधिक संतान पैदा करते हैं। यह जैविक विकास का मुख्य तंत्र है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Overproduction", "hi": "चरण 1: अत्यधिक उत्पादन (Overproduction)" },
+        "content": {
+          "en": "Organisms produce more offspring than can possibly survive in the environment due to limited resources.",
+          "hi": "जीव सीमित संसाधनों के कारण पर्यावरण में जीवित रहने की क्षमता से अधिक संतान पैदा करते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Heritable Variation", "hi": "चरण 2: वंशानुगत विविधता (Heritable Variation)" },
+        "content": {
+          "en": "Individuals within a population possess variations (differences in traits) that can be passed down to their offspring.",
+          "hi": "एक आबादी के भीतर व्यक्तियों में विविधताएं (लक्षणों में अंतर) होती हैं जो उनकी संतानों में पारित हो सकती हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Struggle for Existence", "hi": "चरण 3: अस्तित्व के लिए संघर्ष" },
+        "content": {
+          "en": "Because of overproduction and limited resources, there is intense competition among individuals for food, space, and mates.",
+          "hi": "अत्यधिक उत्पादन और सीमित संसाधनों के कारण, भोजन, स्थान और साथियों के लिए व्यक्तियों के बीच तीव्र प्रतिस्पर्धा होती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Survival of the Fittest", "hi": "चरण 4: योग्यतम की उत्तरजीविता (Survival of the Fittest)" },
+        "content": {
+          "en": "Individuals with variations best suited to their environment (adaptations) have a higher chance of surviving the struggle.",
+          "hi": "अपने पर्यावरण (अनुकूलन) के लिए सबसे उपयुक्त विविधता वाले व्यक्तियों के संघर्ष में जीवित रहने की अधिक संभावना होती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Differential Reproduction", "hi": "चरण 5: विभेदक प्रजनन (Differential Reproduction)" },
+        "content": {
+          "en": "The surviving individuals reproduce and pass their favorable traits to the next generation, gradually changing the population's characteristics over time.",
+          "hi": "जीवित बचे व्यक्ति प्रजनन करते हैं और अपने अनुकूल लक्षणों को अगली पीढ़ी में पारित करते हैं, जिससे समय के साथ धीरे-धीरे जनसंख्या की विशेषताएं बदल जाती हैं।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "Natural selection acts on existing variations within a population, leading to adaptation and eventually, the evolution of new species (Speciation).",
+      "hi": "प्राकृतिक चयन एक आबादी के भीतर मौजूदा विविधताओं पर कार्य करता है, जिससे अनुकूलन और अंततः नई प्रजातियों का विकास (प्रजाति निर्माण) होता है।"
+    },
+    "examTip": {
+      "en": "Remember that Natural Selection does NOT create variations; it merely selects the most beneficial variations that already exist in the population.",
+      "hi": "याद रखें कि प्राकृतिक चयन विविधताएं पैदा नहीं करता है; यह केवल उन सबसे लाभकारी विविधताओं का चयन करता है जो पहले से ही आबादी में मौजूद हैं।"
+    }
+  }
+]

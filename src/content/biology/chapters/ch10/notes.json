@@ -1,24 +1,110 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Applications in Agriculture",
-      "hi": "कृषि में अनुप्रयोग"
-    },
-    "content": {
-      "en": "GMOs like Bt Cotton are pest-resistant. Bt stands for Bacillus thuringiensis which produces a toxic Cry protein.",
-      "hi": "Bt कपास जैसे GMO कीट-प्रतिरोधी होते हैं।"
+    "type": "heading",
+    "text": {
+      "en": "Biotechnology and its Applications",
+      "hi": "जैव प्रौद्योगिकी और उसके उपयोग"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Applications in Medicine",
-      "hi": "चिकित्सा में अनुप्रयोग"
-    },
-    "content": {
-      "en": "Genetically Engineered Insulin (Humulin) and Gene Therapy (first used for ADA deficiency in 1990).",
-      "hi": "जेनेटिकली इंजीनियर्ड इंसुलिन (Humulin) और जीन थेरेपी (पहली बार 1990 में ADA की कमी के लिए)।"
+    "type": "paragraph",
+    "text": {
+      "en": "Biotechnology essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals. The applications include therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production.",
+      "hi": "जैव प्रौद्योगिकी अनिवार्य रूप से आनुवंशिक रूप से संशोधित रोगाणुओं, कवक, पौधों और जानवरों का उपयोग करके बायोफार्मास्यूटिकल्स और बायोलॉजिकल्स के औद्योगिक पैमाने पर उत्पादन से संबंधित है। अनुप्रयोगों में चिकित्सा (therapeutics), निदान (diagnostics), कृषि के लिए आनुवंशिक रूप से संशोधित फसलें, प्रसंस्कृत भोजन (processed food), बायोरेमेडिएशन, अपशिष्ट उपचार और ऊर्जा उत्पादन शामिल हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Biotechnological Applications in Agriculture",
+      "hi": "1. कृषि में जैव प्रौद्योगिकी अनुप्रयोग"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Genetically Modified Organisms (GMOs): Plants, bacteria, fungi, and animals whose genes have been altered by manipulation. GMO plants have been useful in many ways:\n- Made crops more tolerant to abiotic stresses (cold, drought, salt, heat).\n- Reduced reliance on chemical pesticides (pest-resistant crops).\n- Helped to reduce post-harvest losses.\n- Increased efficiency of mineral usage by plants.\n- Enhanced nutritional value of food (e.g., Vitamin 'A' enriched Golden rice).",
+      "hi": "आनुवंशिक रूप से संशोधित जीव (GMO): पौधे, बैक्टीरिया, कवक और जानवर जिनके जीन में हेरफेर द्वारा परिवर्तन किया गया है। GMO पौधे कई मायनों में उपयोगी रहे हैं:\n- फसलों को अजैविक तनाव (ठंड, सूखा, नमक, गर्मी) के प्रति अधिक सहिष्णु बनाया।\n- रासायनिक कीटनाशकों पर निर्भरता कम की (कीट-प्रतिरोधी फसलें)।\n- फसल के बाद के नुकसान को कम करने में मदद की।\n- पौधों द्वारा खनिज उपयोग की दक्षता में वृद्धि।\n- भोजन के पोषण मूल्य में वृद्धि (उदा., विटामिन 'A' समृद्ध गोल्डन राइस)।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Pest Resistant Plants (Bt Cotton)",
+      "hi": "2. कीट प्रतिरोधी पौधे (Bt कपास)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Bt toxin is produced by a bacterium called Bacillus thuringiensis (Bt). The Bt toxin gene has been cloned from the bacteria and expressed in plants to provide resistance to insects without the need for insecticides. \nSpecific Bt toxin genes were isolated from B. thuringiensis and incorporated into several crop plants like cotton. The toxin is coded by a gene named *cry*. There are a number of them, for example, the proteins encoded by the genes *cryIAc* and *cryIIAb* control the cotton bollworms, while *cryIAb* controls corn borer.",
+      "hi": "Bt विष (toxin) बैसिलस थुरिंजिएंसिस (Bacillus thuringiensis - Bt) नामक जीवाणु द्वारा निर्मित होता है। कीटनाशकों की आवश्यकता के बिना कीड़ों को प्रतिरोध प्रदान करने के लिए Bt विष जीन को बैक्टीरिया से क्लोन किया गया है और पौधों में व्यक्त किया गया है।\nविशिष्ट Bt विष जीन को B. thuringiensis से अलग किया गया और कपास जैसे कई फसल पौधों में शामिल किया गया। विष को *cry* नामक जीन द्वारा कोड किया जाता है। उनमें से कई हैं, उदाहरण के लिए, जीन *cryIAc* और *cryIIAb* द्वारा एन्कोड किए गए प्रोटीन कपास बॉलवर्म को नियंत्रित करते हैं, जबकि *cryIAb* कॉर्न बोरर को नियंत्रित करता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. RNA Interference (RNAi) & Nematode Resistance",
+      "hi": "3. RNA इंटरफेरेंस (RNAi) और नेमाटोड प्रतिरोध"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A nematode *Meloidegyne incognitia* infects the roots of tobacco plants and causes a great reduction in yield. A novel strategy was adopted to prevent this infection which was based on the process of RNA interference (RNAi). RNAi takes place in all eukaryotic organisms as a method of cellular defense. This method involves silencing of a specific mRNA due to a complementary dsRNA molecule that binds to and prevents translation of the mRNA (silencing).",
+      "hi": "एक नेमाटोड *मेलॉयडेगाइन इन्कोग्निटिया* तंबाकू के पौधों की जड़ों को संक्रमित करता है और उपज में भारी कमी का कारण बनता है। इस संक्रमण को रोकने के लिए एक उपन्यास रणनीति अपनाई गई जो RNA इंटरफेरेंस (RNAi) की प्रक्रिया पर आधारित थी। RNAi सभी यूकेरियोटिक जीवों में सेलुलर रक्षा की एक विधि के रूप में होता है। इस पद्धति में एक पूरक (complementary) dsRNA अणु के कारण एक विशिष्ट mRNA को शांत (silencing) करना शामिल है जो mRNA के अनुवाद (translation) को बांधता है और रोकता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Biotechnological Applications in Medicine",
+      "hi": "4. चिकित्सा में जैव प्रौद्योगिकी अनुप्रयोग"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Genetically Engineered Insulin: In adults, insulin consists of two short polypeptide chains: chain A and chain B, linked by disulphide bridges. In mammals, insulin is synthesized as a pro-hormone containing an extra stretch called C peptide (removed during maturation). In 1983, Eli Lilly (an American company) prepared two DNA sequences corresponding to A and B chains of human insulin, introduced them into E. coli to produce insulin chains, and combined them by creating disulfide bonds.",
+        "hi": "आनुवंशिक रूप से इंजीनियर इंसुलिन (Genetically Engineered Insulin): वयस्कों में, इंसुलिन में दो छोटी पॉलीपेप्टाइड श्रृंखलाएं होती हैं: श्रृंखला A और श्रृंखला B, जो डाइसल्फ़ाइड पुलों (disulphide bridges) द्वारा जुड़ी होती हैं। स्तनधारियों में, इंसुलिन को C पेप्टाइड (परिपक्वता के दौरान हटा दिया गया) नामक एक अतिरिक्त खिंचाव वाले प्रो-हार्मोन के रूप में संश्लेषित किया जाता है। 1983 में, एली लिली (एक अमेरिकी कंपनी) ने मानव इंसुलिन की A और B श्रृंखलाओं के अनुरूप दो DNA अनुक्रम तैयार किए, उन्हें इंसुलिन श्रृंखलाओं का उत्पादन करने के लिए ई. कोलाई में पेश किया, और डाइसल्फ़ाइड बॉन्ड बनाकर उन्हें जोड़ा।"
+      },
+      {
+        "en": "Gene Therapy: A collection of methods that allows correction of a gene defect that has been diagnosed in a child/embryo. The first clinical gene therapy was given in 1990 to a 4-year old girl with adenosine deaminase (ADA) deficiency. ADA enzyme is crucial for the immune system to function. In gene therapy, lymphocytes from the patient's blood are grown in a culture, and a functional ADA cDNA is introduced into these lymphocytes (using a retroviral vector) before returning them to the patient.",
+        "hi": "जीन थेरेपी: विधियों का एक संग्रह जो बच्चे/भ्रूण में निदान किए गए जीन दोष के सुधार की अनुमति देता है। पहली नैदानिक जीन थेरेपी 1990 में 4 साल की लड़की को एडेनोसाइन डेमिनेज (ADA) की कमी के साथ दी गई थी। ADA एंजाइम प्रतिरक्षा प्रणाली (immune system) के काम करने के लिए महत्वपूर्ण है। जीन थेरेपी में, रोगी के रक्त से लिम्फोसाइटों को एक संवर्धन में उगाया जाता है, और रोगी को वापस करने से पहले इन लिम्फोसाइटों में (रेट्रोवायरल वेक्टर का उपयोग करके) एक कार्यात्मक ADA cDNA पेश किया जाता है।"
+      },
+      {
+        "en": "Molecular Diagnosis: Early detection of diseases is not possible with conventional methods (serum and urine analysis). Techniques like PCR (amplifies very low amounts of pathogen DNA) and ELISA (Enzyme Linked Immuno-sorbent Assay, based on antigen-antibody interaction) serve the purpose of early diagnosis.",
+        "hi": "आणविक निदान (Molecular Diagnosis): पारंपरिक तरीकों (सीरम और मूत्र विश्लेषण) से बीमारियों का शीघ्र पता लगाना संभव नहीं है। PCR (रोगज़नक़ DNA की बहुत कम मात्रा को बढ़ाता है) और ELISA (एंजाइम लिंक्ड इम्यूनो-सॉर्बेंट एसे, एंटीजन-एंटीबॉडी इंटरैक्शन पर आधारित) जैसी तकनीकें प्रारंभिक निदान (early diagnosis) के उद्देश्य को पूरा करती हैं।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Transgenic Animals",
+      "hi": "5. ट्रांसजेनिक जानवर (Transgenic Animals)"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Animals that have had their DNA manipulated to possess and express an extra (foreign) gene are known as transgenic animals. Transgenic mice, rats, rabbits, pigs, sheep, cows, and fish have been produced.\nReasons for creating them:\n- Normal physiology and development study (how genes are regulated).\n- Study of diseases (models for human diseases like cancer, cystic fibrosis, rheumatoid arthritis, and Alzheimer's).\n- Biological products (Transgenic cow, Rosie, produced human protein-enriched milk containing human alpha-lactalbumin).\n- Vaccine safety testing (transgenic mice for polio vaccine).\n- Chemical safety testing (toxicity testing).",
+      "hi": "जिन जानवरों के DNA में एक अतिरिक्त (विदेशी) जीन रखने और व्यक्त करने के लिए हेरफेर किया गया है, उन्हें ट्रांसजेनिक जानवर कहा जाता है। ट्रांसजेनिक चूहे, खरगोश, सूअर, भेड़, गाय और मछलियां तैयार की गई हैं।\nइन्हें बनाने के कारण:\n- सामान्य शरीर क्रिया विज्ञान और विकास का अध्ययन (जीन कैसे नियंत्रित होते हैं)।\n- रोगों का अध्ययन (कैंसर, सिस्टिक फाइब्रोसिस, संधिशोथ और अल्जाइमर जैसे मानव रोगों के लिए मॉडल)।\n- जैविक उत्पाद (ट्रांसजेनिक गाय, रोजी, मानव अल्फा-लैक्टलब्यूमिन युक्त मानव प्रोटीन-समृद्ध दूध का उत्पादन करती है)।\n- वैक्सीन सुरक्षा परीक्षण (पोलियो वैक्सीन के लिए ट्रांसजेनिक चूहे)।\n- रासायनिक सुरक्षा परीक्षण (विषाक्तता परीक्षण)।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Ethical Issues",
+      "hi": "6. नैतिक मुद्दे (Ethical Issues)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Genetic modification of organisms can have unpredictable results when introduced into the ecosystem. The Indian Government has set up organizations such as GEAC (Genetic Engineering Approval Committee), which makes decisions regarding the validity of GM research and the safety of introducing GM-organisms for public services. There are also concerns about biopiracy (use of bio-resources by multinational companies without proper authorization) and patents on biological resources indigenous to other countries (e.g., Basmati rice patent dispute).",
+      "hi": "जीवों के आनुवंशिक संशोधन के पारिस्थितिकी तंत्र में पेश किए जाने पर अप्रत्याशित परिणाम हो सकते हैं। भारत सरकार ने GEAC (जेनेटिक इंजीनियरिंग अप्रूवल कमेटी) जैसे संगठन स्थापित किए हैं, जो GM अनुसंधान की वैधता और सार्वजनिक सेवाओं के लिए GM-जीवों को पेश करने की सुरक्षा के संबंध में निर्णय लेते हैं। बायोपायरेसी (उचित प्राधिकरण के बिना बहुराष्ट्रीय कंपनियों द्वारा जैव-संसाधनों का उपयोग) और अन्य देशों के स्वदेशी जैविक संसाधनों (जैसे, बासमती चावल पेटेंट विवाद) पर पेटेंट के बारे में भी चिंताएं हैं।"
     }
   }
 ]

@@ -1,8 +1,69 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Organisms & Populations",
-    "hi": "जीव और समष्टियाँ"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Organisms and Populations", "hi": "जीव और समष्टियां" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Abiotic Factors", "hi": "अजैविक कारक" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Temperature (Eurythermal vs Stenothermal)", "hi": "तापमान (यूरीथर्मल बनाम स्टेनोथर्मल)" } },
+        { "id": "n1_2", "label": { "en": "Water", "hi": "जल" } },
+        { "id": "n1_3", "label": { "en": "Light", "hi": "प्रकाश" } },
+        { "id": "n1_4", "label": { "en": "Soil", "hi": "मिट्टी" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Responses to Abiotic Factors", "hi": "अजैविक कारकों के प्रति प्रतिक्रियाएँ" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Regulate (Homeostasis)", "hi": "नियमन (होमियोस्टेसिस)" } },
+        { "id": "n2_2", "label": { "en": "Conform (Change with environment)", "hi": "अनुरूप (पर्यावरण के साथ बदलना)" } },
+        { "id": "n2_3", "label": { "en": "Migrate (Temporary escape)", "hi": "प्रवास (अस्थायी पलायन)" } },
+        {
+          "id": "n2_4",
+          "label": { "en": "Suspend", "hi": "निलंबित (Suspend)" },
+          "children": [
+            { "id": "n2_4_1", "label": { "en": "Hibernation (Winter)", "hi": "हाइबरनेशन (सर्दी)" } },
+            { "id": "n2_4_2", "label": { "en": "Aestivation (Summer)", "hi": "एस्टीवेशन (गर्मी)" } },
+            { "id": "n2_4_3", "label": { "en": "Diapause", "hi": "डायपॉज़" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Population Attributes & Growth", "hi": "जनसंख्या विशेषताएँ और वृद्धि" },
+      "children": [
+        {
+          "id": "n3_1",
+          "label": { "en": "Age Pyramids", "hi": "आयु पिरामिड" },
+          "children": [
+            { "id": "n3_1_1", "label": { "en": "Expanding (Broad base)", "hi": "बढ़ती हुई (विस्तृत आधार)" } },
+            { "id": "n3_1_2", "label": { "en": "Stable", "hi": "स्थिर" } },
+            { "id": "n3_1_3", "label": { "en": "Declining", "hi": "घटती हुई" } }
+          ]
+        },
+        {
+          "id": "n3_2",
+          "label": { "en": "Growth Models", "hi": "वृद्धि मॉडल" },
+          "children": [
+            { "id": "n3_2_1", "label": { "en": "Exponential (J-shaped)", "hi": "घातीय (J-आकार)" } },
+            { "id": "n3_2_2", "label": { "en": "Logistic (S-shaped, Carrying Capacity)", "hi": "लॉजिस्टिक (S-आकार, वहन क्षमता)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Population Interactions", "hi": "जनसंख्या सहभागिता" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Mutualism (+/+)", "hi": "सहोपकारिता (+/+)" } },
+        { "id": "n4_2", "label": { "en": "Competition (-/-)", "hi": "प्रतिस्पर्धा (-/-)" } },
+        { "id": "n4_3", "label": { "en": "Predation (+/-)", "hi": "परभक्षण (+/-)" } },
+        { "id": "n4_4", "label": { "en": "Parasitism (+/-)", "hi": "परजीविता (+/-)" } },
+        { "id": "n4_5", "label": { "en": "Commensalism (+/0)", "hi": "सहभोजिता (+/0)" } },
+        { "id": "n4_6", "label": { "en": "Amensalism (-/0)", "hi": "अमेन्सेलिज़्म (-/0)" } }
+      ]
+    }
+  ]
 }

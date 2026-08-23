@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Nomenclature of Restriction Enzymes (e.g., EcoRI)",
+      "hi": "रेस्ट्रिक्शन एंजाइम का नामकरण (उदा., EcoRI)"
+    },
+    "formula": "\\text{Genus (1st letter)} + \\text{Species (2 letters)} + \\text{Strain} + \\text{Order of Isolation (Roman Numeral)}",
+    "variables": [
+      {
+        "name": "\\text{E}",
+        "description": { "en": "First letter comes from the genus (Escherichia)", "hi": "पहला अक्षर जीनस (Escherichia) से आता है" }
+      },
+      {
+        "name": "\\text{co}",
+        "description": { "en": "Next two letters come from the species (coli)", "hi": "अगले दो अक्षर प्रजाति (coli) से आते हैं" }
+      },
+      {
+        "name": "\\text{R}",
+        "description": { "en": "Derived from the name of strain (RY 13)", "hi": "स्ट्रेन के नाम से लिया गया है (RY 13)" }
+      },
+      {
+        "name": "\\text{I}",
+        "description": { "en": "Roman numeral indicates the order in which the enzyme was isolated from that strain of bacteria", "hi": "रोमन अंक उस क्रम को इंगित करता है जिसमें एंजाइम को बैक्टीरिया के उस स्ट्रेन से अलग किया गया था" }
+      }
+    ],
+    "applications": {
+      "en": "Understanding the naming convention of restriction endonucleases.",
+      "hi": "रेस्ट्रिक्शन एंडोन्यूक्लीज के नामकरण सम्मेलन को समझना।"
+    }
+  }
+]

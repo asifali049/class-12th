@@ -1,23 +1,49 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Molecular Basis",
-    "hi": "आणविक आधार"
-  },
-  "children": [
+  "id": "m1",
+  "title": { "en": "Molecular Basis of Inheritance", "hi": "वंशागति के आणविक आधार" },
+  "nodes": [
     {
-      "id": "c1",
-      "label": {
-        "en": "DNA & RNA",
-        "hi": "डीएनए और आरएनए"
-      }
+      "id": "n1",
+      "label": { "en": "DNA Structure", "hi": "DNA संरचना" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Polynucleotide Chain", "hi": "पॉली न्यूक्लियोटाइड श्रृंखला" } },
+        { "id": "n1_2", "label": { "en": "Double Helix (Watson & Crick)", "hi": "डबल हेलिक्स (वॉटसन और क्रिक)" } },
+        { "id": "n1_3", "label": { "en": "Packaging (Nucleosomes)", "hi": "पैकेजिंग (न्यूक्लियोसोम)" } }
+      ]
     },
     {
-      "id": "c2",
-      "label": {
-        "en": "Central Dogma",
-        "hi": "सेंट्रल डोग्मा"
-      }
+      "id": "n2",
+      "label": { "en": "Search for Genetic Material", "hi": "आनुवंशिक पदार्थ की खोज" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Griffith (Transforming Principle)", "hi": "ग्रिफिथ (रूपांतरण सिद्धांत)" } },
+        { "id": "n2_2", "label": { "en": "Avery, MacLeod, McCarty", "hi": "एवरी, मैक्लिओड, मैककार्टी" } },
+        { "id": "n2_3", "label": { "en": "Hershey & Chase (Blender Experiment)", "hi": "हर्शे और चेस (ब्लेंडर प्रयोग)" } }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Central Dogma", "hi": "सेंट्रल डोग्मा" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Replication (DNA -> DNA)", "hi": "प्रतिकृति (DNA -> DNA)" } },
+        { "id": "n3_2", "label": { "en": "Transcription (DNA -> RNA)", "hi": "अनुलेखन (DNA -> RNA)" } },
+        { "id": "n3_3", "label": { "en": "Translation (RNA -> Protein)", "hi": "अनुवादन (RNA -> प्रोटीन)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Gene Expression & Regulation", "hi": "जीन अभिव्यक्ति और विनियमन" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Genetic Code", "hi": "आनुवंशिक कोड" } },
+        { "id": "n4_2", "label": { "en": "Lac Operon (Inducible)", "hi": "लैक ऑपेरॉन (प्रेरक)" } }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": { "en": "Genomics", "hi": "जीनोमिक्स" },
+      "children": [
+        { "id": "n5_1", "label": { "en": "Human Genome Project (HGP)", "hi": "मानव जीनोम परियोजना (HGP)" } },
+        { "id": "n5_2", "label": { "en": "DNA Fingerprinting (VNTRs)", "hi": "DNA फिंगरप्रिंटिंग (VNTRs)" } }
+      ]
     }
   ]
 }

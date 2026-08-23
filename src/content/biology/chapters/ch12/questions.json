@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "The pyramid of energy is:",
-      "hi": "ऊर्जा का पिरामिड होता है:"
+      "en": "Secondary productivity is rate of formation of new organic matter by:",
+      "hi": "द्वितीयक उत्पादकता (Secondary productivity) किसके द्वारा नए कार्बनिक पदार्थों के निर्माण की दर है:"
     },
     "options": [
-      {
-        "en": "Always inverted",
-        "hi": "हमेशा उल्टा"
-      },
-      {
-        "en": "Always upright",
-        "hi": "हमेशा सीधा"
-      },
-      {
-        "en": "Spindle shaped",
-        "hi": "तर्कु (Spindle) के आकार का"
-      },
-      {
-        "en": "Variable",
-        "hi": "परिवर्तनीय"
-      }
+      { "id": "o1", "text": { "en": "Producers", "hi": "उत्पादक" } },
+      { "id": "o2", "text": { "en": "Parasites", "hi": "परजीवी" } },
+      { "id": "o3", "text": { "en": "Consumers", "hi": "उपभोक्ता" } },
+      { "id": "o4", "text": { "en": "Decomposers", "hi": "डीकंपोजर" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o3",
     "explanation": {
-      "en": "According to the 10% law, energy is always lost as it moves up trophic levels.",
-      "hi": "10% नियम के अनुसार, पोषी स्तरों (trophic levels) में ऊपर जाने पर ऊर्जा हमेशा नष्ट होती है।"
+      "en": "Primary productivity is at the producer level, whereas secondary productivity is the rate of formation of new organic matter by consumers (heterotrophs).",
+      "hi": "प्राथमिक उत्पादकता उत्पादक स्तर पर होती है, जबकि द्वितीयक उत्पादकता उपभोक्ताओं (हेटरोट्रॉफ़्स) द्वारा नए कार्बनिक पदार्थों के निर्माण की दर है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The breakdown of detritus into smaller particles by earthworm is a process called:",
+      "hi": "केंचुए द्वारा डेट्रिटस का छोटे कणों में टूटना एक प्रक्रिया है जिसे क्या कहा जाता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Humification", "hi": "ह्यूमिफिकेशन" } },
+      { "id": "o2", "text": { "en": "Fragmentation", "hi": "विखंडन (Fragmentation)" } },
+      { "id": "o3", "text": { "en": "Mineralisation", "hi": "खनिजीकरण" } },
+      { "id": "o4", "text": { "en": "Catabolism", "hi": "अपचय (Catabolism)" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Detritivores (e.g., earthworm) break down detritus into smaller particles. This step in decomposition is called fragmentation.",
+      "hi": "डेट्रिटिवोर्स (उदा., केंचुआ) डेट्रिटस को छोटे कणों में तोड़ देते हैं। अपघटन के इस चरण को विखंडन (fragmentation) कहा जाता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following ecological pyramids is generally inverted?",
+      "hi": "निम्नलिखित में से कौन सा पारिस्थितिक पिरामिड आम तौर पर उल्टा होता है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Pyramid of biomass in a sea", "hi": "समुद्र में बायोमास का पिरामिड" } },
+      { "id": "o2", "text": { "en": "Pyramid of numbers in grassland", "hi": "घास के मैदान में संख्याओं का पिरामिड" } },
+      { "id": "o3", "text": { "en": "Pyramid of energy", "hi": "ऊर्जा का पिरामिड" } },
+      { "id": "o4", "text": { "en": "Pyramid of biomass in a forest", "hi": "एक जंगल में बायोमास का पिरामिड" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "The pyramid of biomass in sea is generally inverted because the biomass of fishes far exceeds that of phytoplankton.",
+      "hi": "समुद्र में बायोमास का पिरामिड आम तौर पर उल्टा होता है क्योंकि मछलियों का बायोमास फाइटोप्लांकटन से बहुत अधिक होता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Distinguish between Gross Primary Productivity (GPP) and Net Primary Productivity (NPP).",
+      "hi": "सकल प्राथमिक उत्पादकता (GPP) और शुद्ध प्राथमिक उत्पादकता (NPP) के बीच अंतर स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**GPP** is the total rate of production of organic matter during photosynthesis by plants. \n**NPP** is the remaining biomass after the plants have used some of the energy for their own respiration (R). So, NPP = GPP - R. NPP is the biomass available for consumers.",
+      "hi": "**GPP** पौधों द्वारा प्रकाश संश्लेषण के दौरान कार्बनिक पदार्थों के उत्पादन की कुल दर है।\n**NPP** वह शेष बायोमास है जब पौधों ने अपने स्वयं के श्वसन (R) के लिए कुछ ऊर्जा का उपयोग कर लिया है। इसलिए, NPP = GPP - R। NPP उपभोक्ताओं के लिए उपलब्ध बायोमास है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Why is the pyramid of energy always upright?",
+      "hi": "ऊर्जा का पिरामिड हमेशा सीधा (upright) क्यों होता है?"
+    },
+    "answer": {
+      "en": "The pyramid of energy is always upright because when energy flows from a particular trophic level to the next, some energy is always lost as heat at each step (according to Lindeman's 10% law). Energy can never flow backwards.",
+      "hi": "ऊर्जा का पिरामिड हमेशा सीधा होता है क्योंकि जब ऊर्जा एक विशेष पोषी स्तर से अगले स्तर पर प्रवाहित होती है, तो प्रत्येक चरण में ऊष्मा के रूप में कुछ ऊर्जा हमेशा नष्ट हो जाती है (लिंडेमैन के 10% नियम के अनुसार)। ऊर्जा कभी भी पीछे की ओर नहीं बह सकती।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the process of decomposition of detritus under the following heads: Fragmentation, Leaching, Catabolism, and Humification.",
+      "hi": "निम्नलिखित शीर्षकों के अंतर्गत डेट्रिटस (detritus) के अपघटन (decomposition) की प्रक्रिया का वर्णन करें: विखंडन (Fragmentation), लीचिंग, अपचय (Catabolism) और ह्यूमिफिकेशन (Humification)।"
+    },
+    "answer": {
+      "en": "**1. Fragmentation**: Detritivores (like earthworms) break down the complex detritus into smaller physical particles, increasing surface area.\n**2. Leaching**: Water-soluble inorganic nutrients dissolve in water, go down into the soil horizon, and get precipitated as unavailable salts.\n**3. Catabolism**: Bacterial and fungal enzymes chemically degrade the fragmented detritus into simpler inorganic substances.\n**4. Humification**: Leads to the accumulation of a dark-coloured, amorphous, colloidal substance called humus, which is highly resistant to microbial action and degrades very slowly, serving as a nutrient reservoir.",
+      "hi": "**1. विखंडन (Fragmentation)**: डेट्रिटिवोर्स (जैसे केंचुए) जटिल डेट्रिटस को छोटे भौतिक कणों में तोड़ देते हैं, जिससे सतह क्षेत्र बढ़ जाता है।\n**2. लीचिंग**: पानी में घुलनशील अकार्बनिक पोषक तत्व पानी में घुल जाते हैं, मिट्टी के क्षितिज में चले जाते हैं, और अनुपलब्ध लवण के रूप में अवक्षेपित हो जाते हैं।\n**3. अपचय (Catabolism)**: जीवाणु और कवक एंजाइम रासायनिक रूप से खंडित डेट्रिटस को सरल अकार्बनिक पदार्थों में नष्ट कर देते हैं।\n**4. ह्यूमिफिकेशन (Humification)**: ह्यूमस नामक एक गहरे रंग के, अनाकार, कोलाइडल पदार्थ के संचय की ओर जाता है, जो माइक्रोबियल कार्रवाई के लिए अत्यधिक प्रतिरोधी है और बहुत धीरे-धीरे नीचा होता है, पोषक तत्व भंडार के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a food web? How is it different from a food chain?",
+      "hi": "खाद्य जाल (food web) क्या है? यह खाद्य श्रृंखला (food chain) से किस प्रकार भिन्न है?"
+    },
+    "answer": {
+      "en": "A **Food Chain** is a linear sequence of organisms through which food energy is transferred (e.g., Grass -> Grasshopper -> Frog -> Snake). It shows a single pathway of energy flow.\nA **Food Web** is a complex network of many interconnected food chains in an ecosystem. In nature, an organism can operate at multiple trophic levels and feed on various types of prey, creating a web-like structure. A food web provides alternative pathways for food availability, making the ecosystem more stable compared to a single food chain.",
+      "hi": "एक **खाद्य श्रृंखला (Food Chain)** जीवों का एक रैखिक अनुक्रम है जिसके माध्यम से खाद्य ऊर्जा स्थानांतरित की जाती है (उदा., घास -> टिड्डा -> मेंढक -> सांप)। यह ऊर्जा प्रवाह का एक ही मार्ग दिखाता है।\nएक **खाद्य जाल (Food Web)** एक पारिस्थितिकी तंत्र में कई परस्पर जुड़ी खाद्य श्रृंखलाओं का एक जटिल नेटवर्क है। प्रकृति में, एक जीव कई पोषी स्तरों पर काम कर सकता है और विभिन्न प्रकार के शिकार पर फ़ीड कर सकता है, जिससे वेब जैसी संरचना बन सकती है। एक खाद्य वेब भोजन की उपलब्धता के लिए वैकल्पिक मार्ग प्रदान करता है, जिससे एक खाद्य श्रृंखला की तुलना में पारिस्थितिकी तंत्र अधिक स्थिर हो जाता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "If a pyramid of biomass for an ecosystem shows primary producers at 4 g/m² and primary consumers at 21 g/m², which ecosystem is it most likely to be?",
+      "hi": "यदि किसी पारिस्थितिकी तंत्र के लिए बायोमास का पिरामिड 4 g/m² पर प्राथमिक उत्पादकों और 21 g/m² पर प्राथमिक उपभोक्ताओं को दर्शाता है, तो यह किस पारिस्थितिकी तंत्र के होने की सबसे अधिक संभावना है?"
+    },
+    "answer": {
+      "en": "It is most likely an **aquatic ecosystem** (like a sea or pond). The pyramid of biomass is inverted here because the small standing crop of phytoplankton (producers) has a very high turnover rate and supports a larger standing crop of zooplankton and fishes (consumers).",
+      "hi": "यह सबसे अधिक संभावना एक **जलीय पारिस्थितिकी तंत्र** (जैसे समुद्र या तालाब) है। बायोमास का पिरामिड यहां उल्टा है क्योंकि फाइटोप्लांकटन (उत्पादकों) की छोटी खड़ी फसल में बहुत अधिक टर्नओवर दर होती है और यह ज़ूप्लैंकटन और मछलियों (उपभोक्ताओं) की एक बड़ी खड़ी फसल का समर्थन करती है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following ecosystems has the maximum primary productivity?",
+      "hi": "निम्नलिखित में से किस पारिस्थितिक तंत्र में अधिकतम प्राथमिक उत्पादकता है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Pond", "hi": "तालाब" } },
+      { "id": "o2", "text": { "en": "Ocean", "hi": "महासागर" } },
+      { "id": "o3", "text": { "en": "Desert", "hi": "रेगिस्तान" } },
+      { "id": "o4", "text": { "en": "Tropical rain forest", "hi": "उष्णकटिबंधीय वर्षा वन (Tropical rain forest)" } }
+    ],
+    "correctOptionId": "o4",
+    "explanation": {
+      "en": "Tropical rain forests have the maximum primary productivity because of the availability of abundant sunlight, high temperature, and plenty of rainfall year-round.",
+      "hi": "उष्णकटिबंधीय वर्षा वनों में भरपूर धूप, उच्च तापमान और साल भर भरपूर वर्षा की उपलब्धता के कारण अधिकतम प्राथमिक उत्पादकता होती है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is PAR?",
+      "hi": "PAR क्या है?"
+    },
+    "answer": {
+      "en": "**PAR** stands for **Photosynthetically Active Radiation**. It is the portion of the incident solar radiation (wavelength 400-700 nm) that plants can use for photosynthesis. It forms less than 50% of the total incident solar radiation.",
+      "hi": "**PAR** का मतलब **प्रकाश संश्लेषक सक्रिय विकिरण (Photosynthetically Active Radiation)** है। यह घटना सौर विकिरण (तरंग दैर्ध्य 400-700 एनएम) का वह हिस्सा है जिसका उपयोग पौधे प्रकाश संश्लेषण के लिए कर सकते हैं। यह कुल घटना सौर विकिरण का 50% से भी कम हिस्सा बनाता है।"
     }
   }
 ]

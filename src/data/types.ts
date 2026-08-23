@@ -47,22 +47,24 @@ export type Derivation = {
 export type Numerical = {
   id: string;
   question: BilingualText | string;
-  given: BilingualText | string;
-  required: BilingualText | string;
-  formula: string;
-  substitution: string;
-  calculation: string;
-  finalAnswer: string;
-  unit: string;
+  given?: BilingualText | string;
+  required?: BilingualText | string;
+  formula?: string;
+  substitution?: string;
+  calculation?: string;
+  finalAnswer?: string;
+  unit?: string;
+  solution?: BilingualText | string;
   examTip?: BilingualText | string;
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty?: 'easy' | 'medium' | 'hard';
 };
 
 export type Diagram = {
   id: string;
   title: BilingualText | string;
-  svgContent: string;
-  description: BilingualText | string;
+  svgContent?: string;
+  svgCode?: string;
+  description?: BilingualText | string;
   labels: { id: string; x: number; y: number; text: BilingualText | string }[];
 };
 

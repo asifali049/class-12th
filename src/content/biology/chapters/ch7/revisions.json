@@ -1,15 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Antibody Types",
-      "hi": "एंटीबॉडी के प्रकार",
-      "hinglish": "IgA, IgE, IgG"
-    },
-    "summary": {
-      "en": "**IgA**: Colostrum, Saliva.\n**IgE**: Allergic reactions.\n**IgG**: Can cross placenta.",
-      "hi": "**IgA**: कोलोस्ट्रम, लार।\n**IgE**: एलर्जी प्रतिक्रियाएं।\n**IgG**: प्लेसेंटा को पार कर सकता है।"
-    },
-    "quickRecall": []
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Infectious Diseases**: Bacterial (Typhoid, Pneumonia), Viral (Common Cold, AIDS), Protozoan (Malaria, Amoebiasis), Helminthic (Ascariasis, Filariasis), Fungal (Ringworm).\n- **Immunity**: Innate (non-specific, barriers) and Acquired (specific, memory-based).\n- **Antibody**: Y-shaped protein (H2L2) produced by B-cells.\n- **Allergy**: Exaggerated immune response to harmless antigens (IgE antibodies involved).\n- **Autoimmunity**: Immune system attacks self-cells (e.g., Rheumatoid arthritis).\n- **AIDS**: Caused by HIV (Retrovirus), destroys Helper T-cells.\n- **Cancer**: Loss of contact inhibition. Tumors can be Benign or Malignant (Metastasis).\n- **Drugs**: Opioids (Heroin - depressant), Cannabinoids (Marijuana - cardiovascular), Coca alkaloids (Cocaine - stimulant).",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **संक्रामक रोग**: जीवाणु (टाइफाइड, निमोनिया), विषाणु (सामान्य सर्दी, एड्स), प्रोटोजोआ (मलेरिया, अमीबायासिस), कृमि (एस्कारियासिस, फाइलेरिया), कवक (दाद)।\n- **प्रतिरक्षा**: सहज (गैर-विशिष्ट, बाधाएं) और उपार्जित (विशिष्ट, स्मृति-आधारित)।\n- **एंटीबॉडी**: बी-कोशिकाओं द्वारा उत्पादित Y-आकार का प्रोटीन (H2L2)।\n- **एलर्जी**: हानिरहित एंटीजन (IgE एंटीबॉडी शामिल) के प्रति अतिरंजित प्रतिरक्षा प्रतिक्रिया।\n- **ऑटोइम्यूनिटी**: प्रतिरक्षा प्रणाली अपनी ही कोशिकाओं पर हमला करती है (उदा., रुमेटीइड गठिया)।\n- **एड्स**: HIV (रेट्रोवायरस) के कारण होता है, हेल्पर टी-कोशिकाओं को नष्ट कर देता है।\n- **कैंसर**: संपर्क निषेध का नुकसान। ट्यूमर बिनाइन या मैलिग्नेंट (मेटास्टेसिस) हो सकते हैं।\n- **ड्रग्स**: ओपिओइड (हेरोइन - अवसादक), कैनबिनोइड्स (मारिजुआना - हृदय संबंधी), कोका एल्कलॉइड (कोकीन - उत्तेजक)।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Innate Immunity Barriers\n- **Physical**: Skin, Mucus coating.\n- **Physiological**: Acid in stomach, saliva, tears.\n- **Cellular**: PMNL-neutrophils, Monocytes, Macrophages.\n- **Cytokine**: Interferons (protect non-infected cells from viruses).\n\n### 2. Acquired Immunity\n- **Humoral**: Mediated by B-lymphocytes producing antibodies in blood.\n- **Cell-Mediated (CMI)**: Mediated by T-lymphocytes. Rejects tissue grafts.\n- **Active**: Host produces own antibodies (slow).\n- **Passive**: Ready-made antibodies given (fast, e.g., colostrum IgA, anti-tetanus).\n\n### 3. Life Cycle of Plasmodium\nInfected Anopheles mosquito injects sporozoites -> Liver (multiplies) -> RBCs (multiplies, ruptures releasing haemozoin - causes chills/fever) -> Gametocytes -> Mosquito gut (fertilization) -> Salivary glands.\n\n### 4. HIV Infection\nHIV enters macrophage -> Reverse transcription (RNA to DNA) -> Integrates into host DNA -> Produces more viruses -> Attacks Helper T-cells (TH) -> TH count drops -> Immunodeficiency.",
+      "hi": "### 1. सहज प्रतिरक्षा बाधाएं (Innate Immunity Barriers)\n- **शारीरिक**: त्वचा, बलगम का लेप।\n- **शारीरिक (Physiological)**: पेट में एसिड, लार, आंसू।\n- **कोशिकीय**: PMNL-न्यूट्रोफिल, मोनोसाइट्स, मैक्रोफेज।\n- **साइटोकाइन**: इंटरफेरॉन (गैर-संक्रमित कोशिकाओं को वायरस से बचाते हैं)।\n\n### 2. उपार्जित प्रतिरक्षा (Acquired Immunity)\n- **ह्यूमरल**: रक्त में एंटीबॉडी का उत्पादन करने वाले बी-लिम्फोसाइटों द्वारा मध्यस्थता।\n- **कोशिका-मध्यस्थता (CMI)**: टी-लिम्फोसाइटों द्वारा मध्यस्थता। ऊतक ग्राफ्ट को अस्वीकार करता है।\n- **सक्रिय**: मेजबान अपने स्वयं के एंटीबॉडी (धीमा) पैदा करता है।\n- **निष्क्रिय**: रेडी-मेड एंटीबॉडी दिए जाते हैं (तेज, उदा., कोलोस्ट्रम IgA, एंटी-टेटनस)।\n\n### 3. प्लास्मोडियम का जीवन चक्र\nसंक्रमित एनाफिलीज मच्छर स्पोरोज़ोइट्स इंजेक्ट करता है -> यकृत -> RBCs (टूटता है, हीमोज़ोइन छोड़ता है - ठंड/बुखार का कारण) -> गैमेटोसाइट्स -> मच्छर की आंत (निषेचन) -> लार ग्रंथियां।\n\n### 4. HIV संक्रमण\nHIV मैक्रोफेज में प्रवेश करता है -> रिवर्स ट्रांसक्रिप्शन -> मेजबान DNA में एकीकृत होता है -> अधिक वायरस पैदा करता है -> हेल्पर टी-सेल्स (TH) पर हमला करता है -> TH गिनती गिरती है -> इम्युनोडेफिशिएंसी।"
+    }
   }
 ]

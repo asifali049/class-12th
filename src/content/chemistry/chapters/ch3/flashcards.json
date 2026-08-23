@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Rate of Reaction", "hi": "अभिक्रिया की दर" },
+    "definition": { "en": "The change in concentration of a reactant or product per unit time. Rate = $-\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}$. Unit: $\\text{mol L}^{-1} \\text{s}^{-1}$.", "hi": "प्रति इकाई समय में अभिकारक या उत्पाद की सांद्रता में परिवर्तन। दर = $-\\frac{\\Delta[R]}{\\Delta t} = +\\frac{\\Delta[P]}{\\Delta t}$। इकाई: $\\text{mol L}^{-1} \\text{s}^{-1}$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Rate Law", "hi": "दर नियम" },
+    "definition": { "en": "Mathematical expression relating the rate of a reaction to the concentration of reactants. Rate = $k[A]^x[B]^y$. Determined experimentally.", "hi": "अभिक्रिया की दर को अभिकारकों की सांद्रता से जोड़ने वाला गणितीय व्यंजक। दर = $k[A]^x[B]^y$। प्रयोगात्मक रूप से निर्धारित किया जाता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Order of Reaction", "hi": "अभिक्रिया की कोटि" },
+    "definition": { "en": "Sum of the powers of the concentration terms in the rate law expression. $Order = x + y$. Can be 0, 1, 2, or fractional.", "hi": "दर नियम व्यंजक में सांद्रता पदों की घातों का योग। $कोटि = x + y$। यह 0, 1, 2, या भिन्नात्मक हो सकती है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Molecularity", "hi": "आणविकता" },
+    "definition": { "en": "Number of reacting species (atoms, ions, or molecules) taking part in an elementary reaction. Always a whole number.", "hi": "एक प्रारंभिक प्रतिक्रिया में भाग लेने वाली प्रतिक्रियाशील प्रजातियों (परमाणुओं, आयनों या अणुओं) की संख्या। हमेशा एक पूर्ण संख्या।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Zero Order Reaction", "hi": "शून्य कोटि की अभिक्रिया" },
+    "definition": { "en": "Rate is independent of the concentration of reactants. Rate = $k$. Integrated rate equation: $[R] = [R]_0 - kt$.", "hi": "दर अभिकारकों की सांद्रता से स्वतंत्र होती है। दर = $k$। समाकलित दर समीकरण: $[R] = [R]_0 - kt$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "First Order Reaction", "hi": "प्रथम कोटि की अभिक्रिया" },
+    "definition": { "en": "Rate is proportional to the first power of reactant concentration. $k = \\frac{2.303}{t} \\log\\frac{[R]_0}{[R]}$.", "hi": "दर अभिकारक सांद्रता की प्रथम घात के समानुपाती होती है। $k = \\frac{2.303}{t} \\log\\frac{[R]_0}{[R]}$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Half-Life ($t_{1/2}$)", "hi": "अर्ध-आयु ($t_{1/2}$)" },
+    "definition": { "en": "Time required for the concentration of reactant to reduce to half of its initial value. For 1st order: $t_{1/2} = 0.693 / k$.", "hi": "अभिकारक की सांद्रता को उसके प्रारंभिक मान के आधे तक कम करने के लिए आवश्यक समय। प्रथम कोटि के लिए: $t_{1/2} = 0.693 / k$।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Activation Energy ($E_a$)", "hi": "सक्रियण ऊर्जा ($E_a$)" },
+    "definition": { "en": "The minimum extra amount of energy required by reacting molecules to form the activated complex (transition state).", "hi": "सक्रिय जटिल (transition state) बनाने के लिए प्रतिक्रियाशील अणुओं द्वारा आवश्यक ऊर्जा की न्यूनतम अतिरिक्त मात्रा।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Arrhenius Equation", "hi": "आर्हेनियस समीकरण" },
+    "definition": { "en": "Shows the effect of temperature on rate constant. $k = A e^{-E_a/RT}$, where $A$ is frequency factor.", "hi": "दर स्थिरांक पर तापमान का प्रभाव दर्शाता है। $k = A e^{-E_a/RT}$, जहाँ $A$ आवृत्ति कारक है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Pseudo First Order Reaction", "hi": "छद्म प्रथम कोटि की अभिक्रिया" },
+    "definition": { "en": "Reactions which are not truly of first order but behave as first order under certain conditions (e.g., when one reactant is in large excess).", "hi": "अभिक्रियाएँ जो वास्तव में प्रथम कोटि की नहीं हैं, लेकिन कुछ शर्तों के तहत प्रथम कोटि के रूप में व्यवहार करती हैं (उदा., जब एक अभिकारक बहुत अधिक मात्रा में होता है)।" }
+  }
+]

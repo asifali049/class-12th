@@ -1,0 +1,148 @@
+{
+  "id": "t8",
+  "title": { "en": "Chapter 8 Mock Test: Microbes in Human Welfare", "hi": "अध्याय 8 मॉक टेस्ट: मानव कल्याण में सूक्ष्मजीव" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The vitamin whose content increases following the conversion of milk into curd by lactic acid bacteria is:", "hi": "लैक्टिक एसिड बैक्टीरिया द्वारा दूध को दही में बदलने के बाद किस विटामिन की मात्रा बढ़ जाती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Vitamin C", "hi": "विटामिन C" } },
+        { "id": "o2", "text": { "en": "Vitamin D", "hi": "विटामिन D" } },
+        { "id": "o3", "text": { "en": "Vitamin B12", "hi": "विटामिन B12" } },
+        { "id": "o4", "text": { "en": "Vitamin E", "hi": "विटामिन E" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "LAB improves the nutritional quality of curd by increasing Vitamin B12.", "hi": "LAB विटामिन B12 को बढ़ाकर दही की पोषण गुणवत्ता में सुधार करता है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Wastewater treatment generates a large quantity of sludge, which can be treated by:", "hi": "अपशिष्ट जल उपचार से बड़ी मात्रा में कीचड़ उत्पन्न होता है, जिसका उपचार किसके द्वारा किया जा सकता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Anaerobic digesters", "hi": "अवायवीय डाइजेस्टर" } },
+        { "id": "o2", "text": { "en": "Floc", "hi": "फ़्लॉक" } },
+        { "id": "o3", "text": { "en": "Chemicals", "hi": "रसायन" } },
+        { "id": "o4", "text": { "en": "Oxidation pond", "hi": "ऑक्सीकरण तालाब" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The major part of activated sludge is pumped into large tanks called anaerobic sludge digesters.", "hi": "सक्रिय कीचड़ का प्रमुख भाग अवायवीय कीचड़ डाइजेस्टर नामक बड़े टैंकों में पंप किया जाता है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Methanogenic bacteria are not found in:", "hi": "मेथनोजेनिक बैक्टीरिया कहाँ नहीं पाए जाते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Rumen of cattle", "hi": "मवेशियों का रूमेन" } },
+        { "id": "o2", "text": { "en": "Gobar gas plant", "hi": "गोबर गैस प्लांट" } },
+        { "id": "o3", "text": { "en": "Bottom of water-logged paddy fields", "hi": "जलभराव वाले धान के खेतों का तल" } },
+        { "id": "o4", "text": { "en": "Activated sludge", "hi": "सक्रिय कीचड़" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Activated sludge contains aerobic bacteria and fungi (flocs), not anaerobic methanogens. Methanogens are found in the anaerobic sludge digester.", "hi": "सक्रिय कीचड़ में एरोबिक बैक्टीरिया और कवक (फ़्लॉक्स) होते हैं, न कि अवायवीय मेथनोगेंस। मेथनोगेंस अवायवीय कीचड़ डाइजेस्टर में पाए जाते हैं।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Match the following list of microbes and their importance:", "hi": "निम्नलिखित रोगाणुओं की सूची और उनके महत्व का मिलान करें:" },
+      "options": [
+        { "id": "o1", "text": { "en": "A-Saccharomyces cerevisiae, B-Monascus purpureus, C-Trichoderma polysporum, D-Propionibacterium sharmanii", "hi": "A-सैकैरोमाइसेस सेरेविसिया, B-मोनस्कस परप्यूरियस, C-ट्राइकोडर्मा पॉलीस्पोरम, D-प्रोपियोनिबैक्टीरियम शेरमैनी" } },
+        { "id": "o2", "text": { "en": "A-Monascus purpureus (Statins), B-Trichoderma polysporum (Cyclosporin A)", "hi": "A-मोनस्कस परप्यूरियस (स्टैटिन), B-ट्राइकोडर्मा पॉलीस्पोरम (साइक्लोस्पोरिन ए)" } },
+        { "id": "o3", "text": { "en": "Monascus purpureus produces Statins (blood cholesterol lowering agent).", "hi": "मोनस्कस परप्यूरियस स्टैटिन (रक्त कोलेस्ट्रॉल कम करने वाला एजेंट) का उत्पादन करता है।" } },
+        { "id": "o4", "text": { "en": "All of the above matchings are correct in standard texts.", "hi": "मानक ग्रंथों में उपरोक्त सभी मिलान सही हैं।" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Monascus purpureus is a yeast used commercially for the production of blood-cholesterol lowering agents called statins.", "hi": "मोनस्कस परप्यूरियस एक यीस्ट है जिसका उपयोग व्यावसायिक रूप से स्टैटिन नामक रक्त-कोलेस्ट्रॉल कम करने वाले एजेंटों के उत्पादन के लिए किया जाता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following is mainly produced by the activity of anaerobic bacteria on sewage?", "hi": "सीवेज पर अवायवीय बैक्टीरिया की गतिविधि से मुख्य रूप से क्या उत्पन्न होता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Laughing gas", "hi": "हंसाने वाली गैस" } },
+        { "id": "o2", "text": { "en": "Propane", "hi": "प्रोपेन" } },
+        { "id": "o3", "text": { "en": "Mustard gas", "hi": "मस्टर्ड गैस" } },
+        { "id": "o4", "text": { "en": "Marsh gas (Biogas)", "hi": "मार्श गैस (बायोगैस)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Anaerobic bacteria digest organic matter in sewage to produce a mixture of gases collectively known as biogas, which is predominantly methane (marsh gas).", "hi": "अवायवीय जीवाणु सीवेज में कार्बनिक पदार्थों को पचाकर गैसों का मिश्रण तैयार करते हैं जिन्हें सामूहिक रूप से बायोगैस के रूप में जाना जाता है, जो मुख्य रूप से मीथेन (मार्श गैस) है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "BOD of wastewater is estimated by measuring the amount of:", "hi": "अपशिष्ट जल के BOD का अनुमान किसकी मात्रा को मापकर लगाया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Total organic matter", "hi": "कुल कार्बनिक पदार्थ" } },
+        { "id": "o2", "text": { "en": "Biodegradable organic matter", "hi": "बायोडिग्रेडेबल कार्बनिक पदार्थ" } },
+        { "id": "o3", "text": { "en": "Oxygen evolution", "hi": "ऑक्सीजन विकास" } },
+        { "id": "o4", "text": { "en": "Oxygen consumption", "hi": "ऑक्सीजन की खपत" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "BOD (Biochemical Oxygen Demand) measures the rate of oxygen consumption (uptake) by microbes as they decompose organic matter in water.", "hi": "BOD (बायोकेमिकल ऑक्सीजन डिमांड) रोगाणुओं द्वारा ऑक्सीजन की खपत (उठाव) की दर को मापता है क्योंकि वे पानी में कार्बनिक पदार्थों को विघटित करते हैं।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which one of the following alcoholic drinks is produced without distillation?", "hi": "निम्नलिखित में से कौन सा मादक पेय आसवन (distillation) के बिना उत्पादित होता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Wine", "hi": "शराब (Wine)" } },
+        { "id": "o2", "text": { "en": "Whisky", "hi": "व्हिस्की" } },
+        { "id": "o3", "text": { "en": "Rum", "hi": "रम" } },
+        { "id": "o4", "text": { "en": "Brandy", "hi": "ब्रांडी" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Wine and beer are produced without distillation whereas whisky, brandy and rum are produced by distillation of the fermented broth.", "hi": "वाइन और बीयर का उत्पादन बिना आसवन के किया जाता है जबकि व्हिस्की, ब्रांडी और रम का उत्पादन किण्वित शोरबा के आसवन द्वारा किया जाता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The free-living fungus Trichoderma can be used for:", "hi": "मुक्त रहने वाले कवक ट्राइकोडर्मा का उपयोग किसके लिए किया जा सकता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Killing insects", "hi": "कीड़ों को मारने" } },
+        { "id": "o2", "text": { "en": "Biological control of plant diseases", "hi": "पौधों के रोगों का जैविक नियंत्रण" } },
+        { "id": "o3", "text": { "en": "Controlling butterfly caterpillars", "hi": "तितली कैटरपिलर को नियंत्रित करने" } },
+        { "id": "o4", "text": { "en": "Producing antibiotics", "hi": "एंटीबायोटिक्स का उत्पादन करने" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Trichoderma species are free-living fungi that are very common in the root ecosystems. They are effective biocontrol agents of several plant pathogens.", "hi": "ट्राइकोडर्मा प्रजाति मुक्त-जीवित कवक हैं जो जड़ पारिस्थितिक तंत्र में बहुत आम हैं। वे कई पौधों के रोगजनकों के प्रभावी जैव नियंत्रण एजेंट हैं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "What would happen if oxygen availability to activated sludge flocs is reduced?", "hi": "यदि सक्रिय कीचड़ फ़्लॉक्स में ऑक्सीजन की उपलब्धता कम हो जाए तो क्या होगा?" },
+      "options": [
+        { "id": "o1", "text": { "en": "It will slow down the rate of degradation of organic matter", "hi": "यह कार्बनिक पदार्थों के क्षरण (degradation) की दर को धीमा कर देगा" } },
+        { "id": "o2", "text": { "en": "The center of flocs will become anoxic, which would cause death of bacteria and eventually breakage of flocs", "hi": "फ़्लॉक्स का केंद्र एनोक्सिक हो जाएगा, जिससे बैक्टीरिया की मृत्यु हो जाएगी और अंततः फ़्लॉक्स टूट जाएगा" } },
+        { "id": "o3", "text": { "en": "Flocs would increase in size as anaerobic bacteria would grow around flocs", "hi": "फ़्लॉक्स का आकार बढ़ जाएगा क्योंकि अवायवीय बैक्टीरिया फ़्लॉक्स के चारों ओर बढ़ेंगे" } },
+        { "id": "o4", "text": { "en": "Protozoa would grow in large numbers", "hi": "प्रोटोजोआ बड़ी संख्या में बढ़ेंगे" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Activated sludge flocs consist of aerobic bacteria. Reducing oxygen will cause the interior to become anoxic (lacking oxygen), killing the aerobic bacteria and causing the flocs to break apart.", "hi": "सक्रिय कीचड़ फ़्लॉक्स में एरोबिक बैक्टीरिया होते हैं। ऑक्सीजन कम करने से आंतरिक भाग एनोक्सिक (ऑक्सीजन की कमी) हो जाएगा, जिससे एरोबिक बैक्टीरिया मर जाएंगे और फ़्लॉक्स टूट जाएंगे।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Mycorrhiza does not help the host plant in:", "hi": "माइकोराइजा मेजबान पौधे की मदद किसमें नहीं करता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Enhancing its phosphorus uptake capacity", "hi": "इसकी फास्फोरस ग्रहण क्षमता को बढ़ाने में" } },
+        { "id": "o2", "text": { "en": "Increasing its tolerance to drought", "hi": "सूखे के प्रति इसकी सहनशीलता बढ़ाने में" } },
+        { "id": "o3", "text": { "en": "Enhancing its resistance to root pathogens", "hi": "जड़ रोगजनकों के प्रति इसके प्रतिरोध को बढ़ाने में" } },
+        { "id": "o4", "text": { "en": "Increasing its resistance to insects", "hi": "कीड़ों के प्रति इसके प्रतिरोध को बढ़ाने में" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Mycorrhizal association helps in phosphorus absorption, drought tolerance, and resistance to root-borne pathogens, but it does not confer resistance to insects.", "hi": "माइकोराइजल एसोसिएशन फास्फोरस अवशोषण, सूखा सहिष्णुता और जड़-जनित रोगजनकों के प्रतिरोध में मदद करता है, लेकिन यह कीड़ों को प्रतिरोध प्रदान नहीं करता है।" }
+    }
+  ]
+}

@@ -1,69 +1,62 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Sexual Reproduction",
-    "hi": "लैंगिक जनन"
-  },
-  "children": [
+  "id": "m1",
+  "title": { "en": "Sexual Reproduction in Flowering Plants", "hi": "पुष्पीय पादपों में लैंगिक जनन" },
+  "nodes": [
     {
-      "id": "c1",
-      "label": {
-        "en": "Pre-fertilization",
-        "hi": "निषेचन-पूर्व"
-      },
+      "id": "n1",
+      "label": { "en": "Pre-fertilization", "hi": "निषेचन-पूर्व" },
       "children": [
         {
-          "id": "c1a",
-          "label": {
-            "en": "Microsporogenesis",
-            "hi": "लघुबीजाणुजनन"
-          }
+          "id": "n1_1",
+          "label": { "en": "Male: Stamen", "hi": "नर: पुंकेसर" },
+          "children": [
+            { "id": "n1_1_1", "label": { "en": "Microsporogenesis", "hi": "लघुबीजाणुजनन" } },
+            { "id": "n1_1_2", "label": { "en": "Pollen Grain (Male Gametophyte)", "hi": "परागकण (नर युग्मकोद्भिद)" } }
+          ]
         },
         {
-          "id": "c1b",
-          "label": {
-            "en": "Megasporogenesis",
-            "hi": "गुरुबीजाणुजनन"
-          }
+          "id": "n1_2",
+          "label": { "en": "Female: Pistil", "hi": "मादा: स्त्रीकेसर" },
+          "children": [
+            { "id": "n1_2_1", "label": { "en": "Megasporogenesis", "hi": "गुरुबीजाणुजनन" } },
+            { "id": "n1_2_2", "label": { "en": "Embryo Sac (Female Gametophyte)", "hi": "भ्रूणकोष (मादा युग्मकोद्भिद)" } }
+          ]
         },
         {
-          "id": "c1c",
-          "label": {
-            "en": "Pollination",
-            "hi": "परागण"
-          }
+          "id": "n1_3",
+          "label": { "en": "Pollination", "hi": "परागण" },
+          "children": [
+            { "id": "n1_3_1", "label": { "en": "Autogamy, Geitonogamy, Xenogamy", "hi": "स्वयुग्मन, सजातपुष्पी, परनिषेचन" } },
+            { "id": "n1_3_2", "label": { "en": "Agents & Outbreeding Devices", "hi": "एजेंट और बहिःप्रजनन युक्तियाँ" } }
+          ]
         }
       ]
     },
     {
-      "id": "c2",
-      "label": {
-        "en": "Double Fertilization",
-        "hi": "दोहरा निषेचन"
-      },
+      "id": "n2",
+      "label": { "en": "Double Fertilization", "hi": "दोहरा निषेचन" },
       "children": [
-        {
-          "id": "c2a",
-          "label": {
-            "en": "Syngamy",
-            "hi": "युग्मक संलयन"
-          }
-        },
-        {
-          "id": "c2b",
-          "label": {
-            "en": "Triple Fusion",
-            "hi": "त्रिसंलयन"
-          }
-        }
+        { "id": "n2_1", "label": { "en": "Syngamy -> Zygote (2n)", "hi": "युग्मक संलयन -> युग्मनज (2n)" } },
+        { "id": "n2_2", "label": { "en": "Triple Fusion -> PEN (3n)", "hi": "त्रिसंलयन -> PEN (3n)" } }
       ]
     },
     {
-      "id": "c3",
-      "label": {
-        "en": "Post-fertilization",
-        "hi": "निषेचन-पश्च"
-      }
+      "id": "n3",
+      "label": { "en": "Post-fertilization", "hi": "निषेचन-पश्च" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Endosperm Development", "hi": "भ्रूणपोष विकास" } },
+        { "id": "n3_2", "label": { "en": "Embryo Development", "hi": "भ्रूण विकास" } },
+        { "id": "n3_3", "label": { "en": "Ovule -> Seed, Ovary -> Fruit", "hi": "बीजांड -> बीज, अंडाशय -> फल" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Special Modes", "hi": "विशेष तरीके" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Apomixis (Seed w/o fertilization)", "hi": "असंगजनन (निषेचन के बिना बीज)" } },
+        { "id": "n4_2", "label": { "en": "Polyembryony (>1 embryo)", "hi": "बहुभ्रूणता (>1 भ्रूण)" } },
+        { "id": "n4_3", "label": { "en": "Parthenocarpy (Fruit w/o fertilization)", "hi": "अनिषेकफलन (निषेचन के बिना फल)" } }
+      ]
     }
   ]
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Lactational Amenorrhea", "hi": "दुग्धस्रवण अनातर्व" },
+    "definition": { "en": "Absence of menstruation during intense lactation following parturition, acting as a natural contraceptive.", "hi": "प्रसव के बाद तीव्र स्तनपान के दौरान मासिक धर्म की अनुपस्थिति, जो एक प्राकृतिक गर्भनिरोधक के रूप में कार्य करती है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "MTP", "hi": "MTP" },
+    "definition": { "en": "Medical Termination of Pregnancy. Intentional or voluntary termination of pregnancy before full term.", "hi": "गर्भावस्था का चिकित्सीय समापन। पूर्ण अवधि से पहले गर्भावस्था का जानबूझकर या स्वैच्छिक समापन।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Amniocentesis", "hi": "एमनियोसेंटेसिस" },
+    "definition": { "en": "A fetal sex determination and chromosomal abnormality test based on the chromosomal pattern in the amniotic fluid.", "hi": "एमनियोटिक द्रव में गुणसूत्र पैटर्न के आधार पर भ्रूण लिंग निर्धारण और गुणसूत्र असामान्यता परीक्षण।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Vasectomy", "hi": "वासेक्टोमी" },
+    "definition": { "en": "Surgical sterilization method in males where a small part of the vas deferens is removed or tied up.", "hi": "पुरुषों में सर्जिकल नसबंदी विधि जहां शुक्रवाहक (vas deferens) का एक छोटा सा हिस्सा हटा दिया जाता है या बांध दिया जाता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Tubectomy", "hi": "ट्यूबेक्टोमी" },
+    "definition": { "en": "Surgical sterilization method in females where a small part of the fallopian tube is removed or tied up.", "hi": "महिलाओं में सर्जिकल नसबंदी विधि जहां फैलोपियन ट्यूब का एक छोटा सा हिस्सा हटा दिया जाता है या बांध दिया जाता है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "ZIFT", "hi": "ZIFT" },
+    "definition": { "en": "Zygote Intra Fallopian Transfer. Transfer of zygote or early embryos (up to 8 blastomeres) into the fallopian tube.", "hi": "ज़ाइगोट इंट्रा फैलोपियन ट्रांसफर। फैलोपियन ट्यूब में युग्मनज या प्रारंभिक भ्रूण (8 ब्लास्टोमेरेस तक) का स्थानांतरण।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "IUT", "hi": "IUT" },
+    "definition": { "en": "Intra Uterine Transfer. Transfer of embryos with more than 8 blastomeres into the uterus.", "hi": "इंट्रा यूटेराइन ट्रांसफर। 8 से अधिक ब्लास्टोमेरेस वाले भ्रूणों का गर्भाशय में स्थानांतरण।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "GIFT", "hi": "GIFT" },
+    "definition": { "en": "Gamete Intra Fallopian Transfer. Transfer of an ovum collected from a donor into the fallopian tube of another female.", "hi": "गैमीट इंट्रा फैलोपियन ट्रांसफर। एक दाता से एकत्र किए गए अंडाणु का दूसरी महिला की फैलोपियन ट्यूब में स्थानांतरण।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "ICSI", "hi": "ICSI" },
+    "definition": { "en": "Intra Cytoplasmic Sperm Injection. A procedure where a single sperm is directly injected into the ovum.", "hi": "इंट्रा साइटोप्लाज्मिक स्पर्म इंजेक्शन। एक प्रक्रिया जहां एक शुक्राणु को सीधे अंडाणु में इंजेक्ट किया जाता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Infertility", "hi": "बांझपन (Infertility)" },
+    "definition": { "en": "Inability to conceive or produce children even after 2 years of unprotected sexual cohabitation.", "hi": "असुरक्षित यौन सहवास के 2 साल बाद भी गर्भ धारण करने या बच्चे पैदा करने में असमर्थता।" }
+  }
+]

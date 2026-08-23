@@ -1,62 +1,148 @@
-[
-  {
-    "id": "t1",
-    "question": {
-      "en": "Which of the following has proved helpful in preserving pollen as fossils?",
-      "hi": "निम्नलिखित में से क्या परागकणों को जीवाश्मों के रूप में संरक्षित करने में सहायक सिद्ध हुआ है?"
+{
+  "id": "t1",
+  "title": { "en": "Chapter 1 Mock Test: Sexual Reproduction in Flowering Plants", "hi": "अध्याय 1 मॉक टेस्ट: पुष्पीय पादपों में लैंगिक जनन" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The plant part which consists of two generations one within the other is:", "hi": "पौधे का वह भाग जिसमें दो पीढ़ियाँ एक के भीतर एक होती हैं, वह है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Pollen grain inside the anther", "hi": "परागकोश के अंदर परागकण" } },
+        { "id": "o2", "text": { "en": "Germinated pollen grain with two male gametes", "hi": "दो नर युग्मकों के साथ अंकुरित परागकण" } },
+        { "id": "o3", "text": { "en": "Seed inside the fruit", "hi": "फल के अंदर बीज" } },
+        { "id": "o4", "text": { "en": "Embryo sac inside the ovule", "hi": "बीजांड के अंदर भ्रूणकोष (Embryo sac inside the ovule)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The ovule (megasporangium) represents the diploid sporophytic generation, while the embryo sac (female gametophyte) inside it represents the haploid gametophytic generation.", "hi": "बीजांड (megasporangium) द्विगुणित स्पोरोफाइटिक पीढ़ी का प्रतिनिधित्व करता है, जबकि इसके अंदर भ्रूणकोष (मादा युग्मकोद्भिद) अगुणित गैमेटोफाइटिक पीढ़ी का प्रतिनिधित्व करता है।" }
     },
-    "options": [
-      {
-        "en": "Pollenkitt",
-        "hi": "पॉलेनकिट"
-      },
-      {
-        "en": "Cellulosic intine",
-        "hi": "सेल्युलोसिक अंतःचोल"
-      },
-      {
-        "en": "Oil content",
-        "hi": "तेल की मात्रा"
-      },
-      {
-        "en": "Sporopollenin",
-        "hi": "स्पोरोपोलेनिन"
-      }
-    ],
-    "correctAnswer": 3,
-    "explanation": {
-      "en": "Sporopollenin is highly resistant to degradation, acting as a preservative.",
-      "hi": "स्पोरोपोलेनिन क्षरण के प्रति अत्यधिक प्रतिरोधी है, जो एक परिरक्षक के रूप में कार्य करता है।"
-    }
-  },
-  {
-    "id": "t2",
-    "question": {
-      "en": "Male gametophyte in angiosperms produces:",
-      "hi": "एंजियोस्पर्म में नर युग्मकोद्भिद (Male gametophyte) उत्पन्न करता है:"
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following has proved helpful in preserving pollen as fossils?", "hi": "पराग को जीवाश्म (fossils) के रूप में संरक्षित करने में निम्नलिखित में से कौन मददगार साबित हुआ है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Pollenkitt", "hi": "पॉलेनकिट" } },
+        { "id": "o2", "text": { "en": "Cellulosic intine", "hi": "सेल्यूलोसिक अंतःचोल" } },
+        { "id": "o3", "text": { "en": "Sporopollenin", "hi": "स्पोरोपोलेनिन (Sporopollenin)" } },
+        { "id": "o4", "text": { "en": "Oil content", "hi": "तेल सामग्री" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Sporopollenin is one of the most resistant organic materials known. It makes the exine of pollen grains highly resistant to physical and biological degradation.", "hi": "स्पोरोपोलेनिन ज्ञात सबसे प्रतिरोधी कार्बनिक पदार्थों में से एक है। यह परागकणों के बाह्यचोल को भौतिक और जैविक गिरावट के प्रति अत्यधिक प्रतिरोधी बनाता है।" }
     },
-    "options": [
-      {
-        "en": "Single sperm and a vegetative cell",
-        "hi": "एक शुक्राणु और एक कायिक कोशिका"
-      },
-      {
-        "en": "Single sperm and two vegetative cells",
-        "hi": "एक शुक्राणु और दो कायिक कोशिकाएं"
-      },
-      {
-        "en": "Three sperms",
-        "hi": "तीन शुक्राणु"
-      },
-      {
-        "en": "Two sperms and a vegetative cell",
-        "hi": "दो शुक्राणु और एक कायिक कोशिका"
-      }
-    ],
-    "correctAnswer": 3,
-    "explanation": {
-      "en": "The mature male gametophyte consists of one vegetative cell and two male gametes (sperms).",
-      "hi": "परिपक्व नर युग्मकोद्भिद में एक कायिक कोशिका और दो नर युग्मक (शुक्राणु) होते हैं।"
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Male gametophyte in angiosperms produces:", "hi": "आवृतबीजी (angiosperms) में नर युग्मकोद्भिद (male gametophyte) पैदा करता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Two sperms and a vegetative cell", "hi": "दो शुक्राणु और एक कायिक कोशिका (Two sperms and a vegetative cell)" } },
+        { "id": "o2", "text": { "en": "Single sperm and a vegetative cell", "hi": "एकल शुक्राणु और एक कायिक कोशिका" } },
+        { "id": "o3", "text": { "en": "Single sperm and two vegetative cells", "hi": "एकल शुक्राणु और दो कायिक कोशिकाएं" } },
+        { "id": "o4", "text": { "en": "Three sperms", "hi": "तीन शुक्राणु" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The mature male gametophyte (pollen grain) in angiosperms is 3-celled: it contains one vegetative cell and two male gametes (sperms) produced by the division of the generative cell.", "hi": "आवृतबीजी में परिपक्व नर युग्मकोद्भिद (परागकण) 3-कोशिका वाला होता है: इसमें एक कायिक कोशिका और जनन कोशिका के विभाजन द्वारा उत्पादित दो नर युग्मक (शुक्राणु) होते हैं।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which is the most common type of embryo sac in angiosperms?", "hi": "आवृतबीजी में सबसे आम प्रकार का भ्रूणकोष कौन सा है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Tetrasporic with one mitotic stage of divisions", "hi": "विभाजन के एक समसूत्री चरण के साथ टेट्रास्पोरिक" } },
+        { "id": "o2", "text": { "en": "Monosporic with three sequential mitotic divisions", "hi": "तीन अनुक्रमिक समसूत्री विभाजनों के साथ मोनोस्पोरिक (Monosporic with three sequential mitotic divisions)" } },
+        { "id": "o3", "text": { "en": "Monosporic with two sequential mitotic divisions", "hi": "दो अनुक्रमिक समसूत्री विभाजनों के साथ मोनोस्पोरिक" } },
+        { "id": "o4", "text": { "en": "Bisporic with two sequential mitotic divisions", "hi": "दो अनुक्रमिक समसूत्री विभाजनों के साथ बिस्पोरिक" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The most common type is the Polygonum type of embryo sac, which develops from a single functional megaspore (monosporic) and undergoes three sequential mitotic divisions to form a 7-celled, 8-nucleate structure.", "hi": "सबसे आम प्रकार का भ्रूणकोष पॉलीगोनम प्रकार है, जो एक कार्यात्मक गुरुबीजाणु (मोनोस्पोरिक) से विकसित होता है और 7-कोशिका, 8-केंद्रक संरचना बनाने के लिए तीन अनुक्रमिक समसूत्री विभाजनों से गुजरता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "What is the function of filiform apparatus in an angiospermic embryo sac?", "hi": "आवृतबीजी भ्रूणकोष में तंतुरूप उपकरण (filiform apparatus) का क्या कार्य है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "It guides the entry of pollen tube into a synergid", "hi": "यह एक सहायक कोशिका में पराग नली के प्रवेश का मार्गदर्शन करता है (It guides the entry of pollen tube into a synergid)" } },
+        { "id": "o2", "text": { "en": "It prevents entry of more than one pollen tube", "hi": "यह एक से अधिक पराग नली के प्रवेश को रोकता है" } },
+        { "id": "o3", "text": { "en": "It brings about opening of the pollen tube", "hi": "यह पराग नली को खोलने का काम करता है" } },
+        { "id": "o4", "text": { "en": "It recognizes the suitable pollen at stigma", "hi": "यह वर्तिकाग्र पर उपयुक्त पराग को पहचानता है" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The filiform apparatus, present at the micropylar tip of the synergids, has a special function of guiding the pollen tube into the synergid.", "hi": "सहायक कोशिकाओं के बीजांडद्वारी सिरे पर मौजूद तंतुरूप उपकरण का एक विशेष कार्य पराग नली को सहायक कोशिका में निर्देशित करना है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Advantage of cleistogamy is:", "hi": "क्लिस्टोगैमी (cleistogamy) का लाभ है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Higher genetic variability", "hi": "उच्च आनुवंशिक परिवर्तनशीलता" } },
+        { "id": "o2", "text": { "en": "More vigorous offspring", "hi": "अधिक जोरदार संतान" } },
+        { "id": "o3", "text": { "en": "No dependence on pollinators", "hi": "परागणकों पर कोई निर्भरता नहीं (No dependence on pollinators)" } },
+        { "id": "o4", "text": { "en": "Vivipary", "hi": "विविपेरी" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Cleistogamous flowers do not open at all. Therefore, self-pollination is guaranteed, and seed set is assured even in the absence of pollinators.", "hi": "क्लिस्टोगैमस फूल बिल्कुल नहीं खुलते हैं। इसलिए, स्व-परागण की गारंटी है, और परागणकों की अनुपस्थिति में भी बीज सेट का आश्वासन दिया जाता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "In a cereal grain the single cotyledon of embryo is represented by:", "hi": "अनाज के दाने में भ्रूण के एकल बीजपत्र (cotyledon) को किसके द्वारा दर्शाया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Coleorhiza", "hi": "कोलिओरिज़ा" } },
+        { "id": "o2", "text": { "en": "Coleoptile", "hi": "प्रांकुर-चोल (Coleoptile)" } },
+        { "id": "o3", "text": { "en": "Scutellum", "hi": "स्कुटेलम (Scutellum)" } },
+        { "id": "o4", "text": { "en": "Prophyll", "hi": "प्रोफिल" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "In monocotyledons (like cereals and grasses), the single shield-shaped cotyledon is known as the scutellum.", "hi": "एकबीजपत्री (monocotyledons) में (जैसे अनाज और घास), एकल ढाल के आकार के बीजपत्र को स्कुटेलम (scutellum) के रूप में जाना जाता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "The phenomenon wherein, the ovary develops into a fruit without fertilization is called:", "hi": "वह घटना जिसमें अंडाशय बिना निषेचन के फल में विकसित हो जाता है, कहलाती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Parthenocarpy", "hi": "अनिषेकफलन (Parthenocarpy)" } },
+        { "id": "o2", "text": { "en": "Apomixis", "hi": "असंगजनन (Apomixis)" } },
+        { "id": "o3", "text": { "en": "Asexual reproduction", "hi": "अलैंगिक प्रजनन" } },
+        { "id": "o4", "text": { "en": "Sexual reproduction", "hi": "यौन प्रजनन" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Parthenocarpy is the development of fruit without fertilization (e.g., banana). Such fruits are seedless. Apomixis is the formation of seeds without fertilization.", "hi": "अनिषेकफलन (Parthenocarpy) बिना निषेचन के फल का विकास है (उदा., केला)। ऐसे फल बीज रहित होते हैं। असंगजनन (Apomixis) निषेचन के बिना बीजों का निर्माण है।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Endosperm is completely consumed by the developing embryo in:", "hi": "भ्रूणपोष विकासशील भ्रूण द्वारा पूरी तरह से किसमें उपभोग कर लिया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Pea and groundnut", "hi": "मटर और मूंगफली (Pea and groundnut)" } },
+        { "id": "o2", "text": { "en": "Maize and castor", "hi": "मक्का और अरंडी" } },
+        { "id": "o3", "text": { "en": "Castor and groundnut", "hi": "अरंडी और मूंगफली" } },
+        { "id": "o4", "text": { "en": "Maize and pea", "hi": "मक्का और मटर" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In non-albuminous (exalbuminous) seeds like pea, groundnut, and beans, the endosperm is completely consumed during embryo development. In albuminous seeds like castor and maize, a portion is retained.", "hi": "मटर, मूंगफली और बीन्स जैसे गैर-एल्बुमिनस (exalbuminous) बीजों में, भ्रूण के विकास के दौरान भ्रूणपोष पूरी तरह से उपभोग किया जाता है। अरंडी और मक्का जैसे एल्बुमिनस बीजों में, एक हिस्सा बरकरार रखा जाता है।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "A typical angiosperm anther is:", "hi": "एक विशिष्ट आवृतबीजी परागकोश होता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Bilobed and dithecous", "hi": "द्विपालित और डाइथेकस (Bilobed and dithecous)" } },
+        { "id": "o2", "text": { "en": "Bilobed and monothecous", "hi": "द्विपालित और मोनोथेकस" } },
+        { "id": "o3", "text": { "en": "Tetralobed and dithecous", "hi": "टेट्रालोब्ड और डाइथेकस" } },
+        { "id": "o4", "text": { "en": "Monolobed and dithecous", "hi": "मोनोलोब्ड और डाइथेकस" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "A typical angiosperm anther is bilobed (having two lobes) with each lobe having two theca (dithecous).", "hi": "एक विशिष्ट आवृतबीजी परागकोश द्विपालित (दो पालियों वाला) होता है जिसमें प्रत्येक पालि में दो कोष्ठ (दाइथेकस) होते हैं।" }
     }
-  }
-]
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "t7",
+  "title": { "en": "Chapter 7 Mock Test: Human Health and Disease", "hi": "अध्याय 7 मॉक टेस्ट: मानव स्वास्थ्य तथा रोग" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The disease chikungunya is transmitted by:", "hi": "चिकनगुनिया रोग किसके द्वारा फैलता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "House fly", "hi": "घरेलू मक्खी" } },
+        { "id": "o2", "text": { "en": "Aedes mosquito", "hi": "एडीज मच्छर" } },
+        { "id": "o3", "text": { "en": "Cockroach", "hi": "तिलचट्टा" } },
+        { "id": "o4", "text": { "en": "Female Anopheles", "hi": "मादा एनाफिलीज" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Dengue and chikungunya are transmitted by Aedes mosquitoes.", "hi": "डेंगू और चिकनगुनिया एडीज मच्छरों द्वारा प्रेषित होते हैं।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following is an autoimmune disease?", "hi": "निम्नलिखित में से कौन एक ऑटोइम्यून बीमारी है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Asthma", "hi": "अस्थमा" } },
+        { "id": "o2", "text": { "en": "Cirrhosis", "hi": "सिरोसिस" } },
+        { "id": "o3", "text": { "en": "Rheumatoid arthritis", "hi": "रुमेटीइड गठिया" } },
+        { "id": "o4", "text": { "en": "AIDS", "hi": "एड्स" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "In rheumatoid arthritis, the body attacks its own cells, making it an autoimmune disease.", "hi": "रुमेटीइड गठिया में, शरीर अपनी ही कोशिकाओं पर हमला करता है, जिससे यह एक ऑटोइम्यून बीमारी बन जाती है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "HIV that causes AIDS, first starts destroying:", "hi": "एड्स का कारण बनने वाला HIV सबसे पहले किसे नष्ट करना शुरू करता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "B-lymphocytes", "hi": "बी-लिम्फोसाइट्स" } },
+        { "id": "o2", "text": { "en": "Leucocytes", "hi": "ल्यूकोसाइट्स" } },
+        { "id": "o3", "text": { "en": "Helper T-lymphocytes", "hi": "हेल्पर टी-लिम्फोसाइट्स" } },
+        { "id": "o4", "text": { "en": "Thrombocytes", "hi": "थ्रोम्बोसाइट्स" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "HIV primarily infects and destroys Helper T-lymphocytes (TH), leading to a weakened immune system.", "hi": "HIV मुख्य रूप से हेल्पर टी-लिम्फोसाइट्स (TH) को संक्रमित और नष्ट करता है, जिससे प्रतिरक्षा प्रणाली कमजोर हो जाती है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Antibodies are produced by:", "hi": "एंटीबॉडी किसके द्वारा निर्मित होते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Macrophages", "hi": "मैक्रोफेज" } },
+        { "id": "o2", "text": { "en": "B-lymphocytes", "hi": "बी-लिम्फोसाइट्स" } },
+        { "id": "o3", "text": { "en": "T-lymphocytes", "hi": "टी-लिम्फोसाइट्स" } },
+        { "id": "o4", "text": { "en": "Erythrocytes", "hi": "एरिथ्रोसाइट्स (Erythrocytes)" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "B-lymphocytes produce an army of proteins called antibodies to fight pathogens.", "hi": "बी-लिम्फोसाइट्स रोगजनकों से लड़ने के लिए एंटीबॉडी नामक प्रोटीन की एक सेना का उत्पादन करते हैं।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Widal test is used for susceptibility of:", "hi": "विडाल (Widal) परीक्षण किसकी संवेदनशीलता के लिए प्रयोग किया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Malaria", "hi": "मलेरिया" } },
+        { "id": "o2", "text": { "en": "Cholera", "hi": "हैजा" } },
+        { "id": "o3", "text": { "en": "Yellow fever", "hi": "पीत ज्वर (Yellow fever)" } },
+        { "id": "o4", "text": { "en": "Typhoid", "hi": "टाइफाइड" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Typhoid fever, caused by Salmonella typhi, is confirmed by the Widal test.", "hi": "साल्मोनेला टाइफी के कारण होने वाले टाइफाइड बुखार की पुष्टि विडाल परीक्षण द्वारा की जाती है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Which of the following is not a primary lymphoid organ?", "hi": "निम्नलिखित में से कौन एक प्राथमिक लिम्फोइड अंग नहीं है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Bone marrow", "hi": "अस्थि मज्जा" } },
+        { "id": "o2", "text": { "en": "Thymus", "hi": "थाइमस" } },
+        { "id": "o3", "text": { "en": "Spleen", "hi": "प्लीहा (Spleen)" } },
+        { "id": "o4", "text": { "en": "None of the above", "hi": "इनमे से कोई भी नहीं" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Spleen is a secondary lymphoid organ where lymphocytes interact with antigens.", "hi": "प्लीहा एक द्वितीयक लिम्फोइड अंग है जहाँ लिम्फोसाइट्स एंटीजन के साथ परस्पर क्रिया करते हैं।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Cancer cells are characterized by:", "hi": "कैंसर कोशिकाओं की विशेषता क्या है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Controlled division", "hi": "नियंत्रित विभाजन" } },
+        { "id": "o2", "text": { "en": "Loss of contact inhibition", "hi": "संपर्क निषेध (contact inhibition) का नुकसान" } },
+        { "id": "o3", "text": { "en": "Inability to divide", "hi": "विभाजित करने में असमर्थता" } },
+        { "id": "o4", "text": { "en": "Phagocytosis", "hi": "भक्षण (Phagocytosis)" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Normal cells show contact inhibition which halts their growth when they touch other cells. Cancer cells lose this property.", "hi": "सामान्य कोशिकाएं संपर्क निषेध दिखाती हैं जो अन्य कोशिकाओं को छूने पर उनके विकास को रोक देता है। कैंसर कोशिकाएं यह गुण खो देती हैं।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Common cold is not cured by antibiotics because it is:", "hi": "सामान्य सर्दी को एंटीबायोटिक दवाओं से ठीक नहीं किया जा सकता क्योंकि यह:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Caused by a virus", "hi": "वायरस के कारण होता है" } },
+        { "id": "o2", "text": { "en": "Caused by a Gram-positive bacterium", "hi": "ग्राम-पॉजिटिव जीवाणु के कारण होता है" } },
+        { "id": "o3", "text": { "en": "Caused by a Gram-negative bacterium", "hi": "ग्राम-नेगेटिव जीवाणु के कारण होता है" } },
+        { "id": "o4", "text": { "en": "Not an infectious disease", "hi": "कोई संक्रामक रोग नहीं है" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Common cold is caused by Rhinoviruses. Antibiotics are effective against bacteria, not viruses.", "hi": "सामान्य सर्दी राइनोवायरस के कारण होती है। एंटीबायोटिक्स बैक्टीरिया के खिलाफ प्रभावी हैं, वायरस के खिलाफ नहीं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Which one of the following acts as a physiological barrier to the entry of microorganisms in human body?", "hi": "निम्नलिखित में से कौन मानव शरीर में सूक्ष्मजीवों के प्रवेश के लिए शारीरिक (physiological) बाधा के रूप में कार्य करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Epithelium of urogenital tract", "hi": "मूत्रजननांगी पथ का उपकला (Epithelium)" } },
+        { "id": "o2", "text": { "en": "Tears", "hi": "आँसू" } },
+        { "id": "o3", "text": { "en": "Monocytes", "hi": "मोनोसाइट्स" } },
+        { "id": "o4", "text": { "en": "Skin", "hi": "त्वचा" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Tears from eyes, saliva in mouth, and acid in stomach are physiological barriers.", "hi": "आंखों से आंसू, मुंह में लार और पेट में एसिड शारीरिक बाधाएं हैं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following plants is hallucinogenic?", "hi": "निम्नलिखित में से कौन सा पौधा मतिभ्रम (hallucinogenic) पैदा करने वाला है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Erythroxylum coca", "hi": "एरिथ्रोक्सिलम कोका" } },
+        { "id": "o2", "text": { "en": "Atropa belladonna", "hi": "एट्रोपा बेलाडोना" } },
+        { "id": "o3", "text": { "en": "Datura", "hi": "धतूरा" } },
+        { "id": "o4", "text": { "en": "Both (b) and (c)", "hi": "दोनों (b) और (c)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Atropa belladonna and Datura both have well-known hallucinogenic properties.", "hi": "एट्रोपा बेलाडोना और धतूरा दोनों में प्रसिद्ध मतिभ्रम पैदा करने वाले गुण होते हैं।" }
+    }
+  ]
+}

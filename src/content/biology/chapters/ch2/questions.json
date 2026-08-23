@@ -1,96 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "The Leydig cells found in the human body are the secretory source of:",
-      "hi": "मानव शरीर में पाई जाने वाली लेडिग कोशिकाएं किसके स्राव का स्रोत हैं?"
+      "en": "In humans, at the end of the first meiotic division, the male germ cells differentiate into the:",
+      "hi": "मनुष्यों में, पहले अर्धसूत्रीविभाजन (meiotic division) के अंत में, नर जर्म कोशिकाएं किसमें विभेदित हो जाती हैं:"
     },
     "options": [
-      {
-        "en": "Progesterone",
-        "hi": "प्रोजेस्टेरोन"
-      },
-      {
-        "en": "Intestinal mucus",
-        "hi": "आंतों का बलगम"
-      },
-      {
-        "en": "Glucagon",
-        "hi": "ग्लूकागन"
-      },
-      {
-        "en": "Androgens",
-        "hi": "एण्ड्रोजन"
-      }
+      { "id": "o1", "text": { "en": "Spermatids", "hi": "स्पर्मेटिड्स" } },
+      { "id": "o2", "text": { "en": "Spermatogonia", "hi": "स्पर्मेटोगोनिया" } },
+      { "id": "o3", "text": { "en": "Primary spermatocytes", "hi": "प्राथमिक स्पर्मेटोसाइट्स" } },
+      { "id": "o4", "text": { "en": "Secondary spermatocytes", "hi": "द्वितीयक स्पर्मेटोसाइट्स" } }
     ],
-    "correctOptionIndex": 3,
+    "correctOptionId": "o4",
     "explanation": {
-      "en": "Leydig cells synthesize and secrete testicular hormones called androgens.",
-      "hi": "लेडिग कोशिकाएं एण्ड्रोजन नामक वृषण हार्मोन का संश्लेषण और स्राव करती हैं।"
+      "en": "The primary spermatocyte (2n) undergoes the first meiotic division to form two equal, haploid cells called secondary spermatocytes (n).",
+      "hi": "प्राथमिक स्पर्मेटोसाइट (2n) दो समान, अगुणित कोशिकाओं को बनाने के लिए पहले अर्धसूत्रीविभाजन से गुजरता है जिसे द्वितीयक स्पर्मेटोसाइट्स (n) कहा जाता है।"
     }
   },
   {
-    "id": "q_mcq_2",
+    "id": "q2",
     "type": "mcq",
-    "difficulty": "Medium",
-    "marks": 1,
+    "difficulty": "hard",
     "question": {
-      "en": "In humans, at the end of the first meiotic division, the male germ cells differentiate into the:",
-      "hi": "मनुष्यों में, पहले अर्धसूत्रीविभाजन के अंत में, नर रोगाणु कोशिकाएं किसमें विभेदित हो जाती हैं?"
+      "en": "Which of the following hormones is NOT secreted by the human placenta?",
+      "hi": "निम्नलिखित में से कौन सा हार्मोन मानव अपरा (placenta) द्वारा स्रावित नहीं होता है?"
     },
     "options": [
-      {
-        "en": "Spermatids",
-        "hi": "स्पर्मेटिड्स"
-      },
-      {
-        "en": "Spermatogonia",
-        "hi": "स्पर्मेटोगोनिया"
-      },
-      {
-        "en": "Primary spermatocytes",
-        "hi": "प्राथमिक स्पर्मेटोसाइट्स"
-      },
-      {
-        "en": "Secondary spermatocytes",
-        "hi": "द्वितीयक स्पर्मेटोसाइट्स"
-      }
+      { "id": "o1", "text": { "en": "hCG", "hi": "एचसीजी (hCG)" } },
+      { "id": "o2", "text": { "en": "Estrogens", "hi": "एस्ट्रोजेन (Estrogens)" } },
+      { "id": "o3", "text": { "en": "Progesterone", "hi": "प्रोजेस्टेरोन" } },
+      { "id": "o4", "text": { "en": "LH", "hi": "एलएच (LH)" } }
     ],
-    "correctOptionIndex": 3,
+    "correctOptionId": "o4",
     "explanation": {
-      "en": "Primary spermatocytes (2n) undergo meiosis I to form secondary spermatocytes (n).",
-      "hi": "प्राथमिक स्पर्मेटोसाइट्स (2n) अर्धसूत्रीविभाजन I से गुजरकर द्वितीयक स्पर्मेटोसाइट्स (n) बनाते हैं।"
+      "en": "The placenta secretes hCG, hPL, estrogens, and progestogens. LH (Luteinizing Hormone) is secreted by the anterior pituitary gland, not the placenta.",
+      "hi": "अपरा एचसीजी (hCG), एचपीएल (hPL), एस्ट्रोजेन और प्रोजेस्टोजेन स्रावित करता है। एलएच (ल्यूटिनाइजिंग हार्मोन) पूर्वकाल पिट्यूटरी ग्रंथि द्वारा स्रावित होता है, न कि अपरा द्वारा।"
     }
   },
   {
     "id": "q3",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
+    "type": "mcq",
+    "difficulty": "medium",
     "question": {
-      "en": "Write the function of each of the following: (a) Seminal vesicle (b) Acrosome (c) Fimbriae",
-      "hi": "निम्नलिखित में से प्रत्येक का कार्य लिखिए: (a) शुक्राशय (b) एक्रोसोम (c) फिमब्रिया"
+      "en": "The secretory phase in the human menstrual cycle is also called:",
+      "hi": "मानव मासिक धर्म चक्र में स्रावी चरण (secretory phase) को और क्या कहा जाता है:"
     },
-    "idealAnswer": {
-      "en": "(a) Seminal vesicle: Secretes seminal plasma rich in fructose. (b) Acrosome: Contains enzymes that help the sperm enter the ovum. (c) Fimbriae: Helps in collection of the ovum after ovulation.",
-      "hi": "(a) शुक्राशय: फ्रुक्टोज से भरपूर वीर्य प्लाज्मा का स्राव करता है। (b) एक्रोसोम: इसमें एंजाइम होते हैं जो शुक्राणु को अंडाणु में प्रवेश करने में मदद करते हैं। (c) फिमब्रिया: अंडोत्सर्ग के बाद अंडाणु को इकट्ठा करने में मदद करता है।"
+    "options": [
+      { "id": "o1", "text": { "en": "Luteal phase and lasts for about 6 days", "hi": "ल्यूटियल चरण और लगभग 6 दिनों तक रहता है" } },
+      { "id": "o2", "text": { "en": "Follicular phase and lasts for about 6 days", "hi": "कूपिक चरण और लगभग 6 दिनों तक रहता है" } },
+      { "id": "o3", "text": { "en": "Luteal phase and lasts for about 14 days", "hi": "ल्यूटियल चरण और लगभग 14 दिनों तक रहता है" } },
+      { "id": "o4", "text": { "en": "Follicular phase and lasts for about 14 days", "hi": "कूपिक चरण और लगभग 14 दिनों तक रहता है" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "The secretory phase is also known as the luteal phase (when the corpus luteum is active). In a 28-day cycle, it usually lasts for about 14 days (from day 15 to day 28).",
+      "hi": "स्रावी चरण को ल्यूटियल चरण (जब कॉर्पस ल्यूटियम सक्रिय होता है) के रूप में भी जाना जाता है। 28 दिन के चक्र में, यह आमतौर पर लगभग 14 दिनों (दिन 15 से 28 तक) तक रहता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is colostrum? Why is it highly recommended for newborn babies?",
+      "hi": "कोलोस्ट्रम (colostrum) क्या है? नवजात शिशुओं के लिए इसकी अत्यधिक सिफारिश क्यों की जाती है?"
     },
-    "keywords": [
-      {
-        "en": "fructose",
-        "hi": "फ्रुक्टोज"
-      },
-      {
-        "en": "enzymes",
-        "hi": "एंजाइम"
-      },
-      {
-        "en": "collection",
-        "hi": "इकट्ठा"
-      }
-    ]
+    "answer": {
+      "en": "**Colostrum** is the milk produced by the mammary glands during the initial few days of lactation. It is highly recommended by doctors because it contains several **antibodies (especially IgA)** that are absolutely essential to develop resistance and immunity in newborn babies.",
+      "hi": "**कोलोस्ट्रम** स्तनपान के शुरुआती कुछ दिनों के दौरान स्तन ग्रंथियों द्वारा उत्पादित दूध है। डॉक्टरों द्वारा इसकी अत्यधिक सिफारिश की जाती है क्योंकि इसमें कई **एंटीबॉडी (विशेष रूप से आईजीए / IgA)** होते हैं जो नवजात शिशुओं में प्रतिरोध और प्रतिरक्षा विकसित करने के लिए बिल्कुल आवश्यक हैं।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Name the hormone responsible for the vigorous contraction of the uterine muscles during parturition.",
+      "hi": "प्रसव के दौरान गर्भाशय की मांसपेशियों के जोरदार संकुचन के लिए जिम्मेदार हार्मोन का नाम बताइए।"
+    },
+    "answer": {
+      "en": "**Oxytocin**, secreted by the maternal pituitary gland, acts on the uterine muscle and causes stronger uterine contractions, which in turn stimulates further secretion of oxytocin, leading to the expulsion of the baby.",
+      "hi": "मातृ पिट्यूटरी ग्रंथि द्वारा स्रावित **ऑक्सीटोसिन (Oxytocin)**, गर्भाशय की मांसपेशियों पर कार्य करता है और मजबूत गर्भाशय संकुचन का कारण बनता है, जो बदले में ऑक्सीटोसिन के आगे स्राव को उत्तेजित करता है, जिससे बच्चे का निष्कासन होता है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Draw a labelled diagram of the microscopic structure of a human sperm and explain the function of its various parts.",
+      "hi": "मानव शुक्राणु की सूक्ष्म संरचना का नामांकित चित्र बनाइए और इसके विभिन्न भागों के कार्य को समझाइए।"
+    },
+    "answer": {
+      "en": "(Draw diagram showing Head, Neck, Middle piece, and Tail).\n- **Head**: Contains an elongated haploid nucleus. The anterior portion is covered by a cap-like structure, the **acrosome**, which is filled with enzymes that help in the fertilization of the ovum.\n- **Middle piece**: Possesses numerous **mitochondria**, which produce energy for the movement of the tail that facilitates sperm motility essential for fertilization.\n- **Tail**: Facilitates the swimming motion (motility) of the sperm in the female reproductive tract.",
+      "hi": "(सिर, गर्दन, मध्य भाग और पूंछ दिखाने वाला चित्र बनाएं)।\n- **सिर**: एक लम्बा अगुणित केंद्रक होता है। पूर्वकाल भाग एक टोपी जैसी संरचना, **एक्रोसोम (acrosome)** से ढका होता है, जो एंजाइमों से भरा होता है जो डिंब के निषेचन में मदद करते हैं।\n- **मध्य भाग**: इसमें कई **माइटोकॉन्ड्रिया** होते हैं, जो पूंछ की गति के लिए ऊर्जा उत्पन्न करते हैं जो निषेचन के लिए आवश्यक शुक्राणु की गतिशीलता की सुविधा प्रदान करता है।\n- **पूंछ**: मादा प्रजनन पथ में शुक्राणु के तैरने की गति (गतिशीलता) की सुविधा प्रदान करती है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Differentiate between spermatogenesis and oogenesis.",
+      "hi": "शुक्राणुजनन (spermatogenesis) और अंडजनन (oogenesis) के बीच अंतर स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**Spermatogenesis**:\n1. Occurs in the testis.\n2. Begins at puberty and continues throughout life.\n3. Produces four functional haploid sperms from one primary spermatocyte.\n4. Equal meiotic divisions.\n**Oogenesis**:\n1. Occurs in the ovary.\n2. Initiated during the embryonic development stage (before birth), arrests, and resumes at puberty. Ceases at menopause.\n3. Produces only one functional haploid ovum (and polar bodies) from one primary oocyte.\n4. Unequal meiotic divisions (forming a large oocyte and tiny polar bodies).",
+      "hi": "**शुक्राणुजनन (Spermatogenesis)**:\n1. वृषण में होता है।\n2. यौवन पर शुरू होता है और जीवन भर जारी रहता है।\n3. एक प्राथमिक स्पर्मेटोसाइट से चार कार्यात्मक अगुणित शुक्राणु पैदा करता है।\n4. समान अर्धसूत्रीविभाजन।\n**अंडजनन (Oogenesis)**:\n1. अंडाशय में होता है।\n2. भ्रूणीय विकास के चरण (जन्म से पहले) के दौरान शुरू होता है, यौवन पर फिर से शुरू होता है। रजोनिवृत्ति (menopause) पर रुक जाता है।\n3. एक प्राथमिक ऊसाइट से केवल एक कार्यात्मक अगुणित डिंब (और ध्रुवीय पिंड) पैदा करता है।\n4. असमान अर्धसूत्रीविभाजन (एक बड़ा ऊसाइट और छोटे ध्रुवीय पिंड)।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the role of the corpus luteum in the menstrual cycle and early pregnancy?",
+      "hi": "मासिक धर्म चक्र और प्रारंभिक गर्भावस्था में कॉर्पस ल्यूटियम की क्या भूमिका है?"
+    },
+    "answer": {
+      "en": "The corpus luteum is formed from the ruptured Graafian follicle after ovulation. It acts as a temporary endocrine gland and secretes large amounts of **progesterone**. Progesterone is essential for the maintenance of the endometrium, making it ready for the implantation of the fertilized ovum and for maintaining early pregnancy.",
+      "hi": "ओव्यूलेशन के बाद फटे हुए ग्राफ़ियन कूप से कॉर्पस ल्यूटियम बनता है। यह एक अस्थायी अंतःस्रावी ग्रंथि के रूप में कार्य करता है और बड़ी मात्रा में **प्रोजेस्टेरोन** स्रावित करता है। निषेचित डिंब के आरोपण और प्रारंभिक गर्भावस्था को बनाए रखने के लिए तैयार करने के लिए, एंडोमेट्रियम के रखरखाव के लिए प्रोजेस्टेरोन आवश्यक है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following events is NOT associated with ovulation in human female?",
+      "hi": "मानव महिला में ओव्यूलेशन से निम्नलिखित में से कौन सी घटना जुड़ी नहीं है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Release of secondary oocyte", "hi": "द्वितीयक ऊसाइट का विमोचन" } },
+      { "id": "o2", "text": { "en": "LH surge", "hi": "एलएच में वृद्धि (LH surge)" } },
+      { "id": "o3", "text": { "en": "Decrease in estradiol", "hi": "एस्ट्राडियोल (एस्ट्रोजेन) में कमी" } },
+      { "id": "o4", "text": { "en": "Full development of Graafian follicle", "hi": "ग्राफ़ियन कूप का पूर्ण विकास" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Before ovulation, the growing follicles secrete high amounts of estrogen (estradiol), which triggers the LH surge. Therefore, there is an increase, not a decrease, in estrogen just before ovulation.",
+      "hi": "ओव्यूलेशन से पहले, बढ़ते रोम उच्च मात्रा में एस्ट्रोजन (एस्ट्राडियोल) स्रावित करते हैं, जो एलएच वृद्धि को ट्रिगर करता है। इसलिए, ओव्यूलेशन से ठीक पहले एस्ट्रोजन में वृद्धि होती है, कमी नहीं।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is implantation?",
+      "hi": "आरोपण (Implantation) क्या है?"
+    },
+    "answer": {
+      "en": "**Implantation** is the process by which the blastocyst (the embryo stage with trophoblast and inner cell mass) gets embedded in the endometrium (inner wall) of the uterus. This leads to pregnancy.",
+      "hi": "**आरोपण (Implantation)** वह प्रक्रिया है जिसके द्वारा ब्लास्टोसिस्ट (ट्रोफोब्लास्ट और आंतरिक कोशिका द्रव्यमान के साथ भ्रूण चरण) गर्भाशय के एंडोमेट्रियम (आंतरिक दीवार) में एम्बेडेड हो जाता है। इससे गर्भावस्था होती है।"
+    }
   }
 ]

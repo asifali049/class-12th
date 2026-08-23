@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Microbes and their Bioactive Molecules/Acids",
+      "hi": "सूक्ष्मजीव और उनके बायोएक्टिव अणु/अम्ल"
+    },
+    "formula": "\\text{Microbe} \\rightarrow \\text{Product} \\rightarrow \\text{Application}",
+    "variables": [
+      {
+        "name": "\\text{Aspergillus niger (Fungus)}",
+        "description": { "en": "Citric Acid", "hi": "साइट्रिक एसिड" }
+      },
+      {
+        "name": "\\text{Acetobacter aceti (Bacterium)}",
+        "description": { "en": "Acetic Acid", "hi": "एसिटिक एसिड" }
+      },
+      {
+        "name": "\\text{Clostridium butylicum (Bacterium)}",
+        "description": { "en": "Butyric Acid", "hi": "ब्यूट्रिक एसिड" }
+      },
+      {
+        "name": "\\text{Lactobacillus (Bacterium)}",
+        "description": { "en": "Lactic Acid", "hi": "लैक्टिक एसिड" }
+      },
+      {
+        "name": "\\text{Streptococcus (Bacterium)}",
+        "description": { "en": "Streptokinase (Clot buster)", "hi": "स्ट्रेप्टोकाइनेज (क्लॉट बस्टर)" }
+      },
+      {
+        "name": "\\text{Trichoderma polysporum (Fungus)}",
+        "description": { "en": "Cyclosporin A (Immunosuppressive agent)", "hi": "साइक्लोस्पोरिन A (इम्यूनोसप्रेसिव एजेंट)" }
+      },
+      {
+        "name": "\\text{Monascus purpureus (Yeast)}",
+        "description": { "en": "Statins (Blood cholesterol lowering agent)", "hi": "स्टैटिन (रक्त कोलेस्ट्रॉल कम करने वाला एजेंट)" }
+      }
+    ],
+    "applications": {
+      "en": "Crucial for MCQs and matching questions in board exams.",
+      "hi": "बोर्ड परीक्षाओं में MCQ और मिलान वाले प्रश्नों के लिए महत्वपूर्ण।"
+    }
+  }
+]

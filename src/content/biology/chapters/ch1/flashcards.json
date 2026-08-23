@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Tapetum", "hi": "टेपेटम (Tapetum)" },
+    "definition": { "en": "The innermost wall layer of the microsporangium that provides nourishment to the developing pollen grains.", "hi": "लघुबीजाणुधानी की सबसे भीतरी भित्ति परत जो विकसित हो रहे परागकणों को पोषण प्रदान करती है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Sporopollenin", "hi": "स्पोरोपोलेनिन (Sporopollenin)" },
+    "definition": { "en": "A highly resistant organic material forming the exine (outer layer) of pollen grains, able to withstand high temperatures and strong acids/alkalis.", "hi": "एक अत्यधिक प्रतिरोधी कार्बनिक पदार्थ जो परागकणों का बाह्यचोल (बाहरी परत) बनाता है, जो उच्च तापमान और मजबूत एसिड/क्षार का सामना करने में सक्षम है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Syngamy", "hi": "युग्मक संलयन (Syngamy)" },
+    "definition": { "en": "The fusion of one male gamete with the egg cell to form a diploid zygote.", "hi": "एक द्विगुणित युग्मनज (zygote) बनाने के लिए अंड कोशिका के साथ एक नर युग्मक का संलयन।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Triple Fusion", "hi": "त्रिसंलयन (Triple Fusion)" },
+    "definition": { "en": "The fusion of a male gamete with two polar nuclei in the central cell to form the triploid Primary Endosperm Nucleus (PEN).", "hi": "त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाने के लिए केंद्रीय कोशिका में दो ध्रुवीय केंद्रकों के साथ एक नर युग्मक का संलयन।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Double Fertilization", "hi": "दोहरा निषेचन (Double Fertilization)" },
+    "definition": { "en": "A unique event in angiosperms where both syngamy and triple fusion occur simultaneously in the embryo sac.", "hi": "आवृतबीजी में एक अनूठी घटना जहां भ्रूणकोष में युग्मक संलयन और त्रिसंलयन दोनों एक साथ होते हैं।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Cleistogamy", "hi": "क्लिस्टोगैमी (Cleistogamy)" },
+    "definition": { "en": "A condition where flowers never open, ensuring strict autogamy (self-pollination) and assured seed set without pollinators.", "hi": "एक ऐसी स्थिति जहां फूल कभी नहीं खुलते हैं, सख्त स्व-परागण सुनिश्चित करते हैं और परागणकों के बिना बीज सेट सुनिश्चित करते हैं।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Parthenocarpy", "hi": "अनिषेकफलन (Parthenocarpy)" },
+    "definition": { "en": "The development of a fruit without fertilization of the ovary, resulting in seedless fruits (e.g., banana).", "hi": "अंडाशय के निषेचन के बिना फल का विकास, जिसके परिणामस्वरूप बीज रहित फल (जैसे, केला) होते हैं।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Apomixis", "hi": "असंगजनन (Apomixis)" },
+    "definition": { "en": "A form of asexual reproduction that mimics sexual reproduction, where seeds are formed without fertilization.", "hi": "अलैंगिक प्रजनन का एक रूप जो यौन प्रजनन की नकल करता है, जहां बीज निषेचन के बिना बनते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Polyembryony", "hi": "बहुभ्रूणता (Polyembryony)" },
+    "definition": { "en": "The occurrence of more than one embryo in a seed (e.g., in citrus and mango).", "hi": "एक बीज में एक से अधिक भ्रूण की उपस्थिति (जैसे, नींबू और आम में)।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Emasculation", "hi": "विपुंसन (Emasculation)" },
+    "definition": { "en": "The removal of anthers from a bisexual flower bud before they dehisce, to prevent self-pollination in artificial hybridization.", "hi": "कृत्रिम संकरण में स्व-परागण को रोकने के लिए, उनके फटने से पहले द्विलिंगी फूल की कली से परागकोशों को हटाना।" }
+  }
+]

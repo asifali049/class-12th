@@ -1,46 +1,161 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Reproductive Health & RCH Programs",
-      "hi": "प्रजनन स्वास्थ्य और RCH कार्यक्रम"
-    },
-    "content": {
-      "en": "According to WHO, reproductive health means a total well-being in all aspects of reproduction (physical, emotional, behavioral, and social). India initiated 'family planning' programs in 1951, now operated under RCH (Reproductive and Child Health Care) programs.",
-      "hi": "डब्ल्यूएचओ (WHO) के अनुसार, प्रजनन स्वास्थ्य का अर्थ प्रजनन के सभी पहलुओं (शारीरिक, भावनात्मक, व्यवहारिक और सामाजिक) में पूर्ण रूप से स्वस्थ होना है। भारत ने 1951 में 'परिवार नियोजन' कार्यक्रम शुरू किए थे, जो अब RCH कार्यक्रमों के तहत संचालित होते हैं।"
+    "type": "heading",
+    "text": {
+      "en": "Reproductive Health",
+      "hi": "जनन स्वास्थ्य (Reproductive Health)"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Birth Control (Contraceptives)",
-      "hi": "जन्म नियंत्रण (गर्भनिरोधक)"
-    },
-    "content": {
-      "en": "Natural methods (Periodic abstinence, Coitus interruptus, Lactational amenorrhea). Barrier methods (Condoms, Diaphragms). IUDs (Copper T, Mirena). Oral contraceptives (Saheli). Surgical methods (Vasectomy in males, Tubectomy in females).",
-      "hi": "प्राकृतिक विधियाँ (आवधिक संयम, सहवास व्यवधान)। बाधा विधियाँ (कंडोम, डायाफ्राम)। IUDs (कॉपर टी)। मौखिक गर्भनिरोधक (सहेली)। सर्जिकल विधियाँ (पुरुषों में वासेक्टोमी, महिलाओं में ट्यूबेक्टोमी)।"
+    "type": "paragraph",
+    "text": {
+      "en": "According to the World Health Organisation (WHO), reproductive health means a total well-being in all aspects of reproduction, i.e., physical, emotional, behavioural and social. India was amongst the first countries in the world to initiate action plans and programmes at a national level to attain total reproductive health as a social goal. These programmes, called 'family planning', were initiated in 1951.",
+      "hi": "विश्व स्वास्थ्य संगठन (WHO) के अनुसार, जनन स्वास्थ्य का अर्थ जनन के सभी पहलुओं, अर्थात् शारीरिक, भावनात्मक, व्यवहारिक और सामाजिक में पूर्ण कल्याण है। भारत सामाजिक लक्ष्य के रूप में कुल जनन स्वास्थ्य प्राप्त करने के लिए राष्ट्रीय स्तर पर कार्य योजनाएं और कार्यक्रम शुरू करने वाले दुनिया के पहले देशों में से एक था। इन कार्यक्रमों को 'परिवार नियोजन' (family planning) कहा गया, जो 1951 में शुरू किए गए थे।"
     }
   },
   {
-    "id": "n3",
-    "title": {
-      "en": "MTP and STIs",
-      "hi": "एमटीपी (MTP) और यौन संचारित संक्रमण (STIs)"
-    },
-    "content": {
-      "en": "Medical Termination of Pregnancy (MTP) or induced abortion is legalized in India under strict conditions. STIs are diseases transmitted through sexual intercourse (e.g., Gonorrhoea, Syphilis, HIV, Hepatitis-B).",
-      "hi": "मेडिकल टर्मिनेशन ऑफ प्रेगनेंसी (MTP) या प्रेरित गर्भपात भारत में सख्त शर्तों के तहत वैध है। एसटीआई (STIs) वे बीमारियाँ हैं जो यौन संसर्ग के माध्यम से फैलती हैं (उदा., गोनोरिया, सिफलिस, एचआईवी)।"
+    "type": "concept",
+    "text": {
+      "en": "Reproductive and Child Health Care (RCH) Programmes:\nCurrently, improved programmes covering wider reproduction-related areas are in operation under the popular name 'Reproductive and Child Health Care (RCH) programmes'. Major tasks include creating awareness among people about various reproduction related aspects and providing facilities and support for building up a reproductively healthy society.",
+      "hi": "प्रजनन और बाल स्वास्थ्य देखभाल (RCH) कार्यक्रम:\nवर्तमान में, व्यापक प्रजनन-संबंधित क्षेत्रों को कवर करने वाले बेहतर कार्यक्रम 'प्रजनन और बाल स्वास्थ्य देखभाल (RCH) कार्यक्रम' के लोकप्रिय नाम से संचालित हो रहे हैं। प्रमुख कार्यों में लोगों के बीच विभिन्न प्रजनन संबंधी पहलुओं के बारे में जागरूकता पैदा करना और जनन रूप से स्वस्थ समाज के निर्माण के लिए सुविधाएं और सहायता प्रदान करना शामिल है।"
     }
   },
   {
-    "id": "n4",
-    "title": {
-      "en": "Infertility & ART",
-      "hi": "बांझपन (Infertility) और एआरटी (ART)"
-    },
-    "content": {
-      "en": "Infertility is the inability to produce children. Assisted Reproductive Technologies (ART) include IVF (In vitro fertilization), ZIFT, GIFT, and ICSI to help couples have children.",
-      "hi": "बांझपन बच्चे पैदा करने में असमर्थता है। असिस्टेड रिप्रोडक्टिव टेक्नोलॉजी (ART) में IVF (इन विट्रो फर्टिलाइजेशन), ZIFT, GIFT, और ICSI शामिल हैं।"
+    "type": "heading",
+    "text": {
+      "en": "1. Population Explosion and Birth Control",
+      "hi": "1. जनसंख्या विस्फोट और जन्म नियंत्रण"
     }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A rapid decline in death rate, maternal mortality rate (MMR) and infant mortality rate (IMR) as well as an increase in number of people in reproducible age are probable reasons for population explosion. To tackle this, contraceptive methods are widely used.",
+      "hi": "मृत्यु दर, मातृ मृत्यु दर (MMR) और शिशु मृत्यु दर (IMR) में तेजी से गिरावट के साथ-साथ प्रजनन आयु के लोगों की संख्या में वृद्धि जनसंख्या विस्फोट के संभावित कारण हैं। इससे निपटने के लिए, गर्भनिरोधक (contraceptive) विधियों का व्यापक रूप से उपयोग किया जाता है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "An ideal contraceptive should be user-friendly, easily available, effective and reversible with no or least side-effects. It also should in no way interfere with the sexual drive, desire and/or the sexual act of the user.",
+      "hi": "एक आदर्श गर्भनिरोधक उपयोगकर्ता के अनुकूल, आसानी से उपलब्ध, प्रभावी और बिना किसी दुष्प्रभाव के (या कम से कम) प्रतिवर्ती (reversible) होना चाहिए। यह उपयोगकर्ता की यौन इच्छा या यौन क्रिया में भी किसी भी तरह से बाधा नहीं डालना चाहिए।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Methods of Contraception",
+      "hi": "2. गर्भनिरोधक की विधियां"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Natural/Traditional Methods: Work on the principle of avoiding chances of ovum and sperms meeting. (a) Periodic abstinence (avoiding coitus from day 10 to 17 of the menstrual cycle). (b) Withdrawal or coitus interruptus. (c) Lactational amenorrhea (absence of menstruation due to intense lactation following parturition; effective up to 6 months).",
+        "hi": "प्राकृतिक/पारंपरिक विधियां: अंडाणु और शुक्राणुओं के मिलने की संभावना से बचने के सिद्धांत पर काम करती हैं। (a) आवधिक संयम (मासिक धर्म चक्र के 10 से 17 दिन तक सहवास से बचना)। (b) वापसी या सहवास व्यवधान। (c) दुग्धस्रवण अनातर्व (Lactational amenorrhea - प्रसव के बाद तीव्र स्तनपान के कारण मासिक धर्म की अनुपस्थिति; 6 महीने तक प्रभावी)।"
+      },
+      {
+        "en": "Barrier Methods: Ovum and sperms are prevented from physically meeting with the help of barriers. E.g., Condoms (also protect from STIs), Diaphragms, Cervical caps, and Vaults.",
+        "hi": "बाधा विधियां (Barrier Methods): बाधाओं की मदद से अंडाणु और शुक्राणुओं को शारीरिक रूप से मिलने से रोका जाता है। उदा., कंडोम (STI से भी बचाते हैं), डायाफ्राम, गर्भाशय ग्रीवा टोपी (Cervical caps)।"
+      },
+      {
+        "en": "Intra Uterine Devices (IUDs): Inserted by doctors into the uterus through vagina. Types: Non-medicated IUDs (e.g., Lippes loop), Copper releasing IUDs (CuT, Cu7, Multiload 375), and Hormone releasing IUDs (Progestasert, LNG-20). They increase phagocytosis of sperms within the uterus; Cu ions suppress sperm motility.",
+        "hi": "अंतर्गर्भाशयी युक्तियाँ (IUDs): योनि के माध्यम से गर्भाशय में डॉक्टरों द्वारा डाली जाती हैं। प्रकार: नॉन-मेडिकेटेड (Lippes loop), कॉपर रिलीजिंग (CuT, Multiload 375), और हार्मोन रिलीजिंग (Progestasert, LNG-20)। ये गर्भाशय के भीतर शुक्राणुओं के भक्षण (phagocytosis) को बढ़ाते हैं; Cu आयन शुक्राणु की गतिशीलता को दबाते हैं।"
+      },
+      {
+        "en": "Oral Contraceptives (Pills): Small doses of either progestogens or progestogen-estrogen combinations used by females. They inhibit ovulation and implantation. 'Saheli' is a once-a-week, non-steroidal pill developed by CDRI, Lucknow.",
+        "hi": "मौखिक गर्भनिरोधक (गोलियां): महिलाओं द्वारा उपयोग किए जाने वाले प्रोजेस्टेरोन या प्रोजेस्टेरोन-एस्ट्रोजन संयोजन की छोटी खुराक। ये अंडोत्सर्ग और प्रत्यारोपण को रोकती हैं। 'सहेली (Saheli)' सप्ताह में एक बार ली जाने वाली गैर-स्टेरॉयड गोली है जिसे CDRI, लखनऊ द्वारा विकसित किया गया है।"
+      },
+      {
+        "en": "Surgical Methods (Sterilization): Terminal method to prevent any more pregnancies. Vasectomy in males (vas deferens cut and tied) and Tubectomy in females (fallopian tube cut and tied). Highly effective but reversibility is very poor.",
+        "hi": "सर्जिकल विधियां (बंध्याकरण): किसी भी और गर्भधारण को रोकने के लिए अंतिम विधि। पुरुषों में वासेक्टोमी (शुक्रवाहक को काटकर बांध दिया जाता है) और महिलाओं में ट्यूबेक्टोमी (फैलोपियन ट्यूब को काटकर बांध दिया जाता है)। अत्यधिक प्रभावी लेकिन इसे उलटना (reversibility) बहुत मुश्किल है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Medical Termination of Pregnancy (MTP)",
+      "hi": "3. गर्भावस्था का चिकित्सीय समापन (MTP)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Intentional or voluntary termination of pregnancy before full term is called medical termination of pregnancy (MTP) or induced abortion. Government of India legalised MTP in 1971 with some strict conditions to avoid its misuse (like illegal female foeticides).",
+      "hi": "पूर्ण अवधि से पहले गर्भावस्था के जानबूझकर या स्वैच्छिक समापन को गर्भावस्था का चिकित्सीय समापन (MTP) या प्रेरित गर्भपात कहा जाता है। भारत सरकार ने इसके दुरुपयोग (जैसे अवैध कन्या भ्रूण हत्या) से बचने के लिए कुछ सख्त शर्तों के साथ 1971 में MTP को वैध कर दिया।"
+    }
+  },
+  {
+    "type": "tip",
+    "text": {
+      "en": "MTPs are considered relatively safe during the first trimester, i.e., up to 12 weeks of pregnancy. Second trimester abortions are much more risky.",
+      "hi": "पहली तिमाही (first trimester) के दौरान, यानी गर्भावस्था के 12 सप्ताह तक MTP को अपेक्षाकृत सुरक्षित माना जाता है। दूसरी तिमाही का गर्भपात बहुत अधिक जोखिम भरा होता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Sexually Transmitted Infections (STIs)",
+      "hi": "4. यौन संचारित संक्रमण (STIs)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Diseases or infections which are transmitted through sexual intercourse are collectively called sexually transmitted infections (STI) or venereal diseases (VD) or reproductive tract infections (RTI). Examples: Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV.",
+      "hi": "यौन संसर्ग के माध्यम से फैलने वाले रोगों या संक्रमणों को सामूहिक रूप से यौन संचारित संक्रमण (STI) या रतिज रोग (VD) या जनन मार्ग संक्रमण (RTI) कहा जाता है। उदाहरण: गोनोरिया, सिफलिस, जननांग दाद, क्लैमाइडिया, जननांग मस्से, ट्राइकोमोनिएसिस, हेपेटाइटिस-बी और एचआईवी।"
+    }
+  },
+  {
+    "type": "highlight",
+    "text": {
+      "en": "Important Note: Hepatitis-B, genital herpes and HIV infections are not completely curable. All other diseases are completely curable if detected early and treated properly.",
+      "hi": "महत्वपूर्ण नोट: हेपेटाइटिस-बी, जननांग दाद और एचआईवी संक्रमण पूरी तरह से इलाज योग्य नहीं हैं। यदि जल्दी पता चल जाए और ठीक से इलाज किया जाए तो अन्य सभी बीमारियाँ पूरी तरह से ठीक हो सकती हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Infertility and Assisted Reproductive Technologies (ART)",
+      "hi": "5. बांझपन और सहायक जनन प्रौद्योगिकियां (ART)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Inability to conceive or produce children even after 2 years of unprotected sexual cohabitation is called infertility. Specialised health care units (infertility clinics) could help in diagnosis and corrective treatment. Where treatments are not possible, couples can use ART.",
+      "hi": "असुरक्षित यौन सहवास के 2 साल बाद भी गर्भ धारण करने या बच्चे पैदा करने में असमर्थता को बांझपन (infertility) कहा जाता है। जहाँ उपचार संभव नहीं है, वहाँ जोड़े ART (Assisted Reproductive Technologies) का उपयोग कर सकते हैं।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "In vitro fertilisation (IVF) followed by Embryo Transfer (ET): Fertilisation outside the body in almost similar conditions as that in the body (Test tube baby programme).",
+        "hi": "इन विट्रो फर्टिलाइजेशन (IVF) और एम्ब्रियो ट्रांसफर (ET): शरीर के बाहर लगभग शरीर जैसी ही परिस्थितियों में निषेचन (टेस्ट ट्यूब बेबी प्रोग्राम)।"
+      },
+      {
+        "en": "ZIFT (Zygote Intra Fallopian Transfer): The zygote or early embryos (with upto 8 blastomeres) are transferred into the fallopian tube.",
+        "hi": "ZIFT (ज़ाइगोट इंट्रा फैलोपियन ट्रांसफर): युग्मनज या प्रारंभिक भ्रूण (8 ब्लास्टोमेरेस तक) को फैलोपियन ट्यूब में स्थानांतरित किया जाता है।"
+      },
+      {
+        "en": "IUT (Intra Uterine Transfer): Embryos with more than 8 blastomeres are transferred into the uterus.",
+        "hi": "IUT (इंट्रा यूटेराइन ट्रांसफर): 8 से अधिक ब्लास्टोमेरेस वाले भ्रूणों को गर्भाशय में स्थानांतरित किया जाता है।"
+      },
+      {
+        "en": "GIFT (Gamete Intra Fallopian Transfer): Transfer of an ovum collected from a donor into the fallopian tube of another female who cannot produce one, but can provide suitable environment for fertilisation and further development.",
+        "hi": "GIFT (गैमीट इंट्रा फैलोपियन ट्रांसफर): एक दाता से एकत्र किए गए अंडाणु को दूसरी महिला के फैलोपियन ट्यूब में स्थानांतरित करना जो अंडाणु नहीं बना सकती, लेकिन निषेचन के लिए उपयुक्त वातावरण प्रदान कर सकती है।"
+      },
+      {
+        "en": "ICSI (Intra Cytoplasmic Sperm Injection): A specialized procedure to form an embryo in the laboratory in which a sperm is directly injected into the ovum.",
+        "hi": "ICSI (इंट्रा साइटोप्लाज्मिक स्पर्म इंजेक्शन): प्रयोगशाला में भ्रूण बनाने की एक विशेष प्रक्रिया जिसमें एक शुक्राणु को सीधे अंडाणु में इंजेक्ट किया जाता है।"
+      },
+      {
+        "en": "Artificial Insemination (AI): The semen collected either from the husband or a healthy donor is artificially introduced either into the vagina or into the uterus (IUI - intra-uterine insemination) of the female.",
+        "hi": "कृत्रिम गर्भाधान (AI): पति या एक स्वस्थ दाता से एकत्र किया गया वीर्य कृत्रिम रूप से मादा की योनि या गर्भाशय (IUI - इंट्रा-यूटेराइन इनसेमिनेशन) में डाला जाता है।"
+      }
+    ]
   }
 ]

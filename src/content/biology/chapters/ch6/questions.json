@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "The wings of a bird and the wings of an insect are:",
-      "hi": "पक्षी के पंख और कीट के पंख हैं:"
+      "en": "Which of the following is an example of homologous organs?",
+      "hi": "निम्नलिखित में से कौन सा समजात अंगों (homologous organs) का उदाहरण है?"
     },
     "options": [
-      {
-        "en": "Homologous structures",
-        "hi": "समजात संरचनाएं"
-      },
-      {
-        "en": "Analogous structures",
-        "hi": "समरूप संरचनाएं"
-      },
-      {
-        "en": "Vestigial structures",
-        "hi": "अवशेषी संरचनाएं"
-      },
-      {
-        "en": "None of these",
-        "hi": "इनमें से कोई नहीं"
-      }
+      { "id": "o1", "text": { "en": "Wings of butterfly and birds", "hi": "तितली और पक्षियों के पंख" } },
+      { "id": "o2", "text": { "en": "Flippers of penguins and dolphins", "hi": "पेंगुइन और डॉल्फ़िन के फ्लिपर" } },
+      { "id": "o3", "text": { "en": "Forelimbs of whales, bats, Cheetah and human", "hi": "व्हेल, चमगादड़, चीता और मानव के अग्रपाद" } },
+      { "id": "o4", "text": { "en": "Eye of octopus and mammals", "hi": "ऑक्टोपस और स्तनधारियों की आंख" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o3",
     "explanation": {
-      "en": "They have the same function (flying) but different anatomical structures.",
-      "hi": "उनका कार्य समान (उड़ना) है लेकिन शारीरिक संरचनाएं अलग हैं।"
+      "en": "Forelimbs of whales, bats, Cheetah, and humans share the same fundamental anatomical structure (bones like humerus, radius, ulna, etc.) but perform different functions. This indicates divergent evolution.",
+      "hi": "व्हेल, चमगादड़, चीता और मनुष्यों के अग्रपाद एक ही मूलभूत शारीरिक संरचना (ह्यूमरस, त्रिज्या, उल्ना आदि जैसी हड्डियाँ) साझा करते हैं, लेकिन विभिन्न कार्य करते हैं। यह अपसारी विकास को इंगित करता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a population of 1000 individuals, 360 belong to genotype AA, 480 to Aa, and the remaining 160 to aa. What is the frequency of allele A in the population?",
+      "hi": "1000 व्यक्तियों की आबादी में, 360 जीनोटाइप AA, 480 Aa, और शेष 160 aa के हैं। जनसंख्या में एलील A की आवृत्ति क्या है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "0.4", "hi": "0.4" } },
+      { "id": "o2", "text": { "en": "0.5", "hi": "0.5" } },
+      { "id": "o3", "text": { "en": "0.6", "hi": "0.6" } },
+      { "id": "o4", "text": { "en": "0.7", "hi": "0.7" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Frequency of AA (p^2) = 360/1000 = 0.36. Therefore, p (frequency of allele A) = sqrt(0.36) = 0.6. Alternatively, frequency of aa (q^2) = 160/1000 = 0.16. So, q = 0.4. Since p + q = 1, p = 1 - 0.4 = 0.6.",
+      "hi": "AA (p^2) की आवृत्ति = 360/1000 = 0.36. इसलिए, p (एलील A की आवृत्ति) = sqrt(0.36) = 0.6. वैकल्पिक रूप से, aa (q^2) की आवृत्ति = 160/1000 = 0.16. तो, q = 0.4. चूँकि p + q = 1, p = 1 - 0.4 = 0.6."
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The brain capacity of Homo habilis was approximately:",
+      "hi": "होमो हैबिलिस (Homo habilis) की मस्तिष्क क्षमता लगभग कितनी थी:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "900 cc", "hi": "900 cc" } },
+      { "id": "o2", "text": { "en": "650-800 cc", "hi": "650-800 cc" } },
+      { "id": "o3", "text": { "en": "1400 cc", "hi": "1400 cc" } },
+      { "id": "o4", "text": { "en": "500 cc", "hi": "500 cc" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Homo habilis, the first human-like hominid, had a brain capacity between 650-800 cc.",
+      "hi": "होमो हैबिलिस, पहला मानव जैसा होमिनिड, की मस्तिष्क क्षमता 650-800 cc के बीच थी।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is adaptive radiation? Give one example.",
+      "hi": "अनुकूली विकिरण (Adaptive radiation) क्या है? एक उदाहरण दीजिए।"
+    },
+    "answer": {
+      "en": "**Adaptive Radiation**: The process of evolution of different species in a given geographical area starting from a point and literally radiating to other habitats.\n**Example**: Darwin's finches of the Galapagos Islands. From an original seed-eating ancestor, various finch species evolved with different beak shapes to suit different diets (e.g., insectivorous, vegetarian).",
+      "hi": "**अनुकूली विकिरण**: किसी दिए गए भौगोलिक क्षेत्र में एक बिंदु से शुरू होकर अन्य आवासों में विकिरित होने वाली विभिन्न प्रजातियों के विकास की प्रक्रिया।\n**उदाहरण**: गैलापागोस द्वीप समूह की डार्विन की फिंच। एक मूल बीज खाने वाले पूर्वज से, विभिन्न आहारों (जैसे, कीटभक्षी, शाकाहारी) के अनुरूप अलग-अलग चोंच के आकार वाली विभिन्न फिंच प्रजातियां विकसित हुईं।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Differentiate between convergent and divergent evolution.",
+      "hi": "अभिसारी (convergent) और अपसारी (divergent) विकास के बीच अंतर स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**Divergent Evolution**: Evolutionary process where species with a common ancestor develop different traits (e.g., due to different habitats). It results in homologous organs (e.g., forelimbs of mammals).\n**Convergent Evolution**: Process where unrelated species develop similar traits due to adaptation to similar environments. It results in analogous organs (e.g., wings of birds and butterflies).",
+      "hi": "**अपसारी विकास**: विकासवादी प्रक्रिया जहां एक समान पूर्वज वाली प्रजातियां अलग-अलग लक्षण विकसित करती हैं (उदा., विभिन्न आवासों के कारण)। इसके परिणामस्वरूप समजात अंग बनते हैं (उदा., स्तनधारियों के अग्रपाद)।\n**अभिसारी विकास**: वह प्रक्रिया जहां असंबंधित प्रजातियां समान वातावरण के अनुकूलन के कारण समान लक्षण विकसित करती हैं। इसके परिणामस्वरूप समरूप अंग बनते हैं (उदा., पक्षियों और तितलियों के पंख)।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the Miller-Urey experiment. What did it prove?",
+      "hi": "मिलर-उरे प्रयोग का वर्णन करें। इसने क्या साबित किया?"
+    },
+    "answer": {
+      "en": "**Experiment**: In 1953, S.L. Miller and H.C. Urey created conditions in the laboratory similar to those thought to exist on primitive Earth. They used a closed flask containing CH4, H2, NH3, and water vapor at 800°C. They created electric discharges (simulating lightning) using electrodes.\n**Observation**: After a week, they observed the formation of simple organic compounds, specifically amino acids.\n**Conclusion**: This experiment provided experimental evidence for the Oparin-Haldane theory of **Chemical Evolution**, proving that the first non-cellular forms of life (complex organic molecules) could have originated from pre-existing non-living inorganic molecules.",
+      "hi": "**प्रयोग**: 1953 में, एस.एल. मिलर और एच.सी. उरे ने प्रयोगशाला में आदिम पृथ्वी पर मौजूद मानी जाने वाली स्थितियों के समान स्थितियां बनाईं। उन्होंने 800°C पर CH4, H2, NH3 और जल वाष्प वाले एक बंद फ्लास्क का उपयोग किया। उन्होंने इलेक्ट्रोड का उपयोग करके विद्युत निर्वहन (बिजली का अनुकरण) बनाया।\n**अवलोकन**: एक सप्ताह के बाद, उन्होंने सरल कार्बनिक यौगिकों, विशेष रूप से अमीनो एसिड के निर्माण को देखा।\n**निष्कर्ष**: इस प्रयोग ने **रासायनिक विकास** के ओपेरिन-हेल्डेन सिद्धांत के लिए प्रयोगात्मक प्रमाण प्रदान किया, यह साबित करते हुए कि जीवन के पहले गैर-कोशिकीय रूप (जटिल कार्बनिक अणु) पहले से मौजूद निर्जीव अकार्बनिक अणुओं से उत्पन्न हो सकते थे।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "State the Hardy-Weinberg principle. Explain the five factors that are known to affect Hardy-Weinberg equilibrium.",
+      "hi": "हार्डी-वेनबर्ग सिद्धांत बताएं। उन पांच कारकों की व्याख्या करें जो हार्डी-वेनबर्ग संतुलन को प्रभावित करने के लिए जाने जाते हैं।"
+    },
+    "answer": {
+      "en": "**Principle**: It states that allele frequencies in a population are stable and remain constant from generation to generation in the absence of evolutionary influences.\n**Factors affecting equilibrium**:\n1. **Gene migration or gene flow**: Transfer of genes from one population to another.\n2. **Genetic drift**: Random changes in allele frequencies by chance in small populations.\n3. **Mutation**: Sudden, heritable changes causing new alleles to arise.\n4. **Genetic recombination**: Crossing over during meiosis creating new gene combinations.\n5. **Natural selection**: Process where more adaptive traits are selected for, altering allele frequencies.",
+      "hi": "**सिद्धांत**: यह बताता है कि एक आबादी में एलील आवृत्तियां स्थिर होती हैं और विकासवादी प्रभावों की अनुपस्थिति में पीढ़ी दर पीढ़ी स्थिर रहती हैं।\n**संतुलन को प्रभावित करने वाले कारक**:\n1. **जीन प्रवासन (Gene migration)**: एक आबादी से दूसरी आबादी में जीन का स्थानांतरण।\n2. **आनुवंशिक बहाव (Genetic drift)**: छोटी आबादी में संयोग से एलील आवृत्तियों में यादृच्छिक परिवर्तन।\n3. **उत्परिवर्तन (Mutation)**: अचानक, वंशानुगत परिवर्तन जिससे नए एलील उत्पन्न होते हैं।\n4. **आनुवंशिक पुनर्संयोजन**: अर्धसूत्रीविभाजन के दौरान क्रॉसिंग ओवर जिससे नए जीन संयोजन बनते हैं।\n5. **प्राकृतिक चयन**: वह प्रक्रिया जहां अधिक अनुकूली लक्षणों का चयन किया जाता है, जिससे एलील आवृत्तियों में परिवर्तन होता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "Sweet potato (root modification) and potato (stem modification) store food. Are they homologous or analogous organs? Give reason.",
+      "hi": "शकरकंद (जड़ का संशोधन) और आलू (तने का संशोधन) भोजन जमा करते हैं। क्या वे समजात (homologous) हैं या समरूप (analogous) अंग हैं? कारण दें।"
+    },
+    "answer": {
+      "en": "They are **Analogous organs**. \n**Reason**: They have different structural origins (sweet potato is a modified root, while potato is a modified stem) but they perform a similar function (storage of food). This represents convergent evolution.",
+      "hi": "वे **समरूप अंग (Analogous organs)** हैं।\n**कारण**: उनकी संरचनात्मक उत्पत्ति अलग-अलग है (शकरकंद एक संशोधित जड़ है, जबकि आलू एक संशोधित तना है) लेकिन वे एक समान कार्य (भोजन का भंडारण) करते हैं। यह अभिसारी विकास का प्रतिनिधित्व करता है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "Hugo deVries believed that evolution is caused by:",
+      "hi": "ह्यूगो डी व्रीज का मानना था कि विकास किसके कारण होता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Minor heritable variations", "hi": "मामूली वंशानुगत विविधताएं" } },
+      { "id": "o2", "text": { "en": "Use and disuse of organs", "hi": "अंगों का उपयोग और अनुपयोग" } },
+      { "id": "o3", "text": { "en": "Mutations (Saltation)", "hi": "उत्परिवर्तन (साल्टेशन)" } },
+      { "id": "o4", "text": { "en": "Natural selection only", "hi": "केवल प्राकृतिक चयन" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Hugo deVries proposed the Mutation Theory. He called it 'saltation' (single step large mutation), believing mutations are random, directionless, and the true cause of speciation.",
+      "hi": "ह्यूगो डी व्रीज ने उत्परिवर्तन सिद्धांत (Mutation Theory) प्रस्तावित किया। उन्होंने इसे 'साल्टेशन' (single step large mutation) कहा, यह मानते हुए कि उत्परिवर्तन यादृच्छिक, दिशाहीन और प्रजाति निर्माण का वास्तविक कारण हैं।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Who were the immediate ancestors of modern man (Homo sapiens)?",
+      "hi": "आधुनिक मानव (Homo sapiens) के तत्काल पूर्वज कौन थे?"
+    },
+    "answer": {
+      "en": "The immediate ancestors of modern man are considered to be the **Neanderthal man** (who lived between 100,000 to 40,000 years ago) and potentially archaic *Homo sapiens* / Cro-Magnon man.",
+      "hi": "आधुनिक मानव के तत्काल पूर्वज **निएंडरथल मानव** (जो 100,000 से 40,000 साल पहले रहते थे) और संभावित रूप से पुरातन (archaic) *होमो सेपियन्स* / क्रो-मैग्नन मानव माने जाते हैं।"
     }
   }
 ]

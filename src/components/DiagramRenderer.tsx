@@ -55,12 +55,12 @@ function DiagramViewer({ diagram, language }: { diagram: Diagram, language: Lang
           style={{ transform: `scale(${scale})` }}
         >
           {/* SVG Content */}
-          <div dangerouslySetInnerHTML={{ __html: diagram.svgContent }} className="text-slate-900 dark:text-slate-100 diagram-svg-container" />
+          <div dangerouslySetInnerHTML={{ __html: diagram.svgContent || (diagram as any).svgCode || '' }} className="text-slate-900 dark:text-slate-100 diagram-svg-container" />
           
           {/* Overlay Labels */}
-          {showLabels && diagram.labels?.map((label) => (
+          {showLabels && diagram.labels?.map((label, index) => (
             <div 
-              key={label.id}
+              key={label.id || `label-${index}`}
               className="absolute bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border border-slate-200 dark:border-slate-700 px-2 py-1 rounded shadow-sm text-xs font-bold whitespace-nowrap pointer-events-none text-slate-800 dark:text-slate-200"
               style={{ left: `${label.x}%`, top: `${label.y}%`, transform: 'translate(-50%, -50%)' }}
             >

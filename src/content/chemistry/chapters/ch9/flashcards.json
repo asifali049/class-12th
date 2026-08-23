@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Amines", "hi": "एमीन (Amines)" },
+    "definition": { "en": "Organic derivatives of ammonia ($NH_3$) obtained by replacement of one, two, or all three hydrogen atoms by alkyl or aryl groups.", "hi": "अमोनिया ($NH_3$) के कार्बनिक व्युत्पन्न जो एल्काइल या एरील समूहों द्वारा एक, दो, या तीनों हाइड्रोजन परमाणुओं के प्रतिस्थापन द्वारा प्राप्त होते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Primary (1°) Amine", "hi": "प्राथमिक (1°) एमीन" },
+    "definition": { "en": "An amine where one hydrogen atom of ammonia is replaced by an alkyl/aryl group (e.g., $R-NH_2$).", "hi": "एक एमीन जहाँ अमोनिया के एक हाइड्रोजन परमाणु को एल्काइल/एरील समूह (उदा., $R-NH_2$) द्वारा प्रतिस्थापित किया जाता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Secondary (2°) Amine", "hi": "द्वितीयक (2°) एमीन" },
+    "definition": { "en": "An amine where two hydrogen atoms of ammonia are replaced (e.g., $R_2NH$).", "hi": "एक एमीन जहाँ अमोनिया के दो हाइड्रोजन परमाणुओं को प्रतिस्थापित किया जाता है (उदा., $R_2NH$)।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Tertiary (3°) Amine", "hi": "तृतीयक (3°) एमीन" },
+    "definition": { "en": "An amine where all three hydrogen atoms of ammonia are replaced (e.g., $R_3N$).", "hi": "एक एमीन जहाँ अमोनिया के तीनों हाइड्रोजन परमाणुओं को प्रतिस्थापित किया जाता है (उदा., $R_3N$)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Hoffmann Bromamide Degradation", "hi": "हॉफमैन ब्रोमामाइड निम्नीकरण" },
+    "definition": { "en": "Reaction of an amide with bromine and alkali to yield a primary amine with one carbon less than the parent amide.", "hi": "मूल एमाइड से एक कार्बन कम वाले प्राथमिक एमीन का उत्पादन करने के लिए ब्रोमीन और क्षार के साथ एमाइड की अभिक्रिया।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Carbylamine Reaction", "hi": "कार्बिलएमीन अभिक्रिया" },
+    "definition": { "en": "A test for primary amines. Heating a $1^\\circ$ amine with chloroform and alc. $KOH$ produces a foul-smelling isocyanide.", "hi": "प्राथमिक एमीन्स के लिए एक परीक्षण। क्लोरोफॉर्म और एल्कोहलिक $KOH$ के साथ $1^\\circ$ एमीन को गर्म करने पर एक दुर्गंधयुक्त आइसोसाइनाइड उत्पन्न होता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Hinsberg Reagent", "hi": "हिंसबर्ग अभिकर्मक" },
+    "definition": { "en": "Benzenesulphonyl chloride ($C_6H_5SO_2Cl$). Used to distinguish between $1^\\circ, 2^\\circ,$ and $3^\\circ$ amines.", "hi": "बेंजीनसल्फोनील क्लोराइड ($C_6H_5SO_2Cl$)। $1^\\circ, 2^\\circ,$ और $3^\\circ$ एमीन्स के बीच अंतर करने के लिए उपयोग किया जाता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Diazotization", "hi": "डायज़ोटाइज़ेशन (Diazotization)" },
+    "definition": { "en": "Conversion of a primary aromatic amine (like aniline) into a diazonium salt using cold ($0-5^\\circ C$) nitrous acid ($NaNO_2 + HCl$).", "hi": "ठंडे ($0-5^\\circ C$) नाइट्रस एसिड ($NaNO_2 + HCl$) का उपयोग करके प्राथमिक एरोमैटिक एमीन (जैसे एनिलीन) का डायज़ोनियम लवण में रूपांतरण।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Sandmeyer Reaction", "hi": "सैंडमेयर अभिक्रिया" },
+    "definition": { "en": "Synthesis of aryl halides by treating an aryl diazonium salt with cuprous halides ($CuCl/HCl, CuBr/HBr$).", "hi": "एरील डायज़ोनियम लवण को क्यूप्रस हैलाइड ($CuCl/HCl, CuBr/HBr$) के साथ उपचारित करके एरील हैलाइड का संश्लेषण।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Basic Character of Amines", "hi": "एमीन्स का क्षारीय गुण" },
+    "definition": { "en": "Amines act as Lewis bases due to the lone pair of electrons on the nitrogen atom. Aliphatic amines are more basic than ammonia.", "hi": "एमीन्स नाइट्रोजन परमाणु पर इलेक्ट्रॉनों की एकान्त जोड़ी के कारण लुईस क्षार के रूप में कार्य करते हैं। एलीफैटिक एमीन्स अमोनिया की तुलना में अधिक क्षारीय होते हैं।" }
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch4",
+  "title": {
+    "en": "Chemistry Chapter 4 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 4 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following transition elements does not exhibit variable oxidation states?",
+        "hi": "निम्नलिखित में से कौन सा संक्रमण तत्व (transition element) परिवर्तनीय ऑक्सीकरण अवस्थाएँ (variable oxidation states) प्रदर्शित नहीं करता है?"
+      },
+      "options": [
+        {
+          "en": "Scandium (Sc)",
+          "hi": "स्कैंडियम (Sc)"
+        },
+        {
+          "en": "Titanium (Ti)",
+          "hi": "टाइटेनियम (Ti)"
+        },
+        {
+          "en": "Iron (Fe)",
+          "hi": "लोहा (Fe)"
+        },
+        {
+          "en": "Copper (Cu)",
+          "hi": "तांबा (Cu)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Scandium (Sc, Z=21) has the electronic configuration $[Ar] 3d^1 4s^2$. It loses all three valence electrons to form a stable $Sc^{3+}$ ion with a noble gas core. Hence, it only shows a +3 oxidation state.",
+        "hi": "स्कैंडियम (Sc, Z=21) का इलेक्ट्रॉनिक विन्यास $[Ar] 3d^1 4s^2$ है। यह एक स्थिर $Sc^{3+}$ आयन (उत्कृष्ट गैस कोर के साथ) बनाने के लिए सभी तीन संयोजकता इलेक्ट्रॉनों को खो देता है। इसलिए, यह केवल +3 ऑक्सीकरण अवस्था दिखाता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The catalytic property of transition metals is primarily due to:",
+        "hi": "संक्रमण धातुओं का उत्प्रेरक गुण (catalytic property) मुख्य रूप से किसके कारण होता है?"
+      },
+      "options": [
+        {
+          "en": "Their high density",
+          "hi": "उनके उच्च घनत्व के कारण"
+        },
+        {
+          "en": "Their ability to adopt multiple oxidation states",
+          "hi": "एकाधिक ऑक्सीकरण अवस्थाएँ अपनाने की उनकी क्षमता के कारण"
+        },
+        {
+          "en": "Their unpaired electrons",
+          "hi": "उनके अयुग्मित इलेक्ट्रॉनों के कारण"
+        },
+        {
+          "en": "Their small atomic size",
+          "hi": "उनके छोटे परमाणु आकार के कारण"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Transition metals act as good catalysts because of their ability to show variable oxidation states (forming unstable intermediate compounds) and providing a large surface area for the reactants to absorb.",
+        "hi": "संक्रमण धातुएं अच्छे उत्प्रेरक के रूप में कार्य करती हैं क्योंकि उनमें परिवर्तनीय ऑक्सीकरण अवस्थाएँ (अस्थिर मध्यवर्ती यौगिक बनाने) दिखाने और अभिकारकों को अवशोषित करने के लिए एक बड़ा सतह क्षेत्र प्रदान करने की क्षमता होती है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Zinc, Cadmium, and Mercury are not considered true transition metals because:",
+        "hi": "जिंक, कैडमियम और पारा (Mercury) को सच्चे संक्रमण धातु नहीं माना जाता है क्योंकि:"
+      },
+      "options": [
+        {
+          "en": "They have completely filled d-orbitals in their ground state and common oxidation states",
+          "hi": "उनकी मूल अवस्था और सामान्य ऑक्सीकरण अवस्थाओं में d-कक्षक पूरी तरह से भरे होते हैं"
+        },
+        {
+          "en": "They are highly reactive",
+          "hi": "वे अत्यधिक प्रतिक्रियाशील हैं"
+        },
+        {
+          "en": "They have low melting points",
+          "hi": "उनके गलनांक कम होते हैं"
+        },
+        {
+          "en": "They do not form complex compounds",
+          "hi": "वे संकुल (complex) यौगिक नहीं बनाते हैं"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "A transition element is defined as one which has incompletely filled d-orbitals in its ground state or in any of its oxidation states. Zn ($3d^{10} 4s^2$), Cd, and Hg have completely filled d-orbitals.",
+        "hi": "एक संक्रमण तत्व को उस रूप में परिभाषित किया जाता है जिसके मूल अवस्था में या उसके किसी भी ऑक्सीकरण अवस्था में d-कक्षक अपूर्ण रूप से भरे होते हैं। Zn ($3d^{10} 4s^2$), Cd, और Hg में पूरी तरह से भरे हुए d-कक्षक होते हैं।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Lanthanoid contraction is due to:",
+        "hi": "लैंथेनॉइड आकुंचन (Lanthanoid contraction) किसके कारण होता है?"
+      },
+      "options": [
+        {
+          "en": "Poor shielding effect of 4f electrons",
+          "hi": "4f इलेक्ट्रॉनों का खराब परिरक्षण (shielding) प्रभाव"
+        },
+        {
+          "en": "Effective shielding of 5d electrons",
+          "hi": "5d इलेक्ट्रॉनों का प्रभावी परिरक्षण"
+        },
+        {
+          "en": "Decrease in effective nuclear charge",
+          "hi": "प्रभावी परमाणु आवेश (nuclear charge) में कमी"
+        },
+        {
+          "en": "Increase in atomic radius",
+          "hi": "परमाणु त्रिज्या में वृद्धि"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "The filling of 4f orbitals before 5d orbitals results in a gradual decrease in atomic/ionic radii. This is because the shielding effect of 4f electrons is very poor, causing the outer electrons to be pulled closer to the nucleus.",
+        "hi": "5d कक्षकों से पहले 4f कक्षकों के भरने से परमाणु/आयनिक त्रिज्याओं में क्रमिक कमी आती है। ऐसा इसलिए है क्योंकि 4f इलेक्ट्रॉनों का परिरक्षण प्रभाव बहुत खराब है, जिससे बाहरी इलेक्ट्रॉन नाभिक के करीब आ जाते हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The magnetic moment of a transition metal ion can be calculated using the formula (where n is the number of unpaired electrons):",
+        "hi": "किसी संक्रमण धातु आयन के चुंबकीय आघूर्ण (magnetic moment) की गणना किस सूत्र का उपयोग करके की जा सकती है (जहाँ n अयुग्मित इलेक्ट्रॉनों की संख्या है):"
+      },
+      "options": [
+        {
+          "en": "$\\mu = \\sqrt{n(n+1)} \\text{ BM}$",
+          "hi": "$\\mu = \\sqrt{n(n+1)} \\text{ BM}$"
+        },
+        {
+          "en": "$\\mu = \\sqrt{n(n+2)} \\text{ BM}$",
+          "hi": "$\\mu = \\sqrt{n(n+2)} \\text{ BM}$"
+        },
+        {
+          "en": "$\\mu = n(n+2) \\text{ BM}$",
+          "hi": "$\\mu = n(n+2) \\text{ BM}$"
+        },
+        {
+          "en": "$\\mu = \\sqrt{2n(n+1)} \\text{ BM}$",
+          "hi": "$\\mu = \\sqrt{2n(n+1)} \\text{ BM}$"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "The spin-only magnetic moment is given by $\\mu = \\sqrt{n(n+2)}$, expressed in Bohr Magnetons (BM), where $n$ is the number of unpaired electrons.",
+        "hi": "स्पिन-ओनली चुंबकीय आघूर्ण $\\mu = \\sqrt{n(n+2)}$ द्वारा दिया जाता है, जिसे बोर मैग्नेटन (BM) में व्यक्त किया जाता है, जहाँ $n$ अयुग्मित इलेक्ट्रॉनों की संख्या है।"
+      }
+    }
+  ]
+}

@@ -1,8 +1,75 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Biotech Applications",
-    "hi": "बायोटेक अनुप्रयोग"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Biotechnology and its Applications", "hi": "जैव प्रौद्योगिकी और उसके उपयोग" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Applications in Agriculture", "hi": "कृषि में अनुप्रयोग" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Genetically Modified Crops (GMOs)", "hi": "आनुवंशिक रूप से संशोधित फसलें (GMOs)" } },
+        {
+          "id": "n1_2",
+          "label": { "en": "Pest Resistant Plants (Bt Cotton)", "hi": "कीट प्रतिरोधी पौधे (Bt कपास)" },
+          "children": [
+            { "id": "n1_2_1", "label": { "en": "Bacillus thuringiensis", "hi": "बैसिलस थुरिंजिएंसिस" } },
+            { "id": "n1_2_2", "label": { "en": "cry Genes (cryIAc, cryIIAb)", "hi": "cry जीन (cryIAc, cryIIAb)" } }
+          ]
+        },
+        {
+          "id": "n1_3",
+          "label": { "en": "RNA Interference (RNAi)", "hi": "RNA इंटरफेरेंस (RNAi)" },
+          "children": [
+            { "id": "n1_3_1", "label": { "en": "Nematode Resistance (Tobacco)", "hi": "नेमाटोड प्रतिरोध (तंबाकू)" } },
+            { "id": "n1_3_2", "label": { "en": "Silencing specific mRNA via dsRNA", "hi": "dsRNA के माध्यम से विशिष्ट mRNA को शांत करना" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Applications in Medicine", "hi": "चिकित्सा में अनुप्रयोग" },
+      "children": [
+        {
+          "id": "n2_1",
+          "label": { "en": "Genetically Engineered Insulin", "hi": "आनुवंशिक रूप से इंजीनियर इंसुलिन" },
+          "children": [
+            { "id": "n2_1_1", "label": { "en": "Eli Lilly (1983)", "hi": "एली लिली (1983)" } },
+            { "id": "n2_1_2", "label": { "en": "Removal of C-Peptide", "hi": "C-पेप्टाइड को हटाना" } }
+          ]
+        },
+        {
+          "id": "n2_2",
+          "label": { "en": "Gene Therapy", "hi": "जीन थेरेपी" },
+          "children": [
+            { "id": "n2_2_1", "label": { "en": "Correction of gene defect", "hi": "जीन दोष का सुधार" } },
+            { "id": "n2_2_2", "label": { "en": "ADA deficiency (1990)", "hi": "ADA की कमी (1990)" } }
+          ]
+        },
+        {
+          "id": "n2_3",
+          "label": { "en": "Molecular Diagnosis", "hi": "आणविक निदान" },
+          "children": [
+            { "id": "n2_3_1", "label": { "en": "Early detection (PCR, ELISA)", "hi": "शीघ्र पता लगाना (PCR, ELISA)" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Transgenic Animals", "hi": "ट्रांसजेनिक जानवर" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Normal physiology & disease models", "hi": "सामान्य शरीर विज्ञान और रोग मॉडल" } },
+        { "id": "n3_2", "label": { "en": "Biological products (Rosie cow)", "hi": "जैविक उत्पाद (रोजी गाय)" } },
+        { "id": "n3_3", "label": { "en": "Vaccine safety testing (Mice)", "hi": "वैक्सीन सुरक्षा परीक्षण (चूहे)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Ethical Issues", "hi": "नैतिक मुद्दे" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "GEAC (Regulatory body in India)", "hi": "GEAC (भारत में नियामक निकाय)" } },
+        { "id": "n4_2", "label": { "en": "Biopiracy (Basmati rice issue)", "hi": "बायोपायरेसी (बासमती चावल का मुद्दा)" } }
+      ]
+    }
+  ]
 }

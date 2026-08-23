@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Species-Area Relationship (Humboldt's Equation)",
+      "hi": "प्रजाति-क्षेत्र संबंध (हम्बोल्ट का समीकरण)"
+    },
+    "formula": "\\log S = \\log C + Z \\log A",
+    "variables": [
+      {
+        "name": "S",
+        "description": { "en": "Species richness", "hi": "प्रजातियों की समृद्धि" }
+      },
+      {
+        "name": "A",
+        "description": { "en": "Area", "hi": "क्षेत्र" }
+      },
+      {
+        "name": "Z",
+        "description": { "en": "Slope of the line (regression coefficient)", "hi": "रेखा का ढलान (प्रतिगमन गुणांक)" }
+      },
+      {
+        "name": "C",
+        "description": { "en": "Y-intercept", "hi": "Y-अवरोधन (Y-intercept)" }
+      }
+    ],
+    "applications": {
+      "en": "Ecologists have discovered that the value of Z lies in the range of 0.1 to 0.2 regardless of the taxonomic group or region. For very large areas like entire continents, Z values range from 0.6 to 1.2.",
+      "hi": "पारिस्थितिकीविदों ने पाया है कि Z का मान टैक्सोनोमिक समूह या क्षेत्र की परवाह किए बिना 0.1 से 0.2 की सीमा में है। पूरे महाद्वीपों जैसे बहुत बड़े क्षेत्रों के लिए, Z मान 0.6 से 1.2 तक होता है।"
+    }
+  }
+]

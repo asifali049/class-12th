@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Alcohols", "hi": "अल्कोहल" },
+    "definition": { "en": "Organic compounds containing one or more hydroxyl (-OH) groups attached to aliphatic carbon atoms. General formula $R-OH$.", "hi": "कार्बनिक यौगिक जिनमें एलीफैटिक कार्बन परमाणुओं से जुड़े एक या अधिक हाइड्रॉक्सिल (-OH) समूह होते हैं। सामान्य सूत्र $R-OH$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Phenols", "hi": "फिनोल" },
+    "definition": { "en": "Organic compounds containing a hydroxyl (-OH) group directly attached to an aromatic ring ($sp^2$ carbon). Example: $C_6H_5OH$.", "hi": "कार्बनिक यौगिक जिनमें एक हाइड्रॉक्सिल (-OH) समूह सीधे एक सुगंधित (aromatic) वलय ($sp^2$ कार्बन) से जुड़ा होता है। उदाहरण: $C_6H_5OH$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Ethers", "hi": "ईथर" },
+    "definition": { "en": "Organic compounds where an oxygen atom is bonded to two alkyl or aryl groups. General formula $R-O-R'$.", "hi": "कार्बनिक यौगिक जहाँ एक ऑक्सीजन परमाणु दो एल्काइल या एरील समूहों से जुड़ा होता है। सामान्य सूत्र $R-O-R'$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Hydrogen Bonding", "hi": "हाइड्रोजन बॉन्डिंग" },
+    "definition": { "en": "Alcohols and phenols can form intermolecular hydrogen bonds, resulting in higher boiling points compared to corresponding hydrocarbons or ethers.", "hi": "अल्कोहल और फिनोल अंतर-आणविक (intermolecular) हाइड्रोजन बांड बना सकते हैं, जिसके परिणामस्वरूप संबंधित हाइड्रोकार्बन या ईथर की तुलना में उच्च क्वथनांक होते हैं।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Acidity of Phenols", "hi": "फिनोल की अम्लता" },
+    "definition": { "en": "Phenols are more acidic than alcohols because the phenoxide ion formed after losing a proton is stabilized by resonance.", "hi": "फिनोल अल्कोहल की तुलना में अधिक अम्लीय होते हैं क्योंकि प्रोटॉन खोने के बाद बनने वाला फिनॉक्साइड आयन अनुनाद द्वारा स्थिर हो जाता है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Lucas Test", "hi": "ल्यूकास परीक्षण" },
+    "definition": { "en": "Used to distinguish primary, secondary, and tertiary alcohols using Lucas reagent (conc. $HCl + ZnCl_2$). Tertiary reacts immediately (turbidity), secondary in 5 mins, primary doesn't at room temp.", "hi": "ल्यूकास अभिकर्मक (सांद्र $HCl + ZnCl_2$) का उपयोग करके प्राथमिक, द्वितीयक और तृतीयक अल्कोहल के बीच अंतर करने के लिए उपयोग किया जाता है। तृतीयक तुरंत (आवेलापन) प्रतिक्रिया करता है, 5 मिनट में द्वितीयक, कमरे के तापमान पर प्राथमिक नहीं करता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Kolbe's Reaction", "hi": "कोल्बे (Kolbe) की अभिक्रिया" },
+    "definition": { "en": "Phenol reacts with $NaOH$ to form sodium phenoxide, which undergoes electrophilic substitution with $CO_2$ to form Salicylic acid.", "hi": "फिनोल $NaOH$ के साथ अभिक्रिया करके सोडियम फिनॉक्साइड बनाता है, जो सैलिसिलिक एसिड बनाने के लिए $CO_2$ के साथ इलेक्ट्रोफिलिक प्रतिस्थापन से गुजरता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Reimer-Tiemann Reaction", "hi": "राइमर-टीमन अभिक्रिया" },
+    "definition": { "en": "Treatment of phenol with chloroform ($CHCl_3$) and aqueous $NaOH$ introduces an aldehyde (-CHO) group at ortho position, yielding salicylaldehyde.", "hi": "क्लोरोफॉर्म ($CHCl_3$) और जलीय $NaOH$ के साथ फिनोल का उपचार ऑर्थो स्थिति में एक एल्डिहाइड (-CHO) समूह का परिचय देता है, जिससे सैलिसिल्डिहाइड प्राप्त होता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Williamson Synthesis", "hi": "विलियमसन संश्लेषण" },
+    "definition": { "en": "A method to prepare symmetrical and unsymmetrical ethers. An alkyl halide reacts with sodium alkoxide via $S_N2$ mechanism.", "hi": "सममित और असममित ईथर तैयार करने की एक विधि। एक एल्काइल हैलाइड $S_N2$ तंत्र के माध्यम से सोडियम एल्कॉक्साइड के साथ अभिक्रिया करता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Esterification", "hi": "एस्टरीकरण" },
+    "definition": { "en": "Reaction of alcohols or phenols with carboxylic acids, acid chlorides, or acid anhydrides to form esters.", "hi": "एस्टर बनाने के लिए कार्बोक्जिलिक एसिड, एसिड क्लोराइड या एसिड एनहाइड्राइड के साथ अल्कोहल या फिनोल की अभिक्रिया।" }
+  }
+]

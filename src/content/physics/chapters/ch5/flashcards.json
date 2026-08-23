@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Magnetic Dipole Moment (m)", "hi": "चुंबकीय द्विध्रुव आघूर्ण (m)" },
+    "definition": { "en": "For a bar magnet, $m = q_m \\times 2l$ (pole strength $\\times$ distance). For a current loop, $m = NIA$. Directed from South to North pole.", "hi": "एक छड़ चुंबक के लिए, $m = q_m \\times 2l$ (ध्रुव सामर्थ्य $\\times$ दूरी)। धारा लूप के लिए, $m = NIA$। दक्षिण से उत्तरी ध्रुव की ओर निर्देशित।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Bohr Magneton ($\\mu_B$)", "hi": "बोर मैग्नेटॉन ($\\mu_B$)" },
+    "definition": { "en": "The minimum magnetic dipole moment associated with an electron due to its orbital motion. $\\mu_B = \\frac{eh}{4\\pi m_e} = 9.27 \\times 10^{-24} A m^2$.", "hi": "कक्षीय गति के कारण इलेक्ट्रॉन से जुड़ा न्यूनतम चुंबकीय द्विध्रुव आघूर्ण। $\\mu_B = \\frac{eh}{4\\pi m_e} = 9.27 \\times 10^{-24} A m^2$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Magnetic Field Lines", "hi": "चुंबकीय क्षेत्र रेखाएं" },
+    "definition": { "en": "Continuous closed loops. Outside magnet: N to S. Inside magnet: S to N. They never intersect.", "hi": "सतत बंद लूप। चुंबक के बाहर: N से S। चुंबक के अंदर: S से N। वे कभी एक दूसरे को नहीं काटते।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Gauss's Law in Magnetism", "hi": "चुंबकत्व में गॉस का नियम" },
+    "definition": { "en": "Net magnetic flux through any closed surface is zero. $\\oint \\vec{B} \\cdot d\\vec{S} = 0$. Implies magnetic monopoles do not exist.", "hi": "किसी भी बंद पृष्ठ से गुजरने वाला कुल चुंबकीय फ्लक्स शून्य होता है। $\\oint \\vec{B} \\cdot d\\vec{S} = 0$। इसका अर्थ है कि चुंबकीय एकल ध्रुव (monopoles) मौजूद नहीं हैं।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Magnetization (M)", "hi": "चुंबकन (M)" },
+    "definition": { "en": "Net magnetic dipole moment developed per unit volume of a material. $M = m_{net} / V$.", "hi": "किसी पदार्थ की प्रति इकाई आयतन में विकसित कुल चुंबकीय द्विध्रुव आघूर्ण। $M = m_{net} / V$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Magnetic Intensity (H)", "hi": "चुंबकीय तीव्रता (H)" },
+    "definition": { "en": "Degree to which an external magnetic field can magnetize a material. $H = B/\\mu_0 - M$.", "hi": "वह सीमा जिस तक बाहरी चुंबकीय क्षेत्र किसी पदार्थ को चुंबकित कर सकता है। $H = B/\\mu_0 - M$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Magnetic Susceptibility ($\\chi$)", "hi": "चुंबकीय प्रवृत्ति ($\\chi$)" },
+    "definition": { "en": "Ratio of magnetization to magnetic intensity. $\\chi = M / H$. Shows how easily a substance is magnetized.", "hi": "चुंबकन और चुंबकीय तीव्रता का अनुपात। $\\chi = M / H$। यह दर्शाता है कि किसी पदार्थ को कितनी आसानी से चुंबकित किया जा सकता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Diamagnetic Materials", "hi": "प्रतिचुंबकीय पदार्थ" },
+    "definition": { "en": "Develop weak magnetization opposite to external field. $\\chi$ is small and negative. (e.g., Bi, Cu, Water). Repelled by magnets.", "hi": "बाहरी क्षेत्र के विपरीत कमजोर चुंबकन विकसित करते हैं। $\\chi$ छोटा और ऋणात्मक है। (उदा., Bi, Cu, पानी)। चुंबक द्वारा प्रतिकर्षित होते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Paramagnetic Materials", "hi": "अनुचुंबकीय पदार्थ" },
+    "definition": { "en": "Develop weak magnetization in the direction of external field. $\\chi$ is small and positive. (e.g., Al, Na). Feebly attracted by magnets.", "hi": "बाहरी क्षेत्र की दिशा में कमजोर चुंबकन विकसित करते हैं। $\\chi$ छोटा और धनात्मक है। (उदा., Al, Na)। चुंबक द्वारा क्षीण रूप से आकर्षित होते हैं।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Ferromagnetic Materials", "hi": "लौहचुंबकीय पदार्थ" },
+    "definition": { "en": "Develop strong magnetization in the direction of external field. $\\chi$ is large and positive. (e.g., Fe, Co, Ni). Strongly attracted by magnets.", "hi": "बाहरी क्षेत्र की दिशा में प्रबल चुंबकन विकसित करते हैं। $\\chi$ बड़ा और धनात्मक है। (उदा., Fe, Co, Ni)। चुंबक द्वारा दृढ़ता से आकर्षित होते हैं।" }
+  }
+]

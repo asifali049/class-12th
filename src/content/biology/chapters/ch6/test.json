@@ -1,0 +1,148 @@
+{
+  "id": "t6",
+  "title": { "en": "Chapter 6 Mock Test: Evolution", "hi": "अध्याय 6 मॉक टेस्ट: विकास" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Evolution of life shows that life forms had a trend of moving from:", "hi": "जीवन का विकास दर्शाता है कि जीवन रूपों की प्रवृत्ति कहाँ से कहाँ बढ़ने की थी:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Land to water", "hi": "जमीन से पानी" } },
+        { "id": "o2", "text": { "en": "Dryland to wetland", "hi": "सूखी भूमि से आर्द्रभूमि" } },
+        { "id": "o3", "text": { "en": "Fresh water to sea water", "hi": "ताजे पानी से समुद्री जल" } },
+        { "id": "o4", "text": { "en": "Water to land", "hi": "पानी से जमीन" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Evolutionary history indicates that life originated in water (oceans) and later, forms like amphibians and plants invaded the land.", "hi": "विकासवादी इतिहास बताता है कि जीवन पानी (महासागरों) में उत्पन्न हुआ और बाद में, उभयचर और पौधों जैसे रूपों ने जमीन पर आक्रमण किया।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following is used as an atmospheric pollution indicator?", "hi": "निम्नलिखित में से किसका उपयोग वायुमंडलीय प्रदूषण संकेतक के रूप में किया जाता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Lepidoptera", "hi": "लेपिडोप्टेरा" } },
+        { "id": "o2", "text": { "en": "Lichens", "hi": "लाइकेन" } },
+        { "id": "o3", "text": { "en": "Lycopodium", "hi": "लाइकोपोडियम" } },
+        { "id": "o4", "text": { "en": "Lycopersion", "hi": "लाइकोपर्सियन" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Lichens are sensitive to sulfur dioxide and do not grow in polluted areas. This was seen during industrial melanism.", "hi": "लाइकेन सल्फर डाइऑक्साइड के प्रति संवेदनशील होते हैं और प्रदूषित क्षेत्रों में नहीं बढ़ते हैं। यह औद्योगिक मेलानिज़्म के दौरान देखा गया था।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "The theory of spontaneous generation stated that:", "hi": "स्वतः जनन (spontaneous generation) के सिद्धांत ने कहा कि:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Life originated from outer space", "hi": "जीवन की उत्पत्ति बाह्य अंतरिक्ष से हुई" } },
+        { "id": "o2", "text": { "en": "Life originated from non-living things in a spontaneous manner", "hi": "जीवन की उत्पत्ति निर्जीव वस्तुओं से स्वतःस्फूर्त रूप से हुई" } },
+        { "id": "o3", "text": { "en": "Life originated from pre-existing life only", "hi": "जीवन की उत्पत्ति केवल पहले से मौजूद जीवन से हुई" } },
+        { "id": "o4", "text": { "en": "Life was created by a divine power", "hi": "जीवन एक ईश्वरीय शक्ति द्वारा बनाया गया था" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The theory of spontaneous generation (abiogenesis) believed that life could arise from decaying and rotting matter like mud, straw, etc.", "hi": "स्वतः जनन के सिद्धांत (abiogenesis) का मानना ​​था कि जीवन कीचड़, पुआल आदि जैसे सड़ने वाले पदार्थों से उत्पन्न हो सकता है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Analogous organs arise due to:", "hi": "समरूप अंग (Analogous organs) किसके कारण उत्पन्न होते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Divergent evolution", "hi": "अपसारी विकास" } },
+        { "id": "o2", "text": { "en": "Artificial selection", "hi": "कृत्रिम चयन" } },
+        { "id": "o3", "text": { "en": "Genetic drift", "hi": "आनुवंशिक बहाव" } },
+        { "id": "o4", "text": { "en": "Convergent evolution", "hi": "अभिसारी विकास" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Analogous organs have different origins but similar functions, evolving due to adaptation to similar habitats (convergent evolution).", "hi": "समरूप अंगों की उत्पत्ति अलग-अलग होती है, लेकिन कार्य समान होते हैं, जो समान आवासों के अनुकूलन (अभिसारी विकास) के कारण विकसित होते हैं।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "According to Hugo deVries, the mechanism of evolution is:", "hi": "ह्यूगो डी व्रीज के अनुसार, विकास का तंत्र क्या है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Multiple step mutations", "hi": "बहु-चरणीय उत्परिवर्तन" } },
+        { "id": "o2", "text": { "en": "Saltation", "hi": "साल्टेशन (Saltation)" } },
+        { "id": "o3", "text": { "en": "Minor variations", "hi": "मामूली विविधताएं" } },
+        { "id": "o4", "text": { "en": "Phenotypic variations", "hi": "फेनोटाइपिक विविधताएं" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "He termed it saltation, which means a single-step large mutation.", "hi": "उन्होंने इसे साल्टेशन कहा, जिसका अर्थ है एकल-चरण बड़ा उत्परिवर्तन।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following is not a concept of Darwinian theory of evolution?", "hi": "निम्नलिखित में से कौन डार्विन के विकासवाद के सिद्धांत की अवधारणा नहीं है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Branching descent", "hi": "ब्रांचिंग डिसेंट" } },
+        { "id": "o2", "text": { "en": "Natural selection", "hi": "प्राकृतिक चयन" } },
+        { "id": "o3", "text": { "en": "Survival of the fittest", "hi": "योग्यतम की उत्तरजीविता" } },
+        { "id": "o4", "text": { "en": "Mutation is the only cause of evolution", "hi": "उत्परिवर्तन ही विकास का एकमात्र कारण है" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Darwin emphasized small, directional, heritable variations, not large spontaneous mutations (which was deVries' concept).", "hi": "डार्विन ने छोटी, दिशात्मक, वंशानुगत विविधताओं पर जोर दिया, न कि बड़े सहज उत्परिवर्तन (जो डी व्रीज की अवधारणा थी) पर।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In Hardy-Weinberg equation, the frequency of heterozygous individual is represented by:", "hi": "हार्डी-वेनबर्ग समीकरण में, विषमयुग्मजी व्यक्ति की आवृत्ति किसके द्वारा दर्शायी जाती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "p²", "hi": "p²" } },
+        { "id": "o2", "text": { "en": "2pq", "hi": "2pq" } },
+        { "id": "o3", "text": { "en": "pq", "hi": "pq" } },
+        { "id": "o4", "text": { "en": "q²", "hi": "q²" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "In the equation p² + 2pq + q² = 1, 2pq represents the frequency of the heterozygous condition (Aa).", "hi": "समीकरण p² + 2pq + q² = 1 में, 2pq विषमयुग्मजी स्थिति (Aa) की आवृत्ति का प्रतिनिधित्व करता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The brain capacity of Neanderthal man was:", "hi": "निएंडरथल मानव के मस्तिष्क की क्षमता कितनी थी:" },
+      "options": [
+        { "id": "o1", "text": { "en": "650 - 800 cc", "hi": "650 - 800 cc" } },
+        { "id": "o2", "text": { "en": "900 cc", "hi": "900 cc" } },
+        { "id": "o3", "text": { "en": "1400 cc", "hi": "1400 cc" } },
+        { "id": "o4", "text": { "en": "400 cc", "hi": "400 cc" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Neanderthal man had a brain size of 1400cc.", "hi": "निएंडरथल मानव के मस्तिष्क का आकार 1400cc था।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Darwin's finches are a good example of:", "hi": "डार्विन की फिंच किसका एक अच्छा उदाहरण हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Industrial melanism", "hi": "औद्योगिक मेलानिज़्म" } },
+        { "id": "o2", "text": { "en": "Connecting link", "hi": "संयोजक कड़ी (Connecting link)" } },
+        { "id": "o3", "text": { "en": "Adaptive radiation", "hi": "अनुकूली विकिरण" } },
+        { "id": "o4", "text": { "en": "Convergent evolution", "hi": "अभिसारी विकास" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Darwin's finches radiating from a common ancestor in the Galapagos islands is a classic example of adaptive radiation.", "hi": "गैलापागोस द्वीपों में एक सामान्य पूर्वज से डार्विन की फिंच का विकिरित होना अनुकूली विकिरण का एक उत्कृष्ट उदाहरण है।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Which of the following had the smallest brain capacity?", "hi": "निम्नलिखित में से किसकी मस्तिष्क क्षमता सबसे कम थी?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Homo neanderthalensis", "hi": "होमो निएंडरथेलेंसिस" } },
+        { "id": "o2", "text": { "en": "Homo habilis", "hi": "होमो हैबिलिस" } },
+        { "id": "o3", "text": { "en": "Homo erectus", "hi": "होमो इरेक्टस" } },
+        { "id": "o4", "text": { "en": "Homo sapiens", "hi": "होमो सेपियन्स" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Homo habilis had a brain capacity of 650-800 cc, which is smaller than Homo erectus (900 cc) and Neanderthals (1400 cc).", "hi": "होमो हैबिलिस की मस्तिष्क क्षमता 650-800 cc थी, जो होमो इरेक्टस (900 cc) और निएंडरथल (1400 cc) से छोटी है।" }
+    }
+  ]
+}

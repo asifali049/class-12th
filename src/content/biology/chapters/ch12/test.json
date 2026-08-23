@@ -1,0 +1,148 @@
+{
+  "id": "t12",
+  "title": { "en": "Chapter 12 Mock Test: Ecosystem", "hi": "अध्याय 12 मॉक टेस्ट: पारितंत्र" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following ecosystems is most stable?", "hi": "निम्नलिखित में से कौन सा पारिस्थितिकी तंत्र सबसे स्थिर है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Mountain", "hi": "पहाड़" } },
+        { "id": "o2", "text": { "en": "Ocean", "hi": "महासागर (Ocean)" } },
+        { "id": "o3", "text": { "en": "Forest", "hi": "जंगल" } },
+        { "id": "o4", "text": { "en": "Desert", "hi": "रेगिस्तान" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Oceans are considered the most stable ecosystems because of their vast size and constant environmental conditions.", "hi": "महासागरों को उनके विशाल आकार और निरंतर पर्यावरणीय परिस्थितियों के कारण सबसे स्थिर पारिस्थितिक तंत्र माना जाता है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Primary productivity depends upon:", "hi": "प्राथमिक उत्पादकता (Primary productivity) किस पर निर्भर करती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Light and temperature", "hi": "प्रकाश और तापमान" } },
+        { "id": "o2", "text": { "en": "Water and nutrients", "hi": "पानी और पोषक तत्व" } },
+        { "id": "o3", "text": { "en": "Photosynthetic capacity of plants", "hi": "पौधों की प्रकाश संश्लेषक क्षमता" } },
+        { "id": "o4", "text": { "en": "All of the above", "hi": "उपरोक्त सभी" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Primary productivity depends on plant species, environmental factors (light, temperature, water), availability of nutrients, and photosynthetic capacity.", "hi": "प्राथमिक उत्पादकता पौधों की प्रजातियों, पर्यावरणीय कारकों (प्रकाश, तापमान, पानी), पोषक तत्वों की उपलब्धता और प्रकाश संश्लेषक क्षमता पर निर्भर करती है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The mass of living material at a trophic level at a particular time is called:", "hi": "किसी विशेष समय पर एक पोषी स्तर (trophic level) पर जीवित सामग्री का द्रव्यमान कहलाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Gross primary productivity", "hi": "सकल प्राथमिक उत्पादकता" } },
+        { "id": "o2", "text": { "en": "Standing state", "hi": "स्थायी अवस्था (Standing state)" } },
+        { "id": "o3", "text": { "en": "Net primary productivity", "hi": "शुद्ध प्राथमिक उत्पादकता" } },
+        { "id": "o4", "text": { "en": "Standing crop", "hi": "खड़ी फसल (Standing crop)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Each trophic level has a certain mass of living material at a particular time called as the standing crop.", "hi": "प्रत्येक पोषी स्तर में एक विशेष समय में जीवित सामग्री का एक निश्चित द्रव्यमान होता है जिसे खड़ी फसल कहा जाता है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In an ecosystem, the rate of production of organic matter during photosynthesis is termed as:", "hi": "एक पारिस्थितिकी तंत्र में, प्रकाश संश्लेषण के दौरान कार्बनिक पदार्थों के उत्पादन की दर को कहा जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Secondary productivity", "hi": "द्वितीयक उत्पादकता" } },
+        { "id": "o2", "text": { "en": "Net productivity", "hi": "शुद्ध उत्पादकता" } },
+        { "id": "o3", "text": { "en": "Net primary productivity", "hi": "शुद्ध प्राथमिक उत्पादकता" } },
+        { "id": "o4", "text": { "en": "Gross primary productivity", "hi": "सकल प्राथमिक उत्पादकता (Gross primary productivity)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Gross Primary Productivity (GPP) of an ecosystem is the rate of production of organic matter during photosynthesis.", "hi": "एक पारिस्थितिकी तंत्र की सकल प्राथमिक उत्पादकता (GPP) प्रकाश संश्लेषण के दौरान कार्बनिक पदार्थों के उत्पादन की दर है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Match the following: \n(A) Earthworm \n(B) Succession \n(C) Ecosystem service \n(D) Population growth", "hi": "निम्नलिखित का मिलान करें: \n(A) केंचुआ \n(B) उत्तराधिकार \n(C) पारिस्थितिकी तंत्र सेवा \n(D) जनसंख्या वृद्धि" },
+      "options": [
+        { "id": "o1", "text": { "en": "(A) Detritivore", "hi": "(A) डेट्रिटिवोर" } },
+        { "id": "o2", "text": { "en": "(A) Pioneer species", "hi": "(A) पायनियर प्रजाति" } },
+        { "id": "o3", "text": { "en": "(A) Pollination", "hi": "(A) परागण" } },
+        { "id": "o4", "text": { "en": "(A) Natality", "hi": "(A) जन्म दर" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Earthworms are detritivores that break down detritus into smaller particles (fragmentation).", "hi": "केंचुए डेट्रिटिवोर्स हैं जो डेट्रिटस को छोटे कणों (विखंडन) में तोड़ देते हैं।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following representations shows the pyramid of numbers in a forest ecosystem?", "hi": "निम्नलिखित में से कौन सा प्रतिनिधित्व वन पारिस्थितिकी तंत्र में संख्याओं के पिरामिड को दर्शाता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Always upright", "hi": "हमेशा सीधा" } },
+        { "id": "o2", "text": { "en": "Always inverted", "hi": "हमेशा उल्टा" } },
+        { "id": "o3", "text": { "en": "Spindle-shaped", "hi": "तर्कु के आकार का (Spindle-shaped)" } },
+        { "id": "o4", "text": { "en": "Both upright and inverted depending on season", "hi": "मौसम के आधार पर सीधा और उल्टा दोनों" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "In a forest ecosystem (tree as producer), the number of insects (herbivores) is very large, but the number of small birds (carnivores) is less, making it spindle-shaped.", "hi": "वन पारिस्थितिकी तंत्र (पेड़ उत्पादक के रूप में) में, कीड़ों (शाकाहारी) की संख्या बहुत बड़ी होती है, लेकिन छोटे पक्षियों (मांसाहारी) की संख्या कम होती है, जिससे यह धुरी के आकार का हो जाता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "The process of mineralisation by microorganisms helps in the release of:", "hi": "सूक्ष्मजीवों द्वारा खनिजीकरण की प्रक्रिया किसके विमोचन में मदद करती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Inorganic nutrients from humus", "hi": "ह्यूमस से अकार्बनिक पोषक तत्व" } },
+        { "id": "o2", "text": { "en": "Organic nutrients from humus", "hi": "ह्यूमस से कार्बनिक पोषक तत्व" } },
+        { "id": "o3", "text": { "en": "Both organic and inorganic nutrients", "hi": "कार्बनिक और अकार्बनिक दोनों पोषक तत्व" } },
+        { "id": "o4", "text": { "en": "None of the above", "hi": "उपरोक्त में से कोई नहीं" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Mineralisation is the process by which humus is degraded by microbes, releasing inorganic nutrients into the soil.", "hi": "खनिजीकरण वह प्रक्रिया है जिसके द्वारा रोगाणुओं द्वारा ह्यूमस को नीचा दिखाया जाता है, मिट्टी में अकार्बनिक पोषक तत्व जारी होते हैं।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "The rate of decomposition is faster if the detritus is rich in:", "hi": "यदि डेट्रिटस (detritus) किसमें समृद्ध है तो अपघटन की दर तेज होती है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Lignin and chitin", "hi": "लिग्निन और चिटिन" } },
+        { "id": "o2", "text": { "en": "Nitrogen and water-soluble sugars", "hi": "नाइट्रोजन और पानी में घुलनशील शर्करा" } },
+        { "id": "o3", "text": { "en": "Cellulose and hemicellulose", "hi": "सेल्यूलोज और हेमीसेल्यूलोज" } },
+        { "id": "o4", "text": { "en": "Lipids and proteins", "hi": "लिपिड और प्रोटीन" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Decomposition is quicker if detritus is rich in nitrogen and water-soluble substances like sugars. It is slower if it's rich in lignin and chitin.", "hi": "यदि डेट्रिटस नाइट्रोजन और शर्करा जैसे पानी में घुलनशील पदार्थों में समृद्ध है तो अपघटन तेज होता है। यदि यह लिग्निन और चिटिन से भरपूर है तो यह धीमा है।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following is NOT a functional component of an ecosystem?", "hi": "निम्नलिखित में से कौन सा पारिस्थितिकी तंत्र का कार्यात्मक (functional) घटक नहीं है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Productivity", "hi": "उत्पादकता" } },
+        { "id": "o2", "text": { "en": "Decomposition", "hi": "अपघटन" } },
+        { "id": "o3", "text": { "en": "Energy flow", "hi": "ऊर्जा प्रवाह" } },
+        { "id": "o4", "text": { "en": "Stratification", "hi": "स्तरीकरण (Stratification)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Stratification is a structural component (vertical distribution of species). The functional components are productivity, decomposition, energy flow, and nutrient cycling.", "hi": "स्तरीकरण एक संरचनात्मक घटक है (प्रजातियों का ऊर्ध्वाधर वितरण)। कार्यात्मक घटक उत्पादकता, अपघटन, ऊर्जा प्रवाह और पोषक तत्व चक्रण हैं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "In an ecosystem, the 10% law of energy transfer was proposed by:", "hi": "एक पारिस्थितिकी तंत्र में, ऊर्जा हस्तांतरण का 10% नियम किसके द्वारा प्रस्तावित किया गया था:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Lindeman", "hi": "लिंडेमैन (Lindeman)" } },
+        { "id": "o2", "text": { "en": "Tansley", "hi": "टैन्सले" } },
+        { "id": "o3", "text": { "en": "Odum", "hi": "ओडुम" } },
+        { "id": "o4", "text": { "en": "Elton", "hi": "एल्टन" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The 10% law for the transfer of energy from one trophic level to the next was introduced by Raymond Lindeman (1942).", "hi": "एक पोषी स्तर से दूसरे स्तर में ऊर्जा के हस्तांतरण के लिए 10% नियम रेमंड लिंडेमैन (1942) द्वारा पेश किया गया था।" }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch9",
+  "title": {
+    "en": "Chemistry Chapter 9 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 9 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following amines is the most basic in aqueous solution?",
+        "hi": "जलीय विलयन में निम्नलिखित में से कौन सा एमीन सबसे अधिक क्षारीय (basic) है?"
+      },
+      "options": [
+        {
+          "en": "Ammonia ($NH_3$)",
+          "hi": "अमोनिया ($NH_3$)"
+        },
+        {
+          "en": "Methylamine ($CH_3NH_2$)",
+          "hi": "मिथाइलएमीन ($CH_3NH_2$)"
+        },
+        {
+          "en": "Dimethylamine ($(CH_3)_2NH$)",
+          "hi": "डाइमिथाइलएमीन ($(CH_3)_2NH$)"
+        },
+        {
+          "en": "Trimethylamine ($(CH_3)_3N$)",
+          "hi": "ट्राइमिथाइलएमीन ($(CH_3)_3N$)"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "In aqueous solution, basicity of methylamines is $2^\\circ > 1^\\circ > 3^\\circ > NH_3$ due to the combined effect of inductive effect (+I), solvation effect (hydrogen bonding), and steric hindrance. Thus, $(CH_3)_2NH$ is most basic.",
+        "hi": "जलीय विलयन में, आगमनात्मक प्रभाव (+I), साल्वेशन प्रभाव (हाइड्रोजन बॉन्डिंग), और त्रिविम बाधा (steric hindrance) के संयुक्त प्रभाव के कारण मिथाइलएमीन की क्षारीयता $2^\\circ > 1^\\circ > 3^\\circ > NH_3$ है। इस प्रकार, $(CH_3)_2NH$ सबसे अधिक क्षारीय है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The reaction of a primary amine with chloroform and ethanolic KOH is known as:",
+        "hi": "प्राथमिक एमीन की क्लोरोफॉर्म और एथेनॉलिक KOH के साथ अभिक्रिया को किस रूप में जाना जाता है?"
+      },
+      "options": [
+        {
+          "en": "Hoffmann bromamide reaction",
+          "hi": "हॉफमैन ब्रोमामाइड अभिक्रिया"
+        },
+        {
+          "en": "Carbylamine reaction",
+          "hi": "कार्बिलएमीन (Carbylamine) अभिक्रिया"
+        },
+        {
+          "en": "Gabriel phthalimide synthesis",
+          "hi": "गैब्रियल थैलिमाइड (phthalimide) संश्लेषण"
+        },
+        {
+          "en": "Sandmeyer reaction",
+          "hi": "सैंडमेयर (Sandmeyer) अभिक्रिया"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Carbylamine reaction (or isocyanide test) is given only by primary amines. Heating them with chloroform and alcoholic KOH produces foul-smelling isocyanides (carbylamines).",
+        "hi": "कार्बिलएमीन अभिक्रिया (या आइसोसाइनाइड परीक्षण) केवल प्राथमिक एमीन्स द्वारा दी जाती है। क्लोरोफॉर्म और एल्कोहलिक KOH के साथ उन्हें गर्म करने पर दुर्गंधयुक्त आइसोसाइनाइड्स (कार्बिलएमीन्स) उत्पन्न होते हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Reduction of nitrobenzene in the presence of $Sn/HCl$ produces:",
+        "hi": "$Sn/HCl$ की उपस्थिति में नाइट्रोबेंजीन का अपचयन क्या उत्पन्न करता है?"
+      },
+      "options": [
+        {
+          "en": "Aniline",
+          "hi": "एनिलीन (Aniline)"
+        },
+        {
+          "en": "Azobenzene",
+          "hi": "एज़ोबेंजीन"
+        },
+        {
+          "en": "Nitrosobenzene",
+          "hi": "नाइट्रोसोबेंजीन"
+        },
+        {
+          "en": "Hydrazobenzene",
+          "hi": "हाइड्राज़ोबेंजीन"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Nitro compounds are reduced to primary amines by passing hydrogen gas in the presence of finely divided metal or by reduction with metals in acidic medium ($Sn/HCl$ or $Fe/HCl$). Nitrobenzene gives aniline.",
+        "hi": "महीन विभाजित धातु की उपस्थिति में हाइड्रोजन गैस प्रवाहित करके या अम्लीय माध्यम ($Sn/HCl$ या $Fe/HCl$) में धातुओं के साथ अपचयन द्वारा नाइट्रो यौगिकों को प्राथमिक एमीन में अपचयित किया जाता है। नाइट्रोबेंजीन एनिलीन देता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Hinsberg's reagent is used to distinguish between:",
+        "hi": "हिंसबर्ग (Hinsberg) अभिकर्मक का उपयोग किसके बीच अंतर करने के लिए किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "$1^\\circ, 2^\\circ, \\text{ and } 3^\\circ$ alcohols",
+          "hi": "$1^\\circ, 2^\\circ, \\text{ और } 3^\\circ$ अल्कोहल"
+        },
+        {
+          "en": "Aldehydes and ketones",
+          "hi": "एल्डिहाइड और कीटोन"
+        },
+        {
+          "en": "$1^\\circ, 2^\\circ, \\text{ and } 3^\\circ$ amines",
+          "hi": "$1^\\circ, 2^\\circ, \\text{ और } 3^\\circ$ एमीन"
+        },
+        {
+          "en": "Aliphatic and aromatic amines",
+          "hi": "एलीफैटिक और एरोमैटिक एमीन"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Hinsberg's reagent (benzenesulphonyl chloride) reacts differently with primary (soluble product), secondary (insoluble product), and tertiary amines (no reaction), hence used to distinguish them.",
+        "hi": "हिंसबर्ग अभिकर्मक (बेंजीनसल्फोनील क्लोराइड) प्राथमिक (घुलनशील उत्पाद), द्वितीयक (अघुलनशील उत्पाद), और तृतीयक एमाइन (कोई प्रतिक्रिया नहीं) के साथ अलग-अलग प्रतिक्रिया करता है, इसलिए उन्हें अलग करने के लिए उपयोग किया जाता है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The reaction used to convert an amide into a primary amine with one carbon less is:",
+        "hi": "एक एमाइड को एक कार्बन कम वाले प्राथमिक एमीन में बदलने के लिए किस अभिक्रिया का उपयोग किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Gabriel phthalimide synthesis",
+          "hi": "गैब्रियल थैलिमाइड संश्लेषण"
+        },
+        {
+          "en": "Hoffmann bromamide degradation",
+          "hi": "हॉफमैन ब्रोमामाइड निम्नीकरण (degradation)"
+        },
+        {
+          "en": "Stephen reaction",
+          "hi": "स्टीफन (Stephen) अभिक्रिया"
+        },
+        {
+          "en": "Carbylamine reaction",
+          "hi": "कार्बिलएमीन अभिक्रिया"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Hoffmann bromamide degradation involves treating an amide with bromine in an aqueous or ethanolic solution of NaOH. The primary amine formed contains one carbon less than the parent amide.",
+        "hi": "हॉफमैन ब्रोमामाइड निम्नीकरण में NaOH के जलीय या एथेनॉलिक विलयन में ब्रोमीन के साथ एमाइड का उपचार शामिल है। बनने वाले प्राथमिक एमीन में मूल एमाइड की तुलना में एक कार्बन कम होता है।"
+      }
+    }
+  ]
+}

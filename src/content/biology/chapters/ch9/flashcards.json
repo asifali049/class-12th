@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Restriction Endonuclease", "hi": "रेस्ट्रिक्शन एंडोन्यूक्लीज" },
+    "definition": { "en": "Enzymes known as 'molecular scissors' that cut DNA at specific palindromic sequences. Example: EcoRI.", "hi": "'आणविक कैंची' के रूप में जाने जाने वाले एंजाइम जो विशिष्ट पैलिंड्रोमिक अनुक्रमों पर DNA को काटते हैं। उदाहरण: EcoRI।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Palindromic Sequence", "hi": "पैलिंड्रोमिक अनुक्रम" },
+    "definition": { "en": "A sequence of base pairs in DNA that reads the same on both strands when reading orientation is kept the same (e.g., 5'-GAATTC-3' and 3'-CTTAAG-5').", "hi": "DNA में बेस पेयर का एक क्रम जो दोनों स्ट्रैंड पर समान पढ़ता है जब पढ़ने का उन्मुखीकरण (orientation) समान रखा जाता है (उदा., 5'-GAATTC-3' और 3'-CTTAAG-5')।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "DNA Ligase", "hi": "DNA लाइगेज" },
+    "definition": { "en": "An enzyme called 'molecular glue' that joins the sticky ends of DNA fragments by forming phosphodiester bonds.", "hi": "एक एंजाइम जिसे 'आणविक गोंद' कहा जाता है जो फॉस्फोडाइस्टर बॉन्ड बनाकर DNA टुकड़ों के चिपचिपे सिरों को जोड़ता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Cloning Vector", "hi": "क्लोनिंग वेक्टर" },
+    "definition": { "en": "A DNA molecule (like a plasmid or bacteriophage) used to carry foreign genetic material into another cell.", "hi": "विदेशी आनुवंशिक सामग्री को किसी अन्य कोशिका में ले जाने के लिए प्रयुक्त एक DNA अणु (जैसे प्लास्मिड या बैक्टीरियोफेज)।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Gel Electrophoresis", "hi": "जेल इलेक्ट्रोफोरेसिस" },
+    "definition": { "en": "A technique used to separate DNA fragments according to their size under an electric field through an agarose matrix.", "hi": "एगरोज़ मैट्रिक्स के माध्यम से विद्युत क्षेत्र के तहत DNA के टुकड़ों को उनके आकार के अनुसार अलग करने के लिए उपयोग की जाने वाली एक तकनीक।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Ethidium Bromide (EtBr)", "hi": "एथिडियम ब्रोमाइड (EtBr)" },
+    "definition": { "en": "A stain used in gel electrophoresis. Under UV light, DNA stained with EtBr appears as bright orange bands.", "hi": "जेल वैद्युतकणसंचलन में प्रयुक्त एक दाग। UV प्रकाश के तहत, EtBr से रंगा हुआ DNA चमकीले नारंगी रंग के बैंड के रूप में दिखाई देता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Polymerase Chain Reaction (PCR)", "hi": "पोलीमरेज़ चेन रिएक्शन (PCR)" },
+    "definition": { "en": "A technique for in vitro amplification of DNA. Steps: Denaturation (94°C), Annealing (55°C), Extension (72°C).", "hi": "DNA के इन विट्रो प्रवर्धन के लिए एक तकनीक। चरण: विकृतीकरण (94°C), एनीलिंग (55°C), विस्तार (72°C)।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Taq Polymerase", "hi": "टैक (Taq) पोलीमरेज़" },
+    "definition": { "en": "A thermostable enzyme isolated from the bacterium Thermus aquaticus, used in PCR for extending primers.", "hi": "जीवाणु थर्मस एक्वेटिकस से अलग किया गया एक थर्मोस्टेबल एंजाइम, जिसका उपयोग प्राइमरों को बढ़ाने के लिए PCR में किया जाता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Selectable Marker", "hi": "सिलेक्टेबल मार्कर" },
+    "definition": { "en": "A gene (like ampicillin resistance) in a vector that helps identify and permit the growth of transformants while eliminating non-transformants.", "hi": "एक वेक्टर में एक जीन (जैसे एम्पीसिलीन प्रतिरोध) जो ट्रांसफॉर्मेंट्स को पहचानने और उनके विकास की अनुमति देने में मदद करता है, जबकि गैर-ट्रांसफॉर्मेंट्स को समाप्त करता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Downstream Processing", "hi": "डाउनस्ट्रीम प्रोसेसिंग" },
+    "definition": { "en": "The series of processes including separation, purification, and formulation of a product before it is marketed.", "hi": "विपणन (marketing) से पहले किसी उत्पाद के पृथक्करण, शुद्धिकरण और निर्माण सहित प्रक्रियाओं की श्रृंखला।" }
+  }
+]

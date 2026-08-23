@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "In DNA, adenine always pairs with:",
-      "hi": "डीएनए में, एडेनिन हमेशा किसके साथ जुड़ता है?"
+      "en": "In a DNA strand, the nucleotides are linked together by:",
+      "hi": "DNA स्ट्रैंड में, न्यूक्लियोटाइड एक साथ किसके द्वारा जुड़े होते हैं:"
     },
     "options": [
-      {
-        "en": "Guanine",
-        "hi": "ग्वानिन"
-      },
-      {
-        "en": "Cytosine",
-        "hi": "साइटोसिन"
-      },
-      {
-        "en": "Thymine",
-        "hi": "थायमिन"
-      },
-      {
-        "en": "Uracil",
-        "hi": "यूरेसिल"
-      }
+      { "id": "o1", "text": { "en": "Glycosidic bonds", "hi": "ग्लाइकोसिडिक बॉन्ड" } },
+      { "id": "o2", "text": { "en": "Phosphodiester bonds", "hi": "फॉस्फोडिएस्टर बॉन्ड" } },
+      { "id": "o3", "text": { "en": "Peptide bonds", "hi": "पेप्टाइड बॉन्ड" } },
+      { "id": "o4", "text": { "en": "Hydrogen bonds", "hi": "हाइड्रोजन बॉन्ड" } }
     ],
-    "correctOptionIndex": 2,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "According to Chargaff's rule, Adenine (A) pairs with Thymine (T) via two hydrogen bonds.",
-      "hi": "चारगाफ के नियम के अनुसार, एडेनिन (A) थायमिन (T) के साथ जुड़ता है।"
+      "en": "Successive nucleotides in a polynucleotide chain are linked by phosphodiester bonds. Hydrogen bonds exist between complementary bases of two strands.",
+      "hi": "एक पॉली न्यूक्लियोटाइड श्रृंखला में क्रमिक न्यूक्लियोटाइड फॉस्फोडिएस्टर बॉन्ड द्वारा जुड़े होते हैं। हाइड्रोजन बॉन्ड दो स्ट्रैंड के पूरक (complementary) बेस के बीच मौजूद होते हैं।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "If the sequence of nitrogen bases of the coding strand of DNA in a transcription unit is 5'-ATGAATG-3', the sequence of bases in its RNA transcript would be:",
+      "hi": "यदि एक ट्रांसक्रिप्शन यूनिट में DNA के कोडिंग स्ट्रैंड के नाइट्रोजन बेस का अनुक्रम 5'-ATGAATG-3' है, तो इसके RNA ट्रांसक्रिप्ट में बेस का अनुक्रम क्या होगा:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "5'-AUGAAUG-3'", "hi": "5'-AUGAAUG-3'" } },
+      { "id": "o2", "text": { "en": "5'-UACUUAC-3'", "hi": "5'-UACUUAC-3'" } },
+      { "id": "o3", "text": { "en": "5'-CAUUCAU-3'", "hi": "5'-CAUUCAU-3'" } },
+      { "id": "o4", "text": { "en": "5'-GUAAGUA-3'", "hi": "5'-GUAAGUA-3'" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "The sequence of the RNA transcript is identical to the coding strand (except that Thymine is replaced by Uracil). So, ATGAATG becomes AUGAAUG.",
+      "hi": "RNA ट्रांसक्रिप्ट का अनुक्रम कोडिंग स्ट्रैंड के समान होता है (सिवाय इसके कि थाइमिन को यूरैसिल द्वारा बदल दिया जाता है)। इसलिए, ATGAATG, AUGAAUG बन जाता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The unequivocal proof that DNA is the genetic material came from the experiments of:",
+      "hi": "यह स्पष्ट प्रमाण कि DNA आनुवंशिक पदार्थ है, किसके प्रयोगों से आया:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Griffith", "hi": "ग्रिफिथ" } },
+      { "id": "o2", "text": { "en": "Hershey and Chase", "hi": "हर्शे और चेस" } },
+      { "id": "o3", "text": { "en": "Meselson and Stahl", "hi": "मेसल्सन और स्टाल" } },
+      { "id": "o4", "text": { "en": "Watson and Crick", "hi": "वॉटसन और क्रिक" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Alfred Hershey and Martha Chase (1952) worked with bacteriophages and radioisotopes to unequivocally prove DNA is the genetic material.",
+      "hi": "अल्फ्रेड हर्शे और मार्था चेस (1952) ने बैक्टीरियोफेज और रेडियोआइसोटोप के साथ काम करके स्पष्ट रूप से साबित किया कि DNA आनुवंशिक पदार्थ है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Name the start codon and the amino acid it codes for.",
+      "hi": "स्टार्ट कोडोन और उस अमीनो एसिड का नाम बताइए जिसके लिए यह कोड करता है।"
+    },
+    "answer": {
+      "en": "The start codon is **AUG**, and it codes for the amino acid **Methionine (met)**.",
+      "hi": "स्टार्ट कोडोन **AUG** है, और यह अमीनो एसिड **मेथिओनिन (met)** के लिए कोड करता है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between a nucleoside and a nucleotide?",
+      "hi": "न्यूक्लियोसाइड और न्यूक्लियोटाइड के बीच क्या अंतर है?"
+    },
+    "answer": {
+      "en": "**Nucleoside**: Formed when a nitrogenous base is attached to a pentose sugar.\n**Nucleotide**: Formed when a phosphate group is added to the nucleoside (specifically at the 5'-OH of the sugar).",
+      "hi": "**न्यूक्लियोसाइड**: तब बनता है जब एक नाइट्रोजनस बेस पेंटोस शुगर से जुड़ता है।\n**न्यूक्लियोटाइड**: तब बनता है जब एक फॉस्फेट समूह न्यूक्लियोसाइड (विशेष रूप से चीनी के 5'-OH पर) से जुड़ता है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the Hershey-Chase experiment and its conclusion.",
+      "hi": "हर्शे-चेस प्रयोग और उसके निष्कर्ष का वर्णन करें।"
+    },
+    "answer": {
+      "en": "**Experiment**: Hershey and Chase (1952) grew some bacteriophages on a medium containing radioactive phosphorus (32P) to label DNA, and others on radioactive sulfur (35S) to label proteins. They allowed these viruses to infect E. coli bacteria.\n**Process**: Infection -> Blending (to remove viral coats) -> Centrifugation (to separate viral particles from bacteria).\n**Observation**: Bacteria infected with 32P viruses were radioactive, indicating DNA entered the bacteria. Bacteria infected with 35S viruses were not radioactive, meaning protein did not enter.\n**Conclusion**: DNA, not protein, is the genetic material that passes from virus to bacteria.",
+      "hi": "**प्रयोग**: हर्शे और चेस (1952) ने DNA को लेबल करने के लिए रेडियोधर्मी फास्फोरस (32P) युक्त माध्यम पर कुछ बैक्टीरियोफेज उगाए, और अन्य को प्रोटीन को लेबल करने के लिए रेडियोधर्मी सल्फर (35S) पर उगाया। उन्होंने इन वायरस को E. coli बैक्टीरिया को संक्रमित करने दिया।\n**प्रक्रिया**: संक्रमण -> सम्मिश्रण (वायरल कोट को हटाने के लिए) -> अपकेंद्रण (बैक्टीरिया से वायरल कणों को अलग करने के लिए)।\n**अवलोकन**: 32P वायरस से संक्रमित बैक्टीरिया रेडियोधर्मी थे, जो दर्शाता है कि DNA बैक्टीरिया में प्रवेश कर गया। 35S से संक्रमित बैक्टीरिया रेडियोधर्मी नहीं थे।\n**निष्कर्ष**: प्रोटीन नहीं, बल्कि DNA आनुवंशिक पदार्थ है जो वायरस से बैक्टीरिया में जाता है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain the process of DNA replication. Why is it called semi-conservative?",
+      "hi": "DNA प्रतिकृति (replication) की प्रक्रिया स्पष्ट करें। इसे अर्ध-संरक्षी (semi-conservative) क्यों कहा जाता है?"
+    },
+    "answer": {
+      "en": "**Process**: DNA replication begins at the origin of replication. The DNA double helix is unwound by helicase to form a replication fork. DNA-dependent DNA polymerase synthesizes a new strand continuously on the 3'->5' template (leading strand) and discontinuously on the 5'->3' template (lagging strand), forming Okazaki fragments which are joined by DNA ligase.\n**Semi-conservative**: It is called semi-conservative because, after replication, each new DNA double helix consists of one 'parental' (old) strand and one newly synthesized strand.",
+      "hi": "**प्रक्रिया**: DNA प्रतिकृति मूल से शुरू होती है। DNA डबल हेलिक्स हेलिकेस द्वारा प्रतिकृति फोर्क बनाने के लिए खोला जाता है। DNA पोलीमरेज़ 3'->5' टेम्पलेट (लीडिंग स्ट्रैंड) पर निरंतर और 5'->3' टेम्पलेट (लैगिंग स्ट्रैंड) पर असंतत रूप से एक नए स्ट्रैंड को संश्लेषित करता है, जिससे ओकाजाकी खंड बनते हैं जिन्हें DNA लाइगेज द्वारा जोड़ा जाता है।\n**अर्ध-संरक्षी**: इसे अर्ध-संरक्षी कहा जाता है क्योंकि, प्रतिकृति के बाद, प्रत्येक नए DNA डबल हेलिक्स में एक 'पैतृक' (पुराना) स्ट्रैंड और एक नया संश्लेषित स्ट्रैंड होता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In a transcription unit, there are two strands of DNA: the template strand (3'->5') and the coding strand (5'->3'). Which strand is transcribed into RNA, and which strand's sequence does the RNA resemble?",
+      "hi": "एक ट्रांसक्रिप्शन यूनिट में, DNA के दो स्ट्रैंड होते हैं: टेम्पलेट स्ट्रैंड (3'->5') और कोडिंग स्ट्रैंड (5'->3')। कौन सा स्ट्रैंड RNA में ट्रांसक्राइब होता है, और RNA किस स्ट्रैंड के अनुक्रम जैसा दिखता है?"
+    },
+    "answer": {
+      "en": "The **template strand (3'->5')** is actually transcribed into RNA. However, the sequence of the newly formed RNA perfectly resembles the **coding strand (5'->3')**, with the only difference being that Thymine (T) is replaced by Uracil (U).",
+      "hi": "**टेम्पलेट स्ट्रैंड (3'->5')** वास्तव में RNA में ट्रांसक्राइब होता है। हालाँकि, नवगठित RNA का अनुक्रम **कोडिंग स्ट्रैंड (5'->3')** के बिल्कुल समान होता है, एकमात्र अंतर यह है कि थाइमिन (T) को यूरैसिल (U) द्वारा बदल दिया जाता है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which of the following acts as a catalyst in a bacterial cell during translation?",
+      "hi": "अनुवादन (translation) के दौरान जीवाणु कोशिका में निम्न में से कौन उत्प्रेरक के रूप में कार्य करता है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "snRNA", "hi": "snRNA" } },
+      { "id": "o2", "text": { "en": "hnRNA", "hi": "hnRNA" } },
+      { "id": "o3", "text": { "en": "23S rRNA", "hi": "23S rRNA" } },
+      { "id": "o4", "text": { "en": "5S rRNA", "hi": "5S rRNA" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "In bacteria, the 23S rRNA of the larger ribosomal subunit acts as a ribozyme (a catalytic RNA) for the formation of the peptide bond.",
+      "hi": "बैक्टीरिया में, बड़े राइबोसोमल सबयूनिट का 23S rRNA पेप्टाइड बॉन्ड के निर्माण के लिए एक राइबोजाइम (एक उत्प्रेरक RNA) के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the basis of DNA fingerprinting?",
+      "hi": "DNA फिंगरप्रिंटिंग का आधार क्या है?"
+    },
+    "answer": {
+      "en": "DNA fingerprinting is based on identifying differences in specific regions of DNA sequence called **repetitive DNA**. These sequences show high degrees of polymorphism, which form the basis of genetic mapping and DNA fingerprinting.",
+      "hi": "DNA फिंगरप्रिंटिंग DNA अनुक्रम के विशिष्ट क्षेत्रों में अंतर की पहचान करने पर आधारित है जिसे **दोहराए जाने वाले DNA (repetitive DNA)** कहा जाता है। ये अनुक्रम उच्च स्तर की बहुरूपता (polymorphism) दिखाते हैं, जो आनुवंशिक मानचित्रण और DNA फिंगरप्रिंटिंग का आधार बनते हैं।"
     }
   }
 ]

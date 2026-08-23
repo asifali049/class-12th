@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Displacement Current ($I_d$)", "hi": "विस्थापन धारा ($I_d$)" },
+    "definition": { "en": "Current that comes into play in the region where the electric field (and hence electric flux) changes with time. $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$.", "hi": "वह धारा जो उस क्षेत्र में काम आती है जहाँ विद्युत क्षेत्र (और इसलिए विद्युत फ्लक्स) समय के साथ बदलता है। $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Ampere-Maxwell Law", "hi": "एम्पीयर-मैक्सवेल नियम" },
+    "definition": { "en": "Modified Ampere's law including displacement current. $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d)$.", "hi": "विस्थापन धारा सहित संशोधित एम्पीयर का नियम। $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 (I_c + I_d)$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Electromagnetic Waves", "hi": "विद्युत चुम्बकीय तरंगें" },
+    "definition": { "en": "Transverse waves consisting of time-varying, mutually perpendicular electric and magnetic fields propagating through space.", "hi": "अनुप्रस्थ तरंगें जिनमें समय-भिन्न, परस्पर लंबवत विद्युत और चुंबकीय क्षेत्र होते हैं जो अंतरिक्ष के माध्यम से फैलते हैं।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Speed of EM Waves", "hi": "EM तरंगों की गति" },
+    "definition": { "en": "In vacuum, $c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} = 3 \\times 10^8$ m/s. In a medium, $v = \\frac{1}{\\sqrt{\\mu \\epsilon}}$.", "hi": "निर्वात में, $c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} = 3 \\times 10^8$ m/s। एक माध्यम में, $v = \\frac{1}{\\sqrt{\\mu \\epsilon}}$।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Transverse Nature of EM Waves", "hi": "EM तरंगों की अनुप्रस्थ प्रकृति" },
+    "definition": { "en": "The oscillating electric ($\\vec{E}$) and magnetic ($\\vec{B}$) fields are perpendicular to each other, and both are perpendicular to the direction of propagation ($\\vec{E} \\times \\vec{B}$).", "hi": "दोलन करने वाले विद्युत ($\\vec{E}$) और चुंबकीय ($\\vec{B}$) क्षेत्र एक-दूसरे के लंबवत होते हैं, और दोनों प्रसार की दिशा ($\\vec{E} \\times \\vec{B}$) के लंबवत होते हैं।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Radio Waves", "hi": "रेडियो तरंगें" },
+    "definition": { "en": "Lowest frequency, longest wavelength. Produced by accelerated motion of charges in conducting wires. Used in radio and TV communication.", "hi": "सबसे कम आवृत्ति, सबसे लंबी तरंग दैर्ध्य। संवाहक तारों में आवेशों की त्वरित गति द्वारा निर्मित। रेडियो और टीवी संचार में उपयोग किया जाता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Microwaves", "hi": "माइक्रोवेव" },
+    "definition": { "en": "Short-wavelength radio waves. Produced by special vacuum tubes (klystrons, magnetrons). Used in radar systems and microwave ovens.", "hi": "लघु तरंग दैर्ध्य रेडियो तरंगें। विशेष वैक्यूम ट्यूब (klystrons, magnetrons) द्वारा निर्मित। रडार सिस्टम और माइक्रोवेव ओवन में उपयोग किया जाता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Infrared Waves", "hi": "अवरक्त (Infrared) तरंगें" },
+    "definition": { "en": "Heat waves produced by hot bodies and molecules. Used in physical therapy, night vision, and TV remotes.", "hi": "गर्म पिंडों और अणुओं द्वारा उत्पन्न ऊष्मा तरंगें। भौतिक चिकित्सा, नाइट विजन और टीवी रिमोट में उपयोग किया जाता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Ultraviolet Rays", "hi": "पराबैंगनी किरणें" },
+    "definition": { "en": "Produced by special lamps and very hot bodies (like the Sun). Causes tanning. Used in water purifiers and LASIK eye surgery.", "hi": "विशेष लैंप और बहुत गर्म पिंडों (जैसे सूर्य) द्वारा निर्मित। टैनिंग का कारण बनता है। वाटर प्यूरीफायर और लेसिक नेत्र शल्य चिकित्सा में उपयोग किया जाता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "X-rays and Gamma Rays", "hi": "एक्स-रे और गामा किरणें" },
+    "definition": { "en": "X-rays are produced by bombarding metal targets with electrons (used in medical imaging). Gamma rays are emitted in nuclear reactions (highest energy).", "hi": "एक्स-रे इलेक्ट्रॉनों के साथ धातु के लक्ष्यों पर बमबारी करके उत्पन्न होते हैं (मेडिकल इमेजिंग में उपयोग)। गामा किरणें परमाणु प्रतिक्रियाओं (उच्चतम ऊर्जा) में उत्सर्जित होती हैं।" }
+  }
+]

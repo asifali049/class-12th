@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Major Diseases and Pathogens",
+      "hi": "प्रमुख रोग और रोगजनक"
+    },
+    "formula": "\\text{Disease} \\rightarrow \\text{Pathogen} \\rightarrow \\text{Test/Vector}",
+    "variables": [
+      {
+        "name": "\\text{Typhoid}",
+        "description": { "en": "Salmonella typhi (Widal test)", "hi": "साल्मोनेला टाइफी (विडाल परीक्षण)" }
+      },
+      {
+        "name": "\\text{Pneumonia}",
+        "description": { "en": "Streptococcus pneumoniae / Haemophilus influenzae", "hi": "स्ट्रेप्टोकोकस न्यूमोनिया / हीमोफिलस इन्फ्लुएंजा" }
+      },
+      {
+        "name": "\\text{Malaria}",
+        "description": { "en": "Plasmodium species (Vector: Female Anopheles mosquito)", "hi": "प्लास्मोडियम प्रजाति (वाहक: मादा एनाफिलीज मच्छर)" }
+      },
+      {
+        "name": "\\text{Dengue / Chikungunya}",
+        "description": { "en": "Viruses (Vector: Aedes mosquito)", "hi": "विषाणु (वाहक: एडीज मच्छर)" }
+      }
+    ],
+    "applications": {
+      "en": "Key matching table frequently asked in board exams for 1 or 2 marks.",
+      "hi": "1 या 2 अंकों के लिए बोर्ड परीक्षा में अक्सर पूछी जाने वाली मुख्य मिलान तालिका।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Important Abbreviations (Immunity & AIDS)",
+      "hi": "महत्वपूर्ण संक्षिप्ताक्षर (प्रतिरक्षा और एड्स)"
+    },
+    "formula": "\\text{Acronyms}",
+    "variables": [
+      {
+        "name": "\\text{CMI}",
+        "description": { "en": "Cell-Mediated Immunity (T-lymphocytes)", "hi": "कोशिका-मध्यस्थता प्रतिरक्षा (टी-लिम्फोसाइट्स)" }
+      },
+      {
+        "name": "\\text{MALT}",
+        "description": { "en": "Mucosa-Associated Lymphoid Tissue (50% of lymphoid tissue)", "hi": "म्यूकोसा-एसोसिएटेड लिम्फोइड टिशू (लिम्फोइड ऊतक का 50%)" }
+      },
+      {
+        "name": "\\text{NACO}",
+        "description": { "en": "National AIDS Control Organisation", "hi": "राष्ट्रीय एड्स नियंत्रण संगठन" }
+      },
+      {
+        "name": "\\text{ELISA}",
+        "description": { "en": "Enzyme Linked Immuno-Sorbent Assay (AIDS diagnosis)", "hi": "एंजाइम लिंक्ड इम्यूनो-सॉर्बेंट एसे (एड्स निदान)" }
+      }
+    ],
+    "applications": {
+      "en": "Standard expansions required for descriptive answers.",
+      "hi": "वर्णनात्मक उत्तरों के लिए आवश्यक मानक विस्तार।"
+    }
+  }
+]

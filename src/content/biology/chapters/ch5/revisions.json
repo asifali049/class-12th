@@ -1,15 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Start & Stop Codons",
-      "hi": "स्टार्ट और स्टॉप कोडॉन",
-      "hinglish": "Genetic Code"
-    },
-    "summary": {
-      "en": "**Start Codon**: AUG (codes for Methionine).\n**Stop Codons**: UAA, UAG, UGA (do not code for any amino acid).",
-      "hi": "**स्टार्ट कोडॉन**: AUG (मेथियोनीन के लिए कोड)।\n**स्टॉप कोडॉन**: UAA, UAG, UGA (किसी भी एमिनो एसिड के लिए कोड नहीं करते)।"
-    },
-    "quickRecall": []
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **DNA Structure**: Double helix (Watson & Crick). A=T, G≡C. Antiparallel strands.\n- **Search for Genetic Material**: Griffith (Transforming principle), Hershey-Chase (Proved DNA is genetic material using 32P and 35S).\n- **Central Dogma**: DNA -> RNA -> Protein.\n- **Replication**: Semi-conservative, continuous on 3'->5' template, discontinuous on 5'->3' template (Okazaki fragments).\n- **Transcription**: Copying DNA to RNA. Pol I (rRNA), Pol II (mRNA), Pol III (tRNA).\n- **Translation**: Protein synthesis on ribosomes. AUG is start codon.\n- **Lac Operon**: Inducible operon. Lactose is inducer.",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **DNA संरचना**: डबल हेलिक्स (वॉटसन और क्रिक)। A=T, G≡C। प्रति-समानांतर स्ट्रैंड।\n- **आनुवंशिक पदार्थ की खोज**: ग्रिफिथ (रूपांतरण सिद्धांत), हर्शे-चेस (32P और 35S का उपयोग करके साबित किया कि DNA आनुवंशिक पदार्थ है)।\n- **सेंट्रल डोग्मा**: DNA -> RNA -> प्रोटीन।\n- **प्रतिकृति**: अर्ध-संरक्षी, 3'->5' टेम्पलेट पर निरंतर, 5'->3' टेम्पलेट पर असंतत (ओकाजाकी खंड)।\n- **अनुलेखन**: DNA से RNA की प्रतिलिपि बनाना।\n- **अनुवादन**: राइबोसोम पर प्रोटीन संश्लेषण। AUG स्टार्ट कोडोन है।\n- **लैक ऑपेरॉन**: प्रेरक ऑपेरॉन। लैक्टोज प्रेरक (inducer) है।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Structure of Polynucleotide\n- Nucleoside = Nitrogenous base + Sugar (N-glycosidic linkage).\n- Nucleotide = Nucleoside + Phosphate (Phosphodiester linkage).\n\n### 2. Transcription Unit\n- Consists of Promoter, Structural Gene, and Terminator.\n- **Template strand**: 3'->5' polarity. Used for synthesizing RNA.\n- **Coding strand**: 5'->3' polarity. Has the same sequence as RNA (except T instead of U).\n\n### 3. Post-Transcriptional Modifications (Eukaryotes)\n- Splicing (removal of introns), Capping (Methyl guanosine triphosphate at 5' end), and Tailing (Poly-A tail at 3' end).\n\n### 4. Genetic Code Features\n- Triplet (3 bases).\n- Unambiguous (1 codon = 1 amino acid).\n- Degenerate (some amino acids coded by >1 codon).\n- Universal (mostly).\n\n### 5. DNA Fingerprinting\n- Involves identifying differences in specific regions called repetitive DNA (VNTRs). Used in forensic science and paternity testing.",
+      "hi": "### 1. पॉली न्यूक्लियोटाइड की संरचना\n- न्यूक्लियोसाइड = नाइट्रोजनस बेस + शुगर (N-ग्लाइकोसिडिक लिंकेज)।\n- न्यूक्लियोटाइड = न्यूक्लियोसाइड + फॉस्फेट (फॉस्फोडिएस्टर लिंकेज)।\n\n### 2. ट्रांसक्रिप्शन यूनिट\n- इसमें प्रमोटर, संरचनात्मक जीन और टर्मिनेटर शामिल हैं।\n- **टेम्पलेट स्ट्रैंड**: 3'->5' ध्रुवीयता। RNA को संश्लेषित करने के लिए उपयोग किया जाता है।\n- **कोडिंग स्ट्रैंड**: 5'->3' ध्रुवीयता। RNA के समान अनुक्रम होता है (U के बजाय T)।\n\n### 3. पोस्ट-ट्रांसक्रिप्शनल संशोधन (यूकेरियोट्स)\n- स्प्लिसिंग (इंट्रॉन हटाना), कैपिंग (5' सिरे पर), और टेलिंग (3' सिरे पर पॉली-A टेल)।\n\n### 4. आनुवंशिक कोड की विशेषताएं\n- ट्रिपलेट (3 बेस)। असंदिग्ध (1 कोडोन = 1 अमीनो एसिड)। डीजेनरेट (कुछ अमीनो एसिड कई कोडोन द्वारा कोड किए जाते हैं)। सार्वभौमिक।\n\n### 5. DNA फिंगरप्रिंटिंग\n- दोहराए जाने वाले DNA (VNTRs) नामक विशिष्ट क्षेत्रों में अंतर की पहचान करना शामिल है। फोरेंसिक विज्ञान में उपयोग किया जाता है।"
+    }
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Rutherford's Model", "hi": "रदरफोर्ड का मॉडल" },
+    "definition": { "en": "Atom has a tiny, dense, positively charged core (nucleus) where almost all mass is concentrated. Electrons revolve around it.", "hi": "परमाणु में एक छोटा, सघन, धनावेशित कोर (नाभिक) होता है जहाँ लगभग सारा द्रव्यमान केंद्रित होता है। इलेक्ट्रॉन इसके चारों ओर चक्कर लगाते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Distance of Closest Approach", "hi": "निकटतम पहुँच की दूरी" },
+    "definition": { "en": "The minimum distance an alpha particle can reach before it stops and retraces its path. Gives an estimate of nucleus size.", "hi": "वह न्यूनतम दूरी जिस तक कोई अल्फा कण रुकने और अपने पथ पर वापस लौटने से पहले पहुँच सकता है। नाभिक के आकार का अनुमान देता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Bohr's First Postulate", "hi": "बोर की पहली अभिधारणा" },
+    "definition": { "en": "Electrons revolve in certain stable orbits without emitting radiant energy. These are called stationary states.", "hi": "इलेक्ट्रॉन बिना विकिरण ऊर्जा उत्सर्जित किए कुछ स्थिर कक्षाओं में चक्कर लगाते हैं। इन्हें स्थिर अवस्थाएँ (stationary states) कहा जाता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Bohr's Second Postulate (Quantization)", "hi": "बोर की दूसरी अभिधारणा (परिमाणीकरण)" },
+    "definition": { "en": "Angular momentum of revolving electron is an integral multiple of $h/2\\pi$. $L = mvr = nh/2\\pi$.", "hi": "चक्कर लगाने वाले इलेक्ट्रॉन का कोणीय संवेग $h/2\\pi$ का एक पूर्णांक गुणक होता है। $L = mvr = nh/2\\pi$।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Bohr's Third Postulate (Frequency)", "hi": "बोर की तीसरी अभिधारणा (आवृत्ति)" },
+    "definition": { "en": "Radiation is emitted or absorbed when an electron transitions between two stationary states. $h\\nu = E_i - E_f$.", "hi": "विकिरण उत्सर्जित या अवशोषित होता है जब एक इलेक्ट्रॉन दो स्थिर अवस्थाओं के बीच संक्रमण करता है। $h\\nu = E_i - E_f$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Bohr Radius ($a_0$)", "hi": "बोर त्रिज्या ($a_0$)" },
+    "definition": { "en": "Radius of the first orbit of hydrogen atom. $a_0 = 0.529 \\times 10^{-10}$ m = 0.53 Å.", "hi": "हाइड्रोजन परमाणु की पहली कक्षा की त्रिज्या। $a_0 = 0.529 \\times 10^{-10}$ m = 0.53 Å।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Energy Levels of Hydrogen", "hi": "हाइड्रोजन के ऊर्जा स्तर" },
+    "definition": { "en": "Energy of $n$th state: $E_n = -\\frac{13.6}{n^2} \\text{ eV}$. Negative sign indicates the electron is bound to the nucleus.", "hi": "$n$ वीं अवस्था की ऊर्जा: $E_n = -\\frac{13.6}{n^2} \\text{ eV}$। ऋणात्मक चिह्न इंगित करता है कि इलेक्ट्रॉन नाभिक से बंधा हुआ है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Lyman Series", "hi": "लाइमन श्रेणी" },
+    "definition": { "en": "Spectral lines resulting from electron transitions from higher levels to $n=1$. Lies in the ultraviolet (UV) region.", "hi": "उच्च स्तरों से $n=1$ में इलेक्ट्रॉन संक्रमण के परिणामस्वरूप होने वाली स्पेक्ट्रमी रेखाएँ। पराबैंगनी (UV) क्षेत्र में स्थित है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Balmer Series", "hi": "बामर श्रेणी" },
+    "definition": { "en": "Transitions from higher levels to $n=2$. Lies in the visible region. First line is $H_\\alpha$ (red).", "hi": "उच्च स्तरों से $n=2$ में संक्रमण। दृश्य क्षेत्र में स्थित है। पहली रेखा $H_\\alpha$ (लाल) है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Ionization Energy", "hi": "आयनन ऊर्जा" },
+    "definition": { "en": "Minimum energy required to free an electron from the ground state of an atom. For H-atom, it is +13.6 eV.", "hi": "किसी परमाणु की मूल अवस्था से एक इलेक्ट्रॉन को मुक्त करने के लिए आवश्यक न्यूनतम ऊर्जा। H-परमाणु के लिए, यह +13.6 eV है।" }
+  }
+]

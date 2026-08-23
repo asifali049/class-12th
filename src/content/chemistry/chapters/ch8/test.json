@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch8",
+  "title": {
+    "en": "Chemistry Chapter 8 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 8 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Aldehydes and ketones undergo which type of characteristic reaction?",
+        "hi": "एल्डिहाइड और कीटोन किस प्रकार की विशिष्ट अभिक्रिया से गुजरते हैं?"
+      },
+      "options": [
+        {
+          "en": "Electrophilic substitution",
+          "hi": "इलेक्ट्रोफिलिक (Electrophilic) प्रतिस्थापन"
+        },
+        {
+          "en": "Nucleophilic substitution",
+          "hi": "न्यूक्लियोफिलिक प्रतिस्थापन"
+        },
+        {
+          "en": "Nucleophilic addition",
+          "hi": "न्यूक्लियोफिलिक योगात्मक (addition)"
+        },
+        {
+          "en": "Electrophilic addition",
+          "hi": "इलेक्ट्रोफिलिक योगात्मक"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Due to the polarity of the carbonyl group (C=O), the carbon atom is electrophilic. Therefore, they readily undergo nucleophilic addition reactions.",
+        "hi": "कार्बोनिल समूह (C=O) की ध्रुवीयता के कारण, कार्बन परमाणु इलेक्ट्रोफिलिक होता है। इसलिए, वे आसानी से न्यूक्लियोफिलिक योगात्मक अभिक्रियाओं से गुजरते हैं।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following compounds gives a positive Tollens' test?",
+        "hi": "निम्नलिखित में से कौन सा यौगिक सकारात्मक टॉलेन (Tollens) परीक्षण देता है?"
+      },
+      "options": [
+        {
+          "en": "Acetone",
+          "hi": "एसीटोन"
+        },
+        {
+          "en": "Acetaldehyde",
+          "hi": "एसिटैल्डिहाइड"
+        },
+        {
+          "en": "Acetic acid",
+          "hi": "एसिटिक एसिड"
+        },
+        {
+          "en": "Ethyl acetate",
+          "hi": "इथाइल एसीटेट"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Tollens' reagent (ammoniacal silver nitrate) is a mild oxidizing agent that oxidizes aldehydes (like acetaldehyde) to carboxylate ions, forming a silver mirror. Ketones do not give this test.",
+        "hi": "टॉलेन अभिकर्मक (अमोनियाकल सिल्वर नाइट्रेट) एक हल्का ऑक्सीकरण एजेंट है जो एल्डिहाइड (जैसे एसिटैल्डिहाइड) को कार्बोक्सिलेट आयनों में ऑक्सीकृत करता है, जिससे एक सिल्वर मिरर बनता है। कीटोन यह परीक्षण नहीं देते हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "In the Clemmensen reduction, carbonyl compounds are treated with:",
+        "hi": "क्लीमेंसन (Clemmensen) अपचयन में, कार्बोनिल यौगिकों का उपचार किसके साथ किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Zinc amalgam and HCl",
+          "hi": "जिंक अमलगम और HCl"
+        },
+        {
+          "en": "Hydrazine and KOH",
+          "hi": "हाइड्राज़ीन (Hydrazine) और KOH"
+        },
+        {
+          "en": "Sodium borohydride",
+          "hi": "सोडियम बोरोहाइड्राइड"
+        },
+        {
+          "en": "Lithium aluminium hydride",
+          "hi": "लिथियम एल्यूमीनियम हाइड्राइड"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Clemmensen reduction reduces the carbonyl group (>C=O) of aldehydes and ketones to a methylene group (>CH2) using zinc amalgam ($Zn-Hg$) and concentrated hydrochloric acid.",
+        "hi": "क्लीमेंसन अपचयन जिंक अमलगम ($Zn-Hg$) और सांद्र हाइड्रोक्लोरिक एसिड का उपयोग करके एल्डिहाइड और केटोन्स के कार्बोनिल समूह (>C=O) को मेथिलीन समूह (>CH2) में अपचयित करता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following acids is the strongest?",
+        "hi": "निम्नलिखित में से कौन सा अम्ल सबसे प्रबल (strongest) है?"
+      },
+      "options": [
+        {
+          "en": "Acetic acid ($CH_3COOH$)",
+          "hi": "एसिटिक एसिड ($CH_3COOH$)"
+        },
+        {
+          "en": "Chloroacetic acid ($ClCH_2COOH$)",
+          "hi": "क्लोरोएसिटिक एसिड ($ClCH_2COOH$)"
+        },
+        {
+          "en": "Dichloroacetic acid ($Cl_2CHCOOH$)",
+          "hi": "डाइक्लोरोएसिटिक एसिड ($Cl_2CHCOOH$)"
+        },
+        {
+          "en": "Trichloroacetic acid ($Cl_3CCOOH$)",
+          "hi": "ट्राइक्लोरोएसिटिक एसिड ($Cl_3CCOOH$)"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "The strength of carboxylic acids increases with the number of electron-withdrawing groups (like Cl) due to the -I effect, which stabilizes the carboxylate anion. Hence, trichloroacetic acid is the strongest.",
+        "hi": "कार्बोक्जिलिक एसिड की ताकत -I प्रभाव के कारण इलेक्ट्रॉन-निकालने वाले समूहों (जैसे Cl) की संख्या के साथ बढ़ती है, जो कार्बोक्सिलेट आयन को स्थिर करता है। इसलिए, ट्राइक्लोरोएसिटिक एसिड सबसे प्रबल है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Aldol condensation is given by aldehydes and ketones containing at least one:",
+        "hi": "एल्डोल (Aldol) संघनन उन एल्डिहाइड और कीटोन द्वारा दिया जाता है जिनमें कम से कम एक क्या होता है?"
+      },
+      "options": [
+        {
+          "en": "$\\alpha$-hydrogen atom",
+          "hi": "$\\alpha$-हाइड्रोजन परमाणु"
+        },
+        {
+          "en": "$\\beta$-hydrogen atom",
+          "hi": "$\\beta$-हाइड्रोजन परमाणु"
+        },
+        {
+          "en": "Carbonyl group",
+          "hi": "कार्बोनिल समूह"
+        },
+        {
+          "en": "Hydroxyl group",
+          "hi": "हाइड्रॉक्सिल समूह"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Aldehydes and ketones having at least one $\\alpha$-hydrogen undergo aldol condensation in the presence of dilute alkali to form $\\beta$-hydroxy aldehydes (aldol) or $\\beta$-hydroxy ketones (ketol).",
+        "hi": "तनु क्षार की उपस्थिति में कम से कम एक $\\alpha$-हाइड्रोजन वाले एल्डिहाइड और कीटोन एल्डोल संघनन से गुजरते हैं और $\\beta$-हाइड्रॉक्सी एल्डिहाइड (एल्डोल) या $\\beta$-हाइड्रॉक्सी कीटोन (कीटोल) बनाते हैं।"
+      }
+    }
+  ]
+}

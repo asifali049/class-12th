@@ -3,29 +3,49 @@
     "id": "d1",
     "title": {
       "en": "Process of Double Fertilization",
-      "hi": "दोहरे निषेचन की प्रक्रिया"
+      "hi": "दोहरे निषेचन (Double Fertilization) की प्रक्रिया"
+    },
+    "concept": {
+      "en": "Double fertilization is a complex fertilization mechanism of flowering plants (angiosperms). It involves the joining of a female gametophyte (embryo sac) with two male gametes.",
+      "hi": "दोहरा निषेचन पुष्पीय पादपों (आवृतबीजी) का एक जटिल निषेचन तंत्र है। इसमें दो नर युग्मकों के साथ मादा युग्मकोद्भिद (भ्रूणकोष) का जुड़ना शामिल है।"
     },
     "steps": [
       {
-        "en": "Pollen grain lands on the compatible stigma and germinates.",
-        "hi": "परागकण संगत वर्तिकाग्र पर गिरता है और अंकुरित होता है।"
+        "title": { "en": "Step 1: Pollen Tube Entry", "hi": "चरण 1: पराग नली का प्रवेश" },
+        "content": {
+          "en": "After compatible pollination, the pollen grain germinates on the stigma to produce a pollen tube. The pollen tube grows through the style and enters the ovule through the micropyle.",
+          "hi": "संगत (compatible) परागण के बाद, परागकण वर्तिकाग्र पर अंकुरित होकर पराग नली बनाता है। पराग नली वर्तिका के माध्यम से बढ़ती है और बीजांडद्वार (micropyle) के माध्यम से बीजांड में प्रवेश करती है।"
+        }
       },
       {
-        "en": "Pollen tube grows through the style and enters the ovule.",
-        "hi": "पराग नलिका वर्तिका के माध्यम से बढ़ती है और बीजांड में प्रवेश करती है।"
+        "title": { "en": "Step 2: Release of Male Gametes", "hi": "चरण 2: नर युग्मकों की रिहाई" },
+        "content": {
+          "en": "The pollen tube enters one of the synergids through the filiform apparatus. The synergid degenerates and the pollen tube releases the two male gametes into the cytoplasm of the synergid.",
+          "hi": "पराग नली तंतुरूप उपकरण (filiform apparatus) के माध्यम से सहायक कोशिकाओं (synergids) में से एक में प्रवेश करती है। सहायक कोशिका पतित (degenerate) हो जाती है और पराग नली दोनों नर युग्मकों को सहायक कोशिका के कोशिकाद्रव्य में छोड़ देती है।"
+        }
       },
       {
-        "en": "**Syngamy**: One male gamete fuses with the egg cell nucleus to form a diploid zygote ($2n$).",
-        "hi": "**युग्मक संलयन (Syngamy)**: एक नर युग्मक द्विगुणित युग्मनज ($2n$) बनाने के लिए अंड कोशिका के साथ संलयन करता है।"
+        "title": { "en": "Step 3: Syngamy (First Fertilization)", "hi": "चरण 3: युग्मक संलयन (पहला निषेचन)" },
+        "content": {
+          "en": "One of the male gametes (n) moves towards the egg cell (n) and fuses with its nucleus. This process is called syngamy and it results in the formation of a diploid cell, the zygote (2n).",
+          "hi": "नर युग्मकों (n) में से एक अंड कोशिका (n) की ओर बढ़ता है और उसके केंद्रक के साथ विलीन हो जाता है। इस प्रक्रिया को युग्मक संलयन (syngamy) कहा जाता है और इसके परिणामस्वरूप एक द्विगुणित कोशिका, युग्मनज (zygote, 2n) का निर्माण होता है।"
+        }
       },
       {
-        "en": "**Triple Fusion**: The other male gamete fuses with two polar nuclei to produce a triploid PEN ($3n$).",
-        "hi": "**त्रिसंलयन (Triple Fusion)**: दूसरा नर युग्मक त्रिगुणित PEN ($3n$) बनाने के लिए दो ध्रुवीय केंद्रकों के साथ संलयन करता है।"
+        "title": { "en": "Step 4: Triple Fusion (Second Fertilization)", "hi": "चरण 4: त्रिसंलयन (दूसरा निषेचन)" },
+        "content": {
+          "en": "The other male gamete (n) moves towards the two polar nuclei (n + n) located in the central cell and fuses with them. This produces a triploid Primary Endosperm Nucleus (PEN, 3n). Since this involves the fusion of three haploid nuclei, it is termed triple fusion.",
+          "hi": "दूसरा नर युग्मक (n) केंद्रीय कोशिका में स्थित दो ध्रुवीय केंद्रकों (n + n) की ओर बढ़ता है और उनके साथ विलीन हो जाता है। इससे एक त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN, 3n) का निर्माण होता है। चूँकि इसमें तीन अगुणित केंद्रकों का संलयन शामिल है, इसलिए इसे त्रिसंलयन (triple fusion) कहा जाता है।"
+        }
       }
     ],
     "conclusion": {
-      "en": "Since two fusions take place, it is termed double fertilization.",
-      "hi": "चूँकि दो संलयन होते हैं, इसलिए इसे दोहरा निषेचन कहा जाता है।"
+      "en": "Since two types of fusions, syngamy and triple fusion, take place in an embryo sac, the phenomenon is termed double fertilization. The zygote develops into an embryo, and the PEN develops into the endosperm which provides nourishment to the developing embryo.",
+      "hi": "चूँकि एक भ्रूणकोष में दो प्रकार के संलयन, युग्मक संलयन और त्रिसंलयन होते हैं, इस घटना को दोहरा निषेचन कहा जाता है। युग्मनज एक भ्रूण में विकसित होता है, और PEN भ्रूणपोष में विकसित होता है जो विकासशील भ्रूण को पोषण प्रदान करता है।"
+    },
+    "examTip": {
+      "en": "Always mention the ploidy levels (n, 2n, 3n) of the components involved in Syngamy and Triple Fusion. It's a guaranteed way to score full marks.",
+      "hi": "युग्मक संलयन और त्रिसंलयन में शामिल घटकों के प्लॉइडी स्तर (n, 2n, 3n) का हमेशा उल्लेख करें। यह पूरे अंक प्राप्त करने का एक पक्का तरीका है।"
     }
   }
 ]

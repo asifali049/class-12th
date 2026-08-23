@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Leydig Cells", "hi": "लेडिग कोशिकाएं (Leydig Cells)" },
+    "definition": { "en": "Cells located in the interstitial spaces of the testis that synthesize and secrete testicular hormones called androgens.", "hi": "वृषण के अंतरालीय स्थानों में स्थित कोशिकाएं जो एण्ड्रोजन नामक वृषण हार्मोन का संश्लेषण और स्राव करती हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Sertoli Cells", "hi": "सर्टोली कोशिकाएं (Sertoli Cells)" },
+    "definition": { "en": "Cells present on the inside wall of seminiferous tubules that provide nutrition to the developing germ cells.", "hi": "शुक्रजनक नलिकाओं की भीतरी दीवार पर मौजूद कोशिकाएं जो विकासशील जर्म कोशिकाओं को पोषण प्रदान करती हैं।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Spermiogenesis", "hi": "स्पर्मियोजेनेसिस (Spermiogenesis)" },
+    "definition": { "en": "The process of transformation of non-motile spermatids into functional, motile spermatozoa (sperms).", "hi": "गैर-गतिशील स्पर्मेटिड्स का कार्यात्मक, गतिशील शुक्राणुओं (spermatozoa) में परिवर्तन की प्रक्रिया।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Spermiation", "hi": "स्पर्मिएशन (Spermiation)" },
+    "definition": { "en": "The release of mature sperms from the seminiferous tubules after their heads have been embedded in Sertoli cells.", "hi": "सर्टोली कोशिकाओं में उनके सिर एम्बेडेड होने के बाद शुक्रजनक नलिकाओं से परिपक्व शुक्राणुओं का विमोचन।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Ovulation", "hi": "ओव्यूलेशन (Ovulation)" },
+    "definition": { "en": "The release of a secondary oocyte from the ovary due to the rupture of the mature Graafian follicle, triggered by an LH surge.", "hi": "एलएच वृद्धि (LH surge) से ट्रिगर होकर, परिपक्व ग्राफ़ियन कूप के फटने के कारण अंडाशय से द्वितीयक ऊसाइट का विमोचन।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Corpus Luteum", "hi": "कॉर्पस ल्यूटियम (Corpus Luteum)" },
+    "definition": { "en": "A temporary endocrine structure formed from the ruptured Graafian follicle after ovulation, secreting large amounts of progesterone.", "hi": "ओव्यूलेशन के बाद फटे हुए ग्राफ़ियन कूप से बनी एक अस्थायी अंतःस्रावी संरचना, जो बड़ी मात्रा में प्रोजेस्टेरोन स्रावित करती है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Implantation", "hi": "आरोपण (Implantation)" },
+    "definition": { "en": "The attachment of the blastocyst to the endometrium of the uterus, leading to pregnancy.", "hi": "गर्भाशय के एंडोमेट्रियम से ब्लास्टोसिस्ट का जुड़ाव, जिससे गर्भावस्था होती है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Placenta", "hi": "अपरा (Placenta)" },
+    "definition": { "en": "A structural and functional unit connecting the foetus and maternal body, facilitating nutrient/gas exchange and secreting hormones like hCG and hPL.", "hi": "भ्रूण और मातृ शरीर को जोड़ने वाली एक संरचनात्मक और कार्यात्मक इकाई, जो पोषक तत्व/गैस विनिमय की सुविधा प्रदान करती है और hCG और hPL जैसे हार्मोन स्रावित करती है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Colostrum", "hi": "कोलोस्ट्रम (Colostrum)" },
+    "definition": { "en": "The first milk produced by the mammary glands after birth, rich in proteins and antibodies (like IgA) essential for infant immunity.", "hi": "जन्म के बाद स्तन ग्रंथियों द्वारा उत्पादित पहला दूध, जो शिशु प्रतिरक्षा के लिए आवश्यक प्रोटीन और एंटीबॉडी (जैसे IgA) से भरपूर होता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Parturition", "hi": "प्रसव (Parturition)" },
+    "definition": { "en": "The process of delivery of the fully developed foetus (childbirth) induced by a complex neuroendocrine mechanism involving oxytocin.", "hi": "ऑक्सीटोसिन से जुड़े एक जटिल न्यूरोएंडोक्राइन तंत्र द्वारा प्रेरित पूरी तरह से विकसित भ्रूण (प्रसव) की डिलीवरी की प्रक्रिया।" }
+  }
+]

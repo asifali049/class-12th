@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Key Medical Abbreviations (ART & Contraception)",
+      "hi": "प्रमुख चिकित्सा संक्षिप्त रूप (ART और गर्भनिरोधक)"
+    },
+    "formula": "\\text{RCH} = \\text{Reproductive and Child Health Care} \\\\ \\text{MTP} = \\text{Medical Termination of Pregnancy} \\\\ \\text{IUD} = \\text{Intra Uterine Device} \\\\ \\text{ART} = \\text{Assisted Reproductive Technology}",
+    "variables": [
+      {
+        "name": "\\text{MTP}",
+        "description": {
+          "en": "Intentional or voluntary termination of pregnancy before full term.",
+          "hi": "पूर्ण अवधि से पहले गर्भावस्था का जानबूझकर या स्वैच्छिक समापन।"
+        }
+      },
+      {
+        "name": "\\text{IUD}",
+        "description": {
+          "en": "Devices inserted by doctors or expert nurses in the uterus through vagina (e.g., CuT).",
+          "hi": "डॉक्टरों या विशेषज्ञ नर्सों द्वारा योनि के माध्यम से गर्भाशय में डाली जाने वाली युक्तियां (उदा., CuT)।"
+        }
+      }
+    ],
+    "applications": {
+      "en": "These abbreviations are frequently asked in Board exams as 1-mark expansion questions.",
+      "hi": "बोर्ड परीक्षाओं में 1-अंक के विस्तार वाले प्रश्नों के रूप में ये संक्षिप्त रूप अक्सर पूछे जाते हैं।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Assisted Reproductive Technology (ART) Techniques",
+      "hi": "सहायक जनन प्रौद्योगिकी (ART) तकनीकें"
+    },
+    "formula": "\\text{IVF} = \\text{In Vitro Fertilisation} \\\\ \\text{ZIFT} = \\text{Zygote Intra Fallopian Transfer} \\\\ \\text{GIFT} = \\text{Gamete Intra Fallopian Transfer} \\\\ \\text{ICSI} = \\text{Intra Cytoplasmic Sperm Injection}",
+    "variables": [
+      {
+        "name": "\\text{ZIFT}",
+        "description": {
+          "en": "Transfer of zygote or early embryos (up to 8 blastomeres) into the fallopian tube.",
+          "hi": "युग्मनज या प्रारंभिक भ्रूण (8 ब्लास्टोमेरेस तक) का फैलोपियन ट्यूब में स्थानांतरण।"
+        }
+      },
+      {
+        "name": "\\text{GIFT}",
+        "description": {
+          "en": "Transfer of an ovum from a donor into the fallopian tube of another female.",
+          "hi": "एक दाता से अंडाणु का दूसरी महिला के फैलोपियन ट्यूब में स्थानांतरण।"
+        }
+      }
+    ],
+    "applications": {
+      "en": "Vital for identifying the correct ART technique based on the clinical scenario (e.g., block in fallopian tube vs inability to produce ova).",
+      "hi": "नैदानिक परिदृश्य के आधार पर सही ART तकनीक की पहचान करने के लिए महत्वपूर्ण।"
+    }
+  }
+]

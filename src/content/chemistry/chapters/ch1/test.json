@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch1",
+  "title": {
+    "en": "Chemistry Chapter 1 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 1 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "The mole fraction of the solute in a 1.00 molal aqueous solution is:",
+        "hi": "1.00 मोलल (molal) जलीय विलयन में विलेय (solute) का मोल अंश (mole fraction) है:"
+      },
+      "options": [
+        {
+          "en": "0.0177",
+          "hi": "0.0177"
+        },
+        {
+          "en": "0.0344",
+          "hi": "0.0344"
+        },
+        {
+          "en": "1.7700",
+          "hi": "1.7700"
+        },
+        {
+          "en": "0.1770",
+          "hi": "0.1770"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "1 molal solution means 1 mole of solute is dissolved in 1 kg (1000 g) of water. Moles of water = $1000/18 = 55.55$. Mole fraction of solute = $1 / (1 + 55.55) = 1/56.55 = 0.0177$.",
+        "hi": "1 मोलल विलयन का अर्थ है कि 1 किलो (1000 ग्राम) पानी में 1 मोल विलेय घुला हुआ है। पानी के मोल = $1000/18 = 55.55$। विलेय का मोल अंश = $1 / (1 + 55.55) = 1/56.55 = 0.0177$।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is dependent on temperature?",
+        "hi": "निम्नलिखित में से कौन तापमान पर निर्भर करता है?"
+      },
+      "options": [
+        {
+          "en": "Molarity",
+          "hi": "मोलरता (Molarity)"
+        },
+        {
+          "en": "Molality",
+          "hi": "मोललता (Molality)"
+        },
+        {
+          "en": "Mole fraction",
+          "hi": "मोल अंश (Mole fraction)"
+        },
+        {
+          "en": "Weight percentage",
+          "hi": "भार प्रतिशत (Weight percentage)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Molarity is defined as moles of solute per volume of solution (in Liters). Since volume changes with temperature, molarity is temperature-dependent. Molality, mole fraction, and weight percentage are based on mass, which does not change with temperature.",
+        "hi": "मोलरता को प्रति आयतन विलयन (लीटर में) विलेय के मोल के रूप में परिभाषित किया जाता है। चूँकि आयतन तापमान के साथ बदलता है, इसलिए मोलरता तापमान पर निर्भर है। मोललता, मोल अंश और भार प्रतिशत द्रव्यमान पर आधारित होते हैं, जो तापमान के साथ नहीं बदलता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "According to Henry's law, the solubility of a gas in a liquid:",
+        "hi": "हेनरी के नियम के अनुसार, किसी द्रव में गैस की विलेयता:"
+      },
+      "options": [
+        {
+          "en": "Increases with increase in pressure",
+          "hi": "दबाव बढ़ने के साथ बढ़ती है"
+        },
+        {
+          "en": "Decreases with increase in pressure",
+          "hi": "दबाव बढ़ने के साथ घटती है"
+        },
+        {
+          "en": "Is independent of pressure",
+          "hi": "दबाव से स्वतंत्र है"
+        },
+        {
+          "en": "Is independent of temperature",
+          "hi": "तापमान से स्वतंत्र है"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Henry's law states that the partial pressure of the gas in vapor phase is proportional to the mole fraction of the gas in the solution ($p = K_H x$). Thus, higher pressure leads to higher solubility.",
+        "hi": "हेनरी के नियम में कहा गया है कि वाष्प अवस्था में गैस का आंशिक दबाव विलयन में गैस के मोल अंश के समानुपाती होता है ($p = K_H x$)। इस प्रकार, उच्च दबाव से उच्च विलेयता होती है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "An azeotropic mixture of two liquids has a boiling point lower than either of them when it:",
+        "hi": "दो द्रवों के एक स्थिरक्वाथी (azeotropic) मिश्रण का क्वथनांक दोनों में से किसी से भी कम होता है जब यह:"
+      },
+      "options": [
+        {
+          "en": "Shows positive deviation from Raoult's law",
+          "hi": "राउल्ट के नियम से धनात्मक विचलन दर्शाता है"
+        },
+        {
+          "en": "Shows negative deviation from Raoult's law",
+          "hi": "राउल्ट के नियम से ऋणात्मक विचलन दर्शाता है"
+        },
+        {
+          "en": "Forms an ideal solution",
+          "hi": "एक आदर्श विलयन बनाता है"
+        },
+        {
+          "en": "Is saturated",
+          "hi": "संतृप्त होता है"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "A minimum boiling azeotrope is formed by solutions showing a large positive deviation from Raoult's law (e.g., ethanol-water mixture).",
+        "hi": "न्यूनतम क्वथनांक स्थिरक्वाथी उन विलयनों द्वारा बनता है जो राउल्ट के नियम से एक बड़ा धनात्मक विचलन दर्शाते हैं (उदा., इथेनॉल-जल मिश्रण)।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Colligative properties depend on:",
+        "hi": "अणुसंख्य गुणधर्म (Colligative properties) किस पर निर्भर करते हैं?"
+      },
+      "options": [
+        {
+          "en": "The nature of the solute particles",
+          "hi": "विलेय कणों की प्रकृति"
+        },
+        {
+          "en": "The number of solute particles",
+          "hi": "विलेय कणों की संख्या"
+        },
+        {
+          "en": "The physical state of the solute",
+          "hi": "विलेय की भौतिक अवस्था"
+        },
+        {
+          "en": "The nature of the solvent particles",
+          "hi": "विलायक कणों की प्रकृति"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Colligative properties depend only on the number of solute particles in a solution, irrespective of their nature relative to the total number of particles present.",
+        "hi": "अणुसंख्य गुणधर्म विलयन में मौजूद कणों की कुल संख्या के सापेक्ष केवल विलेय कणों की संख्या पर निर्भर करते हैं, उनकी प्रकृति पर नहीं।"
+      }
+    }
+  ]
+}

@@ -1,15 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Microbes & Products",
-      "hi": "सूक्ष्म जीव और उत्पाद",
-      "hinglish": "Microbe Products"
-    },
-    "summary": {
-      "en": "Statins (Monascus purpureus)\nStreptokinase (Streptococcus)\nCitric acid (Aspergillus niger)",
-      "hi": "स्टैटिन (मोनस्कस परप्यूरियस)\nस्ट्रेप्टोकाइनेज (स्ट्रेप्टोकोकस)\nसाइट्रिक एसिड (एस्परगिलस नाइजर)"
-    },
-    "quickRecall": []
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Household**: LAB (Curd, increases Vit B12), Saccharomyces cerevisiae (Bread, Alcohol).\n- **Industrial**: \n  - Citric Acid (Aspergillus niger)\n  - Acetic Acid (Acetobacter aceti)\n  - Streptokinase (Streptococcus - Clot buster)\n  - Cyclosporin A (Trichoderma - Immunosuppressant)\n  - Statins (Monascus - Blood cholesterol lowerer)\n- **Sewage Treatment**: \n  - Primary = Physical (filtration/sedimentation).\n  - Secondary = Biological (aerobic microbes in flocs reduce BOD). Anaerobic sludge digesters produce biogas.\n- **Biocontrol**: Bt (caterpillars), Trichoderma (root pathogens), Baculoviruses/NPV (narrow spectrum).\n- **Biofertilisers**: Rhizobium (legumes), Mycorrhiza (Glomus - phosphorus absorption), Cyanobacteria (paddy fields).",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **घरेलू**: LAB (दही, विटामिन B12 बढ़ाता है), सैकैरोमाइसेस सेरेविसिया (ब्रेड, शराब)।\n- **औद्योगिक**: \n  - साइट्रिक एसिड (एस्परगिलस नाइगर)\n  - एसिटिक एसिड (एसिटोबैक्टर एसिटी)\n  - स्ट्रेप्टोकाइनेज (स्ट्रेप्टोकोकस - क्लॉट बस्टर)\n  - साइक्लोस्पोरिन A (ट्राइकोडर्मा - इम्यूनोसप्रेसेंट)\n  - स्टैटिन (मोनस्कस - रक्त कोलेस्ट्रॉल कम करने वाला)\n- **सीवेज उपचार**: \n  - प्राथमिक = शारीरिक (निस्पंदन/अवसादन)।\n  - द्वितीयक = जैविक (फ़्लॉक्स में एरोबिक रोगाणु BOD कम करते हैं)। अवायवीय कीचड़ डाइजेस्टर बायोगैस का उत्पादन करते हैं।\n- **जैव नियंत्रण**: Bt (कैटरपिलर), ट्राइकोडर्मा (जड़ रोगजनक), बैक्युलोवायरस/NPV (संकीर्ण स्पेक्ट्रम)।\n- **जैव उर्वरक**: राइजोबियम (फलियां), माइकोराइजा (ग्लोमस - फास्फोरस अवशोषण), साइनोबैक्टीरिया (धान के खेत)।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Microbes in Medicine\n- **Penicillin**: Discovered by Fleming from *Penicillium notatum*. Commercialized by Chain and Florey.\n- **Statins**: From yeast *Monascus purpureus*, competitively inhibits the enzyme responsible for cholesterol synthesis.\n\n### 2. Sewage Treatment Details\n- **Flocs**: Masses of bacteria associated with fungal filaments to form mesh-like structures in the aeration tank.\n- **BOD (Biochemical Oxygen Demand)**: High BOD = High pollution. Aerobic bacteria consume organic matter, lowering BOD.\n- **Activated Sludge**: The settled flocs from the settling tank. A part acts as inoculum, rest goes to anaerobic digesters.\n\n### 3. Biogas Production\n- Methanogens (e.g., Methanobacterium) breakdown cellulose anaerobically to produce Methane (CH4, main component), CO2, and H2.\n\n### 4. Biofertilisers vs Biocontrol\n- **Biofertilisers** enrich soil nutrients: Cyanobacteria (Nostoc, Anabaena) fix N2. Mycorrhiza (Glomus) helps plants absorb Phosphorus.\n- **Biocontrol** agents manage pests without chemicals: Ladybird (aphids), Dragonfly (mosquitoes), *Bacillus thuringiensis* (Bt crops), Baculoviruses (species-specific pest control).",
+      "hi": "### 1. चिकित्सा में सूक्ष्मजीव\n- **पेनिसिलिन**: फ्लेमिंग द्वारा *पेनिसिलियम नोटेटम* से खोजा गया। चेन और फ्लोरी द्वारा व्यावसायिक उपयोग।\n- **स्टैटिन**: यीस्ट *मोनस्कस परप्यूरियस* से, कोलेस्ट्रॉल संश्लेषण के लिए जिम्मेदार एंजाइम को प्रतिस्पर्धात्मक रूप से रोकता है।\n\n### 2. सीवेज उपचार विवरण\n- **फ़्लॉक्स (Flocs)**: वातन टैंक में जालीदार संरचनाएं बनाने के लिए कवक तंतुओं से जुड़े जीवाणुओं का द्रव्यमान।\n- **BOD (बायोकेमिकल ऑक्सीजन डिमांड)**: उच्च BOD = उच्च प्रदूषण। एरोबिक बैक्टीरिया कार्बनिक पदार्थों का उपभोग करते हैं, जिससे BOD कम होता है।\n- **सक्रिय कीचड़ (Activated Sludge)**: सेटलिंग टैंक से नीचे बैठे फ़्लॉक्स। एक भाग इनोक्यूलम के रूप में कार्य करता है, बाकी अवायवीय डाइजेस्टर में जाता है।\n\n### 3. बायोगैस उत्पादन\n- मेथनोजेन्स (उदा., मेथनोबैक्टीरियम) अवायवीय रूप से सेल्यूलोज को तोड़कर मीथेन (CH4, मुख्य घटक), CO2 और H2 का उत्पादन करते हैं।\n\n### 4. जैव उर्वरक बनाम जैव नियंत्रण\n- **जैव उर्वरक** मिट्टी के पोषक तत्वों को समृद्ध करते हैं: साइनोबैक्टीरिया N2 को ठीक करते हैं। माइकोराइजा (ग्लोमस) पौधों को फास्फोरस को अवशोषित करने में मदद करता है।\n- **जैव नियंत्रण** रसायन के बिना कीटों का प्रबंधन: लेडीबर्ड (एफिड्स), ड्रैगनफली (मच्छर), *बैसिलस थुरिंजिएंसिस* (Bt फसलें), बैक्युलोवायरस (प्रजाति-विशिष्ट कीट नियंत्रण)।"
+    }
   }
 ]

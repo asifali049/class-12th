@@ -1,20 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "IUDs (Intra Uterine Devices)",
-      "hi": "IUDs (इंट्रा यूटेराइन डिवाइस)",
-      "hinglish": "Types of IUDs"
-    },
-    "summary": {
-      "en": "**Non-medicated**: Lippes loop (promotes phagocytosis of sperms).\n**Copper releasing**: CuT, Multiload 375 (suppresses sperm motility).\n**Hormone releasing**: Progestasert, LNG-20 (makes uterus unsuitable for implantation).",
-      "hi": "**गैर-औषधीय**: लिप्पेस लूप (शुक्राणुओं के फागोसाइटोसिस को बढ़ावा देता है)।\n**कॉपर रिलीजिंग**: CuT, मल्टीलोड 375 (शुक्राणु की गतिशीलता को दबाता है)।\n**हार्मोन रिलीजिंग**: प्रोजेस्टासर्ट, LNG-20 (गर्भाशय को प्रत्यारोपण के लिए अनुपयुक्त बनाता है)।"
-    },
-    "quickRecall": [
-      {
-        "en": "Saheli = Once a week pill",
-        "hi": "सहेली = सप्ताह में एक बार गोली"
-      }
-    ]
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Contraception**: Natural (Periodic abstinence, Lactational amenorrhea), Barrier (Condoms, Diaphragms), IUDs (Copper T, LNG-20), Oral Pills (Saheli), Surgical (Vasectomy, Tubectomy).\n- **MTP**: Legalised in 1971. Safe up to 12 weeks (1st trimester).\n- **STIs**: Gonorrhoea, Syphilis, HIV, Hepatitis-B. (Hep-B, Herpes, and HIV are NOT completely curable).\n- **Infertility & ART**: \n  - **IVF**: Test-tube baby.\n  - **ZIFT**: Zygote to Fallopian Tube (≤ 8 blastomeres).\n  - **IUT**: Embryo to Uterus (> 8 blastomeres).\n  - **GIFT**: Ovum to Fallopian Tube.",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **गर्भनिरोधक**: प्राकृतिक (आवधिक संयम, दुग्धस्रवण अनातर्व), बाधा (कंडोम), IUD (कॉपर टी), मौखिक गोलियां (सहेली), सर्जिकल (वासेक्टोमी, ट्यूबेक्टोमी)।\n- **MTP**: 1971 में वैध। 12 सप्ताह (पहली तिमाही) तक सुरक्षित।\n- **STIs**: गोनोरिया, सिफलिस, HIV, हेपेटाइटिस-बी। (Hep-B, Herpes और HIV पूरी तरह से ठीक नहीं हो सकते)।\n- **बांझपन और ART**: \n  - **ZIFT**: फैलोपियन ट्यूब में युग्मनज (≤ 8 सेल)।\n  - **IUT**: गर्भाशय में भ्रूण (> 8 सेल)।\n  - **GIFT**: फैलोपियन ट्यूब में अंडाणु।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. IUDs (Intra Uterine Devices)\n- **Non-medicated**: Lippes loop (increases phagocytosis of sperms).\n- **Copper Releasing**: CuT, Multiload 375 (Cu ions suppress sperm motility).\n- **Hormone Releasing**: Progestasert, LNG-20 (make uterus unsuitable for implantation).\n\n### 2. Oral Contraceptives\n- Contain progestogen alone or with estrogen.\n- Inhibit ovulation and implantation.\n- **Saheli**: Once-a-week, non-steroidal pill by CDRI Lucknow.\n\n### 3. Amniocentesis\n- A fetal sex determination and chromosomal abnormality test based on chromosomal pattern in amniotic fluid.\n- Legally banned for sex determination to check female foeticide.\n\n### 4. Advanced ART Techniques\n- **ICSI**: Sperm is directly injected into the ovum in the lab.\n- **Artificial Insemination (AI/IUI)**: Semen from husband/donor is artificially introduced into the vagina/uterus.",
+      "hi": "### 1. IUDs (अंतर्गर्भाशयी युक्तियां)\n- **गैर-औषधीय**: Lippes loop (शुक्राणुओं का भक्षण बढ़ाते हैं)।\n- **कॉपर रिलीजिंग**: CuT (Cu आयन शुक्राणु की गतिशीलता दबाते हैं)।\n- **हार्मोन रिलीजिंग**: LNG-20 (गर्भाशय को प्रत्यारोपण के लिए अनुपयुक्त बनाते हैं)।\n\n### 2. मौखिक गर्भनिरोधक\n- **सहेली (Saheli)**: सप्ताह में एक बार ली जाने वाली, गैर-स्टेरॉयड गोली। यह अंडोत्सर्ग को रोकती है।\n\n### 3. एमनियोसेंटेसिस (Amniocentesis)\n- एमनियोटिक द्रव में गुणसूत्र पैटर्न के आधार पर भ्रूण लिंग और गुणसूत्र असामान्यता परीक्षण।\n- कन्या भ्रूण हत्या रोकने के लिए लिंग निर्धारण के लिए कानूनी रूप से प्रतिबंधित।\n\n### 4. उन्नत ART तकनीकें\n- **ICSI**: शुक्राणु को सीधे लैब में अंडाणु में इंजेक्ट किया जाता है।\n- **कृत्रिम गर्भाधान (IUI)**: वीर्य कृत्रिम रूप से गर्भाशय में डाला जाता है।"
+    }
   }
 ]

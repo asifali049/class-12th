@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "The Evil Quartet: Causes of Biodiversity Loss",
+      "hi": "द एविल क्वार्टेट (The Evil Quartet): जैव विविधता के नुकसान के कारण"
+    },
+    "concept": {
+      "en": "The biological wealth of our planet has been declining rapidly due to human activities. 'The Evil Quartet' describes the four major causes driving this accelerated rate of species extinction.",
+      "hi": "मानवीय गतिविधियों के कारण हमारे ग्रह की जैविक संपदा में तेजी से गिरावट आ रही है। 'द एविल क्वार्टेट' प्रजातियों के विलुप्त होने की इस त्वरित दर को चलाने वाले चार प्रमुख कारणों का वर्णन करता है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "1. Habitat Loss and Fragmentation", "hi": "1. आवास का नुकसान और विखंडन" },
+        "content": {
+          "en": "This is the primary cause of extinction. Tropical rain forests, once covering 14% of the earth's land surface, now cover less than 6%. The Amazon rain forest (lungs of the planet) is being cut for cultivating soya beans or beef cattle. Fragmentation of large habitats into smaller ones affects mammals and birds requiring large territories.",
+          "hi": "यह विलुप्त होने का प्राथमिक कारण है। उष्णकटिबंधीय वर्षा वन, जो कभी पृथ्वी के भूमि क्षेत्र के 14% हिस्से को कवर करते थे, अब 6% से भी कम हिस्से को कवर करते हैं। अमेज़ॅन वर्षा वन (ग्रह के फेफड़े) को सोयाबीन या गोमांस मवेशियों की खेती के लिए काटा जा रहा है। बड़े आवासों का छोटे आवासों में विखंडन बड़े क्षेत्रों की आवश्यकता वाले स्तनधारियों और पक्षियों को प्रभावित करता है।"
+        }
+      },
+      {
+        "title": { "en": "2. Over-exploitation", "hi": "2. अति-दोहन (Over-exploitation)" },
+        "content": {
+          "en": "When human 'need' turns to 'greed', it leads to the over-exploitation of natural resources. Many species like Steller's sea cow and the passenger pigeon became extinct in the last 500 years due to over-exploitation by humans. Presently, many marine fish populations are over-harvested.",
+          "hi": "जब मानवीय 'जरूरत' 'लालच' में बदल जाती है, तो यह प्राकृतिक संसाधनों के अति-दोहन की ओर ले जाता है। पिछले 500 वर्षों में इंसानों द्वारा अत्यधिक दोहन के कारण स्टेलर की समुद्री गाय और यात्री कबूतर जैसी कई प्रजातियां विलुप्त हो गईं। वर्तमान में, कई समुद्री मछली आबादी का अत्यधिक दोहन किया जाता है।"
+        }
+      },
+      {
+        "title": { "en": "3. Alien Species Invasions", "hi": "3. विदेशी प्रजातियों का आक्रमण" },
+        "content": {
+          "en": "When alien (non-native) species are introduced, some turn invasive and cause the decline or extinction of indigenous species. Example: The introduction of the Nile perch into Lake Victoria (East Africa) led to the extinction of over 200 species of native cichlid fish. Invasive weeds like Parthenium, Lantana, and Water hyacinth (Eichhornia) cause environmental damage.",
+          "hi": "जब विदेशी (गैर-देशी) प्रजातियों को पेश किया जाता है, तो कुछ आक्रामक हो जाती हैं और स्वदेशी प्रजातियों की गिरावट या विलुप्त होने का कारण बनती हैं। उदाहरण: लेक विक्टोरिया (पूर्वी अफ्रीका) में नाइल पर्च की शुरूआत से देशी सिक्लिड (cichlid) मछली की 200 से अधिक प्रजातियां विलुप्त हो गईं। पार्थेनियम, लैंटाना और जलकुंभी (Eichhornia) जैसे आक्रामक खरपतवार पर्यावरणीय क्षति का कारण बनते हैं।"
+        }
+      },
+      {
+        "title": { "en": "4. Co-extinctions", "hi": "4. सह-विलुप्ति (Co-extinctions)" },
+        "content": {
+          "en": "When a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct. Example: In a plant-pollinator mutualism, the extinction of one invariably leads to the extinction of the other.",
+          "hi": "जब एक प्रजाति विलुप्त हो जाती है, तो उसके साथ अनिवार्य रूप से जुड़ी पौधे और जानवरों की प्रजातियाँ भी विलुप्त हो जाती हैं। उदाहरण: पौधे-परागणक (plant-pollinator) सहोपकारिता में, एक के विलुप्त होने से दूसरे का विलुप्त होना तय है।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "Understanding these four factors is crucial for developing effective biodiversity conservation strategies (In-situ and Ex-situ) to halt the current mass extinction (the 'Sixth Extinction').",
+      "hi": "वर्तमान सामूहिक विलुप्ति ('छठी विलुप्ति') को रोकने के लिए प्रभावी जैव विविधता संरक्षण रणनीतियों (इन-सीटू और एक्स-सीटू) को विकसित करने के लिए इन चार कारकों को समझना महत्वपूर्ण है।"
+    },
+    "examTip": {
+      "en": "Always mention 'The Evil Quartet' when asked about the causes of biodiversity loss in board exams.",
+      "hi": "बोर्ड परीक्षाओं में जैव विविधता के नुकसान के कारणों के बारे में पूछे जाने पर हमेशा 'द एविल क्वार्टेट' का उल्लेख करें।"
+    }
+  }
+]

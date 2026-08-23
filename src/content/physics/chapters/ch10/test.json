@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch10",
+  "title": {
+    "en": "Physics Chapter 10 Mock Test",
+    "hi": "भौतिकी अध्याय 10 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "In Young's Double Slit Experiment, if the distance between the slits is halved and the distance to the screen is doubled, the fringe width becomes:",
+        "hi": "यंग के द्वि-स्लिट प्रयोग (YDSE) में, यदि स्लिट्स के बीच की दूरी आधी कर दी जाए और स्क्रीन की दूरी दोगुनी कर दी जाए, तो फ्रिंज की चौड़ाई (fringe width) हो जाती है:"
+      },
+      "options": [
+        {
+          "en": "Half",
+          "hi": "आधी"
+        },
+        {
+          "en": "Double",
+          "hi": "दोगुनी"
+        },
+        {
+          "en": "Four times",
+          "hi": "चार गुनी"
+        },
+        {
+          "en": "Unchanged",
+          "hi": "अपरिवर्तित"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. If $d' = d/2$ and $D' = 2D$, then $\\beta' = \\frac{\\lambda (2D)}{(d/2)} = 4 \\frac{\\lambda D}{d} = 4\\beta$.",
+        "hi": "फ्रिंज चौड़ाई $\\beta = \\frac{\\lambda D}{d}$। यदि $d' = d/2$ और $D' = 2D$, तो $\\beta' = \\frac{\\lambda (2D)}{(d/2)} = 4 \\frac{\\lambda D}{d} = 4\\beta$।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The phenomenon of interference is based on the principle of conservation of:",
+        "hi": "व्यतिकरण (interference) की घटना किसके संरक्षण के सिद्धांत पर आधारित है?"
+      },
+      "options": [
+        {
+          "en": "Energy",
+          "hi": "ऊर्जा"
+        },
+        {
+          "en": "Momentum",
+          "hi": "संवेग"
+        },
+        {
+          "en": "Charge",
+          "hi": "आवेश"
+        },
+        {
+          "en": "Wavefront",
+          "hi": "तरंगाग्र (Wavefront)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Interference is merely a redistribution of energy. The energy missing at dark fringes appears at bright fringes, conserving total energy.",
+        "hi": "व्यतिकरण केवल ऊर्जा का पुनर्वितरण है। अदीप्त (dark) फ्रिंजों पर गायब ऊर्जा दीप्त (bright) फ्रिंजों पर दिखाई देती है, जिससे कुल ऊर्जा संरक्षित रहती है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "For constructive interference, the phase difference between two interfering waves must be:",
+        "hi": "रचनात्मक व्यतिकरण (constructive interference) के लिए, दो व्यतिकरण तरंगों के बीच कलांतर (phase difference) होना चाहिए:"
+      },
+      "options": [
+        {
+          "en": "Odd multiple of $\\pi$",
+          "hi": "$\\pi$ का विषम गुणक (Odd multiple)"
+        },
+        {
+          "en": "Even multiple of $\\pi$",
+          "hi": "$\\pi$ का सम गुणक (Even multiple)"
+        },
+        {
+          "en": "Odd multiple of $\\pi/2$",
+          "hi": "$\\pi/2$ का विषम गुणक"
+        },
+        {
+          "en": "Zero only",
+          "hi": "केवल शून्य"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "For constructive interference (maxima), phase difference $\\phi = 2n\\pi$ (where $n = 0, 1, 2...$), which is an even multiple of $\\pi$.",
+        "hi": "रचनात्मक व्यतिकरण (उच्चिष्ठ) के लिए, कलांतर $\\phi = 2n\\pi$ (जहाँ $n = 0, 1, 2...$), जो $\\pi$ का सम गुणक है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "In single slit diffraction, the width of the central maximum is:",
+        "hi": "एकल स्लिट विवर्तन (single slit diffraction) में, केंद्रीय उच्चिष्ठ (central maximum) की चौड़ाई है:"
+      },
+      "options": [
+        {
+          "en": "Independent of slit width",
+          "hi": "स्लिट की चौड़ाई से स्वतंत्र"
+        },
+        {
+          "en": "Directly proportional to slit width",
+          "hi": "स्लिट की चौड़ाई के अनुक्रमानुपाती"
+        },
+        {
+          "en": "Inversely proportional to slit width",
+          "hi": "स्लिट की चौड़ाई के व्युत्क्रमानुपाती"
+        },
+        {
+          "en": "Equal to the slit width",
+          "hi": "स्लिट की चौड़ाई के बराबर"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Angular width of central maximum is $2\\theta = 2\\lambda/a$. Linear width is $2D\\lambda/a$. Thus, it is inversely proportional to the slit width $a$.",
+        "hi": "केंद्रीय उच्चिष्ठ की कोणीय चौड़ाई $2\\theta = 2\\lambda/a$ है। रैखिक चौड़ाई $2D\\lambda/a$ है। इस प्रकार, यह स्लिट की चौड़ाई $a$ के व्युत्क्रमानुपाती है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The resolving power of a telescope can be increased by:",
+        "hi": "एक दूरदर्शी की विभेदन क्षमता (resolving power) किसके द्वारा बढ़ाई जा सकती है?"
+      },
+      "options": [
+        {
+          "en": "Increasing wavelength of light",
+          "hi": "प्रकाश की तरंग दैर्ध्य बढ़ाकर"
+        },
+        {
+          "en": "Decreasing diameter of objective",
+          "hi": "अभिदृश्यक (objective) का व्यास कम करके"
+        },
+        {
+          "en": "Increasing diameter of objective",
+          "hi": "अभिदृश्यक का व्यास बढ़ाकर"
+        },
+        {
+          "en": "Increasing focal length of eyepiece",
+          "hi": "नेत्रिका (eyepiece) की फोकस दूरी बढ़ाकर"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Resolving power of a telescope $= D / (1.22 \\lambda)$. To increase it, we must increase the diameter ($D$) of the objective lens or use light of shorter wavelength.",
+        "hi": "दूरदर्शी की विभेदन क्षमता $= D / (1.22 \\lambda)$। इसे बढ़ाने के लिए, हमें अभिदृश्यक लेंस का व्यास ($D$) बढ़ाना होगा या छोटी तरंग दैर्ध्य वाले प्रकाश का उपयोग करना होगा।"
+      }
+    }
+  ]
+}

@@ -2,42 +2,99 @@
   {
     "id": "d1",
     "title": {
-      "en": "Pathway of Sperm Transport",
-      "hi": "शुक्राणु परिवहन का मार्ग"
+      "en": "Process of Spermatogenesis",
+      "hi": "शुक्राणुजनन (Spermatogenesis) की प्रक्रिया"
+    },
+    "concept": {
+      "en": "Spermatogenesis is the process of formation of haploid spermatozoa (sperms) from diploid spermatogonia in the seminiferous tubules of the testis. It begins at puberty due to a significant increase in the secretion of GnRH.",
+      "hi": "शुक्राणुजनन वृषण की शुक्रजनक नलिकाओं (seminiferous tubules) में द्विगुणित स्पर्मेटोगोनिया से अगुणित शुक्राणुओं (spermatozoa) के निर्माण की प्रक्रिया है। यह GnRH के स्राव में उल्लेखनीय वृद्धि के कारण यौवन पर शुरू होता है।"
     },
     "steps": [
       {
-        "en": "Seminiferous Tubules",
-        "hi": "शुक्रजनक नलिकाएं (Seminiferous Tubules)"
+        "title": { "en": "Step 1: Multiplication Phase", "hi": "चरण 1: गुणन चरण" },
+        "content": {
+          "en": "The spermatogonia (2n = 46) present on the inside wall of seminiferous tubules multiply by mitotic division and increase in numbers.",
+          "hi": "शुक्रजनक नलिकाओं की भीतरी दीवार पर मौजूद स्पर्मेटोगोनिया (2n = 46) समसूत्री विभाजन द्वारा गुणा करते हैं और संख्या में वृद्धि करते हैं।"
+        }
       },
       {
-        "en": "Rete Testis",
-        "hi": "वृषण जालिका (Rete Testis)"
+        "title": { "en": "Step 2: Growth Phase", "hi": "चरण 2: वृद्धि चरण" },
+        "content": {
+          "en": "Some of the spermatogonia grow in size by accumulating nourishment to form Primary Spermatocytes (2n = 46).",
+          "hi": "कुछ स्पर्मेटोगोनिया प्राथमिक स्पर्मेटोसाइट्स (Primary Spermatocytes, 2n = 46) बनाने के लिए पोषण जमा करके आकार में बढ़ते हैं।"
+        }
       },
       {
-        "en": "Vasa Efferentia",
-        "hi": "शुक्रवाहिका (Vasa Efferentia)"
+        "title": { "en": "Step 3: Maturation Phase (Meiosis I & II)", "hi": "चरण 3: परिपक्वता चरण (अर्धसूत्रीविभाजन I और II)" },
+        "content": {
+          "en": "A primary spermatocyte completes the first meiotic division (reduction division) leading to formation of two equal, haploid cells called Secondary Spermatocytes (n = 23). The secondary spermatocytes undergo the second meiotic division to produce four equal, haploid Spermatids (n = 23).",
+          "hi": "एक प्राथमिक स्पर्मेटोसाइट पहला अर्धसूत्रीविभाजन (न्यूनकारी विभाजन) पूरा करता है जिससे दो समान, अगुणित कोशिकाएं बनती हैं जिन्हें द्वितीयक स्पर्मेटोसाइट्स (n = 23) कहा जाता है। द्वितीयक स्पर्मेटोसाइट्स चार समान, अगुणित स्पर्मेटिड्स (n = 23) का उत्पादन करने के लिए दूसरे अर्धसूत्रीविभाजन से गुजरते हैं।"
+        }
       },
       {
-        "en": "Epididymis",
-        "hi": "अधिवृषण (Epididymis)"
-      },
-      {
-        "en": "Vas Deferens",
-        "hi": "शुक्रवाहक (Vas Deferens)"
-      },
-      {
-        "en": "Ejaculatory Duct",
-        "hi": "स्खलन नलिका (Ejaculatory Duct)"
-      },
-      {
-        "en": "Urethra",
-        "hi": "मूत्रमार्ग (Urethra)"
+        "title": { "en": "Step 4: Spermiogenesis and Spermiation", "hi": "चरण 4: स्पर्मियोजेनेसिस और स्पर्मिएशन" },
+        "content": {
+          "en": "The spermatids are transformed into spermatozoa (sperms) by the process called spermiogenesis. After spermiogenesis, sperm heads become embedded in the Sertoli cells, and are finally released from the seminiferous tubules by the process called spermiation.",
+          "hi": "स्पर्मेटिड्स को स्पर्मियोजेनेसिस नामक प्रक्रिया द्वारा शुक्राणुओं में बदल दिया जाता है। स्पर्मियोजेनेसिस के बाद, शुक्राणु के सिर सर्टोली कोशिकाओं में एम्बेडेड हो जाते हैं, और अंततः स्पर्मिएशन नामक प्रक्रिया द्वारा शुक्रजनक नलिकाओं से निकल जाते हैं।"
+        }
       }
     ],
     "conclusion": {
-      "en": "This is the complete pathway for the exit of sperm.",
-      "hi": "यह शुक्राणु के बाहर निकलने का पूरा मार्ग है।"
+      "en": "The entire process is regulated by hormones: LH acts on Leydig cells to stimulate androgen synthesis, while FSH acts on Sertoli cells to stimulate factors helping in spermiogenesis.",
+      "hi": "पूरी प्रक्रिया हार्मोन द्वारा नियंत्रित होती है: एलएच (LH) एण्ड्रोजन संश्लेषण को उत्तेजित करने के लिए लेडिग कोशिकाओं पर कार्य करता है, जबकि एफएसएच (FSH) स्पर्मियोजेनेसिस में मदद करने वाले कारकों को उत्तेजित करने के लिए सर्टोली कोशिकाओं पर कार्य करता है।"
+    },
+    "examTip": {
+      "en": "Clearly distinguish between Spermatogenesis (formation of sperm), Spermiogenesis (spermatid to sperm transformation), and Spermiation (release of sperm).",
+      "hi": "स्पर्मेटोजेनेसिस (शुक्राणु का निर्माण), स्पर्मियोजेनेसिस (स्पर्मेटिड से शुक्राणु में परिवर्तन), और स्पर्मिएशन (शुक्राणु का विमोचन) के बीच स्पष्ट रूप से अंतर करें।"
+    }
+  },
+  {
+    "id": "d2",
+    "title": {
+      "en": "The Menstrual Cycle",
+      "hi": "आर्तव चक्र (Menstrual Cycle)"
+    },
+    "concept": {
+      "en": "The reproductive cycle in the female primates (e.g. monkeys, apes, and human beings) is called menstrual cycle. It averages 28/29 days.",
+      "hi": "मादा प्राइमेट (उदा., बंदर, वानर और मनुष्य) में प्रजनन चक्र को आर्तव चक्र कहा जाता है। यह औसतन 28/29 दिनों का होता है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "1. Menstrual Phase (Days 1-5)", "hi": "1. मासिक धर्म चरण (दिन 1-5)" },
+        "content": {
+          "en": "The cycle starts with the menstrual flow. It occurs due to the breakdown of endometrial lining of the uterus and its blood vessels which forms liquid that comes out through vagina. Menstruation only occurs if the released ovum is not fertilized.",
+          "hi": "चक्र मासिक धर्म प्रवाह से शुरू होता है। यह गर्भाशय के एंडोमेट्रियल अस्तर और इसकी रक्त वाहिकाओं के टूटने के कारण होता है जो तरल बनाता है जो योनि से बाहर आता है। मासिक धर्म तभी होता है जब छोड़ा गया डिंब निषेचित नहीं होता है।"
+        }
+      },
+      {
+        "title": { "en": "2. Follicular (Proliferative) Phase (Days 6-13)", "hi": "2. कूपिक (प्रोलिफेरेटिव) चरण (दिन 6-13)" },
+        "content": {
+          "en": "Primary follicles in the ovary grow to become a fully mature Graafian follicle. Simultaneously, the endometrium regenerates through proliferation. These changes are induced by changes in levels of pituitary and ovarian hormones (LH, FSH increase gradually, stimulating estrogen secretion).",
+          "hi": "अंडाशय में प्राथमिक कूप एक पूरी तरह से परिपक्व ग्राफ़ियन कूप बनने के लिए बढ़ते हैं। साथ ही, एंडोमेट्रियम प्रसार के माध्यम से पुनर्जीवित होता है। ये परिवर्तन पिट्यूटरी और डिम्बग्रंथि हार्मोन के स्तर में परिवर्तन से प्रेरित होते हैं (एलएच, एफएसएच धीरे-धीरे बढ़ते हैं, एस्ट्रोजन स्राव को उत्तेजित करते हैं)।"
+        }
+      },
+      {
+        "title": { "en": "3. Ovulatory Phase (Day 14)", "hi": "3. ओव्यूलेटरी चरण (दिन 14)" },
+        "content": {
+          "en": "Both LH and FSH attain a peak level in the middle of cycle (about 14th day). Rapid secretion of LH leading to its maximum level (LH surge) induces rupture of Graafian follicle and thereby the release of ovum (ovulation).",
+          "hi": "एलएच और एफएसएच दोनों चक्र के मध्य (लगभग 14वें दिन) में चरम स्तर पर पहुंच जाते हैं। एलएच के तेजी से स्राव से इसके अधिकतम स्तर (एलएच वृद्धि) से ग्राफ़ियन कूप फट जाता है और डिंब निकल जाता है (ओव्यूलेशन)।"
+        }
+      },
+      {
+        "title": { "en": "4. Luteal (Secretory) Phase (Days 15-28)", "hi": "4. ल्यूटियल (स्रावी) चरण (दिन 15-28)" },
+        "content": {
+          "en": "The remaining parts of the Graafian follicle transform as the corpus luteum. The corpus luteum secretes large amounts of progesterone which is essential for maintenance of the endometrium (necessary for implantation).",
+          "hi": "ग्राफ़ियन कूप के शेष भाग कॉर्पस ल्यूटियम के रूप में बदल जाते हैं। कॉर्पस ल्यूटियम बड़ी मात्रा में प्रोजेस्टेरोन स्रावित करता है जो एंडोमेट्रियम (आरोपण के लिए आवश्यक) के रखरखाव के लिए आवश्यक है।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "If fertilization does not occur, the corpus luteum degenerates. This causes disintegration of the endometrium leading to a new menstruation, marking a new cycle.",
+      "hi": "यदि निषेचन नहीं होता है, तो कॉर्पस ल्यूटियम पतित हो जाता है। इससे एंडोमेट्रियम का विघटन होता है जिससे एक नया मासिक धर्म होता है, जो एक नए चक्र को चिह्नित करता है।"
+    },
+    "examTip": {
+      "en": "Remember that the LH surge on the 14th day is the direct cause of ovulation. Progesterone is the pregnancy-maintaining hormone.",
+      "hi": "याद रखें कि 14वें दिन एलएच (LH) में वृद्धि ओव्यूलेशन का प्रत्यक्ष कारण है। प्रोजेस्टेरोन गर्भावस्था को बनाए रखने वाला हार्मोन है।"
     }
   }
 ]

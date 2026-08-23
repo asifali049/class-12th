@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Ecological Pyramids (Upright vs Inverted)",
+      "hi": "पारिस्थितिक पिरामिड (सीधा बनाम उल्टा)"
+    },
+    "description": {
+      "en": "A comparative representation of the always upright Pyramid of Energy (showing the 10% law) and the inverted Pyramid of Biomass in an aquatic ecosystem.",
+      "hi": "हमेशा सीधे रहने वाले ऊर्जा के पिरामिड (10% नियम दर्शाते हुए) और जलीय पारिस्थितिकी तंत्र में बायोमास के उल्टे पिरामिड का तुलनात्मक प्रतिनिधित्व।"
+    },
+    "svgCode": "<svg viewBox='0 0 800 500' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.pyr-level{stroke:#fff;stroke-width:2;}.prod{fill:#22c55e;}.pc{fill:#3b82f6;}.sc{fill:#eab308;}.tc{fill:#ef4444;}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;text-anchor:middle;}.text-small{font-size:14px;font-family:sans-serif;fill:#fff;text-anchor:middle;font-weight:bold;}.text-label{font-size:14px;font-family:sans-serif;fill:#475569;text-anchor:middle;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(200, 80)'><text x='0' y='-30' class='text-main'>Pyramid of Energy (Always Upright)</text><polygon points='-150,300 150,300 110,240 -110,240' class='pyr-level prod'/><polygon points='-110,240 110,240 70,180 -70,180' class='pyr-level pc'/><polygon points='-70,180 70,180 30,120 -30,120' class='pyr-level sc'/><polygon points='-30,120 30,120 0,60' class='pyr-level tc'/><text x='0' y='275' class='text-small'>Primary Producers (PP)</text><text x='0' y='215' class='text-small'>Primary Consumers (PC)</text><text x='0' y='155' class='text-small'>Secondary Consumers (SC)</text><text x='0' y='105' class='text-small'>TC</text><text x='-200' y='275' class='text-label' style='text-anchor:end'>10,000 J</text><text x='-200' y='215' class='text-label' style='text-anchor:end'>1,000 J</text><text x='-200' y='155' class='text-label' style='text-anchor:end'>100 J</text><text x='-200' y='105' class='text-label' style='text-anchor:end'>10 J</text></g><g transform='translate(600, 80)'><text x='0' y='-30' class='text-main'>Inverted Pyramid of Biomass (Aquatic)</text><polygon points='0,300 -30,240 30,240' class='pyr-level prod'/><polygon points='-30,240 30,240 70,180 -70,180' class='pyr-level pc'/><polygon points='-70,180 70,180 110,120 -110,120' class='pyr-level sc'/><polygon points='-110,120 110,120 150,60 -150,60' class='pyr-level tc'/><text x='0' y='275' class='text-small'>PP</text><text x='0' y='215' class='text-small'>PC (Zooplankton)</text><text x='0' y='155' class='text-small'>SC (Small Fishes)</text><text x='0' y='95' class='text-small'>TC (Large Fishes)</text><text x='180' y='275' class='text-label' style='text-anchor:start'>4 g/m²</text><text x='180' y='215' class='text-label' style='text-anchor:start'>21 g/m²</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 100, "y": 420, "text": { "en": "Energy strictly follows 10% law", "hi": "ऊर्जा कड़ाई से 10% नियम का पालन करती है" } },
+      { "id": "l2", "x": 600, "y": 420, "text": { "en": "Phytoplankton have high turnover", "hi": "फाइटोप्लांकटन में उच्च कारोबार (turnover) होता है" } }
+    ]
+  }
+]

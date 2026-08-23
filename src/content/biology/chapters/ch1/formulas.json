@@ -2,36 +2,27 @@
   {
     "id": "f1",
     "title": {
-      "en": "Chromosome Number Formula",
-      "hi": "गुणसूत्र संख्या सूत्र"
+      "en": "Ploidy Levels in Angiosperms",
+      "hi": "आवृतबीजी में प्लॉइडी स्तर (Ploidy Levels)"
     },
-    "formula": "n \\text{ (haploid)}, \\quad 2n \\text{ (diploid)}, \\quad 3n \\text{ (triploid)}",
+    "formula": "\\text{PEN} = 3n, \\; \\text{Zygote} = 2n, \\; \\text{Gamete} = n",
     "variables": [
       {
         "name": "n",
-        "description": {
-          "en": "Gametes (Pollen, Egg), Synergids, Antipodals",
-          "hi": "युग्मक (पराग, अंड), सहायक कोशिकाएं, प्रतिव्यासांत"
-        }
+        "description": { "en": "Haploid chromosome number (e.g., in pollen, egg cell, synergid, antipodal)", "hi": "अगुणित गुणसूत्र संख्या (उदा., पराग, अंड कोशिका, सहायक कोशिका, प्रतिव्यासांत कोशिका में)" }
       },
       {
         "name": "2n",
-        "description": {
-          "en": "Zygote, Nucellus, Integuments, MMC, PMC",
-          "hi": "युग्मनज, बीजांडकाय, अध्यावरण, MMC, PMC"
-        }
+        "description": { "en": "Diploid chromosome number (e.g., in zygote, nucellus, PMC, MMC)", "hi": "द्विगुणित गुणसूत्र संख्या (उदा., युग्मनज, बीजांडकाय, PMC, MMC में)" }
       },
       {
         "name": "3n",
-        "description": {
-          "en": "Primary Endosperm Nucleus (PEN) / Endosperm",
-          "hi": "प्राथमिक भ्रूणपोष केंद्रक (PEN) / भ्रूणपोष"
-        }
+        "description": { "en": "Triploid chromosome number (e.g., in Primary Endosperm Nucleus / Endosperm)", "hi": "त्रिगुणित गुणसूत्र संख्या (उदा., प्राथमिक भ्रूणपोष केंद्रक / भ्रूणपोष में)" }
       }
     ],
     "applications": {
-      "en": "Used to determine the ploidy level of various cells in a plant.",
-      "hi": "पौधे में विभिन्न कोशिकाओं के प्लॉइडी स्तर (गुणसूत्रों के सेट) को निर्धारित करने के लिए उपयोग किया जाता है।"
+      "en": "Used to calculate chromosome numbers in different parts of a plant. If the leaf cell (2n) has 24 chromosomes, then $n = 12$. The endosperm (3n) will have $3 \\times 12 = 36$ chromosomes, and pollen (n) will have 12.",
+      "hi": "पौधे के विभिन्न भागों में गुणसूत्र संख्याओं की गणना करने के लिए उपयोग किया जाता है। यदि पत्ती की कोशिका (2n) में 24 गुणसूत्र हैं, तो $n = 12$। भ्रूणपोष (3n) में $3 \\times 12 = 36$ गुणसूत्र होंगे, और पराग (n) में 12 होंगे।"
     }
   }
 ]

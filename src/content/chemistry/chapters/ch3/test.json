@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch3",
+  "title": {
+    "en": "Chemistry Chapter 3 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 3 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "For a zero-order reaction, the unit of rate constant (k) is:",
+        "hi": "शून्य कोटि (zero-order) की अभिक्रिया के लिए, दर स्थिरांक (k) की इकाई है:"
+      },
+      "options": [
+        {
+          "en": "$s^{-1}$",
+          "hi": "$s^{-1}$"
+        },
+        {
+          "en": "$\\text{mol L}^{-1} \\text{s}^{-1}$",
+          "hi": "$\\text{mol L}^{-1} \\text{s}^{-1}$"
+        },
+        {
+          "en": "$\\text{L mol}^{-1} \\text{s}^{-1}$",
+          "hi": "$\\text{L mol}^{-1} \\text{s}^{-1}$"
+        },
+        {
+          "en": "Unitless",
+          "hi": "इकाई रहित"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Rate = $k[R]^0$. Thus, $k$ has the same unit as the rate, which is concentration/time, i.e., $\\text{mol L}^{-1} \\text{s}^{-1}$.",
+        "hi": "दर = $k[R]^0$। इस प्रकार, $k$ की इकाई वही है जो दर की है, जो सांद्रता/समय है, अर्थात् $\\text{mol L}^{-1} \\text{s}^{-1}$।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The half-life of a first-order reaction is independent of:",
+        "hi": "प्रथम कोटि की अभिक्रिया की अर्ध-आयु (half-life) किससे स्वतंत्र होती है?"
+      },
+      "options": [
+        {
+          "en": "Initial concentration of the reactant",
+          "hi": "अभिकारक की प्रारंभिक सांद्रता"
+        },
+        {
+          "en": "Temperature",
+          "hi": "तापमान"
+        },
+        {
+          "en": "Rate constant",
+          "hi": "दर स्थिरांक"
+        },
+        {
+          "en": "Activation energy",
+          "hi": "सक्रियण ऊर्जा"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "For a first-order reaction, half-life $t_{1/2} = 0.693 / k$. It does not contain the initial concentration term $[R]_0$.",
+        "hi": "प्रथम कोटि की अभिक्रिया के लिए, अर्ध-आयु $t_{1/2} = 0.693 / k$। इसमें प्रारंभिक सांद्रता पद $[R]_0$ नहीं होता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "According to Arrhenius equation, the plot of $\\ln k$ vs $1/T$ gives a straight line with a slope equal to:",
+        "hi": "आर्हेनियस समीकरण के अनुसार, $\\ln k$ बनाम $1/T$ का ग्राफ एक सीधी रेखा देता है, जिसका ढलान (slope) किसके बराबर होता है?"
+      },
+      "options": [
+        {
+          "en": "$-E_a / R$",
+          "hi": "$-E_a / R$"
+        },
+        {
+          "en": "$E_a / R$",
+          "hi": "$E_a / R$"
+        },
+        {
+          "en": "$-E_a / (2.303R)$",
+          "hi": "$-E_a / (2.303R)$"
+        },
+        {
+          "en": "$\\ln A$",
+          "hi": "$\\ln A$"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Arrhenius equation: $\\ln k = -E_a/(RT) + \\ln A$. Comparing with $y = mx + c$, the slope $m = -E_a / R$. (If it was $\\log k$, slope would be $-E_a / (2.303R)$).",
+        "hi": "आर्हेनियस समीकरण: $\\ln k = -E_a/(RT) + \\ln A$। $y = mx + c$ के साथ तुलना करने पर, ढलान $m = -E_a / R$। (यदि यह $\\log k$ होता, तो ढलान $-E_a / (2.303R)$ होता)।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "A catalyst increases the rate of a chemical reaction by:",
+        "hi": "एक उत्प्रेरक (catalyst) रासायनिक अभिक्रिया की दर को कैसे बढ़ाता है?"
+      },
+      "options": [
+        {
+          "en": "Increasing the activation energy",
+          "hi": "सक्रियण ऊर्जा को बढ़ाकर"
+        },
+        {
+          "en": "Decreasing the activation energy",
+          "hi": "सक्रियण ऊर्जा को कम करके"
+        },
+        {
+          "en": "Increasing the enthalpy of reaction",
+          "hi": "अभिक्रिया की एन्थैल्पी को बढ़ाकर"
+        },
+        {
+          "en": "Decreasing the enthalpy of reaction",
+          "hi": "अभिक्रिया की एन्थैल्पी को कम करके"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "A catalyst provides an alternate pathway or reaction mechanism by reducing the activation energy ($E_a$) between reactants and products, thus increasing the rate.",
+        "hi": "एक उत्प्रेरक अभिकारकों और उत्पादों के बीच सक्रियण ऊर्जा ($E_a$) को कम करके एक वैकल्पिक मार्ग या प्रतिक्रिया तंत्र प्रदान करता है, इस प्रकार दर को बढ़ाता है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The molecularity of an elementary reaction:",
+        "hi": "एक प्रारंभिक अभिक्रिया (elementary reaction) की आणविकता (molecularity):"
+      },
+      "options": [
+        {
+          "en": "Can be zero",
+          "hi": "शून्य हो सकती है"
+        },
+        {
+          "en": "Can be a fraction",
+          "hi": "एक भिन्न (fraction) हो सकती है"
+        },
+        {
+          "en": "Is always a whole number (1, 2, 3)",
+          "hi": "हमेशा एक पूर्ण संख्या (1, 2, 3) होती है"
+        },
+        {
+          "en": "Is the same as its order",
+          "hi": "इसकी कोटि के समान होती है"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Molecularity is the number of reacting species taking part in an elementary reaction. It must be an integer (1, 2, or rarely 3). It cannot be zero, negative, or fractional.",
+        "hi": "आणविकता एक प्रारंभिक प्रतिक्रिया में भाग लेने वाली प्रतिक्रियाशील प्रजातियों की संख्या है। यह एक पूर्णांक (1, 2, या शायद ही कभी 3) होना चाहिए। यह शून्य, ऋणात्मक या भिन्नात्मक नहीं हो सकता।"
+      }
+    }
+  ]
+}

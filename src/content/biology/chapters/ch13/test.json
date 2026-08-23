@@ -1,0 +1,148 @@
+{
+  "id": "t13",
+  "title": { "en": "Chapter 13 Mock Test: Biodiversity and Conservation", "hi": "अध्याय 13 मॉक टेस्ट: जैव-विविधता एवं संरक्षण" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following is the most important cause of animals and plants being driven to extinction?", "hi": "निम्नलिखित में से कौन सा जानवरों और पौधों के विलुप्त होने का सबसे महत्वपूर्ण कारण है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Alien species invasion", "hi": "विदेशी प्रजातियों का आक्रमण" } },
+        { "id": "o2", "text": { "en": "Habitat loss and fragmentation", "hi": "आवास का नुकसान और विखंडन (Habitat loss and fragmentation)" } },
+        { "id": "o3", "text": { "en": "Co-extinctions", "hi": "सह-विलुप्ति" } },
+        { "id": "o4", "text": { "en": "Over-exploitation", "hi": "अति-दोहन" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Habitat loss and fragmentation is the primary and most important cause of biodiversity loss among the 'Evil Quartet'.", "hi": "आवास का नुकसान और विखंडन 'द एविल क्वार्टेट' में जैव विविधता के नुकसान का प्राथमिक और सबसे महत्वपूर्ण कारण है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which one of the following is an example of ex-situ conservation?", "hi": "निम्नलिखित में से कौन सा बाह्यस्थाने (ex-situ) संरक्षण का उदाहरण है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "National park", "hi": "राष्ट्रीय उद्यान" } },
+        { "id": "o2", "text": { "en": "Wildlife sanctuary", "hi": "वन्यजीव अभयारण्य" } },
+        { "id": "o3", "text": { "en": "Seed bank", "hi": "बीज बैंक (Seed bank)" } },
+        { "id": "o4", "text": { "en": "Sacred groves", "hi": "पवित्र उपवन" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Seed banks preserve seeds off-site under controlled conditions, making it an ex-situ conservation method. The others are in-situ.", "hi": "बीज बैंक नियंत्रित परिस्थितियों में बीजों को साइट के बाहर संरक्षित करते हैं, जिससे यह एक पूर्व-सीटू संरक्षण विधि बन जाती है। अन्य इन-सीटू हैं।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Alexander von Humboldt described for the first time:", "hi": "अलेक्जेंडर वॉन हम्बोल्ट ने पहली बार किसका वर्णन किया:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Laws of limiting factor", "hi": "सीमित कारक के नियम" } },
+        { "id": "o2", "text": { "en": "Ecological Biodiversity", "hi": "पारिस्थितिक जैव विविधता" } },
+        { "id": "o3", "text": { "en": "Species area relationships", "hi": "प्रजाति क्षेत्र संबंध (Species area relationships)" } },
+        { "id": "o4", "text": { "en": "Population Growth equation", "hi": "जनसंख्या वृद्धि समीकरण" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "German naturalist and geographer Alexander von Humboldt observed and described the Species-Area Relationship.", "hi": "जर्मन प्रकृतिवादी और भूगोलवेत्ता अलेक्जेंडर वॉन हम्बोल्ट ने प्रजाति-क्षेत्र संबंध को देखा और उसका वर्णन किया।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The region of biosphere reserve which is legally protected and where no human activity is allowed is known as:", "hi": "जीवमंडल भंडार (biosphere reserve) का वह क्षेत्र जो कानूनी रूप से संरक्षित है और जहां किसी भी मानवीय गतिविधि की अनुमति नहीं है, उसे कहा जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Buffer zone", "hi": "बफर जोन" } },
+        { "id": "o2", "text": { "en": "Transition zone", "hi": "संक्रमण (Transition) क्षेत्र" } },
+        { "id": "o3", "text": { "en": "Restoration zone", "hi": "बहाली क्षेत्र" } },
+        { "id": "o4", "text": { "en": "Core zone", "hi": "कोर जोन (Core zone)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The core zone of a biosphere reserve is strictly protected to maintain its natural state, and no human activity is allowed there.", "hi": "जीवमंडल रिजर्व का मुख्य क्षेत्र (core zone) इसकी प्राकृतिक स्थिति को बनाए रखने के लिए कड़ाई से संरक्षित है, और वहां किसी भी मानवीय गतिविधि की अनुमति नहीं है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following has maximum genetic diversity in India?", "hi": "भारत में निम्नलिखित में से किसमें अधिकतम आनुवंशिक विविधता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Mango", "hi": "आम" } },
+        { "id": "o2", "text": { "en": "Wheat", "hi": "गेहूँ" } },
+        { "id": "o3", "text": { "en": "Rice", "hi": "चावल (Rice)" } },
+        { "id": "o4", "text": { "en": "Tea", "hi": "चाय" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "India has more than 50,000 genetically different strains of rice, and 1,000 varieties of mango.", "hi": "भारत में चावल की 50,000 से अधिक आनुवंशिक रूप से भिन्न किस्में और आम की 1,000 किस्में हैं।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Introduction of Nile perch in Lake Victoria of South Africa resulted in:", "hi": "दक्षिण अफ्रीका की लेक विक्टोरिया में नाइल पर्च (Nile perch) की शुरूआत के परिणामस्वरूप:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Excessive growth of water weeds", "hi": "जल खरपतवारों की अत्यधिक वृद्धि" } },
+        { "id": "o2", "text": { "en": "Elimination of water weeds", "hi": "पानी के खरपतवारों का उन्मूलन" } },
+        { "id": "o3", "text": { "en": "Elimination of many species of cichlid fish", "hi": "सिक्लिड (cichlid) मछली की कई प्रजातियों का उन्मूलन" } },
+        { "id": "o4", "text": { "en": "Excessive growth of cichlid fish", "hi": "सिक्लिड मछली की अत्यधिक वृद्धि" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "The introduction of the alien species Nile perch into Lake Victoria led to the extinction of an ecologically unique assemblage of more than 200 species of cichlid fish.", "hi": "लेक विक्टोरिया में विदेशी प्रजाति नाइल पर्च की शुरुआत ने सिक्लिड मछली की 200 से अधिक प्रजातियों के पारिस्थितिक रूप से अद्वितीय संयोजन को विलुप्त कर दिया।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In the species-area relationship equation (log S = log C + Z log A), the value of Z for entire continents lies in the range of:", "hi": "प्रजाति-क्षेत्र संबंध समीकरण (log S = log C + Z log A) में, पूरे महाद्वीपों के लिए Z का मान किस सीमा में होता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "0.1 to 0.2", "hi": "0.1 से 0.2" } },
+        { "id": "o2", "text": { "en": "0.6 to 1.2", "hi": "0.6 से 1.2" } },
+        { "id": "o3", "text": { "en": "1.5 to 2.0", "hi": "1.5 से 2.0" } },
+        { "id": "o4", "text": { "en": "0.01 to 0.05", "hi": "0.01 से 0.05" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "For normal regions, Z is 0.1 to 0.2. But for very large areas like entire continents, the slope is much steeper, and Z values range from 0.6 to 1.2.", "hi": "सामान्य क्षेत्रों के लिए, Z 0.1 से 0.2 है। लेकिन पूरे महाद्वीपों जैसे बहुत बड़े क्षेत्रों के लिए, ढलान बहुत अधिक है, और Z मान 0.6 से 1.2 तक होता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Sacred groves in India are found in:", "hi": "भारत में पवित्र उपवन (Sacred groves) कहाँ पाए जाते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Khasi and Jaintia Hills in Meghalaya", "hi": "मेघालय में खासी और जयंतिया हिल्स" } },
+        { "id": "o2", "text": { "en": "Aravalli Hills of Rajasthan", "hi": "राजस्थान की अरावली पहाड़ियों" } },
+        { "id": "o3", "text": { "en": "Western Ghat regions of Karnataka and Maharashtra", "hi": "कर्नाटक और महाराष्ट्र के पश्चिमी घाट क्षेत्र" } },
+        { "id": "o4", "text": { "en": "All of the above", "hi": "उपरोक्त सभी" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Sacred groves (highly protected due to religious beliefs) are found in Meghalaya, Rajasthan, Karnataka, Maharashtra, and Madhya Pradesh.", "hi": "पवित्र उपवन (धार्मिक मान्यताओं के कारण अत्यधिक संरक्षित) मेघालय, राजस्थान, कर्नाटक, महाराष्ट्र और मध्य प्रदेश में पाए जाते हैं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following is an invasive weed species in India?", "hi": "निम्नलिखित में से कौन भारत में एक आक्रामक खरपतवार प्रजाति है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Parthenium (Carrot grass)", "hi": "पार्थेनियम (गाजर घास)" } },
+        { "id": "o2", "text": { "en": "Lantana", "hi": "लैंटाना" } },
+        { "id": "o3", "text": { "en": "Eichhornia (Water hyacinth)", "hi": "जलकुंभी (Eichhornia)" } },
+        { "id": "o4", "text": { "en": "All of the above", "hi": "उपरोक्त सभी" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Parthenium, Lantana, and Eichhornia are all well-known alien weed species that have turned invasive and caused environmental damage in India.", "hi": "पार्थेनियम, लैंटाना और इचोर्निया सभी प्रसिद्ध विदेशी खरपतवार प्रजातियां हैं जो आक्रामक हो गई हैं और भारत में पर्यावरणीय क्षति का कारण बनी हैं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The extinction of passenger pigeon was due to:", "hi": "यात्री कबूतर (passenger pigeon) का विलुप्त होना किसके कारण था:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Increased number of predatory birds", "hi": "शिकारी पक्षियों की संख्या में वृद्धि" } },
+        { "id": "o2", "text": { "en": "Over-exploitation by humans", "hi": "मनुष्यों द्वारा अति-दोहन (Over-exploitation)" } },
+        { "id": "o3", "text": { "en": "Non-availability of the food", "hi": "भोजन की अनुपलब्धता" } },
+        { "id": "o4", "text": { "en": "Bird flu virus infection", "hi": "बर्ड फ्लू वायरस का संक्रमण" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The passenger pigeon and Steller's sea cow became extinct in the last 500 years due to overexploitation by humans.", "hi": "मनुष्यों द्वारा अत्यधिक दोहन के कारण पिछले 500 वर्षों में यात्री कबूतर और स्टेलर की समुद्री गाय विलुप्त हो गए।" }
+    }
+  ]
+}

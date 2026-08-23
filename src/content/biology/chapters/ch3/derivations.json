@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "In Vitro Fertilisation (IVF) and Embryo Transfer (ET) Process",
+      "hi": "इन विट्रो फर्टिलाइजेशन (IVF) और भ्रूण स्थानांतरण (ET) प्रक्रिया"
+    },
+    "concept": {
+      "en": "A prominent Assisted Reproductive Technology (ART) often referred to as the 'Test Tube Baby' programme, used when natural fertilisation is not possible.",
+      "hi": "एक प्रमुख सहायक जनन प्रौद्योगिकी (ART) जिसे अक्सर 'टेस्ट ट्यूब बेबी' कार्यक्रम कहा जाता है, जिसका उपयोग तब किया जाता है जब प्राकृतिक निषेचन संभव नहीं होता है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Collection of Gametes", "hi": "चरण 1: युग्मकों का संग्रह" },
+        "content": {
+          "en": "Ova from the wife/donor (female) and sperms from the husband/donor (male) are collected.",
+          "hi": "पत्नी/दाता (मादा) से अंडाणु और पति/दाता (नर) से शुक्राणु एकत्र किए जाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: In Vitro Fertilisation", "hi": "चरण 2: इन विट्रो फर्टिलाइजेशन" },
+        "content": {
+          "en": "The collected ova and sperms are induced to form a zygote under simulated laboratory conditions (outside the body).",
+          "hi": "एकत्र किए गए अंडाणु और शुक्राणुओं को प्रयोगशाला की अनुकूल परिस्थितियों में (शरीर के बाहर) युग्मनज (zygote) बनाने के लिए प्रेरित किया जाता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Zygote Cleavage", "hi": "चरण 3: युग्मनज विदलन (Cleavage)" },
+        "content": {
+          "en": "The zygote begins to divide by mitosis (cleavage) in the laboratory incubator.",
+          "hi": "युग्मनज प्रयोगशाला इनक्यूबेटर में समसूत्री विभाजन (विदलन) द्वारा विभाजित होने लगता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Embryo Transfer (ET) - Choice based on Blastomeres", "hi": "चरण 4: भ्रूण स्थानांतरण (ET) - ब्लास्टोमेरेस के आधार पर विकल्प" },
+        "content": {
+          "en": "If the embryo is up to 8 blastomeres, it is transferred into the fallopian tube (ZIFT - Zygote Intra Fallopian Transfer). If it is more than 8 blastomeres, it is transferred directly into the uterus (IUT - Intra Uterine Transfer) to complete its further development.",
+          "hi": "यदि भ्रूण 8 ब्लास्टोमेरेस तक का है, तो इसे फैलोपियन ट्यूब में स्थानांतरित किया जाता है (ZIFT)। यदि यह 8 ब्लास्टोमेरेस से अधिक है, तो इसे आगे के विकास को पूरा करने के लिए सीधे गर्भाशय में स्थानांतरित किया जाता है (IUT)।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "The embryo successfully implants in the uterus, and the pregnancy progresses naturally from that point onward.",
+      "hi": "भ्रूण सफलतापूर्वक गर्भाशय में प्रत्यारोपित हो जाता है, और गर्भावस्था उस बिंदु से स्वाभाविक रूप से आगे बढ़ती है।"
+    },
+    "examTip": {
+      "en": "Always differentiate between ZIFT (up to 8 blastomeres) and IUT (more than 8 blastomeres).",
+      "hi": "हमेशा ZIFT (8 ब्लास्टोमेरेस तक) और IUT (8 ब्लास्टोमेरेस से अधिक) के बीच अंतर करें।"
+    }
+  }
+]

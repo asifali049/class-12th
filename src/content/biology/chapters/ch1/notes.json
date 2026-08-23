@@ -1,46 +1,239 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Structure of Flower & Pre-fertilization Events",
-      "hi": "पुष्प की संरचना और निषेचन-पूर्व घटनाएँ"
-    },
-    "content": {
-      "en": "A typical flower has four whorls: Calyx (sepals), Corolla (petals), Androecium (stamens), and Gynoecium (carpels). Pre-fertilization involves the development of the anther, microsporogenesis (pollen grains formation), and megasporogenesis (embryo sac formation).",
-      "hi": "एक सामान्य फूल में चार चक्र होते हैं: बाह्यदलपुंज (Calyx), दलपुंज (Corolla), पुमंग (Androecium), और जायांग (Gynoecium)। निषेचन-पूर्व घटनाओं में परागकोश का विकास, लघुबीजाणुजनन, और गुरुबीजाणुजनन शामिल हैं।"
+    "type": "heading",
+    "text": {
+      "en": "Sexual Reproduction in Flowering Plants (Angiosperms)",
+      "hi": "पुष्पीय पादपों (आवृतबीजी) में लैंगिक जनन"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Microsporogenesis & Pollen Grain",
-      "hi": "लघुबीजाणुजनन और परागकण"
-    },
-    "content": {
-      "en": "Formation of microspores from a pollen mother cell (PMC) through meiosis is microsporogenesis. A mature pollen grain has two layers: an outer hard exine (made of sporopollenin) and an inner intine (made of cellulose and pectin). It contains a larger vegetative cell and a smaller generative cell.",
-      "hi": "अर्धसूत्रीविभाजन के माध्यम से पराग मातृ कोशिका (PMC) से लघुबीजाणुओं के निर्माण की प्रक्रिया लघुबीजाणुजनन है। एक परिपक्व परागकण में बाहरी कठोर बाह्यचोल (स्पोरोपोलेनिन) और आंतरिक अंतःचोल (सेल्यूलोज और पेक्टिन) होती है।"
+    "type": "paragraph",
+    "text": {
+      "en": "Flowers are morphological and embryological marvels and the sites of sexual reproduction. The flower is essentially a modified shoot.",
+      "hi": "पुष्प रूपात्मक और भ्रौणिक (embryological) आश्चर्य हैं और लैंगिक जनन के स्थल हैं। पुष्प मूल रूप से एक रूपांतरित प्ररोह (modified shoot) है।"
     }
   },
   {
-    "id": "n3",
-    "title": {
-      "en": "Megasporogenesis & Embryo Sac",
-      "hi": "गुरुबीजाणुजनन और भ्रूणकोष"
-    },
-    "content": {
-      "en": "The formation of megaspores from the megaspore mother cell (MMC) is called megasporogenesis. A typical mature angiosperm embryo sac is 8-nucleate but 7-celled, containing an egg apparatus (1 egg + 2 synergids), 3 antipodal cells, and a large central cell with 2 polar nuclei.",
-      "hi": "गुरुबीजाणु मातृ कोशिका (MMC) से गुरुबीजाणुओं के निर्माण को गुरुबीजाणुजनन कहा जाता है। एक सामान्य परिपक्व एंजियोस्पर्म भ्रूणकोष 8-केंद्रक लेकिन 7-कोशिका वाला होता है।"
+    "type": "heading",
+    "text": {
+      "en": "1. Pre-fertilization: Structures and Events",
+      "hi": "1. निषेचन-पूर्व: संरचनाएं और घटनाएँ"
     }
   },
   {
-    "id": "n4",
-    "title": {
-      "en": "Double Fertilization",
-      "hi": "दोहरा निषेचन"
-    },
-    "content": {
-      "en": "Unique to angiosperms, double fertilization involves Syngamy (male gamete + egg = diploid zygote) and Triple Fusion (male gamete + 2 polar nuclei = triploid Primary Endosperm Nucleus / PEN).",
-      "hi": "एंजियोस्पर्म के लिए अद्वितीय, दोहरे निषेचन में युग्मक संलयन (Syngamy) और त्रिसंलयन (Triple Fusion) शामिल हैं।"
+    "type": "highlight",
+    "text": {
+      "en": "Male Reproductive Organ: Stamen, Microsporangium and Pollen Grain",
+      "hi": "नर प्रजनन अंग: पुंकेसर, लघुबीजाणुधानी और परागकण"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A typical stamen consists of a long, slender stalk called the filament and a terminal, generally bilobed structure called the anther. Each lobe has two theca (dithecous).",
+      "hi": "एक विशिष्ट पुंकेसर में एक लंबा, पतला डंठल होता है जिसे तंतु (filament) कहा जाता है और एक टर्मिनल, आमतौर पर द्विपालित (bilobed) संरचना होती है जिसे परागकोश (anther) कहा जाता है। प्रत्येक पालि में दो कोष्ठ (theca) होते हैं (डाइथेकस)।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Microsporangium Structure:\nIt is generally surrounded by four wall layers:\n1. Epidermis (Outer protective layer)\n2. Endothecium (Helps in anther dehiscence)\n3. Middle Layers (1-3 layers, ephemeral)\n4. Tapetum (Innermost layer, provides nourishment to developing pollen grains).",
+      "hi": "लघुबीजाणुधानी (Microsporangium) की संरचना:\nयह आमतौर पर चार भित्ति परतों से घिरा होता है:\n1. बाह्यत्वचा (Epidermis): बाहरी सुरक्षात्मक परत।\n2. अंतस्थीशियम (Endothecium): परागकोश के फटने (dehiscence) में मदद करता है।\n3. मध्य परतें (Middle Layers): 1-3 परतें, अल्पकालिक।\n4. टेपेटम (Tapetum): सबसे भीतरी परत, विकसित हो रहे परागकणों को पोषण प्रदान करती है।"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "**Microsporogenesis**: The process of formation of microspores from a Pollen Mother Cell (PMC) through meiosis. As the anthers mature and dehydrate, the microspores dissociate from each other and develop into pollen grains.",
+      "hi": "**लघुबीजाणुजनन (Microsporogenesis)**: अर्धसूत्रीविभाजन (meiosis) के माध्यम से पराग मातृ कोशिका (PMC) से लघुबीजाणुओं के निर्माण की प्रक्रिया। जैसे-जैसे परागकोश परिपक्व और निर्जलित होते हैं, लघुबीजाणु एक-दूसरे से अलग हो जाते हैं और परागकणों में विकसित हो जाते हैं।"
+    }
+  },
+  {
+    "type": "highlight",
+    "text": {
+      "en": "Pollen Grain (Male Gametophyte)",
+      "hi": "परागकण (नर युग्मकोद्भिद)"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Exine: Hard outer layer made of Sporopollenin (most resistant organic material). It can withstand high temperatures and strong acids. It has prominent apertures called germ pores where sporopollenin is absent.",
+        "hi": "बाह्यचोल (Exine): स्पोरोपोलेनिन (सबसे प्रतिरोधी कार्बनिक पदार्थ) से बनी कठोर बाहरी परत। यह उच्च तापमान और मजबूत एसिड का सामना कर सकती है। इसमें जनन छिद्र (germ pores) होते हैं जहाँ स्पोरोपोलेनिन अनुपस्थित होता है।"
+      },
+      {
+        "en": "Intine: Inner, continuous layer made of cellulose and pectin.",
+        "hi": "अंतःचोल (Intine): सेल्यूलोज और पेक्टिन से बनी आंतरिक, सतत (continuous) परत।"
+      },
+      {
+        "en": "Vegetative Cell: Larger, has abundant food reserve and a large irregularly shaped nucleus.",
+        "hi": "कायिक कोशिका (Vegetative Cell): बड़ी होती है, इसमें प्रचुर मात्रा में खाद्य भंडार और एक बड़ा अनियमित आकार का केंद्रक होता है।"
+      },
+      {
+        "en": "Generative Cell: Small, floats in the cytoplasm of the vegetative cell. It divides mitotically to give rise to two male gametes.",
+        "hi": "जनन कोशिका (Generative Cell): छोटी होती है, कायिक कोशिका के कोशिकाद्रव्य में तैरती है। यह दो नर युग्मकों को जन्म देने के लिए समसूत्री विभाजन करती है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "Female Reproductive Organ: Pistil, Megasporangium (Ovule) and Embryo Sac",
+      "hi": "मादा प्रजनन अंग: स्त्रीकेसर, गुरुबीजाणुधानी (बीजांड) और भ्रूणकोष"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The gynoecium represents the female reproductive part. It may be monocarpellary or multicarpellary. The pistil has three parts: stigma (landing platform for pollen), style (elongated slender part), and ovary (basal bulged part).",
+      "hi": "जायांग मादा प्रजनन अंग का प्रतिनिधित्व करता है। यह एकांडपी (monocarpellary) या बहुअंडपी हो सकता है। स्त्रीकेसर के तीन भाग होते हैं: वर्तिकाग्र (पराग के लिए लैंडिंग प्लेटफॉर्म), वर्तिका (लम्बा पतला भाग), और अंडाशय (बेसल उभरा हुआ भाग)।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Megasporangium (Ovule):\n- Funiculus: Stalk attaching ovule to placenta.\n- Hilum: Junction between ovule and funicle.\n- Integuments: Protective envelopes (1 or 2).\n- Micropyle: Small opening at the tip.\n- Chalaza: Basal part of the ovule.\n- Nucellus: Mass of cells enclosed within integuments, having abundant food reserves.",
+      "hi": "गुरुबीजाणुधानी (बीजांड / Ovule):\n- बीजांडवृंत (Funiculus): डंठल जो बीजांड को अपरा (placenta) से जोड़ता है।\n- नाभिका (Hilum): बीजांड और बीजांडवृंत के बीच का जंक्शन।\n- अध्यावरण (Integuments): सुरक्षात्मक लिफाफे (1 या 2)।\n- बीजांडद्वार (Micropyle): सिरे पर छोटा सा छेद।\n- निभाग (Chalaza): बीजांड का आधारीय भाग।\n- बीजांडकाय (Nucellus): अध्यावरण के भीतर घिरी कोशिकाओं का द्रव्यमान, जिसमें प्रचुर मात्रा में खाद्य भंडार होता है।"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "**Megasporogenesis**: The process of formation of megaspores from the megaspore mother cell (MMC). The MMC undergoes meiosis to form four megaspores. Usually, one is functional and three degenerate.",
+      "hi": "**गुरुबीजाणुजनन (Megasporogenesis)**: गुरुबीजाणु मातृ कोशिका (MMC) से गुरुबीजाणुओं के निर्माण की प्रक्रिया। MMC अर्धसूत्रीविभाजन से गुजरकर चार गुरुबीजाणु बनाता है। आमतौर पर, एक कार्यात्मक होता है और तीन पतित (degenerate) हो जाते हैं।"
+    }
+  },
+  {
+    "type": "highlight",
+    "text": {
+      "en": "Female Gametophyte (Embryo Sac)",
+      "hi": "मादा युग्मकोद्भिद (भ्रूणकोष)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The functional megaspore develops into the embryo sac (Monosporic development). The nucleus undergoes three sequential mitotic divisions (free nuclear divisions) to form an 8-nucleate stage. Cell walls are laid down, leading to a typical female gametophyte which is 7-celled and 8-nucleated.",
+      "hi": "कार्यात्मक गुरुबीजाणु भ्रूणकोष (Monosporic development) में विकसित होता है। 8-केंद्रक अवस्था बनाने के लिए केंद्रक तीन अनुक्रमिक समसूत्री विभाजनों (मुक्त केंद्रकीय विभाजनों) से गुजरता है। कोशिका भित्ति बन जाती है, जिससे एक विशिष्ट मादा युग्मकोद्भिद बनता है जो 7-कोशिका और 8-केंद्रक वाला होता है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Egg Apparatus (Micropylar end): 2 Synergids (have filiform apparatus to guide pollen tube) and 1 Egg cell.",
+        "hi": "अंड उपकरण (बीजांडद्वारी सिरे पर): 2 सहायक कोशिकाएं (पराग नली का मार्गदर्शन करने के लिए तंतुरूप उपकरण (filiform apparatus) होता है) और 1 अंड कोशिका।"
+      },
+      {
+        "en": "Antipodals (Chalazal end): 3 cells.",
+        "hi": "प्रतिव्यासांत कोशिकाएं (Antipodals - निभाग सिरे पर): 3 कोशिकाएं।"
+      },
+      {
+        "en": "Central Cell: Large cell containing 2 polar nuclei.",
+        "hi": "केंद्रीय कोशिका (Central Cell): 2 ध्रुवीय केंद्रकों वाली बड़ी कोशिका।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Pollination",
+      "hi": "2. परागण (Pollination)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The transfer of pollen grains to the stigma of a pistil is termed pollination. Depending on the source of pollen, pollination can be divided into three types:",
+      "hi": "परागकणों का स्त्रीकेसर के वर्तिकाग्र तक स्थानांतरण परागण कहलाता है। पराग के स्रोत के आधार पर परागण को तीन प्रकारों में विभाजित किया जा सकता है:"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Autogamy: Transfer within the same flower. (e.g., Viola, Oxalis, Commelina - these produce both exposed chasmogamous and closed cleistogamous flowers).",
+        "hi": "स्वयुग्मन (Autogamy): एक ही फूल के भीतर स्थानांतरण। (उदा., वायोला, ऑक्सालिस, कोमेलिना - ये खुले कैस्मोगैमस और बंद क्लिस्टोगैमस दोनों फूल पैदा करते हैं)।"
+      },
+      {
+        "en": "Geitonogamy: Transfer to another flower of the same plant. Functionally cross-pollination but genetically similar to autogamy.",
+        "hi": "सजातपुष्पी परागण (Geitonogamy): एक ही पौधे के दूसरे फूल में स्थानांतरण। कार्यात्मक रूप से पर-परागण लेकिन आनुवंशिक रूप से स्वयुग्मन के समान।"
+      },
+      {
+        "en": "Xenogamy: Transfer to a flower of a different plant. This brings genetic variation.",
+        "hi": "परनिषेचन (Xenogamy): एक अलग पौधे के फूल में स्थानांतरण। यह आनुवंशिक भिन्नता लाता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Double Fertilization",
+      "hi": "3. दोहरा निषेचन (Double Fertilization)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "After entering one of the synergids, the pollen tube releases the two male gametes into the cytoplasm of the synergid. This leads to two fusion events in the embryo sac:",
+      "hi": "सहायक कोशिकाओं में से एक में प्रवेश करने के बाद, पराग नली दोनों नर युग्मकों को सहायक कोशिका के कोशिकाद्रव्य में छोड़ देती है। इससे भ्रूणकोष में दो संलयन घटनाएँ होती हैं:"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "1. Syngamy: One male gamete (n) fuses with the egg cell (n) to form a diploid Zygote (2n).\n2. Triple Fusion: The other male gamete (n) fuses with the two polar nuclei (2n) in the central cell to produce a triploid Primary Endosperm Nucleus (PEN, 3n).\nSince two types of fusions (syngamy and triple fusion) take place, the phenomenon is termed double fertilization, an event unique to angiosperms.",
+      "hi": "1. युग्मक संलयन (Syngamy): एक नर युग्मक (n) अंड कोशिका (n) के साथ मिलकर एक द्विगुणित युग्मनज (Zygote, 2n) बनाता है।\n2. त्रिसंलयन (Triple Fusion): दूसरा नर युग्मक (n) केंद्रीय कोशिका में दो ध्रुवीय केंद्रकों (2n) के साथ मिलकर एक त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN, 3n) बनाता है।\nचूंकि दो प्रकार के संलयन (युग्मक संलयन और त्रिसंलयन) होते हैं, इसलिए इस घटना को दोहरा निषेचन कहा जाता है, जो आवृतबीजी (angiosperms) के लिए एक अनूठी घटना है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Post-fertilization: Structures and Events",
+      "hi": "4. निषेचन-पश्च: संरचनाएं और घटनाएँ"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Endosperm and embryo development, maturation of ovules into seeds, and ovary into fruit, are collectively termed post-fertilization events.",
+      "hi": "भ्रूणपोष और भ्रूण का विकास, बीजांडों का बीजों में और अंडाशय का फलों में परिपक्व होना, सामूहिक रूप से निषेचन-पश्च घटनाएँ कहलाती हैं।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Endosperm: Develops from the PEN (3n). Its cells are filled with reserve food materials used for the nutrition of the developing embryo. In coconut, the water is free-nuclear endosperm and the white kernel is cellular endosperm.",
+        "hi": "भ्रूणपोष (Endosperm): PEN (3n) से विकसित होता है। इसकी कोशिकाएं आरक्षित खाद्य पदार्थों से भरी होती हैं जिनका उपयोग विकासशील भ्रूण के पोषण के लिए किया जाता है। नारियल में, पानी मुक्त-केंद्रकीय भ्रूणपोष है और सफेद गिरी कोशिकीय भ्रूणपोष है।"
+      },
+      {
+        "en": "Embryo: Develops at the micropylar end from the zygote. Dicot embryos have an embryonal axis and two cotyledons. Monocot embryos have only one cotyledon (scutellum).",
+        "hi": "भ्रूण (Embryo): युग्मनज से बीजांडद्वारी सिरे पर विकसित होता है। द्विबीजपत्री भ्रूण में एक भ्रूणीय अक्ष और दो बीजपत्र होते हैं। एकबीजपत्री भ्रूण में केवल एक बीजपत्र (स्कुटेलम) होता है।"
+      },
+      {
+        "en": "Seed: Fertilized ovules. Seed coat is formed by integuments. The micropyle remains as a small pore to facilitate oxygen and water entry during germination.",
+        "hi": "बीज (Seed): निषेचित बीजांड। बीज आवरण अध्यावरण द्वारा बनता है। बीजांडद्वार अंकुरण के दौरान ऑक्सीजन और पानी के प्रवेश की सुविधा के लिए एक छोटे छिद्र के रूप में रहता है।"
+      },
+      {
+        "en": "Fruit: The ovary develops into a fruit. True fruits develop only from the ovary. False fruits (like apple, strawberry, cashew) have the thalamus contributing to fruit formation.",
+        "hi": "फल (Fruit): अंडाशय एक फल में विकसित होता है। सच्चे फल केवल अंडाशय से विकसित होते हैं। आभासी फलों (जैसे सेब, स्ट्रॉबेरी, काजू) में थैलेमस फल निर्माण में योगदान देता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Apomixis and Polyembryony",
+      "hi": "5. असंगजनन और बहुभ्रूणता"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Apomixis: A form of asexual reproduction that mimics sexual reproduction, where seeds are produced without fertilization. (e.g., in some species of Asteraceae and grasses).\nPolyembryony: The occurrence of more than one embryo in a seed. (e.g., in Citrus and Mango, nucellar cells divide and protrude into the embryo sac developing into multiple embryos).",
+      "hi": "असंगजनन (Apomixis): अलैंगिक प्रजनन का एक रूप जो यौन प्रजनन की नकल करता है, जहां निषेचन के बिना बीज का उत्पादन होता है। (उदा., एस्टरेसिया और घासों की कुछ प्रजातियों में)।\nबहुभ्रूणता (Polyembryony): एक बीज में एक से अधिक भ्रूणों की उपस्थिति। (उदा., नींबू और आम में, बीजांडकाय कोशिकाएं विभाजित होती हैं और भ्रूणकोष में फैलकर कई भ्रूणों में विकसित होती हैं)।"
     }
   }
 ]

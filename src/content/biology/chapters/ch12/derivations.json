@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Process of Decomposition",
+      "hi": "अपघटन (Decomposition) की प्रक्रिया"
+    },
+    "concept": {
+      "en": "Decomposition is the process by which complex organic matter (detritus) is broken down into simple inorganic substances like carbon dioxide, water, and nutrients by decomposers. It is an oxygen-requiring process.",
+      "hi": "अपघटन वह प्रक्रिया है जिसके द्वारा जटिल कार्बनिक पदार्थ (डेट्रिटस) को डीकंपोजर द्वारा कार्बन डाइऑक्साइड, पानी और पोषक तत्वों जैसे सरल अकार्बनिक पदार्थों में तोड़ दिया जाता है। यह एक ऑक्सीजन की आवश्यकता वाली प्रक्रिया है।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Fragmentation", "hi": "चरण 1: विखंडन (Fragmentation)" },
+        "content": {
+          "en": "Detritivores (e.g., earthworms) break down the detritus into smaller particles. This physical breakdown increases the surface area for microbial action.",
+          "hi": "डेट्रिटिवोर्स (उदा., केंचुए) डेट्रिटस को छोटे कणों में तोड़ देते हैं। यह भौतिक विखंडन माइक्रोबियल क्रिया के लिए सतह क्षेत्र (surface area) को बढ़ाता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Leaching", "hi": "चरण 2: लीचिंग (Leaching)" },
+        "content": {
+          "en": "Water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts.",
+          "hi": "पानी में घुलनशील अकार्बनिक पोषक तत्व मिट्टी के क्षितिज में चले जाते हैं और अनुपलब्ध लवण के रूप में अवक्षेपित हो जाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Catabolism", "hi": "चरण 3: अपचय (Catabolism)" },
+        "content": {
+          "en": "Bacterial and fungal enzymes degrade the fragmented detritus into simpler inorganic substances.",
+          "hi": "जीवाणु और कवक एंजाइम खंडित (fragmented) डेट्रिटस को सरल अकार्बनिक पदार्थों में नष्ट कर देते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Humification", "hi": "चरण 4: ह्यूमिफिकेशन (Humification)" },
+        "content": {
+          "en": "This leads to the accumulation of a dark coloured amorphous substance called humus. Humus is highly resistant to microbial action and undergoes decomposition at an extremely slow rate. Being colloidal in nature it serves as a reservoir of nutrients.",
+          "hi": "इससे ह्यूमस नामक गहरे रंग के अनाकार पदार्थ का संचय होता है। ह्यूमस माइक्रोबियल क्रिया के लिए अत्यधिक प्रतिरोधी है और बहुत धीमी गति से अपघटन से गुजरता है। प्रकृति में कोलाइडल होने के कारण यह पोषक तत्वों के भंडार के रूप में कार्य करता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Mineralisation", "hi": "चरण 5: खनिजीकरण (Mineralisation)" },
+        "content": {
+          "en": "The humus is further degraded by some microbes and the release of inorganic nutrients occurs.",
+          "hi": "ह्यूमस को कुछ रोगाणुओं द्वारा आगे नीचा दिखाया जाता है और अकार्बनिक पोषक तत्वों की रिहाई होती है।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "The rate of decomposition is controlled by chemical composition of detritus and climatic factors. It is quicker if detritus is rich in nitrogen and water-soluble substances like sugars, and slower if rich in lignin and chitin.",
+      "hi": "अपघटन की दर डेट्रिटस की रासायनिक संरचना और जलवायु कारकों द्वारा नियंत्रित होती है। यदि डेट्रिटस नाइट्रोजन और शर्करा जैसे पानी में घुलनशील पदार्थों से समृद्ध है, तो यह जल्दी होता है, और यदि लिग्निन और चिटिन से समृद्ध है तो धीमा होता है।"
+    },
+    "examTip": {
+      "en": "Remember that all steps of decomposition operate simultaneously on the detritus, not one after the other.",
+      "hi": "याद रखें कि अपघटन के सभी चरण एक के बाद एक नहीं, बल्कि एक साथ डेट्रिटस पर काम करते हैं।"
+    }
+  }
+]

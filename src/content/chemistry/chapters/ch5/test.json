@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch5",
+  "title": {
+    "en": "Chemistry Chapter 5 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 5 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "According to Werner's coordination theory, primary valency is satisfied by:",
+        "hi": "वर्नर के उपसहसंयोजन सिद्धांत (coordination theory) के अनुसार, प्राथमिक संयोजकता (primary valency) किसके द्वारा संतुष्ट होती है?"
+      },
+      "options": [
+        {
+          "en": "Neutral molecules",
+          "hi": "उदासीन अणुओं द्वारा"
+        },
+        {
+          "en": "Negative ions",
+          "hi": "ऋणात्मक आयनों (Negative ions) द्वारा"
+        },
+        {
+          "en": "Positive ions",
+          "hi": "धनात्मक आयनों द्वारा"
+        },
+        {
+          "en": "Both neutral molecules and negative ions",
+          "hi": "उदासीन अणुओं और ऋणात्मक आयनों दोनों द्वारा"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Primary valency corresponds to the oxidation state of the metal ion and is strictly ionizable. It is satisfied by negative ions (anions). Secondary valency (coordination number) is satisfied by negative ions or neutral molecules.",
+        "hi": "प्राथमिक संयोजकता धातु आयन की ऑक्सीकरण अवस्था से मेल खाती है और पूरी तरह से आयनकारी (ionizable) है। यह ऋणात्मक आयनों (आयनों) द्वारा संतुष्ट होती है। द्वितीयक संयोजकता (उपसहसंयोजन संख्या) ऋणात्मक आयनों या उदासीन अणुओं द्वारा संतुष्ट होती है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following ligands is a bidentate ligand?",
+        "hi": "निम्नलिखित में से कौन सा लिगैंड एक द्विदंती (bidentate) लिगैंड है?"
+      },
+      "options": [
+        {
+          "en": "Ammonia ($NH_3$)",
+          "hi": "अमोनिया ($NH_3$)"
+        },
+        {
+          "en": "Oxalate ($C_2O_4^{2-}$)",
+          "hi": "ऑक्सालेट ($C_2O_4^{2-}$)"
+        },
+        {
+          "en": "Water ($H_2O$)",
+          "hi": "जल ($H_2O$)"
+        },
+        {
+          "en": "Cyanide ($CN^-$)",
+          "hi": "साइनाइड ($CN^-$)"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Oxalate ($C_2O_4^{2-}$) has two donor oxygen atoms, so it can bind to the central metal ion at two points, making it a bidentate (or didentate) ligand. $NH_3, H_2O, CN^-$ are monodentate.",
+        "hi": "ऑक्सालेट ($C_2O_4^{2-}$) में दो दाता ऑक्सीजन परमाणु होते हैं, इसलिए यह केंद्रीय धातु आयन से दो बिंदुओं पर जुड़ सकता है, जिससे यह एक द्विदंती लिगैंड बन जाता है। $NH_3, H_2O, CN^-$ एकदंती (monodentate) हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The IUPAC name of $[Co(NH_3)_5Cl]Cl_2$ is:",
+        "hi": "$[Co(NH_3)_5Cl]Cl_2$ का IUPAC नाम है:"
+      },
+      "options": [
+        {
+          "en": "Pentaamminechloridocobalt(III) chloride",
+          "hi": "पेंटाएमीनक्लोरिडोकोबाल्ट(III) क्लोराइड"
+        },
+        {
+          "en": "Chloridopentaamminecobalt(III) chloride",
+          "hi": "क्लोरिडोपेंटाएमीनकोबाल्ट(III) क्लोराइड"
+        },
+        {
+          "en": "Pentaamminechloridocobalt(II) chloride",
+          "hi": "पेंटाएमीनक्लोरिडोकोबाल्ट(II) क्लोराइड"
+        },
+        {
+          "en": "Cobalt(III) pentaamminechloride",
+          "hi": "कोबाल्ट(III) पेंटाएमीनक्लोराइड"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Ligands are named alphabetically: ammine before chlorido. The oxidation state of Co is +3. The anion is chloride. So, Pentaamminechloridocobalt(III) chloride.",
+        "hi": "लिगैंड्स को वर्णानुक्रम में नामित किया गया है: क्लोरिडो से पहले एमीन। Co की ऑक्सीकरण अवस्था +3 है। ऋणायन क्लोराइड है। इसलिए, पेंटाएमीनक्लोरिडोकोबाल्ट(III) क्लोराइड।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "According to Crystal Field Theory, a strong field ligand causes:",
+        "hi": "क्रिस्टल क्षेत्र सिद्धांत (Crystal Field Theory) के अनुसार, एक प्रबल क्षेत्र लिगैंड (strong field ligand) के कारण होता है:"
+      },
+      "options": [
+        {
+          "en": "Small crystal field splitting and high spin complexes",
+          "hi": "कम क्रिस्टल क्षेत्र विपाटन (splitting) और उच्च चक्रण (high spin) संकुल"
+        },
+        {
+          "en": "Large crystal field splitting and low spin complexes",
+          "hi": "अधिक क्रिस्टल क्षेत्र विपाटन और निम्न चक्रण (low spin) संकुल"
+        },
+        {
+          "en": "Zero crystal field splitting",
+          "hi": "शून्य क्रिस्टल क्षेत्र विपाटन"
+        },
+        {
+          "en": "No effect on splitting",
+          "hi": "विपाटन पर कोई प्रभाव नहीं"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "A strong field ligand (like $CN^-, CO$) produces a large splitting energy ($\\Delta_o > P$). Electrons prefer to pair up in lower energy $t_{2g}$ orbitals, forming low spin complexes.",
+        "hi": "एक प्रबल क्षेत्र लिगैंड (जैसे $CN^-, CO$) एक बड़ी विपाटन ऊर्जा ($\\Delta_o > P$) उत्पन्न करता है। इलेक्ट्रॉन निम्न ऊर्जा वाले $t_{2g}$ कक्षकों में युग्मित (pair up) होना पसंद करते हैं, जिससे निम्न चक्रण संकुल बनते हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Which isomerism is exhibited by $[Pt(NH_3)_2Cl_2]$?",
+        "hi": "$[Pt(NH_3)_2Cl_2]$ द्वारा कौन सी समावयवता (isomerism) प्रदर्शित की जाती है?"
+      },
+      "options": [
+        {
+          "en": "Ionization isomerism",
+          "hi": "आयनन समावयवता"
+        },
+        {
+          "en": "Linkage isomerism",
+          "hi": "बंधन (Linkage) समावयवता"
+        },
+        {
+          "en": "Optical isomerism",
+          "hi": "प्रकाशिक (Optical) समावयवता"
+        },
+        {
+          "en": "Geometrical isomerism",
+          "hi": "ज्यामितीय (Geometrical) समावयवता"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "It is a square planar complex of the type $MA_2B_2$. It exhibits geometrical isomerism (cis and trans isomers).",
+        "hi": "यह $MA_2B_2$ प्रकार का एक वर्ग समतलीय (square planar) संकुल है। यह ज्यामितीय समावयवता (सिस और ट्रांस समावयवी) प्रदर्शित करता है।"
+      }
+    }
+  ]
+}

@@ -1,35 +1,167 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "easy",
     "question": {
-      "en": "Which of the following is an ex-situ conservation method?",
-      "hi": "निम्नलिखित में से कौन सी बाह्य-स्थाने (ex-situ) संरक्षण विधि है?"
+      "en": "The term 'Biodiversity' was popularised by:",
+      "hi": "'जैव विविधता (Biodiversity)' शब्द को किसके द्वारा लोकप्रिय बनाया गया था:"
     },
     "options": [
-      {
-        "en": "National Park",
-        "hi": "राष्ट्रीय उद्यान"
-      },
-      {
-        "en": "Biosphere Reserve",
-        "hi": "बायोस्फीयर रिजर्व"
-      },
-      {
-        "en": "Wildlife Sanctuary",
-        "hi": "वन्यजीव अभयारण्य"
-      },
-      {
-        "en": "Botanical Garden",
-        "hi": "वनस्पति उद्यान"
-      }
+      { "id": "o1", "text": { "en": "Alexander von Humboldt", "hi": "अलेक्जेंडर वॉन हम्बोल्ट" } },
+      { "id": "o2", "text": { "en": "Edward Wilson", "hi": "एडवर्ड विल्सन" } },
+      { "id": "o3", "text": { "en": "Paul Ehrlich", "hi": "पॉल एर्लिच" } },
+      { "id": "o4", "text": { "en": "Robert May", "hi": "रॉबर्ट मे" } }
     ],
-    "correctOptionIndex": 3,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "Botanical gardens protect plants outside their natural habitats.",
-      "hi": "वनस्पति उद्यान पौधों को उनके प्राकृतिक आवासों के बाहर संरक्षित करते हैं।"
+      "en": "Biodiversity is the term popularised by the sociobiologist Edward Wilson to describe the combined diversity at all levels of biological organisation.",
+      "hi": "जैव विविधता (Biodiversity) शब्द को समाजशास्त्री एडवर्ड विल्सन द्वारा जैविक संगठन के सभी स्तरों पर संयुक्त विविधता का वर्णन करने के लिए लोकप्रिय बनाया गया था।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "According to the species-area relationship (log S = log C + Z log A), what does 'Z' stand for?",
+      "hi": "प्रजाति-क्षेत्र संबंध (log S = log C + Z log A) के अनुसार, 'Z' का क्या अर्थ है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Species richness", "hi": "प्रजातियों की समृद्धि" } },
+      { "id": "o2", "text": { "en": "Y-intercept", "hi": "Y-अवरोधन (Y-intercept)" } },
+      { "id": "o3", "text": { "en": "Slope of the line (regression coefficient)", "hi": "रेखा का ढलान (प्रतिगमन गुणांक)" } },
+      { "id": "o4", "text": { "en": "Area", "hi": "क्षेत्र" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "In the equation, Z represents the slope of the line (regression coefficient).",
+      "hi": "समीकरण में, Z रेखा के ढलान (प्रतिगमन गुणांक) का प्रतिनिधित्व करता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is NOT a cause of biodiversity loss (The Evil Quartet)?",
+      "hi": "निम्नलिखित में से कौन सा जैव विविधता के नुकसान (द एविल क्वार्टेट) का कारण नहीं है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Habitat loss and fragmentation", "hi": "आवास का नुकसान और विखंडन" } },
+      { "id": "o2", "text": { "en": "Over-exploitation", "hi": "अति-दोहन" } },
+      { "id": "o3", "text": { "en": "Co-extinctions", "hi": "सह-विलुप्ति" } },
+      { "id": "o4", "text": { "en": "Endemism", "hi": "स्थानिकता (Endemism)" } }
+    ],
+    "correctOptionId": "o4",
+    "explanation": {
+      "en": "Endemism is the ecological state of a species being unique to a defined geographic location. The four causes of the Evil Quartet are: Habitat loss, Over-exploitation, Alien species invasions, and Co-extinctions.",
+      "hi": "स्थानिकता (Endemism) एक परिभाषित भौगोलिक स्थान के लिए अद्वितीय होने वाली प्रजाति की पारिस्थितिक स्थिति है। एविल क्वार्टेट के चार कारण हैं: आवास का नुकसान, अति-दोहन, विदेशी प्रजातियों के आक्रमण, और सह-विलुप्ति।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Differentiate between in-situ and ex-situ conservation.",
+      "hi": "स्वस्थाने (in-situ) और बाह्यस्थाने (ex-situ) संरक्षण के बीच अंतर स्पष्ट कीजिए।"
+    },
+    "answer": {
+      "en": "**In-situ (on-site) conservation** involves protecting endangered species in their natural habitat (e.g., National Parks, Biosphere Reserves, Sanctuaries, Sacred Groves).\n**Ex-situ (off-site) conservation** involves taking threatened animals and plants out of their natural habitat and placing them in special care settings (e.g., Zoological parks, Botanical gardens, Cryopreservation, Seed banks).",
+      "hi": "**स्वस्थाने (on-site) संरक्षण** में उनके प्राकृतिक आवास (जैसे, राष्ट्रीय उद्यान, जीवमंडल भंडार, अभयारण्य, पवित्र उपवन) में लुप्तप्राय प्रजातियों की रक्षा करना शामिल है।\n**बाह्यस्थाने (off-site) संरक्षण** में संकटग्रस्त जानवरों और पौधों को उनके प्राकृतिक आवास से बाहर निकालना और उन्हें विशेष देखभाल सेटिंग्स (जैसे, प्राणी उद्यान, वनस्पति उद्यान, क्रायोप्रिजर्वेशन, बीज बैंक) में रखना शामिल है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What are 'biodiversity hotspots'?",
+      "hi": "'जैव विविधता हॉटस्पॉट (biodiversity hotspots)' क्या हैं?"
+    },
+    "answer": {
+      "en": "Biodiversity hotspots are regions with very high levels of species richness and a high degree of endemism (species confined to that region and not found anywhere else). They are identified for maximum protection to reduce the ongoing mass extinctions.",
+      "hi": "जैव विविधता हॉटस्पॉट प्रजातियों की समृद्धि के बहुत उच्च स्तर और स्थानिकता (उस क्षेत्र तक सीमित प्रजातियां और कहीं और नहीं पाई जाती हैं) के उच्च स्तर वाले क्षेत्र हैं। चल रहे सामूहिक विलुप्त होने को कम करने के लिए अधिकतम सुरक्षा के लिए उनकी पहचान की जाती है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain the 'Evil Quartet' with reference to loss of biodiversity.",
+      "hi": "जैव विविधता के नुकसान के संदर्भ में 'द एविल क्वार्टेट (The Evil Quartet)' की व्याख्या करें।"
+    },
+    "answer": {
+      "en": "The 'Evil Quartet' refers to the four major causes of biodiversity loss driven by human activities:\n1. **Habitat loss and fragmentation**: The most important cause. E.g., cutting down of Amazon rain forests. Fragmentation affects animals requiring large territories.\n2. **Over-exploitation**: When human need turns to greed, leading to extinction (e.g., Steller's sea cow, passenger pigeon).\n3. **Alien species invasions**: Intentional or accidental introduction of non-native species that turn invasive and cause the decline of indigenous species (e.g., Water hyacinth, Nile perch).\n4. **Co-extinctions**: When a species becomes extinct, the flora and fauna associated with it in an obligatory way also become extinct (e.g., co-evolved plant-pollinator mutualism).",
+      "hi": "'द एविल क्वार्टेट' मानवीय गतिविधियों द्वारा संचालित जैव विविधता के नुकसान के चार प्रमुख कारणों को संदर्भित करता है:\n1. **आवास का नुकसान और विखंडन**: सबसे महत्वपूर्ण कारण। उदा., अमेज़ॅन वर्षा वनों की कटाई। विखंडन बड़े क्षेत्रों की आवश्यकता वाले जानवरों को प्रभावित करता है।\n2. **अति-दोहन (Over-exploitation)**: जब मानवीय आवश्यकता लालच में बदल जाती है, जिससे विलुप्त होने का कारण बनता है (उदा., स्टेलर की समुद्री गाय, यात्री कबूतर)।\n3. **विदेशी प्रजातियों का आक्रमण**: गैर-देशी प्रजातियों का जानबूझकर या आकस्मिक परिचय जो आक्रामक हो जाता है और स्वदेशी प्रजातियों के पतन का कारण बनता है (उदा., जलकुंभी, नाइल पर्च)।\n4. **सह-विलुप्ति (Co-extinctions)**: जब एक प्रजाति विलुप्त हो जाती है, तो उसके साथ अनिवार्य रूप से जुड़ी वनस्पति और जीव भी विलुप्त हो जाते हैं (उदा., सह-विकसित पौधे-परागणक सहोपकारिता)।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Describe the latitudinal gradient pattern of biodiversity.",
+      "hi": "जैव विविधता के अक्षांशीय प्रवणता (latitudinal gradient) प्रतिरूप का वर्णन करें।"
+    },
+    "answer": {
+      "en": "Species diversity decreases as we move away from the equator towards the poles. Tropics (latitudinal range of 23.5° N to 23.5° S) harbour more species than temperate or polar areas. \n**Reasons for higher tropical diversity**:\n1. Speciation is generally a function of time. Temperate regions were subjected to frequent glaciations in the past, while tropical latitudes have remained relatively undisturbed for millions of years, allowing a long evolutionary time for species diversification.\n2. Tropical environments, unlike temperate ones, are less seasonal, relatively more constant and predictable. Such environments promote niche specialisation.\n3. There is more solar energy available in the tropics, which contributes to higher productivity; this in turn contributes indirectly to greater diversity.",
+      "hi": "जैसे-जैसे हम भूमध्य रेखा (equator) से ध्रुवों की ओर बढ़ते हैं, प्रजातियों की विविधता कम होती जाती है। उष्णकटिबंधीय (23.5° N से 23.5° S की अक्षांशीय सीमा) में समशीतोष्ण या ध्रुवीय क्षेत्रों की तुलना में अधिक प्रजातियाँ हैं।\n**उच्च उष्णकटिबंधीय विविधता के कारण**:\n1. प्रजातीकरण (Speciation) आम तौर पर समय का एक कार्य है। अतीत में समशीतोष्ण क्षेत्र लगातार हिमनद (glaciations) के अधीन थे, जबकि उष्णकटिबंधीय अक्षांश लाखों वर्षों तक अपेक्षाकृत अबाधित रहे हैं, जिससे प्रजातियों के विविधीकरण के लिए एक लंबा विकासवादी समय मिला है।\n2. उष्णकटिबंधीय वातावरण, समशीतोष्ण वातावरण के विपरीत, कम मौसमी, अपेक्षाकृत अधिक स्थिर और अनुमानित होते हैं। ऐसे वातावरण आला (niche) विशेषज्ञता को बढ़ावा देते हैं।\n3. उष्णकटिबंधीय क्षेत्रों में अधिक सौर ऊर्जा उपलब्ध है, जो उच्च उत्पादकता में योगदान करती है; यह बदले में अप्रत्यक्ष रूप से अधिक विविधता में योगदान देता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In the species-area relationship graph, what does the straight line on a logarithmic scale represent?",
+      "hi": "प्रजाति-क्षेत्र संबंध ग्राफ में, लघुगणकीय (logarithmic) पैमाने पर सीधी रेखा क्या दर्शाती है?"
+    },
+    "answer": {
+      "en": "On a logarithmic scale, the species-area relationship is represented by a straight line. It is described by the equation: **log S = log C + Z log A**. It shows that as the log of the area increases, the log of species richness also increases linearly, up to a certain limit.",
+      "hi": "लघुगणकीय (logarithmic) पैमाने पर, प्रजाति-क्षेत्र संबंध एक सीधी रेखा द्वारा दर्शाया जाता है। यह समीकरण द्वारा वर्णित है: **log S = log C + Z log A**। यह दर्शाता है कि जैसे-जैसे क्षेत्र का लॉग बढ़ता है, प्रजातियों की समृद्धि का लॉग भी एक निश्चित सीमा तक रैखिक रूप से बढ़ता है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Which one of the following is related to Ex-situ conservation of threatened animals and plants?",
+      "hi": "निम्नलिखित में से कौन सा संकटग्रस्त जानवरों और पौधों के बाह्यस्थाने (Ex-situ) संरक्षण से संबंधित है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Biodiversity hot spots", "hi": "जैव विविधता हॉटस्पॉट" } },
+      { "id": "o2", "text": { "en": "Amazon rainforest", "hi": "अमेज़ॅन वर्षावन" } },
+      { "id": "o3", "text": { "en": "Himalayan region", "hi": "हिमालय क्षेत्र" } },
+      { "id": "o4", "text": { "en": "Wildlife safari parks", "hi": "वन्यजीव सफारी पार्क (Wildlife safari parks)" } }
+    ],
+    "correctOptionId": "o4",
+    "explanation": {
+      "en": "Wildlife safari parks, zoological parks, botanical gardens, and seed banks are examples of Ex-situ (off-site) conservation where organisms are taken out of their natural habitats and protected.",
+      "hi": "वन्यजीव सफारी पार्क, प्राणी उद्यान, वनस्पति उद्यान और बीज बैंक बाह्यस्थाने (off-site) संरक्षण के उदाहरण हैं जहां जीवों को उनके प्राकृतिक आवासों से बाहर निकाला जाता है और संरक्षित किया जाता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The variation shown by the medicinal plant Rauwolfia vomitoria growing in different Himalayan ranges is an example of:",
+      "hi": "विभिन्न हिमालय श्रृंखलाओं में उगने वाले औषधीय पौधे राउवोल्फिया वोमिटोरिया द्वारा दर्शाई गई भिन्नता किसका एक उदाहरण है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Genetic diversity", "hi": "आनुवंशिक विविधता (Genetic diversity)" } },
+      { "id": "o2", "text": { "en": "Species diversity", "hi": "प्रजाति विविधता" } },
+      { "id": "o3", "text": { "en": "Ecological diversity", "hi": "पारिस्थितिक विविधता" } },
+      { "id": "o4", "text": { "en": "Biome diversity", "hi": "बायोम विविधता" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "The genetic variation in Rauwolfia vomitoria (in terms of the potency and concentration of the active chemical reserpine) is an example of genetic diversity within a single species.",
+      "hi": "राउवोल्फिया वोमिटोरिया में आनुवंशिक भिन्नता (सक्रिय रासायनिक रेसेरपिन की शक्ति और एकाग्रता के संदर्भ में) एक ही प्रजाति के भीतर आनुवंशिक विविधता का एक उदाहरण है।"
     }
   }
 ]

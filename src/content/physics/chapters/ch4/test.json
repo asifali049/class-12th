@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch4",
+  "title": {
+    "en": "Physics Chapter 4 Mock Test",
+    "hi": "भौतिकी अध्याय 4 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "The magnetic field at the centre of a circular current-carrying coil of radius r is B. If the radius is doubled keeping the current constant, the new magnetic field will be:",
+        "hi": "r त्रिज्या की एक वृत्ताकार धारावाही कुंडली के केंद्र पर चुंबकीय क्षेत्र B है। यदि धारा को स्थिर रखते हुए त्रिज्या दोगुनी कर दी जाए, तो नया चुंबकीय क्षेत्र होगा:"
+      },
+      "options": [
+        {
+          "en": "B/2",
+          "hi": "B/2"
+        },
+        {
+          "en": "2B",
+          "hi": "2B"
+        },
+        {
+          "en": "B/4",
+          "hi": "B/4"
+        },
+        {
+          "en": "4B",
+          "hi": "4B"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Magnetic field at the center of a circular coil is $B = \\frac{\\mu_0 I}{2r}$. So $B \\propto 1/r$. If radius is doubled, B becomes halved ($B/2$).",
+        "hi": "एक वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र $B = \\frac{\\mu_0 I}{2r}$ होता है। इसलिए $B \\propto 1/r$। यदि त्रिज्या दोगुनी हो जाती है, तो B आधा ($B/2$) हो जाता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "A charged particle moves through a magnetic field perpendicular to its direction of motion. Which of the following changes?",
+        "hi": "एक आवेशित कण अपनी गति की दिशा के लंबवत एक चुंबकीय क्षेत्र से होकर गुजरता है। निम्नलिखित में से क्या बदलता है?"
+      },
+      "options": [
+        {
+          "en": "Speed",
+          "hi": "चाल (Speed)"
+        },
+        {
+          "en": "Kinetic Energy",
+          "hi": "गतिज ऊर्जा"
+        },
+        {
+          "en": "Momentum",
+          "hi": "संवेग"
+        },
+        {
+          "en": "Both Speed and Kinetic Energy",
+          "hi": "चाल और गतिज ऊर्जा दोनों"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Magnetic force is always perpendicular to velocity, so it does no work. Speed and Kinetic Energy remain constant. However, direction changes continuously, so velocity and momentum change.",
+        "hi": "चुंबकीय बल हमेशा वेग के लंबवत होता है, इसलिए यह कोई कार्य नहीं करता है। चाल और गतिज ऊर्जा स्थिर रहती है। हालाँकि, दिशा लगातार बदलती रहती है, इसलिए वेग और संवेग बदलते हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of magnetic field (B) is:",
+        "hi": "चुंबकीय क्षेत्र (B) की SI इकाई है:"
+      },
+      "options": [
+        {
+          "en": "Tesla (T)",
+          "hi": "टेस्ला (T)"
+        },
+        {
+          "en": "Weber (Wb)",
+          "hi": "वेबर (Wb)"
+        },
+        {
+          "en": "Gauss (G)",
+          "hi": "गॉस (G)"
+        },
+        {
+          "en": "Ampere-meter (A·m)",
+          "hi": "एम्पीयर-मीटर (A·m)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "The SI unit of magnetic field is Tesla (T) or Weber/m².",
+        "hi": "चुंबकीय क्षेत्र की SI इकाई टेस्ला (T) या वेबर/m² है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Ampere's Circuital Law is analogous to which law in electrostatics?",
+        "hi": "एम्पीयर का परिपथीय नियम स्थिर वैद्युतिकी (electrostatics) में किस नियम के समतुल्य है?"
+      },
+      "options": [
+        {
+          "en": "Coulomb's Law",
+          "hi": "कूलॉम का नियम"
+        },
+        {
+          "en": "Gauss's Law",
+          "hi": "गॉस का नियम"
+        },
+        {
+          "en": "Faraday's Law",
+          "hi": "फैराडे का नियम"
+        },
+        {
+          "en": "Biot-Savart Law",
+          "hi": "बायो-सावर्ट नियम"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Ampere's Circuital Law ($\\oint B \\cdot dl = \\mu_0 I$) relates magnetic field on a closed loop to enclosed current, similar to Gauss's Law relating electric flux on a closed surface to enclosed charge.",
+        "hi": "एम्पीयर का परिपथीय नियम ($\\oint B \\cdot dl = \\mu_0 I$) एक बंद लूप पर चुंबकीय क्षेत्र को संलग्न धारा से संबंधित करता है, ठीक वैसे ही जैसे गॉस का नियम एक बंद सतह पर विद्युत फ्लक्स को संलग्न आवेश से संबंधित करता है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Two parallel wires carrying currents in the same direction will:",
+        "hi": "एक ही दिशा में धारा ले जाने वाले दो समानांतर तार:"
+      },
+      "options": [
+        {
+          "en": "Attract each other",
+          "hi": "एक-दूसरे को आकर्षित करेंगे"
+        },
+        {
+          "en": "Repel each other",
+          "hi": "एक-दूसरे को प्रतिकर्षित करेंगे"
+        },
+        {
+          "en": "Neither attract nor repel",
+          "hi": "न तो आकर्षित करेंगे और न ही प्रतिकर्षित"
+        },
+        {
+          "en": "Rotate around each other",
+          "hi": "एक-दूसरे के चारों ओर घूमेंगे"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Parallel currents attract each other due to the magnetic force $F = \\frac{\\mu_0 I_1 I_2}{2\\pi d} L$. Anti-parallel currents repel.",
+        "hi": "चुंबकीय बल $F = \\frac{\\mu_0 I_1 I_2}{2\\pi d} L$ के कारण समानांतर धाराएँ एक-दूसरे को आकर्षित करती हैं। प्रति-समानांतर (Anti-parallel) धाराएँ प्रतिकर्षित करती हैं।"
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
 @theme {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-handwriting: var(--font-kalam), cursive;
@@ -106,4 +107,19 @@
   max-height: 70vh;
   display: block;
   margin: 0 auto;
+}
+
+/* Hero Section Forced Dark Mode Styles (Bypasses Tailwind JIT bugs) */
+.hero-title {
+  color: #0f172a; /* slate-900 */
+}
+.dark .hero-title {
+  color: #f8fafc; /* slate-50 */
+}
+
+.hero-subtitle {
+  color: #475569; /* slate-600 */
+}
+.dark .hero-subtitle {
+  color: #94a3b8; /* slate-400 */
 }

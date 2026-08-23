@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Species-Area Relationship",
+      "hi": "प्रजाति-क्षेत्र संबंध (Species-Area Relationship)"
+    },
+    "description": {
+      "en": "Graph showing the relationship between species richness and area. On a normal scale, it's a rectangular hyperbola (S = CA^Z). On a logarithmic scale, it's a straight line (log S = log C + Z log A).",
+      "hi": "प्रजातियों की समृद्धि और क्षेत्र के बीच संबंध दिखाने वाला ग्राफ। सामान्य पैमाने पर, यह एक आयताकार हाइपरबोला (S = CA^Z) है। लघुगणकीय (logarithmic) पैमाने पर, यह एक सीधी रेखा है (log S = log C + Z log A)।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 400' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.axis{stroke:#1e293b;stroke-width:2;}.curve-hyperbola{fill:none;stroke:#3b82f6;stroke-width:4;}.line-log{fill:none;stroke:#ef4444;stroke-width:4;stroke-dasharray:8,4;}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-label{font-size:14px;font-family:sans-serif;fill:#475569;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 20)'><line x1='50' y1='320' x2='500' y2='320' class='axis'/><line x1='50' y1='320' x2='50' y2='20' class='axis'/><text x='250' y='360' class='text-main'>Area</text><text x='20' y='180' transform='rotate(-90 20,180)' class='text-main'>Species richness</text><path d='M 50 320 Q 150 150 450 100' class='curve-hyperbola'/><path d='M 50 320 L 450 20' class='line-log'/><text x='350' y='90' class='text-main' fill='#3b82f6'>S = CA^Z</text><text x='250' y='150' class='text-main' fill='#ef4444' transform='rotate(-37 250,150)'>log S = log C + Z log A</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 510, "y": 30, "text": { "en": "Log-Log Scale (Straight Line)", "hi": "लॉग-लॉग स्केल (सीधी रेखा)" } },
+      { "id": "l2", "x": 450, "y": 140, "text": { "en": "Normal Scale (Rectangular Hyperbola)", "hi": "सामान्य स्केल (आयताकार हाइपरबोला)" } }
+    ]
+  }
+]

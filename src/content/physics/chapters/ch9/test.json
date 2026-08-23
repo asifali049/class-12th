@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch9",
+  "title": {
+    "en": "Physics Chapter 9 Mock Test",
+    "hi": "भौतिकी अध्याय 9 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "When light reflects from a denser medium, the phase change introduced is:",
+        "hi": "जब प्रकाश एक सघन (denser) माध्यम से परावर्तित होता है, तो शुरू किया गया कला परिवर्तन (phase change) होता है:"
+      },
+      "options": [
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "$\\pi/2$",
+          "hi": "$\\pi/2$"
+        },
+        {
+          "en": "$\\pi$",
+          "hi": "$\\pi$"
+        },
+        {
+          "en": "$2\\pi$",
+          "hi": "$2\\pi$"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "According to wave theory, reflection from the surface of a denser medium introduces a phase change of $\\pi$ (or path difference of $\\lambda/2$).",
+        "hi": "तरंग सिद्धांत के अनुसार, एक सघन माध्यम की सतह से परावर्तन $\\pi$ का कला परिवर्तन (या $\\lambda/2$ का पथ अंतर) प्रस्तुत करता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The critical angle for total internal reflection is minimum for which colour of light travelling from glass to air?",
+        "hi": "कांच से हवा में यात्रा करने वाले प्रकाश के किस रंग के लिए पूर्ण आंतरिक परावर्तन के लिए क्रांतिक कोण (critical angle) न्यूनतम होता है?"
+      },
+      "options": [
+        {
+          "en": "Red",
+          "hi": "लाल"
+        },
+        {
+          "en": "Yellow",
+          "hi": "पीला"
+        },
+        {
+          "en": "Green",
+          "hi": "हरा"
+        },
+        {
+          "en": "Violet",
+          "hi": "बैंगनी"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "$\\sin i_c = 1/\\mu$. Since refractive index $\\mu$ is maximum for violet light (shortest wavelength), $\\sin i_c$ is minimum, so $i_c$ is minimum for violet.",
+        "hi": "$\\sin i_c = 1/\\mu$। चूँकि अपवर्तनांक $\\mu$ बैंगनी प्रकाश (सबसे छोटी तरंग दैर्ध्य) के लिए अधिकतम होता है, $\\sin i_c$ न्यूनतम होता है, इसलिए बैंगनी के लिए $i_c$ न्यूनतम होता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "A convex lens is dipped in a liquid whose refractive index is equal to the refractive index of the lens. The lens will act as a:",
+        "hi": "एक उत्तल लेंस को एक ऐसे द्रव में डुबोया जाता है जिसका अपवर्तनांक लेंस के अपवर्तनांक के बराबर होता है। लेंस किसके रूप में कार्य करेगा?"
+      },
+      "options": [
+        {
+          "en": "Converging lens",
+          "hi": "अभिसारी (Converging) लेंस"
+        },
+        {
+          "en": "Diverging lens",
+          "hi": "अपसारी (Diverging) लेंस"
+        },
+        {
+          "en": "Plane glass plate",
+          "hi": "समतल कांच की प्लेट"
+        },
+        {
+          "en": "Prism",
+          "hi": "प्रिज्म"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Using Lens Maker's Formula, $\\frac{1}{f} = (\\frac{\\mu_{lens}}{\\mu_{medium}} - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$. Since $\\mu_{lens} = \\mu_{medium}$, $\\frac{1}{f} = 0 \\implies f = \\infty$. It acts as a plane plate and becomes invisible.",
+        "hi": "लेंस मेकर के सूत्र का उपयोग करते हुए, $\\frac{1}{f} = (\\frac{\\mu_{lens}}{\\mu_{medium}} - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$। चूँकि $\\mu_{lens} = \\mu_{medium}$, $\\frac{1}{f} = 0 \\implies f = \\infty$। यह एक समतल प्लेट के रूप में कार्य करता है और अदृश्य हो जाता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "The magnifying power of an astronomical telescope in normal adjustment is:",
+        "hi": "सामान्य समायोजन (normal adjustment) में एक खगोलीय दूरदर्शी (astronomical telescope) की आवर्धन क्षमता (magnifying power) है:"
+      },
+      "options": [
+        {
+          "en": "$f_o / f_e$",
+          "hi": "$f_o / f_e$"
+        },
+        {
+          "en": "$f_e / f_o$",
+          "hi": "$f_e / f_o$"
+        },
+        {
+          "en": "$f_o \\times f_e$",
+          "hi": "$f_o \\times f_e$"
+        },
+        {
+          "en": "$f_o + f_e$",
+          "hi": "$f_o + f_e$"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "In normal adjustment (final image at infinity), the magnifying power is $M = f_o / f_e$, where $f_o$ is focal length of objective and $f_e$ is focal length of eyepiece.",
+        "hi": "सामान्य समायोजन (अनंत पर अंतिम छवि) में, आवर्धन क्षमता $M = f_o / f_e$ है, जहाँ $f_o$ अभिदृश्यक (objective) की फोकस दूरी है और $f_e$ नेत्रिका (eyepiece) की फोकस दूरी है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Which phenomenon demonstrates the particle nature of light?",
+        "hi": "कौन सी घटना प्रकाश की कण प्रकृति को प्रदर्शित करती है?"
+      },
+      "options": [
+        {
+          "en": "Interference",
+          "hi": "व्यतिकरण (Interference)"
+        },
+        {
+          "en": "Diffraction",
+          "hi": "विवर्तन (Diffraction)"
+        },
+        {
+          "en": "Polarization",
+          "hi": "ध्रुवीकरण (Polarization)"
+        },
+        {
+          "en": "Photoelectric effect",
+          "hi": "प्रकाश वैद्युत प्रभाव (Photoelectric effect)"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "Interference, diffraction, and polarization prove the wave nature of light. The photoelectric effect proves the particle (photon) nature of light.",
+        "hi": "व्यतिकरण, विवर्तन और ध्रुवीकरण प्रकाश की तरंग प्रकृति को सिद्ध करते हैं। प्रकाश वैद्युत प्रभाव प्रकाश की कण (फोटॉन) प्रकृति को सिद्ध करता है।"
+      }
+    }
+  ]
+}

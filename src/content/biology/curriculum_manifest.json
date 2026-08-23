@@ -1,0 +1,105 @@
+{
+  "board": "UP Board",
+  "class": "12",
+  "subject": "Biology (जीव विज्ञान)",
+  "session": "2026-27",
+  "verifiedSource": "UPMSP / NCERT Rationalised Syllabus",
+  "prescribedTextbook": "NCERT Biology Class 12 (Rationalised Edition) / UP Board prescribed translation",
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "name": "Sexual Reproduction in Flowering Plants",
+      "hindiName": "पुष्पी पादपों में लैंगिक जनन",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Flower structure", "Microsporogenesis", "Megasporogenesis", "Pollination", "Double fertilisation", "Endosperm", "Embryo", "Seed and Fruit", "Apomixis and Polyembryony"],
+      "deletedTopics": ["Reproduction in Organisms (Deleted Chapter)"]
+    },
+    {
+      "chapterNumber": 2,
+      "name": "Human Reproduction",
+      "hindiName": "मानव जनन",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Male reproductive system", "Female reproductive system", "Gametogenesis", "Menstrual cycle", "Fertilisation and implantation", "Pregnancy and placenta formation", "Parturition and lactation"]
+    },
+    {
+      "chapterNumber": 3,
+      "name": "Reproductive Health",
+      "hindiName": "जनन स्वास्थ्य",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Need for reproductive health", "Birth control", "MTP", "Amniocentesis", "STIs", "Infertility and ART"]
+    },
+    {
+      "chapterNumber": 4,
+      "name": "Principles of Inheritance and Variation",
+      "hindiName": "वंशागति तथा विविधता के सिद्धांत",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Mendelian inheritance", "Deviations from Mendelism", "Sex determination", "Linkage and crossing over", "Mendelian disorders", "Chromosomal disorders"]
+    },
+    {
+      "chapterNumber": 5,
+      "name": "Molecular Basis of Inheritance",
+      "hindiName": "वंशागति के आणविक आधार",
+      "syllabusStatus": "Active",
+      "includedTopics": ["DNA structure", "DNA packaging", "DNA replication", "Central dogma", "Transcription", "Genetic code", "Translation", "Gene expression (Lac Operon)", "HGP", "DNA fingerprinting"]
+    },
+    {
+      "chapterNumber": 6,
+      "name": "Evolution",
+      "hindiName": "विकास",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Origin of life", "Biological evolution and evidences", "Darwin's contribution", "Mechanism of evolution", "Hardy-Weinberg principle", "Human evolution"]
+    },
+    {
+      "chapterNumber": 7,
+      "name": "Human Health and Disease",
+      "hindiName": "मानव स्वास्थ्य तथा रोग",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Common diseases", "Immunity (Innate, Acquired, Active, Passive)", "Vaccination", "Allergies", "Autoimmunity", "AIDS", "Cancer", "Drugs and Alcohol abuse"]
+    },
+    {
+      "chapterNumber": 8,
+      "name": "Microbes in Human Welfare",
+      "hindiName": "मानव कल्याण में सूक्ष्म जीव",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Microbes in household products", "Industrial products", "Sewage treatment", "Biogas production", "Biocontrol agents", "Biofertilisers"]
+    },
+    {
+      "chapterNumber": 9,
+      "name": "Biotechnology: Principles and Processes",
+      "hindiName": "जैव प्रौद्योगिकी - सिद्धांत व प्रक्रम",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Genetic engineering (Recombinant DNA technology)", "Tools of RDT", "Processes of RDT", "PCR", "Bioreactors"]
+    },
+    {
+      "chapterNumber": 10,
+      "name": "Biotechnology and its Applications",
+      "hindiName": "जैव प्रौद्योगिकी एवं उसके उपयोग",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Applications in agriculture (Bt cotton, RNAi)", "Applications in medicine (Insulin, Gene therapy, Molecular diagnosis)", "Transgenic animals", "Ethical issues"]
+    },
+    {
+      "chapterNumber": 11,
+      "name": "Organisms and Populations",
+      "hindiName": "जीव और समष्टियाँ",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Population attributes", "Population growth", "Population interactions"],
+      "deletedTopics": ["Organism and its Environment", "Major Abiotic Factors", "Responses to Abiotic Factors"]
+    },
+    {
+      "chapterNumber": 12,
+      "name": "Ecosystem",
+      "hindiName": "पारितंत्र",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Ecosystem structure and function", "Productivity", "Decomposition", "Energy flow", "Ecological pyramids"],
+      "deletedTopics": ["Ecological Succession", "Nutrient Cycling", "Ecosystem Services"]
+    },
+    {
+      "chapterNumber": 13,
+      "name": "Biodiversity and Conservation",
+      "hindiName": "जैव-विविधता एवं संरक्षण",
+      "syllabusStatus": "Active",
+      "includedTopics": ["Biodiversity levels", "Patterns of biodiversity", "Loss of biodiversity", "Biodiversity conservation"],
+      "deletedTopics": ["Environmental Issues (Entire Chapter Deleted)"]
+    }
+  ]
+}

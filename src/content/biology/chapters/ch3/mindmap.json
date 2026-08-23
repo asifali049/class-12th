@@ -1,30 +1,41 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Reproductive Health",
-    "hi": "प्रजनन स्वास्थ्य"
-  },
-  "children": [
+  "id": "m1",
+  "title": { "en": "Reproductive Health", "hi": "जनन स्वास्थ्य" },
+  "nodes": [
     {
-      "id": "c1",
-      "label": {
-        "en": "Contraceptives",
-        "hi": "गर्भनिरोधक"
-      }
+      "id": "n1",
+      "label": { "en": "Population & Birth Control", "hi": "जनसंख्या और जन्म नियंत्रण" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Natural Methods", "hi": "प्राकृतिक विधियां" } },
+        { "id": "n1_2", "label": { "en": "Barrier Methods", "hi": "बाधा विधियां" } },
+        { "id": "n1_3", "label": { "en": "IUDs", "hi": "अंतर्गर्भाशयी युक्तियां (IUDs)" } },
+        { "id": "n1_4", "label": { "en": "Oral Pills", "hi": "मौखिक गोलियां" } },
+        { "id": "n1_5", "label": { "en": "Surgical Methods", "hi": "सर्जिकल विधियां" } }
+      ]
     },
     {
-      "id": "c2",
-      "label": {
-        "en": "MTP & STIs",
-        "hi": "एमटीपी और एसटीआई"
-      }
+      "id": "n2",
+      "label": { "en": "MTP (Medical Termination of Pregnancy)", "hi": "MTP (गर्भावस्था का चिकित्सीय समापन)" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Legalised in 1971", "hi": "1971 में वैध" } },
+        { "id": "n2_2", "label": { "en": "Safe in 1st Trimester", "hi": "पहली तिमाही में सुरक्षित" } }
+      ]
     },
     {
-      "id": "c3",
-      "label": {
-        "en": "Infertility (ART)",
-        "hi": "बांझपन (एआरटी)"
-      }
+      "id": "n3",
+      "label": { "en": "STIs (Sexually Transmitted Infections)", "hi": "यौन संचारित संक्रमण (STIs)" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Curable (Syphilis, Gonorrhoea)", "hi": "इलाज योग्य (सिफलिस, गोनोरिया)" } },
+        { "id": "n3_2", "label": { "en": "Incurable (HIV, Hep-B, Herpes)", "hi": "लाइलाज (HIV, हेप-B, दाद)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Infertility & ART", "hi": "बांझपन और ART" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "In Vitro (IVF, ZIFT, IUT, ICSI)", "hi": "इन विट्रो (IVF, ZIFT, IUT, ICSI)" } },
+        { "id": "n4_2", "label": { "en": "In Vivo (GIFT, AI)", "hi": "इन विवो (GIFT, AI)" } }
+      ]
     }
   ]
 }

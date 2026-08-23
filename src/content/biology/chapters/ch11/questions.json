@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "An interaction where one species benefits and the other is neither harmed nor benefited is called:",
-      "hi": "एक ऐसी पारस्परिक क्रिया जहाँ एक प्रजाति को लाभ होता है और दूसरी को न तो नुकसान होता है और न ही लाभ, कहलाती है:"
+      "en": "If '+' sign is assigned to beneficial interaction, '-' sign to detrimental and '0' sign to neutral interaction, then the population interaction represented by '+' '-' refers to:",
+      "hi": "यदि '+' चिह्न लाभकारी अंतःक्रिया (interaction) को दिया जाता है, '-' चिह्न हानिकारक को और '0' चिह्न तटस्थ (neutral) अंतःक्रिया को, तो '+' '-' द्वारा दर्शाई गई जनसंख्या अंतःक्रिया (population interaction) का तात्पर्य है:"
     },
     "options": [
-      {
-        "en": "Mutualism",
-        "hi": "सहोपकारिता"
-      },
-      {
-        "en": "Commensalism",
-        "hi": "सहभोजिता"
-      },
-      {
-        "en": "Parasitism",
-        "hi": "परजीविता"
-      },
-      {
-        "en": "Amensalism",
-        "hi": "अंतरजातीय परजीविता"
-      }
+      { "id": "o1", "text": { "en": "Mutualism", "hi": "सहोपकारिता (Mutualism)" } },
+      { "id": "o2", "text": { "en": "Amensalism", "hi": "अमेन्सेलिज़्म (Amensalism)" } },
+      { "id": "o3", "text": { "en": "Commensalism", "hi": "सहभोजिता (Commensalism)" } },
+      { "id": "o4", "text": { "en": "Parasitism", "hi": "परजीविता (Parasitism)" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o4",
     "explanation": {
-      "en": "Commensalism is represented as (+/0).",
-      "hi": "सहभोजिता को (+/0) के रूप में दर्शाया गया है।"
+      "en": "In parasitism and predation, one species benefits (+) and the other is harmed (-).",
+      "hi": "परजीविता और परभक्षण में, एक प्रजाति को लाभ (+) होता है और दूसरी को नुकसान (-) होता है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "The principle of competitive exclusion was stated by:",
+      "hi": "प्रतिस्पर्धी बहिष्करण (competitive exclusion) का सिद्धांत किसके द्वारा दिया गया था:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "C. Darwin", "hi": "सी. डार्विन" } },
+      { "id": "o2", "text": { "en": "G.F. Gause", "hi": "जी.एफ. गॉस" } },
+      { "id": "o3", "text": { "en": "Mac Arthur", "hi": "मैक आर्थर" } },
+      { "id": "o4", "text": { "en": "Verhulst and Pearl", "hi": "वर्हुल्स्ट और पर्ल" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same resources cannot co-exist indefinitely and the competitively inferior one will be eliminated.",
+      "hi": "गॉस के 'प्रतिस्पर्धी बहिष्करण सिद्धांत (Competitive Exclusion Principle)' में कहा गया है कि समान संसाधनों के लिए प्रतिस्पर्धा करने वाली दो निकट से संबंधित प्रजातियां अनिश्चित काल तक एक साथ नहीं रह सकती हैं और प्रतिस्पर्धी रूप से हीन प्रजाति को समाप्त कर दिया जाएगा।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Asymptote in a logistic growth curve is obtained when:",
+      "hi": "लॉजिस्टिक वृद्धि वक्र में एसिम्प्टोट (Asymptote) कब प्राप्त होता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "K = N", "hi": "K = N" } },
+      { "id": "o2", "text": { "en": "K > N", "hi": "K > N" } },
+      { "id": "o3", "text": { "en": "K < N", "hi": "K < N" } },
+      { "id": "o4", "text": { "en": "The value of 'r' approaches zero", "hi": "'r' का मान शून्य के करीब पहुंचता है" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "In a logistic growth curve, the population size (N) grows until it reaches the carrying capacity (K). When N = K, the (K-N)/K factor becomes zero, dN/dt becomes zero, and the growth levels off, resulting in an asymptote.",
+      "hi": "लॉजिस्टिक वृद्धि वक्र में, जनसंख्या का आकार (N) तब तक बढ़ता है जब तक कि यह वहन क्षमता (K) तक नहीं पहुंच जाता। जब N = K, (K-N)/K कारक शून्य हो जाता है, dN/dt शून्य हो जाता है, और वृद्धि का स्तर कम हो जाता है, जिसके परिणामस्वरूप एक एसिम्प्टोट (asymptote) होता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Define Diapause. How is it different from Hibernation?",
+      "hi": "डायपॉज़ (Diapause) को परिभाषित करें। यह हाइबरनेशन से किस प्रकार भिन्न है?"
+    },
+    "answer": {
+      "en": "**Diapause** is a stage of suspended development seen in many zooplankton species in lakes and ponds under unfavourable conditions.\n**Difference**: Hibernation is a 'winter sleep' (a state of inactivity and metabolic depression) adopted by animals like bears to escape cold, whereas diapause is a generalized suspension of development mostly seen in insects and zooplanktons during *any* unfavourable condition.",
+      "hi": "**डायपॉज़** प्रतिकूल परिस्थितियों में झीलों और तालाबों में कई ज़ूप्लैंकटन प्रजातियों में देखा जाने वाला निलंबित विकास का एक चरण है।\n**अंतर**: हाइबरनेशन एक 'सर्दियों की नींद' (निष्क्रियता और चयापचय अवसाद की स्थिति) है जिसे भालू जैसे जानवरों द्वारा ठंड से बचने के लिए अपनाया जाता है, जबकि डायपॉज़ मुख्य रूप से *किसी भी* प्रतिकूल स्थिति के दौरान कीड़ों और ज़ूप्लैंकटन में देखा जाने वाला विकास का एक सामान्य निलंबन है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between eurythermal and stenothermal organisms?",
+      "hi": "यूरीथर्मल (eurythermal) और स्टेनोथर्मल (stenothermal) जीवों में क्या अंतर है?"
+    },
+    "answer": {
+      "en": "**Eurythermal** organisms are those that can tolerate and thrive in a wide range of temperatures (e.g., most mammals and birds).\n**Stenothermal** organisms are those that are restricted to a narrow range of temperatures (e.g., polar bears, penguins).",
+      "hi": "**यूरीथर्मल** जीव वे हैं जो तापमान की एक विस्तृत श्रृंखला में सहन कर सकते हैं और पनप सकते हैं (जैसे, अधिकांश स्तनधारी और पक्षी)।\n**स्टेनोथर्मल** जीव वे हैं जो तापमान की एक संकीर्ण सीमा तक सीमित हैं (जैसे, ध्रुवीय भालू, पेंगुइन)।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain the Logistic Growth model of a population. Why is it considered more realistic than the Exponential Growth model?",
+      "hi": "किसी समष्टि (population) के लॉजिस्टिक वृद्धि मॉडल को समझाइए। इसे घातीय (Exponential) वृद्धि मॉडल की तुलना में अधिक यथार्थवादी (realistic) क्यों माना जाता है?"
+    },
+    "answer": {
+      "en": "**Logistic Growth Model**: A population growing in a habitat with limited resources initially shows a lag phase, followed by phases of acceleration and deceleration, and finally an asymptote when the population density reaches the carrying capacity (K). A plot of N (population density) in relation to time (t) results in a sigmoid (S-shaped) curve. This type of population growth is called Verhulst-Pearl Logistic Growth and is described by the equation: dN/dt = rN((K-N)/K).\n**Why it is more realistic**: In nature, resources (food and space) for any population are rarely completely unlimited. As a population grows, resources become scarce, leading to competition. A given habitat has enough resources to support a maximum possible number, beyond which no further growth is possible (Carrying Capacity, K). Exponential growth assumes unlimited resources, which is unrealistic in the real world.",
+      "hi": "**लॉजिस्टिक वृद्धि मॉडल**: सीमित संसाधनों वाले आवास में बढ़ने वाली समष्टि (population) शुरू में एक लैग चरण (lag phase) दिखाती है, जिसके बाद त्वरण (acceleration) और मंदी के चरण आते हैं, और अंततः एक एसिम्प्टोट (asymptote) होता है जब जनसंख्या घनत्व वहन क्षमता (K) तक पहुंच जाता है। समय (t) के संबंध में N (जनसंख्या घनत्व) का एक प्लॉट एक सिग्मॉइड (S-आकार) वक्र में परिणामित होता है। इस प्रकार की जनसंख्या वृद्धि को वर्हुल्स्ट-पर्ल लॉजिस्टिक ग्रोथ कहा जाता है और इसे समीकरण द्वारा वर्णित किया गया है: dN/dt = rN((K-N)/K)।\n**यह अधिक यथार्थवादी क्यों है**: प्रकृति में, किसी भी आबादी के लिए संसाधन (भोजन और स्थान) शायद ही कभी पूरी तरह से असीमित होते हैं। जैसे-जैसे जनसंख्या बढ़ती है, संसाधन दुर्लभ होते जाते हैं, जिससे प्रतिस्पर्धा होती है। किसी दिए गए आवास में अधिकतम संभव संख्या का समर्थन करने के लिए पर्याप्त संसाधन होते हैं, जिसके बाद कोई और वृद्धि संभव नहीं है (वहन क्षमता, K)। घातीय वृद्धि असीमित संसाधनों को मानती है, जो वास्तविक दुनिया में अवास्तविक है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "With the help of suitable examples, explain the difference between Mutualism and Commensalism.",
+      "hi": "उपयुक्त उदाहरणों की सहायता से सहोपकारिता (Mutualism) और सहभोजिता (Commensalism) के बीच अंतर स्पष्ट कीजिए।"
+    },
+    "answer": {
+      "en": "**Mutualism (+/+)**: This interaction confers benefits on *both* the interacting species.\n*Example*: Lichens represent an intimate mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria. The fungus helps in the absorption of nutrients and provides protection, while the alga/cyanobacterium prepares the food.\n\n**Commensalism (+/0)**: This is the interaction in which *one* species benefits and the *other* is neither harmed nor benefited.\n*Example*: An orchid growing as an epiphyte on a mango branch. The orchid gets a place to grow and access to sunlight (benefit), but the mango tree does not derive any apparent benefit, nor is it harmed.",
+      "hi": "**सहोपकारिता (Mutualism) (+/+)**: यह अंतःक्रिया *दोनों* परस्पर क्रिया करने वाली प्रजातियों को लाभ प्रदान करती है।\n*उदाहरण*: लाइकेन एक कवक और प्रकाश संश्लेषक शैवाल या साइनोबैक्टीरिया के बीच घनिष्ठ पारस्परिक संबंध का प्रतिनिधित्व करते हैं। कवक पोषक तत्वों के अवशोषण में मदद करता है और सुरक्षा प्रदान करता है, जबकि शैवाल/साइनोबैक्टीरियम भोजन तैयार करता है।\n\n**सहभोजिता (Commensalism) (+/0)**: यह वह अंतःक्रिया है जिसमें *एक* प्रजाति को लाभ होता है और *दूसरी* को न तो नुकसान होता है और न ही लाभ होता है।\n*उदाहरण*: आम की शाखा पर एपिफाइट के रूप में उगने वाला आर्किड। आर्किड को बढ़ने और धूप तक पहुंचने के लिए जगह (लाभ) मिलती है, लेकिन आम के पेड़ को कोई स्पष्ट लाभ नहीं मिलता है, न ही इसे कोई नुकसान होता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In an age pyramid, if the base (pre-reproductive individuals) is much broader than the middle (reproductive individuals), what does this indicate about the population?",
+      "hi": "आयु पिरामिड में, यदि आधार (पूर्व-प्रजनन वाले व्यक्ति) मध्य (प्रजनन वाले व्यक्ति) की तुलना में बहुत अधिक चौड़ा है, तो यह जनसंख्या के बारे में क्या दर्शाता है?"
+    },
+    "answer": {
+      "en": "A broad base indicates a high proportion of pre-reproductive individuals. As these individuals mature, they will enter the reproductive age, leading to a high birth rate. Therefore, this indicates that the population is **expanding** (growing rapidly).",
+      "hi": "एक विस्तृत आधार पूर्व-प्रजनन वाले व्यक्तियों के उच्च अनुपात को इंगित करता है। जैसे-जैसे ये व्यक्ति परिपक्व होंगे, वे प्रजनन आयु में प्रवेश करेंगे, जिससे उच्च जन्म दर होगी। इसलिए, यह इंगित करता है कि जनसंख्या **विस्तार (expanding)** कर रही है (तेजी से बढ़ रही है)।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Gause's principle of competitive exclusion states that:",
+      "hi": "गॉस के प्रतिस्पर्धी बहिष्करण का सिद्धांत (principle of competitive exclusion) बताता है कि:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "No two species can occupy the same niche indefinitely for the same limiting resources", "hi": "कोई भी दो प्रजातियाँ समान सीमित संसाधनों के लिए एक ही स्थान (niche) पर अनिश्चित काल तक नहीं रह सकती हैं" } },
+      { "id": "o2", "text": { "en": "Larger organisms exclude smaller ones through competition", "hi": "बड़े जीव प्रतिस्पर्धा के माध्यम से छोटे जीवों को बाहर कर देते हैं" } },
+      { "id": "o3", "text": { "en": "More abundant species will exclude the less abundant species through competition", "hi": "अधिक प्रचुर प्रजातियां प्रतिस्पर्धा के माध्यम से कम प्रचुर प्रजातियों को बाहर कर देंगी" } },
+      { "id": "o4", "text": { "en": "Competition for the same resources exclude species having different food preferences", "hi": "समान संसाधनों के लिए प्रतिस्पर्धा अलग-अलग भोजन प्राथमिकताएं रखने वाली प्रजातियों को बाहर कर देती है" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "Gause's principle states that two closely related species competing for the exact same limited resources cannot co-exist indefinitely; the competitively inferior one will be eliminated.",
+      "hi": "गॉस के सिद्धांत में कहा गया है कि बिल्कुल समान सीमित संसाधनों के लिए प्रतिस्पर्धा करने वाली दो निकट से संबंधित प्रजातियां अनिश्चित काल तक एक साथ नहीं रह सकती हैं; प्रतिस्पर्धी रूप से हीन प्रजाति को समाप्त कर दिया जाएगा।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the interaction between cattle egret and grazing cattle?",
+      "hi": "मवेशी बगुले (cattle egret) और चरने वाले मवेशियों (grazing cattle) के बीच क्या अंतःक्रिया (interaction) है?"
+    },
+    "answer": {
+      "en": "The interaction is **Commensalism (+/0)**. The cattle egrets benefit because as the cattle move, they stir up and flush out insects from the vegetation that otherwise might be difficult for the egrets to find and catch. The cattle are neither harmed nor benefited.",
+      "hi": "अंतःक्रिया **सहभोजिता (Commensalism) (+/0)** है। मवेशी बगुले को फायदा होता है क्योंकि जैसे-जैसे मवेशी चलते हैं, वे वनस्पति से कीड़ों को बाहर निकालते हैं जो अन्यथा बगुले के लिए खोजने और पकड़ने के लिए मुश्किल हो सकते हैं। मवेशियों को न तो नुकसान होता है और न ही लाभ।"
     }
   }
 ]

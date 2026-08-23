@@ -1,0 +1,148 @@
+{
+  "id": "t10",
+  "title": { "en": "Chapter 10 Mock Test: Biotech Applications", "hi": "अध्याय 10 मॉक टेस्ट: बायोटेक अनुप्रयोग" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Bt cotton variety that was developed by the introduction of toxin gene of Bacillus thuringiensis (Bt) is resistant to:", "hi": "Bt कपास किस्म जिसे बैसिलस थुरिंजिएंसिस (Bt) के विष जीन को शामिल करके विकसित किया गया था, किसके प्रति प्रतिरोधी है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Insect pests", "hi": "कीट (Insect pests)" } },
+        { "id": "o2", "text": { "en": "Fungal diseases", "hi": "कवक रोग" } },
+        { "id": "o3", "text": { "en": "Plant nematodes", "hi": "पौधे नेमाटोड" } },
+        { "id": "o4", "text": { "en": "Insect predators", "hi": "कीट शिकारी" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Bt cotton is genetically modified to be resistant to specific insect pests like bollworms.", "hi": "Bt कपास को आनुवंशिक रूप से बॉलवर्म जैसे विशिष्ट कीट कीटों के प्रति प्रतिरोधी होने के लिए संशोधित किया गया है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "What triggers activation of protoxin to active Bt toxin of Bacillus thuringiensis in boll worm?", "hi": "बॉल वर्म में बैसिलस थुरिंजिएंसिस के सक्रिय Bt विष के लिए प्रोटॉक्सिन की सक्रियता को क्या ट्रिगर करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Acidic pH of stomach", "hi": "पेट का अम्लीय pH" } },
+        { "id": "o2", "text": { "en": "Body temperature", "hi": "शरीर का तापमान" } },
+        { "id": "o3", "text": { "en": "Moist surface of midgut", "hi": "मिडगट की नम सतह" } },
+        { "id": "o4", "text": { "en": "Alkaline pH of gut", "hi": "आंत का क्षारीय (Alkaline) pH" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The inactive protoxin gets converted into an active form due to the alkaline pH of the gut of the insect, which solubilizes the crystals.", "hi": "कीट की आंत के क्षारीय pH के कारण निष्क्रिय प्रोटॉक्सिन एक सक्रिय रूप में परिवर्तित हो जाता है, जो क्रिस्टल को घोल देता है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The process of RNA interference (RNAi) has been used in the development of plants resistant to:", "hi": "RNA इंटरफेरेंस (RNAi) की प्रक्रिया का उपयोग किसके प्रतिरोधी पौधों के विकास में किया गया है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Insects", "hi": "कीड़े" } },
+        { "id": "o2", "text": { "en": "Nematodes", "hi": "नेमाटोड" } },
+        { "id": "o3", "text": { "en": "Fungi", "hi": "कवक" } },
+        { "id": "o4", "text": { "en": "Viruses", "hi": "वायरस" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "RNAi strategy was used to prevent the infection of tobacco plants by the nematode Meloidegyne incognitia.", "hi": "RNAi रणनीति का उपयोग नेमाटोड मेलॉयडेगाइन इन्कोग्निटिया द्वारा तंबाकू के पौधों के संक्रमण को रोकने के लिए किया गया था।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following genes controls the cotton bollworms?", "hi": "निम्नलिखित में से कौन सा जीन कपास बॉलवर्म को नियंत्रित करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "cry IAc and cry IIAb", "hi": "cry IAc और cry IIAb" } },
+        { "id": "o2", "text": { "en": "cry IAb", "hi": "cry IAb" } },
+        { "id": "o3", "text": { "en": "cry IIAc", "hi": "cry IIAc" } },
+        { "id": "o4", "text": { "en": "cry IAc and cry IAb", "hi": "cry IAc और cry IAb" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The proteins encoded by the genes cry IAc and cry IIAb control the cotton bollworms, while cry IAb controls corn borer.", "hi": "जीन cry IAc और cry IIAb द्वारा एन्कोड किए गए प्रोटीन कपास बॉलवर्म को नियंत्रित करते हैं, जबकि cry IAb कॉर्न बोरर को नियंत्रित करता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Which kind of therapy was given in 1990 to a four-year-old girl with adenosine deaminase (ADA) deficiency?", "hi": "1990 में एडेनोसाइन डेमिनेज (ADA) की कमी वाली चार साल की लड़की को किस तरह की थेरेपी दी गई थी?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Radiation therapy", "hi": "विकिरण चिकित्सा" } },
+        { "id": "o2", "text": { "en": "Chemotherapy", "hi": "कीमोथेरेपी" } },
+        { "id": "o3", "text": { "en": "Immunotherapy", "hi": "इम्यूनोथेरेपी" } },
+        { "id": "o4", "text": { "en": "Gene therapy", "hi": "जीन थेरेपी" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The first clinical gene therapy was given in 1990 to treat ADA deficiency.", "hi": "पहली नैदानिक जीन थेरेपी 1990 में ADA की कमी के इलाज के लिए दी गई थी।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The two polypeptides of human insulin are linked together by:", "hi": "मानव इंसुलिन के दो पॉलीपेप्टाइड एक साथ जुड़े होते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Hydrogen bonds", "hi": "हाइड्रोजन बांड" } },
+        { "id": "o2", "text": { "en": "Phosphodiester bonds", "hi": "फॉस्फोडाइस्टर बॉन्ड" } },
+        { "id": "o3", "text": { "en": "Covalent bonds", "hi": "सहसंयोजक (Covalent) बांड" } },
+        { "id": "o4", "text": { "en": "Disulphide bridges", "hi": "डाइसल्फ़ाइड पुल" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Insulin consists of two short polypeptide chains: chain A and chain B, that are linked together by disulphide bridges.", "hi": "इंसुलिन में दो छोटी पॉलीपेप्टाइड श्रृंखलाएं होती हैं: श्रृंखला A और श्रृंखला B, जो डाइसल्फ़ाइड पुलों द्वारा एक साथ जुड़ी होती हैं।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In RNAi, the genes are silenced using:", "hi": "RNAi में, जीन को किसका उपयोग करके शांत (silenced) किया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "ssDNA", "hi": "ssDNA" } },
+        { "id": "o2", "text": { "en": "dsDNA", "hi": "dsDNA" } },
+        { "id": "o3", "text": { "en": "dsRNA", "hi": "dsRNA" } },
+        { "id": "o4", "text": { "en": "ssRNA", "hi": "ssRNA" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "RNA interference (RNAi) involves silencing of a specific mRNA due to a complementary double-stranded RNA (dsRNA) molecule that binds to and prevents translation of the mRNA.", "hi": "RNA इंटरफेरेंस (RNAi) में एक पूरक डबल-स्ट्रैंडेड RNA (dsRNA) अणु के कारण एक विशिष्ट mRNA को शांत करना शामिल है जो mRNA के अनुवाद को बांधता है और रोकता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Maximum number of existing transgenic animals is of:", "hi": "मौजूदा ट्रांसजेनिक जानवरों की अधिकतम संख्या किसकी है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Mice", "hi": "चूहे" } },
+        { "id": "o2", "text": { "en": "Cow", "hi": "गाय" } },
+        { "id": "o3", "text": { "en": "Pig", "hi": "सूअर" } },
+        { "id": "o4", "text": { "en": "Fish", "hi": "मछली" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Over 95 percent of all existing transgenic animals are mice.", "hi": "सभी मौजूदा ट्रांसजेनिक जानवरों में से 95 प्रतिशत से अधिक चूहे हैं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The first transgenic cow, Rosie, produced:", "hi": "पहली ट्रांसजेनिक गाय, रोजी, ने क्या उत्पादित किया:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Human protein-enriched milk (alpha-lactalbumin)", "hi": "मानव प्रोटीन-समृद्ध दूध (अल्फा-लैक्टलब्यूमिन)" } },
+        { "id": "o2", "text": { "en": "Human insulin-enriched milk", "hi": "मानव इंसुलिन-समृद्ध दूध" } },
+        { "id": "o3", "text": { "en": "Alpha-1 antitrypsin enriched milk", "hi": "अल्फा -1 एंटीट्रिप्सिन समृद्ध दूध" } },
+        { "id": "o4", "text": { "en": "Cholesterol-free milk", "hi": "कोलेस्ट्रॉल मुक्त दूध" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In 1997, the first transgenic cow, Rosie, produced human protein-enriched milk (2.4 grams per litre). The milk contained the human alpha-lactalbumin.", "hi": "1997 में, पहली ट्रांसजेनिक गाय, रोजी ने मानव प्रोटीन-समृद्ध दूध (2.4 ग्राम प्रति लीटर) का उत्पादन किया। दूध में मानव अल्फा-लैक्टलब्यूमिन था।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "GEAC stands for:", "hi": "GEAC का अर्थ है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Genome Engineering Action Committee", "hi": "जीनोम इंजीनियरिंग एक्शन कमेटी" } },
+        { "id": "o2", "text": { "en": "Ground Environment Action Committee", "hi": "ग्राउंड एनवायरनमेंट एक्शन कमेटी" } },
+        { "id": "o3", "text": { "en": "Genetic Engineering Approval Committee", "hi": "जेनेटिक इंजीनियरिंग अप्रूवल कमेटी" } },
+        { "id": "o4", "text": { "en": "Genetic and Environment Approval Committee", "hi": "जेनेटिक एंड एनवायरनमेंट अप्रूवल कमेटी" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "The Indian Government has set up organizations such as GEAC (Genetic Engineering Approval Committee), which makes decisions regarding the validity of GM research and the safety of introducing GM-organisms.", "hi": "भारत सरकार ने GEAC (जेनेटिक इंजीनियरिंग अप्रूवल कमेटी) जैसे संगठन स्थापित किए हैं, जो GM अनुसंधान की वैधता और GM-जीवों को पेश करने की सुरक्षा के संबंध में निर्णय लेते हैं।" }
+    }
+  ]
+}

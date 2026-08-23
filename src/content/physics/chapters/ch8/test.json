@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch8",
+  "title": {
+    "en": "Physics Chapter 8 Mock Test",
+    "hi": "भौतिकी अध्याय 8 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following electromagnetic waves has the highest frequency?",
+        "hi": "निम्नलिखित में से किस विद्युत चुम्बकीय तरंग की आवृत्ति सबसे अधिक होती है?"
+      },
+      "options": [
+        {
+          "en": "Radio waves",
+          "hi": "रेडियो तरंगें"
+        },
+        {
+          "en": "Microwaves",
+          "hi": "माइक्रोवेव"
+        },
+        {
+          "en": "X-rays",
+          "hi": "एक्स-रे"
+        },
+        {
+          "en": "Gamma rays",
+          "hi": "गामा किरणें"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "Gamma rays have the shortest wavelength and the highest frequency in the electromagnetic spectrum, hence carrying the highest energy.",
+        "hi": "विद्युत चुम्बकीय स्पेक्ट्रम में गामा किरणों की तरंग दैर्ध्य सबसे कम और आवृत्ति सबसे अधिक होती है, इसलिए इनमें सबसे अधिक ऊर्जा होती है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "In an electromagnetic wave in free space, the ratio of the magnitudes of electric and magnetic fields ($E_0/B_0$) is equal to:",
+        "hi": "मुक्त स्थान (free space) में एक विद्युत चुम्बकीय तरंग में, विद्युत और चुंबकीय क्षेत्रों के परिमाण का अनुपात ($E_0/B_0$) किसके बराबर होता है?"
+      },
+      "options": [
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "Speed of light (c)",
+          "hi": "प्रकाश की गति (c)"
+        },
+        {
+          "en": "$1/c$",
+          "hi": "$1/c$"
+        },
+        {
+          "en": "Depends on frequency",
+          "hi": "आवृत्ति पर निर्भर करता है"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "For an EM wave propagating in vacuum, the amplitudes of electric and magnetic fields are related by $E_0 = c B_0$, so $E_0/B_0 = c$.",
+        "hi": "निर्वात में संचरित होने वाली EM तरंग के लिए, विद्युत और चुंबकीय क्षेत्रों के आयाम $E_0 = c B_0$ द्वारा संबंधित होते हैं, इसलिए $E_0/B_0 = c$।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The physical quantity associated with the propagation of electromagnetic waves is:",
+        "hi": "विद्युत चुम्बकीय तरंगों के संचरण से जुड़ी भौतिक राशि है:"
+      },
+      "options": [
+        {
+          "en": "Energy only",
+          "hi": "केवल ऊर्जा"
+        },
+        {
+          "en": "Momentum only",
+          "hi": "केवल संवेग"
+        },
+        {
+          "en": "Both Energy and Momentum",
+          "hi": "ऊर्जा और संवेग दोनों"
+        },
+        {
+          "en": "Charge",
+          "hi": "आवेश"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Electromagnetic waves carry both energy and momentum through space. The momentum imparted by an EM wave to a surface is $p = U/c$.",
+        "hi": "विद्युत चुम्बकीय तरंगें अंतरिक्ष के माध्यम से ऊर्जा और संवेग दोनों ले जाती हैं। किसी सतह पर EM तरंग द्वारा प्रदान किया गया संवेग $p = U/c$ है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following are not electromagnetic waves?",
+        "hi": "निम्नलिखित में से कौन विद्युत चुम्बकीय तरंगें नहीं हैं?"
+      },
+      "options": [
+        {
+          "en": "Cosmic rays",
+          "hi": "कॉस्मिक किरणें"
+        },
+        {
+          "en": "Gamma rays",
+          "hi": "गामा किरणें"
+        },
+        {
+          "en": "Beta rays",
+          "hi": "बीटा किरणें"
+        },
+        {
+          "en": "X-rays",
+          "hi": "एक्स-रे"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Beta rays are high-energy, high-speed electrons or positrons emitted by radioactive decay. They are particles, not electromagnetic waves.",
+        "hi": "बीटा किरणें रेडियोधर्मी क्षय द्वारा उत्सर्जित उच्च-ऊर्जा, उच्च गति वाले इलेक्ट्रॉन या पॉज़िट्रॉन हैं। वे कण हैं, विद्युत चुम्बकीय तरंगें नहीं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Ozone layer in the atmosphere absorbs:",
+        "hi": "वायुमंडल में ओजोन परत किसे अवशोषित करती है?"
+      },
+      "options": [
+        {
+          "en": "Visible light",
+          "hi": "दृश्य प्रकाश"
+        },
+        {
+          "en": "Infrared radiation",
+          "hi": "अवरक्त (Infrared) विकिरण"
+        },
+        {
+          "en": "Ultraviolet radiation",
+          "hi": "पराबैंगनी (Ultraviolet) विकिरण"
+        },
+        {
+          "en": "Radio waves",
+          "hi": "रेडियो तरंगें"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "The stratospheric ozone layer effectively absorbs most of the sun's harmful ultraviolet (UV-B and UV-C) radiation, protecting life on Earth.",
+        "hi": "समताप मंडल की ओजोन परत सूर्य के अधिकांश हानिकारक पराबैंगनी (UV-B और UV-C) विकिरण को प्रभावी ढंग से अवशोषित करती है, जिससे पृथ्वी पर जीवन की रक्षा होती है।"
+      }
+    }
+  ]
+}

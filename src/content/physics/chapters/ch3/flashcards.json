@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Electric Current (I)", "hi": "विद्युत धारा (I)" },
+    "definition": { "en": "Rate of flow of electric charge. $I = dq/dt$. SI unit: Ampere (A). It is a scalar quantity.", "hi": "विद्युत आवेश के प्रवाह की दर। $I = dq/dt$। SI इकाई: एम्पीयर (A)। यह एक अदिश राशि है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Ohm's Law", "hi": "ओम का नियम" },
+    "definition": { "en": "At constant temperature, current through a conductor is directly proportional to potential difference. $V = IR$.", "hi": "स्थिर तापमान पर, चालक से प्रवाहित धारा संभावित अंतर के अनुक्रमानुपाती होती है। $V = IR$।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Drift Velocity ($v_d$)", "hi": "अपवाह वेग ($v_d$)" },
+    "definition": { "en": "Average velocity with which free electrons get drifted towards the positive end of conductor under applied electric field. $v_d = -\\frac{eE}{m}\\tau$.", "hi": "वह औसत वेग जिससे मुक्त इलेक्ट्रॉन अनुप्रयुक्त विद्युत क्षेत्र के प्रभाव में चालक के धनात्मक सिरे की ओर प्रवाहित होते हैं। $v_d = -\\frac{eE}{m}\\tau$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Current Density (J)", "hi": "धारा घनत्व (J)" },
+    "definition": { "en": "Current per unit cross-sectional area. $J = I/A = nev_d$. It is a vector quantity. Unit: $A/m^2$.", "hi": "प्रति इकाई अनुप्रस्थ काट क्षेत्रफल पर धारा। $J = I/A = nev_d$। यह एक सदिश राशि है। इकाई: $A/m^2$।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Resistivity ($\\rho$)", "hi": "प्रतिरोधकता ($\\rho$)" },
+    "definition": { "en": "Resistance of a conductor of unit length and unit area. $\\rho = RA/l$. Depends on material and temperature.", "hi": "इकाई लंबाई और इकाई क्षेत्रफल वाले चालक का प्रतिरोध। $\\rho = RA/l$। सामग्री और तापमान पर निर्भर करता है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Mobility ($\\mu$)", "hi": "गतिशीलता ($\\mu$)" },
+    "definition": { "en": "Drift velocity per unit electric field. $\\mu = v_d / E = e\\tau / m$.", "hi": "प्रति इकाई विद्युत क्षेत्र अपवाह वेग। $\\mu = v_d / E = e\\tau / m$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Kirchhoff's Junction Rule (KCL)", "hi": "किरचॉफ का संधि नियम (KCL)" },
+    "definition": { "en": "Algebraic sum of currents at a junction is zero ($\\sum I = 0$). Based on conservation of charge.", "hi": "किसी संधि पर धाराओं का बीजगणितीय योग शून्य होता है ($\\sum I = 0$)। आवेश के संरक्षण पर आधारित है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Kirchhoff's Loop Rule (KVL)", "hi": "किरचॉफ का लूप नियम (KVL)" },
+    "definition": { "en": "Algebraic sum of changes in potential in a closed loop is zero ($\\sum V = 0$). Based on conservation of energy.", "hi": "एक बंद लूप में विभव में परिवर्तनों का बीजगणितीय योग शून्य होता है ($\\sum V = 0$)। ऊर्जा के संरक्षण पर आधारित है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Wheatstone Bridge", "hi": "व्हीटस्टोन ब्रिज" },
+    "definition": { "en": "An arrangement of 4 resistors. Balanced condition: $P/Q = R/S$ (No current through galvanometer).", "hi": "4 प्रतिरोधकों की एक व्यवस्था। संतुलित स्थिति: $P/Q = R/S$ (गैल्वेनोमीटर से कोई धारा प्रवाहित नहीं होती है)।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Internal Resistance (r)", "hi": "आंतरिक प्रतिरोध (r)" },
+    "definition": { "en": "Resistance offered by the electrolyte of a cell. Terminal voltage $V = E - Ir$ (discharging).", "hi": "किसी सेल के विद्युत अपघट्य द्वारा प्रस्तुत प्रतिरोध। टर्मिनल वोल्टेज $V = E - Ir$ (डिस्चार्जिंग)।" }
+  }
+]

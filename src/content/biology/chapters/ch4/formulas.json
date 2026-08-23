@@ -2,35 +2,78 @@
   {
     "id": "f1",
     "title": {
-      "en": "Mendelian Phenotypic Ratios",
-      "hi": "मेंडेलियन फीनोटाइपिक अनुपात"
+      "en": "Monohybrid Cross Ratios",
+      "hi": "मोनोहाइब्रिड क्रॉस अनुपात"
     },
-    "formula": "\\text{Monohybrid Cross: } 3:1 \\\\ \\text{Dihybrid Cross: } 9:3:3:1",
-    "variables": [],
+    "formula": "\\text{Phenotypic Ratio (F2)} = 3 : 1 \\\\ \\text{Genotypic Ratio (F2)} = 1 : 2 : 1",
+    "variables": [
+      {
+        "name": "3 : 1",
+        "description": {
+          "en": "3 Dominant phenotype (Tall) to 1 Recessive phenotype (Dwarf).",
+          "hi": "3 प्रभावी फेनोटाइप (लंबे) से 1 अप्रभावी फेनोटाइप (बौना)।"
+        }
+      },
+      {
+        "name": "1 : 2 : 1",
+        "description": {
+          "en": "1 Homozygous Dominant (TT) : 2 Heterozygous (Tt) : 1 Homozygous Recessive (tt).",
+          "hi": "1 समयुग्मजी प्रभावी (TT) : 2 विषमयुग्मजी (Tt) : 1 समयुग्मजी अप्रभावी (tt)।"
+        }
+      }
+    ],
     "applications": {
-      "en": "Ratios observed in F2 generation under complete dominance.",
-      "hi": "पूर्ण प्रभाविता के तहत F2 पीढ़ी में देखे गए अनुपात।"
+      "en": "Used to determine the expected offspring phenotypes and genotypes when crossing two heterozygotes for a single trait.",
+      "hi": "एक ही लक्षण के लिए दो विषमयुग्मजी (heterozygotes) का संकरण करते समय अपेक्षित संतति फेनोटाइप और जीनोटाइप निर्धारित करने के लिए उपयोग किया जाता है।"
     }
   },
   {
     "id": "f2",
     "title": {
-      "en": "Number of Gamete Types",
-      "hi": "युग्मकों के प्रकारों की संख्या"
+      "en": "Dihybrid Cross Phenotypic Ratio",
+      "hi": "डाईहाइब्रिड क्रॉस फेनोटाइपिक अनुपात"
     },
-    "formula": "2^n",
+    "formula": "\\text{F2 Phenotypic Ratio} = 9 : 3 : 3 : 1",
     "variables": [
       {
-        "name": "n",
+        "name": "9",
         "description": {
-          "en": "Number of heterozygous gene pairs",
-          "hi": "विषमयुग्मजी (heterozygous) जीन जोड़े की संख्या"
+          "en": "Proportion of offspring showing both dominant traits (e.g., Round Yellow).",
+          "hi": "संतति का वह अनुपात जो दोनों प्रभावी लक्षण (उदा., गोल पीले) दर्शाता है।"
+        }
+      },
+      {
+        "name": "1",
+        "description": {
+          "en": "Proportion of offspring showing both recessive traits (e.g., Wrinkled Green).",
+          "hi": "संतति का वह अनुपात जो दोनों अप्रभावी लक्षण (उदा., झुर्रीदार हरे) दर्शाता है।"
         }
       }
     ],
     "applications": {
-      "en": "Used to find out how many different types of gametes a genotype will produce.",
-      "hi": "यह पता लगाने के लिए उपयोग किया जाता है कि एक जीनोटाइप कितने प्रकार के युग्मक पैदा करेगा।"
+      "en": "Applies the Law of Independent Assortment to predict the outcome of a cross involving two unlinked genes.",
+      "hi": "दो असंबंधित जीनों से जुड़े संकरण (cross) के परिणाम की भविष्यवाणी करने के लिए स्वतंत्र अपव्यूहन (Independent Assortment) के नियम को लागू करता है।"
+    }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Probability of Gamete Formation",
+      "hi": "युग्मक निर्माण की प्रायिकता (Probability)"
+    },
+    "formula": "\\text{Number of different gametes} = 2^n",
+    "variables": [
+      {
+        "name": "n",
+        "description": {
+          "en": "Number of heterozygous loci in the genotype.",
+          "hi": "जीनोटाइप में विषमयुग्मजी (heterozygous) लोकी की संख्या।"
+        }
+      }
+    ],
+    "applications": {
+      "en": "E.g., For genotype AaBbCc (n=3), number of different gametes = 2^3 = 8.",
+      "hi": "उदा., जीनोटाइप AaBbCc (n=3) के लिए, विभिन्न युग्मकों की संख्या = 2^3 = 8."
     }
   }
 ]

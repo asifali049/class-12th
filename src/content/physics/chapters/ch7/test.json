@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch7",
+  "title": {
+    "en": "Physics Chapter 7 Mock Test",
+    "hi": "भौतिकी अध्याय 7 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "In a pure inductive circuit, the current:",
+        "hi": "एक शुद्ध प्रेरणिक परिपथ (pure inductive circuit) में, धारा:"
+      },
+      "options": [
+        {
+          "en": "Leads the voltage by $\\pi/2$",
+          "hi": "वोल्टेज से $\\pi/2$ आगे (leads) रहती है"
+        },
+        {
+          "en": "Lags the voltage by $\\pi/2$",
+          "hi": "वोल्टेज से $\\pi/2$ पीछे (lags) रहती है"
+        },
+        {
+          "en": "Is in phase with the voltage",
+          "hi": "वोल्टेज के साथ समान कला (phase) में होती है"
+        },
+        {
+          "en": "Leads the voltage by $\\pi/4$",
+          "hi": "वोल्टेज से $\\pi/4$ आगे रहती है"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "In a purely inductive AC circuit, voltage $V = V_0 \\sin(\\omega t)$ and current $I = I_0 \\sin(\\omega t - \\pi/2)$. So, current lags the voltage by $90^\\circ$ or $\\pi/2$.",
+        "hi": "एक विशुद्ध रूप से प्रेरणिक AC परिपथ में, वोल्टेज $V = V_0 \\sin(\\omega t)$ और धारा $I = I_0 \\sin(\\omega t - \\pi/2)$। इसलिए, धारा वोल्टेज से $90^\\circ$ या $\\pi/2$ पीछे रहती है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The power factor of an LCR circuit at resonance is:",
+        "hi": "अनुनाद (resonance) पर LCR परिपथ का शक्ति गुणांक (power factor) है:"
+      },
+      "options": [
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "0.5",
+          "hi": "0.5"
+        },
+        {
+          "en": "0.707",
+          "hi": "0.707"
+        },
+        {
+          "en": "1",
+          "hi": "1"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "At resonance, $X_L = X_C$, so impedance $Z = R$. Power factor $\\cos\\phi = R/Z = R/R = 1$. The circuit is purely resistive.",
+        "hi": "अनुनाद पर, $X_L = X_C$, इसलिए प्रतिबाधा $Z = R$। शक्ति गुणांक $\\cos\\phi = R/Z = R/R = 1$। परिपथ विशुद्ध रूप से प्रतिरोधक है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "A step-up transformer increases:",
+        "hi": "एक स्टेप-अप ट्रांसफार्मर बढ़ाता है:"
+      },
+      "options": [
+        {
+          "en": "Voltage",
+          "hi": "वोल्टेज"
+        },
+        {
+          "en": "Current",
+          "hi": "धारा"
+        },
+        {
+          "en": "Power",
+          "hi": "शक्ति"
+        },
+        {
+          "en": "Frequency",
+          "hi": "आवृत्ति"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "A step-up transformer has $N_s > N_p$, so it increases the AC voltage ($V_s > V_p$). Consequently, it decreases the current, keeping power constant.",
+        "hi": "एक स्टेप-अप ट्रांसफार्मर में $N_s > N_p$ होता है, इसलिए यह AC वोल्टेज को बढ़ाता है ($V_s > V_p$)। परिणामस्वरूप, यह शक्ति को स्थिर रखते हुए धारा को कम करता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "The average power dissipated in a pure capacitor in one complete AC cycle is:",
+        "hi": "एक पूर्ण AC चक्र में एक शुद्ध संधारित्र में क्षयित औसत शक्ति (average power dissipated) है:"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{2} C V^2$",
+          "hi": "$\\frac{1}{2} C V^2$"
+        },
+        {
+          "en": "$V_{rms} I_{rms}$",
+          "hi": "$V_{rms} I_{rms}$"
+        },
+        {
+          "en": "Zero",
+          "hi": "शून्य"
+        },
+        {
+          "en": "$I^2 X_C$",
+          "hi": "$I^2 X_C$"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "For a pure capacitor, the phase difference $\\phi = 90^\\circ$. Average power $P = V_{rms} I_{rms} \\cos(90^\\circ) = 0$.",
+        "hi": "एक शुद्ध संधारित्र के लिए, कलांतर $\\phi = 90^\\circ$। औसत शक्ति $P = V_{rms} I_{rms} \\cos(90^\\circ) = 0$।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The core of a transformer is laminated to reduce:",
+        "hi": "एक ट्रांसफार्मर के कोर को क्या कम करने के लिए लैमिनेट किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Copper loss",
+          "hi": "ताम्र हानि (Copper loss)"
+        },
+        {
+          "en": "Magnetic flux leakage",
+          "hi": "चुंबकीय फ्लक्स रिसाव"
+        },
+        {
+          "en": "Eddy current loss",
+          "hi": "भंवर धारा हानि (Eddy current loss)"
+        },
+        {
+          "en": "Hysteresis loss",
+          "hi": "शैथिल्य हानि (Hysteresis loss)"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Lamination breaks the paths of eddy currents, significantly increasing the resistance of the core to eddy currents, thus reducing energy loss in the form of heat.",
+        "hi": "लैमिनेशन भंवर धाराओं के पथ को तोड़ देता है, जिससे भंवर धाराओं के लिए कोर का प्रतिरोध काफी बढ़ जाता है, इस प्रकार ऊष्मा के रूप में ऊर्जा की हानि कम हो जाती है।"
+      }
+    }
+  ]
+}

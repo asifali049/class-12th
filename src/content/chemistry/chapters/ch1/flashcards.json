@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Molarity (M)", "hi": "मोलरता (M)" },
+    "definition": { "en": "Number of moles of solute dissolved per litre (or $dm^3$) of solution. Temperature dependent. Unit: mol/L.", "hi": "प्रति लीटर (या $dm^3$) विलयन में घुले विलेय के मोलों की संख्या। तापमान पर निर्भर। इकाई: mol/L।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Molality (m)", "hi": "मोललता (m)" },
+    "definition": { "en": "Number of moles of solute dissolved per kg (1000g) of solvent. Temperature independent. Unit: mol/kg.", "hi": "प्रति किलोग्राम (1000 ग्राम) विलायक में घुले विलेय के मोलों की संख्या। तापमान से स्वतंत्र। इकाई: mol/kg।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Henry's Law", "hi": "हेनरी का नियम" },
+    "definition": { "en": "Partial pressure of the gas in vapour phase ($p$) is proportional to the mole fraction of the gas ($x$) in the solution. $p = K_H x$.", "hi": "वाष्प अवस्था में गैस का आंशिक दबाव ($p$) विलयन में गैस के मोल अंश ($x$) के समानुपाती होता है। $p = K_H x$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Raoult's Law (Volatile Liquids)", "hi": "राउल्ट का नियम (वाष्पशील द्रवों के लिए)" },
+    "definition": { "en": "For a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction. $p_1 = p_1^0 x_1$.", "hi": "वाष्पशील द्रवों के विलयन के लिए, प्रत्येक घटक का आंशिक वाष्प दाब उसके मोल अंश के सीधे अनुक्रमानुपाती होता है। $p_1 = p_1^0 x_1$।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Ideal Solution", "hi": "आदर्श विलयन" },
+    "definition": { "en": "Solution that obeys Raoult's law over the entire range of concentration. $\\Delta H_{mix} = 0$, $\\Delta V_{mix} = 0$. Example: Benzene + Toluene.", "hi": "वह विलयन जो सांद्रता की संपूर्ण सीमा में राउल्ट के नियम का पालन करता है। $\\Delta H_{mix} = 0$, $\\Delta V_{mix} = 0$। उदाहरण: बेंजीन + टोल्यूनि।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Azeotropes", "hi": "स्थिरक्वाथी (Azeotropes)" },
+    "definition": { "en": "Binary mixtures having the same composition in liquid and vapour phase and boil at a constant temperature. Cannot be separated by fractional distillation.", "hi": "द्विअंगी मिश्रण जिनका द्रव और वाष्प अवस्था में समान संघटन होता है और एक स्थिर तापमान पर उबलते हैं। प्रभाजी आसवन द्वारा अलग नहीं किया जा सकता।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Colligative Properties", "hi": "अणुसंख्य गुणधर्म" },
+    "definition": { "en": "Properties that depend only on the number of solute particles and not on their nature. (e.g., Osmotic pressure, Elevation in boiling point).", "hi": "वे गुण जो केवल विलेय कणों की संख्या पर निर्भर करते हैं और उनकी प्रकृति पर नहीं। (उदा., परासरण दाब, क्वथनांक में उन्नयन)।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Elevation of Boiling Point", "hi": "क्वथनांक का उन्नयन" },
+    "definition": { "en": "Increase in boiling point of a solvent upon addition of a non-volatile solute. $\\Delta T_b = K_b \\cdot m$.", "hi": "अवाष्पशील विलेय मिलाने पर विलायक के क्वथनांक में वृद्धि। $\\Delta T_b = K_b \\cdot m$।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Osmotic Pressure ($\\pi$)", "hi": "परासरण दाब ($\\pi$)" },
+    "definition": { "en": "The extra pressure that must be applied to a solution to stop the flow of solvent into it through a semipermeable membrane. $\\pi = CRT$.", "hi": "वह अतिरिक्त दबाव जो अर्धपारगम्य झिल्ली के माध्यम से विलायक के प्रवाह को रोकने के लिए विलयन पर लगाया जाना चाहिए। $\\pi = CRT$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "van't Hoff Factor ($i$)", "hi": "वांट हॉफ गुणांक ($i$)" },
+    "definition": { "en": "Ratio of normal molar mass to abnormal molar mass. Accounts for association or dissociation of solute. $i > 1$ for dissociation, $i < 1$ for association.", "hi": "सामान्य मोलर द्रव्यमान और असामान्य मोलर द्रव्यमान का अनुपात। विलेय के संयोजन या वियोजन के लिए उत्तरदायी। वियोजन के लिए $i > 1$, संयोजन के लिए $i < 1$।" }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Biodiversity", "hi": "जैव विविधता (Biodiversity)" },
+    "definition": { "en": "The combined diversity at all levels of biological organisation (genetic, species, and ecological).", "hi": "जैविक संगठन के सभी स्तरों (आनुवंशिक, प्रजाति और पारिस्थितिक) पर संयुक्त विविधता।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Endemism", "hi": "स्थानिकता (Endemism)" },
+    "definition": { "en": "The ecological state of a species being unique to a defined geographic location and not found anywhere else.", "hi": "एक प्रजाति की पारिस्थितिक स्थिति एक परिभाषित भौगोलिक स्थान के लिए अद्वितीय है और कहीं और नहीं पाई जाती है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Biodiversity Hotspots", "hi": "जैव विविधता हॉटस्पॉट" },
+    "definition": { "en": "Regions with very high levels of species richness and a high degree of endemism.", "hi": "प्रजातियों की समृद्धि के बहुत उच्च स्तर और स्थानिकता (endemism) के उच्च स्तर वाले क्षेत्र।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "The Evil Quartet", "hi": "द एविल क्वार्टेट (The Evil Quartet)" },
+    "definition": { "en": "The four major causes of biodiversity loss: Habitat loss, Over-exploitation, Alien species invasions, and Co-extinctions.", "hi": "जैव विविधता के नुकसान के चार प्रमुख कारण: आवास का नुकसान, अति-दोहन, विदेशी प्रजातियों का आक्रमण, और सह-विलुप्ति।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Co-extinction", "hi": "सह-विलुप्ति (Co-extinction)" },
+    "definition": { "en": "When a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct.", "hi": "जब एक प्रजाति विलुप्त हो जाती है, तो उसके साथ अनिवार्य रूप से जुड़ी पौधे और जानवरों की प्रजातियाँ भी विलुप्त हो जाती हैं।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "In-situ Conservation", "hi": "स्वस्थाने (In-situ) संरक्षण" },
+    "definition": { "en": "On-site conservation where endangered species are protected in their natural habitats (e.g., National Parks).", "hi": "ऑन-साइट संरक्षण जहां लुप्तप्राय प्रजातियों को उनके प्राकृतिक आवासों (जैसे, राष्ट्रीय उद्यानों) में संरक्षित किया जाता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Ex-situ Conservation", "hi": "बाह्यस्थाने (Ex-situ) संरक्षण" },
+    "definition": { "en": "Off-site conservation where threatened species are taken out of natural habitats and placed in special settings (e.g., Zoos, Seed banks).", "hi": "ऑफ-साइट संरक्षण जहां संकटग्रस्त प्रजातियों को प्राकृतिक आवासों से बाहर निकाला जाता है और विशेष सेटिंग्स (जैसे, चिड़ियाघर, बीज बैंक) में रखा जाता है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Sacred Groves", "hi": "पवित्र उपवन (Sacred Groves)" },
+    "definition": { "en": "Forest fragments which are communally protected, and which usually have a significant religious connotation for the protecting community.", "hi": "वन के टुकड़े जो सांप्रदायिक रूप से संरक्षित हैं, और जो आमतौर पर सुरक्षा करने वाले समुदाय के लिए एक महत्वपूर्ण धार्मिक अर्थ रखते हैं।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Cryopreservation", "hi": "क्रायोप्रिजर्वेशन (Cryopreservation)" },
+    "definition": { "en": "An ex-situ conservation method where gametes of threatened species are preserved in viable and fertile condition for long periods at -196°C in liquid nitrogen.", "hi": "एक पूर्व-सीटू संरक्षण विधि जहां संकटग्रस्त प्रजातियों के गैमेट्स को तरल नाइट्रोजन में -196 डिग्री सेल्सियस पर लंबे समय तक व्यवहार्य और उपजाऊ स्थिति में संरक्षित किया जाता है।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Alien Species Invasion", "hi": "विदेशी प्रजाति का आक्रमण" },
+    "definition": { "en": "The introduction of non-native species which turn invasive and cause the decline or extinction of indigenous species.", "hi": "गैर-देशी प्रजातियों का परिचय जो आक्रामक हो जाते हैं और स्वदेशी प्रजातियों के पतन या विलुप्त होने का कारण बनते हैं।" }
+  }
+]

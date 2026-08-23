@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Ecology", "hi": "पारिस्थितिकी (Ecology)" },
+    "definition": { "en": "The study of interactions among organisms and between the organism and its physical (abiotic) environment.", "hi": "जीवों के बीच और जीव और उसके भौतिक (अजैविक) वातावरण के बीच बातचीत का अध्ययन।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Eurythermal", "hi": "यूरीथर्मल (Eurythermal)" },
+    "definition": { "en": "Organisms that can tolerate and thrive in a wide range of temperatures.", "hi": "जीव जो तापमान की एक विस्तृत श्रृंखला में सहन कर सकते हैं और पनप सकते हैं।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Stenothermal", "hi": "स्टेनोथर्मल (Stenothermal)" },
+    "definition": { "en": "Organisms that are restricted to a narrow range of temperatures.", "hi": "जीव जो तापमान की एक संकीर्ण सीमा तक सीमित हैं।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Homeostasis", "hi": "होमियोस्टेसिस (Homeostasis)" },
+    "definition": { "en": "The ability of an organism to maintain a constant internal environment despite varying external environmental conditions.", "hi": "विभिन्न बाहरी पर्यावरणीय परिस्थितियों के बावजूद एक निरंतर आंतरिक वातावरण बनाए रखने के लिए एक जीव की क्षमता।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Diapause", "hi": "डायपॉज़ (Diapause)" },
+    "definition": { "en": "A stage of suspended development seen in many zooplankton species under unfavourable conditions.", "hi": "प्रतिकूल परिस्थितियों में कई ज़ूप्लैंकटन प्रजातियों में देखा जाने वाला निलंबित विकास का एक चरण।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Carrying Capacity (K)", "hi": "वहन क्षमता (K)" },
+    "definition": { "en": "The maximum population size of a biological species that can be sustained in a specific environment, given the food, habitat, water, and other resources available.", "hi": "किसी जैविक प्रजाति का अधिकतम जनसंख्या आकार जिसे उपलब्ध भोजन, आवास, पानी और अन्य संसाधनों को देखते हुए किसी विशिष्ट वातावरण में बनाए रखा जा सकता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Mutualism", "hi": "सहोपकारिता (Mutualism)" },
+    "definition": { "en": "A population interaction (+/+) that confers benefits on both the interacting species.", "hi": "एक जनसंख्या अंतःक्रिया (+/+) जो दोनों परस्पर क्रिया करने वाली प्रजातियों को लाभ प्रदान करती है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Commensalism", "hi": "सहभोजिता (Commensalism)" },
+    "definition": { "en": "An interaction (+/0) in which one species benefits and the other is neither harmed nor benefited.", "hi": "एक अंतःक्रिया (+/0) जिसमें एक प्रजाति को लाभ होता है और दूसरी को न तो नुकसान होता है और न ही लाभ होता है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Competitive Exclusion Principle", "hi": "प्रतिस्पर्धी बहिष्करण सिद्धांत (Competitive Exclusion Principle)" },
+    "definition": { "en": "Gause's principle stating that two closely related species competing for the same resources cannot co-exist indefinitely.", "hi": "गॉस का सिद्धांत जिसमें कहा गया है कि समान संसाधनों के लिए प्रतिस्पर्धा करने वाली दो निकट से संबंधित प्रजातियां अनिश्चित काल तक एक साथ नहीं रह सकती हैं।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Amensalism", "hi": "अमेन्सेलिज़्म (Amensalism)" },
+    "definition": { "en": "An interaction (-/0) where one species is harmed while the other is unaffected.", "hi": "एक अंतःक्रिया (-/0) जहां एक प्रजाति को नुकसान होता है जबकि दूसरी अप्रभावित रहती है।" }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Lactic Acid Bacteria (LAB)", "hi": "लैक्टिक एसिड बैक्टीरिया (LAB)" },
+    "definition": { "en": "Bacteria (like Lactobacillus) that convert milk to curd by producing lactic acid, which coagulates milk protein (casein). They also increase Vitamin B12.", "hi": "बैक्टीरिया (जैसे लैक्टोबैसिलस) जो लैक्टिक एसिड पैदा करके दूध को दही में बदलते हैं, जो दूध प्रोटीन (कैसिइन) को जमा देता है। वे विटामिन B12 भी बढ़ाते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Saccharomyces cerevisiae", "hi": "सैकैरोमाइसेस सेरेविसिया" },
+    "definition": { "en": "Commonly known as Baker's yeast (used in bread making) and Brewer's yeast (used for fermenting malted cereals and fruit juices to produce ethanol).", "hi": "आमतौर पर बेकर यीस्ट (ब्रेड बनाने में प्रयुक्त) और ब्रेवर यीस्ट (एथेनॉल का उत्पादन करने के लिए किण्वन के लिए प्रयुक्त) के रूप में जाना जाता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Penicillin", "hi": "पेनिसिलिन" },
+    "definition": { "en": "The first antibiotic discovered by Alexander Fleming, produced by the fungus Penicillium notatum.", "hi": "कवक पेनिसिलियम नोटेटम द्वारा निर्मित, अलेक्जेंडर फ्लेमिंग द्वारा खोजा गया पहला एंटीबायोटिक।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "BOD (Biochemical Oxygen Demand)", "hi": "BOD (बायोकेमिकल ऑक्सीजन डिमांड)" },
+    "definition": { "en": "The amount of oxygen that would be consumed if all the organic matter in one liter of water were oxidized by bacteria. High BOD indicates high pollution.", "hi": "ऑक्सीजन की वह मात्रा जिसका उपभोग तब होगा जब एक लीटर पानी में सभी कार्बनिक पदार्थों को बैक्टीरिया द्वारा ऑक्सीकृत किया जाएगा। उच्च BOD उच्च प्रदूषण को इंगित करता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Flocs", "hi": "फ़्लॉक्स (Flocs)" },
+    "definition": { "en": "Masses of aerobic bacteria associated with fungal filaments to form mesh-like structures in the aeration tank during secondary sewage treatment.", "hi": "द्वितीयक सीवेज उपचार के दौरान वातन टैंक में जालीदार संरचनाएं बनाने के लिए कवक तंतुओं से जुड़े एरोबिक बैक्टीरिया का द्रव्यमान।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Activated Sludge", "hi": "सक्रिय कीचड़ (Activated Sludge)" },
+    "definition": { "en": "The sediment formed when bacterial flocs settle down in the settling tank after BOD is reduced. A part of it is used as inoculum.", "hi": "BOD कम होने के बाद सेटलिंग टैंक में जीवाणु फ़्लॉक्स के नीचे बैठने पर बनने वाला अवसाद। इसका एक हिस्सा इनोक्यूलम के रूप में प्रयोग किया जाता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Methanogens", "hi": "मेथनोजेन्स (Methanogens)" },
+    "definition": { "en": "Anaerobic bacteria (e.g., Methanobacterium) that produce large amounts of methane (biogas) along with CO2 and H2 by breaking down cellulosic material.", "hi": "अवायवीय बैक्टीरिया (जैसे, मेथनोबैक्टीरियम) जो सेल्यूलोसिक सामग्री को तोड़कर CO2 और H2 के साथ बड़ी मात्रा में मीथेन (बायोगैस) का उत्पादन करते हैं।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Biocontrol", "hi": "जैव नियंत्रण (Biocontrol)" },
+    "definition": { "en": "The use of biological methods (living organisms) for controlling plant diseases and pests, reducing reliance on toxic chemicals.", "hi": "पौधों की बीमारियों और कीटों को नियंत्रित करने के लिए जैविक तरीकों (जीवित जीवों) का उपयोग, जिससे विषैले रसायनों पर निर्भरता कम होती है।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Baculoviruses", "hi": "बैक्युलोवायरस (Baculoviruses)" },
+    "definition": { "en": "Pathogens (genus Nucleopolyhedrovirus) that attack insects. Excellent for species-specific, narrow-spectrum insecticidal applications (used in IPM).", "hi": "रोगजनक (जीनस न्यूक्लियोपॉलीहेड्रोवायरस) जो कीड़ों पर हमला करते हैं। प्रजाति-विशिष्ट, संकीर्ण-स्पेक्ट्रम कीटनाशक अनुप्रयोगों (IPM में उपयोग किया जाता है) के लिए उत्कृष्ट।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Mycorrhiza", "hi": "माइकोराइजा (Mycorrhiza)" },
+    "definition": { "en": "Symbiotic association of fungi (e.g., Glomus) with the roots of higher plants. Helps plants absorb phosphorus and resist root pathogens.", "hi": "उच्च पौधों की जड़ों के साथ कवक (उदा., ग्लोमस) का सहजीवी संबंध। पौधों को फास्फोरस को अवशोषित करने और जड़ रोगजनकों का विरोध करने में मदद करता है।" }
+  }
+]

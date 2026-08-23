@@ -1,8 +1,61 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Microbes",
-    "hi": "सूक्ष्म जीव"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Microbes in Human Welfare", "hi": "मानव कल्याण में सूक्ष्मजीव" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Household Products", "hi": "घरेलू उत्पाद" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Curd (LAB / Lactobacillus)", "hi": "दही (LAB / लैक्टोबैसिलस)" } },
+        { "id": "n1_2", "label": { "en": "Dough & Bread (Yeast)", "hi": "आटा और ब्रेड (यीस्ट)" } },
+        { "id": "n1_3", "label": { "en": "Swiss Cheese (Propionibacterium)", "hi": "स्विस चीज़ (प्रोपियोनिबैक्टीरियम)" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Industrial Products", "hi": "औद्योगिक उत्पाद" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Alcohol (S. cerevisiae)", "hi": "शराब (S. सेरेविसिया)" } },
+        { "id": "n2_2", "label": { "en": "Antibiotics (Penicillin)", "hi": "एंटीबायोटिक्स (पेनिसिलिन)" } },
+        { "id": "n2_3", "label": { "en": "Chemicals (Citric, Acetic acid)", "hi": "रसायन (साइट्रिक, एसिटिक एसिड)" } },
+        { "id": "n2_4", "label": { "en": "Bioactive Molecules (Statins, Streptokinase)", "hi": "बायोएक्टिव अणु (स्टैटिन, स्ट्रेप्टोकाइनेज)" } }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Sewage Treatment", "hi": "सीवेज उपचार" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Primary (Physical removal)", "hi": "प्राथमिक (भौतिक निष्कासन)" } },
+        { "id": "n3_2", "label": { "en": "Secondary (Biological / Flocs)", "hi": "द्वितीयक (जैविक / फ़्लॉक्स)" } },
+        { "id": "n3_3", "label": { "en": "BOD Reduction", "hi": "BOD में कमी" } },
+        { "id": "n3_4", "label": { "en": "Anaerobic Sludge Digestion", "hi": "अवायवीय कीचड़ पाचन" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Biogas Production", "hi": "बायोगैस उत्पादन" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Methanogens", "hi": "मेथनोजेन्स" } },
+        { "id": "n4_2", "label": { "en": "Methane (CH4) + CO2 + H2", "hi": "मीथेन (CH4) + CO2 + H2" } }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": { "en": "Biocontrol Agents", "hi": "जैव नियंत्रण एजेंट" },
+      "children": [
+        { "id": "n5_1", "label": { "en": "Bacillus thuringiensis (Bt)", "hi": "बैसिलस थुरिंजिएंसिस (Bt)" } },
+        { "id": "n5_2", "label": { "en": "Trichoderma (Fungus)", "hi": "ट्राइकोडर्मा (कवक)" } },
+        { "id": "n5_3", "label": { "en": "Baculoviruses", "hi": "बैक्युलोवायरस" } }
+      ]
+    },
+    {
+      "id": "n6",
+      "label": { "en": "Biofertilisers", "hi": "जैव उर्वरक" },
+      "children": [
+        { "id": "n6_1", "label": { "en": "Rhizobium (N2 fixation)", "hi": "राइजोबियम (N2 स्थिरीकरण)" } },
+        { "id": "n6_2", "label": { "en": "Mycorrhiza (Glomus - Phosphorus)", "hi": "माइकोराइजा (ग्लोमस - फास्फोरस)" } },
+        { "id": "n6_3", "label": { "en": "Cyanobacteria (Anabaena)", "hi": "साइनोबैक्टीरिया (एनाबेना)" } }
+      ]
+    }
+  ]
 }

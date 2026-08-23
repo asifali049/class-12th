@@ -1,0 +1,148 @@
+{
+  "id": "t2",
+  "title": { "en": "Chapter 2 Mock Test: Human Reproduction", "hi": "अध्याय 2 मॉक टेस्ट: मानव जनन" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The shared terminal duct of the reproductive and urinary system in the human male is:", "hi": "मानव पुरुष में प्रजनन और मूत्र प्रणाली की साझा टर्मिनल वाहिनी है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Urethra", "hi": "मूत्रमार्ग (Urethra)" } },
+        { "id": "o2", "text": { "en": "Ureter", "hi": "मूत्रवाहिनी" } },
+        { "id": "o3", "text": { "en": "Vas deferens", "hi": "शुक्रवाहक" } },
+        { "id": "o4", "text": { "en": "Vasa efferentia", "hi": "शुक्रवाहिकाएं" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In human males, the urethra serves as a common passage for both urine and semen. It originates from the urinary bladder and extends through the penis to its external opening.", "hi": "मानव पुरुषों में, मूत्रमार्ग मूत्र और वीर्य दोनों के लिए एक सामान्य मार्ग के रूप में कार्य करता है। यह मूत्राशय से उत्पन्न होता है और लिंग के माध्यम से इसके बाहरी उद्घाटन तक फैलता है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Meiotic division of the secondary oocyte is completed:", "hi": "द्वितीयक ऊसाइट का अर्धसूत्रीविभाजन पूरा होता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Prior to ovulation", "hi": "ओव्यूलेशन से पहले" } },
+        { "id": "o2", "text": { "en": "At the time of copulation", "hi": "मैथुन के समय" } },
+        { "id": "o3", "text": { "en": "After zygote formation", "hi": "युग्मनज निर्माण के बाद" } },
+        { "id": "o4", "text": { "en": "At the time of fusion of a sperm with an ovum", "hi": "एक डिंब के साथ शुक्राणु के संलयन के समय (At the time of fusion of a sperm with an ovum)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The secondary oocyte is arrested in metaphase of meiosis II. This second meiotic division is completed only when a sperm enters the oocyte during fertilization.", "hi": "द्वितीयक ऊसाइट अर्धसूत्रीविभाजन II के मेटाफ़ेज़ में गिरफ्तार हो जाता है। यह दूसरा अर्धसूत्रीविभाजन तभी पूरा होता है जब निषेचन के दौरान एक शुक्राणु ऊसाइट में प्रवेश करता है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following layers in an antral follicle is acellular?", "hi": "एंट्रल कूप (antral follicle) में निम्नलिखित में से कौन सी परत अकोशिकीय (acellular) है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Stroma", "hi": "स्ट्रोमा" } },
+        { "id": "o2", "text": { "en": "Zona pellucida", "hi": "जोना पेलुसिडा (Zona pellucida)" } },
+        { "id": "o3", "text": { "en": "Granulosa", "hi": "ग्रैनुलोसा" } },
+        { "id": "o4", "text": { "en": "Theca interna", "hi": "थिका इंटरना" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The zona pellucida is an acellular (non-cellular), glycoprotein-rich membrane surrounding the plasma membrane of an oocyte.", "hi": "जोना पेलुसिडा एक अकोशिकीय (गैर-कोशिकीय), ग्लाइकोप्रोटीन युक्त झिल्ली है जो ऊसाइट के प्लाज्मा झिल्ली को घेरती है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In human females, meiosis-II is not completed until?", "hi": "मानव महिलाओं में, अर्धसूत्रीविभाजन-II तब तक पूरा नहीं होता जब तक?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Uterine implantation", "hi": "गर्भाशय आरोपण" } },
+        { "id": "o2", "text": { "en": "Birth", "hi": "जन्म" } },
+        { "id": "o3", "text": { "en": "Puberty", "hi": "यौवन" } },
+        { "id": "o4", "text": { "en": "Fertilization", "hi": "निषेचन (Fertilization)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The secondary oocyte completes meiosis II only upon entry of the sperm (fertilization), forming an ovum and a second polar body.", "hi": "द्वितीयक ऊसाइट केवल शुक्राणु (निषेचन) के प्रवेश पर अर्धसूत्रीविभाजन II को पूरा करता है, जिससे एक डिंब और एक दूसरा ध्रुवीय पिंड बनता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Capacitation occurs in:", "hi": "कैपेसिटेशन (Capacitation) होता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Epididymis", "hi": "अधिवृषण (Epididymis)" } },
+        { "id": "o2", "text": { "en": "Vas deferens", "hi": "शुक्रवाहक" } },
+        { "id": "o3", "text": { "en": "Female Reproductive tract", "hi": "मादा प्रजनन पथ (Female Reproductive tract)" } },
+        { "id": "o4", "text": { "en": "Rete testis", "hi": "वृषण जालिका" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Capacitation refers to the physiological changes spermatozoa undergo in the female reproductive tract that enable them to penetrate and fertilize an egg.", "hi": "कैपेसिटेशन उन शारीरिक परिवर्तनों को संदर्भित करता है जो शुक्राणु महिला प्रजनन पथ में गुजरते हैं जो उन्हें एक अंडे को भेदने और निषेचित करने में सक्षम बनाते हैं।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The main function of mammalian corpus luteum is to produce:", "hi": "स्तनधारी कॉर्पस ल्यूटियम का मुख्य कार्य किसका उत्पादन करना है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Estrogen only", "hi": "केवल एस्ट्रोजन" } },
+        { "id": "o2", "text": { "en": "Progesterone", "hi": "प्रोजेस्टेरोन (Progesterone)" } },
+        { "id": "o3", "text": { "en": "Human chorionic gonadotropin", "hi": "मानव कोरियोनिक गोनाडोट्रोपिन" } },
+        { "id": "o4", "text": { "en": "Relaxin only", "hi": "केवल रिलैक्सिन" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The corpus luteum primarily secretes large amounts of progesterone, which is essential for the maintenance of the endometrium for implantation and pregnancy.", "hi": "कॉर्पस ल्यूटियम मुख्य रूप से बड़ी मात्रा में प्रोजेस्टेरोन स्रावित करता है, जो आरोपण और गर्भावस्था के लिए एंडोमेट्रियम के रखरखाव के लिए आवश्यक है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Several hormones like hCG, hPL, estrogen, progesterone are produced by:", "hi": "एचसीजी (hCG), एचपीएल (hPL), एस्ट्रोजन, प्रोजेस्टेरोन जैसे कई हार्मोन किसके द्वारा निर्मित होते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Ovary", "hi": "अंडाशय" } },
+        { "id": "o2", "text": { "en": "Placenta", "hi": "अपरा (Placenta)" } },
+        { "id": "o3", "text": { "en": "Fallopian tube", "hi": "अंडवाहिनी (Fallopian tube)" } },
+        { "id": "o4", "text": { "en": "Pituitary", "hi": "पिट्यूटरी" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "During pregnancy, the placenta acts as an endocrine tissue and produces several hormones including hCG, hPL, estrogens, and progestogens.", "hi": "गर्भावस्था के दौरान, अपरा एक अंतःस्रावी ऊतक के रूप में कार्य करता है और एचसीजी, एचपीएल, एस्ट्रोजेन और प्रोजेस्टोजेन सहित कई हार्मोन पैदा करता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Signals for parturition originate from:", "hi": "प्रसव (parturition) के संकेत कहाँ से उत्पन्न होते हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Both placenta as well as fully developed foetus", "hi": "अपरा के साथ-साथ पूरी तरह से विकसित भ्रूण दोनों से (Both placenta as well as fully developed foetus)" } },
+        { "id": "o2", "text": { "en": "Oxytocin released from maternal pituitary", "hi": "मातृ पिट्यूटरी से जारी ऑक्सीटोसिन" } },
+        { "id": "o3", "text": { "en": "Placenta only", "hi": "केवल अपरा" } },
+        { "id": "o4", "text": { "en": "Fully developed foetus only", "hi": "केवल पूरी तरह से विकसित भ्रूण" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "The signals for parturition originate from the fully developed foetus and the placenta, which induce mild uterine contractions called foetal ejection reflex.", "hi": "प्रसव के संकेत पूरी तरह से विकसित भ्रूण और अपरा से उत्पन्न होते हैं, जो भ्रूण निष्कासन प्रतिवर्त (foetal ejection reflex) नामक हल्के गर्भाशय संकुचन को प्रेरित करते हैं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which one of the following is not the function of placenta?", "hi": "निम्नलिखित में से कौन सा अपरा का कार्य नहीं है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Facilitates removal of carbon dioxide and waste material from embryo", "hi": "भ्रूण से कार्बन डाइऑक्साइड और अपशिष्ट पदार्थों को हटाने की सुविधा प्रदान करता है" } },
+        { "id": "o2", "text": { "en": "Secretes oxytocin during parturition", "hi": "प्रसव के दौरान ऑक्सीटोसिन स्रावित करता है (Secretes oxytocin during parturition)" } },
+        { "id": "o3", "text": { "en": "Facilitates supply of oxygen and nutrients to embryo", "hi": "भ्रूण को ऑक्सीजन और पोषक तत्वों की आपूर्ति की सुविधा प्रदान करता है" } },
+        { "id": "o4", "text": { "en": "Secretes estrogen", "hi": "एस्ट्रोजन स्रावित करता है" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Oxytocin is secreted by the maternal posterior pituitary gland, not the placenta.", "hi": "ऑक्सीटोसिन मातृ पश्च पिट्यूटरी ग्रंथि द्वारा स्रावित होता है, अपरा द्वारा नहीं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "The Leydig cells found in the human body are the secretory source of:", "hi": "मानव शरीर में पाई जाने वाली लेडिग कोशिकाएं (Leydig cells) किसके स्रावी स्रोत हैं:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Progesterone", "hi": "प्रोजेस्टेरोन" } },
+        { "id": "o2", "text": { "en": "Intestinal mucus", "hi": "आंतों का बलगम" } },
+        { "id": "o3", "text": { "en": "Glucagon", "hi": "ग्लूकागन" } },
+        { "id": "o4", "text": { "en": "Androgens", "hi": "एण्ड्रोजन (Androgens)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Leydig cells (interstitial cells), located in the interstitial spaces outside the seminiferous tubules in the testis, synthesize and secrete testicular hormones called androgens (mainly testosterone).", "hi": "वृषण में शुक्रजनक नलिकाओं के बाहर अंतरालीय स्थानों में स्थित लेडिग कोशिकाएं (अंतरालीय कोशिकाएं), एण्ड्रोजन (मुख्य रूप से टेस्टोस्टेरोन) नामक वृषण हार्मोन का संश्लेषण और स्राव करती हैं।" }
+    }
+  ]
+}

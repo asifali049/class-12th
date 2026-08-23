@@ -1,35 +1,175 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "DNA Structure and Replication",
-      "hi": "डीएनए की संरचना और प्रतिकृति"
-    },
-    "content": {
-      "en": "DNA is the genetic material. Watson and Crick proposed the Double Helix model. DNA replication is semi-conservative (proven by Meselson and Stahl).",
-      "hi": "डीएनए आनुवंशिक पदार्थ है। वॉटसन और क्रिक ने डबल हेलिक्स मॉडल प्रस्तावित किया। डीएनए प्रतिकृति अर्ध-संरक्षी (semi-conservative) है।"
+    "type": "heading",
+    "text": {
+      "en": "Molecular Basis of Inheritance",
+      "hi": "वंशागति के आणविक आधार"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Transcription",
-      "hi": "अनुलेखन (Transcription)"
-    },
-    "content": {
-      "en": "Process of copying genetic information from DNA to RNA. Occurs in the nucleus.",
-      "hi": "डीएनए से आरएनए में आनुवंशिक जानकारी को कॉपी करने की प्रक्रिया।"
+    "type": "paragraph",
+    "text": {
+      "en": "Deoxyribonucleic acid (DNA) and Ribonucleic acid (RNA) are the two types of nucleic acids found in living systems. DNA acts as the genetic material in most of the organisms. RNA mostly functions as a messenger, though it acts as a genetic material in some viruses.",
+      "hi": "डीऑक्सीराइबोन्यूक्लिक एसिड (DNA) और राइबोन्यूक्लिक एसिड (RNA) जीवित प्रणालियों में पाए जाने वाले दो प्रकार के न्यूक्लिक एसिड हैं। DNA अधिकांश जीवों में आनुवंशिक पदार्थ के रूप में कार्य करता है। RNA ज्यादातर मैसेंजर (संदेशवाहक) के रूप में कार्य करता है, हालाँकि यह कुछ वायरस में आनुवंशिक सामग्री के रूप में कार्य करता है।"
     }
   },
   {
-    "id": "n3",
-    "title": {
-      "en": "Translation & Genetic Code",
-      "hi": "स्थानांतरण (Translation) और आनुवंशिक कूट"
-    },
-    "content": {
-      "en": "Translation is the polymerization of amino acids to form a protein. The genetic code is a triplet of nucleotides (codon) that codes for a specific amino acid.",
-      "hi": "स्थानांतरण एमिनो एसिड के बहुलकीकरण से प्रोटीन बनाने की प्रक्रिया है। आनुवंशिक कूट न्यूक्लियोटाइड्स (कोडॉन) का एक त्रिक है।"
+    "type": "heading",
+    "text": {
+      "en": "1. Structure of Polynucleotide Chain",
+      "hi": "1. पॉली न्यूक्लियोटाइड श्रृंखला की संरचना"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A nucleotide has three components: a nitrogenous base, a pentose sugar (ribose in RNA, deoxyribose in DNA), and a phosphate group. Nitrogenous bases are Purines (Adenine, Guanine) and Pyrimidines (Cytosine, Uracil, Thymine).",
+      "hi": "एक न्यूक्लियोटाइड के तीन घटक होते हैं: एक नाइट्रोजनस बेस (nitrogenous base), एक पेंटोस शुगर (RNA में राइबोज, DNA में डीऑक्सीराइबोज), और एक फॉस्फेट समूह। नाइट्रोजनस बेस प्यूरीन (एडेनिन, गुआनिन) और पाइरीमिडीन (साइटोसिन, यूरैसिल, थाइमिन) हैं।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "A nitrogenous base is linked to the pentose sugar through an N-glycosidic linkage to form a nucleoside. When a phosphate group is linked to the 5'-OH of a nucleoside through phosphodiester linkage, a corresponding nucleotide is formed.",
+      "hi": "एक नाइट्रोजनस बेस पेंटोस शुगर से N-ग्लाइकोसिडिक लिंकेज के माध्यम से जुड़कर न्यूक्लियोसाइड बनाता है। जब एक फॉस्फेट समूह फॉस्फोडिएस्टर लिंकेज के माध्यम से न्यूक्लियोसाइड के 5'-OH से जुड़ता है, तो एक न्यूक्लियोटाइड बनता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Double Helix Model for DNA",
+      "hi": "2. DNA का द्विकुंडलिनी मॉडल (Double Helix Model)"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Proposed by James Watson and Francis Crick in 1953, based on X-ray diffraction data produced by Rosalind Franklin and Maurice Wilkins.",
+        "hi": "रोजालिंड फ्रैंकलिन और मौरिस विल्किंस द्वारा निर्मित एक्स-रे विवर्तन डेटा (X-ray diffraction data) के आधार पर 1953 में जेम्स वॉटसन और फ्रांसिस क्रिक द्वारा प्रस्तावित।"
+      },
+      {
+        "en": "DNA is made of two polynucleotide chains, where the backbone is constituted by sugar-phosphate, and the bases project inside.",
+        "hi": "DNA दो पॉली न्यूक्लियोटाइड श्रृंखलाओं से बना होता है, जहाँ रीढ़ (backbone) शर्करा-फॉस्फेट (sugar-phosphate) से बनती है, और बेस अंदर की ओर होते हैं।"
+      },
+      {
+        "en": "The two chains have anti-parallel polarity. It means, if one chain has the polarity 5'->3', the other has 3'->5'.",
+        "hi": "दोनों श्रृंखलाओं की ध्रुवीयता (polarity) प्रति-समानांतर (anti-parallel) होती है। इसका मतलब है, यदि एक श्रृंखला में 5'->3' ध्रुवीयता है, तो दूसरी में 3'->5' होती है।"
+      },
+      {
+        "en": "Bases in two strands are paired through hydrogen bonds (H-bonds) forming base pairs (bp). Adenine forms two H-bonds with Thymine (A=T), and Guanine forms three H-bonds with Cytosine (G≡C).",
+        "hi": "दो स्ट्रैंड्स के बेस हाइड्रोजन बॉन्ड (H-bonds) के माध्यम से जुड़कर बेस पेयर (bp) बनाते हैं। एडेनिन थाइमिन (A=T) के साथ दो H-बॉन्ड बनाता है, और गुआनिन साइटोसिन (G≡C) के साथ तीन H-बॉन्ड बनाता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. The Search for Genetic Material",
+      "hi": "3. आनुवंशिक पदार्थ की खोज"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Transforming Principle (1928): Frederick Griffith conducted experiments with Streptococcus pneumoniae (bacteria causing pneumonia) to demonstrate the transformation of R-strain (harmless) to S-strain (virulent) by a 'transforming principle' from heat-killed S-strain.",
+      "hi": "रूपांतरण सिद्धांत (Transforming Principle, 1928): फ्रेडरिक ग्रिफिथ ने स्ट्रेप्टोकोकस न्यूमोनिया (निमोनिया पैदा करने वाले बैक्टीरिया) के साथ प्रयोग किए, ताकि ताप-मृत S-स्ट्रेन से 'रूपांतरण सिद्धांत' द्वारा R-स्ट्रेन (हानिरहित) को S-स्ट्रेन (विषाक्त) में बदलने को प्रदर्शित किया जा सके।"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Hershey-Chase Experiment (1952): Alfred Hershey and Martha Chase proved unequivocally that DNA is the genetic material. They worked with bacteriophages using radioactive Phosphorus (32P) to label DNA and radioactive Sulfur (35S) to label protein. Only radioactive 32P entered the bacterial cells, proving DNA was passed on.",
+      "hi": "हर्शे-चेस प्रयोग (1952): अल्फ्रेड हर्शे और मार्था चेस ने स्पष्ट रूप से साबित किया कि DNA आनुवंशिक पदार्थ है। उन्होंने DNA को लेबल करने के लिए रेडियोधर्मी फास्फोरस (32P) और प्रोटीन को लेबल करने के लिए रेडियोधर्मी सल्फर (35S) का उपयोग करके बैक्टीरियोफेज के साथ काम किया। केवल रेडियोधर्मी 32P बैक्टीरिया कोशिकाओं में प्रवेश किया, जिससे साबित हुआ कि DNA ही स्थानांतरित हुआ था।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Central Dogma of Molecular Biology",
+      "hi": "4. आण्विक जीव विज्ञान का सेंट्रल डोग्मा"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Proposed by Francis Crick. It states that genetic information flows from DNA -> RNA -> Protein.\nDNA ---[Transcription]---> mRNA ---[Translation]---> Protein.",
+      "hi": "फ्रांसिस क्रिक द्वारा प्रस्तावित। इसमें कहा गया है कि आनुवंशिक जानकारी का प्रवाह DNA -> RNA -> प्रोटीन होता है।\nDNA ---[अनुलेखन (Transcription)]---> mRNA ---[अनुवादन (Translation)]---> प्रोटीन।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. DNA Replication",
+      "hi": "5. DNA प्रतिकृति (DNA Replication)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "DNA replicates semi-conservatively. Matthew Meselson and Franklin Stahl (1958) proved this using heavy isotope of nitrogen (15N) in E. coli. The main enzyme is DNA-dependent DNA polymerase, which catalyzes polymerization only in one direction, 5' -> 3'.",
+      "hi": "DNA अर्ध-संरक्षी (semi-conservatively) रूप से प्रतिकृति (replicate) करता है। मैथ्यू मेसल्सन और फ्रैंकलिन स्टाल (1958) ने E. coli में नाइट्रोजन (15N) के भारी समस्थानिक (isotope) का उपयोग करके इसे साबित किया। मुख्य एंजाइम DNA-निर्भर DNA पोलीमरेज़ है, जो केवल एक दिशा, 5' -> 3' में पोलीमराइजेशन को उत्प्रेरित करता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Transcription",
+      "hi": "6. अनुलेखन (Transcription)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The process of copying genetic information from one strand of the DNA into RNA. In bacteria, a single DNA-dependent RNA polymerase catalyzes transcription of all types of RNA (mRNA, tRNA, rRNA). In eukaryotes, there are three different RNA polymerases.",
+      "hi": "DNA के एक स्ट्रैंड से RNA में आनुवंशिक जानकारी की प्रतिलिपि बनाने की प्रक्रिया। बैक्टीरिया में, एकल DNA-निर्भर RNA पोलीमरेज़ सभी प्रकार के RNA (mRNA, tRNA, rRNA) के अनुलेखन को उत्प्रेरित करता है। यूकेरियोट्स (eukaryotes) में, तीन अलग-अलग RNA पोलीमरेज़ होते हैं।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "A transcription unit in DNA consists of: A Promoter, The Structural gene, and A Terminator.",
+        "hi": "DNA में एक ट्रांसक्रिप्शन यूनिट (transcription unit) में निम्न शामिल होते हैं: एक प्रमोटर (Promoter), संरचनात्मक जीन (Structural gene), और एक टर्मिनेटर (Terminator)।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "7. Genetic Code and Translation",
+      "hi": "7. आनुवंशिक कोड (Genetic Code) और अनुवादन (Translation)"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "The codon is triplet (3 bases code for 1 amino acid). There are 64 codons: 61 code for amino acids and 3 (UAA, UAG, UGA) are stop codons.",
+        "hi": "कोडोन ट्रिपलेट है (3 बेस 1 अमीनो एसिड के लिए कोड करते हैं)। 64 कोडोन हैं: 61 अमीनो एसिड के लिए कोड करते हैं और 3 (UAA, UAG, UGA) स्टॉप कोडोन हैं।"
+      },
+      {
+        "en": "AUG has dual functions. It codes for Methionine (met), and it also acts as an initiator codon.",
+        "hi": "AUG के दोहरे कार्य हैं। यह मेथिओनिन (met) के लिए कोड करता है, और यह प्रारंभक कोडोन (initiator codon) के रूप में भी कार्य करता है।"
+      },
+      {
+        "en": "Translation refers to the process of polymerization of amino acids to form a polypeptide, which takes place on ribosomes.",
+        "hi": "अनुवादन (Translation) एक पॉलीपेप्टाइड बनाने के लिए अमीनो एसिड के बहुलकीकरण की प्रक्रिया को संदर्भित करता है, जो राइबोसोम पर होता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "8. Human Genome Project (HGP) and DNA Fingerprinting",
+      "hi": "8. मानव जीनोम परियोजना (HGP) और DNA फिंगरप्रिंटिंग"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "HGP was a 13-year mega project (1990-2003) to sequence the entire human genome. DNA fingerprinting involves identifying differences in some specific regions in DNA sequence called repetitive DNA. Alec Jeffreys developed this technique.",
+      "hi": "HGP पूरे मानव जीनोम को अनुक्रमित (sequence) करने के लिए 13-वर्षीय मेगा प्रोजेक्ट (1990-2003) था। DNA फिंगरप्रिंटिंग में DNA अनुक्रम में कुछ विशिष्ट क्षेत्रों में अंतर की पहचान करना शामिल है जिसे दोहराए जाने वाले DNA (repetitive DNA) कहा जाता है। एलेक जेफ्रीज ने इस तकनीक को विकसित किया।"
     }
   }
 ]

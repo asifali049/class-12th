@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "Which enzyme is known as 'molecular scissors'?",
-      "hi": "किस एंजाइम को 'आणविक कैंची' के रूप में जाना जाता है?"
+      "en": "The cutting of DNA at specific locations became possible with the discovery of:",
+      "hi": "विशिष्ट स्थानों पर DNA को काटना किसकी खोज के साथ संभव हो गया:"
     },
     "options": [
-      {
-        "en": "Ligase",
-        "hi": "लाइगेज"
-      },
-      {
-        "en": "Polymerase",
-        "hi": "पॉलीमरेज़"
-      },
-      {
-        "en": "Restriction Endonuclease",
-        "hi": "रेस्ट्रिक्शन एंडोन्यूक्लिएज"
-      },
-      {
-        "en": "Helicase",
-        "hi": "हेलिकेज़"
-      }
+      { "id": "o1", "text": { "en": "Selectable markers", "hi": "सिलेक्टेबल मार्कर" } },
+      { "id": "o2", "text": { "en": "Ligases", "hi": "लाइगेज" } },
+      { "id": "o3", "text": { "en": "Restriction enzymes", "hi": "रेस्ट्रिक्शन एंजाइम" } },
+      { "id": "o4", "text": { "en": "Probes", "hi": "प्रोब (Probes)" } }
     ],
-    "correctOptionIndex": 2,
+    "correctOptionId": "o3",
     "explanation": {
-      "en": "Restriction endonucleases cut DNA at specific recognition sequences.",
-      "hi": "रेस्ट्रिक्शन एंडोन्यूक्लिएज विशिष्ट अनुक्रमों पर डीएनए को काटते हैं।"
+      "en": "Restriction enzymes (molecular scissors) cut DNA at specific palindromic recognition sequences, making recombinant DNA technology possible.",
+      "hi": "रेस्ट्रिक्शन एंजाइम (आणविक कैंची) विशिष्ट पैलिंड्रोमिक पहचान अनुक्रमों पर DNA को काटते हैं, जिससे recombinant DNA तकनीक संभव हो जाती है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is commonly used as a vector for introducing a DNA fragment in human lymphocytes?",
+      "hi": "मानव लिम्फोसाइटों में DNA टुकड़े को पेश करने के लिए आमतौर पर वेक्टर के रूप में निम्न में से किसका उपयोग किया जाता है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Retrovirus", "hi": "रेट्रोवायरस" } },
+      { "id": "o2", "text": { "en": "Ti plasmid", "hi": "Ti प्लास्मिड" } },
+      { "id": "o3", "text": { "en": "λ phage", "hi": "λ चरण (phage)" } },
+      { "id": "o4", "text": { "en": "pBR 322", "hi": "pBR 322" } }
+    ],
+    "correctOptionId": "o1",
+    "explanation": {
+      "en": "Disarmed retroviruses are used to deliver desirable genes into animal cells, including human lymphocytes (e.g., in gene therapy).",
+      "hi": "निहत्थे (Disarmed) रेट्रोवायरस का उपयोग मानव लिम्फोसाइटों (उदा., जीन थेरेपी में) सहित पशु कोशिकाओं में वांछनीय जीन पहुंचाने के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "The DNA fragments separated on an agarose gel can be visualised after staining with:",
+      "hi": "एगरोज़ जेल पर अलग किए गए DNA टुकड़ों को किसके साथ धुंधला (staining) करने के बाद देखा जा सकता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Acetocarmine", "hi": "एसिटोकार्माइन" } },
+      { "id": "o2", "text": { "en": "Aniline blue", "hi": "एनीलिन ब्लू" } },
+      { "id": "o3", "text": { "en": "Ethidium bromide", "hi": "एथिडियम ब्रोमाइड" } },
+      { "id": "o4", "text": { "en": "Bromophenol blue", "hi": "ब्रोमोफेनॉल ब्लू" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Separated DNA fragments are stained with ethidium bromide followed by exposure to UV radiation, which makes them appear as bright orange bands.",
+      "hi": "अलग किए गए DNA टुकड़ों को एथिडियम ब्रोमाइड से रंगा जाता है और उसके बाद UV विकिरण (radiation) के संपर्क में लाया जाता है, जिससे वे चमकीले नारंगी बैंड के रूप में दिखाई देते हैं।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a palindromic nucleotide sequence?",
+      "hi": "पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम (palindromic nucleotide sequence) क्या है?"
+    },
+    "answer": {
+      "en": "A palindromic nucleotide sequence in DNA is a sequence of base pairs that reads the same on the two strands when the orientation of reading is kept the same (e.g., 5' to 3').\nExample: \n5' -- GAATTC -- 3'\n3' -- CTTAAG -- 5'",
+      "hi": "DNA में एक पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम बेस पेयर का एक अनुक्रम है जो दोनों स्ट्रैंड पर समान पढ़ता है जब पढ़ने का उन्मुखीकरण (orientation) समान रखा जाता है (उदा., 5' से 3')।\nउदाहरण: \n5' -- GAATTC -- 3'\n3' -- CTTAAG -- 5'"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Explain the role of 'Selectable Marker' in a cloning vector.",
+      "hi": "क्लोनिंग वेक्टर में 'सिलेक्टेबल मार्कर (Selectable Marker)' की भूमिका स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "A selectable marker helps in identifying and eliminating non-transformants and selectively permitting the growth of the transformants. Normally, the genes encoding resistance to antibiotics such as ampicillin, chloramphenicol, or tetracycline are considered useful selectable markers for *E. coli*.",
+      "hi": "एक सिलेक्टेबल मार्कर गैर-ट्रांसफॉर्मेंट्स (non-transformants) को पहचानने और समाप्त करने और चुनिंदा रूप से ट्रांसफॉर्मेंट्स के विकास की अनुमति देने में मदद करता है। आम तौर पर, एम्पीसिलीन, क्लोरैमफेनिकोल, या टेट्रासाइक्लिन जैसे एंटीबायोटिक दवाओं के प्रतिरोध को एन्कोड करने वाले जीन *ई. कोलाई* के लिए उपयोगी सिलेक्टेबल मार्कर माने जाते हैं।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the three steps involved in the Polymerase Chain Reaction (PCR).",
+      "hi": "पोलीमरेज़ चेन रिएक्शन (PCR) में शामिल तीन चरणों का वर्णन करें।"
+    },
+    "answer": {
+      "en": "**Polymerase Chain Reaction (PCR)** is used for amplifying a specific gene. It has three steps:\n1. **Denaturation**: The double-stranded DNA is heated to high temperature (~94°C) so the two strands separate, acting as templates.\n2. **Annealing**: Two sets of small chemically synthesized oligonucleotides (primers) bind to the complementary regions of DNA at a lower temperature (~55°C).\n3. **Extension**: The enzyme *Taq* DNA polymerase extends the primers using the nucleotides provided in the reaction and the genomic DNA as template (at ~72°C). This cycle is repeated to get millions of copies of DNA.",
+      "hi": "**पोलीमरेज़ चेन रिएक्शन (PCR)** का उपयोग किसी विशिष्ट जीन को बढ़ाने के लिए किया जाता है। इसके तीन चरण हैं:\n1. **विकृतीकरण (Denaturation)**: डबल-स्ट्रैंडेड DNA को उच्च तापमान (~94°C) पर गर्म किया जाता है ताकि दो स्ट्रैंड अलग हो जाएं, जो टेम्पलेट के रूप में कार्य करते हैं।\n2. **एनीलिंग (Annealing)**: छोटे रासायनिक रूप से संश्लेषित ऑलिगोन्यूक्लियोटाइड्स (प्राइमर्स) के दो सेट कम तापमान (~55°C) पर DNA के पूरक (complementary) क्षेत्रों से जुड़ते हैं।\n3. **विस्तार (Extension)**: एंजाइम *टैक (Taq)* DNA पोलीमरेज़ प्रतिक्रिया में प्रदान किए गए न्यूक्लियोटाइड्स और जीनोमिक DNA को टेम्पलेट (~72°C पर) के रूप में उपयोग करके प्राइमरों का विस्तार करता है। DNA की लाखों प्रतियां प्राप्त करने के लिए यह चक्र दोहराया जाता है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Downstream Processing? Why is it important?",
+      "hi": "डाउनस्ट्रीम प्रोसेसिंग क्या है? यह क्यों महत्वपूर्ण है?"
+    },
+    "answer": {
+      "en": "**Downstream Processing** refers to the recovery and purification of biosynthetic products, particularly pharmaceuticals, from natural sources such as animal or plant tissue or fermentation broth, including the recycling of salvageable components and the proper treatment and disposal of waste.\n**Importance**: It includes separation and purification of the product. The product has to be formulated with suitable preservatives. Such formulation has to undergo thorough clinical trials (in case of drugs) and strict quality control testing before it is ready for marketing.",
+      "hi": "**डाउनस्ट्रीम प्रोसेसिंग** प्राकृतिक स्रोतों जैसे पशु या पौधों के ऊतकों या किण्वन शोरबा से बायोसिंथेटिक उत्पादों, विशेष रूप से फार्मास्यूटिकल्स की वसूली और शुद्धिकरण को संदर्भित करता है, जिसमें बचाव योग्य घटकों का पुनर्चक्रण (recycling) और कचरे का उचित उपचार और निपटान शामिल है।\n**महत्व**: इसमें उत्पाद का पृथक्करण और शुद्धिकरण शामिल है। उत्पाद को उपयुक्त परिरक्षकों (preservatives) के साथ तैयार किया जाना चाहिए। विपणन के लिए तैयार होने से पहले इस तरह के फॉर्मूलेशन को गहन नैदानिक परीक्षणों (दवाओं के मामले में) और सख्त गुणवत्ता नियंत्रण परीक्षण से गुजरना पड़ता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In recombinant DNA technology, what is the function of 'DNA ligase'?",
+      "hi": "Recombinant DNA तकनीक में, 'DNA लाइगेज' का कार्य क्या है?"
+    },
+    "answer": {
+      "en": "DNA ligase acts as a molecular glue. It facilitates the joining of DNA strands together by catalyzing the formation of a phosphodiester bond. It joins the sticky ends of the foreign DNA and the vector DNA to create a recombinant DNA molecule.",
+      "hi": "DNA लाइगेज आणविक गोंद के रूप में कार्य करता है। यह फॉस्फोडाइस्टर बॉन्ड के निर्माण को उत्प्रेरित करके DNA स्ट्रैंड्स को एक साथ जोड़ने की सुविधा प्रदान करता है। यह एक recombinant DNA अणु बनाने के लिए विदेशी DNA और वेक्टर DNA के चिपचिपे सिरों को जोड़ता है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Taq polymerase enzyme is obtained from:",
+      "hi": "टैक (Taq) पोलीमरेज़ एंजाइम किससे प्राप्त होता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Bacillus subtilis", "hi": "बैसिलस सबटिलिस" } },
+      { "id": "o2", "text": { "en": "Pseudomonas putida", "hi": "स्यूडोमोनास पुटिडा" } },
+      { "id": "o3", "text": { "en": "Thermus aquaticus", "hi": "थर्मस एक्वेटिकस" } },
+      { "id": "o4", "text": { "en": "Thiobacillus ferroxidans", "hi": "थियोबैसिलस फेरोऑक्सीडेंस" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Taq polymerase is a thermostable DNA polymerase isolated from the thermophilic bacterium Thermus aquaticus. It remains active during the high temperature-induced denaturation of double-stranded DNA in PCR.",
+      "hi": "Taq पोलीमरेज़ एक थर्मोस्टेबल DNA पोलीमरेज़ है जिसे थर्मोफिलिक जीवाणु थर्मस एक्वेटिकस से अलग किया जाता है। यह PCR में डबल-स्ट्रैंडेड DNA के उच्च तापमान-प्रेरित विकृतीकरण के दौरान सक्रिय रहता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why is Agrobacterium tumefaciens called a natural genetic engineer of plants?",
+      "hi": "एग्रोबैक्टीरियम ट्यूमेफेशियन्स (Agrobacterium tumefaciens) को पौधों का प्राकृतिक आनुवंशिक इंजीनियर क्यों कहा जाता है?"
+    },
+    "answer": {
+      "en": "*Agrobacterium tumefaciens* is a pathogen of several dicot plants. It naturally delivers a piece of DNA known as 'T-DNA' to transform normal plant cells into a tumor and direct these tumor cells to produce the chemicals required by the pathogen. Scientists have modified its Ti plasmid so it can be used to deliver genes of our interest into a variety of plants without causing disease.",
+      "hi": "*एग्रोबैक्टीरियम ट्यूमेफेशियन्स* कई डाइकोट पौधों का रोगजनक है। यह स्वाभाविक रूप से 'T-DNA' के रूप में जाने जाने वाले DNA के एक टुकड़े को सामान्य पौधों की कोशिकाओं को ट्यूमर में बदलने के लिए वितरित करता है और इन ट्यूमर कोशिकाओं को रोगज़नक़ द्वारा आवश्यक रसायनों का उत्पादन करने के लिए निर्देशित करता है। वैज्ञानिकों ने इसके Ti प्लास्मिड को संशोधित किया है ताकि इसका उपयोग बीमारी पैदा किए बिना विभिन्न प्रकार के पौधों में हमारी रुचि के जीन पहुंचाने के लिए किया जा सके।"
     }
   }
 ]

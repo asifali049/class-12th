@@ -1,30 +1,51 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Inheritance",
-    "hi": "वंशागति"
-  },
-  "children": [
+  "id": "m1",
+  "title": { "en": "Principles of Inheritance and Variation", "hi": "वंशागति तथा विविधता के सिद्धांत" },
+  "nodes": [
     {
-      "id": "c1",
-      "label": {
-        "en": "Mendel's Laws",
-        "hi": "मेंडल के नियम"
-      }
+      "id": "n1",
+      "label": { "en": "Mendelian Inheritance", "hi": "मेंडेलियन वंशागति" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Law of Dominance", "hi": "प्रभाविता का नियम" } },
+        { "id": "n1_2", "label": { "en": "Law of Segregation", "hi": "विंसंयोजन का नियम" } },
+        { "id": "n1_3", "label": { "en": "Law of Independent Assortment", "hi": "स्वतंत्र अपव्यूहन का नियम" } }
+      ]
     },
     {
-      "id": "c2",
-      "label": {
-        "en": "Linkage & Recombination",
-        "hi": "सहलग्नता और पुनर्संयोजन"
-      }
+      "id": "n2",
+      "label": { "en": "Deviations from Mendelism", "hi": "मेंडेलिज्म से विचलन" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Incomplete Dominance", "hi": "अपूर्ण प्रभाविता" } },
+        { "id": "n2_2", "label": { "en": "Co-dominance & Multiple Alleles", "hi": "सह-प्रभाविता और बहुविकल्पी" } },
+        { "id": "n2_3", "label": { "en": "Polygenic Inheritance", "hi": "बहुजीनी वंशागति" } },
+        { "id": "n2_4", "label": { "en": "Pleiotropy", "hi": "प्लियोट्रॉपी" } }
+      ]
     },
     {
-      "id": "c3",
-      "label": {
-        "en": "Genetic Disorders",
-        "hi": "आनुवंशिक विकार"
-      }
+      "id": "n3",
+      "label": { "en": "Chromosomal Theory & Linkage", "hi": "गुणसूत्रीय सिद्धांत और सहलग्नता" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Sutton & Boveri (Theory)", "hi": "सटन और बोवेरी (सिद्धांत)" } },
+        { "id": "n3_2", "label": { "en": "T.H. Morgan (Linkage in Drosophila)", "hi": "टी.एच. मॉर्गन (ड्रोसोफिला में सहलग्नता)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Sex Determination", "hi": "लिंग निर्धारण" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "XX-XY (Humans, Drosophila)", "hi": "XX-XY (मनुष्य, ड्रोसोफिला)" } },
+        { "id": "n4_2", "label": { "en": "ZZ-ZW (Birds)", "hi": "ZZ-ZW (पक्षी)" } },
+        { "id": "n4_3", "label": { "en": "XX-XO (Grasshopper)", "hi": "XX-XO (टिड्डा)" } },
+        { "id": "n4_4", "label": { "en": "Haplodiploid (Honey bees)", "hi": "अगुणित-द्विगुणित (मधुमक्खी)" } }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": { "en": "Genetic Disorders", "hi": "आनुवंशिक विकार" },
+      "children": [
+        { "id": "n5_1", "label": { "en": "Mendelian (Haemophilia, Sickle-cell)", "hi": "मेंडेलियन (हीमोफीलिया, सिकल-सेल)" } },
+        { "id": "n5_2", "label": { "en": "Chromosomal (Down's, Klinefelter's)", "hi": "गुणसूत्रीय (डाउन, क्लाइनफेल्टर)" } }
+      ]
     }
   ]
 }

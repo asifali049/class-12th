@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch3",
+  "title": {
+    "en": "Physics Chapter 3 Mock Test",
+    "hi": "भौतिकी अध्याय 3 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Ohm's law is valid when the temperature of the conductor is:",
+        "hi": "ओम का नियम मान्य है जब चालक का तापमान:"
+      },
+      "options": [
+        {
+          "en": "Very high",
+          "hi": "बहुत अधिक हो"
+        },
+        {
+          "en": "Very low",
+          "hi": "बहुत कम हो"
+        },
+        {
+          "en": "Varying",
+          "hi": "परिवर्तित हो रहा हो"
+        },
+        {
+          "en": "Constant",
+          "hi": "स्थिर (Constant) हो"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "Ohm's law states that $V \\propto I$ provided physical conditions like temperature remain constant.",
+        "hi": "ओम के नियम के अनुसार $V \\propto I$ बशर्ते कि भौतिक परिस्थितियाँ जैसे तापमान स्थिर रहें।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The drift velocity of free electrons in a conductor is independent of:",
+        "hi": "एक चालक में मुक्त इलेक्ट्रॉनों का अपवाह वेग (drift velocity) किससे स्वतंत्र होता है?"
+      },
+      "options": [
+        {
+          "en": "Electric field",
+          "hi": "विद्युत क्षेत्र"
+        },
+        {
+          "en": "Cross-sectional area",
+          "hi": "अनुप्रस्थ काट का क्षेत्रफल"
+        },
+        {
+          "en": "Relaxation time",
+          "hi": "विश्रांति काल (Relaxation time)"
+        },
+        {
+          "en": "Charge of electron",
+          "hi": "इलेक्ट्रॉन का आवेश"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Drift velocity $v_d = -\\frac{eE}{m}\\tau$. It depends on electric field $E$ and relaxation time $\\tau$, but not directly on the cross-sectional area of the conductor in this formula. (Though macroscopic current depends on area).",
+        "hi": "अपवाह वेग $v_d = -\\frac{eE}{m}\\tau$। यह विद्युत क्षेत्र $E$ और विश्रांति काल $\\tau$ पर निर्भर करता है, लेकिन इस सूत्र में सीधे चालक के अनुप्रस्थ काट के क्षेत्रफल पर नहीं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Kirchhoff's First Rule (Junction Rule) is based on the conservation of:",
+        "hi": "किरचॉफ का प्रथम नियम (संधि नियम) किसके संरक्षण पर आधारित है?"
+      },
+      "options": [
+        {
+          "en": "Energy",
+          "hi": "ऊर्जा"
+        },
+        {
+          "en": "Charge",
+          "hi": "आवेश"
+        },
+        {
+          "en": "Momentum",
+          "hi": "संवेग"
+        },
+        {
+          "en": "Mass",
+          "hi": "द्रव्यमान"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "The junction rule ($\\sum I = 0$) implies that there is no accumulation of charge at a junction, demonstrating the conservation of charge.",
+        "hi": "संधि नियम ($\\sum I = 0$) का तात्पर्य है कि एक संधि पर आवेश का कोई संचय नहीं होता है, जो आवेश के संरक्षण को दर्शाता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Internal resistance of a cell is defined as the resistance offered by:",
+        "hi": "किसी सेल के आंतरिक प्रतिरोध को किसके द्वारा प्रस्तुत प्रतिरोध के रूप में परिभाषित किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "The connecting wires",
+          "hi": "जोड़ने वाले तारों द्वारा"
+        },
+        {
+          "en": "The external load",
+          "hi": "बाहरी भार द्वारा"
+        },
+        {
+          "en": "The electrolyte of the cell",
+          "hi": "सेल के विद्युत अपघट्य (electrolyte) द्वारा"
+        },
+        {
+          "en": "The switch",
+          "hi": "स्विच द्वारा"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Internal resistance ($r$) is the resistance offered by the electrolyte and electrodes of a cell when current flows through it.",
+        "hi": "आंतरिक प्रतिरोध ($r$) सेल के विद्युत अपघट्य और इलेक्ट्रोड द्वारा प्रस्तुत किया जाने वाला प्रतिरोध है जब इसके माध्यम से धारा प्रवाहित होती है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "A wire of resistance $R$ is stretched to twice its original length. Its new resistance will be:",
+        "hi": "प्रतिरोध $R$ के एक तार को उसकी मूल लंबाई के दोगुने तक खींचा जाता है। इसका नया प्रतिरोध होगा:"
+      },
+      "options": [
+        {
+          "en": "$R$",
+          "hi": "$R$"
+        },
+        {
+          "en": "$2R$",
+          "hi": "$2R$"
+        },
+        {
+          "en": "$4R$",
+          "hi": "$4R$"
+        },
+        {
+          "en": "$R/2$",
+          "hi": "$R/2$"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "When stretched, volume is constant ($A \\times L = const$). If $L \\to 2L$, $A \\to A/2$. $R' = \\rho \\frac{2L}{A/2} = 4 \\rho \\frac{L}{A} = 4R$.",
+        "hi": "जब खींचा जाता है, तो आयतन स्थिर रहता है ($A \\times L = const$)। यदि $L \\to 2L$, $A \\to A/2$। $R' = \\rho \\frac{2L}{A/2} = 4 \\rho \\frac{L}{A} = 4R$।"
+      }
+    }
+  ]
+}

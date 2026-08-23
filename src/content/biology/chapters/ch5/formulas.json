@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Chargaff's Rule",
+      "hi": "चारगाफ का नियम (Chargaff's Rule)"
+    },
+    "formula": "\\frac{A + G}{T + C} = 1 \\quad \\text{or} \\quad A = T \\text{ and } G = C",
+    "variables": [
+      {
+        "name": "A",
+        "description": { "en": "Amount of Adenine", "hi": "एडेनिन की मात्रा" }
+      },
+      {
+        "name": "T",
+        "description": { "en": "Amount of Thymine", "hi": "थाइमिन की मात्रा" }
+      },
+      {
+        "name": "G",
+        "description": { "en": "Amount of Guanine", "hi": "गुआनिन की मात्रा" }
+      },
+      {
+        "name": "C",
+        "description": { "en": "Amount of Cytosine", "hi": "साइटोसिन की मात्रा" }
+      }
+    ],
+    "applications": {
+      "en": "For a double-stranded DNA, the ratios between Adenine and Thymine and Guanine and Cytosine are constant and equal to one. Used to calculate the percentage of bases.",
+      "hi": "एक डबल-स्ट्रैंडेड DNA के लिए, एडेनिन और थाइमिन तथा गुआनिन और साइटोसिन के बीच का अनुपात स्थिर होता है और एक के बराबर होता है। बेस के प्रतिशत की गणना के लिए उपयोग किया जाता है।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Length of DNA Double Helix",
+      "hi": "DNA डबल हेलिक्स की लंबाई"
+    },
+    "formula": "\\text{Length} = \\text{Total number of base pairs (bp)} \\times \\text{Distance between two consecutive bp}",
+    "variables": [
+      {
+        "name": "\\text{Distance between two consecutive bp}",
+        "description": { "en": "0.34 nm (or $0.34 \\times 10^{-9}$ m)", "hi": "0.34 nm (या $0.34 \\times 10^{-9}$ m)" }
+      },
+      {
+        "name": "\\text{Human diploid content}",
+        "description": { "en": "$6.6 \\times 10^9$ bp", "hi": "$6.6 \\times 10^9$ bp" }
+      }
+    ],
+    "applications": {
+      "en": "Used to calculate the total length of DNA in a typical mammalian cell: $6.6 \\times 10^9 \\times 0.34 \\times 10^{-9} = 2.2$ meters.",
+      "hi": "एक सामान्य स्तनधारी कोशिका में DNA की कुल लंबाई की गणना करने के लिए उपयोग किया जाता है: $6.6 \\times 10^9 \\times 0.34 \\times 10^{-9} = 2.2$ मीटर।"
+    }
+  },
+  {
+    "id": "f3",
+    "title": {
+      "en": "Pitch of the DNA Helix",
+      "hi": "DNA हेलिक्स की पिच (Pitch)"
+    },
+    "formula": "\\text{Pitch} = 3.4 \\text{ nm} \\quad (\\text{with 10 bp per turn})",
+    "variables": [
+      {
+        "name": "1 \\text{ nm}",
+        "description": { "en": "$10^{-9}$ meters", "hi": "$10^{-9}$ मीटर" }
+      }
+    ],
+    "applications": {
+      "en": "Defines the physical dimensions of the B-DNA double helix.",
+      "hi": "B-DNA डबल हेलिक्स के भौतिक आयामों (physical dimensions) को परिभाषित करता है।"
+    }
+  }
+]

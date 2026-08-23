@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Organismic Responses to Environmental Stress",
+      "hi": "पर्यावरणीय तनाव के प्रति जीवों की प्रतिक्रियाएँ"
+    },
+    "concept": {
+      "en": "Organisms must maintain a constant internal environment (homeostasis) despite varying external conditions. When abiotic conditions become stressful, organisms employ different strategies to survive.",
+      "hi": "विभिन्न बाहरी परिस्थितियों के बावजूद जीवों को एक निरंतर आंतरिक वातावरण (होमियोस्टेसिस) बनाए रखना चाहिए। जब अजैविक स्थितियाँ तनावपूर्ण हो जाती हैं, तो जीव जीवित रहने के लिए विभिन्न रणनीतियाँ अपनाते हैं।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Strategy 1: Regulate (Homeostasis)", "hi": "रणनीति 1: नियमन (होमियोस्टेसिस)" },
+        "content": {
+          "en": "The organism expends energy to maintain a constant internal temperature (thermoregulation) and osmotic concentration (osmoregulation). Example: Mammals shivering in cold to generate heat or sweating in heat to cool down.",
+          "hi": "जीव एक निरंतर आंतरिक तापमान (थर्मोरेग्यूलेशन) और आसमाटिक सांद्रता (ऑस्मोरेग्यूलेशन) बनाए रखने के लिए ऊर्जा खर्च करता है। उदाहरण: स्तनधारी ठंड में गर्मी पैदा करने के लिए कांपते हैं या गर्मी में ठंडा होने के लिए पसीना बहाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Strategy 2: Conform", "hi": "रणनीति 2: अनुरूप (Conform)" },
+        "content": {
+          "en": "If the organism cannot expend energy for regulation, its internal environment changes with the external environment. These are conformers. Example: 99% of animals (like reptiles, fishes) whose body temperature matches the ambient temperature.",
+          "hi": "यदि जीव नियमन के लिए ऊर्जा खर्च नहीं कर सकता है, तो उसका आंतरिक वातावरण बाहरी वातावरण के साथ बदल जाता है। ये कन्फॉर्मर (conformers) हैं। उदाहरण: 99% जानवर (जैसे सरीसृप, मछलियां) जिनके शरीर का तापमान परिवेश के तापमान से मेल खाता है।"
+        }
+      },
+      {
+        "title": { "en": "Strategy 3: Migrate (Temporary escape in Space)", "hi": "रणनीति 3: प्रवास (अंतरिक्ष में अस्थायी पलायन)" },
+        "content": {
+          "en": "If the stressful condition is localized, the organism can temporarily move away to a more hospitable area and return when the stress is over. Example: Siberian cranes migrating to India during winter.",
+          "hi": "यदि तनावपूर्ण स्थिति स्थानीयकृत (localized) है, तो जीव अस्थायी रूप से अधिक मेहमाननवाज क्षेत्र में जा सकता है और तनाव समाप्त होने पर लौट सकता है। उदाहरण: सर्दियों के दौरान भारत में साइबेरियन क्रेन का प्रवास।"
+        }
+      },
+      {
+        "title": { "en": "Strategy 4: Suspend (Temporary escape in Time)", "hi": "रणनीति 4: निलंबित (समय में अस्थायी पलायन)" },
+        "content": {
+          "en": "If the organism cannot migrate, it might suspend its metabolic activities. Examples include Hibernation (winter sleep in bears), Aestivation (summer sleep in snails), and Diapause (suspended development in zooplanktons). Bacteria and fungi form thick-walled spores.",
+          "hi": "यदि जीव प्रवास नहीं कर सकता है, तो वह अपनी चयापचय गतिविधियों को निलंबित कर सकता है। उदाहरणों में हाइबरनेशन (भालू में सर्दियों की नींद), एस्टीवेशन (घोंघे में गर्मियों की नींद), और डायपॉज़ (zooplanktons में निलंबित विकास) शामिल हैं। बैक्टीरिया और कवक मोटी दीवार वाले बीजाणु बनाते हैं।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "Evolution has resulted in these various alternatives for organisms to cope with extremes in their environment, ensuring the survival of the species.",
+      "hi": "विकास (Evolution) के परिणामस्वरूप जीवों के लिए अपने पर्यावरण में चरम सीमाओं का सामना करने के लिए ये विभिन्न विकल्प सामने आए हैं, जिससे प्रजातियों का अस्तित्व सुनिश्चित होता है।"
+    },
+    "examTip": {
+      "en": "Remember the distinction between Migration (escape in space) and Suspension like hibernation/aestivation (escape in time).",
+      "hi": "प्रवास (अंतरिक्ष में पलायन) और निलंबन जैसे हाइबरनेशन/एस्टीवेशन (समय में पलायन) के बीच अंतर याद रखें।"
+    }
+  }
+]

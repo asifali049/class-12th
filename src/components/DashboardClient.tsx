@@ -59,7 +59,7 @@ export default function DashboardClient({ subjects }: DashboardClientProps) {
           <Link href="#" className="hover:text-blue-600 transition-colors">Revision</Link>
           <Link href="#" className="hover:text-blue-600 transition-colors">Question Bank</Link>
           <Link href="#" className="hover:text-blue-600 transition-colors">Tests</Link>
-          <div className="flex items-center gap-1 text-xs font-semibold text-green-700 bg-green-100 px-2 py-1 rounded-full border border-green-200">
+          <div className="flex items-center gap-1 text-xs font-semibold text-green-700 dark:text-green-400 bg-green-100 dark:bg-green-900/30 px-2 py-1 rounded-full border border-green-200 dark:border-green-800">
             <CheckCircle2 className="w-3 h-3" />
             UPMSP Verified
           </div>
@@ -75,7 +75,7 @@ export default function DashboardClient({ subjects }: DashboardClientProps) {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="max-w-3xl"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 border border-red-100 text-red-600 text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 dark:bg-red-900/30 border border-red-100 dark:border-red-900/50 text-red-600 dark:text-red-400 text-sm font-medium mb-6">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
@@ -83,16 +83,16 @@ export default function DashboardClient({ subjects }: DashboardClientProps) {
             Session 2026-27 | Target UP Board
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 mb-6 leading-tight">
+          <h1 className="hero-title text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
             UP Board Class 12 <br className="hidden md:block"/> 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Science Stream</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">Science Stream</span>
           </h1>
           
-          <p className="handwriting text-3xl md:text-4xl ink-blue mb-4">
+          <p className="handwriting text-3xl md:text-4xl text-blue-800 dark:text-blue-400 mb-4">
             Smart Notes • Smart Revision • Better Preparation
           </p>
           
-          <p className="text-lg text-slate-600 mb-8 max-w-2xl font-medium">
+          <p className="hero-subtitle text-lg mb-8 max-w-2xl font-medium">
             हिंदी • English • Physics • Chemistry • Biology
           </p>
           

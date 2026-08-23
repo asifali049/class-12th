@@ -1,20 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Spermatogenesis vs Oogenesis",
-      "hi": "शुक्राणुजनन बनाम अंडजनन",
-      "hinglish": "Spermatogenesis vs Oogenesis"
-    },
-    "summary": {
-      "en": "Spermatogenesis starts at puberty. Continuous process.\nOogenesis starts during embryonic stage. Arrested at Prophase I.",
-      "hi": "शुक्राणुजनन यौवन पर शुरू होता है। सतत प्रक्रिया।\nअंडजनन भ्रूण अवस्था के दौरान शुरू होता है। प्रोफ़ेज़ I पर रुक जाता है।"
-    },
-    "quickRecall": [
-      {
-        "en": "LH Surge = Ovulation",
-        "hi": "LH उछाल = अंडोत्सर्ग"
-      }
-    ]
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Male System**: Testes (in scrotum $\\rightarrow$ low temp). Leydig cells (Androgens). Sertoli cells (Nutrition). Pathway: Seminiferous tubules $\\rightarrow$ Rete testis $\\rightarrow$ Vasa efferentia $\\rightarrow$ Epididymis $\\rightarrow$ Vas deferens.\n- **Female System**: Ovaries, Fallopian tubes (Infundibulum, Ampulla, Isthmus), Uterus (Perimetrium, Myometrium, Endometrium).\n- **Spermatogenesis**: Spermatogonia (2n) $\\rightarrow$ Primary Spermatocyte (2n) $\\xrightarrow{\\text{Meiosis I}}$ Secondary Spermatocyte (n) $\\xrightarrow{\\text{Meiosis II}}$ Spermatid (n) $\\rightarrow$ Sperm (n).\n- **Oogenesis**: Oogonia (2n) $\\rightarrow$ Primary Oocyte (arrested in Prophase I) $\\rightarrow$ Secondary Oocyte (n, released at ovulation).\n- **Menstrual Cycle**: Menstrual (1-5 days), Follicular (6-13 days, Estrogen peak), Ovulatory (14th day, LH surge), Luteal (15-28 days, Progesterone peak by Corpus Luteum).\n- **Fertilization**: In Ampulla. Sperm + Ovum $\\rightarrow$ Zygote (2n).\n- **Implantation**: Blastocyst embeds in Endometrium.\n- **Parturition**: Delivery induced by Oxytocin (uterine contraction).",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **पुरुष तंत्र**: वृषण (अंडकोश में $\\rightarrow$ कम तापमान)। लेडिग कोशिकाएं (एण्ड्रोजन)। सर्टोली कोशिकाएं (पोषण)। मार्ग: शुक्रजनक नलिकाएं $\\rightarrow$ वृषण जालिका $\\rightarrow$ शुक्रवाहिकाएं $\\rightarrow$ अधिवृषण $\\rightarrow$ शुक्रवाहक।\n- **महिला तंत्र**: अंडाशय, फैलोपियन ट्यूब (इनफंडिबुलम, एम्पुला, इस्थमस), गर्भाशय (परिगर्भाशय, पेशीस्तर, अंतःस्तर)।\n- **शुक्राणुजनन**: स्पर्मेटोगोनिया (2n) $\\rightarrow$ प्राथमिक स्पर्मेटोसाइट (2n) $\\xrightarrow{\\text{अर्धसूत्रीविभाजन I}}$ द्वितीयक स्पर्मेटोसाइट (n) $\\xrightarrow{\\text{अर्धसूत्रीविभाजन II}}$ स्पर्मेटिड (n) $\\rightarrow$ शुक्राणु (n)।\n- **अंडजनन**: ऊगोनिया (2n) $\\rightarrow$ प्राथमिक ऊसाइट (प्रोफ़ेज़ I में गिरफ्तार) $\\rightarrow$ द्वितीयक ऊसाइट (n, ओव्यूलेशन पर जारी)।\n- **आर्तव चक्र**: मासिक धर्म (1-5 दिन), कूपिक (6-13 दिन, एस्ट्रोजन चरम पर), ओव्यूलेटरी (14वां दिन, एलएच वृद्धि), ल्यूटियल (15-28 दिन, कॉर्पस ल्यूटियम द्वारा प्रोजेस्टेरोन चरम पर)।\n- **निषेचन**: एम्पुला में। शुक्राणु + डिंब $\\rightarrow$ युग्मनज (2n)।\n- **आरोपण**: ब्लास्टोसिस्ट एंडोमेट्रियम में एम्बेडेड होता है।\n- **प्रसव**: ऑक्सीटोसिन (गर्भाशय संकुचन) द्वारा प्रेरित डिलीवरी।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Reproductive Systems\n- **Male**: Testes contain seminiferous tubules (produce sperms). Accessory glands (Seminal vesicle, Prostate, Bulbourethral) produce seminal plasma (fructose, Ca++).\n- **Female**: Ovaries produce ova. Uterus has 3 layers. Endometrium is the site of implantation and undergoes cyclical changes during menstruation. Myometrium causes strong contractions during delivery.\n\n### 2. Gametogenesis\n- **Spermiogenesis**: Transformation of spermatids into functional spermatozoa.\n- **Spermiation**: Release of sperms from the seminiferous tubules.\n- **Oogenesis**: Initiated before birth. Primary oocytes arrest in Prophase I until puberty. Meiosis II completes only upon fertilization.\n\n### 3. Hormonal Control\n- **GnRH**: From hypothalamus, stimulates anterior pituitary to release LH and FSH.\n- **LH**: Stimulates Leydig cells (males) to produce androgens; triggers ovulation and corpus luteum formation (females).\n- **FSH**: Stimulates Sertoli cells (males) for spermiogenesis; stimulates follicular growth (females).\n\n### 4. Pregnancy and Development\n- **Placenta**: Connects foetus to uterine wall. Secretes hCG, hPL, estrogens, progesterone.\n- **hCG & hPL**: Produced ONLY during pregnancy.\n- **Colostrum**: Initial milk, rich in antibodies (IgA) for infant immunity.",
+      "hi": "### 1. प्रजनन तंत्र\n- **पुरुष**: वृषण में शुक्रजनक नलिकाएं होती हैं (शुक्राणु पैदा करती हैं)। सहायक ग्रंथियां (शुक्राशय, प्रोस्टेट, बल्बोयूरेथ्रल) सेमिनल प्लाज्मा (फ्रुक्टोज, Ca++) का उत्पादन करती हैं।\n- **महिला**: अंडाशय डिंब पैदा करते हैं। गर्भाशय की 3 परतें होती हैं। एंडोमेट्रियम आरोपण का स्थल है और मासिक धर्म के दौरान चक्रीय परिवर्तनों से गुजरता है। मायोमेट्रियम प्रसव के दौरान मजबूत संकुचन का कारण बनता है।\n\n### 2. युग्मकजनन\n- **स्पर्मियोजेनेसिस**: स्पर्मेटिड्स का कार्यात्मक शुक्राणुओं में परिवर्तन।\n- **स्पर्मिएशन**: शुक्रजनक नलिकाओं से शुक्राणुओं का निकलना।\n- **अंडजनन**: जन्म से पहले शुरू होता है। प्राथमिक ऊसाइट यौवन तक प्रोफ़ेज़ I में गिरफ्तार रहते हैं। अर्धसूत्रीविभाजन II केवल निषेचन पर पूरा होता है।\n\n### 3. हार्मोनल नियंत्रण\n- **GnRH**: हाइपोथैलेमस से, एलएच और एफएसएच जारी करने के लिए पूर्वकाल पिट्यूटरी को उत्तेजित करता है।\n- **LH**: एण्ड्रोजन का उत्पादन करने के लिए लेडिग कोशिकाओं (पुरुषों) को उत्तेजित करता है; ओव्यूलेशन और कॉर्पस ल्यूटियम गठन (महिलाओं) को ट्रिगर करता है।\n- **FSH**: स्पर्मियोजेनेसिस के लिए सर्टोली कोशिकाओं (पुरुषों) को उत्तेजित करता है; कूपिक वृद्धि (महिलाओं) को उत्तेजित करता है।\n\n### 4. गर्भावस्था और विकास\n- **अपरा (Placenta)**: भ्रूण को गर्भाशय की दीवार से जोड़ता है। hCG, hPL, एस्ट्रोजेन, प्रोजेस्टेरोन स्रावित करता है।\n- **hCG और hPL**: केवल गर्भावस्था के दौरान उत्पन्न होते हैं।\n- **कोलोस्ट्रम**: प्रारंभिक दूध, शिशु प्रतिरक्षा के लिए एंटीबॉडी (IgA) से भरपूर।"
+    }
   }
 ]

@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Life Cycle of Plasmodium (Malarial Parasite)",
+      "hi": "प्लास्मोडियम (मलेरिया परजीवी) का जीवन चक्र"
+    },
+    "concept": {
+      "en": "Plasmodium requires two hosts to complete its life cycle: Human (asexual phase) and Female Anopheles mosquito (sexual phase).",
+      "hi": "प्लास्मोडियम को अपना जीवन चक्र पूरा करने के लिए दो मेजबानों (hosts) की आवश्यकता होती है: मानव (अलैंगिक चरण) और मादा एनाफिलीज मच्छर (यौन चरण)।"
+    },
+    "steps": [
+      {
+        "title": { "en": "Step 1: Infection", "hi": "चरण 1: संक्रमण" },
+        "content": {
+          "en": "Infected female Anopheles mosquito bites a healthy human and injects sporozoites (infectious form) along with saliva.",
+          "hi": "संक्रमित मादा एनाफिलीज मच्छर एक स्वस्थ इंसान को काटती है और लार के साथ स्पोरोज़ोइट्स (sporozoites - संक्रामक रूप) को इंजेक्ट करती है।"
+        }
+      },
+      {
+        "title": { "en": "Step 2: Multiplication in Liver", "hi": "चरण 2: यकृत (Liver) में गुणन" },
+        "content": {
+          "en": "Sporozoites reach the liver through blood, multiply asexually inside liver cells, and burst the cells to release into the blood.",
+          "hi": "स्पोरोज़ोइट्स रक्त के माध्यम से यकृत तक पहुंचते हैं, यकृत कोशिकाओं के अंदर अलैंगिक रूप से गुणा करते हैं, और रक्त में छोड़ने के लिए कोशिकाओं को फोड़ देते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 3: Attack on RBCs", "hi": "चरण 3: RBC पर हमला" },
+        "content": {
+          "en": "Parasites enter Red Blood Cells (RBCs), multiply asexually, and rupture the RBCs. Rupture releases a toxic substance called haemozoin, causing the chill and high fever.",
+          "hi": "परजीवी लाल रक्त कोशिकाओं (RBCs) में प्रवेश करते हैं, अलैंगिक रूप से गुणा करते हैं, और RBCs को तोड़ देते हैं। टूटने से हीमोज़ोइन (haemozoin) नामक एक विषैला पदार्थ निकलता है, जिससे ठंड और तेज बुखार होता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Gametocyte Formation", "hi": "चरण 4: गैमेटोसाइट (Gametocyte) निर्माण" },
+        "content": {
+          "en": "Some parasites differentiate into sexual stages (gametocytes - male and female) within the RBCs.",
+          "hi": "कुछ परजीवी RBC के भीतर यौन चरणों (गैमेटोसाइट्स - नर और मादा) में विभेदित हो जाते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Mosquito Host (Sexual Phase)", "hi": "चरण 5: मच्छर मेजबान (यौन चरण)" },
+        "content": {
+          "en": "Female Anopheles takes up gametocytes with a blood meal. Fertilization and development take place in the mosquito's gut.",
+          "hi": "मादा एनाफिलीज रक्त भोजन के साथ गैमेटोसाइट्स लेती है। निषेचन और विकास मच्छर की आंत (gut) में होता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 6: Migration to Salivary Glands", "hi": "चरण 6: लार ग्रंथियों में प्रवास" },
+        "content": {
+          "en": "Mature infective stages (sporozoites) escape from the gut and migrate to the mosquito's salivary glands, ready to infect a new human host.",
+          "hi": "परिपक्व संक्रामक चरण (स्पोरोज़ोइट्स) आंत से निकल जाते हैं और मच्छर की लार ग्रंथियों में चले जाते हैं, जो एक नए मानव मेजबान को संक्रमित करने के लिए तैयार होते हैं।"
+        }
+      }
+    ],
+    "conclusion": {
+      "en": "The cycle continues between humans (where the parasite multiplies and causes disease) and mosquitoes (where the parasite undergoes sexual reproduction).",
+      "hi": "यह चक्र मनुष्यों (जहां परजीवी गुणा करता है और बीमारी का कारण बनता है) और मच्छरों (जहां परजीवी यौन प्रजनन करता है) के बीच जारी रहता है।"
+    },
+    "examTip": {
+      "en": "The release of 'haemozoin' from ruptured RBCs is the exact cause of the recurrent fever and chills in Malaria.",
+      "hi": "टूटे हुए RBC से 'हीमोज़ोइन' का स्राव मलेरिया में बार-बार आने वाले बुखार और ठंड लगने का सटीक कारण है।"
+    }
+  }
+]

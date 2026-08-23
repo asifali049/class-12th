@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch14",
+  "title": {
+    "en": "Physics Chapter 14 Mock Test",
+    "hi": "भौतिकी अध्याय 14 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "At absolute zero temperature ($0\\text{ K}$), an intrinsic semiconductor behaves as a:",
+        "hi": "परम शून्य तापमान ($0\\text{ K}$) पर, एक नैज अर्धचालक (intrinsic semiconductor) किसके रूप में व्यवहार करता है?"
+      },
+      "options": [
+        {
+          "en": "Superconductor",
+          "hi": "अतिचालक (Superconductor)"
+        },
+        {
+          "en": "Perfect Conductor",
+          "hi": "पूर्ण चालक"
+        },
+        {
+          "en": "Perfect Insulator",
+          "hi": "पूर्ण कुचालक (Insulator)"
+        },
+        {
+          "en": "Metal",
+          "hi": "धातु"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "At $0\\text{ K}$, all electrons are in the valence band, and the conduction band is completely empty. Hence, it behaves as a perfect insulator.",
+        "hi": "$0\\text{ K}$ पर, सभी इलेक्ट्रॉन संयोजकता बैंड (valence band) में होते हैं, और चालन बैंड पूरी तरह से खाली होता है। इसलिए, यह एक पूर्ण कुचालक के रूप में व्यवहार करता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "To obtain an n-type semiconductor, pure silicon should be doped with an impurity of valency:",
+        "hi": "n-प्रकार का अर्धचालक प्राप्त करने के लिए, शुद्ध सिलिकॉन को किस संयोजकता (valency) की अशुद्धता के साथ डोप (dope) किया जाना चाहिए?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "hi": "3"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "2",
+          "hi": "2"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "n-type semiconductors are formed by doping intrinsic semiconductors (valency 4) with pentavalent impurities (valency 5) like Phosphorus or Arsenic.",
+        "hi": "n-प्रकार के अर्धचालक नैज अर्धचालकों (संयोजकता 4) को फॉस्फोरस या आर्सेनिक जैसी पंचसंयोजी अशुद्धियों (संयोजकता 5) के साथ डोप करके बनाए जाते हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "In a p-n junction diode, the depletion region is created mainly due to:",
+        "hi": "एक p-n संधि डायोड में, अवक्षय क्षेत्र (depletion region) मुख्य रूप से किसके कारण बनता है?"
+      },
+      "options": [
+        {
+          "en": "Drift of electrons",
+          "hi": "इलेक्ट्रॉनों का अपवाह (Drift)"
+        },
+        {
+          "en": "Diffusion of majority charge carriers",
+          "hi": "बहुसंख्यक आवेश वाहकों का विसरण (Diffusion)"
+        },
+        {
+          "en": "Migration of impurity ions",
+          "hi": "अशुद्धता आयनों का प्रवासन"
+        },
+        {
+          "en": "External applied voltage",
+          "hi": "बाहरी अनुप्रयुक्त वोल्टेज"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Due to the concentration gradient, holes from the p-side diffuse to the n-side and electrons from the n-side diffuse to the p-side, leaving behind immobile ions which form the depletion region.",
+        "hi": "सांद्रता प्रवणता के कारण, p-साइड से होल n-साइड में और n-साइड से इलेक्ट्रॉन p-साइड में विसरित होते हैं, जिससे गतिहीन आयन पीछे छूट जाते हैं जो अवक्षय क्षेत्र बनाते हैं।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "When a p-n junction is forward biased:",
+        "hi": "जब एक p-n संधि अग्र अभिनत (forward biased) होती है:"
+      },
+      "options": [
+        {
+          "en": "The depletion region widens",
+          "hi": "अवक्षय क्षेत्र चौड़ा हो जाता है"
+        },
+        {
+          "en": "The potential barrier increases",
+          "hi": "विभव प्राचीर (potential barrier) बढ़ जाता है"
+        },
+        {
+          "en": "The depletion region narrows",
+          "hi": "अवक्षय क्षेत्र संकरा हो जाता है"
+        },
+        {
+          "en": "No current flows",
+          "hi": "कोई धारा प्रवाहित नहीं होती है"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "In forward bias, the applied voltage opposes the built-in potential barrier, reducing its height and decreasing the width of the depletion region, allowing current to flow easily.",
+        "hi": "अग्र अभिनति में, अनुप्रयुक्त वोल्टेज अंतर्निर्मित विभव प्राचीर का विरोध करता है, इसकी ऊंचाई कम करता है और अवक्षय क्षेत्र की चौड़ाई कम करता है, जिससे धारा आसानी से प्रवाहित होती है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "A full-wave rectifier uses:",
+        "hi": "एक पूर्ण-तरंग दिष्टकारी (full-wave rectifier) किसका उपयोग करता है?"
+      },
+      "options": [
+        {
+          "en": "One p-n junction diode",
+          "hi": "एक p-n संधि डायोड"
+        },
+        {
+          "en": "Two p-n junction diodes",
+          "hi": "दो p-n संधि डायोड"
+        },
+        {
+          "en": "A Zener diode",
+          "hi": "एक जेनर डायोड"
+        },
+        {
+          "en": "No diodes",
+          "hi": "कोई डायोड नहीं"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "A standard center-tap full-wave rectifier uses two diodes. (A bridge rectifier uses four). A half-wave rectifier uses one.",
+        "hi": "एक मानक सेंटर-टैप पूर्ण-तरंग दिष्टकारी में दो डायोड का उपयोग होता है। (एक ब्रिज रेक्टिफायर चार का उपयोग करता है)। एक अर्ध-तरंग दिष्टकारी एक का उपयोग करता है।"
+      }
+    }
+  ]
+}

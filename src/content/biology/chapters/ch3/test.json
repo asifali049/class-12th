@@ -1,0 +1,148 @@
+{
+  "id": "t3",
+  "title": { "en": "Chapter 3 Mock Test: Reproductive Health", "hi": "अध्याय 3 मॉक टेस्ट: जनन स्वास्थ्य" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The function of copper ions in copper releasing IUDs is:", "hi": "कॉपर रिलीजिंग IUD में कॉपर आयनों का क्या कार्य है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "They inhibit gametogenesis", "hi": "वे युग्मकजनन को रोकते हैं" } },
+        { "id": "o2", "text": { "en": "They make uterus unsuitable for implantation", "hi": "वे गर्भाशय को प्रत्यारोपण के लिए अनुपयुक्त बनाते हैं" } },
+        { "id": "o3", "text": { "en": "They inhibit ovulation", "hi": "वे अंडोत्सर्ग को रोकते हैं" } },
+        { "id": "o4", "text": { "en": "They suppress sperm motility and fertilising capacity of sperms", "hi": "वे शुक्राणु की गतिशीलता और निषेचन क्षमता को दबाते हैं" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Copper ions (Cu++) suppress sperm motility and fertilising capacity of sperms.", "hi": "कॉपर आयन (Cu++) शुक्राणु की गतिशीलता और शुक्राणुओं की निषेचन क्षमता को दबा देते हैं।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following is hormone releasing IUD?", "hi": "निम्नलिखित में से कौन सी हार्मोन रिलीजिंग IUD है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "LNG-20", "hi": "LNG-20" } },
+        { "id": "o2", "text": { "en": "Multiload 375", "hi": "मल्टीलोड 375" } },
+        { "id": "o3", "text": { "en": "Lippes loop", "hi": "लिपेस लूप (Lippes loop)" } },
+        { "id": "o4", "text": { "en": "Cu7", "hi": "Cu7" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Progestasert and LNG-20 are hormone releasing IUDs.", "hi": "प्रोजेस्टासर्ट और LNG-20 हार्मोन रिलीजिंग IUD हैं।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Medical Termination of Pregnancy (MTP) is considered safe up to how many weeks of pregnancy?", "hi": "गर्भावस्था का चिकित्सीय समापन (MTP) गर्भावस्था के कितने सप्ताह तक सुरक्षित माना जाता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "8 weeks", "hi": "8 सप्ताह" } },
+        { "id": "o2", "text": { "en": "12 weeks", "hi": "12 सप्ताह" } },
+        { "id": "o3", "text": { "en": "18 weeks", "hi": "18 सप्ताह" } },
+        { "id": "o4", "text": { "en": "24 weeks", "hi": "24 सप्ताह" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "MTP is safe during the first trimester (up to 12 weeks).", "hi": "MTP पहली तिमाही (12 सप्ताह तक) के दौरान सुरक्षित है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In context of amniocentesis, which of the following statement is incorrect?", "hi": "एमनियोसेंटेसिस के संदर्भ में, निम्नलिखित में से कौन सा कथन गलत है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "It can be used for detection of Down syndrome", "hi": "इसका उपयोग डाउन सिंड्रोम का पता लगाने के लिए किया जा सकता है" } },
+        { "id": "o2", "text": { "en": "It can be used for detection of cleft palate", "hi": "इसका उपयोग फांक तालु (cleft palate) का पता लगाने के लिए किया जा सकता है" } },
+        { "id": "o3", "text": { "en": "It is usually done when a woman is between 14-16 weeks pregnant", "hi": "यह आमतौर पर तब किया जाता है जब कोई महिला 14-16 सप्ताह की गर्भवती हो" } },
+        { "id": "o4", "text": { "en": "It is used for prenatal sex determination", "hi": "इसका उपयोग प्रसवपूर्व लिंग निर्धारण के लिए किया जाता है" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Cleft palate is a developmental abnormality, not a chromosomal one. Amniocentesis detects chromosomal abnormalities.", "hi": "फांक तालु (cleft palate) एक विकासात्मक असामान्यता है, गुणसूत्र संबंधी नहीं। एमनियोसेंटेसिस गुणसूत्र संबंधी असामान्यताओं का पता लगाता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following is completely curable if detected early and treated properly?", "hi": "निम्नलिखित में से कौन सा पूरी तरह से ठीक हो सकता है यदि जल्दी पता चल जाए और ठीक से इलाज किया जाए?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Hepatitis-B", "hi": "हेपेटाइटिस-बी" } },
+        { "id": "o2", "text": { "en": "Genital herpes", "hi": "जननांग दाद" } },
+        { "id": "o3", "text": { "en": "HIV infection", "hi": "HIV संक्रमण" } },
+        { "id": "o4", "text": { "en": "Syphilis", "hi": "सिफलिस (Syphilis)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Except Hepatitis-B, genital herpes, and HIV, other STIs like Syphilis are completely curable.", "hi": "हेपेटाइटिस-बी, जननांग दाद और HIV को छोड़कर, सिफलिस जैसे अन्य STI पूरी तरह से इलाज योग्य हैं।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Embryo with more than 16 blastomeres formed due to in vitro fertilisation is transferred into:", "hi": "इन विट्रो फर्टिलाइजेशन के कारण बनने वाले 16 से अधिक ब्लास्टोमेरेस वाले भ्रूण को कहाँ स्थानांतरित किया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Uterus", "hi": "गर्भाशय" } },
+        { "id": "o2", "text": { "en": "Fallopian tube", "hi": "फैलोपियन ट्यूब" } },
+        { "id": "o3", "text": { "en": "Fimbriae", "hi": "फिमब्रिया (Fimbriae)" } },
+        { "id": "o4", "text": { "en": "Cervix", "hi": "गर्भाशय ग्रीवा" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Embryos with more than 8 blastomeres are transferred into the uterus (IUT - Intra Uterine Transfer).", "hi": "8 से अधिक ब्लास्टोमेरेस वाले भ्रूणों को गर्भाशय में स्थानांतरित किया जाता है (IUT)।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Tubectomy is a method of sterilization in which:", "hi": "ट्यूबेक्टोमी बंध्याकरण की एक विधि है जिसमें:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Small part of the fallopian tube is removed or tied up", "hi": "फैलोपियन ट्यूब का छोटा हिस्सा हटा दिया जाता है या बांध दिया जाता है" } },
+        { "id": "o2", "text": { "en": "Ovaries are removed surgically", "hi": "अंडाशय शल्य चिकित्सा द्वारा हटा दिए जाते हैं" } },
+        { "id": "o3", "text": { "en": "Small part of vas deferens is removed or tied up", "hi": "शुक्रवाहक का छोटा हिस्सा हटा दिया जाता है या बांध दिया जाता है" } },
+        { "id": "o4", "text": { "en": "Uterus is removed surgically", "hi": "गर्भाशय शल्य चिकित्सा द्वारा हटा दिया जाता है" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In tubectomy, a small part of the fallopian tube is removed or tied up.", "hi": "ट्यूबेक्टोमी में, फैलोपियन ट्यूब का एक छोटा सा हिस्सा हटा दिया जाता है या बांध दिया जाता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following approaches does not give the defined action of contraceptive?", "hi": "निम्नलिखित में से कौन सा दृष्टिकोण गर्भनिरोधक की परिभाषित क्रिया नहीं देता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "Hormonal contraceptives - Prevent/retard entry of sperms, prevent ovulation and fertilisation", "hi": "हार्मोनल गर्भनिरोधक - शुक्राणुओं के प्रवेश को रोकना, अंडोत्सर्ग रोकना" } },
+        { "id": "o2", "text": { "en": "Vasectomy - Prevents spermatogenesis", "hi": "वासेक्टोमी - शुक्राणुजनन (spermatogenesis) को रोकता है" } },
+        { "id": "o3", "text": { "en": "Barrier methods - Prevent fertilisation", "hi": "बाधा विधियां - निषेचन को रोकना" } },
+        { "id": "o4", "text": { "en": "Intra uterine devices - Increase phagocytosis of sperms", "hi": "अंतर्गर्भाशयी युक्तियां - शुक्राणुओं के भक्षण को बढ़ाना" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Vasectomy blocks the transport of sperms. It does NOT prevent spermatogenesis (production of sperms in testes).", "hi": "वासेक्टोमी शुक्राणुओं के परिवहन को अवरुद्ध करती है। यह शुक्राणुजनन (वृषण में शुक्राणुओं का उत्पादन) को नहीं रोकती है।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "The technique called Gamete Intra Fallopian Transfer (GIFT) is recommended for those females:", "hi": "गैमीट इंट्रा फैलोपियन ट्रांसफर (GIFT) नामक तकनीक उन महिलाओं के लिए अनुशंसित है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Who cannot produce an ovum", "hi": "जो अंडाणु नहीं बना सकतीं" } },
+        { "id": "o2", "text": { "en": "Who cannot retain the fetus inside uterus", "hi": "जो भ्रूण को गर्भाशय के अंदर नहीं रख सकतीं" } },
+        { "id": "o3", "text": { "en": "Whose cervical canal is too narrow to allow passage for the sperms", "hi": "जिनकी ग्रीवा नहर इतनी संकरी है कि शुक्राणुओं को गुजरने नहीं देती" } },
+        { "id": "o4", "text": { "en": "Who cannot provide suitable environment for fertilisation", "hi": "जो निषेचन के लिए उपयुक्त वातावरण प्रदान नहीं कर सकतीं" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "GIFT is for females who cannot produce an ovum but can provide a suitable environment for fertilisation.", "hi": "GIFT उन महिलाओं के लिए है जो अंडाणु का उत्पादन नहीं कर सकतीं लेकिन निषेचन के लिए उपयुक्त वातावरण प्रदान कर सकती हैं।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The contraceptive 'Saheli' is developed by:", "hi": "गर्भनिरोधक 'सहेली' (Saheli) किसके द्वारा विकसित की गई है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "AIIMS, New Delhi", "hi": "AIIMS, नई दिल्ली" } },
+        { "id": "o2", "text": { "en": "CDRI, Lucknow", "hi": "CDRI, लखनऊ" } },
+        { "id": "o3", "text": { "en": "IICB, Kolkata", "hi": "IICB, कोलकाता" } },
+        { "id": "o4", "text": { "en": "NIV, Pune", "hi": "NIV, पुणे" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Saheli was developed by scientists at Central Drug Research Institute (CDRI) in Lucknow, India.", "hi": "सहेली को भारत के लखनऊ में सेंट्रल ड्रग रिसर्च इंस्टीट्यूट (CDRI) के वैज्ञानिकों द्वारा विकसित किया गया था।" }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "t9",
+  "title": { "en": "Chapter 9 Mock Test: Biotechnology Principles", "hi": "अध्याय 9 मॉक टेस्ट: जैव प्रौद्योगिकी सिद्धांत" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The DNA molecule to which the gene of interest is integrated for cloning is called:", "hi": "वह DNA अणु जिसमें क्लोनिंग के लिए रुचि के जीन को एकीकृत किया जाता है, कहलाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Template", "hi": "टेम्पलेट" } },
+        { "id": "o2", "text": { "en": "Carrier", "hi": "कैरियर" } },
+        { "id": "o3", "text": { "en": "Transformer", "hi": "ट्रांसफार्मर" } },
+        { "id": "o4", "text": { "en": "Vector", "hi": "वेक्टर" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "A vector (like a plasmid) is a DNA molecule used as a vehicle to artificially carry foreign genetic material into another cell, where it can be replicated and/or expressed.", "hi": "एक वेक्टर (जैसे प्लास्मिड) एक DNA अणु है जिसका उपयोग विदेशी आनुवंशिक सामग्री को कृत्रिम रूप से किसी अन्य कोशिका में ले जाने के लिए एक वाहन के रूप में किया जाता है, जहां इसे दोहराया और/या व्यक्त किया जा सकता है।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which of the following acts as 'molecular scissors' in genetic engineering?", "hi": "जेनेटिक इंजीनियरिंग में निम्नलिखित में से कौन 'आणविक कैंची' के रूप में कार्य करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "DNA polymerase", "hi": "DNA पोलीमरेज़" } },
+        { "id": "o2", "text": { "en": "DNA ligase", "hi": "DNA लाइगेज" } },
+        { "id": "o3", "text": { "en": "Restriction endonuclease", "hi": "रेस्ट्रिक्शन एंडोन्यूक्लीज" } },
+        { "id": "o4", "text": { "en": "Helicase", "hi": "हेलीकेस" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Restriction endonucleases are called molecular scissors because they cut DNA molecules at specific points.", "hi": "रेस्ट्रिक्शन एंडोन्यूक्लीज को आणविक कैंची कहा जाता है क्योंकि वे DNA अणुओं को विशिष्ट बिंदुओं पर काटते हैं।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "A single strand of nucleic acid tagged with a radioactive molecule is called:", "hi": "रेडियोधर्मी अणु के साथ टैग किए गए न्यूक्लिक एसिड के एकल स्ट्रैंड को कहा जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Vector", "hi": "वेक्टर" } },
+        { "id": "o2", "text": { "en": "Selectable marker", "hi": "सिलेक्टेबल मार्कर" } },
+        { "id": "o3", "text": { "en": "Plasmid", "hi": "प्लास्मिड" } },
+        { "id": "o4", "text": { "en": "Probe", "hi": "प्रोब (Probe)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "A probe is a single-stranded DNA or RNA tagged with a radioactive molecule (or fluorophore) used to detect the presence of a complementary sequence among a mixture of DNA fragments.", "hi": "एक प्रोब एक सिंगल-स्ट्रैंडेड DNA या RNA है जिसे रेडियोधर्मी अणु (या फ्लोरोफोर) के साथ टैग किया जाता है जिसका उपयोग DNA टुकड़ों के मिश्रण के बीच एक पूरक अनुक्रम की उपस्थिति का पता लगाने के लिए किया जाता है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "During the process of isolation of DNA, chilled ethanol is added to:", "hi": "DNA के अलगाव की प्रक्रिया के दौरान, ठंडा एथेनॉल किसलिए मिलाया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Precipitate DNA", "hi": "DNA को अवक्षेपित (Precipitate) करने" } },
+        { "id": "o2", "text": { "en": "Break open the cell to release DNA", "hi": "DNA छोड़ने के लिए कोशिका को तोड़ने" } },
+        { "id": "o3", "text": { "en": "Facilitate action of restriction enzymes", "hi": "रेस्ट्रिक्शन एंजाइम की क्रिया को सुगम बनाने" } },
+        { "id": "o4", "text": { "en": "Remove proteins such as histones", "hi": "हिस्टोन जैसे प्रोटीन को हटाने" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Addition of chilled ethanol causes the purified DNA to precipitate out of the solution, which can then be removed by spooling.", "hi": "ठंडा एथेनॉल मिलाने से शुद्ध DNA घोल से बाहर अवक्षेपित (precipitate) हो जाता है, जिसे बाद में स्पूलिंग द्वारा हटाया जा सकता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The given sequence represents which restriction enzyme's recognition site? 5' - GAATTC - 3'", "hi": "दिया गया अनुक्रम किस रेस्ट्रिक्शन एंजाइम की पहचान साइट का प्रतिनिधित्व करता है? 5' - GAATTC - 3'" },
+      "options": [
+        { "id": "o1", "text": { "en": "Hind III", "hi": "Hind III" } },
+        { "id": "o2", "text": { "en": "Eco RI", "hi": "Eco RI" } },
+        { "id": "o3", "text": { "en": "Bam HI", "hi": "Bam HI" } },
+        { "id": "o4", "text": { "en": "Sal I", "hi": "Sal I" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "The sequence GAATTC is specifically recognized by EcoRI, which cuts between G and A.", "hi": "अनुक्रम GAATTC को विशेष रूप से EcoRI द्वारा पहचाना जाता है, जो G और A के बीच काटता है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Biolistics (gene-gun) is suitable for:", "hi": "बायोलिस्टिक्स (जीन-गन) किसके लिए उपयुक्त है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Disarming pathogen vectors", "hi": "रोगजनक वैक्टर को निहत्था करने" } },
+        { "id": "o2", "text": { "en": "Transformation of plant cells", "hi": "पौधे की कोशिकाओं के परिवर्तन (Transformation)" } },
+        { "id": "o3", "text": { "en": "Constructing recombinant DNA", "hi": "Recombinant DNA के निर्माण" } },
+        { "id": "o4", "text": { "en": "DNA fingerprinting", "hi": "DNA फिंगरप्रिंटिंग" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Biolistics or gene gun is a method where cells are bombarded with high-velocity micro-particles of gold or tungsten coated with DNA. It is mostly used for plant cells.", "hi": "बायोलिस्टिक्स या जीन गन एक ऐसी विधि है जहां कोशिकाओं पर DNA के साथ लेपित सोने या टंगस्टन के उच्च-वेग वाले सूक्ष्म कणों से बमबारी की जाती है। इसका उपयोग ज्यादातर पौधों की कोशिकाओं के लिए किया जाता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "PCR stands for:", "hi": "PCR का अर्थ है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Polymerase Chemical Reaction", "hi": "पोलीमरेज़ केमिकल रिएक्शन" } },
+        { "id": "o2", "text": { "en": "Polymerase Chain Reaction", "hi": "पोलीमरेज़ चेन रिएक्शन" } },
+        { "id": "o3", "text": { "en": "Primary Chain Reaction", "hi": "प्राथमिक चेन रिएक्शन" } },
+        { "id": "o4", "text": { "en": "Primary Chemical Reaction", "hi": "प्राथमिक केमिकल रिएक्शन" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "PCR stands for Polymerase Chain Reaction, a technique used to amplify a specific segment of DNA.", "hi": "PCR का अर्थ है पोलीमरेज़ चेन रिएक्शन, एक ऐसी तकनीक जिसका उपयोग DNA के एक विशिष्ट खंड को बढ़ाने (amplify) के लिए किया जाता है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Agarose extracted from sea weeds finds use in:", "hi": "समुद्री खरपतवारों (sea weeds) से निकाला गया एगरोज़ (Agarose) किसमें उपयोग पाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Spectrophotometry", "hi": "स्पेक्ट्रोफोटोमेट्री" } },
+        { "id": "o2", "text": { "en": "Tissue culture", "hi": "टिशू कल्चर" } },
+        { "id": "o3", "text": { "en": "PCR", "hi": "PCR" } },
+        { "id": "o4", "text": { "en": "Gel electrophoresis", "hi": "जेल इलेक्ट्रोफोरेसिस (Gel electrophoresis)" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "Agarose is a natural polymer extracted from seaweeds and is the most commonly used matrix in gel electrophoresis for separating DNA fragments.", "hi": "एगरोज़ समुद्री शैवाल से निकाला गया एक प्राकृतिक बहुलक (polymer) है और DNA के टुकड़ों को अलग करने के लिए जेल वैद्युतकणसंचलन में सबसे अधिक इस्तेमाल किया जाने वाला मैट्रिक्स है।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "Continuous addition of sugars in 'fed batch' fermentation is done to:", "hi": "'फेड बैच (fed batch)' किण्वन में शर्करा को लगातार मिलाना किसलिए किया जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Produce methane", "hi": "मीथेन का उत्पादन करने" } },
+        { "id": "o2", "text": { "en": "Obtain antibiotics", "hi": "एंटीबायोटिक्स प्राप्त करने" } },
+        { "id": "o3", "text": { "en": "Purify enzymes", "hi": "एंजाइमों को शुद्ध करने" } },
+        { "id": "o4", "text": { "en": "Degrade sewage", "hi": "सीवेज को नष्ट करने" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "In a fed-batch culture, nutrients (like sugars) are added continuously or periodically to prolong the log or stationary phase, which is useful for maximizing the yield of secondary metabolites like antibiotics.", "hi": "फेड-बैच कल्चर में, लॉग या स्थिर चरण को लम्बा करने के लिए पोषक तत्वों (जैसे शर्करा) को लगातार या समय-समय पर जोड़ा जाता है, जो एंटीबायोटिक दवाओं जैसे द्वितीयक चयापचयों (secondary metabolites) की उपज को अधिकतम करने के लिए उपयोगी है।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The correct sequence of steps in a PCR is:", "hi": "PCR में चरणों का सही क्रम है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Extension, Denaturation, Annealing", "hi": "विस्तार, विकृतीकरण, एनीलिंग" } },
+        { "id": "o2", "text": { "en": "Annealing, Extension, Denaturation", "hi": "एनीलिंग, विस्तार, विकृतीकरण" } },
+        { "id": "o3", "text": { "en": "Denaturation, Extension, Annealing", "hi": "विकृतीकरण, विस्तार, एनीलिंग" } },
+        { "id": "o4", "text": { "en": "Denaturation, Annealing, Extension", "hi": "विकृतीकरण, एनीलिंग, विस्तार" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "The steps are: Denaturation (strands separate at high temp) -> Annealing (primers bind at lower temp) -> Extension (Taq polymerase synthesizes new strand).", "hi": "चरण हैं: विकृतीकरण (उच्च तापमान पर स्ट्रैंड अलग होते हैं) -> एनीलिंग (कम तापमान पर प्राइमर्स बंधते हैं) -> विस्तार (Taq पोलीमरेज़ नए स्ट्रैंड का संश्लेषण करता है)।" }
+    }
+  ]
+}

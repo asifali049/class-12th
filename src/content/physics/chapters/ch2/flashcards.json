@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Electrostatic Potential (V)", "hi": "स्थिर वैद्युत विभव (V)" },
+    "definition": { "en": "Work done by an external force in bringing a unit positive charge from infinity to a point. $V = W/q$. Unit: Volt (V) or J/C.", "hi": "एकांक धनात्मक आवेश को अनंत से किसी बिंदु तक लाने में बाहरी बल द्वारा किया गया कार्य। $V = W/q$। इकाई: वोल्ट (V) या J/C।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Potential due to Point Charge", "hi": "बिंदु आवेश के कारण विभव" },
+    "definition": { "en": "$V = \\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r}$. It is a scalar quantity and can be positive or negative.", "hi": "$V = \\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r}$। यह एक अदिश राशि है और धनात्मक या ऋणात्मक हो सकती है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Equipotential Surface", "hi": "समविभव पृष्ठ" },
+    "definition": { "en": "A surface with a constant value of potential at all points. Electric field is always perpendicular to it.", "hi": "एक ऐसा पृष्ठ जिसके सभी बिंदुओं पर विभव का मान स्थिर होता है। विद्युत क्षेत्र हमेशा इसके लंबवत होता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Relation between E and V", "hi": "E और V के बीच संबंध" },
+    "definition": { "en": "$E = - \\frac{dV}{dr}$. Electric field is in the direction in which the potential decreases steepest.", "hi": "$E = - \\frac{dV}{dr}$। विद्युत क्षेत्र उस दिशा में होता है जिसमें विभव सबसे तेजी से घटता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Potential Energy of Dipole", "hi": "द्विध्रुव की स्थितिज ऊर्जा" },
+    "definition": { "en": "Work done in rotating a dipole in an external field. $U = -\\vec{p} \\cdot \\vec{E} = -pE \\cos\\theta$.", "hi": "बाहरी क्षेत्र में द्विध्रुव को घुमाने में किया गया कार्य। $U = -\\vec{p} \\cdot \\vec{E} = -pE \\cos\\theta$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Capacitance (C)", "hi": "धारिता (C)" },
+    "definition": { "en": "Ratio of charge to potential. $C = q/V$. Unit: Farad (F). Depends only on geometry and dielectric.", "hi": "आवेश और विभव का अनुपात। $C = q/V$। इकाई: फैराड (F)। केवल ज्यामिति और परावैद्युत पर निर्भर करता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Parallel Plate Capacitor", "hi": "समानांतर पट्टिका संधारित्र" },
+    "definition": { "en": "$C = \\frac{\\epsilon_0 A}{d}$ (with air). With dielectric, $C = \\frac{K\\epsilon_0 A}{d}$.", "hi": "$C = \\frac{\\epsilon_0 A}{d}$ (हवा के साथ)। परावैद्युत के साथ, $C = \\frac{K\\epsilon_0 A}{d}$।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Series Combination", "hi": "श्रृंखला संयोजन" },
+    "definition": { "en": "Charge $q$ is same, potential divides. $\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ...$", "hi": "आवेश $q$ समान रहता है, विभव विभाजित होता है। $\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ...$" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Parallel Combination", "hi": "समानांतर संयोजन" },
+    "definition": { "en": "Potential $V$ is same, charge divides. $C_{eq} = C_1 + C_2 + ...$", "hi": "विभव $V$ समान रहता है, आवेश विभाजित होता है। $C_{eq} = C_1 + C_2 + ...$" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Energy Stored in Capacitor", "hi": "संधारित्र में संचित ऊर्जा" },
+    "definition": { "en": "$U = \\frac{1}{2}CV^2 = \\frac{1}{2}qV = \\frac{q^2}{2C}$. It is stored in the form of an electric field.", "hi": "$U = \\frac{1}{2}CV^2 = \\frac{1}{2}qV = \\frac{q^2}{2C}$। यह विद्युत क्षेत्र के रूप में संग्रहीत होती है।" }
+  }
+]

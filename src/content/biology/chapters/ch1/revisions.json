@@ -1,38 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Pollen Grain Walls",
-      "hi": "परागकण की दीवारें",
-      "hinglish": "Exine and Intine"
-    },
-    "summary": {
-      "en": "**Exine**: Outer layer (Sporopollenin).\n**Intine**: Inner layer (Cellulose and Pectin).",
-      "hi": "**बाह्यचोल**: बाहरी परत (स्पोरोपोलेनिन)।\n**अंतःचोल**: आंतरिक परत (सेल्यूलोज और पेक्टिन)।"
-    },
-    "quickRecall": [
-      {
-        "en": "Germ pore = no sporopollenin",
-        "hi": "जनन छिद्र = कोई स्पोरोपोलेनिन नहीं"
-      }
-    ]
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Microsporogenesis**: PMC (2n) $\\xrightarrow{\\text{Meiosis}}$ 4 Microspores (n).\n- **Megasporogenesis**: MMC (2n) $\\xrightarrow{\\text{Meiosis}}$ 4 Megaspores (3 degenerate, 1 functional).\n- **Pollen Grain**: Exine (Sporopollenin - highly resistant), Intine (Cellulose + Pectin).\n- **Embryo Sac**: 7-celled, 8-nucleate structure (3 Antipodals, 1 Central Cell with 2 polar nuclei, 2 Synergids, 1 Egg).\n- **Double Fertilization**: Syngamy (Male Gamete + Egg = Zygote 2n) and Triple Fusion (Male Gamete + Polar Nuclei = PEN 3n).\n- **Post-fertilization Fates**: Ovary $\\rightarrow$ Fruit, Ovules $\\rightarrow$ Seeds, Zygote $\\rightarrow$ Embryo.",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **लघुबीजाणुजनन (Microsporogenesis)**: PMC (2n) $\\xrightarrow{\\text{अर्धसूत्रीविभाजन}}$ 4 लघुबीजाणु (n)।\n- **गुरुबीजाणुजनन (Megasporogenesis)**: MMC (2n) $\\xrightarrow{\\text{अर्धसूत्रीविभाजन}}$ 4 गुरुबीजाणु (3 पतित, 1 कार्यात्मक)।\n- **परागकण**: बाह्यचोल (स्पोरोपोलेनिन), अंतःचोल (सेल्यूलोज + पेक्टिन)।\n- **भ्रूणकोष**: 7-कोशिका, 8-केंद्रक (3 प्रतिव्यासांत, 2 ध्रुवीय केंद्रकों वाली 1 केंद्रीय कोशिका, 2 सहायक कोशिकाएं, 1 अंड)।\n- **दोहरा निषेचन**: युग्मक संलयन (नर युग्मक + अंड = युग्मनज 2n) और त्रिसंलयन (नर युग्मक + ध्रुवीय केंद्रक = PEN 3n)।\n- **निषेचन-पश्च**: अंडाशय $\\rightarrow$ फल, बीजांड $\\rightarrow$ बीज, युग्मनज $\\rightarrow$ भ्रूण।"
+    }
   },
   {
-    "id": "rev2",
-    "topic": {
-      "en": "Embryo Sac Structure",
-      "hi": "भ्रूणकोष की संरचना",
-      "hinglish": "7-celled, 8-nucleate"
-    },
-    "summary": {
-      "en": "**3 cells** at chalazal end (Antipodals)\n**3 cells** at micropylar end (Egg apparatus)\n**1 large Central cell**",
-      "hi": "**3 कोशिकाएं** निभागीय सिरे पर (प्रतिव्यासांत)\n**3 कोशिकाएं** बीजांडद्वारी सिरे पर (अंड उपकरण)\n**1 बड़ी केंद्रीय कोशिका**"
-    },
-    "quickRecall": [
-      {
-        "en": "Filiform apparatus = Synergids",
-        "hi": "तंतुरूप उपकरण = सहायक कोशिकाएं"
-      }
-    ]
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Pollination & Outbreeding\n- **Autogamy**: Self-pollination within same flower. (e.g., Cleistogamous flowers of Viola).\n- **Geitonogamy**: Between different flowers of the same plant.\n- **Xenogamy**: Cross-pollination (different plants), brings genetic variation.\n- **Outbreeding Devices**: Mechanisms to prevent inbreeding depression (Dichogamy, Heterostyly, Self-incompatibility, Emasculation).\n\n### 2. Double Fertilization\n- **Pollen Tube Entry**: Guided by the filiform apparatus into one synergid.\n- **Syngamy**: Generates the diploid zygote.\n- **Triple Fusion**: Generates the triploid Primary Endosperm Nucleus (PEN).\n\n### 3. Post-Fertilization & Seeds\n- **Endosperm**: Develops from PEN (3n). Provides nutrition. Ex: Coconut water (free nuclear).\n- **True vs False Fruit**: True fruit develops only from the ovary. False fruit involves the thalamus (e.g., Apple, Strawberry, Cashew).\n- **Seed Coats**: Testa (outer) and Tegmen (inner).\n\n### 4. Special Modes of Reproduction\n- **Apomixis**: Asexual reproduction mimicking sexual reproduction. Formation of seed without fertilization (Asteraceae, Grasses).\n- **Polyembryony**: Presence of multiple embryos in a seed (Citrus, Mango).",
+      "hi": "### 1. परागण और बहिःप्रजनन\n- **स्वयुग्मन (Autogamy)**: एक ही फूल के भीतर। (उदा: वायोला के क्लिस्टोगैमस फूल)।\n- **सजातपुष्पी (Geitonogamy)**: एक ही पौधे के विभिन्न फूलों के बीच।\n- **परनिषेचन (Xenogamy)**: क्रॉस-परागण (विभिन्न पौधे)। आनुवंशिक भिन्नता लाता है।\n- **बहिःप्रजनन युक्तियाँ**: अंतःप्रजनन अवनमन को रोकने के तंत्र (स्व-अयोग्यता, विपुंसन)।\n\n### 2. दोहरा निषेचन\n- **पराग नली का प्रवेश**: तंतुरूप उपकरण द्वारा एक सहायक कोशिका में निर्देशित।\n- **युग्मक संलयन**: द्विगुणित युग्मनज बनाता है।\n- **त्रिसंलयन**: त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाता है।\n\n### 3. निषेचन-पश्च और बीज\n- **भ्रूणपोष**: PEN (3n) से विकसित होता है। पोषण प्रदान करता है। उदा: नारियल का पानी (मुक्त केंद्रकीय)।\n- **सच्चा बनाम आभासी फल**: सच्चा फल केवल अंडाशय से। आभासी फल में थैलेमस शामिल होता है (सेब, स्ट्रॉबेरी)।\n- **बीज आवरण**: टेस्टा (बाहरी) और टेगमेन (आंतरिक)।\n\n### 4. प्रजनन के विशेष तरीके\n- **असंगजनन (Apomixis)**: निषेचन के बिना बीज का निर्माण।\n- **बहुभ्रूणता (Polyembryony)**: एक बीज में कई भ्रूणों की उपस्थिति (नींबू, आम)।"
+    }
   }
 ]

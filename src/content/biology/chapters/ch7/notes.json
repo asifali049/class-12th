@@ -1,24 +1,141 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Common Diseases",
-      "hi": "सामान्य रोग"
-    },
-    "content": {
-      "en": "Infectious diseases are transmitted from person to person (e.g., Typhoid, Malaria, AIDS). Non-infectious are not transmitted (e.g., Cancer).",
-      "hi": "संक्रामक रोग एक व्यक्ति से दूसरे व्यक्ति में फैलते हैं (उदा., टाइफाइड, मलेरिया, एड्स)। गैर-संक्रामक नहीं फैलते (उदा., कैंसर)।"
+    "type": "heading",
+    "text": {
+      "en": "Human Health and Disease",
+      "hi": "मानव स्वास्थ्य तथा रोग"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Immunity",
-      "hi": "प्रतिरक्षा"
-    },
-    "content": {
-      "en": "Innate immunity is present at birth. Acquired immunity is pathogen-specific. B-cells produce antibodies; T-cells help B-cells.",
-      "hi": "सहज प्रतिरक्षा जन्म के समय मौजूद होती है। उपार्जित प्रतिरक्षा रोगजनक-विशिष्ट है।"
+    "type": "paragraph",
+    "text": {
+      "en": "Health is a state of complete physical, mental and social well-being. It is affected by genetic disorders, infections, and lifestyle. When the functioning of one or more organs or systems of the body is adversely affected, we say that we are not healthy, i.e., we have a disease.",
+      "hi": "स्वास्थ्य पूर्ण शारीरिक, मानसिक और सामाजिक कल्याण की स्थिति है। यह आनुवंशिक विकारों, संक्रमणों और जीवन शैली से प्रभावित होता है। जब शरीर के एक या अधिक अंगों या प्रणालियों का कार्य प्रतिकूल रूप से प्रभावित होता है, तो हम कहते हैं कि हम स्वस्थ नहीं हैं, अर्थात, हमें कोई बीमारी है।"
     }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Common Diseases in Humans",
+      "hi": "1. मनुष्यों में सामान्य रोग"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Bacterial Diseases: Typhoid (Salmonella typhi, confirmed by Widal test), Pneumonia (Streptococcus pneumoniae).",
+        "hi": "जीवाणु रोग: टाइफाइड (साल्मोनेला टाइफी, विडाल परीक्षण द्वारा पुष्टि), निमोनिया (स्ट्रेप्टोकोकस न्यूमोनिया)।"
+      },
+      {
+        "en": "Viral Diseases: Common cold (Rhinoviruses, infects nose and respiratory passage but not lungs).",
+        "hi": "विषाणु रोग: सामान्य सर्दी (राइनोवायरस, नाक और श्वसन मार्ग को संक्रमित करता है लेकिन फेफड़ों को नहीं)।"
+      },
+      {
+        "en": "Protozoan Diseases: Malaria (Plasmodium vivax, P. malariae, P. falciparum). P. falciparum causes the most serious malignant malaria. Vector is female Anopheles mosquito. Amoebiasis/Amoebic dysentery (Entamoeba histolytica).",
+        "hi": "प्रोटोजोअन रोग: मलेरिया (प्लास्मोडियम वाइवैक्स, पी. मलेरिया, पी. फाल्सीपेरम)। पी. फाल्सीपेरम सबसे गंभीर घातक मलेरिया का कारण बनता है। वाहक मादा एनाफिलीज मच्छर है। अमीबायसिस/अमीबिक पेचिश (एंटअमीबा हिस्टोलिटिका)।"
+      },
+      {
+        "en": "Helminthic Diseases: Ascariasis (Ascaris, roundworm), Filariasis/Elephantiasis (Wuchereria bancrofti and W. malayi, transmitted by female Culex mosquito).",
+        "hi": "कृमि (Helminthic) रोग: एस्कारियासिस (एस्केरिस, राउंडवॉर्म), फाइलेरियासिस/हाथीपांव (वुचेरेरिया बैनक्रॉफ्टी और डब्ल्यू. मलाई, मादा क्यूलेक्स मच्छर द्वारा प्रेषित)।"
+      },
+      {
+        "en": "Fungal Diseases: Ringworms (Microsporum, Trichophyton, Epidermophyton).",
+        "hi": "कवक रोग: दाद (माइक्रोस्पोरम, ट्राइकोफाइटन, एपिडर्मोफाइटन)।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Immunity",
+      "hi": "2. प्रतिरक्षा (Immunity)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The overall ability of the host to fight the disease-causing organisms, conferred by the immune system.",
+      "hi": "रोग पैदा करने वाले जीवों से लड़ने के लिए मेजबान (host) की समग्र क्षमता, जो प्रतिरक्षा प्रणाली द्वारा प्रदान की जाती है।"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "1. Innate Immunity: Non-specific, present at the time of birth. Consists of four barriers: Physical (Skin, Mucus), Physiological (Acid in stomach, saliva), Cellular (WBCs, Macrophages), and Cytokine (Interferons secreted by virus-infected cells).\n2. Acquired Immunity: Pathogen specific, characterized by memory. Primary response is of low intensity; Secondary (anamnestic) response is highly intensified. Mediated by B-lymphocytes (produce antibodies, Humoral immune response) and T-lymphocytes (help B cells and mediate Cell-mediated immunity, responsible for graft rejection).",
+      "hi": "1. सहज प्रतिरक्षा (Innate Immunity): गैर-विशिष्ट, जन्म के समय मौजूद होती है। इसमें चार बाधाएँ (barriers) होती हैं: शारीरिक (त्वचा, बलगम), शारीरिक (पेट में एसिड, लार), कोशिकीय (WBCs, मैक्रोफेज), और साइटोकाइन (वायरस-संक्रमित कोशिकाओं द्वारा स्रावित इंटरफेरॉन)।\n2. उपार्जित प्रतिरक्षा (Acquired Immunity): रोगज़नक़ विशिष्ट, स्मृति (memory) की विशेषता। प्राथमिक प्रतिक्रिया कम तीव्रता की होती है; द्वितीयक प्रतिक्रिया अत्यधिक तीव्र होती है। बी-लिम्फोसाइट्स (एंटीबॉडी का उत्पादन करते हैं, ह्यूमरल प्रतिरक्षा प्रतिक्रिया) और टी-लिम्फोसाइट्स (बी कोशिकाओं की मदद करते हैं और कोशिका-मध्यस्थता प्रतिरक्षा में मध्यस्थता करते हैं, जो ग्राफ्ट अस्वीकृति के लिए जिम्मेदार है) द्वारा मध्यस्थता की जाती है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Active and Passive Immunity",
+      "hi": "3. सक्रिय और निष्क्रिय प्रतिरक्षा"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Active Immunity: When a host is exposed to antigens and antibodies are produced in the host body. It is slow (e.g., natural infection or vaccination).",
+        "hi": "सक्रिय प्रतिरक्षा (Active Immunity): जब कोई मेजबान एंटीजन के संपर्क में आता है और मेजबान के शरीर में एंटीबॉडी का उत्पादन होता है। यह धीमी होती है (उदा., प्राकृतिक संक्रमण या टीकाकरण)।"
+      },
+      {
+        "en": "Passive Immunity: When ready-made antibodies are directly given to protect the body. Fast acting (e.g., Colostrum containing IgA antibodies from mother to infant; Anti-tetanus serum).",
+        "hi": "निष्क्रिय प्रतिरक्षा (Passive Immunity): जब शरीर की सुरक्षा के लिए रेडी-मेड एंटीबॉडी सीधे दिए जाते हैं। तेजी से काम करने वाली (उदा., माँ से शिशु को IgA एंटीबॉडी युक्त कोलोस्ट्रम; एंटी-टेटनस सीरम)।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. AIDS (Acquired Immuno Deficiency Syndrome)",
+      "hi": "4. एड्स (AIDS)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Caused by the Human Immunodeficiency Virus (HIV), a retrovirus. It has an RNA genome enclosed in a protein coat. Transmission occurs through sexual contact, contaminated blood/needles, or from infected mother to child. HIV enters macrophages (which act like an HIV factory) and Helper T-lymphocytes (TH). The replication of virus causes a progressive decrease in the number of TH cells, severely weakening the immune system. Diagnosed by ELISA.",
+      "hi": "ह्यूमन इम्युनोडेफिशिएंसी वायरस (HIV), एक रेट्रोवायरस के कारण होता है। इसमें एक प्रोटीन आवरण में संलग्न RNA जीनोम होता है। संचरण यौन संपर्क, दूषित रक्त/सुइयों या संक्रमित माँ से बच्चे में होता है। HIV मैक्रोफेज (जो HIV फैक्ट्री की तरह काम करते हैं) और हेल्पर टी-लिम्फोसाइट्स (TH) में प्रवेश करता है। वायरस की प्रतिकृति के कारण TH कोशिकाओं की संख्या में प्रगतिशील कमी आती है, जिससे प्रतिरक्षा प्रणाली गंभीर रूप से कमजोर हो जाती है। एलिसा (ELISA) द्वारा निदान किया जाता है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Cancer",
+      "hi": "5. कैंसर"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Cancer cells lose the property of 'contact inhibition' (where contact with other cells inhibits their uncontrolled growth), leading to tumors. Tumors are Benign (remain confined) or Malignant (proliferate, invade, and spread to other sites - a property called Metastasis). Causes (Carcinogens) include physical (X-rays, UV rays), chemical (tobacco smoke), and biological (oncogenic viruses).",
+      "hi": "कैंसर कोशिकाएं 'संपर्क निषेध (contact inhibition)' (जहां अन्य कोशिकाओं के संपर्क से उनकी अनियंत्रित वृद्धि रुक जाती है) का गुण खो देती हैं, जिससे ट्यूमर बन जाता है। ट्यूमर बिनाइन (सीमित रहते हैं) या मैलिग्नेंट (फैलते हैं, आक्रमण करते हैं, और अन्य साइटों में फैलते हैं - मेटास्टेसिस नामक गुण) होते हैं। कारणों (कार्सिनोजेन्स) में भौतिक (एक्स-रे, यूवी किरणें), रासायनिक (तंबाकू का धुआं), और जैविक (ऑन्कोजेनिक वायरस) शामिल हैं।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "6. Drugs and Alcohol Abuse",
+      "hi": "6. नशीली दवाओं और शराब का दुरुपयोग"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Opioids: Bind to specific opioid receptors in CNS and GI tract. Heroin (smack) is chemically diacetylmorphine, a depressant.",
+        "hi": "ओपिओइड (Opioids): CNS और GI ट्रैक्ट में विशिष्ट ओपिओइड रिसेप्टर्स से जुड़ते हैं। हेरोइन (स्मैक) रासायनिक रूप से डायसेटाइलमॉर्फिन है, जो एक अवसादक (depressant) है।"
+      },
+      {
+        "en": "Cannabinoids: Interact with cannabinoid receptors principally in the brain. Obtained from Cannabis sativa. Affect cardiovascular system (e.g., marijuana, hashish, charas, ganja).",
+        "hi": "कैनबिनोइड्स (Cannabinoids): मुख्य रूप से मस्तिष्क में कैनबिनोइड रिसेप्टर्स के साथ परस्पर क्रिया करते हैं। कैनबिस सैटिवा (Cannabis sativa) से प्राप्त होते हैं। हृदय प्रणाली को प्रभावित करते हैं (उदा., मारिजुआना, हशीश, चरस, गांजा)।"
+      },
+      {
+        "en": "Coca alkaloid / Cocaine: Extracted from Erythroxylum coca. Interferes with transport of neurotransmitter dopamine. Potent CNS stimulant producing euphoria.",
+        "hi": "कोका अल्कलॉइड / कोकीन: एरिथ्रोक्सिलम कोका (Erythroxylum coca) से निकाला जाता है। न्यूरोट्रांसमीटर डोपामाइन के परिवहन में हस्तक्षेप करता है। शक्तिशाली CNS उत्तेजक जो उत्साह (euphoria) पैदा करता है।"
+      }
+    ]
   }
 ]

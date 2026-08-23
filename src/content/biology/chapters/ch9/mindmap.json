@@ -1,8 +1,59 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Biotech Principles",
-    "hi": "बायोटेक सिद्धांत"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Biotechnology: Principles and Processes", "hi": "जैव प्रौद्योगिकी: सिद्धांत और प्रक्रियाएं" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Core Principles", "hi": "मूल सिद्धांत" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Genetic Engineering", "hi": "आनुवंशिक इंजीनियरिंग" } },
+        { "id": "n1_2", "label": { "en": "Bioprocess Engineering", "hi": "बायोप्रोसेस इंजीनियरिंग" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Tools of rDNA Tech", "hi": "rDNA तकनीक के उपकरण" },
+      "children": [
+        {
+          "id": "n2_1",
+          "label": { "en": "Restriction Enzymes", "hi": "रेस्ट्रिक्शन एंजाइम" },
+          "children": [
+            { "id": "n2_1_1", "label": { "en": "Molecular Scissors (e.g., EcoRI)", "hi": "आणविक कैंची (उदा., EcoRI)" } },
+            { "id": "n2_1_2", "label": { "en": "Recognize Palindromic Sequence", "hi": "पैलिंड्रोमिक अनुक्रम को पहचानें" } }
+          ]
+        },
+        { "id": "n2_2", "label": { "en": "DNA Ligase (Glue)", "hi": "DNA लाइगेज (गोंद)" } },
+        {
+          "id": "n2_3",
+          "label": { "en": "Cloning Vectors", "hi": "क्लोनिंग वेक्टर" },
+          "children": [
+            { "id": "n2_3_1", "label": { "en": "Plasmids (pBR322)", "hi": "प्लास्मिड (pBR322)" } },
+            { "id": "n2_3_2", "label": { "en": "Selectable Markers", "hi": "सिलेक्टेबल मार्कर" } }
+          ]
+        },
+        { "id": "n2_4", "label": { "en": "Competent Host (E. coli, Agrobacterium)", "hi": "सक्षम मेजबान (ई. कोलाई, एग्रोबैक्टीरियम)" } }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Processes / Steps", "hi": "प्रक्रियाएं / चरण" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "1. DNA Isolation", "hi": "1. DNA अलगाव" } },
+        { "id": "n3_2", "label": { "en": "2. Cutting DNA (Restriction enzymes)", "hi": "2. DNA काटना (रेस्ट्रिक्शन एंजाइम)" } },
+        { "id": "n3_3", "label": { "en": "3. Separation (Gel Electrophoresis)", "hi": "3. पृथक्करण (जेल इलेक्ट्रोफोरेसिस)" } },
+        {
+          "id": "n3_4",
+          "label": { "en": "4. Amplification (PCR)", "hi": "4. प्रवर्धन (PCR)" },
+          "children": [
+            { "id": "n3_4_1", "label": { "en": "Denaturation", "hi": "विकृतीकरण" } },
+            { "id": "n3_4_2", "label": { "en": "Annealing", "hi": "एनीलिंग" } },
+            { "id": "n3_4_3", "label": { "en": "Extension", "hi": "विस्तार" } }
+          ]
+        },
+        { "id": "n3_5", "label": { "en": "5. Ligation & Transformation", "hi": "5. लाइगेशन और ट्रांसफॉर्मेशन" } },
+        { "id": "n3_6", "label": { "en": "6. Culturing in Bioreactors", "hi": "6. बायोरिएक्टर में संवर्धन" } },
+        { "id": "n3_7", "label": { "en": "7. Downstream Processing", "hi": "7. डाउनस्ट्रीम प्रोसेसिंग" } }
+      ]
+    }
+  ]
 }

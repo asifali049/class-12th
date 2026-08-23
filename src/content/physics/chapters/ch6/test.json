@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch6",
+  "title": {
+    "en": "Physics Chapter 6 Mock Test",
+    "hi": "भौतिकी अध्याय 6 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Lenz's Law is a consequence of the law of conservation of:",
+        "hi": "लेंज का नियम किसके संरक्षण के नियम का परिणाम है?"
+      },
+      "options": [
+        {
+          "en": "Charge",
+          "hi": "आवेश"
+        },
+        {
+          "en": "Momentum",
+          "hi": "संवेग"
+        },
+        {
+          "en": "Energy",
+          "hi": "ऊर्जा"
+        },
+        {
+          "en": "Mass",
+          "hi": "द्रव्यमान"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Lenz's law is based on the conservation of energy. The mechanical work done against the opposing force (caused by induced current) is converted into electrical energy.",
+        "hi": "लेंज का नियम ऊर्जा के संरक्षण पर आधारित है। विरोधी बल (प्रेरित धारा के कारण) के विरुद्ध किया गया यांत्रिक कार्य विद्युत ऊर्जा में परिवर्तित हो जाता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "According to Faraday's Law, the induced emf is proportional to:",
+        "hi": "फैराडे के नियम के अनुसार, प्रेरित ईएमएफ (emf) किसके समानुपाती होता है?"
+      },
+      "options": [
+        {
+          "en": "Magnetic flux",
+          "hi": "चुंबकीय फ्लक्स"
+        },
+        {
+          "en": "Rate of change of magnetic flux",
+          "hi": "चुंबकीय फ्लक्स के परिवर्तन की दर"
+        },
+        {
+          "en": "Magnetic field",
+          "hi": "चुंबकीय क्षेत्र"
+        },
+        {
+          "en": "Area of the coil",
+          "hi": "कुंडली के क्षेत्रफल"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Faraday's Law states $e = -N \\frac{d\\Phi}{dt}$. Thus, emf is proportional to the rate of change of magnetic flux.",
+        "hi": "फैराडे का नियम कहता है $e = -N \\frac{d\\Phi}{dt}$। इस प्रकार, ईएमएफ (emf) चुंबकीय फ्लक्स के परिवर्तन की दर के समानुपाती होता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of mutual inductance is:",
+        "hi": "अन्योन्य प्रेरण (mutual inductance) की SI इकाई है:"
+      },
+      "options": [
+        {
+          "en": "Weber (Wb)",
+          "hi": "वेबर (Wb)"
+        },
+        {
+          "en": "Tesla (T)",
+          "hi": "टेस्ला (T)"
+        },
+        {
+          "en": "Henry (H)",
+          "hi": "हेनरी (H)"
+        },
+        {
+          "en": "Farad (F)",
+          "hi": "फैराड (F)"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "The SI unit of both self-inductance ($L$) and mutual inductance ($M$) is Henry (H).",
+        "hi": "स्व-प्रेरण ($L$) और अन्योन्य प्रेरण ($M$) दोनों की SI इकाई हेनरी (H) है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Motional emf in a straight conductor of length L moving with velocity v perpendicular to a magnetic field B is given by:",
+        "hi": "चुंबकीय क्षेत्र B के लंबवत v वेग से गतिमान L लंबाई के सीधे चालक में गतिक ईएमएफ (Motional emf) दिया जाता है:"
+      },
+      "options": [
+        {
+          "en": "e = B L v",
+          "hi": "e = B L v"
+        },
+        {
+          "en": "e = B / (L v)",
+          "hi": "e = B / (L v)"
+        },
+        {
+          "en": "e = (L v) / B",
+          "hi": "e = (L v) / B"
+        },
+        {
+          "en": "e = B L v²",
+          "hi": "e = B L v²"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "The induced motional emf across the ends of a conductor is $e = BvL$ when $B$, $v$, and $L$ are mutually perpendicular.",
+        "hi": "चालक के सिरों पर प्रेरित गतिक ईएमएफ $e = BvL$ है जब $B$, $v$, और $L$ परस्पर लंबवत होते हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is not an application of eddy currents?",
+        "hi": "निम्नलिखित में से कौन भंवर धाराओं (eddy currents) का अनुप्रयोग नहीं है?"
+      },
+      "options": [
+        {
+          "en": "Magnetic braking in trains",
+          "hi": "ट्रेनों में चुंबकीय ब्रेकिंग"
+        },
+        {
+          "en": "Electromagnetic damping",
+          "hi": "विद्युत चुम्बकीय अवमंदन (damping)"
+        },
+        {
+          "en": "Induction furnace",
+          "hi": "प्रेरण भट्ठी (Induction furnace)"
+        },
+        {
+          "en": "Transformer core",
+          "hi": "ट्रांसफार्मर कोर (Transformer core)"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "Eddy currents are useful in braking, damping, and furnaces. In a transformer core, eddy currents cause energy loss (heating), which is an undesirable effect (minimized by laminating the core). It is not an 'application'.",
+        "hi": "भंवर धाराएँ ब्रेकिंग, अवमंदन और भट्ठियों में उपयोगी हैं। ट्रांसफार्मर कोर में, भंवर धाराएँ ऊर्जा की हानि (हीटिंग) का कारण बनती हैं, जो एक अवांछनीय प्रभाव है (कोर को लैमिनेट करके कम किया जाता है)। यह एक 'अनुप्रयोग' नहीं है।"
+      }
+    }
+  ]
+}

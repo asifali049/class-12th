@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Quantization of Charge", "hi": "आवेश का क्वांटीकरण" },
+    "definition": { "en": "Charge exists only as an integral multiple of the basic elementary charge ($e = 1.6 \\times 10^{-19}$ C). Formula: $q = ne$.", "hi": "आवेश केवल मूल आवेश ($e = 1.6 \\times 10^{-19}$ C) के एक अभिन्न गुणक के रूप में मौजूद होता है। सूत्र: $q = ne$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Conservation of Charge", "hi": "आवेश का संरक्षण" },
+    "definition": { "en": "The total electric charge of an isolated system remains constant. It can neither be created nor destroyed.", "hi": "एक विलगित निकाय का कुल विद्युत आवेश स्थिर रहता है। इसे न तो बनाया जा सकता है और न ही नष्ट किया जा सकता है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Coulomb's Law", "hi": "कूलॉम का नियम" },
+    "definition": { "en": "Force between two point charges: $F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}$.", "hi": "दो बिंदु आवेशों के बीच बल: $F = \\frac{1}{4\\pi\\epsilon_0} \\frac{|q_1 q_2|}{r^2}$।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Electric Field Intensity (E)", "hi": "विद्युत क्षेत्र की तीव्रता (E)" },
+    "definition": { "en": "Electrostatic force experienced by a unit positive test charge. $E = F/q_0$. SI unit: N/C or V/m.", "hi": "एकांक धनात्मक परीक्षण आवेश द्वारा अनुभव किया गया स्थिर वैद्युत बल। $E = F/q_0$। SI इकाई: N/C या V/m।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Electric Dipole Moment (p)", "hi": "विद्युत द्विध्रुव आघूर्ण (p)" },
+    "definition": { "en": "Vector quantity pointing from $-q$ to $+q$. Magnitude: $p = q(2a)$. SI unit: Coulomb-meter (C.m).", "hi": "$-q$ से $+q$ की ओर संकेत करने वाली सदिश राशि। परिमाण: $p = q(2a)$। SI इकाई: कूलॉम-मीटर (C.m)।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Torque on a Dipole", "hi": "द्विध्रुव पर बल आघूर्ण" },
+    "definition": { "en": "Torque $\\vec{\\tau} = \\vec{p} \\times \\vec{E}$ or $\\tau = pE \\sin\\theta$. It tends to align the dipole with the electric field.", "hi": "बल आघूर्ण $\\vec{\\tau} = \\vec{p} \\times \\vec{E}$ या $\\tau = pE \\sin\\theta$। यह द्विध्रुव को विद्युत क्षेत्र के साथ संरेखित करने की प्रवृत्ति रखता है।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Electric Flux (Φ)", "hi": "विद्युत फ्लक्स (Φ)" },
+    "definition": { "en": "Total number of electric field lines passing normally through a surface. $\\Phi_E = \\int \\vec{E} \\cdot d\\vec{A}$.", "hi": "किसी सतह से सामान्यतः गुजरने वाली विद्युत क्षेत्र रेखाओं की कुल संख्या। $\\Phi_E = \\int \\vec{E} \\cdot d\\vec{A}$।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Gauss's Law", "hi": "गॉस का नियम" },
+    "definition": { "en": "Total electric flux through any closed surface is $1/\\epsilon_0$ times the net enclosed charge: $\\Phi_E = q_{enc}/\\epsilon_0$.", "hi": "किसी भी बंद सतह के माध्यम से कुल विद्युत फ्लक्स संलग्न कुल आवेश का $1/\\epsilon_0$ गुना होता है: $\\Phi_E = q_{enc}/\\epsilon_0$।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Field due to Line Charge", "hi": "रेखीय आवेश के कारण क्षेत्र" },
+    "definition": { "en": "Electric field at distance $r$ from an infinitely long wire: $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$.", "hi": "एक अनंत लंबे तार से $r$ दूरी पर विद्युत क्षेत्र: $E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Field due to Plane Sheet", "hi": "समतल चादर के कारण क्षेत्र" },
+    "definition": { "en": "Electric field due to a uniformly charged infinite plane sheet: $E = \\frac{\\sigma}{2\\epsilon_0}$ (Independent of distance).", "hi": "एकसमान आवेशित अनंत समतल चादर के कारण विद्युत क्षेत्र: $E = \\frac{\\sigma}{2\\epsilon_0}$ (दूरी से स्वतंत्र)।" }
+  }
+]

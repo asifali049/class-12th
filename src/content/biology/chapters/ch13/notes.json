@@ -1,24 +1,103 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Biodiversity & Loss",
-      "hi": "जैव विविधता और हानि"
-    },
-    "content": {
-      "en": "Three levels: Genetic, Species, Ecological. The 'Evil Quartet' are the 4 main causes of extinction: Habitat loss, Over-exploitation, Alien species, Co-extinctions.",
-      "hi": "तीन स्तर: आनुवंशिक, प्रजाति, पारिस्थितिक। 'एविल चौकड़ी' विलुप्ति के 4 मुख्य कारण हैं।"
+    "type": "heading",
+    "text": {
+      "en": "Biodiversity and Conservation",
+      "hi": "जैव-विविधता एवं संरक्षण"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Conservation",
-      "hi": "संरक्षण"
-    },
-    "content": {
-      "en": "In-situ (on-site, e.g., National Parks). Ex-situ (off-site, e.g., Zoos, Seed banks).",
-      "hi": "स्वस्थाने (ऑन-साइट, उदा., राष्ट्रीय उद्यान)। बाह्य-स्थाने (ऑफ-साइट, उदा., चिड़ियाघर, बीज बैंक)।"
+    "type": "paragraph",
+    "text": {
+      "en": "Biodiversity is the term popularised by the sociobiologist Edward Wilson to describe the combined diversity at all the levels of biological organisation.",
+      "hi": "जैव विविधता (Biodiversity) शब्द को समाजशास्त्री एडवर्ड विल्सन द्वारा जैविक संगठन के सभी स्तरों पर संयुक्त विविधता का वर्णन करने के लिए लोकप्रिय बनाया गया था।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Levels of Biodiversity",
+      "hi": "1. जैव विविधता के स्तर"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Genetic diversity: A single species might show high diversity at the genetic level over its distributional range. The genetic variation shown by the medicinal plant Rauwolfia vomitoria growing in different Himalayan ranges might be in terms of the potency and concentration of the active chemical (reserpine). India has >50,000 genetically different strains of rice, and 1,000 varieties of mango.",
+        "hi": "आनुवंशिक विविधता (Genetic diversity): एक ही प्रजाति अपनी वितरण सीमा पर आनुवंशिक स्तर पर उच्च विविधता दिखा सकती है। विभिन्न हिमालय श्रृंखलाओं में उगने वाले औषधीय पौधे राउवोल्फिया वोमिटोरिया द्वारा दर्शाई गई आनुवंशिक भिन्नता सक्रिय रसायन (रेसेरपिन) की शक्ति और एकाग्रता के संदर्भ में हो सकती है। भारत में चावल की >50,000 आनुवंशिक रूप से भिन्न किस्में और आम की 1,000 किस्में हैं।"
+      },
+      {
+        "en": "Species diversity: The diversity at the species level. For example, the Western Ghats have a greater amphibian species diversity than the Eastern Ghats.",
+        "hi": "प्रजाति विविधता (Species diversity): प्रजाति स्तर पर विविधता। उदाहरण के लिए, पश्चिमी घाट में पूर्वी घाट की तुलना में उभयचर (amphibian) प्रजातियों की विविधता अधिक है।"
+      },
+      {
+        "en": "Ecological diversity: At the ecosystem level, India, for instance, with its deserts, rain forests, mangroves, coral reefs, wetlands, estuaries, and alpine meadows has a greater ecosystem diversity than a Scandinavian country like Norway.",
+        "hi": "पारिस्थितिक विविधता (Ecological diversity): पारिस्थितिकी तंत्र के स्तर पर, उदाहरण के लिए, भारत में अपने रेगिस्तान, वर्षा वन, मैंग्रोव, प्रवाल भित्तियों, आर्द्रभूमि, मुहाने और अल्पाइन घास के मैदानों के साथ नॉर्वे जैसे स्कैंडिनेवियाई देश की तुलना में अधिक पारिस्थितिकी तंत्र विविधता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Patterns of Biodiversity",
+      "hi": "2. जैव विविधता के प्रतिरूप (Patterns)"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Biodiversity is not uniform throughout the world but shows a rather uneven distribution. Two major patterns are:\n\n1. Latitudinal Gradients: In general, species diversity decreases as we move away from the equator towards the poles. With very few exceptions, tropics (latitudinal range of 23.5° N to 23.5° S) harbour more species than temperate or polar areas. Colombia located near the equator has nearly 1,400 species of birds while New York at 41° N has 105 species.\n\n2. Species-Area Relationships: Alexander von Humboldt observed that within a region species richness increased with increasing explored area, but only up to a limit. The relationship between species richness and area for a wide variety of taxa turns out to be a rectangular hyperbola. On a logarithmic scale, the relationship is a straight line described by the equation: log S = log C + Z log A.",
+      "hi": "जैव विविधता दुनिया भर में एक समान नहीं है, बल्कि असमान वितरण दिखाती है। दो प्रमुख प्रतिरूप हैं:\n\n1. अक्षांशीय प्रवणता (Latitudinal Gradients): सामान्य तौर पर, जैसे-जैसे हम भूमध्य रेखा (equator) से ध्रुवों की ओर बढ़ते हैं, प्रजातियों की विविधता कम होती जाती है। बहुत कम अपवादों के साथ, उष्णकटिबंधीय (tropics) क्षेत्रों (23.5° N से 23.5° S की अक्षांशीय सीमा) में समशीतोष्ण (temperate) या ध्रुवीय क्षेत्रों की तुलना में अधिक प्रजातियाँ पाई जाती हैं। भूमध्य रेखा के पास स्थित कोलंबिया में पक्षियों की लगभग 1,400 प्रजातियाँ हैं जबकि 41° N पर न्यूयॉर्क में 105 प्रजातियाँ हैं।\n\n2. प्रजाति-क्षेत्र संबंध (Species-Area Relationships): अलेक्जेंडर वॉन हम्बोल्ट ने देखा कि एक क्षेत्र के भीतर प्रजातियों की समृद्धि खोजे गए क्षेत्र में वृद्धि के साथ बढ़ती है, लेकिन केवल एक सीमा तक। टैक्सा की एक विस्तृत विविधता के लिए प्रजातियों की समृद्धि और क्षेत्र के बीच संबंध एक आयताकार हाइपरबोला बन जाता है। लघुगणकीय (logarithmic) पैमाने पर, यह संबंध एक सीधी रेखा है जिसे समीकरण द्वारा वर्णित किया गया है: log S = log C + Z log A।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Loss of Biodiversity",
+      "hi": "3. जैव विविधता का नुकसान"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "The biological wealth of our planet has been declining rapidly and the accusing finger is clearly pointing to human activities. The 'Evil Quartet' is the sobriquet used to describe the four major causes of biodiversity loss:",
+      "hi": "हमारे ग्रह की जैविक संपदा तेजी से घट रही है और उंगली स्पष्ट रूप से मानवीय गतिविधियों की ओर इशारा कर रही है। जैव विविधता के नुकसान के चार प्रमुख कारणों का वर्णन करने के लिए 'द एविल क्वार्टेट (The Evil Quartet)' का उपयोग किया जाता है:"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "1. Habitat loss and fragmentation: This is the most important cause driving animals and plants to extinction. Examples include the loss of tropical rain forests (the lungs of the planet). When large habitats are broken up into small fragments due to various human activities, mammals and birds requiring large territories are badly affected.",
+        "hi": "1. आवास का नुकसान और विखंडन: जानवरों और पौधों को विलुप्त होने की ओर ले जाने वाला यह सबसे महत्वपूर्ण कारण है। उदाहरणों में उष्णकटिबंधीय वर्षा वनों (ग्रह के फेफड़े) का नुकसान शामिल है। जब विभिन्न मानवीय गतिविधियों के कारण बड़े आवास छोटे टुकड़ों में टूट जाते हैं, तो बड़े क्षेत्रों की आवश्यकता वाले स्तनधारी और पक्षी बुरी तरह प्रभावित होते हैं।"
+      },
+      {
+        "en": "2. Over-exploitation: Humans have always depended on nature for food and shelter, but when 'need' turns to 'greed', it leads to over-exploitation. Many species extinctions in the last 500 years (Steller's sea cow, passenger pigeon) were due to overexploitation.",
+        "hi": "2. अति-दोहन (Over-exploitation): मनुष्य हमेशा भोजन और आश्रय के लिए प्रकृति पर निर्भर रहा है, लेकिन जब 'जरूरत' 'लालच' में बदल जाती है, तो यह अति-दोहन की ओर ले जाता है। पिछले 500 वर्षों में कई प्रजातियों का विलुप्त होना (स्टेलर की समुद्री गाय, यात्री कबूतर) अति-दोहन के कारण था।"
+      },
+      {
+        "en": "3. Alien species invasions: When alien species are introduced unintentionally or deliberately for whatever purpose, some of them turn invasive, and cause decline or extinction of indigenous species. Example: Water hyacinth (Eichhornia) and African catfish (Clarias gariepinus).",
+        "hi": "3. विदेशी प्रजातियों का आक्रमण: जब विदेशी प्रजातियों को अनजाने में या जानबूझकर किसी भी उद्देश्य के लिए पेश किया जाता है, तो उनमें से कुछ आक्रामक हो जाते हैं, और स्वदेशी प्रजातियों के पतन या विलुप्त होने का कारण बनते हैं। उदाहरण: जलकुंभी (Water hyacinth) और अफ्रीकी कैटफ़िश।"
+      },
+      {
+        "en": "4. Co-extinctions: When a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct. Example: When a host fish species becomes extinct, its unique assemblage of parasites also meets the same fate.",
+        "hi": "4. सह-विलुप्ति (Co-extinctions): जब एक प्रजाति विलुप्त हो जाती है, तो उसके साथ अनिवार्य रूप से जुड़ी पौधे और जानवरों की प्रजातियाँ भी विलुप्त हो जाती हैं। उदाहरण: जब कोई मेजबान मछली प्रजाति विलुप्त हो जाती है, तो उसके परजीवियों का अनूठा समूह भी उसी नियति को प्राप्त होता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Biodiversity Conservation",
+      "hi": "4. जैव विविधता संरक्षण"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Conservation strategies are broadly grouped into two categories:\n\n1. In situ (on site) conservation: Faced with the conflict between development and conservation, many nations find it unrealistic and economically not feasible to conserve all their biological wealth. Eminent conservationists identified for maximum protection certain 'biodiversity hotspots' regions with very high levels of species richness and high degree of endemism (species confined to that region). In India, we have ecologically unique and biodiversity-rich regions which are legally protected as biosphere reserves, national parks and sanctuaries. Sacred groves are also found in Khasi and Jaintia Hills in Meghalaya, Aravalli Hills of Rajasthan.\n\n2. Ex situ (off site) conservation: In this approach, threatened animals and plants are taken out from their natural habitat and placed in special setting where they can be protected and given special care. Zoological parks, botanical gardens and wildlife safari parks serve this purpose. Advances include cryopreservation (preservation of gametes at -196°C in liquid nitrogen), in vitro tissue culture, and seed banks.",
+      "hi": "संरक्षण रणनीतियों को मोटे तौर पर दो श्रेणियों में बांटा गया है:\n\n1. स्वस्थाने (In situ) संरक्षण: विकास और संरक्षण के बीच संघर्ष का सामना करते हुए, कई राष्ट्रों को अपनी सभी जैविक संपदा का संरक्षण करना अवास्तविक और आर्थिक रूप से संभव नहीं लगता है। प्रख्यात संरक्षणवादियों ने अधिकतम सुरक्षा के लिए कुछ 'जैव विविधता हॉटस्पॉट' क्षेत्रों की पहचान की, जिनमें प्रजातियों की समृद्धि का बहुत उच्च स्तर और स्थानिकता (उस क्षेत्र तक सीमित प्रजातियां) की उच्च डिग्री थी। भारत में, हमारे पास पारिस्थितिक रूप से अद्वितीय और जैव विविधता से समृद्ध क्षेत्र हैं जिन्हें कानूनी रूप से जीवमंडल भंडार (biosphere reserves), राष्ट्रीय उद्यानों और अभयारण्यों के रूप में संरक्षित किया गया है। पवित्र उपवन (Sacred groves) मेघालय में खासी और जयंतिया हिल्स, राजस्थान की अरावली पहाड़ियों में भी पाए जाते हैं।\n\n2. बाह्यस्थाने (Ex situ) संरक्षण: इस दृष्टिकोण में, संकटग्रस्त जानवरों और पौधों को उनके प्राकृतिक आवास से बाहर निकाल लिया जाता है और विशेष सेटिंग में रखा जाता है जहाँ उन्हें संरक्षित किया जा सकता है और विशेष देखभाल दी जा सकती है। प्राणी उद्यान (Zoological parks), वनस्पति उद्यान और वन्यजीव सफारी पार्क इस उद्देश्य की पूर्ति करते हैं। अग्रिमों में क्रायोप्रिजर्वेशन (तरल नाइट्रोजन में -196°C पर गैमेट्स का संरक्षण), इन विट्रो टिशू कल्चर और बीज बैंक शामिल हैं।"
     }
   }
 ]

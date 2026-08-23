@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Nucleotide", "hi": "न्यूक्लियोटाइड (Nucleotide)" },
+    "definition": { "en": "The basic building block of nucleic acids, consisting of a nitrogenous base, a pentose sugar, and a phosphate group.", "hi": "न्यूक्लिक एसिड का मूल निर्माण खंड, जिसमें एक नाइट्रोजनस बेस, एक पेंटोस शुगर और एक फॉस्फेट समूह होता है।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Transcription", "hi": "अनुलेखन (Transcription)" },
+    "definition": { "en": "The process of synthesizing an RNA molecule from a DNA template.", "hi": "DNA टेम्पलेट से RNA अणु के संश्लेषण की प्रक्रिया।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Translation", "hi": "अनुवादन (Translation)" },
+    "definition": { "en": "The process by which the sequence of bases in mRNA dictates the sequence of amino acids in a polypeptide (protein synthesis).", "hi": "वह प्रक्रिया जिसके द्वारा mRNA में बेस का अनुक्रम पॉलीपेप्टाइड (प्रोटीन संश्लेषण) में अमीनो एसिड के अनुक्रम को निर्धारित करता है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Codon", "hi": "कोडोन (Codon)" },
+    "definition": { "en": "A sequence of three adjacent nucleotides on an mRNA molecule that specifies a particular amino acid or stops protein synthesis.", "hi": "mRNA अणु पर तीन आसन्न न्यूक्लियोटाइड का एक अनुक्रम जो एक विशेष अमीनो एसिड को निर्दिष्ट करता है या प्रोटीन संश्लेषण को रोकता है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Operon", "hi": "ऑपेरॉन (Operon)" },
+    "definition": { "en": "A unit of bacterial gene expression and regulation, including structural genes, a promoter, and an operator.", "hi": "जीवाणु जीन अभिव्यक्ति और विनियमन की एक इकाई, जिसमें संरचनात्मक जीन, एक प्रमोटर और एक ऑपरेटर शामिल हैं।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Okazaki Fragments", "hi": "ओकाजाकी खंड (Okazaki Fragments)" },
+    "definition": { "en": "Short segments of DNA synthesized discontinuously on the lagging strand during DNA replication.", "hi": "DNA प्रतिकृति के दौरान लैगिंग स्ट्रैंड पर असंतत रूप से संश्लेषित DNA के छोटे खंड।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Euchromatin", "hi": "यूक्रोमैटिन (Euchromatin)" },
+    "definition": { "en": "Loosely packed, transcriptionally active region of chromatin.", "hi": "क्रोमैटिन का शिथिल रूप से पैक किया गया, ट्रांसक्रिप्शनल रूप से सक्रिय क्षेत्र।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Heterochromatin", "hi": "हेटेरोक्रोमैटिन (Heterochromatin)" },
+    "definition": { "en": "Densely packed, transcriptionally inactive region of chromatin.", "hi": "क्रोमैटिन का सघन रूप से पैक किया गया, ट्रांसक्रिप्शनल रूप से निष्क्रिय क्षेत्र।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Exons", "hi": "एक्सॉन (Exons)" },
+    "definition": { "en": "Coding sequences or expressed sequences that appear in mature or processed RNA.", "hi": "कोडिंग अनुक्रम या व्यक्त अनुक्रम जो परिपक्व या संसाधित RNA में दिखाई देते हैं।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Introns", "hi": "इंट्रॉन (Introns)" },
+    "definition": { "en": "Intervening non-coding sequences in a split gene that are removed during RNA splicing.", "hi": "एक विभाजित जीन (split gene) में मध्यवर्ती गैर-कोडिंग अनुक्रम जिन्हें RNA स्प्लिसिंग के दौरान हटा दिया जाता है।" }
+  }
+]

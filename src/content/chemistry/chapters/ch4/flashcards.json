@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Transition Elements", "hi": "संक्रमण तत्व" },
+    "definition": { "en": "Elements having incompletely filled d-orbitals in their ground state or any common oxidation state. Belong to d-block (Groups 3-12).", "hi": "वे तत्व जिनकी मूल अवस्था या किसी सामान्य ऑक्सीकरण अवस्था में d-कक्षक अपूर्ण रूप से भरे होते हैं। d-ब्लॉक (समूह 3-12) के अंतर्गत आते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Lanthanoid Contraction", "hi": "लैंथेनॉइड आकुंचन" },
+    "definition": { "en": "The steady decrease in atomic and ionic radii of lanthanoids with increasing atomic number due to poor shielding of 4f electrons.", "hi": "4f इलेक्ट्रॉनों के खराब परिरक्षण के कारण परमाणु क्रमांक बढ़ने के साथ लैंथेनॉइड्स के परमाणु और आयनिक त्रिज्या में निरंतर कमी।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Actinoids", "hi": "एक्टिनॉइड्स" },
+    "definition": { "en": "The 14 elements following Actinium (Z=89) from Th (90) to Lr (103) where 5f orbitals are progressively filled. They are all radioactive.", "hi": "एक्टिनियम (Z=89) के बाद Th (90) से Lr (103) तक के 14 तत्व जहाँ 5f कक्षक उत्तरोत्तर भरे जाते हैं। ये सभी रेडियोधर्मी हैं।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Variable Oxidation States", "hi": "परिवर्तनीय ऑक्सीकरण अवस्थाएँ" },
+    "definition": { "en": "Characteristic of transition metals due to small energy difference between (n-1)d and ns orbitals, allowing both to participate in bonding.", "hi": "(n-1)d और ns कक्षकों के बीच कम ऊर्जा अंतर के कारण संक्रमण धातुओं की विशेषता, जिससे दोनों बंधन में भाग ले सकते हैं।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Magnetic Moment ($\\mu$)", "hi": "चुंबकीय आघूर्ण ($\\mu$)" },
+    "definition": { "en": "Measured in Bohr Magneton (BM). Spin-only formula: $\\mu = \\sqrt{n(n+2)}$, where $n$ is the number of unpaired electrons.", "hi": "बोर मैग्नेटन (BM) में मापा जाता है। स्पिन-ओनली सूत्र: $\\mu = \\sqrt{n(n+2)}$, जहाँ $n$ अयुग्मित इलेक्ट्रॉनों की संख्या है।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Colored Ions", "hi": "रंगीन आयन" },
+    "definition": { "en": "Transition metal ions are usually colored due to d-d transitions of unpaired electrons absorbing specific wavelengths of visible light.", "hi": "अयुग्मित इलेक्ट्रॉनों के दृश्य प्रकाश की विशिष्ट तरंग दैर्ध्य को अवशोषित करने के d-d संक्रमण के कारण संक्रमण धातु आयन आमतौर पर रंगीन होते हैं।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Alloy Formation", "hi": "मिश्र धातु निर्माण" },
+    "definition": { "en": "Transition metals form alloys easily because their atomic radii are very similar (within 15%), allowing them to substitute each other in the crystal lattice.", "hi": "संक्रमण धातुएं आसानी से मिश्र धातु बनाती हैं क्योंकि उनकी परमाणु त्रिज्याएं बहुत समान (15% के भीतर) होती हैं, जिससे वे क्रिस्टल जालक में एक-दूसरे को प्रतिस्थापित कर सकती हैं।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Interstitial Compounds", "hi": "अंतराकाशी यौगिक" },
+    "definition": { "en": "Compounds formed when small atoms (H, C, N) get trapped inside the interstitial spaces of the metal crystal lattice (e.g., steel).", "hi": "धातु क्रिस्टल जालक (उदा., स्टील) के अंतराकाशी स्थानों के अंदर छोटे परमाणुओं (H, C, N) के फंसने पर बनने वाले यौगिक।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Potassium Dichromate ($K_2Cr_2O_7$)", "hi": "पोटेशियम डाइक्रोमेट ($K_2Cr_2O_7$)" },
+    "definition": { "en": "An orange, strong oxidizing agent. Used in volumetric analysis. In acidic medium: $Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$.", "hi": "एक नारंगी, मजबूत ऑक्सीकरण एजेंट। आयतनी विश्लेषण में प्रयुक्त। अम्लीय माध्यम में: $Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Potassium Permanganate ($KMnO_4$)", "hi": "पोटेशियम परमैंगनेट ($KMnO_4$)" },
+    "definition": { "en": "A dark purple, strong oxidizing agent. In acidic medium, $Mn^{7+}$ reduces to $Mn^{2+}$. $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$.", "hi": "एक गहरा बैंगनी, मजबूत ऑक्सीकरण एजेंट। अम्लीय माध्यम में, $Mn^{7+}$ अपचयित होकर $Mn^{2+}$ हो जाता है। $MnO_4^- + 8H^+ + 5e^- \\to Mn^{2+} + 4H_2O$।" }
+  }
+]

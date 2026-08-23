@@ -1,8 +1,52 @@
 {
-  "id": "root",
-  "label": {
-    "en": "Evolution",
-    "hi": "विकास"
-  },
-  "children": []
+  "id": "m1",
+  "title": { "en": "Evolution", "hi": "विकास" },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": { "en": "Origin of Life", "hi": "जीवन की उत्पत्ति" },
+      "children": [
+        { "id": "n1_1", "label": { "en": "Big Bang Theory", "hi": "बिग बैंग सिद्धांत" } },
+        { "id": "n1_2", "label": { "en": "Chemical Evolution (Oparin-Haldane)", "hi": "रासायनिक विकास (ओपेरिन-हेल्डेन)" } },
+        { "id": "n1_3", "label": { "en": "Miller-Urey Experiment", "hi": "मिलर-उरे प्रयोग" } }
+      ]
+    },
+    {
+      "id": "n2",
+      "label": { "en": "Evidences of Evolution", "hi": "विकास के प्रमाण" },
+      "children": [
+        { "id": "n2_1", "label": { "en": "Paleontological (Fossils)", "hi": "जीवाश्म विज्ञान संबंधी (जीवाश्म)" } },
+        { "id": "n2_2", "label": { "en": "Homologous Organs (Divergent)", "hi": "समजात अंग (अपसारी)" } },
+        { "id": "n2_3", "label": { "en": "Analogous Organs (Convergent)", "hi": "समरूप अंग (अभिसारी)" } },
+        { "id": "n2_4", "label": { "en": "Biochemical Evidence", "hi": "जैव रासायनिक प्रमाण" } }
+      ]
+    },
+    {
+      "id": "n3",
+      "label": { "en": "Theories of Evolution", "hi": "विकास के सिद्धांत" },
+      "children": [
+        { "id": "n3_1", "label": { "en": "Darwin (Natural Selection)", "hi": "डार्विन (प्राकृतिक चयन)" } },
+        { "id": "n3_2", "label": { "en": "deVries (Mutation Theory)", "hi": "डी व्रीज (उत्परिवर्तन सिद्धांत)" } }
+      ]
+    },
+    {
+      "id": "n4",
+      "label": { "en": "Hardy-Weinberg Principle", "hi": "हार्डी-वेनबर्ग सिद्धांत" },
+      "children": [
+        { "id": "n4_1", "label": { "en": "Genetic Equilibrium", "hi": "आनुवंशिक संतुलन" } },
+        { "id": "n4_2", "label": { "en": "Factors Affecting Equilibrium", "hi": "संतुलन को प्रभावित करने वाले कारक" } }
+      ]
+    },
+    {
+      "id": "n5",
+      "label": { "en": "Human Evolution", "hi": "मानव विकास" },
+      "children": [
+        { "id": "n5_1", "label": { "en": "Dryopithecus & Ramapithecus", "hi": "ड्रायोपिथेकस और रामापिथेकस" } },
+        { "id": "n5_2", "label": { "en": "Homo habilis", "hi": "होमो हैबिलिस" } },
+        { "id": "n5_3", "label": { "en": "Homo erectus", "hi": "होमो इरेक्टस" } },
+        { "id": "n5_4", "label": { "en": "Neanderthal man", "hi": "निएंडरथल मानव" } },
+        { "id": "n5_5", "label": { "en": "Homo sapiens", "hi": "होमो सेपियन्स" } }
+      ]
+    }
+  ]
 }

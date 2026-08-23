@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Ploidy and Chromosome Numbers in Gametogenesis",
+      "hi": "युग्मकजनन में प्लॉइडी और गुणसूत्र संख्या"
+    },
+    "formula": "\\text{Primary Oocyte/Spermatocyte (2n)} \\xrightarrow{\\text{Meiosis I}} \\text{Secondary (n)} \\xrightarrow{\\text{Meiosis II}} \\text{Gamete (n)}",
+    "variables": [
+      {
+        "name": "2n",
+        "description": { "en": "Diploid (46 chromosomes in humans). E.g., Spermatogonia, Oogonia, Primary Spermatocyte, Primary Oocyte.", "hi": "द्विगुणित (मनुष्यों में 46 गुणसूत्र)। उदा., स्पर्मेटोगोनिया, ऊगोनिया, प्राथमिक स्पर्मेटोसाइट, प्राथमिक ऊसाइट।" }
+      },
+      {
+        "name": "n",
+        "description": { "en": "Haploid (23 chromosomes in humans). E.g., Secondary Spermatocyte/Oocyte, Spermatid, Ovum, Sperm.", "hi": "अगुणित (मनुष्यों में 23 गुणसूत्र)। उदा., द्वितीयक स्पर्मेटोसाइट/ऊसाइट, स्पर्मेटिड, डिंब, शुक्राणु।" }
+      }
+    ],
+    "applications": {
+      "en": "Crucial for answering board questions about the number of chromosomes in a specific cell type. Remember that Meiosis I reduces the chromosome number by half.",
+      "hi": "एक विशिष्ट कोशिका प्रकार में गुणसूत्रों की संख्या के बारे में बोर्ड के सवालों के जवाब देने के लिए महत्वपूर्ण है। याद रखें कि अर्धसूत्रीविभाजन I गुणसूत्र संख्या को आधा कर देता है।"
+    }
+  }
+]

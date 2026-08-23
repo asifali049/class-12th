@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "A Transcription Unit",
+      "hi": "एक ट्रांसक्रिप्शन यूनिट (अनुलेखन इकाई)"
+    },
+    "description": {
+      "en": "Schematic structure of a transcription unit showing the Promoter, Structural gene, Terminator, Template strand, and Coding strand.",
+      "hi": "एक ट्रांसक्रिप्शन यूनिट की योजनाबद्ध संरचना जो प्रमोटर, संरचनात्मक जीन, टर्मिनेटर, टेम्पलेट स्ट्रैंड और कोडिंग स्ट्रैंड दिखाती है।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 200' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.strand1{fill:none;stroke:#3b82f6;stroke-width:8;stroke-linecap:round;}.strand2{fill:none;stroke:#ef4444;stroke-width:8;stroke-linecap:round;}.box-promoter{fill:#fbbf24;stroke:#d97706;stroke-width:2;}.box-terminator{fill:#10b981;stroke:#059669;stroke-width:2;}.text-main{font-size:14px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:12px;font-family:sans-serif;fill:#475569;}.arrow{fill:none;stroke:#1e293b;stroke-width:2;marker-end:url(#arrowhead);}</style><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='0' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#1e293b'/></marker></defs><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 80)'><line x1='100' y1='-15' x2='400' y2='-15' class='strand1'/><line x1='100' y1='15' x2='400' y2='15' class='strand2'/><rect x='120' y='-30' width='40' height='60' class='box-promoter'/><rect x='340' y='-30' width='40' height='60' class='box-promoter' style='fill:#10b981; stroke:#059669;'/><text x='70' y='-10' class='text-main'>3'</text><text x='410' y='-10' class='text-main'>5'</text><text x='70' y='20' class='text-main'>5'</text><text x='410' y='20' class='text-main'>3'</text><text x='200' y='-35' class='text-small'>Template Strand</text><text x='210' y='45' class='text-small'>Coding Strand</text><text x='115' y='-45' class='text-main'>Promoter</text><text x='330' y='-45' class='text-main'>Terminator</text><text x='200' y='5' class='text-main'>Structural Gene</text><line x1='140' y1='-50' x2='180' y2='-50' class='arrow'/><text x='190' y='-45' class='text-small'>Direction of transcription</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 160, "y": 30, "text": { "en": "Promoter", "hi": "प्रमोटर" } },
+      { "id": "l2", "x": 380, "y": 30, "text": { "en": "Terminator", "hi": "टर्मिनेटर" } }
+    ]
+  },
+  {
+    "id": "dia2",
+    "title": {
+      "en": "Polynucleotide Chain Structure",
+      "hi": "पॉली न्यूक्लियोटाइड श्रृंखला संरचना"
+    },
+    "description": {
+      "en": "Basic structure showing the arrangement of Phosphate, Sugar, and Nitrogenous base in a DNA strand.",
+      "hi": "DNA स्ट्रैंड में फॉस्फेट, शर्करा और नाइट्रोजनस बेस की व्यवस्था दिखाने वाली मूल संरचना।"
+    },
+    "svgCode": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.sugar{fill:#38bdf8;stroke:#0284c7;stroke-width:2;}.phosphate{fill:#fcd34d;stroke:#d97706;stroke-width:2;}.base{fill:#a7f3d0;stroke:#059669;stroke-width:2;}.bond{fill:none;stroke:#1e293b;stroke-width:3;}.text-main{font-size:14px;font-family:sans-serif;fill:#0f172a;font-weight:bold;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(150, 50)'><polygon points='0,0 30,20 20,50 -20,50 -30,20' class='sugar'/><text x='-10' y='35' class='text-main'>S</text><circle cx='-50' cy='0' r='15' class='phosphate'/><text x='-55' y='5' class='text-main'>P</text><rect x='40' y='5' width='40' height='25' class='base'/><text x='48' y='23' class='text-main'>Base</text><line x1='-35' y1='0' x2='-20' y2='10' class='bond'/><line x1='30' y1='15' x2='40' y2='15' class='bond'/><polygon points='0,100 30,120 20,150 -20,150 -30,120' class='sugar'/><text x='-10' y='135' class='text-main'>S</text><circle cx='-50' cy='100' r='15' class='phosphate'/><text x='-55' y='105' class='text-main'>P</text><rect x='40' y='105' width='40' height='25' class='base'/><text x='48' y='123' class='text-main'>Base</text><line x1='-35' y1='100' x2='-20' y2='110' class='bond'/><line x1='30' y1='115' x2='40' y2='115' class='bond'/><line x1='0' y1='50' x2='-45' y2='85' class='bond'/><text x='60' y='75' class='text-main' fill='#ef4444'>Phosphodiester Bond</text><line x1='15' y1='70' x2='-20' y2='70' style='stroke:#ef4444;stroke-width:1;' stroke-dasharray='4'/></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 60, "y": 60, "text": { "en": "Phosphate", "hi": "फॉस्फेट" } },
+      { "id": "l2", "x": 100, "y": 100, "text": { "en": "Pentose Sugar", "hi": "पेंटोस शर्करा" } },
+      { "id": "l3", "x": 220, "y": 70, "text": { "en": "Nitrogenous Base", "hi": "नाइट्रोजनस बेस" } }
+    ]
+  }
+]

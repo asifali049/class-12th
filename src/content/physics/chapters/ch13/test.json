@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch13",
+  "title": {
+    "en": "Physics Chapter 13 Mock Test",
+    "hi": "भौतिकी अध्याय 13 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Isotopes of an element have the same:",
+        "hi": "किसी तत्व के समस्थानिकों (Isotopes) में समान होता है:"
+      },
+      "options": [
+        {
+          "en": "Mass number",
+          "hi": "द्रव्यमान संख्या"
+        },
+        {
+          "en": "Number of neutrons",
+          "hi": "न्यूट्रॉन की संख्या"
+        },
+        {
+          "en": "Atomic number",
+          "hi": "परमाणु क्रमांक (Atomic number)"
+        },
+        {
+          "en": "Binding energy per nucleon",
+          "hi": "प्रति न्यूक्लियॉन बंधन ऊर्जा"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Isotopes are atoms of the same element, so they have the same atomic number (number of protons) but different mass numbers (number of neutrons).",
+        "hi": "समस्थानिक एक ही तत्व के परमाणु होते हैं, इसलिए उनका परमाणु क्रमांक (प्रोटॉन की संख्या) समान होता है लेकिन द्रव्यमान संख्या (न्यूट्रॉन की संख्या) भिन्न होती है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "The relation between the radius of a nucleus R and its mass number A is given by:",
+        "hi": "किसी नाभिक की त्रिज्या R और उसकी द्रव्यमान संख्या A के बीच का संबंध किसके द्वारा दिया जाता है?"
+      },
+      "options": [
+        {
+          "en": "$R = R_0 A^{1/2}$",
+          "hi": "$R = R_0 A^{1/2}$"
+        },
+        {
+          "en": "$R = R_0 A^{1/3}$",
+          "hi": "$R = R_0 A^{1/3}$"
+        },
+        {
+          "en": "$R = R_0 A$",
+          "hi": "$R = R_0 A$"
+        },
+        {
+          "en": "$R = R_0 A^3$",
+          "hi": "$R = R_0 A^3$"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Nuclear volume is proportional to the number of nucleons (A). $\\frac{4}{3}\\pi R^3 \\propto A \\implies R \\propto A^{1/3}$. Therefore, $R = R_0 A^{1/3}$.",
+        "hi": "नाभिकीय आयतन न्यूक्लियंस (A) की संख्या के समानुपाती होता है। $\\frac{4}{3}\\pi R^3 \\propto A \\implies R \\propto A^{1/3}$। इसलिए, $R = R_0 A^{1/3}$।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following forces is responsible for holding the nucleons together in a nucleus?",
+        "hi": "निम्नलिखित में से कौन सा बल नाभिक में न्यूक्लियंस को एक साथ रखने के लिए जिम्मेदार है?"
+      },
+      "options": [
+        {
+          "en": "Gravitational force",
+          "hi": "गुरुत्वाकर्षण बल"
+        },
+        {
+          "en": "Electrostatic force",
+          "hi": "स्थिर वैद्युत बल"
+        },
+        {
+          "en": "Strong nuclear force",
+          "hi": "प्रबल नाभिकीय बल (Strong nuclear force)"
+        },
+        {
+          "en": "Weak nuclear force",
+          "hi": "दुर्बल नाभिकीय बल"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "The strong nuclear force is a very powerful, short-range attractive force that binds protons and neutrons together, overcoming the electrostatic repulsion between protons.",
+        "hi": "प्रबल नाभिकीय बल एक बहुत शक्तिशाली, अल्प-परास (short-range) आकर्षण बल है जो प्रोटॉन और न्यूट्रॉन को एक साथ बांधता है, जिससे प्रोटॉन के बीच स्थिर वैद्युत प्रतिकर्षण पर काबू पाया जाता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Nuclear fusion occurs mainly in:",
+        "hi": "नाभिकीय संलयन (Nuclear fusion) मुख्य रूप से किसमें होता है?"
+      },
+      "options": [
+        {
+          "en": "Heavy nuclei",
+          "hi": "भारी नाभिकों में"
+        },
+        {
+          "en": "Light nuclei",
+          "hi": "हल्के नाभिकों में"
+        },
+        {
+          "en": "All nuclei at room temperature",
+          "hi": "कमरे के तापमान पर सभी नाभिकों में"
+        },
+        {
+          "en": "Nuclei with intermediate mass numbers",
+          "hi": "मध्यवर्ती द्रव्यमान संख्या वाले नाभिकों में"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Nuclear fusion is the process where two light nuclei (like isotopes of hydrogen) combine to form a heavier nucleus, releasing a large amount of energy (e.g., in the Sun).",
+        "hi": "नाभिकीय संलयन वह प्रक्रिया है जहाँ दो हल्के नाभिक (जैसे हाइड्रोजन के समस्थानिक) मिलकर एक भारी नाभिक बनाते हैं, जिससे बड़ी मात्रा में ऊर्जा (उदा., सूर्य में) निकलती है।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The energy equivalent of 1 atomic mass unit (1 u) is approximately:",
+        "hi": "1 परमाणु द्रव्यमान इकाई (1 u) के समतुल्य ऊर्जा लगभग है:"
+      },
+      "options": [
+        {
+          "en": "9.31 MeV",
+          "hi": "9.31 MeV"
+        },
+        {
+          "en": "93.1 MeV",
+          "hi": "93.1 MeV"
+        },
+        {
+          "en": "931.5 MeV",
+          "hi": "931.5 MeV"
+        },
+        {
+          "en": "1.66 MeV",
+          "hi": "1.66 MeV"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Using $E=mc^2$, 1 u (atomic mass unit) $= 1.660539 \\times 10^{-27}$ kg. Converting to MeV gives approximately 931.5 MeV.",
+        "hi": "$E=mc^2$ का उपयोग करते हुए, 1 u (परमाणु द्रव्यमान इकाई) $= 1.660539 \\times 10^{-27}$ किग्रा। MeV में परिवर्तित करने पर लगभग 931.5 MeV प्राप्त होता है।"
+      }
+    }
+  ]
+}

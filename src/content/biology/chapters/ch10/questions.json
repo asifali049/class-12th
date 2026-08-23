@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "The first clinical gene therapy was given for treating:",
-      "hi": "पहली नैदानिक जीन थेरेपी किसके इलाज के लिए दी गई थी?"
+      "en": "Bt cotton is not:",
+      "hi": "Bt कपास क्या नहीं है:"
     },
     "options": [
-      {
-        "en": "Diabetes mellitus",
-        "hi": "डायबिटीज मेलिटस"
-      },
-      {
-        "en": "Chickenpox",
-        "hi": "चिकनपॉक्स"
-      },
-      {
-        "en": "Rheumatoid arthritis",
-        "hi": "रुमेटीइड गठिया"
-      },
-      {
-        "en": "Adenosine deaminase (ADA) deficiency",
-        "hi": "एडेनोसिन डीएमिनेज (ADA) की कमी"
-      }
+      { "id": "o1", "text": { "en": "A GM plant", "hi": "एक GM पौधा" } },
+      { "id": "o2", "text": { "en": "Insect resistant", "hi": "कीट प्रतिरोधी" } },
+      { "id": "o3", "text": { "en": "A bacterial gene expressing system", "hi": "एक जीवाणु जीन व्यक्त करने वाली प्रणाली" } },
+      { "id": "o4", "text": { "en": "Resistant to all pesticides", "hi": "सभी कीटनाशकों के प्रति प्रतिरोधी" } }
     ],
-    "correctOptionIndex": 3,
+    "correctOptionId": "o4",
     "explanation": {
-      "en": "Given in 1990 to a 4-year-old girl.",
-      "hi": "1990 में 4 साल की बच्ची को दिया गया था।"
+      "en": "Bt cotton is genetically modified to express the Bt toxin, making it resistant to specific insect pests (like bollworms). It is not resistant to all pesticides.",
+      "hi": "Bt कपास को आनुवंशिक रूप से Bt विष को व्यक्त करने के लिए संशोधित किया गया है, जिससे यह विशिष्ट कीट कीटों (जैसे बॉलवर्म) के प्रति प्रतिरोधी बन जाता है। यह सभी कीटनाशकों के प्रति प्रतिरोधी नहीं है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "C-peptide of human insulin is:",
+      "hi": "मानव इंसुलिन का C-पेप्टाइड क्या है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "A part of mature insulin molecule", "hi": "परिपक्व इंसुलिन अणु का एक हिस्सा" } },
+      { "id": "o2", "text": { "en": "Responsible for formation of disulphide bridges", "hi": "डाइसल्फ़ाइड पुलों के निर्माण के लिए जिम्मेदार" } },
+      { "id": "o3", "text": { "en": "Removed during maturation of pro-insulin to insulin", "hi": "प्रो-इंसुलिन के इंसुलिन में परिपक्व होने के दौरान हटा दिया जाता है" } },
+      { "id": "o4", "text": { "en": "Responsible for its biological activity", "hi": "इसकी जैविक गतिविधि के लिए जिम्मेदार" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Pro-insulin contains an extra stretch called C peptide. This C peptide is not present in the mature insulin and is removed during maturation.",
+      "hi": "प्रो-इंसुलिन में C पेप्टाइड नामक एक अतिरिक्त खिंचाव होता है। यह C पेप्टाइड परिपक्व इंसुलिन में मौजूद नहीं होता है और परिपक्वता के दौरान हटा दिया जाता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "The first clinical gene therapy was given for treating:",
+      "hi": "पहली नैदानिक जीन थेरेपी किसके इलाज के लिए दी गई थी:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Diabetes mellitus", "hi": "डायबिटीज मेलिटस" } },
+      { "id": "o2", "text": { "en": "Chicken pox", "hi": "चेचक (Chicken pox)" } },
+      { "id": "o3", "text": { "en": "Rheumatoid arthritis", "hi": "संधिशोथ (Rheumatoid arthritis)" } },
+      { "id": "o4", "text": { "en": "Adenosine deaminase (ADA) deficiency", "hi": "एडेनोसाइन डेमिनेज (ADA) की कमी" } }
+    ],
+    "correctOptionId": "o4",
+    "explanation": {
+      "en": "The first clinical gene therapy was given in 1990 to a 4-year-old girl suffering from Adenosine deaminase (ADA) deficiency, an enzyme crucial for the immune system.",
+      "hi": "पहली नैदानिक जीन थेरेपी 1990 में एडेनोसाइन डेमिनेज (ADA) की कमी से पीड़ित 4 वर्षीय लड़की को दी गई थी, जो प्रतिरक्षा प्रणाली के लिए एक महत्वपूर्ण एंजाइम है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why does Bt toxin not kill the Bacillus thuringiensis bacterium itself?",
+      "hi": "Bt विष बैसिलस थुरिंजिएंसिस (Bacillus thuringiensis) जीवाणु को ही क्यों नहीं मारता है?"
+    },
+    "answer": {
+      "en": "The Bt toxin protein exists as inactive protoxins in the bacterium. Once an insect ingests the inactive toxin, it is converted into an active form of toxin due to the **alkaline pH** of the gut, which solubilises the crystals. Therefore, it does not kill the bacterium.",
+      "hi": "Bt विष प्रोटीन जीवाणु में निष्क्रिय प्रो-टॉक्सिन के रूप में मौजूद होता है। एक बार जब कोई कीट निष्क्रिय विष को निगलता है, तो यह आंत के **क्षारीय (alkaline) pH** के कारण विष के एक सक्रिय रूप में परिवर्तित हो जाता है, जो क्रिस्टल को घोल देता है। इसलिए, यह जीवाणु को नहीं मारता है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "What is the role of Agrobacterium in producing nematode-resistant tobacco plants?",
+      "hi": "नेमाटोड-प्रतिरोधी तंबाकू पौधों के उत्पादन में एग्रोबैक्टीरियम की क्या भूमिका है?"
+    },
+    "answer": {
+      "en": "*Agrobacterium* vectors are used to introduce nematode-specific genes into the host plant (tobacco). The introduction of DNA produces both sense and anti-sense RNA in the host cells, forming dsRNA that initiates RNAi (silencing the specific mRNA of the nematode).",
+      "hi": "मेजबान पौधे (तंबाकू) में नेमाटोड-विशिष्ट जीन को पेश करने के लिए *एग्रोबैक्टीरियम* वैक्टर का उपयोग किया जाता है। DNA की शुरूआत मेजबान कोशिकाओं में सेंस और एंटी-सेंस RNA दोनों पैदा करती है, dsRNA बनाती है जो RNAi शुरू करती है (नेमाटोड के विशिष्ट mRNA को शांत करती है)।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Discuss how Eli Lilly produced genetically engineered insulin.",
+      "hi": "चर्चा करें कि एली लिली ने आनुवंशिक रूप से इंजीनियर इंसुलिन का उत्पादन कैसे किया।"
+    },
+    "answer": {
+      "en": "In 1983, Eli Lilly, an American company, prepared two DNA sequences corresponding to the A and B chains of human insulin. They introduced these sequences into plasmids of *E. coli* to produce the insulin chains separately. Chains A and B were produced separately, extracted, and then combined by creating disulfide bonds to form functional human insulin (Humulin). This bypassed the need for the C-peptide present in pro-insulin.",
+      "hi": "1983 में, एक अमेरिकी कंपनी एली लिली ने मानव इंसुलिन की A और B श्रृंखलाओं के अनुरूप दो DNA अनुक्रम तैयार किए। उन्होंने इंसुलिन श्रृंखलाओं को अलग-अलग बनाने के लिए इन अनुक्रमों को *ई. कोलाई* के प्लास्मिड में पेश किया। श्रृंखला A और B को अलग-अलग उत्पादित किया गया, निकाला गया, और फिर कार्यात्मक मानव इंसुलिन (ह्यूमुलिन) बनाने के लिए डाइसल्फ़ाइड बॉन्ड बनाकर जोड़ा गया। इससे प्रो-इंसुलिन में मौजूद C-पेप्टाइड की आवश्यकता दूर हो गई।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "What are transgenic animals? Give any three reasons for which they are produced.",
+      "hi": "ट्रांसजेनिक जानवर क्या हैं? कोई तीन कारण बताइए जिनके लिए वे उत्पन्न होते हैं।"
+    },
+    "answer": {
+      "en": "**Transgenic Animals**: Animals that have had their DNA manipulated to possess and express an extra (foreign) gene are known as transgenic animals.\n**Reasons for production**:\n1. **Study of Disease**: They serve as models for human diseases like cancer, Alzheimer's, so that new treatments can be studied.\n2. **Biological Products**: For producing useful biological products. E.g., Transgenic cow Rosie produced human protein-enriched milk (human alpha-lactalbumin).\n3. **Vaccine Safety Testing**: Transgenic mice are being developed for use in testing the safety of vaccines (like the polio vaccine) before they are used on humans.",
+      "hi": "**ट्रांसजेनिक जानवर**: जिन जानवरों के DNA में एक अतिरिक्त (विदेशी) जीन रखने और व्यक्त करने के लिए हेरफेर किया गया है, उन्हें ट्रांसजेनिक जानवर कहा जाता है।\n**उत्पादन के कारण**:\n1. **रोग का अध्ययन**: वे कैंसर, अल्जाइमर जैसी मानव बीमारियों के मॉडल के रूप में काम करते हैं, ताकि नए उपचारों का अध्ययन किया जा सके।\n2. **जैविक उत्पाद**: उपयोगी जैविक उत्पादों के उत्पादन के लिए। उदा., ट्रांसजेनिक गाय रोजी ने मानव प्रोटीन-समृद्ध दूध (मानव अल्फा-लैक्टलब्यूमिन) का उत्पादन किया।\n3. **वैक्सीन सुरक्षा परीक्षण**: मनुष्यों पर उपयोग किए जाने से पहले टीकों (जैसे पोलियो वैक्सीन) की सुरक्षा के परीक्षण में उपयोग के लिए ट्रांसजेनिक चूहों को विकसित किया जा रहा है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In the maturation process of pro-insulin, what structural change occurs?",
+      "hi": "प्रो-इंसुलिन के परिपक्वन की प्रक्रिया में कौन सा संरचनात्मक परिवर्तन होता है?"
+    },
+    "answer": {
+      "en": "During maturation, the extra stretch of polypeptide called the **C peptide** is removed. The remaining A and B peptide chains are linked together by disulfide bonds to form mature, functional insulin.",
+      "hi": "परिपक्वन के दौरान, पॉलीपेप्टाइड के अतिरिक्त खिंचाव जिसे **C पेप्टाइड** कहा जाता है, हटा दिया जाता है। शेष A और B पेप्टाइड श्रृंखलाएं परिपक्व, कार्यात्मक इंसुलिन बनाने के लिए डाइसल्फ़ाइड बॉन्ड द्वारा एक साथ जुड़ी होती हैं।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "Golden rice is a genetically modified crop plant where the incorporated gene is meant for biosynthesis of:",
+      "hi": "गोल्डन राइस एक आनुवंशिक रूप से संशोधित फसल का पौधा है जहां शामिल जीन किसके जैव संश्लेषण (biosynthesis) के लिए है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Omega-3", "hi": "ओमेगा-3" } },
+      { "id": "o2", "text": { "en": "Vitamin A", "hi": "विटामिन A" } },
+      { "id": "o3", "text": { "en": "Vitamin B", "hi": "विटामिन B" } },
+      { "id": "o4", "text": { "en": "Vitamin C", "hi": "विटामिन C" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Golden rice is a transgenic variety of rice (Oryza sativa) which contains good quantities of beta-carotene (provitamin A - a precursor of Vitamin A).",
+      "hi": "गोल्डन राइस चावल (ओरीज़ा सैटिवा) की एक ट्रांसजेनिक किस्म है जिसमें अच्छी मात्रा में बीटा-कैरोटीन (प्रोविटामिन A - विटामिन A का अग्रदूत) होता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is biopiracy? Give an example.",
+      "hi": "बायोपायरेसी (biopiracy) क्या है? एक उदाहरण दें।"
+    },
+    "answer": {
+      "en": "**Biopiracy** is the term used to refer to the use of bio-resources by multinational companies and other organizations without proper authorization from the countries and people concerned without compensatory payment.\n**Example**: The patenting of Basmati rice by an American company, even though Basmati has been grown in India for centuries.",
+      "hi": "**बायोपायरेसी** वह शब्द है जिसका उपयोग बहुराष्ट्रीय कंपनियों और अन्य संगठनों द्वारा संबंधित देशों और लोगों से उचित प्राधिकरण के बिना और बिना किसी प्रतिपूरक भुगतान के जैव-संसाधनों के उपयोग को संदर्भित करने के लिए किया जाता है।\n**उदाहरण**: एक अमेरिकी कंपनी द्वारा बासमती चावल का पेटेंट कराना, भले ही भारत में बासमती सदियों से उगाया जाता रहा है।"
     }
   }
 ]

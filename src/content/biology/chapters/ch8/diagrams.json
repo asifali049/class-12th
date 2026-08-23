@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "A Typical Biogas Plant",
+      "hi": "एक विशिष्ट बायोगैस संयंत्र"
+    },
+    "description": {
+      "en": "Schematic representation of a typical biogas plant consisting of a concrete tank (digester), a floating cover (gas holder), and inlet/outlet pipes.",
+      "hi": "एक विशिष्ट बायोगैस संयंत्र का योजनाबद्ध प्रतिनिधित्व जिसमें एक कंक्रीट टैंक (डाइजेस्टर), एक तैरता हुआ कवर (गैस होल्डर), और इनलेट/आउटलेट पाइप होते हैं।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 450' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.tank{fill:#cbd5e1;stroke:#64748b;stroke-width:4;}.sludge{fill:#78350f;opacity:0.8;}.gas{fill:#bbf7d0;opacity:0.5;}.pipe{fill:#94a3b8;stroke:#475569;stroke-width:3;}.cover{fill:#38bdf8;stroke:#0284c7;stroke-width:4;}.line{stroke:#1e293b;stroke-width:2;marker-end:url(#arrow);}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:14px;font-family:sans-serif;fill:#475569;}</style><defs><marker id='arrow' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#1e293b'/></marker></defs><rect width='100%' height='100%' class='bg'/><g transform='translate(50, 50)'><path d='M 100 100 L 150 150 L 150 350 L 350 350 L 350 150 L 400 100 L 400 380 L 100 380 Z' class='tank'/><path d='M 150 200 L 150 350 L 350 350 L 350 200 Z' class='sludge'/><path d='M 160 100 L 160 200 L 340 200 L 340 100 Z' class='gas'/><path d='M 160 90 L 340 90 L 340 150 L 160 150 Z' class='cover'/><rect x='80' y='60' width='60' height='40' class='pipe'/><path d='M 110 100 L 110 300 L 150 300' class='pipe'/><rect x='360' y='180' width='60' height='40' class='pipe'/><path d='M 350 280 L 390 280 L 390 220' class='pipe'/><rect x='240' y='40' width='20' height='50' class='pipe'/><path d='M 250 40 L 250 20 L 300 20' class='pipe' stroke-width='2' fill='none'/><circle cx='250' cy='60' r='5' fill='#ef4444'/><text x='110' y='50' class='text-main' text-anchor='middle'>Dung + Water</text><text x='390' y='170' class='text-main' text-anchor='middle'>Sludge (Fertilizer)</text><text x='310' y='25' class='text-main'>CH4 + CO2 (Biogas)</text><text x='250' y='125' class='text-main' text-anchor='middle'>Gas Holder</text><text x='250' y='280' class='text-main' text-anchor='middle' fill='white'>Digester</text><line x1='30' y1='100' x2='90' y2='80' class='line'/><text x='10' y='110' class='text-small'>Inlet</text><line x1='480' y1='250' x2='410' y2='210' class='line'/><text x='470' y='265' class='text-small'>Outlet</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 300, "y": 330, "text": { "en": "Digester Tank (10-15 feet deep)", "hi": "डाइजेस्टर टैंक (10-15 फीट गहरा)" } },
+      { "id": "l2", "x": 300, "y": 175, "text": { "en": "Floating Cover", "hi": "तैरता हुआ कवर" } }
+    ]
+  }
+]

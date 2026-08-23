@@ -1,15 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "Evolution Types",
-      "hi": "विकास के प्रकार",
-      "hinglish": "Divergent vs Convergent"
-    },
-    "summary": {
-      "en": "**Divergent**: Homologous organs (e.g., forelimbs of whale, bat, cheetah, human).\n**Convergent**: Analogous organs (e.g., wings of butterfly and bird).",
-      "hi": "**अपसारी (Divergent)**: समजात अंग।\n**अभिसारी (Convergent)**: समरूप अंग।"
-    },
-    "quickRecall": []
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Origin of Life**: Chemical evolution (Oparin-Haldane), proved by Miller-Urey experiment.\n- **Evidences**: \n  - Homologous organs (same structure, different function, divergent evolution).\n  - Analogous organs (different structure, same function, convergent evolution).\n- **Adaptive Radiation**: Evolution from a single point to various habitats (e.g., Darwin's finches).\n- **Theories**: Darwin (Natural Selection, Branching descent), Hugo de Vries (Mutation/Saltation).\n- **Hardy-Weinberg**: $p^2 + 2pq + q^2 = 1$.\n- **Human Evolution**: Homo habilis (650-800cc) -> H. erectus (900cc) -> Neanderthal (1400cc) -> H. sapiens.",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **जीवन की उत्पत्ति**: रासायनिक विकास (ओपेरिन-हेल्डेन), मिलर-उरे प्रयोग द्वारा सिद्ध।\n- **प्रमाण**: \n  - समजात अंग (समान संरचना, भिन्न कार्य, अपसारी विकास)।\n  - समरूप अंग (भिन्न संरचना, समान कार्य, अभिसारी विकास)।\n- **अनुकूली विकिरण**: एक बिंदु से विभिन्न आवासों में विकास (उदा., डार्विन की फिंच)।\n- **सिद्धांत**: डार्विन (प्राकृतिक चयन), ह्यूगो डी व्रीज (उत्परिवर्तन/साल्टेशन)।\n- **हार्डी-वेनबर्ग**: $p^2 + 2pq + q^2 = 1$।\n- **मानव विकास**: होमो हैबिलिस (650-800cc) -> H. इरेक्टस (900cc) -> निएंडरथल (1400cc) -> H. सेपियन्स।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Evidences of Evolution\n- **Paleontological**: Fossils show organisms that lived in the past.\n- **Embryological**: Proposed by Ernst Haeckel (ontogeny recapitulates phylogeny), but disproved by Karl Ernst von Baer.\n- **Morphological/Anatomical**: Homology (Whale flipper vs Human arm = Divergent) vs Analogy (Bird wing vs Butterfly wing = Convergent).\n\n### 2. Natural Selection\n- **Industrial Melanism (England)**: Pre-industrialization, light moths survived (camouflaged on lichen-covered trees). Post-industrialization, dark moths survived (camouflaged on soot-covered trees).\n- It operates on heritable variations leading to differential reproduction.\n\n### 3. Hardy-Weinberg Principle\n- Allele frequencies are stable in a large, random-mating population.\n- Factors affecting it: Gene flow, genetic drift, mutation, genetic recombination, natural selection.\n\n### 4. Darwin vs. deVries\n- **Darwin**: Variations are small, directional, and gradual.\n- **deVries**: Mutations are large, random, directionless, and sudden (Saltation).",
+      "hi": "### 1. विकास के प्रमाण\n- **जीवाश्म विज्ञान**: जीवाश्म उन जीवों को दर्शाते हैं जो अतीत में रहते थे।\n- **आकारिकी/शारीरिक (Anatomical)**: होमोलॉजी (व्हेल फ्लिपर बनाम मानव हाथ = अपसारी) बनाम सादृश्य (पक्षी विंग बनाम तितली विंग = अभिसारी)।\n\n### 2. प्राकृतिक चयन\n- **औद्योगिक मेलानिज़्म (इंग्लैंड)**: औद्योगीकरण से पहले, हल्के पतंगे बचे (लाइकेन वाले पेड़ों पर छिपे)। औद्योगीकरण के बाद, काले पतंगे बचे (कालिख वाले पेड़ों पर)।\n- यह विभेदक प्रजनन की ओर ले जाने वाली वंशानुगत विविधताओं पर काम करता है।\n\n### 3. हार्डी-वेनबर्ग सिद्धांत\n- एक बड़ी, यादृच्छिक संभोग वाली आबादी में एलील आवृत्तियां स्थिर होती हैं।\n- प्रभावित करने वाले कारक: जीन प्रवाह, आनुवंशिक बहाव, उत्परिवर्तन, आनुवंशिक पुनर्संयोजन, प्राकृतिक चयन।\n\n### 4. डार्विन बनाम डी व्रीज\n- **डार्विन**: विविधताएं छोटी, दिशात्मक और क्रमिक हैं।\n- **डी व्रीज**: उत्परिवर्तन बड़े, यादृच्छिक, दिशाहीन और अचानक (साल्टेशन) होते हैं।"
+    }
   }
 ]

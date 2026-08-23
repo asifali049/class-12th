@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Key Genes and their Targets (Biotech Applications)",
+      "hi": "प्रमुख जीन और उनके लक्ष्य (जैव प्रौद्योगिकी अनुप्रयोग)"
+    },
+    "formula": "\\text{Gene} \\rightarrow \\text{Organism/Disease Controlled}",
+    "variables": [
+      {
+        "name": "\\text{cryIAc and cryIIAb}",
+        "description": { "en": "Controls Cotton Bollworms", "hi": "कपास बॉलवर्म को नियंत्रित करता है" }
+      },
+      {
+        "name": "\\text{cryIAb}",
+        "description": { "en": "Controls Corn borer", "hi": "कॉर्न बोरर को नियंत्रित करता है" }
+      },
+      {
+        "name": "\\text{Meloidegyne incognitia}",
+        "description": { "en": "Nematode that infects tobacco roots (controlled by RNAi)", "hi": "नेमाटोड जो तंबाकू की जड़ों को संक्रमित करता है (RNAi द्वारा नियंत्रित)" }
+      },
+      {
+        "name": "\\text{ADA (Adenosine deaminase)}",
+        "description": { "en": "Enzyme crucial for immune system (deficiency treated by Gene Therapy)", "hi": "प्रतिरक्षा प्रणाली के लिए महत्वपूर्ण एंजाइम (जीन थेरेपी द्वारा इलाज की गई कमी)" }
+      }
+    ],
+    "applications": {
+      "en": "Essential for matching questions and MCQs in board exams.",
+      "hi": "बोर्ड परीक्षाओं में मिलान वाले प्रश्नों और MCQ के लिए आवश्यक।"
+    }
+  }
+]

@@ -1,35 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "Which microbe produces Cyclosporin A?",
-      "hi": "कौन सा सूक्ष्म जीव साइक्लोस्पोरिन ए का उत्पादन करता है?"
+      "en": "Which of the following in sewage treatment removes suspended solids?",
+      "hi": "सीवेज उपचार में निम्नलिखित में से कौन निलंबित ठोस पदार्थों (suspended solids) को हटाता है?"
     },
     "options": [
-      {
-        "en": "Trichoderma polysporum",
-        "hi": "ट्राइकोडर्मा पॉलीस्पोरम"
-      },
-      {
-        "en": "Monascus purpureus",
-        "hi": "मोनस्कस परप्यूरियस"
-      },
-      {
-        "en": "Streptococcus",
-        "hi": "स्ट्रेप्टोकोकस"
-      },
-      {
-        "en": "Aspergillus niger",
-        "hi": "एस्परगिलस नाइजर"
-      }
+      { "id": "o1", "text": { "en": "Secondary treatment", "hi": "द्वितीयक उपचार" } },
+      { "id": "o2", "text": { "en": "Primary treatment", "hi": "प्राथमिक उपचार" } },
+      { "id": "o3", "text": { "en": "Sludge treatment", "hi": "कीचड़ उपचार" } },
+      { "id": "o4", "text": { "en": "Tertiary treatment", "hi": "तृतीयक उपचार" } }
     ],
-    "correctOptionIndex": 0,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "Cyclosporin A is used as an immunosuppressant.",
-      "hi": "साइक्लोस्पोरिन ए का उपयोग इम्यूनोसप्रेसेंट के रूप में किया जाता है।"
+      "en": "Primary treatment involves the physical removal of large and small particles (including suspended solids) from the sewage through filtration and sedimentation.",
+      "hi": "प्राथमिक उपचार में निस्पंदन और अवसादन के माध्यम से सीवेज से बड़े और छोटे कणों (निलंबित ठोस पदार्थों सहित) को भौतिक रूप से हटाना शामिल है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is correctly matched for the product produced by them?",
+      "hi": "निम्नलिखित में से कौन उनके द्वारा उत्पादित उत्पाद के लिए सही ढंग से सुमेलित है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Methanobacterium : Lactic acid", "hi": "मेथनोबैक्टीरियम : लैक्टिक एसिड" } },
+      { "id": "o2", "text": { "en": "Penicillium notatum : Acetic acid", "hi": "पेनिसिलियम नोटेटम : एसिटिक एसिड" } },
+      { "id": "o3", "text": { "en": "Saccharomyces cerevisiae : Ethanol", "hi": "सैकैरोमाइसेस सेरेविसिया : एथेनॉल" } },
+      { "id": "o4", "text": { "en": "Acetobacter aceti : Antibiotics", "hi": "एसिटोबैक्टर एसिटी : एंटीबायोटिक्स" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Saccharomyces cerevisiae (Brewer's yeast) is used for fermenting malted cereals and fruit juices to produce ethanol.",
+      "hi": "सैकैरोमाइसेस सेरेविसिया (ब्रेवर यीस्ट) का उपयोग एथेनॉल का उत्पादन करने के लिए माल्टेड अनाज और फलों के रस को किण्वित करने के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": {
+      "en": "A patient brought to a hospital with myocardial infarction is normally immediately given:",
+      "hi": "मायोकार्डियल इन्फ्रक्शन (दिल का दौरा) के साथ अस्पताल लाए गए मरीज को आमतौर पर तुरंत क्या दिया जाता है:"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Penicillin", "hi": "पेनिसिलिन" } },
+      { "id": "o2", "text": { "en": "Streptokinase", "hi": "स्ट्रेप्टोकाइनेज" } },
+      { "id": "o3", "text": { "en": "Cyclosporin-A", "hi": "साइक्लोस्पोरिन-A" } },
+      { "id": "o4", "text": { "en": "Statins", "hi": "स्टैटिन" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "Streptokinase (produced by Streptococcus) is used as a 'clot buster' for removing clots from the blood vessels of patients who have undergone myocardial infarction.",
+      "hi": "स्ट्रेप्टोकाइनेज (स्ट्रेप्टोकोकस द्वारा उत्पादित) का उपयोग मायोकार्डियल इन्फ्रक्शन (दिल का दौरा) से पीड़ित रोगियों की रक्त वाहिकाओं से थक्के हटाने के लिए 'क्लॉट बस्टर' के रूप में किया जाता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Biochemical Oxygen Demand (BOD)? What is its significance in sewage treatment?",
+      "hi": "बायोकेमिकल ऑक्सीजन डिमांड (BOD) क्या है? सीवेज उपचार में इसका क्या महत्व है?"
+    },
+    "answer": {
+      "en": "**BOD** refers to the amount of oxygen that would be consumed if all the organic matter in one liter of water were oxidized by bacteria.\n**Significance**: The BOD test measures the rate of uptake of oxygen by micro-organisms in a sample of water. Thus, indirectly, BOD is a measure of the organic matter present in the water. The greater the BOD of waste water, more is its polluting potential. During secondary treatment, BOD is reduced significantly.",
+      "hi": "**BOD** से तात्पर्य ऑक्सीजन की उस मात्रा से है जिसका उपभोग तब होगा जब एक लीटर पानी में सभी कार्बनिक पदार्थों को बैक्टीरिया द्वारा ऑक्सीकृत किया जाएगा।\n**महत्व**: BOD परीक्षण पानी के एक नमूने में सूक्ष्मजीवों द्वारा ऑक्सीजन ग्रहण करने की दर को मापता है। इस प्रकार, अप्रत्यक्ष रूप से, BOD पानी में मौजूद कार्बनिक पदार्थों का एक उपाय है। अपशिष्ट जल का BOD जितना अधिक होगा, उसकी प्रदूषण क्षमता उतनी ही अधिक होगी। द्वितीयक उपचार के दौरान, BOD काफी कम हो जाता है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "Name the microbe used for the production of Swiss cheese. What causes the large holes in it?",
+      "hi": "स्विस चीज़ के उत्पादन के लिए उपयोग किए जाने वाले सूक्ष्मजीव का नाम बताइए। इसमें बड़े छेद किसके कारण होते हैं?"
+    },
+    "answer": {
+      "en": "The microbe used is a bacterium named **Propionibacterium sharmanii**.\nThe large holes in 'Swiss cheese' are due to the production of a large amount of **CO2 (carbon dioxide)** gas by this bacterium during fermentation.",
+      "hi": "उपयोग किया जाने वाला सूक्ष्मजीव **प्रोपियोनिबैक्टीरियम शेरमैनी** (Propionibacterium sharmanii) नामक एक जीवाणु है।\n'स्विस चीज़' में बड़े छेद किण्वन के दौरान इस जीवाणु द्वारा बड़ी मात्रा में **CO2 (कार्बन डाइऑक्साइड)** गैस के उत्पादन के कारण होते हैं।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe how biogas is produced from cattle dung. What are its main components?",
+      "hi": "मवेशियों के गोबर से बायोगैस कैसे उत्पन्न होती है, इसका वर्णन करें। इसके मुख्य घटक क्या हैं?"
+    },
+    "answer": {
+      "en": "**Production**:\nBiogas is produced by the microbial activity of Methanogens (like Methanobacterium) on cellulosic material under anaerobic conditions. Cattle dung is rich in these bacteria. \nIn a biogas plant, a slurry of dung and water is fed into a concrete digester tank. A floating cover is placed over the slurry, which keeps on rising as gas is produced in the tank due to the microbial activity. The plant has an outlet, which is connected to a pipe to supply biogas to nearby houses. The spent slurry is removed through another outlet and may be used as fertiliser.\n**Components**: The main component is **Methane (CH4)**, along with Carbon dioxide (CO2) and Hydrogen sulphide (H2S).",
+      "hi": "**उत्पादन**:\nबायोगैस अवायवीय परिस्थितियों में सेलुलोसिक सामग्री पर मेथनोगेंस (जैसे मेथनोबैक्टीरियम) की माइक्रोबियल गतिविधि द्वारा निर्मित होती है। मवेशियों का गोबर इन जीवाणुओं से भरपूर होता है।\nबायोगैस संयंत्र में, गोबर और पानी का घोल एक कंक्रीट डाइजेस्टर टैंक में डाला जाता है। घोल के ऊपर एक तैरता हुआ आवरण रखा जाता है, जो टैंक में माइक्रोबियल गतिविधि के कारण गैस बनने पर ऊपर उठता रहता है। संयंत्र में एक आउटलेट होता है, जो आसपास के घरों में बायोगैस की आपूर्ति करने के लिए एक पाइप से जुड़ा होता है। उपयोग किए गए घोल (slurry) को दूसरे आउटलेट के माध्यम से निकाल दिया जाता है और इसे उर्वरक के रूप में उपयोग किया जा सकता है।\n**घटक**: मुख्य घटक **मीथेन (CH4)** है, साथ ही कार्बन डाइऑक्साइड (CO2) और हाइड्रोजन सल्फाइड (H2S) है।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "long-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are biofertilisers? Explain the role of cyanobacteria and mycorrhiza as biofertilisers.",
+      "hi": "जैव उर्वरक (biofertilisers) क्या हैं? जैव उर्वरकों के रूप में साइनोबैक्टीरिया और माइकोराइजा की भूमिका स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**Biofertilisers**: These are organisms that enrich the nutrient quality of the soil (e.g., bacteria, fungi, cyanobacteria).\n**Role of Cyanobacteria**: Cyanobacteria (like Anabaena, Nostoc, Oscillatoria) are autotrophic microbes that can fix atmospheric nitrogen, adding organic matter to the soil and increasing its fertility. They serve as an important biofertiliser, especially in paddy fields.\n**Role of Mycorrhiza**: Fungi form symbiotic associations with roots of higher plants (Mycorrhiza). Many members of the genus Glomus form mycorrhiza. The fungal symbiont in these associations absorbs phosphorus from soil and passes it to the plant. Plants having such associations show other benefits like resistance to root-borne pathogens and tolerance to salinity and drought.",
+      "hi": "**जैव उर्वरक**: ये ऐसे जीव हैं जो मिट्टी की पोषक गुणवत्ता को समृद्ध करते हैं (उदा., बैक्टीरिया, कवक, साइनोबैक्टीरिया)।\n**साइनोबैक्टीरिया की भूमिका**: साइनोबैक्टीरिया (जैसे एनाबेना, नोस्टोक, ऑसिलेटोरिया) ऑटोट्रॉफिक रोगाणु हैं जो वायुमंडलीय नाइट्रोजन को ठीक कर सकते हैं, मिट्टी में कार्बनिक पदार्थ जोड़ सकते हैं और इसकी उर्वरता बढ़ा सकते हैं। वे विशेष रूप से धान के खेतों में एक महत्वपूर्ण जैव उर्वरक के रूप में काम करते हैं।\n**माइकोराइजा की भूमिका**: कवक उच्च पौधों (माइकोराइजा) की जड़ों के साथ सहजीवी जुड़ाव बनाते हैं। जीनस ग्लोमस के कई सदस्य माइकोराइजा बनाते हैं। इन संघों में कवक सहजीवी मिट्टी से फास्फोरस को अवशोषित करता है और इसे पौधे को देता है। ऐसे जुड़ाव वाले पौधे जड़-जनित रोगजनकों के प्रति प्रतिरोध और लवणता और सूखे के प्रति सहनशीलता जैसे अन्य लाभ दिखाते हैं।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "In a sewage treatment plant, what is the fate of the 'flocs' once the BOD is sufficiently reduced?",
+      "hi": "एक सीवेज उपचार संयंत्र में, एक बार BOD पर्याप्त रूप से कम हो जाने पर 'फ़्लॉक्स' (flocs) का क्या होता है?"
+    },
+    "answer": {
+      "en": "Once the BOD of sewage water is reduced significantly, the effluent is passed into a settling tank where the bacterial 'flocs' are allowed to sediment. This sediment is called **activated sludge**. A small part of it is pumped back into the aeration tank to serve as the inoculum, while the major part is pumped into large tanks called anaerobic sludge digesters.",
+      "hi": "एक बार सीवेज के पानी का BOD काफी कम हो जाने पर, एफ्लुएंट को एक सेटलिंग टैंक में भेज दिया जाता है जहाँ बैक्टीरियल 'फ़्लॉक्स' को अवसादित होने दिया जाता है। इस अवसाद को **सक्रिय कीचड़ (activated sludge)** कहा जाता है। इसका एक छोटा हिस्सा इनोक्यूलम के रूप में काम करने के लिए वातन टैंक में वापस पंप किया जाता है, जबकि प्रमुख हिस्से को अवायवीय कीचड़ डाइजेस्टर नामक बड़े टैंकों में पंप किया जाता है।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is used as an immunosuppressive agent in organ transplant patients?",
+      "hi": "अंग प्रत्यारोपण वाले रोगियों में इम्यूनोसप्रेसिव एजेंट के रूप में निम्नलिखित में से किसका उपयोग किया जाता है?"
+    },
+    "options": [
+      { "id": "o1", "text": { "en": "Streptokinase", "hi": "स्ट्रेप्टोकाइनेज" } },
+      { "id": "o2", "text": { "en": "Statins", "hi": "स्टैटिन" } },
+      { "id": "o3", "text": { "en": "Cyclosporin A", "hi": "साइक्लोस्पोरिन A" } },
+      { "id": "o4", "text": { "en": "Lipases", "hi": "लाइपेस" } }
+    ],
+    "correctOptionId": "o3",
+    "explanation": {
+      "en": "Cyclosporin A, produced by the fungus Trichoderma polysporum, is used as an immunosuppressive agent in organ-transplant patients.",
+      "hi": "कवक ट्राइकोडर्मा पॉलीस्पोरम द्वारा निर्मित साइक्लोस्पोरिन ए का उपयोग अंग-प्रत्यारोपण वाले रोगियों में इम्यूनोसप्रेसिव एजेंट के रूप में किया जाता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why are Baculoviruses considered excellent candidates for integrated pest management (IPM)?",
+      "hi": "बैक्युलोवायरस (Baculoviruses) को एकीकृत कीट प्रबंधन (IPM) के लिए उत्कृष्ट उम्मीदवार क्यों माना जाता है?"
+    },
+    "answer": {
+      "en": "Baculoviruses (especially of the genus *Nucleopolyhedrovirus*) are excellent candidates for IPM because they are species-specific, narrow-spectrum insecticidal applications. They have been shown to have no negative impacts on plants, mammals, birds, fish or even on non-target insects. This is highly desirable when beneficial insects need to be conserved.",
+      "hi": "बैक्युलोवायरस (विशेष रूप से *न्यूक्लियोपॉलीहेड्रोवायरस* जीनस के) IPM के लिए उत्कृष्ट उम्मीदवार हैं क्योंकि वे प्रजाति-विशिष्ट, संकीर्ण-स्पेक्ट्रम कीटनाशक अनुप्रयोग हैं। यह दिखाया गया है कि पौधों, स्तनधारियों, पक्षियों, मछलियों या गैर-लक्षित कीड़ों पर भी उनका कोई नकारात्मक प्रभाव नहीं पड़ता है। यह तब अत्यधिक वांछनीय है जब लाभकारी कीड़ों को संरक्षित करने की आवश्यकता होती है।"
     }
   }
 ]

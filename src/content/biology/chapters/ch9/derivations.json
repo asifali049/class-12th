@@ -2,26 +2,64 @@
   {
     "id": "d1",
     "title": {
-      "en": "Steps in PCR (Polymerase Chain Reaction)",
-      "hi": "पीसीआर (PCR) के चरण"
+      "en": "Key Steps in Recombinant DNA Technology",
+      "hi": "Recombinant DNA तकनीक के मुख्य चरण"
+    },
+    "concept": {
+      "en": "Recombinant DNA technology involves multiple steps in a specific sequence to isolate a desired gene and express it in a host organism.",
+      "hi": "Recombinant DNA तकनीक में वांछित जीन को अलग करने और इसे मेजबान जीव में व्यक्त करने के लिए एक विशिष्ट क्रम में कई चरण शामिल हैं।"
     },
     "steps": [
       {
-        "en": "Denaturation (94°C): Separation of DNA strands.",
-        "hi": "निष्क्रियकरण (94°C): डीएनए रज्जुकों का अलग होना।"
+        "title": { "en": "Step 1: Isolation of DNA", "hi": "चरण 1: DNA का अलगाव" },
+        "content": {
+          "en": "The genetic material (DNA) is isolated free from other macro-molecules (like RNA, proteins, polysaccharides, and lipids) by treating the bacterial/plant/animal tissue with enzymes such as lysozyme, cellulase, chitinase, ribonuclease, and proteases. Finally, purified DNA precipitates out after the addition of chilled ethanol.",
+          "hi": "जीवाणु/पौधे/पशु ऊतक को लाइसोसोम, सेल्युलेस, चिटिनेज, राइबोन्यूक्लिज़ और प्रोटीज जैसे एंजाइमों के साथ उपचारित करके आनुवंशिक सामग्री (DNA) को अन्य मैक्रो-अणुओं (जैसे RNA, प्रोटीन, पॉलीसेकेराइड और लिपिड) से मुक्त अलग किया जाता है। अंत में, ठंडा एथेनॉल मिलाने के बाद शुद्ध DNA अवक्षेपित (precipitates) हो जाता है।"
+        }
       },
       {
-        "en": "Annealing (50-60°C): Binding of primers.",
-        "hi": "तापानुशीलन (50-60°C): प्राइमर्स का जुड़ना।"
+        "title": { "en": "Step 2: Fragmentation by Restriction Endonucleases", "hi": "चरण 2: रेस्ट्रिक्शन एंडोन्यूक्लीज द्वारा विखंडन" },
+        "content": {
+          "en": "Purified DNA molecules are incubated with the restriction enzyme at optimal conditions. This cuts the DNA into fragments. Agarose gel electrophoresis is employed to check the progression of digestion.",
+          "hi": "शुद्ध DNA अणुओं को इष्टतम परिस्थितियों में रेस्ट्रिक्शन एंजाइम के साथ इनक्यूबेट किया जाता है। यह DNA को टुकड़ों में काट देता है। पाचन की प्रगति की जांच करने के लिए एगरोज़ जेल वैद्युतकणसंचलन (Agarose gel electrophoresis) का उपयोग किया जाता है।"
+        }
       },
       {
-        "en": "Extension (72°C): Taq polymerase synthesizes new strand.",
-        "hi": "प्रसार (72°C): टैक पॉलीमरेज़ नई रज्जुक का संश्लेषण करता है।"
+        "title": { "en": "Step 3: Isolation of Desired DNA Fragment", "hi": "चरण 3: वांछित DNA टुकड़े का अलगाव" },
+        "content": {
+          "en": "The cut out 'gene of interest' from the source DNA and the cut vector with space are separated using gel electrophoresis and extracted (elution).",
+          "hi": "स्रोत DNA से कटे हुए 'रुचि के जीन' और खाली स्थान वाले कटे हुए वेक्टर को जेल इलेक्ट्रोफोरेसिस का उपयोग करके अलग किया जाता है और निकाला जाता है (क्षालन - elution)।"
+        }
+      },
+      {
+        "title": { "en": "Step 4: Ligation of DNA Fragment into a Vector", "hi": "चरण 4: एक वेक्टर में DNA टुकड़े का बंधन (Ligation)" },
+        "content": {
+          "en": "The cut gene of interest and cut vector are mixed and ligase is added. This results in the preparation of recombinant DNA.",
+          "hi": "कटे हुए रुचि के जीन और कटे हुए वेक्टर को मिलाया जाता है और लाइगेज (ligase) डाला जाता है। इसके परिणामस्वरूप recombinant DNA तैयार होता है।"
+        }
+      },
+      {
+        "title": { "en": "Step 5: Transferring Recombinant DNA into Host", "hi": "चरण 5: Recombinant DNA को मेजबान (Host) में स्थानांतरित करना" },
+        "content": {
+          "en": "The recombinant DNA is introduced into recipient host cells (like E. coli) which have been made 'competent' to receive DNA (e.g., by heat shock treatment).",
+          "hi": "recombinant DNA को प्राप्तकर्ता मेजबान कोशिकाओं (जैसे ई. कोलाई) में पेश किया जाता है जिन्हें DNA प्राप्त करने के लिए 'सक्षम' बनाया गया है (उदा., हीट शॉक उपचार द्वारा)।"
+        }
+      },
+      {
+        "title": { "en": "Step 6: Culturing Host Cells & Extraction", "hi": "चरण 6: मेजबान कोशिकाओं का संवर्धन (Culturing) और निष्कर्षण" },
+        "content": {
+          "en": "The transformed host cells are cultured in a nutrient medium at a large scale in bioreactors to produce the desired protein. The protein is then extracted and purified through downstream processing.",
+          "hi": "वांछित प्रोटीन का उत्पादन करने के लिए बायोरिएक्टर में बड़े पैमाने पर एक पोषक माध्यम में परिवर्तित मेजबान कोशिकाओं को सुसंस्कृत (cultured) किया जाता है। फिर प्रोटीन निकाला जाता है और डाउनस्ट्रीम प्रोसेसिंग के माध्यम से शुद्ध किया जाता है।"
+        }
       }
     ],
     "conclusion": {
-      "en": "Result is amplification of the gene of interest.",
-      "hi": "रुचि के जीन का प्रवर्धन।"
+      "en": "This entire methodology allows us to produce genetically modified organisms and valuable recombinant proteins (like human insulin, vaccines) on a commercial scale.",
+      "hi": "यह संपूर्ण कार्यप्रणाली हमें व्यावसायिक पैमाने पर आनुवंशिक रूप से संशोधित जीवों और मूल्यवान पुनः संयोजक (recombinant) प्रोटीन (जैसे मानव इंसुलिन, टीके) का उत्पादन करने की अनुमति देती है।"
+    },
+    "examTip": {
+      "en": "Questions often ask for the specific enzyme used in Step 1 for different cells: Lysozyme (bacteria), Cellulase (plant cells), Chitinase (fungus).",
+      "hi": "प्रश्न अक्सर विभिन्न कोशिकाओं के लिए चरण 1 में उपयोग किए जाने वाले विशिष्ट एंजाइम के बारे में पूछते हैं: लाइसोसोम (बैक्टीरिया), सेल्युलेस (पौधे की कोशिकाएं), चिटिनेज (कवक)।"
     }
   }
 ]

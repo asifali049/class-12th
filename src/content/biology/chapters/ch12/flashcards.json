@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Ecosystem", "hi": "पारितंत्र (Ecosystem)" },
+    "definition": { "en": "A functional unit of nature where living organisms interact among themselves and with the physical environment.", "hi": "प्रकृति की एक कार्यात्मक इकाई जहां जीवित जीव आपस में और भौतिक वातावरण के साथ बातचीत करते हैं।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Stratification", "hi": "स्तरीकरण (Stratification)" },
+    "definition": { "en": "Vertical distribution of different species occupying different levels in an ecosystem.", "hi": "पारिस्थितिकी तंत्र में विभिन्न स्तरों पर कब्जा करने वाली विभिन्न प्रजातियों का ऊर्ध्वाधर (vertical) वितरण।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Gross Primary Productivity (GPP)", "hi": "सकल प्राथमिक उत्पादकता (GPP)" },
+    "definition": { "en": "The rate of production of organic matter during photosynthesis by plants.", "hi": "पौधों द्वारा प्रकाश संश्लेषण के दौरान कार्बनिक पदार्थों के उत्पादन की दर।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Net Primary Productivity (NPP)", "hi": "शुद्ध प्राथमिक उत्पादकता (NPP)" },
+    "definition": { "en": "The biomass available for the consumption to heterotrophs (NPP = GPP - Respiration).", "hi": "हेटरोट्रॉफ़्स (NPP = GPP - श्वसन) की खपत के लिए उपलब्ध बायोमास।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Detritus", "hi": "डेट्रिटस (Detritus)" },
+    "definition": { "en": "Dead plant remains, dead animals, and fecal matter; the raw material for decomposition.", "hi": "मृत पौधे के अवशेष, मृत जानवर, और मल पदार्थ; अपघटन के लिए कच्चा माल।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Humification", "hi": "ह्यूमिफिकेशन (Humification)" },
+    "definition": { "en": "The process of accumulation of a dark coloured amorphous substance called humus during decomposition.", "hi": "अपघटन के दौरान ह्यूमस नामक गहरे रंग के अनाकार पदार्थ के संचय की प्रक्रिया।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "10% Law of Energy", "hi": "ऊर्जा का 10% नियम" },
+    "definition": { "en": "Only 10% of energy is transferred from one trophic level to the next; the rest is lost as heat.", "hi": "केवल 10% ऊर्जा एक पोषी स्तर से अगले स्तर पर स्थानांतरित होती है; बाकी ऊष्मा के रूप में नष्ट हो जाती है।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Trophic Level", "hi": "पोषी स्तर (Trophic Level)" },
+    "definition": { "en": "The specific place an organism occupies in a food chain according to its feeding relationship.", "hi": "जीवों के खिलाने के संबंध के अनुसार खाद्य श्रृंखला में जीव का विशिष्ट स्थान।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Food Web", "hi": "खाद्य जाल (Food Web)" },
+    "definition": { "en": "A natural interconnection of many food chains forming a complex network in an ecosystem.", "hi": "एक पारिस्थितिकी तंत्र में एक जटिल नेटवर्क बनाने वाली कई खाद्य श्रृंखलाओं का एक प्राकृतिक अंतर्संबंध।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Pyramid of Energy", "hi": "ऊर्जा का पिरामिड" },
+    "definition": { "en": "An ecological pyramid showing energy flow. It is ALWAYS upright because energy is lost at each step.", "hi": "ऊर्जा प्रवाह दिखाने वाला एक पारिस्थितिक पिरामिड। यह हमेशा सीधा होता है क्योंकि प्रत्येक चरण में ऊर्जा नष्ट हो जाती है।" }
+  }
+]

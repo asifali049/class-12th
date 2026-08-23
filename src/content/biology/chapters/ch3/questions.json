@@ -1,96 +1,160 @@
 [
   {
-    "id": "q_mcq_1",
+    "id": "q1",
     "type": "mcq",
-    "difficulty": "Easy",
-    "marks": 1,
+    "difficulty": "easy",
     "question": {
-      "en": "The oral contraceptive 'Saheli' was developed at:",
-      "hi": "मौखिक गर्भनिरोधक 'सहेली' कहाँ विकसित किया गया था?"
+      "en": "The contraceptive 'Saheli' is:",
+      "hi": "गर्भनिरोधक 'सहेली' (Saheli) क्या है:"
     },
     "options": [
-      {
-        "en": "CDRI, Lucknow",
-        "hi": "सीडीआरआई, लखनऊ"
-      },
-      {
-        "en": "AIIMS, New Delhi",
-        "hi": "एम्स, नई दिल्ली"
-      },
-      {
-        "en": "NDRI, Karnal",
-        "hi": "एनडीआरआई, करनाल"
-      },
-      {
-        "en": "NIV, Pune",
-        "hi": "एनआईवी, पुणे"
-      }
+      { "id": "o1", "text": { "en": "An IUD", "hi": "एक IUD" } },
+      { "id": "o2", "text": { "en": "A non-steroidal oral pill", "hi": "एक गैर-स्टेरॉयड मौखिक गोली" } },
+      { "id": "o3", "text": { "en": "A barrier method", "hi": "एक बाधा विधि" } },
+      { "id": "o4", "text": { "en": "A surgical method", "hi": "एक सर्जिकल विधि" } }
     ],
-    "correctOptionIndex": 0,
+    "correctOptionId": "o2",
     "explanation": {
-      "en": "Saheli, a non-steroidal oral contraceptive, was developed by scientists at Central Drug Research Institute (CDRI) in Lucknow.",
-      "hi": "सहेली, एक गैर-स्टेरॉयड मौखिक गर्भनिरोधक है, जिसे लखनऊ में CDRI के वैज्ञानिकों द्वारा विकसित किया गया था।"
+      "en": "Saheli is a once-a-week, non-steroidal oral contraceptive pill developed by CDRI, Lucknow.",
+      "hi": "सहेली सप्ताह में एक बार ली जाने वाली गैर-स्टेरॉयड मौखिक गर्भनिरोधक गोली है जिसे CDRI, लखनऊ द्वारा विकसित किया गया है।"
     }
   },
   {
-    "id": "q_mcq_2",
+    "id": "q2",
     "type": "mcq",
-    "difficulty": "Medium",
-    "marks": 1,
+    "difficulty": "medium",
     "question": {
-      "en": "Which of the following is a copper releasing IUD?",
-      "hi": "निम्नलिखित में से कौन सा कॉपर मुक्त करने वाला IUD है?"
+      "en": "CuT (Copper T) prevents pregnancy by:",
+      "hi": "CuT (कॉपर टी) गर्भावस्था को कैसे रोकता है:"
     },
     "options": [
-      {
-        "en": "Lippes loop",
-        "hi": "लिप्पेस लूप"
-      },
-      {
-        "en": "Multiload 375",
-        "hi": "मल्टीलोड 375"
-      },
-      {
-        "en": "LNG-20",
-        "hi": "एलएनजी-20"
-      },
-      {
-        "en": "Progestasert",
-        "hi": "प्रोजेस्टासर्ट"
-      }
+      { "id": "o1", "text": { "en": "Preventing ovulation", "hi": "अंडोत्सर्ग को रोककर" } },
+      { "id": "o2", "text": { "en": "Making cervix hostile to sperms", "hi": "गर्भाशय ग्रीवा को शुक्राणुओं के प्रतिकूल बनाकर" } },
+      { "id": "o3", "text": { "en": "Suppressing sperm motility and fertilising capacity", "hi": "शुक्राणु की गतिशीलता और निषेचन क्षमता को दबाकर" } },
+      { "id": "o4", "text": { "en": "Acting as a physical barrier", "hi": "एक भौतिक बाधा के रूप में कार्य करके" } }
     ],
-    "correctOptionIndex": 1,
+    "correctOptionId": "o3",
     "explanation": {
-      "en": "CuT, Cu7, Multiload 375 are copper releasing IUDs. LNG-20 is a hormone-releasing IUD.",
-      "hi": "CuT, Cu7, मल्टीलोड 375 कॉपर मुक्त करने वाले IUD हैं। LNG-20 एक हार्मोन मुक्त करने वाला IUD है।"
+      "en": "Copper ions (Cu++) released suppress sperm motility and the fertilising capacity of sperms.",
+      "hi": "निकलने वाले कॉपर आयन (Cu++) शुक्राणु की गतिशीलता और शुक्राणुओं की निषेचन क्षमता को दबा देते हैं।"
     }
   },
   {
     "id": "q3",
-    "type": "subjective",
-    "difficulty": "Hard",
-    "marks": 3,
+    "type": "mcq",
+    "difficulty": "hard",
     "question": {
-      "en": "Expand the following terms: (a) IVF (b) ZIFT (c) GIFT",
-      "hi": "निम्नलिखित शब्दों का विस्तार करें: (a) IVF (b) ZIFT (c) GIFT"
+      "en": "In ZIFT (Zygote Intra Fallopian Transfer), what is transferred into the fallopian tube?",
+      "hi": "ZIFT में, फैलोपियन ट्यूब में क्या स्थानांतरित किया जाता है?"
     },
-    "idealAnswer": {
-      "en": "(a) IVF: In Vitro Fertilization\n(b) ZIFT: Zygote Intra Fallopian Transfer\n(c) GIFT: Gamete Intra Fallopian Transfer",
-      "hi": "(a) IVF: इन विट्रो फर्टिलाइजेशन\n(b) ZIFT: जाइगोट इंट्रा फैलोपियन ट्रांसफर\n(c) GIFT: गैमीट इंट्रा फैलोपियन ट्रांसफर"
+    "options": [
+      { "id": "o1", "text": { "en": "Embryo with more than 8 blastomeres", "hi": "8 से अधिक ब्लास्टोमेरेस वाला भ्रूण" } },
+      { "id": "o2", "text": { "en": "Zygote or early embryo up to 8 blastomeres", "hi": "युग्मनज या 8 ब्लास्टोमेरेस तक का प्रारंभिक भ्रूण" } },
+      { "id": "o3", "text": { "en": "Only unfertilised ovum", "hi": "केवल अनिषेचित अंडाणु" } },
+      { "id": "o4", "text": { "en": "Only sperms", "hi": "केवल शुक्राणु" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "In ZIFT, the zygote or early embryos (with up to 8 blastomeres) are transferred into the fallopian tube.",
+      "hi": "ZIFT में, युग्मनज या प्रारंभिक भ्रूण (8 ब्लास्टोमेरेस तक) को फैलोपियन ट्यूब में स्थानांतरित किया जाता है।"
+    }
+  },
+  {
+    "id": "q4",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": {
+      "en": "Medical Termination of Pregnancy (MTP) is considered safe up to how many weeks of pregnancy?",
+      "hi": "गर्भावस्था का चिकित्सीय समापन (MTP) गर्भावस्था के कितने सप्ताह तक सुरक्षित माना जाता है?"
     },
-    "keywords": [
-      {
-        "en": "In Vitro Fertilization",
-        "hi": "इन विट्रो फर्टिलाइजेशन"
-      },
-      {
-        "en": "Zygote Intra Fallopian",
-        "hi": "जाइगोट इंट्रा फैलोपियन"
-      },
-      {
-        "en": "Gamete Intra Fallopian",
-        "hi": "गैमीट इंट्रा फैलोपियन"
-      }
-    ]
+    "options": [
+      { "id": "o1", "text": { "en": "8 weeks", "hi": "8 सप्ताह" } },
+      { "id": "o2", "text": { "en": "12 weeks", "hi": "12 सप्ताह" } },
+      { "id": "o3", "text": { "en": "18 weeks", "hi": "18 सप्ताह" } },
+      { "id": "o4", "text": { "en": "24 weeks", "hi": "24 सप्ताह" } }
+    ],
+    "correctOptionId": "o2",
+    "explanation": {
+      "en": "MTP is considered relatively safe during the first trimester, i.e., up to 12 weeks of pregnancy.",
+      "hi": "MTP पहली तिमाही के दौरान, यानी गर्भावस्था के 12 सप्ताह तक अपेक्षाकृत सुरक्षित माना जाता है।"
+    }
+  },
+  {
+    "id": "q5",
+    "type": "short-answer",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is lactational amenorrhea?",
+      "hi": "दुग्धस्रवण अनातर्व (Lactational amenorrhea) क्या है?"
+    },
+    "answer": {
+      "en": "It is a natural method of contraception based on the fact that ovulation and the menstrual cycle do not occur during the period of intense lactation following parturition. It is effective for up to 6 months after delivery.",
+      "hi": "यह गर्भनिरोधक की एक प्राकृतिक विधि है जो इस तथ्य पर आधारित है कि प्रसव के बाद तीव्र स्तनपान की अवधि के दौरान अंडोत्सर्ग और मासिक धर्म चक्र नहीं होते हैं। यह प्रसव के 6 महीने तक प्रभावी है।"
+    }
+  },
+  {
+    "id": "q6",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Name any two sexually transmitted infections (STIs) which are not completely curable.",
+      "hi": "किन्हीं दो यौन संचारित संक्रमणों (STIs) के नाम बताइए जो पूरी तरह से ठीक नहीं हो सकते हैं।"
+    },
+    "answer": {
+      "en": "Hepatitis-B, Genital herpes, and HIV infection are STIs that are not completely curable.",
+      "hi": "हेपेटाइटिस-बी, जननांग दाद (Genital herpes), और HIV संक्रमण ऐसे STI हैं जो पूरी तरह से इलाज योग्य नहीं हैं।"
+    }
+  },
+  {
+    "id": "q7",
+    "type": "short-answer",
+    "difficulty": "medium",
+    "question": {
+      "en": "Differentiate between Vasectomy and Tubectomy.",
+      "hi": "वासेक्टोमी (Vasectomy) और ट्यूबेक्टोमी (Tubectomy) के बीच अंतर स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**Vasectomy**: Surgical sterilization in males. A small part of the vas deferens is removed or tied up. It prevents sperms from reaching the semen.\n**Tubectomy**: Surgical sterilization in females. A small part of the fallopian tube is removed or tied up. It prevents the ovum from reaching the uterus.",
+      "hi": "**वासेक्टोमी**: पुरुषों में सर्जिकल नसबंदी। शुक्रवाहक का एक छोटा सा हिस्सा हटा या बांध दिया जाता है। यह शुक्राणुओं को वीर्य तक पहुँचने से रोकता है।\n**ट्यूबेक्टोमी**: महिलाओं में सर्जिकल नसबंदी। फैलोपियन ट्यूब का एक छोटा सा हिस्सा हटा या बांध दिया जाता है। यह अंडाणु को गर्भाशय तक पहुँचने से रोकता है।"
+    }
+  },
+  {
+    "id": "q8",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "Describe the different types of Intra Uterine Devices (IUDs) and explain how they act as effective contraceptives.",
+      "hi": "विभिन्न प्रकार की अंतर्गर्भाशयी युक्तियों (IUDs) का वर्णन करें और बताएं कि वे प्रभावी गर्भनिरोधक के रूप में कैसे कार्य करती हैं।"
+    },
+    "answer": {
+      "en": "**Types of IUDs**:\n1. **Non-medicated IUDs** (e.g., Lippes loop): They increase phagocytosis of sperms within the uterus.\n2. **Copper releasing IUDs** (e.g., CuT, Cu7, Multiload 375): The released Cu ions suppress sperm motility and their fertilising capacity.\n3. **Hormone releasing IUDs** (e.g., Progestasert, LNG-20): They make the uterus unsuitable for implantation and the cervix hostile to the sperms.\n**Conclusion**: IUDs are ideal contraceptives for females wanting to delay pregnancy or space children.",
+      "hi": "**IUD के प्रकार**:\n1. **गैर-औषधीय IUD** (उदा., Lippes loop): ये गर्भाशय के भीतर शुक्राणुओं के भक्षण को बढ़ाते हैं।\n2. **कॉपर रिलीजिंग IUD** (उदा., CuT, Cu7): कॉपर आयन शुक्राणु की गतिशीलता और उनकी निषेचन क्षमता को दबाते हैं।\n3. **हार्मोन रिलीजिंग IUD** (उदा., Progestasert, LNG-20): ये गर्भाशय को प्रत्यारोपण के लिए अनुपयुक्त और गर्भाशय ग्रीवा को शुक्राणुओं के प्रतिकूल बनाते हैं।"
+    }
+  },
+  {
+    "id": "q9",
+    "type": "long-answer",
+    "difficulty": "hard",
+    "question": {
+      "en": "What is Assisted Reproductive Technology (ART)? Explain GIFT and ICSI.",
+      "hi": "सहायक जनन प्रौद्योगिकी (ART) क्या है? GIFT और ICSI को स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "**ART**: Technologies used to assist infertile couples to have children.\n**GIFT (Gamete Intra Fallopian Transfer)**: Transfer of an ovum collected from a donor female into the fallopian tube of another female who cannot produce an ovum, but can provide a suitable environment for fertilisation and development.\n**ICSI (Intra Cytoplasmic Sperm Injection)**: A highly specialised procedure to form an embryo in the laboratory, where a single sperm is directly injected into the cytoplasm of the ovum.",
+      "hi": "**ART**: बांझ जोड़ों को बच्चे पैदा करने में सहायता करने के लिए उपयोग की जाने वाली प्रौद्योगिकियां।\n**GIFT**: एक दाता महिला से एकत्र किए गए अंडाणु को दूसरी महिला की फैलोपियन ट्यूब में स्थानांतरित करना जो अंडाणु का उत्पादन नहीं कर सकती, लेकिन विकास के लिए उपयुक्त वातावरण प्रदान कर सकती है।\n**ICSI**: प्रयोगशाला में भ्रूण बनाने की एक विशेष प्रक्रिया, जहां एक शुक्राणु को सीधे अंडाणु के कोशिकाद्रव्य में इंजेक्ट किया जाता है।"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "diagram-based",
+    "difficulty": "medium",
+    "question": {
+      "en": "A couple is advised by the doctor to undergo IVF-ET. Differentiate between the two main types of ET (Embryo Transfer) procedures the doctor might use based on the stage of the embryo.",
+      "hi": "एक जोड़े को डॉक्टर द्वारा IVF-ET कराने की सलाह दी जाती है। भ्रूण के चरण के आधार पर डॉक्टर द्वारा उपयोग की जा सकने वाली दो मुख्य प्रकार की ET प्रक्रियाओं के बीच अंतर स्पष्ट करें।"
+    },
+    "answer": {
+      "en": "1. **ZIFT (Zygote Intra Fallopian Transfer)**: If the embryo is at the 8 blastomere stage or earlier, it is transferred into the **fallopian tube**.\n2. **IUT (Intra Uterine Transfer)**: If the embryo has more than 8 blastomeres, it is transferred directly into the **uterus**.",
+      "hi": "1. **ZIFT**: यदि भ्रूण 8 ब्लास्टोमेरेस चरण या उससे पहले का है, तो इसे **फैलोपियन ट्यूब** में स्थानांतरित किया जाता है।\n2. **IUT**: यदि भ्रूण में 8 से अधिक ब्लास्टोमेरेस हैं, तो इसे सीधे **गर्भाशय** में स्थानांतरित किया जाता है।"
+    }
   }
 ]

@@ -1,0 +1,166 @@
+{
+  "id": "t_physics_ch11",
+  "title": {
+    "en": "Physics Chapter 11 Mock Test",
+    "hi": "भौतिकी अध्याय 11 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "The work function of a metal is independent of:",
+        "hi": "किसी धातु का कार्य फलन (work function) किससे स्वतंत्र होता है?"
+      },
+      "options": [
+        {
+          "en": "Nature of the metal",
+          "hi": "धातु की प्रकृति"
+        },
+        {
+          "en": "Impurities on the surface",
+          "hi": "सतह पर अशुद्धियाँ"
+        },
+        {
+          "en": "Frequency of incident light",
+          "hi": "आपतित प्रकाश की आवृत्ति"
+        },
+        {
+          "en": "Temperature of the metal",
+          "hi": "धातु का तापमान"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Work function ($\\Phi_0$) is an intrinsic property of the material and its surface conditions. It does not depend on the frequency or intensity of the light falling on it.",
+        "hi": "कार्य फलन ($\\Phi_0$) पदार्थ और उसकी सतह की स्थितियों का एक आंतरिक गुण है। यह उस पर पड़ने वाले प्रकाश की आवृत्ति या तीव्रता पर निर्भर नहीं करता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "According to Einstein's photoelectric equation, the graph of maximum kinetic energy of emitted photoelectrons versus frequency of incident light is a straight line with a slope equal to:",
+        "hi": "आइंस्टीन के प्रकाश वैद्युत समीकरण के अनुसार, उत्सर्जित फोटोइलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा बनाम आपतित प्रकाश की आवृत्ति का ग्राफ एक सीधी रेखा है, जिसका ढलान (slope) किसके बराबर होता है?"
+      },
+      "options": [
+        {
+          "en": "Planck's constant (h)",
+          "hi": "प्लांक नियतांक (h)"
+        },
+        {
+          "en": "Work function ($\\Phi_0$)",
+          "hi": "कार्य फलन ($\\Phi_0$)"
+        },
+        {
+          "en": "Charge of electron (e)",
+          "hi": "इलेक्ट्रॉन का आवेश (e)"
+        },
+        {
+          "en": "Ratio $h/e$",
+          "hi": "अनुपात $h/e$"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Equation is $K_{max} = h\\nu - \\Phi_0$. This is of the form $y = mx + c$. Therefore, the slope $m$ is Planck's constant $h$.",
+        "hi": "समीकरण $K_{max} = h\\nu - \\Phi_0$ है। यह $y = mx + c$ के रूप में है। इसलिए, ढलान $m$ प्लांक नियतांक $h$ है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "The de Broglie wavelength associated with an electron accelerated through a potential difference V is proportional to:",
+        "hi": "V विभवांतर के माध्यम से त्वरित एक इलेक्ट्रॉन से जुड़ी डी-ब्रोग्ली तरंग दैर्ध्य किसके अनुक्रमानुपाती होती है?"
+      },
+      "options": [
+        {
+          "en": "$V$",
+          "hi": "$V$"
+        },
+        {
+          "en": "$\\sqrt{V}$",
+          "hi": "$\\sqrt{V}$"
+        },
+        {
+          "en": "$1/V$",
+          "hi": "$1/V$"
+        },
+        {
+          "en": "$1/\\sqrt{V}$",
+          "hi": "$1/\\sqrt{V}$"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "De Broglie wavelength $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2meV}}$. Thus, $\\lambda \\propto \\frac{1}{\\sqrt{V}}$.",
+        "hi": "डी-ब्रोग्ली तरंग दैर्ध्य $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2meV}}$। इस प्रकार, $\\lambda \\propto \\frac{1}{\\sqrt{V}}$।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following particles moving with the same velocity has the longest de Broglie wavelength?",
+        "hi": "समान वेग से गतिमान निम्नलिखित में से किस कण की डी-ब्रोग्ली तरंग दैर्ध्य सबसे लंबी होती है?"
+      },
+      "options": [
+        {
+          "en": "Electron",
+          "hi": "इलेक्ट्रॉन"
+        },
+        {
+          "en": "Proton",
+          "hi": "प्रोटॉन"
+        },
+        {
+          "en": "Neutron",
+          "hi": "न्यूट्रॉन"
+        },
+        {
+          "en": "Alpha particle",
+          "hi": "अल्फा कण"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "$\\lambda = h/(mv)$. For the same velocity $v$, $\\lambda \\propto 1/m$. Since the electron has the smallest mass, it will have the longest wavelength.",
+        "hi": "$\\lambda = h/(mv)$। समान वेग $v$ के लिए, $\\lambda \\propto 1/m$। चूँकि इलेक्ट्रॉन का द्रव्यमान सबसे कम होता है, इसलिए इसकी तरंग दैर्ध्य सबसे लंबी होगी।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "The stopping potential in a photoelectric experiment depends on:",
+        "hi": "एक प्रकाश वैद्युत प्रयोग में निरोधी विभव (stopping potential) किस पर निर्भर करता है?"
+      },
+      "options": [
+        {
+          "en": "Intensity of incident light",
+          "hi": "आपतित प्रकाश की तीव्रता"
+        },
+        {
+          "en": "Frequency of incident light and nature of material",
+          "hi": "आपतित प्रकाश की आवृत्ति और पदार्थ की प्रकृति"
+        },
+        {
+          "en": "Area of the cathode",
+          "hi": "कैथोड का क्षेत्रफल"
+        },
+        {
+          "en": "Distance between light source and cathode",
+          "hi": "प्रकाश स्रोत और कैथोड के बीच की दूरी"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Stopping potential $V_0 = (h\\nu - \\Phi_0)/e$. It depends on the frequency $\\nu$ of incident light and the work function $\\Phi_0$ (nature of material). It is independent of intensity.",
+        "hi": "निरोधी विभव $V_0 = (h\\nu - \\Phi_0)/e$। यह आपतित प्रकाश की आवृत्ति $\\nu$ और कार्य फलन $\\Phi_0$ (पदार्थ की प्रकृति) पर निर्भर करता है। यह तीव्रता से स्वतंत्र है।"
+      }
+    }
+  ]
+}

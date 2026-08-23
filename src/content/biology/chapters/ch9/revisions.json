@@ -1,15 +1,20 @@
 [
   {
-    "id": "rev1",
-    "topic": {
-      "en": "PCR Stages",
-      "hi": "पीसीआर के चरण",
-      "hinglish": "PCR Process"
-    },
-    "summary": {
-      "en": "**1. Denaturation**\n**2. Annealing**\n**3. Extension**",
-      "hi": "**1. निष्क्रियकरण (Denaturation)**\n**2. तापानुशीलन (Annealing)**\n**3. प्रसार (Extension)**"
-    },
-    "quickRecall": []
+    "id": "r1",
+    "type": "5-minute",
+    "title": { "en": "5-Minute Quick Recall", "hi": "5-मिनट क्विक रिकॉल" },
+    "content": {
+      "en": "### 🎯 Core Concepts\n- **Biotechnology Principles**: Genetic Engineering (altering DNA/RNA) and Bioprocess Engineering (maintaining sterile environment).\n- **First Recombinant DNA**: Cohen and Boyer (1972) using antibiotic resistance gene and Salmonella plasmid.\n- **Tools of rDNA Technology**:\n  - *Restriction Enzymes*: Molecular scissors (e.g., EcoRI cuts at GAATTC). Produce sticky ends.\n  - *Ligase*: Molecular glue.\n  - *Cloning Vectors*: Plasmids (pBR322, Ti plasmid) & Bacteriophages. Act as vehicles.\n  - *Competent Host*: E. coli treated with Calcium, Microinjection, Gene gun (Biolistics).\n- **Processes**:\n  1. Isolation of DNA (Lysozyme, Chitinase, Cellulase, Ethanol).\n  2. Cutting by Restriction Endonucleases.\n  3. Amplification by PCR (Denaturation -> Annealing -> Extension using Taq polymerase).\n  4. Ligation and Transformation.\n  5. Culturing in Bioreactors.\n  6. Downstream Processing (Separation, purification, formulation).",
+      "hi": "### 🎯 मुख्य अवधारणाएँ\n- **जैव प्रौद्योगिकी सिद्धांत**: आनुवंशिक इंजीनियरिंग (DNA/RNA में बदलाव) और बायोप्रोसेस इंजीनियरिंग (बाँझ वातावरण बनाए रखना)।\n- **पहला Recombinant DNA**: कोहेन और बोयर (1972) एंटीबायोटिक प्रतिरोध जीन और साल्मोनेला प्लास्मिड का उपयोग करते हुए।\n- **rDNA तकनीक के उपकरण**:\n  - *रेस्ट्रिक्शन एंजाइम*: आणविक कैंची (उदा., EcoRI GAATTC पर काटता है)। चिपचिपे सिरे बनाते हैं।\n  - *लाइगेज*: आणविक गोंद।\n  - *क्लोनिंग वैक्टर*: प्लास्मिड (pBR322, Ti प्लास्मिड) और बैक्टीरियोफेज। वाहन के रूप में कार्य करते हैं।\n  - *सक्षम मेजबान*: कैल्शियम के साथ उपचारित ई. कोलाई, माइक्रोइंजेक्शन, जीन गन (बायोलिस्टिक्स)।\n- **प्रक्रियाएं**:\n  1. DNA का अलगाव (लाइसोसोम, चिटिनेज, सेल्युलेस, एथेनॉल)।\n  2. रेस्ट्रिक्शन एंडोन्यूक्लीज द्वारा काटना।\n  3. PCR द्वारा प्रवर्धन (विकृतीकरण -> एनीलिंग -> टैग पोलीमरेज़ का उपयोग करके विस्तार)।\n  4. लाइगेशन और ट्रांसफॉर्मेशन।\n  5. बायोरिएक्टर में संवर्धन।\n  6. डाउनस्ट्रीम प्रोसेसिंग (पृथक्करण, शुद्धिकरण, निर्माण)।"
+    }
+  },
+  {
+    "id": "r2",
+    "type": "15-minute",
+    "title": { "en": "15-Minute Detailed Revision", "hi": "15-मिनट विस्तृत रिवीजन" },
+    "content": {
+      "en": "### 1. Restriction Endonucleases\n- Belong to class Nucleases.\n- Recognize specific Palindromic Nucleotide Sequences (reads same on both strands in 5'->3' direction).\n- Naming: 1st letter = Genus, 2nd & 3rd = Species, 4th = Strain, Roman numeral = Order of isolation.\n- e.g., EcoRI = *Escherichia coli* strain RY13, first isolated.\n\n### 2. Gel Electrophoresis\n- Used to separate DNA fragments based on size.\n- DNA is negatively charged, moves towards anode (+).\n- Matrix used is Agarose (from seaweed). Smaller fragments move farther.\n- DNA is visualized by staining with Ethidium Bromide and exposing to UV light (appears bright orange).\n\n### 3. PCR (Polymerase Chain Reaction)\n- *In vitro* amplification of a gene.\n- Requires Primers (oligonucleotides) and *Taq* polymerase (thermostable enzyme from *Thermus aquaticus*).\n- **Steps**: Denaturation (94°C) -> Annealing (55°C) -> Extension (72°C).\n\n### 4. Vectors and Bioreactors\n- **Selectable Markers**: Genes in vectors (like Ampicillin resistance) that help identify transformed cells from non-transformed ones.\n- **Agrobacterium tumefaciens**: Natural genetic engineer. Its Ti plasmid is disarmed and used to deliver genes into plants.\n- **Bioreactors**: Large vessels for large-scale production (100-1000L). Simple stirred tank or Sparged stirred tank. They provide optimal pH, temp, and oxygen.",
+      "hi": "### 1. रेस्ट्रिक्शन एंडोन्यूक्लीज\n- न्यूक्लीज (Nucleases) वर्ग से संबंधित हैं।\n- विशिष्ट पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रमों को पहचानें (5'->3' दिशा में दोनों स्ट्रैंड पर समान पढ़ता है)।\n- नामकरण: पहला अक्षर = जीनस, दूसरा और तीसरा = प्रजाति, चौथा = स्ट्रेन, रोमन अंक = अलगाव का क्रम।\n- उदा., EcoRI = *Escherichia coli* स्ट्रेन RY13, सबसे पहले अलग किया गया।\n\n### 2. जेल इलेक्ट्रोफोरेसिस\n- आकार के आधार पर DNA के टुकड़ों को अलग करने के लिए उपयोग किया जाता है।\n- DNA ऋणावेशित (negatively charged) होता है, एनोड (+) की ओर बढ़ता है।\n- प्रयुक्त मैट्रिक्स एगरोज़ है (समुद्री शैवाल से)। छोटे टुकड़े आगे बढ़ते हैं।\n- DNA को एथिडियम ब्रोमाइड से रंगकर और UV प्रकाश में उजागर करके (चमकीला नारंगी दिखाई देता है) देखा जाता है।\n\n### 3. PCR (पोलीमरेज़ चेन रिएक्शन)\n- एक जीन का *इन विट्रो* प्रवर्धन।\n- प्राइमर्स (ऑलिगोन्यूक्लियोटाइड्स) और *Taq* पोलीमरेज़ (*थर्मस एक्वेटिकस* से थर्मोस्टेबल एंजाइम) की आवश्यकता होती है।\n- **चरण**: विकृतीकरण (94°C) -> एनीलिंग (55°C) -> विस्तार (72°C)।\n\n### 4. वैक्टर और बायोरिएक्टर\n- **सिलेक्टेबल मार्कर**: वैक्टर में जीन (जैसे एम्पीसिलीन प्रतिरोध) जो गैर-रूपांतरित कोशिकाओं से परिवर्तित कोशिकाओं की पहचान करने में मदद करते हैं।\n- **एग्रोबैक्टीरियम ट्यूमेफेशियन्स**: प्राकृतिक आनुवंशिक इंजीनियर। इसके Ti प्लास्मिड को निहत्था किया जाता है और पौधों में जीन पहुंचाने के लिए उपयोग किया जाता है।\n- **बायोरिएक्टर**: बड़े पैमाने पर उत्पादन (100-1000L) के लिए बड़े बर्तन। सरल उभारा (stirred) टैंक या स्पार्ग (sparged) उभारा टैंक। वे इष्टतम पीएच, तापमान और ऑक्सीजन प्रदान करते हैं।"
+    }
   }
 ]

@@ -1,24 +1,145 @@
 [
   {
-    "id": "n1",
-    "title": {
-      "en": "Ecosystem Structure",
-      "hi": "पारितंत्र संरचना"
-    },
-    "content": {
-      "en": "Key aspects: Productivity, Decomposition, Energy flow, Nutrient cycling.",
-      "hi": "प्रमुख पहलू: उत्पादकता, अपघटन, ऊर्जा प्रवाह, पोषक चक्रण।"
+    "type": "heading",
+    "text": {
+      "en": "Ecosystem",
+      "hi": "पारितंत्र (Ecosystem)"
     }
   },
   {
-    "id": "n2",
-    "title": {
-      "en": "Ecological Pyramids",
-      "hi": "पारिस्थितिक पिरामिड"
-    },
-    "content": {
-      "en": "Pyramid of Energy is always upright (10% law).",
-      "hi": "ऊर्जा का पिरामिड हमेशा सीधा होता है (10% नियम)।"
+    "type": "paragraph",
+    "text": {
+      "en": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment. Ecosystems vary greatly in size from a small pond to a large forest or a sea.",
+      "hi": "एक पारितंत्र को प्रकृति की एक कार्यात्मक इकाई के रूप में देखा जा सकता है, जहां जीवित जीव आपस में और आसपास के भौतिक वातावरण के साथ भी बातचीत करते हैं। एक छोटे तालाब से लेकर बड़े जंगल या समुद्र तक आकार में पारिस्थितिक तंत्र बहुत भिन्न होते हैं।"
     }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "1. Ecosystem - Structure and Function",
+      "hi": "1. पारितंत्र - संरचना और कार्य"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "The two main components of an ecosystem are Abiotic (non-living) and Biotic (living). The interaction of biotic and abiotic components results in a physical structure that is characteristic for each type of ecosystem. Vertical distribution of different species occupying different levels is called stratification. For example, trees occupy top vertical strata or layer of a forest, shrubs the second and herbs and grasses occupy the bottom layers.\n\nThe components of the ecosystem are seen to function as a unit when you consider the following four aspects:\n1. Productivity\n2. Decomposition\n3. Energy flow\n4. Nutrient cycling (Not in current syllabus)",
+      "hi": "पारितंत्र के दो मुख्य घटक अजैविक (निर्जीव) और जैविक (जीवित) हैं। जैविक और अजैविक घटकों की परस्पर क्रिया के परिणामस्वरूप एक भौतिक संरचना बनती है जो प्रत्येक प्रकार के पारिस्थितिक तंत्र की विशेषता है। विभिन्न स्तरों पर कब्जा करने वाली विभिन्न प्रजातियों के ऊर्ध्वाधर (vertical) वितरण को स्तरीकरण (stratification) कहा जाता है। उदाहरण के लिए, पेड़ एक जंगल के शीर्ष ऊर्ध्वाधर स्तर या परत पर कब्जा करते हैं, झाड़ियाँ दूसरी और जड़ी-बूटियाँ और घास निचली परतों पर कब्जा करते हैं।\n\nपारिस्थितिकी तंत्र के घटकों को एक इकाई के रूप में कार्य करते हुए देखा जाता है जब आप निम्नलिखित चार पहलुओं पर विचार करते हैं:\n1. उत्पादकता (Productivity)\n2. अपघटन (Decomposition)\n3. ऊर्जा प्रवाह (Energy flow)\n4. पोषक तत्व चक्र (वर्तमान पाठ्यक्रम में नहीं)"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "2. Productivity",
+      "hi": "2. उत्पादकता (Productivity)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "A constant input of solar energy is the basic requirement for any ecosystem to function and sustain. Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis.",
+      "hi": "सौर ऊर्जा का निरंतर इनपुट किसी भी पारिस्थितिक तंत्र के कार्य करने और बनाए रखने के लिए बुनियादी आवश्यकता है। प्राथमिक उत्पादन को प्रकाश संश्लेषण के दौरान पौधों द्वारा समय अवधि में प्रति इकाई क्षेत्र में उत्पादित बायोमास या कार्बनिक पदार्थों की मात्रा के रूप में परिभाषित किया गया है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Gross Primary Productivity (GPP): Rate of production of organic matter during photosynthesis.",
+        "hi": "सकल प्राथमिक उत्पादकता (GPP): प्रकाश संश्लेषण के दौरान कार्बनिक पदार्थों के उत्पादन की दर।"
+      },
+      {
+        "en": "Net Primary Productivity (NPP): Gross primary productivity minus respiration losses (R). NPP = GPP - R. NPP is the available biomass for the consumption to heterotrophs (herbivores and decomposers).",
+        "hi": "शुद्ध प्राथमिक उत्पादकता (NPP): सकल प्राथमिक उत्पादकता शून्य से श्वसन हानि (R)। NPP = GPP - R। NPP हेटरोट्रॉफ़ (शाकाहारी और डीकंपोजर) की खपत के लिए उपलब्ध बायोमास है।"
+      },
+      {
+        "en": "Secondary Productivity: Rate of formation of new organic matter by consumers.",
+        "hi": "द्वितीयक उत्पादकता: उपभोक्ताओं द्वारा नए कार्बनिक पदार्थों के निर्माण की दर।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "3. Decomposition",
+      "hi": "3. अपघटन (Decomposition)"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "Decomposers (bacteria and fungi) break down complex organic matter into inorganic substances like carbon dioxide, water and nutrients. The raw material for decomposition is called detritus (dead plant remains, dead animals, fecal matter).\n\nSteps in Decomposition:\n1. Fragmentation: Detritivores (e.g., earthworm) break down detritus into smaller particles.\n2. Leaching: Water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts.\n3. Catabolism: Bacterial and fungal enzymes degrade detritus into simpler inorganic substances.\n4. Humification: Accumulation of a dark coloured amorphous substance called humus that is highly resistant to microbial action and undergoes decomposition at an extremely slow rate.\n5. Mineralisation: The humus is further degraded by some microbes and release of inorganic nutrients occurs.",
+      "hi": "डीकंपोजर (बैक्टीरिया और कवक) जटिल कार्बनिक पदार्थों को कार्बन डाइऑक्साइड, पानी और पोषक तत्वों जैसे अकार्बनिक पदार्थों में तोड़ देते हैं। अपघटन के लिए कच्चे माल को डेट्रिटस (मृत पौधे के अवशेष, मृत जानवर, मल पदार्थ) कहा जाता है।\n\nअपघटन के चरण:\n1. विखंडन (Fragmentation): डेट्रिटिवोर्स (उदा., केंचुआ) डेट्रिटस को छोटे कणों में तोड़ देते हैं।\n2. लीचिंग (Leaching): पानी में घुलनशील अकार्बनिक पोषक तत्व मिट्टी के क्षितिज में चले जाते हैं और अनुपलब्ध लवण के रूप में अवक्षेपित हो जाते हैं।\n3. अपचय (Catabolism): जीवाणु और कवक एंजाइम डेट्रिटस को सरल अकार्बनिक पदार्थों में नष्ट कर देते हैं।\n4. ह्यूमिफिकेशन (Humification): ह्यूमस नामक गहरे रंग के अनाकार पदार्थ का संचय जो माइक्रोबियल कार्रवाई के लिए अत्यधिक प्रतिरोधी है और बहुत धीमी गति से अपघटन से गुजरता है।\n5. खनिजीकरण (Mineralisation): ह्यूमस को कुछ रोगाणुओं द्वारा आगे नीचा दिखाया जाता है और अकार्बनिक पोषक तत्वों की रिहाई होती है।"
+    }
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "4. Energy Flow",
+      "hi": "4. ऊर्जा प्रवाह (Energy Flow)"
+    }
+  },
+  {
+    "type": "paragraph",
+    "text": {
+      "en": "Sun is the only source of energy for all ecosystems on Earth. Of the incident solar radiation less than 50 per cent of it is photosynthetically active radiation (PAR). Plants capture only 2-10 per cent of the PAR. This small amount of energy sustains the entire living world. The flow of energy is strictly unidirectional from the producers to the consumers. (First Law of Thermodynamics).",
+      "hi": "सूर्य पृथ्वी पर सभी पारिस्थितिक तंत्रों के लिए ऊर्जा का एकमात्र स्रोत है। घटना सौर विकिरण में से 50 प्रतिशत से कम प्रकाश संश्लेषक सक्रिय विकिरण (PAR) है। पौधे PAR का केवल 2-10 प्रतिशत ही पकड़ते हैं। ऊर्जा की यह छोटी मात्रा पूरे जीवित दुनिया को बनाए रखती है। ऊर्जा का प्रवाह उत्पादकों से उपभोक्ताओं तक कड़ाई से एकदिशीय (unidirectional) है। (ऊष्मागतिकी का प्रथम नियम)।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Food Chain: A sequence of organisms through which food energy is transferred (e.g., Grass -> Goat -> Man).",
+        "hi": "खाद्य श्रृंखला (Food Chain): जीवों का एक क्रम जिसके माध्यम से खाद्य ऊर्जा स्थानांतरित की जाती है (उदा., घास -> बकरी -> आदमी)।"
+      },
+      {
+        "en": "Grazing Food Chain (GFC): Begins with producers (plants).",
+        "hi": "चराई खाद्य श्रृंखला (GFC): उत्पादकों (पौधों) से शुरू होती है।"
+      },
+      {
+        "en": "Detritus Food Chain (DFC): Begins with dead organic matter. It is made up of decomposers (saprotrophs) like fungi and bacteria.",
+        "hi": "डेट्रिटस खाद्य श्रृंखला (DFC): मृत कार्बनिक पदार्थों से शुरू होती है। यह कवक और बैक्टीरिया जैसे डीकंपोजर (सैप्रोट्रॉफ़्स) से बना है।"
+      },
+      {
+        "en": "Food Web: The natural interconnection of food chains makes it a food web.",
+        "hi": "खाद्य जाल (Food Web): खाद्य श्रृंखलाओं का प्राकृतिक अंतर्संबंध इसे एक खाद्य जाल बनाता है।"
+      },
+      {
+        "en": "Trophic Level: Organisms occupy a place in the natural surroundings or in a community according to their feeding relationship. (Producers -> Primary Consumer -> Secondary Consumer -> Tertiary Consumer). The 10% law of energy transfer applies here.",
+        "hi": "पोषी स्तर (Trophic Level): जीव अपने खिलाने के संबंध के अनुसार प्राकृतिक परिवेश या समुदाय में एक जगह घेरते हैं। (उत्पादक -> प्राथमिक उपभोक्ता -> द्वितीयक उपभोक्ता -> तृतीयक उपभोक्ता)। ऊर्जा हस्तांतरण का 10% नियम यहाँ लागू होता है।"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "text": {
+      "en": "5. Ecological Pyramids",
+      "hi": "5. पारिस्थितिक पिरामिड"
+    }
+  },
+  {
+    "type": "concept",
+    "text": {
+      "en": "An ecological pyramid is a graphical representation designed to show the biomass or bio productivity at each trophic level in a given ecosystem. The base of a pyramid is broad (representing producers) and it narrows towards the apex (representing top consumers).",
+      "hi": "एक पारिस्थितिक पिरामिड एक चित्रमय प्रतिनिधित्व है जिसे किसी दिए गए पारिस्थितिकी तंत्र में प्रत्येक पोषी स्तर पर बायोमास या जैव उत्पादकता दिखाने के लिए डिज़ाइन किया गया है। पिरामिड का आधार चौड़ा होता है (उत्पादकों का प्रतिनिधित्व करता है) और यह शीर्ष की ओर (शीर्ष उपभोक्ताओं का प्रतिनिधित्व करता है) संकीर्ण होता है।"
+    }
+  },
+  {
+    "type": "list",
+    "items": [
+      {
+        "en": "Pyramid of Number: Shows the number of individuals at each trophic level. Generally upright, but in a tree ecosystem, it can be inverted (one tree supports many birds/insects).",
+        "hi": "संख्या का पिरामिड: प्रत्येक पोषी स्तर पर व्यक्तियों की संख्या को दर्शाता है। आम तौर पर सीधा (upright), लेकिन एक पेड़ पारिस्थितिकी तंत्र में, यह उल्टा (inverted) हो सकता है (एक पेड़ कई पक्षियों/कीड़ों का समर्थन करता है)।"
+      },
+      {
+        "en": "Pyramid of Biomass: Shows the total dry weight of organisms at each trophic level. Generally upright, but inverted in aquatic ecosystems (phytoplankton biomass is much less than zooplankton/fish biomass).",
+        "hi": "बायोमास का पिरामिड: प्रत्येक पोषी स्तर पर जीवों का कुल शुष्क भार (dry weight) दर्शाता है। आम तौर पर सीधा, लेकिन जलीय पारिस्थितिक तंत्र में उल्टा होता है (फाइटोप्लांकटन बायोमास ज़ूप्लैंकटन/मछली बायोमास से बहुत कम है)।"
+      },
+      {
+        "en": "Pyramid of Energy: Shows the flow of energy from one trophic level to the next. **Always upright**, can never be inverted, because energy is lost as heat at each step (10% law).",
+        "hi": "ऊर्जा का पिरामिड: एक पोषी स्तर से दूसरे में ऊर्जा के प्रवाह को दर्शाता है। **हमेशा सीधा (upright)** होता है, कभी उल्टा नहीं हो सकता, क्योंकि प्रत्येक चरण (10% नियम) पर ऊष्मा के रूप में ऊर्जा खो जाती है।"
+      }
+    ]
   }
 ]

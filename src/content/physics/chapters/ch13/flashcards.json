@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc1",
+    "term": { "en": "Atomic Number (Z) and Mass Number (A)", "hi": "परमाणु क्रमांक (Z) और द्रव्यमान संख्या (A)" },
+    "definition": { "en": "$Z$ = Number of protons. $A$ = Total number of nucleons (protons + neutrons). Number of neutrons = $A - Z$.", "hi": "$Z$ = प्रोटॉन की संख्या। $A$ = न्यूक्लियंस की कुल संख्या (प्रोटॉन + न्यूट्रॉन)। न्यूट्रॉन की संख्या = $A - Z$।" }
+  },
+  {
+    "id": "fc2",
+    "term": { "en": "Isotopes", "hi": "समस्थानिक" },
+    "definition": { "en": "Nuclei of the same element with the same atomic number ($Z$) but different mass numbers ($A$).", "hi": "एक ही तत्व के नाभिक जिनकी परमाणु क्रमांक ($Z$) समान होती है लेकिन द्रव्यमान संख्या ($A$) भिन्न होती है।" }
+  },
+  {
+    "id": "fc3",
+    "term": { "en": "Isobars", "hi": "समभारिक" },
+    "definition": { "en": "Nuclei of different elements having the same mass number ($A$) but different atomic numbers ($Z$).", "hi": "विभिन्न तत्वों के नाभिक जिनकी द्रव्यमान संख्या ($A$) समान होती है लेकिन परमाणु क्रमांक ($Z$) भिन्न होती है।" }
+  },
+  {
+    "id": "fc4",
+    "term": { "en": "Nuclear Radius", "hi": "नाभिकीय त्रिज्या" },
+    "definition": { "en": "$R = R_0 A^{1/3}$, where $R_0 \\approx 1.2 \\times 10^{-15}$ m (1.2 fermi). Shows that nuclear density is constant.", "hi": "$R = R_0 A^{1/3}$, जहाँ $R_0 \\approx 1.2 \\times 10^{-15}$ m (1.2 फर्मी)। यह दर्शाता है कि नाभिकीय घनत्व स्थिर है।" }
+  },
+  {
+    "id": "fc5",
+    "term": { "en": "Mass Defect ($\\Delta m$)", "hi": "द्रव्यमान क्षति ($\\Delta m$)" },
+    "definition": { "en": "The difference between the sum of masses of individual nucleons and the actual mass of the nucleus. $\\Delta m = [Z m_p + (A-Z)m_n] - M_{nucleus}$.", "hi": "व्यक्तिगत न्यूक्लियंस के द्रव्यमान के योग और नाभिक के वास्तविक द्रव्यमान के बीच का अंतर। $\\Delta m = [Z m_p + (A-Z)m_n] - M_{nucleus}$।" }
+  },
+  {
+    "id": "fc6",
+    "term": { "en": "Nuclear Binding Energy", "hi": "नाभिकीय बंधन ऊर्जा" },
+    "definition": { "en": "Energy required to break a nucleus into its constituent nucleons. $E_b = \\Delta m \\cdot c^2$.", "hi": "नाभिक को उसके घटक न्यूक्लियंस में तोड़ने के लिए आवश्यक ऊर्जा। $E_b = \\Delta m \\cdot c^2$।" }
+  },
+  {
+    "id": "fc7",
+    "term": { "en": "Binding Energy per Nucleon", "hi": "प्रति न्यूक्लियॉन बंधन ऊर्जा" },
+    "definition": { "en": "$E_{bn} = E_b / A$. It is a measure of the stability of a nucleus. Maximum for Iron ($^{56}Fe$) at 8.8 MeV.", "hi": "$E_{bn} = E_b / A$। यह किसी नाभिक की स्थिरता का माप है। लोहे ($^{56}Fe$) के लिए 8.8 MeV पर अधिकतम।" }
+  },
+  {
+    "id": "fc8",
+    "term": { "en": "Strong Nuclear Force", "hi": "प्रबल नाभिकीय बल" },
+    "definition": { "en": "Strongest force in nature, short-ranged (few fermis), charge-independent, and responsible for binding nucleons together.", "hi": "प्रकृति में सबसे मजबूत बल, अल्प-परास (कुछ फर्मी), आवेश-स्वतंत्र, और न्यूक्लियंस को एक साथ बांधने के लिए जिम्मेदार।" }
+  },
+  {
+    "id": "fc9",
+    "term": { "en": "Nuclear Fission", "hi": "नाभिकीय विखंडन" },
+    "definition": { "en": "Splitting of a heavy nucleus (like U-235) into two lighter nuclei of comparable masses with the release of large energy.", "hi": "बड़ी ऊर्जा के निष्कासन के साथ एक भारी नाभिक (जैसे U-235) का तुलनीय द्रव्यमान वाले दो हल्के नाभिकों में विभाजित होना।" }
+  },
+  {
+    "id": "fc10",
+    "term": { "en": "Nuclear Fusion", "hi": "नाभिकीय संलयन" },
+    "definition": { "en": "Combining of two light nuclei to form a heavier nucleus, releasing tremendous energy. Requires very high temperature and pressure.", "hi": "एक भारी नाभिक बनाने के लिए दो हल्के नाभिकों का संयोजन, जिससे अत्यधिक ऊर्जा निकलती है। इसके लिए बहुत उच्च तापमान और दबाव की आवश्यकता होती है।" }
+  }
+]

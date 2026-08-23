@@ -1,0 +1,148 @@
+{
+  "id": "t5",
+  "title": { "en": "Chapter 5 Mock Test: Molecular Basis of Inheritance", "hi": "अध्याय 5 मॉक टेस्ट: वंशागति के आणविक आधार" },
+  "duration": 15,
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "The transforming principle of Griffith's experiment was DNA. It was discovered by:", "hi": "ग्रिफिथ के प्रयोग का रूपांतरण सिद्धांत DNA था। इसकी खोज किसके द्वारा की गई थी:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Avery, MacLeod, McCarty", "hi": "एवरी, मैक्लिओड, मैककार्टी" } },
+        { "id": "o2", "text": { "en": "Hershey and Chase", "hi": "हर्शे और चेस" } },
+        { "id": "o3", "text": { "en": "Meselson and Stahl", "hi": "मेसल्सन और स्टाल" } },
+        { "id": "o4", "text": { "en": "Watson and Crick", "hi": "वॉटसन और क्रिक" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "Oswald Avery, Colin MacLeod and Maclyn McCarty worked to determine the biochemical nature of the transforming principle.", "hi": "ओसवाल्ड एवरी, कॉलिन मैक्लिओड और मैकलिन मैककार्टी ने रूपांतरण सिद्धांत की जैव रासायनिक प्रकृति को निर्धारित करने के लिए काम किया।" }
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "DNA replication is:", "hi": "DNA प्रतिकृति (replication) है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Conservative and continuous", "hi": "संरक्षी और निरंतर" } },
+        { "id": "o2", "text": { "en": "Semi-conservative and discontinuous", "hi": "अर्ध-संरक्षी और असंतत" } },
+        { "id": "o3", "text": { "en": "Semi-conservative and semi-discontinuous", "hi": "अर्ध-संरक्षी और अर्ध-असंतत" } },
+        { "id": "o4", "text": { "en": "Conservative and semi-discontinuous", "hi": "संरक्षी और अर्ध-असंतत" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "DNA replication is semi-conservative. It is continuous on one strand (leading) and discontinuous on the other (lagging), hence semi-discontinuous.", "hi": "DNA प्रतिकृति अर्ध-संरक्षी है। यह एक स्ट्रैंड (लीडिंग) पर निरंतर है और दूसरे (लैगिंग) पर असंतत है, इसलिए अर्ध-असंतत (semi-discontinuous) है।" }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which of the following RNA acts as a template for protein synthesis?", "hi": "निम्नलिखित में से कौन सा RNA प्रोटीन संश्लेषण के लिए टेम्पलेट के रूप में कार्य करता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "tRNA", "hi": "tRNA" } },
+        { "id": "o2", "text": { "en": "rRNA", "hi": "rRNA" } },
+        { "id": "o3", "text": { "en": "mRNA", "hi": "mRNA" } },
+        { "id": "o4", "text": { "en": "snRNA", "hi": "snRNA" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "mRNA (messenger RNA) provides the template for translation (protein synthesis).", "hi": "mRNA (मैसेंजर RNA) अनुवादन (प्रोटीन संश्लेषण) के लिए टेम्पलेट प्रदान करता है।" }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In Eukaryotes, RNA polymerase III catalyzes the transcription of:", "hi": "यूकेरियोट्स में, RNA पोलीमरेज़ III किसके अनुलेखन (transcription) को उत्प्रेरित करता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "mRNA", "hi": "mRNA" } },
+        { "id": "o2", "text": { "en": "tRNA, 5S rRNA, and snRNAs", "hi": "tRNA, 5S rRNA, और snRNAs" } },
+        { "id": "o3", "text": { "en": "28S, 18S, and 5.8S rRNAs", "hi": "28S, 18S, और 5.8S rRNAs" } },
+        { "id": "o4", "text": { "en": "hnRNA", "hi": "hnRNA" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Pol I transcribes rRNAs. Pol II transcribes precursor of mRNA (hnRNA). Pol III transcribes tRNA, 5S rRNA, and snRNAs.", "hi": "Pol I, rRNA को ट्रांसक्राइब करता है। Pol II, mRNA (hnRNA) के पूर्ववर्ती को ट्रांसक्राइब करता है। Pol III, tRNA, 5S rRNA और snRNAs को ट्रांसक्राइब करता है।" }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "If a double stranded DNA has 20% Thymine, what will be the percentage of Guanine?", "hi": "यदि एक डबल स्ट्रैंडेड DNA में 20% थाइमिन है, तो गुआनिन का प्रतिशत क्या होगा?" },
+      "options": [
+        { "id": "o1", "text": { "en": "20%", "hi": "20%" } },
+        { "id": "o2", "text": { "en": "30%", "hi": "30%" } },
+        { "id": "o3", "text": { "en": "40%", "hi": "40%" } },
+        { "id": "o4", "text": { "en": "60%", "hi": "60%" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "According to Chargaff's rule, A=T and G=C. If T=20%, A=20%. Remaining is 60%, which is equally divided between G and C (G=30%, C=30%).", "hi": "चारगाफ के नियम के अनुसार, A=T और G=C. यदि T=20%, A=20%. शेष 60% है, जो G और C (G=30%, C=30%) के बीच समान रूप से विभाजित है।" }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "The inducer in the lac operon is:", "hi": "लैक ऑपेरॉन (lac operon) में प्रेरक (inducer) कौन है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Galactose", "hi": "गैलेक्टोज" } },
+        { "id": "o2", "text": { "en": "Glucose", "hi": "ग्लूकोज" } },
+        { "id": "o3", "text": { "en": "Lactose", "hi": "लैक्टोज" } },
+        { "id": "o4", "text": { "en": "Permease", "hi": "परमिएज" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "Lactose is the substrate for the enzyme beta-galactosidase and it regulates switching on and off of the operon. Hence, it is termed as inducer.", "hi": "लैक्टोज एंजाइम बीटा-गैलेक्टोसिडेज़ के लिए सब्सट्रेट है और यह ऑपेरॉन के चालू और बंद होने को नियंत्रित करता है। इसलिए, इसे प्रेरक कहा जाता है।" }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": { "en": "Which enzyme joins the Okazaki fragments during DNA replication?", "hi": "DNA प्रतिकृति के दौरान ओकाजाकी खंडों को कौन सा एंजाइम जोड़ता है?" },
+      "options": [
+        { "id": "o1", "text": { "en": "DNA polymerase", "hi": "DNA पोलीमरेज़" } },
+        { "id": "o2", "text": { "en": "Helicase", "hi": "हेलिकेस" } },
+        { "id": "o3", "text": { "en": "Primase", "hi": "प्राइमेज़" } },
+        { "id": "o4", "text": { "en": "DNA ligase", "hi": "DNA लाइगेज" } }
+      ],
+      "correctOptionId": "o4",
+      "explanation": { "en": "DNA ligase is responsible for joining the discontinuously synthesized Okazaki fragments.", "hi": "DNA लाइगेज असंतत रूप से संश्लेषित ओकाजाकी खंडों को जोड़ने के लिए जिम्मेदार है।" }
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "A codon consists of how many nitrogenous bases?", "hi": "एक कोडोन में कितने नाइट्रोजन बेस होते हैं?" },
+      "options": [
+        { "id": "o1", "text": { "en": "1", "hi": "1" } },
+        { "id": "o2", "text": { "en": "2", "hi": "2" } },
+        { "id": "o3", "text": { "en": "3", "hi": "3" } },
+        { "id": "o4", "text": { "en": "4", "hi": "4" } }
+      ],
+      "correctOptionId": "o3",
+      "explanation": { "en": "The genetic code is a triplet, meaning each codon consists of 3 bases.", "hi": "आनुवंशिक कोड एक ट्रिपलेट है, जिसका अर्थ है कि प्रत्येक कोडोन में 3 बेस होते हैं।" }
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": { "en": "Which technique was developed by Alec Jeffreys?", "hi": "एलेक जेफ्रीज द्वारा किस तकनीक का विकास किया गया था?" },
+      "options": [
+        { "id": "o1", "text": { "en": "DNA sequencing", "hi": "DNA अनुक्रमण (sequencing)" } },
+        { "id": "o2", "text": { "en": "DNA fingerprinting", "hi": "DNA फिंगरप्रिंटिंग" } },
+        { "id": "o3", "text": { "en": "Polymerase Chain Reaction (PCR)", "hi": "पॉलीमरेज़ चेन रिएक्शन (PCR)" } },
+        { "id": "o4", "text": { "en": "Gene therapy", "hi": "जीन थेरेपी" } }
+      ],
+      "correctOptionId": "o2",
+      "explanation": { "en": "Alec Jeffreys developed the technique of DNA fingerprinting.", "hi": "एलेक जेफ्रीज ने DNA फिंगरप्रिंटिंग की तकनीक विकसित की।" }
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": { "en": "In translation, the process of charging of tRNA is also known as:", "hi": "अनुवादन (translation) में, tRNA के आवेशन (charging) की प्रक्रिया को किस रूप में भी जाना जाता है:" },
+      "options": [
+        { "id": "o1", "text": { "en": "Aminoacylation of tRNA", "hi": "tRNA का अमीनोएसिलेशन" } },
+        { "id": "o2", "text": { "en": "Translocation", "hi": "स्थानांतरण (Translocation)" } },
+        { "id": "o3", "text": { "en": "Transcription", "hi": "अनुलेखन (Transcription)" } },
+        { "id": "o4", "text": { "en": "Splicing", "hi": "स्प्लिसिंग (Splicing)" } }
+      ],
+      "correctOptionId": "o1",
+      "explanation": { "en": "In the first phase of translation, amino acids are activated in the presence of ATP and linked to their cognate tRNA. This is called charging of tRNA or aminoacylation of tRNA.", "hi": "अनुवादन के पहले चरण में, अमीनो एसिड ATP की उपस्थिति में सक्रिय होते हैं और अपने सजातीय tRNA से जुड़ते हैं। इसे tRNA का आवेशन या tRNA का अमीनोएसिलेशन कहा जाता है।" }
+    }
+  ]
+}

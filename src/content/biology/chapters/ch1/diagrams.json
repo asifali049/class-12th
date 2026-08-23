@@ -2,13 +2,20 @@
   {
     "id": "dia1",
     "title": {
-      "en": "Anatomy of an Angiosperm Ovule",
-      "hi": "एक एंजियोस्पर्म बीजांड की संरचना"
+      "en": "Mature Embryo Sac (Female Gametophyte)",
+      "hi": "परिपक्व भ्रूणकोष (मादा युग्मकोद्भिद)"
     },
     "description": {
-      "en": "A schematic representing the anatropous ovule showing funicle, micropyle, integuments, and embryo sac.",
-      "hi": "एक एनाट्रोपस बीजांड का प्रतिनिधित्व करने वाली योजना।"
+      "en": "A diagrammatic representation of a mature 7-celled, 8-nucleate angiosperm embryo sac showing the egg apparatus at the micropylar end, antipodals at the chalazal end, and a large central cell with two polar nuclei.",
+      "hi": "एक परिपक्व 7-कोशिका, 8-केंद्रक आवृतबीजी भ्रूणकोष का चित्रमय प्रतिनिधित्व, जो बीजांडद्वारी सिरे पर अंड उपकरण, निभाग सिरे पर प्रतिव्यासांत कोशिकाएं और दो ध्रुवीय केंद्रकों वाली एक बड़ी केंद्रीय कोशिका को दर्शाता है।"
     },
-    "svgCode": "<svg width='200' height='200' viewBox='0 0 200 200'><circle cx='100' cy='100' r='50' fill='none' stroke='blue' stroke-width='2'/><text x='65' y='105' font-size='12' fill='black'>Embryo Sac (7-celled)</text></svg>"
+    "svgCode": "<svg viewBox='0 0 500 700' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.sac{fill:#fef3c7;stroke:#f59e0b;stroke-width:4;}.cell{fill:#dcfce7;stroke:#22c55e;stroke-width:2;}.nucleus{fill:#ef4444;}.filiform{fill:none;stroke:#3b82f6;stroke-width:3;stroke-dasharray:4,4;}.text-label{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(250, 350)'><ellipse cx='0' cy='0' rx='120' ry='280' class='sac'/><ellipse cx='0' cy='-220' rx='40' ry='30' class='cell'/><circle cx='0' cy='-220' r='8' class='nucleus'/><ellipse cx='-60' cy='-200' rx='35' ry='25' class='cell' transform='rotate(30 -60 -200)'/><circle cx='-60' cy='-200' r='8' class='nucleus'/><ellipse cx='60' cy='-200' rx='35' ry='25' class='cell' transform='rotate(-30 60 -200)'/><circle cx='60' cy='-200' r='8' class='nucleus'/><circle cx='-20' cy='0' r='10' class='nucleus'/><circle cx='20' cy='0' r='10' class='nucleus'/><ellipse cx='0' cy='180' rx='50' ry='40' class='cell'/><circle cx='0' cy='170' r='12' class='nucleus'/><ellipse cx='-60' cy='220' rx='40' ry='50' class='cell'/><circle cx='-60' cy='200' r='10' class='nucleus'/><path d='M-60 270 Q-50 240 -60 210 M-80 260 Q-60 240 -80 220' class='filiform'/><ellipse cx='60' cy='220' rx='40' ry='50' class='cell'/><circle cx='60' cy='200' r='10' class='nucleus'/><path d='M60 270 Q50 240 60 210 M80 260 Q60 240 80 220' class='filiform'/></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 10, "y": 90, "text": { "en": "Antipodals (Chalazal end)", "hi": "प्रतिव्यासांत कोशिकाएं (निभाग सिरा)" } },
+      { "id": "l2", "x": 10, "y": 350, "text": { "en": "Polar nuclei in Central Cell", "hi": "केंद्रीय कोशिका में ध्रुवीय केंद्रक" } },
+      { "id": "l3", "x": 10, "y": 520, "text": { "en": "Egg cell", "hi": "अंड कोशिका" } },
+      { "id": "l4", "x": 350, "y": 570, "text": { "en": "Synergids", "hi": "सहायक कोशिकाएं" } },
+      { "id": "l5", "x": 10, "y": 620, "text": { "en": "Filiform apparatus (Micropylar end)", "hi": "तंतुरूप उपकरण (बीजांडद्वारी सिरा)" } }
+    ]
   }
 ]

@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch7",
+  "title": {
+    "en": "Chemistry Chapter 7 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 7 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following alcohols is most soluble in water?",
+        "hi": "निम्नलिखित में से कौन सा अल्कोहल पानी में सबसे अधिक घुलनशील है?"
+      },
+      "options": [
+        {
+          "en": "Methanol",
+          "hi": "मेथनॉल"
+        },
+        {
+          "en": "Ethanol",
+          "hi": "इथेनॉल"
+        },
+        {
+          "en": "Propan-1-ol",
+          "hi": "प्रोपेन-1-ऑल"
+        },
+        {
+          "en": "Butan-1-ol",
+          "hi": "ब्यूटेन-1-ऑल"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Solubility of alcohols in water decreases with an increase in the size of the hydrophobic alkyl group. Methanol has the smallest alkyl group.",
+        "hi": "हाइड्रोफोबिक एल्काइल समूह के आकार में वृद्धि के साथ पानी में अल्कोहल की घुलनशीलता कम हो जाती है। मेथनॉल में सबसे छोटा एल्काइल समूह होता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Lucas reagent is a mixture of:",
+        "hi": "ल्यूकास (Lucas) अभिकर्मक किसका मिश्रण है?"
+      },
+      "options": [
+        {
+          "en": "Conc. $HCl$ and anhydrous $ZnCl_2$",
+          "hi": "सांद्र $HCl$ और निर्जल $ZnCl_2$"
+        },
+        {
+          "en": "Conc. $HNO_3$ and anhydrous $ZnCl_2$",
+          "hi": "सांद्र $HNO_3$ और निर्जल $ZnCl_2$"
+        },
+        {
+          "en": "Conc. $HCl$ and hydrous $ZnCl_2$",
+          "hi": "सांद्र $HCl$ और जलयुक्त $ZnCl_2$"
+        },
+        {
+          "en": "Conc. $H_2SO_4$ and anhydrous $ZnCl_2$",
+          "hi": "सांद्र $H_2SO_4$ और निर्जल $ZnCl_2$"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Lucas reagent is a solution of anhydrous zinc chloride in concentrated hydrochloric acid. It is used to distinguish between primary, secondary, and tertiary alcohols.",
+        "hi": "ल्यूकास अभिकर्मक सांद्र हाइड्रोक्लोरिक एसिड में निर्जल जिंक क्लोराइड का विलयन है। इसका उपयोग प्राथमिक, द्वितीयक और तृतीयक अल्कोहल के बीच अंतर करने के लिए किया जाता है।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Phenol is more acidic than ethanol because:",
+        "hi": "फिनोल इथेनॉल की तुलना में अधिक अम्लीय है क्योंकि:"
+      },
+      "options": [
+        {
+          "en": "Phenol has a higher molecular weight",
+          "hi": "फिनोल का अणु भार अधिक होता है"
+        },
+        {
+          "en": "Phenoxide ion is resonance stabilized",
+          "hi": "फिनॉक्साइड आयन अनुनाद (resonance) द्वारा स्थिर होता है"
+        },
+        {
+          "en": "Ethoxide ion is resonance stabilized",
+          "hi": "एथॉक्साइड आयन अनुनाद द्वारा स्थिर होता है"
+        },
+        {
+          "en": "Phenol contains a benzene ring",
+          "hi": "फिनोल में एक बेंजीन वलय होता है"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "After losing a proton, phenol forms a phenoxide ion, which is highly stabilized by resonance. Ethanol forms an ethoxide ion, which lacks resonance stabilization.",
+        "hi": "प्रोटॉन खोने के बाद, फिनोल एक फिनॉक्साइड आयन बनाता है, जो अनुनाद द्वारा अत्यधिक स्थिर होता है। इथेनॉल एक एथॉक्साइड आयन बनाता है, जिसमें अनुनाद स्थिरीकरण का अभाव होता है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "Williamson synthesis is an important method for the preparation of:",
+        "hi": "विलियमसन (Williamson) संश्लेषण किसकी तैयारी के लिए एक महत्वपूर्ण विधि है?"
+      },
+      "options": [
+        {
+          "en": "Alcohols",
+          "hi": "अल्कोहल"
+        },
+        {
+          "en": "Phenols",
+          "hi": "फिनोल"
+        },
+        {
+          "en": "Ethers",
+          "hi": "ईथर"
+        },
+        {
+          "en": "Carboxylic acids",
+          "hi": "कार्बोक्जिलिक एसिड"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Williamson ether synthesis involves the $S_N2$ reaction of a sodium alkoxide with an alkyl halide to form an ether ($R-O-Na + R'-X \\to R-O-R' + NaX$).",
+        "hi": "विलियमसन ईथर संश्लेषण में ईथर बनाने के लिए एल्काइल हैलाइड के साथ सोडियम एल्कॉक्साइड की $S_N2$ अभिक्रिया शामिल है ($R-O-Na + R'-X \\to R-O-R' + NaX$)।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Reimer-Tiemann reaction of phenol with chloroform and aqueous NaOH gives:",
+        "hi": "क्लोरोफॉर्म और जलीय NaOH के साथ फिनोल की राइमर-टीमन (Reimer-Tiemann) अभिक्रिया क्या देती है?"
+      },
+      "options": [
+        {
+          "en": "Salicylic acid",
+          "hi": "सैलिसिलिक एसिड"
+        },
+        {
+          "en": "Salicylaldehyde",
+          "hi": "सैलिसिल्डिहाइड (Salicylaldehyde)"
+        },
+        {
+          "en": "Benzoquinone",
+          "hi": "बेंजोक्विनोन"
+        },
+        {
+          "en": "Picric acid",
+          "hi": "पिक्रिक एसिड"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Treatment of phenol with chloroform in the presence of aqueous sodium hydroxide at 340 K followed by hydrolysis yields salicylaldehyde (o-hydroxybenzaldehyde).",
+        "hi": "340 K पर जलीय सोडियम हाइड्रॉक्साइड की उपस्थिति में क्लोरोफॉर्म के साथ फिनोल के उपचार और उसके बाद हाइड्रोलिसिस से सैलिसिल्डिहाइड (o-हाइड्रोक्सीबेंजाल्डिहाइड) प्राप्त होता है।"
+      }
+    }
+  ]
+}

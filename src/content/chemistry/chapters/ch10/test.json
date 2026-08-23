@@ -1,0 +1,166 @@
+{
+  "id": "t_chemistry_ch10",
+  "title": {
+    "en": "Chemistry Chapter 10 Mock Test",
+    "hi": "रसायन विज्ञान अध्याय 10 मॉक टेस्ट"
+  },
+  "duration": 15,
+  "totalQuestions": 5,
+  "questions": [
+    {
+      "id": "t1",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is not a monosaccharide?",
+        "hi": "निम्नलिखित में से कौन सा मोनोसैकेराइड (monosaccharide) नहीं है?"
+      },
+      "options": [
+        {
+          "en": "Glucose",
+          "hi": "ग्लूकोज"
+        },
+        {
+          "en": "Fructose",
+          "hi": "फ्रक्टोज"
+        },
+        {
+          "en": "Sucrose",
+          "hi": "सुक्रोज"
+        },
+        {
+          "en": "Galactose",
+          "hi": "गैलेक्टोज"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "Sucrose is a disaccharide. Upon hydrolysis, it yields one molecule of glucose and one molecule of fructose.",
+        "hi": "सुक्रोज एक डिसैकेराइड है। हाइड्रोलिसिस पर, यह ग्लूकोज का एक अणु और फ्रक्टोज का एक अणु देता है।"
+      }
+    },
+    {
+      "id": "t2",
+      "type": "mcq",
+      "question": {
+        "en": "Proteins are polymers of:",
+        "hi": "प्रोटीन किसके बहुलक (polymers) हैं?"
+      },
+      "options": [
+        {
+          "en": "Fatty acids",
+          "hi": "वसीय अम्ल (Fatty acids)"
+        },
+        {
+          "en": "Amino acids",
+          "hi": "अमीनो एसिड"
+        },
+        {
+          "en": "Monosaccharides",
+          "hi": "मोनोसैकेराइड"
+        },
+        {
+          "en": "Nucleotides",
+          "hi": "न्यूक्लियोटाइड्स"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+        "en": "Proteins are complex, high molecular mass macromolecules composed of one or more chains of $\\alpha$-amino acids linked by peptide bonds.",
+        "hi": "प्रोटीन जटिल, उच्च आणविक द्रव्यमान वाले मैक्रोमोलेक्यूल्स हैं जो पेप्टाइड बांड द्वारा जुड़ी $\\alpha$-अमीनो एसिड की एक या अधिक श्रृंखलाओं से बने होते हैं।"
+      }
+    },
+    {
+      "id": "t3",
+      "type": "mcq",
+      "question": {
+        "en": "Which nitrogenous base is present in DNA but absent in RNA?",
+        "hi": "कौन सा नाइट्रोजनी क्षार (nitrogenous base) DNA में मौजूद है लेकिन RNA में अनुपस्थित है?"
+      },
+      "options": [
+        {
+          "en": "Adenine",
+          "hi": "एडेनिन (Adenine)"
+        },
+        {
+          "en": "Guanine",
+          "hi": "गुआनिन (Guanine)"
+        },
+        {
+          "en": "Cytosine",
+          "hi": "साइटोसिन (Cytosine)"
+        },
+        {
+          "en": "Thymine",
+          "hi": "थाइमिन (Thymine)"
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": {
+        "en": "DNA contains Adenine, Guanine, Cytosine, and Thymine. RNA contains Adenine, Guanine, Cytosine, and Uracil. Thus, Thymine is unique to DNA.",
+        "hi": "DNA में एडेनिन, गुआनिन, साइटोसिन और थाइमिन होते हैं। RNA में एडेनिन, गुआनिन, साइटोसिन और यूरैसिल होते हैं। इस प्रकार, थाइमिन DNA के लिए अद्वितीय है।"
+      }
+    },
+    {
+      "id": "t4",
+      "type": "mcq",
+      "question": {
+        "en": "The linkage that holds the two strands of a DNA molecule together is:",
+        "hi": "वह बंधन जो DNA अणु के दो स्ट्रैंड को एक साथ रखता है:"
+      },
+      "options": [
+        {
+          "en": "Glycosidic bond",
+          "hi": "ग्लाइकोसिडिक (Glycosidic) बांड"
+        },
+        {
+          "en": "Peptide bond",
+          "hi": "पेप्टाइड (Peptide) बांड"
+        },
+        {
+          "en": "Hydrogen bond",
+          "hi": "हाइड्रोजन बांड"
+        },
+        {
+          "en": "Phosphodiester bond",
+          "hi": "फॉस्फोडाइस्टर (Phosphodiester) बांड"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+        "en": "The two strands of DNA are held together by specific hydrogen bonds between complementary base pairs (A pairs with T via 2 H-bonds, C pairs with G via 3 H-bonds).",
+        "hi": "DNA के दो स्ट्रैंड पूरक बेस जोड़े (A, T के साथ 2 H-बांड के माध्यम से, C, G के साथ 3 H-बांड के माध्यम से) के बीच विशिष्ट हाइड्रोजन बांड द्वारा एक साथ रखे जाते हैं।"
+      }
+    },
+    {
+      "id": "t5",
+      "type": "mcq",
+      "question": {
+        "en": "Deficiency of Vitamin C causes:",
+        "hi": "विटामिन C की कमी से होता है:"
+      },
+      "options": [
+        {
+          "en": "Scurvy",
+          "hi": "स्कर्वी (Scurvy)"
+        },
+        {
+          "en": "Night blindness",
+          "hi": "रतौंधी (Night blindness)"
+        },
+        {
+          "en": "Beriberi",
+          "hi": "बेरीबेरी (Beriberi)"
+        },
+        {
+          "en": "Rickets",
+          "hi": "रिकेट्स (Rickets)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+        "en": "Vitamin C (Ascorbic acid) deficiency leads to Scurvy (bleeding gums). Night blindness is Vitamin A, Beriberi is Vitamin B1, and Rickets is Vitamin D deficiency.",
+        "hi": "विटामिन C (एस्कॉर्बिक एसिड) की कमी से स्कर्वी (मसूड़ों से खून आना) होता है। रतौंधी विटामिन A है, बेरीबेरी विटामिन B1 है, और रिकेट्स विटामिन D की कमी है।"
+      }
+    }
+  ]
+}

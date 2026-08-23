@@ -5,26 +5,32 @@
       "en": "Hardy-Weinberg Equation",
       "hi": "हार्डी-वेनबर्ग समीकरण"
     },
-    "formula": "p^2 + 2pq + q^2 = 1",
+    "formula": "p^2 + 2pq + q^2 = 1 \\quad \\text{and} \\quad p + q = 1",
     "variables": [
       {
         "name": "p",
-        "description": {
-          "en": "Frequency of dominant allele",
-          "hi": "प्रभावी एलील की आवृत्ति"
-        }
+        "description": { "en": "Frequency of the dominant allele in the population", "hi": "जनसंख्या में प्रभावी एलील की आवृत्ति" }
       },
       {
         "name": "q",
-        "description": {
-          "en": "Frequency of recessive allele",
-          "hi": "अप्रभावी एलील की आवृत्ति"
-        }
+        "description": { "en": "Frequency of the recessive allele in the population", "hi": "जनसंख्या में अप्रभावी एलील की आवृत्ति" }
+      },
+      {
+        "name": "p^2",
+        "description": { "en": "Frequency of homozygous dominant individuals (AA)", "hi": "समयुग्मजी प्रभावी व्यक्तियों (AA) की आवृत्ति" }
+      },
+      {
+        "name": "q^2",
+        "description": { "en": "Frequency of homozygous recessive individuals (aa)", "hi": "समयुग्मजी अप्रभावी व्यक्तियों (aa) की आवृत्ति" }
+      },
+      {
+        "name": "2pq",
+        "description": { "en": "Frequency of heterozygous individuals (Aa)", "hi": "विषमयुग्मजी व्यक्तियों (Aa) की आवृत्ति" }
       }
     ],
     "applications": {
-      "en": "Used to calculate allele frequencies in a population.",
-      "hi": "समष्टि में एलील आवृत्तियों की गणना करने के लिए उपयोग किया जाता है।"
+      "en": "Used to calculate the genetic variation of a population at equilibrium. Any disturbance in genetic equilibrium (Hardy-Weinberg equilibrium) would result in evolution.",
+      "hi": "संतुलन (equilibrium) पर जनसंख्या की आनुवंशिक विविधता की गणना करने के लिए उपयोग किया जाता है। आनुवंशिक संतुलन (हार्डी-वेनबर्ग संतुलन) में कोई भी गड़बड़ी विकास का कारण बनेगी।"
     }
   }
 ]

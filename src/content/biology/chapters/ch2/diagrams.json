@@ -2,13 +2,17 @@
   {
     "id": "dia1",
     "title": {
-      "en": "Structure of Sperm",
-      "hi": "शुक्राणु की संरचना"
+      "en": "Structure of a Human Sperm",
+      "hi": "मानव शुक्राणु की संरचना"
     },
     "description": {
-      "en": "Sperm has a Head (with acrosome & nucleus), Neck, Middle piece (with mitochondria), and Tail.",
-      "hi": "शुक्राणु में एक सिर (एक्रोसोम और केंद्रक के साथ), गर्दन, मध्य भाग (माइटोकॉन्ड्रिया के साथ) और पूंछ होती है।"
+      "en": "A diagrammatic representation of a mature human sperm, showing the head (with acrosome and nucleus), neck, middle piece (containing mitochondria), and tail.",
+      "hi": "एक परिपक्व मानव शुक्राणु का चित्रमय प्रतिनिधित्व, जिसमें सिर (एक्रोसोम और केंद्रक के साथ), गर्दन, मध्य खंड (माइटोकॉन्ड्रिया युक्त) और पूंछ दिखाई गई है।"
     },
-    "svgCode": "<svg width='200' height='200' viewBox='0 0 200 200'><path d='M50,100 Q70,70 90,100 T150,100' fill='none' stroke='blue' stroke-width='4'/><circle cx='40' cy='100' r='15' fill='lightblue'/><text x='30' y='105' font-size='10'>Head</text></svg>"
+    "svgCode": "<svg viewBox='0 0 800 300' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.membrane{fill:none;stroke:#3b82f6;stroke-width:2;}.acrosome{fill:#fef08a;stroke:#ca8a04;stroke-width:2;}.nucleus{fill:#fca5a5;stroke:#ef4444;stroke-width:2;}.midpiece{fill:#bbf7d0;stroke:#22c55e;stroke-width:2;}.mito{fill:none;stroke:#166534;stroke-width:2;}.tail{fill:none;stroke:#94a3b8;stroke-width:4;}.text-label{font-size:14px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.pointer{stroke:#475569;stroke-width:1;}</style><rect width='100%' height='100%' class='bg'/><g transform='translate(100, 150)'><path d='M0 -25 C40 -25, 70 -20, 80 0 C70 20, 40 25, 0 25 Z' class='acrosome'/><path d='M-60 -20 C0 -20, 0 20, -60 20 C-90 20, -90 -20, -60 -20 Z' class='nucleus'/><path d='M-100 -28 C100 -28, 100 28, -100 28' class='membrane'/><path d='M-90 -15 L-120 -15 L-120 15 L-90 15 Z' class='midpiece'/><path d='M-90 -15 L-100 15 M-100 -15 L-110 15 M-110 -15 L-120 15' class='mito'/><path d='M-120 0 L-400 0' class='tail'/></g><g transform='translate(100, 150)'><line x1='40' y1='-15' x2='40' y2='-70' class='pointer'/><text x='40' y='-80' class='text-label' text-anchor='middle'>Acrosome</text><line x1='-40' y1='-15' x2='-40' y2='-110' class='pointer'/><text x='-40' y='-120' class='text-label' text-anchor='middle'>Nucleus containing chromosomal material</text><line x1='-105' y1='20' x2='-105' y2='80' class='pointer'/><text x='-105' y='100' class='text-label' text-anchor='middle'>Middle piece (Mitochondria)</text><line x1='-250' y1='-5' x2='-250' y2='-70' class='pointer'/><text x='-250' y='-80' class='text-label' text-anchor='middle'>Tail</text><line x1='20' y1='30' x2='20' y2='80' class='pointer'/><text x='20' y='100' class='text-label' text-anchor='middle'>Plasma membrane</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 140, "y": 70, "text": { "en": "Head Region", "hi": "सिर क्षेत्र" } },
+      { "id": "l2", "x": 20, "y": 250, "text": { "en": "Energy source for swimming", "hi": "तैरने के लिए ऊर्जा स्रोत" } }
+    ]
   }
 ]

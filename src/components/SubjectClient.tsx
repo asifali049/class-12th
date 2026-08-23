@@ -3,7 +3,7 @@
 import { SubjectData } from "@/data/syllabus";
 
 import { motion } from "framer-motion";
-import { ArrowLeft, Bookmark, Search, Maximize2, Share2, PenTool, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Bookmark, Search, Maximize2, Share2, PenTool, CheckCircle2, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -18,6 +18,7 @@ import DerivationRenderer from "@/components/DerivationRenderer";
 import NumericalRenderer from "@/components/NumericalRenderer";
 import DiagramRenderer from "@/components/DiagramRenderer";
 import MindMapRenderer from "@/components/MindMapRenderer";
+import FlashcardRenderer from "./FlashcardRenderer";
 import { ContentSkeleton } from "@/components/SkeletonLoader";
 
 interface SubjectClientProps {
@@ -31,6 +32,8 @@ interface SubjectClientProps {
   allNumericals: Record<string, any[]>;
   allDiagrams: Record<string, any[]>;
   allMindMaps: Record<string, any>;
+  allTests: Record<string, any>;
+  allFlashcards: Record<string, any[]>;
 }
 
 export default function SubjectClient({
@@ -43,7 +46,9 @@ export default function SubjectClient({
   allDerivations,
   allNumericals,
   allDiagrams,
-  allMindMaps
+  allMindMaps,
+  allTests,
+  allFlashcards
 }: SubjectClientProps) {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("notes");
@@ -51,6 +56,7 @@ export default function SubjectClient({
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Record<string, boolean>>({});
   const [language, setLanguage] = useState<"Hindi" | "English" | "Hinglish">("Hindi");
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleChapterChange = (id: string) => {
     if (id === activeChapterId) return;
@@ -144,15 +150,39 @@ export default function SubjectClient({
               </h1>
 
               {/* Mobile Chapter Dropdown */}
-              <select
-                className="md:hidden text-sm font-bold text-slate-900 dark:text-slate-100 bg-transparent border-none focus:ring-0 cursor-pointer max-w-[200px] truncate"
-                value={activeChapterId}
-                onChange={(e) => handleChapterChange(e.target.value)}
-              >
-                {subject.chapters.map(ch => (
-                  <option key={ch.id} value={ch.id}>{ch.name}</option>
-                ))}
-              </select>
+              <div className="md:hidden relative">
+                <button 
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                  className="flex items-center gap-1 text-sm font-bold text-slate-900 dark:text-slate-100 max-w-[200px]"
+                >
+                  <span className="truncate">Chapter {activeChapter.id.replace('ch', '')}: {activeChapter.name}</span>
+                  <ChevronDown className="w-4 h-4 shrink-0 text-slate-500" />
+                </button>
+                
+                {isMobileMenuOpen && (
+                  <>
+                    <div 
+                      className="fixed inset-0 z-40"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    />
+                    <div className="absolute top-full mt-2 left-0 w-64 bg-white dark:bg-slate-900 rounded-xl shadow-xl border border-slate-200 dark:border-slate-800 z-50 overflow-hidden py-1 max-h-[60vh] overflow-y-auto">
+                      {subject.chapters.map(ch => (
+                        <button
+                          key={ch.id}
+                          onClick={() => {
+                            handleChapterChange(ch.id);
+                            setIsMobileMenuOpen(false);
+                          }}
+                          className={`w-full text-left px-4 py-3 text-sm transition-colors ${ch.id === activeChapterId ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 font-bold' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800'}`}
+                        >
+                          <div className="truncate">Chapter {ch.id.replace('ch', '')}: {ch.name}</div>
+                          {ch.hindiName && <div className="text-[10px] text-slate-500 mt-0.5 truncate">{ch.hindiName}</div>}
+                        </button>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
 
               <div className="flex items-center gap-1 text-[10px] font-semibold text-green-600 dark:text-green-500 bg-green-50 dark:bg-green-900/30 px-1.5 py-0.5 rounded-full border border-green-100 dark:border-green-800 w-fit mt-0.5">
                 <CheckCircle2 className="w-3 h-3" /> UPMSP Verified
@@ -186,7 +216,7 @@ export default function SubjectClient({
 
         {/* Tab Navigation */}
         <div className="flex border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 sticky top-0 z-20 overflow-x-auto scrollbar-hide hide-scrollbar whitespace-nowrap px-4 md:px-0 md:justify-center">
-          {['notes', 'formula', 'derivations', 'numericals', 'questions', 'diagrams', 'mind map', 'revision', 'test'].map((tab) => (
+          {['notes', 'formula', 'derivations', 'numericals', 'questions', 'diagrams', 'mind map', 'revision', 'test', 'flashcards'].map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -212,6 +242,21 @@ export default function SubjectClient({
             className="w-full max-w-[860px] mx-auto bg-white dark:bg-slate-950 min-h-[1056px] shadow-sm md:shadow-md rounded-none md:rounded-lg notebook-bg notebook-margin overflow-hidden relative"
           >
             <div className={`pl-[48px] pr-[24px] md:pl-[72px] md:pr-[48px] pt-12 pb-48`}>
+            
+              {/* Chapter Header inside content for context, especially useful on mobile */}
+              <div className="mb-8 pb-6 border-b-2 border-dashed border-slate-200 dark:border-slate-800">
+                <span className="inline-block px-3 py-1 mb-3 text-xs font-black tracking-widest uppercase bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-lg">
+                  Chapter {activeChapter.id.replace('ch', '')}
+                </span>
+                <h2 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-slate-100 leading-tight">
+                  {activeChapter.name}
+                </h2>
+                {activeChapter.hindiName && (
+                  <p className="text-lg md:text-xl font-bold text-slate-500 dark:text-slate-400 mt-2 font-hindi">
+                    {activeChapter.hindiName}
+                  </p>
+                )}
+              </div>
 
               {isTransitioning ? (
                 <ContentSkeleton />
@@ -228,7 +273,8 @@ export default function SubjectClient({
                       {activeTab === 'diagrams' && <DiagramRenderer diagrams={allDiagrams[chapterKey] || []} language={lang} />}
                       {activeTab === 'mind map' && <MindMapRenderer mindmap={allMindMaps[chapterKey]} language={lang} />}
                       {activeTab === 'revision' && <RevisionRenderer revisions={allRevisions[chapterKey] || []} language={lang} />}
-                      {activeTab === 'test' && <TestRenderer questions={allQuestions[chapterKey] || []} language={lang} />}
+                      {activeTab === 'test' && <TestRenderer test={allTests[chapterKey]} language={lang} />}
+                      {activeTab === 'flashcards' && <FlashcardRenderer flashcards={allFlashcards[chapterKey] || []} language={lang} />}
                     </>
                   );
                 })()

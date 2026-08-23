@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Maturation of Proinsulin into Insulin",
+      "hi": "प्रोइंसुलिन का इंसुलिन में परिपक्वन (Maturation)"
+    },
+    "description": {
+      "en": "Schematic representation showing the structure of Proinsulin with A, B, and C peptides, and how the C peptide is removed during maturation to form functional Insulin with disulfide bonds.",
+      "hi": "A, B, और C पेप्टाइड्स के साथ प्रोइंसुलिन की संरचना, और कार्यात्मक इंसुलिन बनाने के लिए परिपक्वन के दौरान C पेप्टाइड को कैसे हटा दिया जाता है, यह दिखाने वाला योजनाबद्ध प्रतिनिधित्व।"
+    },
+    "svgCode": "<svg viewBox='0 0 600 400' xmlns='http://www.w3.org/2000/svg'><style>.bg{fill:#f8fafc;}.chain-a{fill:none;stroke:#3b82f6;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;}.chain-b{fill:none;stroke:#ef4444;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;}.chain-c{fill:none;stroke:#22c55e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:5,5;}.disulfide{stroke:#1e293b;stroke-width:3;stroke-dasharray:2,2;}.text-main{font-size:16px;font-family:sans-serif;fill:#1e293b;font-weight:bold;}.text-small{font-size:14px;font-family:sans-serif;fill:#475569;}.arrow{stroke:#64748b;stroke-width:3;marker-end:url(#arrowhead);}</style><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'><polygon points='0 0, 10 3.5, 0 7' fill='#64748b'/></marker></defs><rect width='100%' height='100%' class='bg'/><g transform='translate(20, 20)'><text x='150' y='20' class='text-main' text-anchor='middle'>Proinsulin</text><path d='M 50 100 Q 100 50 150 100 T 250 100' class='chain-a'/><path d='M 50 150 Q 100 200 150 150 T 250 150' class='chain-b'/><path d='M 250 100 C 300 80 300 170 250 150' class='chain-c'/><line x1='100' y1='87' x2='100' y2='163' class='disulfide'/><line x1='200' y1='87' x2='200' y2='163' class='disulfide'/><line x1='120' y1='87' x2='150' y2='87' class='disulfide'/><text x='150' y='80' class='text-small' fill='#3b82f6' text-anchor='middle'>A peptide</text><text x='150' y='180' class='text-small' fill='#ef4444' text-anchor='middle'>B peptide</text><text x='310' y='130' class='text-small' fill='#22c55e'>Free C peptide</text><line x1='280' y1='220' x2='280' y2='270' class='arrow'/><text x='300' y='250' class='text-small'>Maturation</text><text x='150' y='300' class='text-main' text-anchor='middle'>Insulin</text><path d='M 50 330 Q 100 310 150 330 T 250 330' class='chain-a'/><path d='M 50 370 Q 100 390 150 370 T 250 370' class='chain-b'/><line x1='100' y1='320' x2='100' y2='378' class='disulfide'/><line x1='200' y1='320' x2='200' y2='378' class='disulfide'/><line x1='120' y1='320' x2='150' y2='320' class='disulfide'/><text x='150' y='310' class='text-small' fill='#3b82f6' text-anchor='middle'>A peptide</text><text x='150' y='395' class='text-small' fill='#ef4444' text-anchor='middle'>B peptide</text><path d='M 380 330 C 430 310 430 390 380 370' class='chain-c'/><text x='430' y='355' class='text-small' fill='#22c55e'>Removed C peptide</text><text x='150' y='230' class='text-small' fill='#1e293b' text-anchor='middle' font-style='italic'>S-S (Disulfide bonds)</text></g></svg>",
+    "labels": [
+      { "id": "l1", "x": 100, "y": 90, "text": { "en": "Disulfide bond", "hi": "डाइसल्फ़ाइड बॉन्ड" } },
+      { "id": "l2", "x": 300, "y": 120, "text": { "en": "C-Peptide", "hi": "C-पेप्टाइड" } }
+    ]
+  }
+]

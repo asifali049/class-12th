@@ -2,16 +2,42 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "marks": 5,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Explain the process of double fertilization in angiosperms.",
+      "hi": "आवृतबीजियों में दोहरे निषेचन (double fertilization) की प्रक्रिया की व्याख्या कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "Double fertilization involves two key fusions inside the embryo sac. First, one male gamete fuses with the egg cell (syngamy) to form a diploid zygote, which later develops into an embryo. Second, the other male gamete fuses with the two polar nuclei (or secondary nucleus) in the central cell to form a triploid primary endosperm nucleus (PEN). This is known as triple fusion. The PEN develops into the endosperm, which provides nourishment to the growing embryo. Because two fusions (syngamy and triple fusion) occur in the same embryo sac, the phenomenon is termed double fertilization.",
+      "hi": "दोहरे निषेचन में भ्रूणकोष के अंदर दो प्रमुख संलयन होते हैं। पहला, एक नर युग्मक अंड कोशिका (syngamy) के साथ संलयन करके द्विगुणित युग्मनज बनाता है, जो बाद में भ्रूण में विकसित होता है। दूसरा, अन्य नर युग्मक केंद्रीय कोशिका में दो ध्रुवीय नाभिकों (या द्वितीयक केंद्रक) के साथ जुड़कर त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाता है। इसे त्रिसंलयन (triple fusion) के रूप में जाना जाता है। PEN भ्रूणपोष (endosperm) में विकसित होता है, जो बढ़ते भ्रूण को पोषण प्रदान करता है। चूँकि एक ही भ्रूणकोष में दो संलयन (syngamy और triple fusion) होते हैं, इसलिए इस घटना को दोहरा निषेचन कहा जाता है।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "syngamy", "hi": "युग्मक संलयन" },
+      { "en": "triple fusion", "hi": "त्रिसंलयन" },
+      { "en": "zygote", "hi": "युग्मनज" },
+      { "en": "endosperm", "hi": "भ्रूणपोष" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which part of the flower develops into a fruit after fertilization?",
+      "hi": "निषेचन के बाद पुष्प का कौन सा भाग फल में विकसित होता है?"
+    },
+    "options": [
+      { "en": "Ovule", "hi": "बीजांड" },
+      { "en": "Ovary", "hi": "अंडाशय" },
+      { "en": "Stigma", "hi": "वर्तिकाग्र" },
+      { "en": "Anther", "hi": "परागकोश" }
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "en": "After fertilization, the ovary develops into a fruit, and the ovules develop into seeds.",
+      "hi": "निषेचन के बाद, अंडाशय (ovary) फल में विकसित होता है, और बीजांड (ovules) बीज में विकसित होते हैं।"
+    }
   }
 ]

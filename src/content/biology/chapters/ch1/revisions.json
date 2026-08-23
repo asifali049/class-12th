@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Key Terminologies",
+      "hi": "प्रमुख शब्दावली",
+      "hinglish": "Important Terms"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Syngamy**: Fusion of male gamete with egg cell.\n**Triple Fusion**: Fusion of male gamete with secondary nucleus.\n**Parthenocarpy**: Development of fruit without fertilization (e.g., Banana).\n**Apomixis**: Production of seeds without fertilization.",
+      "hi": "**सिन्गैमी**: अंड कोशिका के साथ नर युग्मक का संलयन।\n**त्रिसंलयन**: द्वितीयक केंद्रक के साथ नर युग्मक का संलयन।\n**अनिषेकफलन (Parthenocarpy)**: निषेचन के बिना फल का विकास (उदा., केला)।\n**असंगजनन (Apomixis)**: निषेचन के बिना बीज का उत्पादन।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "Pollen = Male Gametophyte", "hi": "परागकण = नर युग्मकोद्भिद" },
+      { "en": "Embryo Sac = Female Gametophyte", "hi": "भ्रूणकोष = मादा युग्मकोद्भिद" }
+    ]
   }
 ]

@@ -3,15 +3,39 @@
     "id": "q1",
     "type": "subjective",
     "difficulty": "Medium",
-    "marks": 5,
+    "marks": 3,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Differentiate between Incomplete Dominance and Co-dominance.",
+      "hi": "अपूर्ण प्रभाविता (Incomplete Dominance) और सह-प्रभाविता (Co-dominance) के बीच अंतर स्पष्ट कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "In Incomplete Dominance, the phenotype of the F1 hybrid is intermediate between the two parents (e.g., Red x White = Pink flowers in Mirabilis jalapa). In Co-dominance, the F1 generation resembles both parents because both alleles express themselves equally (e.g., IA and IB alleles in human blood groups resulting in AB blood type).",
+      "hi": "अपूर्ण प्रभाविता में, F1 संकर का फेनोटाइप दोनों जनकों के बीच का मध्यवर्ती होता है (उदा., मिराबिलिस जलापा में लाल x सफेद = गुलाबी फूल)। सह-प्रभाविता में, F1 पीढ़ी दोनों जनकों के समान होती है क्योंकि दोनों युग्मविकल्पी (alleles) स्वयं को समान रूप से व्यक्त करते हैं (उदा., मानव रक्त समूहों में IA और IB युग्मविकल्पी जिसके परिणामस्वरूप AB रक्त प्रकार होता है)।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "intermediate phenotype", "hi": "मध्यवर्ती फेनोटाइप" },
+      { "en": "equally expressed", "hi": "समान रूप से व्यक्त" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is an example of a chromosomal disorder caused by trisomy of chromosome 21?",
+      "hi": "निम्नलिखित में से कौन सा गुणसूत्र 21 की ट्राइसॉमी के कारण होने वाला क्रोमोसोमल विकार का उदाहरण है?"
+    },
+    "options": [
+      { "en": "Turner's syndrome", "hi": "टर्नर सिंड्रोम" },
+      { "en": "Klinefelter's syndrome", "hi": "क्लाइनफेल्टर सिंड्रोम" },
+      { "en": "Down's syndrome", "hi": "डाउन सिंड्रोम" },
+      { "en": "Haemophilia", "hi": "हीमोफीलिया" }
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "en": "Down's syndrome is caused by the presence of an additional copy of chromosome number 21 (trisomy of 21).",
+      "hi": "डाउन सिंड्रोम गुणसूत्र संख्या 21 की एक अतिरिक्त प्रति (21 की ट्राइसॉमी) की उपस्थिति के कारण होता है।"
+    }
   }
 ]

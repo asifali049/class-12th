@@ -3,15 +3,39 @@
     "id": "q1",
     "type": "subjective",
     "difficulty": "Medium",
-    "marks": 5,
+    "marks": 3,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "What are IUDs? How do they act as contraceptives?",
+      "hi": "आईयूडी (IUDs) क्या हैं? वे गर्भनिरोधक के रूप में कैसे कार्य करते हैं?"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "IUDs (Intra Uterine Devices) are devices inserted into the uterus through the vagina by doctors. They increase phagocytosis of sperms within the uterus. Copper-releasing IUDs (like CuT) release Cu ions that suppress sperm motility and fertilizing capacity. Hormone-releasing IUDs (like LNG-20) make the uterus unsuitable for implantation and the cervix hostile to the sperms.",
+      "hi": "आईयूडी (Intra Uterine Devices) ऐसे उपकरण हैं जिन्हें डॉक्टरों द्वारा योनि के माध्यम से गर्भाशय में डाला जाता है। वे गर्भाशय के भीतर शुक्राणुओं के भक्षण (phagocytosis) को बढ़ाते हैं। कॉपर मोचक आईयूडी (जैसे CuT) Cu आयन छोड़ते हैं जो शुक्राणु की गतिशीलता और निषेचन क्षमता को दबा देते हैं। हार्मोन मोचक आईयूडी (जैसे LNG-20) गर्भाशय को अंतर्रोपण (implantation) के लिए अनुपयुक्त बनाते हैं और गर्भाशय ग्रीवा को शुक्राणुओं के विरोधी बनाते हैं।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "phagocytosis", "hi": "भक्षण" },
+      { "en": "motility", "hi": "गतिशीलता" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is a non-steroidal oral contraceptive pill developed in India?",
+      "hi": "निम्नलिखित में से कौन सी भारत में विकसित एक गैर-स्टेरायडल मौखिक गर्भनिरोधक गोली है?"
+    },
+    "options": [
+      { "en": "Mala-D", "hi": "माला-डी" },
+      { "en": "Saheli", "hi": "सहेली" },
+      { "en": "Levonorgestrel", "hi": "लेवोनोर्गेस्ट्रेल" },
+      { "en": "Progestasert", "hi": "प्रोजेस्टासर्ट" }
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "en": "'Saheli' is a non-steroidal, once-a-week pill developed by CDRI, Lucknow.",
+      "hi": "'सहेली' एक गैर-स्टेरायडल, सप्ताह में एक बार ली जाने वाली गोली है जिसे CDRI, लखनऊ द्वारा विकसित किया गया है।"
+    }
   }
 ]

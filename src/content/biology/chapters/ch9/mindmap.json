@@ -1,8 +1,27 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Biotechnology",
+    "hi": "जैव प्रौद्योगिकी"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Tools", "hi": "साधन" },
+      "children": [
+        { "id": "c1a", "label": { "en": "Enzymes (Restriction Endonuclease)", "hi": "एंजाइम (रेस्ट्रिक्शन एंडोन्यूक्लिएज)" } },
+        { "id": "c1b", "label": { "en": "Vectors (Plasmids)", "hi": "वैक्टर (प्लास्मिड)" } },
+        { "id": "c1c", "label": { "en": "Host Organism", "hi": "मेजबान जीव" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Processes", "hi": "प्रक्रियाएं" },
+      "children": [
+        { "id": "c2a", "label": { "en": "DNA Isolation & Cutting", "hi": "डीएनए अलगाव और काटना" } },
+        { "id": "c2b", "label": { "en": "PCR Amplification", "hi": "पीसीआर प्रवर्धन" } },
+        { "id": "c2c", "label": { "en": "Downstream Processing", "hi": "अनुप्रवाह संसाधन" } }
+      ]
+    }
+  ]
 }

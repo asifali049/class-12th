@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Organisms and Their Environment",
+      "hi": "जीव और उनका पर्यावरण"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "Ecology at the organismic level is essentially physiological ecology. Key abiotic factors include temperature, water, light, and soil. Organisms respond to these abiotic factors through various mechanisms: Regulate (maintaining homeostasis, e.g., mammals), Conform (cannot maintain a constant internal environment), Migrate (moving away temporarily), and Suspend (e.g., hibernation in bears, aestivation in snails).",
+      "hi": "जीव के स्तर पर पारिस्थितिकी (Ecology) अनिवार्य रूप से शारीरिक पारिस्थितिकी है। प्रमुख अजैविक (abiotic) कारकों में तापमान, पानी, प्रकाश और मिट्टी शामिल हैं। जीव इन अजैविक कारकों के प्रति विभिन्न तंत्रों के माध्यम से प्रतिक्रिया करते हैं: नियमन/Regulate (समस्थापन बनाए रखना, उदा., स्तनधारी), संरूपण/Conform (निरंतर आंतरिक वातावरण नहीं बनाए रख सकते), प्रवास/Migrate (अस्थायी रूप से दूर जाना), और निलंबन/Suspend (उदा., भालू में शीतनिष्क्रियता/hibernation, घोंघे में ग्रीष्मनिष्क्रियता/aestivation)।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Populations and Population Growth",
+      "hi": "समष्टियाँ (Populations) और समष्टि वृद्धि"
+    },
+    "content": {
+      "en": "A population is a group of individuals of the same species living in a well-defined geographical area. Population attributes include birth rates, death rates, sex ratio, and age distribution. Population growth is determined by Natality (births), Mortality (deaths), Immigration, and Emigration. Growth models are of two types: Exponential growth (J-shaped curve, unlimited resources) and Logistic growth (S-shaped curve, carrying capacity limit).",
+      "hi": "एक समष्टि (population) एक अच्छी तरह से परिभाषित भौगोलिक क्षेत्र में रहने वाले एक ही प्रजाति के व्यक्तियों का एक समूह है। समष्टि के गुणों में जन्म दर, मृत्यु दर, लिंग अनुपात और आयु वितरण शामिल हैं। समष्टि वृद्धि जन्म दर (Natality), मृत्यु दर (Mortality), आप्रवासन (Immigration) और उत्प्रवास (Emigration) द्वारा निर्धारित होती है। वृद्धि मॉडल दो प्रकार के होते हैं: चरघातांकी वृद्धि (Exponential growth - जे-आकार का वक्र, असीमित संसाधन) और लॉजिस्टिक वृद्धि (Logistic growth - एस-आकार का वक्र, वहन क्षमता सीमा/carrying capacity)।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Population Interactions",
+      "hi": "समष्टि पारस्परिक क्रियाएँ (Population Interactions)"
+    },
+    "content": {
+      "en": "Populations of different species often interact. These interactions can be beneficial (+), detrimental (-), or neutral (0). Examples include Mutualism (+/+, e.g., Lichens), Competition (-/-), Predation (+/-, e.g., Tiger and Deer), Parasitism (+/-, e.g., Ticks on dogs), Commensalism (+/0, e.g., Orchid on a mango tree), and Amensalism (-/0).",
+      "hi": "विभिन्न प्रजातियों की समष्टियाँ अक्सर परस्पर क्रिया करती हैं। ये क्रियाएँ लाभदायक (+), हानिकारक (-), या तटस्थ (0) हो सकती हैं। उदाहरणों में सहोपकारिता/Mutualism (+/+, उदा., लाइकेन), प्रतिस्पर्धा/Competition (-/-), परभक्षण/Predation (+/-, उदा., बाघ और हिरण), परजीविता/Parasitism (+/-, उदा., कुत्तों पर टिक्स), सहभोजिता/Commensalism (+/0, उदा., आम के पेड़ पर आर्किड), और अंतरजातीय परजीविता/Amensalism (-/0) शामिल हैं।"
     }
   }
 ]

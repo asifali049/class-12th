@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Principles of Biotechnology",
+      "hi": "जैव प्रौद्योगिकी के सिद्धांत"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "Biotechnology deals with techniques of using live organisms or their enzymes to produce products useful to humans. The core techniques are genetic engineering (altering the chemistry of genetic material, DNA/RNA) and bioprocess engineering (maintaining sterile environment to grow only the desired microbe). Paul Berg is known as the father of genetic engineering.",
+      "hi": "जैव प्रौद्योगिकी मनुष्यों के लिए उपयोगी उत्पादों के उत्पादन के लिए जीवित जीवों या उनके एंजाइमों का उपयोग करने की तकनीकों से संबंधित है। मुख्य तकनीकें हैं आनुवंशिक इंजीनियरिंग (आनुवंशिक पदार्थ, डीएनए/आरएनए के रसायन विज्ञान को बदलना) और बायोप्रोसेस इंजीनियरिंग (केवल वांछित सूक्ष्म जीव को उगाने के लिए जीवाणुहीन/sterile वातावरण बनाए रखना)। पॉल बर्ग को आनुवंशिक इंजीनियरिंग के पिता के रूप में जाना जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Tools of Recombinant DNA Technology",
+      "hi": "पुनर्योगज डीएनए तकनीक के साधन (Tools of rDNA Technology)"
+    },
+    "content": {
+      "en": "Key tools include Restriction Enzymes (molecular scissors, e.g., EcoRI) which cut DNA at specific palindromic sequences. Cloning Vectors (e.g., pBR322) act as vehicles to carry the alien DNA into the host cell. Ligase enzymes join the DNA fragments. Competent host cells (like E. coli) receive the recombinant DNA.",
+      "hi": "प्रमुख साधनों में रेस्ट्रिक्शन एंजाइम (आणविक कैंची, उदा., EcoRI) शामिल हैं जो विशिष्ट पैलिंड्रोमिक अनुक्रमों पर डीएनए को काटते हैं। क्लोनिंग वैक्टर (उदा., pBR322) विदेशी डीएनए को मेजबान (host) कोशिका में ले जाने के लिए वाहन के रूप में कार्य करते हैं। लाइगेज एंजाइम डीएनए खंडों को जोड़ते हैं। सक्षम मेजबान कोशिकाएं (जैसे ई. कोलाई) पुनर्योगज डीएनए (recombinant DNA) प्राप्त करती हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Processes of Recombinant DNA Technology",
+      "hi": "पुनर्योगज डीएनए तकनीक की प्रक्रियाएं"
+    },
+    "content": {
+      "en": "The steps include isolation of DNA, cutting of DNA by restriction endonucleases, amplification of the gene of interest using PCR (Polymerase Chain Reaction), insertion of recombinant DNA into the host, culturing the host cells in a bioreactor at a large scale, and finally downstream processing (separation and purification of the product).",
+      "hi": "चरणों में डीएनए का अलगाव (isolation), रेस्ट्रिक्शन एंडोन्यूक्लिएज द्वारा डीएनए को काटना, पीसीआर (पोलीमरेज़ चेन रिएक्शन) का उपयोग करके रुचि के जीन का प्रवर्धन (amplification), मेजबान में पुनर्योगज डीएनए का प्रवेश, बड़े पैमाने पर बायोरिएक्टर में मेजबान कोशिकाओं का संवर्धन, और अंत में अनुप्रवाह संसाधन (downstream processing - उत्पाद का पृथक्करण और शुद्धिकरण) शामिल हैं।"
     }
   }
 ]

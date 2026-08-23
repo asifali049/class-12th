@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Male and Female Reproductive Systems",
+      "hi": "नर और मादा जनन तंत्र"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "The male reproductive system consists of a pair of testes, accessory ducts, glands, and the external genitalia. Testes produce sperms through spermatogenesis. The female reproductive system consists of a pair of ovaries, oviducts (fallopian tubes), uterus, cervix, vagina, and the external genitalia. Ovaries produce ova through oogenesis.",
+      "hi": "नर जनन तंत्र में एक जोड़ी वृषण (testes), सहायक नलिकाएं, ग्रंथियां और बाह्य जननांग शामिल हैं। वृषण शुक्रजनन (spermatogenesis) के माध्यम से शुक्राणु पैदा करते हैं। मादा जनन तंत्र में एक जोड़ी अंडाशय (ovaries), अंडवाहिनी (fallopian tubes), गर्भाशय, गर्भाशय ग्रीवा (cervix), योनि (vagina) और बाह्य जननांग शामिल हैं। अंडाशय अंडजनन (oogenesis) के माध्यम से अंडाणु पैदा करते हैं।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Menstrual Cycle",
+      "hi": "आर्तव चक्र (Menstrual Cycle)"
+    },
+    "content": {
+      "en": "The reproductive cycle in female primates is called the menstrual cycle. It consists of four phases: Menstrual phase, Follicular phase, Ovulatory phase (release of ovum on the 14th day), and Luteal phase. These phases are regulated by pituitary hormones (LH, FSH) and ovarian hormones (estrogen, progesterone).",
+      "hi": "मादा प्राइमेट्स में जनन चक्र को आर्तव चक्र कहा जाता है। इसके चार चरण होते हैं: आर्तव अवस्था (Menstrual phase), पुटकीय अवस्था (Follicular phase), अंडोत्सर्ग अवस्था (Ovulatory phase - 14वें दिन अंडाणु का निकलना), और पीत अवस्था (Luteal phase)। इन चरणों को पीयूष ग्रंथि हार्मोन (LH, FSH) और डिम्बग्रंथि हार्मोन (एस्ट्रोजन, प्रोजेस्टेरोन) द्वारा नियंत्रित किया जाता है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Fertilization and Implantation",
+      "hi": "निषेचन और अंतर्रोपण (Fertilization and Implantation)"
+    },
+    "content": {
+      "en": "Fertilization is the fusion of a sperm with an ovum, occurring in the ampullary region of the fallopian tube, forming a zygote. The zygote undergoes cleavage to form a blastocyst. Implantation is the attachment of the blastocyst to the uterine endometrium, leading to pregnancy.",
+      "hi": "निषेचन एक शुक्राणु का अंडाणु के साथ संलयन है, जो अंडवाहिनी के एम्पुलरी (तुंबिका) क्षेत्र में होता है, जिससे युग्मनज (zygote) बनता है। युग्मनज में विदलन (cleavage) होता है जिससे कोरकपुटी (blastocyst) बनता है। अंतर्रोपण (Implantation) गर्भाशय के एंडोमेट्रियम से कोरकपुटी का जुड़ना है, जिससे गर्भावस्था (pregnancy) होती है।"
     }
   }
 ]

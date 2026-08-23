@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "DNA Structure and Replication",
+      "hi": "डीएनए की संरचना और प्रतिकृति"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "DNA (Deoxyribonucleic acid) is the genetic material in most organisms. Watson and Crick proposed the Double Helix model of DNA based on X-ray diffraction data. DNA replication is semi-conservative, meaning each new DNA molecule contains one parental strand and one newly synthesized strand, proven by Meselson and Stahl's experiment.",
+      "hi": "डीएनए (Deoxyribonucleic acid) अधिकांश जीवों में आनुवंशिक पदार्थ है। वॉटसन और क्रिक ने एक्स-रे विवर्तन डेटा के आधार पर डीएनए का डबल हेलिक्स मॉडल प्रस्तावित किया। डीएनए प्रतिकृति (replication) अर्ध-संरक्षी (semi-conservative) है, जिसका अर्थ है कि प्रत्येक नए डीएनए अणु में एक पैतृक रज्जुक (strand) और एक नव-संश्लेषित रज्जुक होता है, जो मेसल्सन और स्टाल के प्रयोग द्वारा सिद्ध हुआ।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Transcription and Translation",
+      "hi": "अनुलेखन (Transcription) और स्थानांतरण (Translation)"
+    },
+    "content": {
+      "en": "Transcription is the process of copying genetic information from one strand of DNA into RNA. In eukaryotes, it occurs in the nucleus. Translation is the process of polymerization of amino acids to form a polypeptide (protein), which takes place in the ribosomes based on the mRNA sequence.",
+      "hi": "अनुलेखन (Transcription) डीएनए के एक रज्जुक से आनुवंशिक जानकारी को आरएनए में कॉपी करने की प्रक्रिया है। यूकेरियोट्स में, यह केंद्रक में होता है। स्थानांतरण (Translation) एमिनो एसिड के बहुलकीकरण (polymerization) की प्रक्रिया है जिससे पॉलीपेप्टाइड (प्रोटीन) बनता है, जो mRNA अनुक्रम के आधार पर राइबोसोम में होता है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Human Genome Project and DNA Fingerprinting",
+      "hi": "मानव जीनोम परियोजना और डीएनए फिंगरप्रिंटिंग"
+    },
+    "content": {
+      "en": "The Human Genome Project (HGP) aimed to sequence the entire human genome. DNA fingerprinting (profiling) is a technique used to identify individuals based on variations in their DNA sequences (VNTRs), developed by Alec Jeffreys.",
+      "hi": "मानव जीनोम परियोजना (HGP) का उद्देश्य पूरे मानव जीनोम का अनुक्रमण करना था। डीएनए फिंगरप्रिंटिंग एक तकनीक है जिसका उपयोग व्यक्तियों को उनके डीएनए अनुक्रमों (VNTRs) में भिन्नता के आधार पर पहचानने के लिए किया जाता है, जिसे एलेक जेफ़रीज़ ने विकसित किया था।"
     }
   }
 ]

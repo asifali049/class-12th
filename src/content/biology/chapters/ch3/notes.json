@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Reproductive Health - Problems and Strategies",
+      "hi": "जनन स्वास्थ्य - समस्याएँ और कार्यनीतियाँ"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "According to WHO, reproductive health means total well-being in all aspects of reproduction (physical, emotional, behavioral, and social). India initiated 'family planning' programs in 1951, which evolved into Reproductive and Child Health Care (RCH) programs. Key strategies include creating awareness about sex-related aspects, providing medical assistance during pregnancy and delivery, and preventing sexually transmitted infections (STIs).",
+      "hi": "विश्व स्वास्थ्य संगठन (WHO) के अनुसार, जनन स्वास्थ्य का अर्थ जनन के सभी पहलुओं (शारीरिक, भावनात्मक, व्यवहारिक और सामाजिक) में पूर्ण कल्याण है। भारत ने 1951 में 'परिवार नियोजन' कार्यक्रम शुरू किए, जो बाद में जनन एवं बाल स्वास्थ्य देखभाल (RCH) कार्यक्रमों में विकसित हुए। प्रमुख रणनीतियों में यौन संबंधी पहलुओं के बारे में जागरूकता पैदा करना, गर्भावस्था और प्रसव के दौरान चिकित्सा सहायता प्रदान करना और यौन संचारित संक्रमण (STIs) को रोकना शामिल है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Contraceptive Methods",
+      "hi": "गर्भनिरोधक विधियाँ (Contraceptive Methods)"
+    },
+    "content": {
+      "en": "An ideal contraceptive should be user-friendly, easily available, effective, and reversible. Methods include: 1. Natural/Traditional (Periodic abstinence, Coitus interruptus). 2. Barrier (Condoms, Diaphragms). 3. IUDs (Copper T, LNG-20). 4. Oral contraceptives (Pills like 'Saheli'). 5. Injectables and Implants. 6. Surgical methods (Vasectomy in males, Tubectomy in females).",
+      "hi": "एक आदर्श गर्भनिरोधक उपयोग में आसान, आसानी से उपलब्ध, प्रभावी और उत्क्रमणीय (reversible) होना चाहिए। विधियों में शामिल हैं: 1. प्राकृतिक/पारंपरिक (आवधिक संयम, बाह्य स्खलन)। 2. रोध/बैरियर (कंडोम, डायाफ्राम)। 3. IUD (कॉपर टी, LNG-20)। 4. मौखिक गर्भनिरोधक (गोलियां जैसे 'सहेली')। 5. इंजेक्शन और प्रत्यारोपण। 6. शल्य चिकित्सा विधियाँ (पुरुषों में पुरुष नसबंदी/Vasectomy, महिलाओं में स्त्री नसबंदी/Tubectomy)।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Infertility and ART",
+      "hi": "बंध्यता (Infertility) और ART"
+    },
+    "content": {
+      "en": "Infertility is the inability to produce children despite unprotected sexual cohabitation. Assisted Reproductive Technologies (ART) help such couples. Examples include IVF (In Vitro Fertilization) followed by ET (Embryo Transfer) like ZIFT and IUT. Other methods include GIFT (Gamete Intra Fallopian Transfer) and ICSI (Intracytoplasmic Sperm Injection).",
+      "hi": "बंध्यता असुरक्षित यौन सहवास के बावजूद बच्चे पैदा करने में असमर्थता है। सहायक जनन प्रौद्योगिकियां (ART) ऐसे जोड़ों की मदद करती हैं। उदाहरणों में आईवीएफ (In Vitro Fertilization) शामिल है जिसके बाद ईटी (Embryo Transfer) जैसे ZIFT और IUT किया जाता है। अन्य तरीकों में GIFT (Gamete Intra Fallopian Transfer) और ICSI (Intracytoplasmic Sperm Injection) शामिल हैं।"
     }
   }
 ]

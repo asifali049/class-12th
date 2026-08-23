@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Biotechnological Applications in Agriculture",
+      "hi": "कृषि में जैव प्रौद्योगिकी के अनुप्रयोग"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "Genetically Modified Organisms (GMOs) are plants, bacteria, fungi, or animals whose genes have been altered. In agriculture, biotechnology is used to create pest-resistant plants like Bt Cotton. Bt stands for Bacillus thuringiensis, a bacterium that produces a toxic crystal protein (Cry protein) which kills certain insects like bollworms.",
+      "hi": "आनुवंशिक रूप से संशोधित जीव (GMOs) वे पौधे, बैक्टीरिया, कवक या जानवर हैं जिनके जीन को बदल दिया गया है। कृषि में, जैव प्रौद्योगिकी का उपयोग कीट-प्रतिरोधी पौधे (pest-resistant) बनाने के लिए किया जाता है जैसे Bt कपास। Bt का अर्थ बैसिलस थुरिंजिएंसिस है, एक जीवाणु जो एक विषाक्त क्रिस्टल प्रोटीन (Cry प्रोटीन) पैदा करता है जो बॉलवर्म जैसे कुछ कीड़ों को मारता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Biotechnological Applications in Medicine",
+      "hi": "चिकित्सा में जैव प्रौद्योगिकी के अनुप्रयोग"
+    },
+    "content": {
+      "en": "Recombinant DNA technology allows mass production of safe and effective therapeutics. Examples include Genetically Engineered Insulin (Humulin) produced using E. coli by the company Eli Lilly in 1983. Another major application is Gene Therapy, which is a method to correct a gene defect diagnosed in a child or embryo (first used in 1990 to treat ADA deficiency).",
+      "hi": "पुनर्योगज डीएनए तकनीक सुरक्षित और प्रभावी चिकित्सा विज्ञान के बड़े पैमाने पर उत्पादन की अनुमति देती है। उदाहरणों में जेनेटिकली इंजीनियर्ड इंसुलिन (Humulin) शामिल है जिसका उत्पादन 1983 में एली लिली कंपनी द्वारा ई. कोलाई का उपयोग करके किया गया था। एक अन्य प्रमुख अनुप्रयोग जीन थेरेपी है, जो किसी बच्चे या भ्रूण में निदान किए गए जीन दोष को ठीक करने की एक विधि है (पहली बार 1990 में ADA की कमी के इलाज के लिए इस्तेमाल किया गया)।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Transgenic Animals and Ethical Issues",
+      "hi": "पारजीनी जंतु (Transgenic Animals) और नैतिक मुद्दे"
+    },
+    "content": {
+      "en": "Animals that have had their DNA manipulated to possess and express an extra (foreign) gene are known as transgenic animals (e.g., Rosie the cow, which produced human protein-enriched milk). GEAC (Genetic Engineering Appraisal Committee) in India makes decisions regarding the validity of GM research and the safety of introducing GM organisms. Biopiracy refers to the use of bio-resources by multinational companies without proper authorization.",
+      "hi": "जिन जानवरों के डीएनए में हेरफेर किया गया है ताकि वे एक अतिरिक्त (विदेशी) जीन को ग्रहण कर सकें और व्यक्त कर सकें, उन्हें पारजीनी जंतु (transgenic animals) कहा जाता है (उदा., रोजी गाय, जिसने मानव प्रोटीन-समृद्ध दूध का उत्पादन किया)। भारत में GEAC (जेनेटिक इंजीनियरिंग मूल्यांकन समिति) GM अनुसंधान की वैधता और GM जीवों को पेश करने की सुरक्षा के संबंध में निर्णय लेती है। बायोपायरेसी उचित प्राधिकरण के बिना बहुराष्ट्रीय कंपनियों द्वारा जैव-संसाधनों के उपयोग को संदर्भित करती है।"
     }
   }
 ]

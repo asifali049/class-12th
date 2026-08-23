@@ -1,8 +1,33 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Human Reproduction",
+    "hi": "मानव जनन"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Reproductive Systems", "hi": "जनन तंत्र" },
+      "children": [
+        { "id": "c1a", "label": { "en": "Male", "hi": "नर" } },
+        { "id": "c1b", "label": { "en": "Female", "hi": "मादा" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Gametogenesis", "hi": "युग्मकजनन" },
+      "children": [
+        { "id": "c2a", "label": { "en": "Spermatogenesis", "hi": "शुक्रजनन" } },
+        { "id": "c2b", "label": { "en": "Oogenesis", "hi": "अंडजनन" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Menstrual Cycle", "hi": "आर्तव चक्र" }
+    },
+    {
+      "id": "c4",
+      "label": { "en": "Fertilization & Pregnancy", "hi": "निषेचन एवं सगर्भता" }
+    }
+  ]
 }

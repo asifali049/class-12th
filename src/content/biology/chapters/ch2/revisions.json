@@ -2,14 +2,16 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Hormones in Reproduction",
+      "hi": "जनन में हार्मोन",
+      "hinglish": "Reproductive Hormones"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**GnRH**: Stimulates pituitary.\n**LH**: Acts on Leydig cells (males) / Causes ovulation (females).\n**FSH**: Acts on Sertoli cells (males) / Follicular growth (females).\n**Oxytocin**: Uterine contraction during birth.",
+      "hi": "**GnRH**: पीयूष ग्रंथि को उत्तेजित करता है।\n**LH**: लीडिग कोशिकाओं (नर) पर कार्य करता है / अंडोत्सर्ग (मादा) का कारण बनता है।\n**FSH**: सटोली कोशिकाओं (नर) पर कार्य करता है / पुटकीय विकास (मादा)।\n**ऑक्सीटोसिन**: जन्म के समय गर्भाशय संकुचन।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "LH Surge = Ovulation (Day 14)", "hi": "LH सर्ज = अंडोत्सर्ग (14वां दिन)" }
+    ]
   }
 ]

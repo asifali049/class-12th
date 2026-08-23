@@ -2,16 +2,42 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "marks": 5,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Explain the three steps involved in Polymerase Chain Reaction (PCR).",
+      "hi": "पोलीमरेज़ चेन रिएक्शन (PCR) में शामिल तीन चरणों की व्याख्या कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "PCR stands for Polymerase Chain Reaction, used to amplify DNA. It has three steps: 1. Denaturation (heating DNA to 94°C to separate the two strands). 2. Annealing (cooling to 50-60°C to allow primers to attach to the 3' end of the template DNA). 3. Extension (using Taq polymerase enzyme and nucleotides at 72°C to synthesize the new DNA strand). These steps are repeated to get billions of copies.",
+      "hi": "पीसीआर का अर्थ पोलीमरेज़ चेन रिएक्शन है, जिसका उपयोग डीएनए को प्रवर्धित करने के लिए किया जाता है। इसके तीन चरण हैं: 1. निष्क्रियकरण / Denaturation (दोनों रज्जुकों को अलग करने के लिए डीएनए को 94°C तक गर्म करना)। 2. तापानुशीलन / Annealing (प्राइमर्स को टेम्प्लेट डीएनए के 3' सिरे से जुड़ने की अनुमति देने के लिए 50-60°C तक ठंडा करना)। 3. प्रसार / Extension (नई डीएनए श्रृंखला को संश्लेषित करने के लिए 72°C पर टैक पॉलीमरेज़ (Taq polymerase) एंजाइम और न्यूक्लियोटाइड्स का उपयोग करना)। अरबों प्रतियां प्राप्त करने के लिए इन चरणों को दोहराया जाता है।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "Denaturation", "hi": "निष्क्रियकरण" },
+      { "en": "Annealing", "hi": "तापानुशीलन" },
+      { "en": "Extension", "hi": "प्रसार" },
+      { "en": "Taq polymerase", "hi": "टैक पॉलीमरेज़" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is commonly used as a vector for introducing a DNA fragment in human lymphocytes?",
+      "hi": "मानव लिम्फोसाइटों में डीएनए खंड को पेश करने के लिए आमतौर पर निम्नलिखित में से किसे वेक्टर के रूप में उपयोग किया जाता है?"
+    },
+    "options": [
+      { "en": "Retrovirus", "hi": "रेट्रोवायरस" },
+      { "en": "Ti plasmid", "hi": "Ti प्लास्मिड" },
+      { "en": "lambda phage", "hi": "लैम्ब्डा फाज" },
+      { "en": "pBR322", "hi": "pBR322" }
+    ],
+    "correctAnswer": 0,
+    "explanation": {
+      "en": "Disarmed retroviruses are used to deliver desirable genes into animal cells (like human lymphocytes).",
+      "hi": "हानिरहित (Disarmed) रेट्रोवायरस का उपयोग जानवरों की कोशिकाओं (जैसे मानव लिम्फोसाइटों) में वांछनीय जीन पहुँचाने के लिए किया जाता है।"
+    }
   }
 ]

@@ -1,8 +1,30 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Human Health",
+    "hi": "मानव स्वास्थ्य"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Common Diseases", "hi": "सामान्य रोग" },
+      "children": [
+        { "id": "c1a", "label": { "en": "Bacterial (Typhoid)", "hi": "जीवाणु (टाइफाइड)" } },
+        { "id": "c1b", "label": { "en": "Viral (Cold, HIV)", "hi": "विषाणु (जुकाम, HIV)" } },
+        { "id": "c1c", "label": { "en": "Protozoan (Malaria)", "hi": "प्रोटोजोआ (मलेरिया)" } }
+      ]
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Immunity", "hi": "प्रतिरक्षा" },
+      "children": [
+        { "id": "c2a", "label": { "en": "Innate", "hi": "सहज" } },
+        { "id": "c2b", "label": { "en": "Acquired", "hi": "उपार्जित" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Drugs & Alcohol", "hi": "ड्रग्स एवं अल्कोहल" }
+    }
+  ]
 }

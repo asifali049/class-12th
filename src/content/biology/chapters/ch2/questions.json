@@ -2,16 +2,20 @@
   {
     "id": "q1",
     "type": "subjective",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "marks": 5,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Describe the process of spermatogenesis with a suitable diagrammatic representation.",
+      "hi": "उपयुक्त आरेखीय निरूपण के साथ शुक्रजनन (spermatogenesis) की प्रक्रिया का वर्णन कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "Spermatogenesis is the process of sperm production in the testes. It begins at puberty. Spermatogonia (diploid, 46 chromosomes) multiply by mitosis. Some become primary spermatocytes, which undergo the first meiotic division to form two equal haploid secondary spermatocytes (23 chromosomes). These undergo the second meiotic division to produce four equal haploid spermatids. Spermatids transform into spermatozoa (sperms) through spermiogenesis.",
+      "hi": "शुक्रजनन वृषण में शुक्राणु उत्पादन की प्रक्रिया है। यह यौवन पर शुरू होता है। स्पर्मेटोगोनिया (द्विगुणित, 46 गुणसूत्र) समसूत्री विभाजन द्वारा गुणा करते हैं। कुछ प्राथमिक स्पर्मेटोसाइट्स बन जाते हैं, जो पहले अर्धसूत्री विभाजन से गुजरकर दो समान अगुणित द्वितीयक स्पर्मेटोसाइट्स (23 गुणसूत्र) बनाते हैं। ये दूसरे अर्धसूत्री विभाजन से गुजरकर चार समान अगुणित स्पर्मेटिड्स उत्पन्न करते हैं। स्पर्मेटिड्स स्पर्मियोजेनेसिस के माध्यम से शुक्राणु (spermatozoa) में बदल जाते हैं।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "spermatogonia", "hi": "शुक्राणुजन" },
+      { "en": "meiosis", "hi": "अर्धसूत्री विभाजन" },
+      { "en": "spermiogenesis", "hi": "स्पर्मियोजेनेसिस" }
+    ]
   }
 ]

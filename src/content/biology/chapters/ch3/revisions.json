@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "ART Techniques Full Forms",
+      "hi": "ART तकनीकों के पूर्ण रूप",
+      "hinglish": "ART Full Forms"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**IVF**: In Vitro Fertilization\n**ZIFT**: Zygote Intra Fallopian Transfer\n**IUT**: Intra Uterine Transfer\n**GIFT**: Gamete Intra Fallopian Transfer\n**ICSI**: Intracytoplasmic Sperm Injection",
+      "hi": "**IVF**: इन विट्रो फर्टिलाइजेशन (पात्रे निषेचन)\n**ZIFT**: जाइगोट इंट्रा फैलोपियन ट्रांसफर\n**IUT**: इंट्रा यूटेराइन ट्रांसफर\n**GIFT**: गैमीट इंट्रा फैलोपियन ट्रांसफर\n**ICSI**: इंट्रासाइटोप्लाज्मिक स्पर्म इंजेक्शन"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "ZIFT = Embryo < 8 blastomeres", "hi": "ZIFT = 8 ब्लास्टोमियर से कम वाला भ्रूण" },
+      { "en": "IUT = Embryo > 8 blastomeres", "hi": "IUT = 8 ब्लास्टोमियर से अधिक वाला भ्रूण" }
+    ]
   }
 ]

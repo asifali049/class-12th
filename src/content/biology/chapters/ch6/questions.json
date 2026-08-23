@@ -3,15 +3,39 @@
     "id": "q1",
     "type": "subjective",
     "difficulty": "Medium",
-    "marks": 5,
+    "marks": 3,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Differentiate between Homologous and Analogous organs with examples.",
+      "hi": "उदाहरण के साथ समजात (Homologous) और समरूप (Analogous) अंगों के बीच अंतर स्पष्ट कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "Homologous organs have a similar basic structure and embryonic origin but perform different functions. They indicate divergent evolution. Example: Forelimbs of whales, bats, cheetahs, and humans. Analogous organs have different basic structures but perform similar functions. They indicate convergent evolution. Example: Wings of butterflies and birds.",
+      "hi": "समजात अंगों (Homologous organs) की मूल संरचना और भ्रूणीय उत्पत्ति समान होती है लेकिन वे अलग-अलग कार्य करते हैं। वे अपसारी विकास (divergent evolution) का संकेत देते हैं। उदाहरण: व्हेल, चमगादड़, चीता और मनुष्यों के अग्रपाद। समरूप अंगों (Analogous organs) की मूल संरचना अलग होती है लेकिन वे समान कार्य करते हैं। वे अभिसारी विकास (convergent evolution) का संकेत देते हैं। उदाहरण: तितलियों और पक्षियों के पंख।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "divergent evolution", "hi": "अपसारी विकास" },
+      { "en": "convergent evolution", "hi": "अभिसारी विकास" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The theory of natural selection was proposed by:",
+      "hi": "प्राकृतिक चयन का सिद्धांत किसके द्वारा प्रस्तावित किया गया था?"
+    },
+    "options": [
+      { "en": "Lamarck", "hi": "लैमार्क" },
+      { "en": "Charles Darwin", "hi": "चार्ल्स डार्विन" },
+      { "en": "Hugo de Vries", "hi": "ह्यूगो डी व्रीस" },
+      { "en": "Louis Pasteur", "hi": "लुई पाश्चर" }
+    ],
+    "correctAnswer": 1,
+    "explanation": {
+      "en": "Charles Darwin proposed the theory of evolution by natural selection.",
+      "hi": "चार्ल्स डार्विन ने प्राकृतिक चयन द्वारा विकास का सिद्धांत प्रस्तावित किया था।"
+    }
   }
 ]

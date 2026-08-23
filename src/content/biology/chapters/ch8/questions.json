@@ -3,15 +3,39 @@
     "id": "q1",
     "type": "subjective",
     "difficulty": "Medium",
-    "marks": 5,
+    "marks": 3,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "What is Biological Oxygen Demand (BOD)? How is it related to water pollution?",
+      "hi": "बायोकेमिकल ऑक्सीजन डिमांड (BOD) क्या है? यह जल प्रदूषण से कैसे संबंधित है?"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "BOD refers to the amount of oxygen that would be consumed if all the organic matter in one liter of water were oxidized by bacteria. The BOD test is a measure of the organic matter present in the water. Greater the BOD of wastewater, more is its polluting potential.",
+      "hi": "BOD ऑक्सीजन की उस मात्रा को संदर्भित करता है जिसकी खपत तब होगी जब एक लीटर पानी में मौजूद सभी कार्बनिक पदार्थों को बैक्टीरिया द्वारा ऑक्सीकृत किया जाए। BOD परीक्षण पानी में मौजूद कार्बनिक पदार्थों की एक माप है। अपशिष्ट जल का BOD जितना अधिक होगा, उसकी प्रदूषण क्षमता उतनी ही अधिक होगी।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "organic matter", "hi": "कार्बनिक पदार्थ" },
+      { "en": "polluting potential", "hi": "प्रदूषण क्षमता" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Which microbe is used as a 'clot buster' for removing clots from blood vessels?",
+      "hi": "रक्त वाहिकाओं से थक्के हटाने के लिए किस सूक्ष्म जीव का उपयोग 'क्लॉट बस्टर' के रूप में किया जाता है?"
+    },
+    "options": [
+      { "en": "Trichoderma polysporum", "hi": "ट्राइकोडर्मा पॉलीस्पोरम" },
+      { "en": "Monascus purpureus", "hi": "मोनस्कस परप्यूरियस" },
+      { "en": "Streptococcus", "hi": "स्ट्रेप्टोकोकस" },
+      { "en": "Saccharomyces cerevisiae", "hi": "सैक्रोमाइसेस सेरेविसिए" }
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "en": "Streptokinase, produced by the bacterium Streptococcus, is used as a 'clot buster'.",
+      "hi": "स्ट्रेप्टोकाइनेज, जो स्ट्रेप्टोकोकस जीवाणु द्वारा निर्मित होता है, का उपयोग 'क्लॉट बस्टर' के रूप में किया जाता है।"
+    }
   }
 ]

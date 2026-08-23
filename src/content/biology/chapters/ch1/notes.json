@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Flower Structure and Pre-fertilization Events",
+      "hi": "पुष्प की संरचना और निषेचन-पूर्व घटनाएँ"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "A flower is the reproductive unit of angiosperms. The male reproductive part is the androecium, consisting of stamens (anther and filament). The anther produces pollen grains (microspores) through microsporogenesis. The female reproductive part is the gynoecium, consisting of pistils (stigma, style, and ovary). The ovary contains ovules (megasporangia) where the embryo sac forms through megasporogenesis.",
+      "hi": "पुष्प आवृतबीजियों (angiosperms) की जनन इकाई है। नर जनन भाग पुमंग (androecium) है, जिसमें पुंकेसर (परागकोश और तंतु) होते हैं। परागकोश लघुबीजाणुजनन (microsporogenesis) द्वारा परागकण (लघुबीजाणु) पैदा करता है। मादा जनन भाग जायांग (gynoecium) है, जिसमें स्त्रीकेसर (वर्तिकाग्र, वर्तिका और अंडाशय) होते हैं। अंडाशय में बीजांड (गुरुबीजाणुधानी) होते हैं जहाँ गुरुबीजाणुजनन के माध्यम से भ्रूणकोष (embryo sac) बनता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Pollination",
+      "hi": "परागण (Pollination)"
+    },
+    "content": {
+      "en": "Pollination is the transfer of pollen grains from the anther to the stigma of a pistil. It can be of three types: Autogamy (within the same flower), Geitonogamy (between different flowers of the same plant), and Xenogamy (between flowers of different plants). Agents of pollination include wind (anemophily), water (hydrophily), and animals (zoophily, e.g., insects).",
+      "hi": "परागण परागकोश से परागकणों का स्त्रीकेसर के वर्तिकाग्र तक स्थानांतरण है। यह तीन प्रकार का हो सकता है: स्वयुग्मन (Autogamy - एक ही फूल के भीतर), सजातपुष्पी परागण (Geitonogamy - एक ही पौधे के विभिन्न फूलों के बीच), और परनिषेचन (Xenogamy - विभिन्न पौधों के फूलों के बीच)। परागण के कारकों में हवा (anemophily), जल (hydrophily), और जानवर (zoophily, जैसे कीड़े) शामिल हैं।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Double Fertilization",
+      "hi": "दोहरा निषेचन (Double Fertilization)"
+    },
+    "content": {
+      "en": "Double fertilization is a unique event in angiosperms. After a pollen tube enters the embryo sac, it releases two male gametes. One male gamete fuses with the egg cell to form a diploid zygote (syngamy). The other male gamete fuses with the two polar nuclei in the central cell to form a triploid Primary Endosperm Nucleus (PEN) in a process called triple fusion. Since two fusions occur, it is called double fertilization.",
+      "hi": "दोहरा निषेचन आवृतबीजियों में एक अनूठी घटना है। जब पराग नलिका भ्रूणकोष में प्रवेश करती है, तो वह दो नर युग्मक छोड़ती है। एक नर युग्मक अंड कोशिका के साथ संलयन करके द्विगुणित युग्मनज (zygote) बनाता है (syngamy)। दूसरा नर युग्मक केंद्रीय कोशिका में दो ध्रुवीय नाभिकों के साथ संलयन करके त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाता है, जिसे त्रिसंलयन (triple fusion) कहा जाता है। चूँकि दो संलयन होते हैं, इसे दोहरा निषेचन कहा जाता है।"
     }
   }
 ]

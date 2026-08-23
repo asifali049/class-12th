@@ -2,12 +2,34 @@
   {
     "id": "n1",
     "title": {
-      "en": "Introduction",
-      "hi": "परिचय"
+      "en": "Microbes in Household and Industrial Products",
+      "hi": "घरेलू और औद्योगिक उत्पादों में सूक्ष्म जीव"
     },
     "content": {
-      "en": "Content being updated.",
-      "hi": "सामग्री अपडेट की जा रही है।"
+      "en": "Microbes like Lactobacillus convert milk to curd (LAB). Saccharomyces cerevisiae (Baker's yeast) is used in bread making and fermenting beverages. In industries, microbes are used to produce antibiotics (e.g., Penicillin from Penicillium notatum), organic acids (e.g., Citric acid from Aspergillus niger), and enzymes (e.g., Streptokinase as a 'clot buster').",
+      "hi": "लैक्टोबैसिलस जैसे सूक्ष्म जीव दूध को दही (LAB) में बदलते हैं। सैक्रोमाइसेस सेरेविसिए (Baker's yeast) का उपयोग ब्रेड बनाने और पेय पदार्थों को किण्वित करने में किया जाता है। उद्योगों में, सूक्ष्म जीवों का उपयोग एंटीबायोटिक्स (उदा., पेनिसिलियम नोटैटम से पेनिसिलिन), कार्बनिक अम्ल (उदा., एस्परगिलस नाइजर से साइट्रिक एसिड), और एंजाइम (उदा., 'क्लॉट बस्टर' के रूप में स्ट्रेप्टोकाइनेज) बनाने के लिए किया जाता है।"
+    }
+  },
+  {
+    "id": "n2",
+    "title": {
+      "en": "Microbes in Sewage Treatment and Biogas",
+      "hi": "सीवेज उपचार और बायोगैस में सूक्ष्म जीव"
+    },
+    "content": {
+      "en": "Sewage treatment involves primary (physical) and secondary (biological) treatment. In secondary treatment, aerobic microbes consume organic matter, reducing BOD (Biochemical Oxygen Demand). Biogas (primarily methane) is produced by methanogens (e.g., Methanobacterium) during the anaerobic breakdown of organic matter like cow dung.",
+      "hi": "सीवेज उपचार में प्राथमिक (भौतिक) और द्वितीयक (जैविक) उपचार शामिल हैं। द्वितीयक उपचार में, वायवीय सूक्ष्म जीव कार्बनिक पदार्थों का उपभोग करते हैं, जिससे BOD (बायोकेमिकल ऑक्सीजन डिमांड) कम हो जाती है। बायोगैस (मुख्य रूप से मीथेन) मेथनोगेंस (उदा., मेथेनोबैक्टीरियम) द्वारा गाय के गोबर जैसे कार्बनिक पदार्थों के अवायवीय टूटने के दौरान उत्पादित होती है।"
+    }
+  },
+  {
+    "id": "n3",
+    "title": {
+      "en": "Microbes as Biocontrol Agents and Biofertilizers",
+      "hi": "जैव नियंत्रण कारकों और जैव उर्वरकों के रूप में सूक्ष्म जीव"
+    },
+    "content": {
+      "en": "Biocontrol refers to the use of biological methods for controlling plant diseases and pests (e.g., Bacillus thuringiensis (Bt) against caterpillars, Trichoderma against plant pathogens). Biofertilizers are organisms that enrich the nutrient quality of the soil (e.g., Rhizobium in legumes, Mycorrhiza, and Cyanobacteria).",
+      "hi": "जैव नियंत्रण (Biocontrol) पादप रोगों और कीटों को नियंत्रित करने के लिए जैविक विधियों के उपयोग को संदर्भित करता है (उदा., कैटरपिलर के खिलाफ बैसिलस थुरिंजिएंसिस (Bt), पादप रोगजनकों के खिलाफ ट्राइकोडर्मा)। जैव उर्वरक (Biofertilizers) वे जीव हैं जो मिट्टी की पोषक गुणवत्ता को बढ़ाते हैं (उदा., फलियों में राइजोबियम, माइकोराइजा, और सायनोबैक्टीरिया)।"
     }
   }
 ]

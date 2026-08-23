@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Evolution Theories",
+      "hi": "विकास के सिद्धांत",
+      "hinglish": "Theories of Evolution"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Lamarck**: Use and disuse of organs / Inheritance of acquired characters.\n**Darwin**: Natural selection and branching descent.\n**De Vries**: Mutation theory (single step large mutation = saltation).",
+      "hi": "**लैमार्क**: अंगों का उपयोग और अनुपयोग / उपार्जित लक्षणों की वंशागति।\n**डार्विन**: प्राकृतिक चयन और शाखीय अवरोहण (branching descent)।\n**डी व्रीस**: उत्परिवर्तन सिद्धांत (एकल चरण बड़ा उत्परिवर्तन = साल्टेशन)।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "Homologous = Divergent", "hi": "समजात = अपसारी" },
+      { "en": "Analogous = Convergent", "hi": "समरूप = अभिसारी" }
+    ]
   }
 ]

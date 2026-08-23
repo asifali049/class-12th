@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Important Techniques in Biotech",
+      "hi": "बायोटेक में महत्वपूर्ण तकनीकें",
+      "hinglish": "Biotech Techniques"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Gel Electrophoresis**: Separates DNA fragments based on size under an electric field (DNA is negatively charged, moves to anode).\n**PCR**: Multiplies DNA using Taq polymerase (thermostable).\n**Selectable Markers**: Help in identifying transformants from non-transformants (e.g., ampicillin resistance gene in pBR322).",
+      "hi": "**जेल इलेक्ट्रोफोरेसिस**: विद्युत क्षेत्र के तहत आकार के आधार पर डीएनए खंडों को अलग करता है (डीएनए ऋणात्मक रूप से आवेशित होता है, एनोड की ओर बढ़ता है)।\n**पीसीआर**: टैक पॉलीमरेज़ (थर्मोस्टेबल) का उपयोग करके डीएनए को कई गुना करता है।\n**सेलेक्टेबल मार्कर**: नॉन-ट्रांसफॉर्मेंट्स से ट्रांसफॉर्मेंट्स की पहचान करने में मदद करते हैं (उदा., pBR322 में एम्पीसिलीन प्रतिरोध जीन)।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "Restriction Enzyme = Molecular Scissors", "hi": "रेस्ट्रिक्शन एंजाइम = आणविक कैंची" },
+      { "en": "Vector = DNA Vehicle", "hi": "वेक्टर = डीएनए वाहन" }
+    ]
   }
 ]

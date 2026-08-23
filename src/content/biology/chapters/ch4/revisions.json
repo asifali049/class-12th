@@ -2,14 +2,16 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Genetic Ratios",
+      "hi": "आनुवंशिक अनुपात",
+      "hinglish": "Genotypic & Phenotypic Ratios"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Monohybrid Cross (Dominance)**: Phenotype ratio is 3:1, Genotype ratio is 1:2:1.\n**Dihybrid Cross**: Phenotype ratio is 9:3:3:1.\n**Incomplete Dominance**: Both phenotype and genotype ratios are 1:2:1.",
+      "hi": "**एकसंकर क्रॉस (प्रभाविता)**: फेनोटाइप अनुपात 3:1 है, जीनोटाइप अनुपात 1:2:1 है।\n**द्विसंकर क्रॉस**: फेनोटाइप अनुपात 9:3:3:1 है।\n**अपूर्ण प्रभाविता**: फेनोटाइप और जीनोटाइप दोनों अनुपात 1:2:1 हैं।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "Test Cross = F1 hybrid x Recessive parent", "hi": "परीक्षण संकरण (Test Cross) = F1 संकर x अप्रभावी जनक" }
+    ]
   }
 ]

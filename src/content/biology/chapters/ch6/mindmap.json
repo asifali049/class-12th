@@ -1,8 +1,30 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Evolution",
+    "hi": "विकास"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Origin of Life", "hi": "जीवन की उत्पत्ति" }
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Evidences", "hi": "प्रमाण" },
+      "children": [
+        { "id": "c2a", "label": { "en": "Homologous Organs", "hi": "समजात अंग" } },
+        { "id": "c2b", "label": { "en": "Analogous Organs", "hi": "समरूप अंग" } },
+        { "id": "c2c", "label": { "en": "Fossils", "hi": "जीवाश्म" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Theories", "hi": "सिद्धांत" },
+      "children": [
+        { "id": "c3a", "label": { "en": "Darwinism", "hi": "डार्विनवाद" } },
+        { "id": "c3b", "label": { "en": "Hardy-Weinberg", "hi": "हार्डी-वेनबर्ग" } }
+      ]
+    }
+  ]
 }

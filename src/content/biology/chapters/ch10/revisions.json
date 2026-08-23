@@ -2,14 +2,16 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Key Proteins & Genes",
+      "hi": "प्रमुख प्रोटीन और जीन",
+      "hinglish": "Important Biotech Genes"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**cryIAc and cryIIAb**: Control cotton bollworms.\n**cryIAb**: Controls corn borer.\n**RNAi (RNA interference)**: Used in Nematode resistance in Tobacco plants (Meloidegyne incognita).\n**Human Insulin (Humulin)**: Contains two short polypeptide chains: chain A and chain B, linked by disulfide bridges.",
+      "hi": "**cryIAc और cryIIAb**: कपास के बॉलवर्म को नियंत्रित करते हैं।\n**cryIAb**: कॉर्न बोरर (corn borer) को नियंत्रित करता है।\n**RNAi (RNA हस्तक्षेप)**: तंबाकू के पौधों (मेलोइडगाइन इन्कोग्निटा) में नेमाटोड प्रतिरोध में उपयोग किया जाता है।\n**मानव इंसुलिन (ह्यूमुलिन)**: इसमें दो छोटी पॉलीपेप्टाइड श्रृंखलाएं होती हैं: श्रृंखला A और श्रृंखला B, जो डाइसल्फाइड पुलों (disulfide bridges) द्वारा जुड़ी होती हैं।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "First Gene Therapy = 1990 for ADA deficiency", "hi": "पहली जीन थेरेपी = 1990 में ADA की कमी के लिए" }
+    ]
   }
 ]

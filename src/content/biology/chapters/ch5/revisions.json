@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Important Enzymes",
+      "hi": "महत्वपूर्ण एंजाइम",
+      "hinglish": "Key Enzymes in DNA/RNA"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Helicase**: Unwinds DNA.\n**DNA Polymerase**: DNA synthesis.\n**Ligase**: Joins Okazaki fragments.\n**RNA Polymerase**: mRNA synthesis.",
+      "hi": "**हेलिकेज़**: डीएनए को खोलता है।\n**डीएनए पॉलीमरेज़**: डीएनए संश्लेषण।\n**लाइगेज़**: ओकाजाकी खंडों को जोड़ता है।\n**आरएनए पॉलीमरेज़**: एमआरएनए संश्लेषण।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "A=T (2 H-bonds)", "hi": "A=T (2 हाइड्रोजन बंध)" },
+      { "en": "G≡C (3 H-bonds)", "hi": "G≡C (3 हाइड्रोजन बंध)" }
+    ]
   }
 ]

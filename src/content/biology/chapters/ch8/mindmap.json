@@ -1,8 +1,29 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Microbes",
+    "hi": "सूक्ष्म जीव"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Household & Industry", "hi": "घरेलू एवं उद्योग" }
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Sewage Treatment", "hi": "सीवेज उपचार" },
+      "children": [
+        { "id": "c2a", "label": { "en": "Primary", "hi": "प्राथमिक" } },
+        { "id": "c2b", "label": { "en": "Secondary (Biological)", "hi": "द्वितीयक (जैविक)" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Agriculture", "hi": "कृषि" },
+      "children": [
+        { "id": "c3a", "label": { "en": "Biocontrol", "hi": "जैव नियंत्रण" } },
+        { "id": "c3b", "label": { "en": "Biofertilizers", "hi": "जैव उर्वरक" } }
+      ]
+    }
+  ]
 }

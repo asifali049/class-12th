@@ -2,14 +2,17 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Quick Review",
-      "hi": "त्वरित समीक्षा",
-      "hinglish": "Quick Review"
+      "en": "Population Growth Curves",
+      "hi": "समष्टि वृद्धि वक्र",
+      "hinglish": "Population Growth Curves"
     },
     "summary": {
-      "en": "Summary being updated.",
-      "hi": "सारांश अपडेट किया जा रहा है।"
+      "en": "**Exponential Growth**: dN/dt = rN. Unrealistic in nature as resources are limited. J-shaped curve.\n**Logistic Growth**: dN/dt = rN[(K-N)/K]. More realistic. S-shaped curve (Sigmoid). K is carrying capacity.",
+      "hi": "**चरघातांकी वृद्धि (Exponential Growth)**: dN/dt = rN. प्रकृति में अवास्तविक है क्योंकि संसाधन सीमित हैं। जे-आकार का वक्र।\n**लॉजिस्टिक वृद्धि**: dN/dt = rN[(K-N)/K]. अधिक यथार्थवादी। एस-आकार का वक्र (Sigmoid)। K वहन क्षमता (carrying capacity) है।"
     },
-    "quickRecall": []
+    "quickRecall": [
+      { "en": "Amensalism: - / 0", "hi": "अंतरजातीय परजीविता: - / 0" },
+      { "en": "Parasitism: + / -", "hi": "परजीविता: + / -" }
+    ]
   }
 ]

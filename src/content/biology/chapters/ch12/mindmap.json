@@ -1,8 +1,30 @@
 {
   "id": "root",
   "label": {
-    "en": "Chapter Overview",
-    "hi": "अध्याय अवलोकन"
+    "en": "Ecosystem",
+    "hi": "पारितंत्र"
   },
-  "children": []
+  "children": [
+    {
+      "id": "c1",
+      "label": { "en": "Productivity & Decomposition", "hi": "उत्पादकता एवं अपघटन" }
+    },
+    {
+      "id": "c2",
+      "label": { "en": "Energy Flow", "hi": "ऊर्जा प्रवाह" },
+      "children": [
+        { "id": "c2a", "label": { "en": "Food Chain (GFC, DFC)", "hi": "खाद्य श्रृंखला" } },
+        { "id": "c2b", "label": { "en": "Food Web", "hi": "खाद्य जाल" } }
+      ]
+    },
+    {
+      "id": "c3",
+      "label": { "en": "Ecological Pyramids", "hi": "पारिस्थितिक पिरामिड" },
+      "children": [
+        { "id": "c3a", "label": { "en": "Pyramid of Number", "hi": "संख्या का पिरामिड" } },
+        { "id": "c3b", "label": { "en": "Pyramid of Biomass", "hi": "बायोमास का पिरामिड" } },
+        { "id": "c3c", "label": { "en": "Pyramid of Energy (Always Upright)", "hi": "ऊर्जा का पिरामिड (हमेशा सीधा)" } }
+      ]
+    }
+  ]
 }

@@ -3,15 +3,39 @@
     "id": "q1",
     "type": "subjective",
     "difficulty": "Medium",
-    "marks": 5,
+    "marks": 3,
     "question": {
-      "en": "Important question being updated.",
-      "hi": "महत्वपूर्ण प्रश्न अपडेट किया जा रहा है।"
+      "en": "Differentiate between Commensalism and Mutualism with one example of each.",
+      "hi": "प्रत्येक के एक उदाहरण के साथ सहभोजिता (Commensalism) और सहोपकारिता (Mutualism) के बीच अंतर स्पष्ट कीजिए।"
     },
     "idealAnswer": {
-      "en": "Answer being updated.",
-      "hi": "उत्तर अपडेट किया जा रहा है।"
+      "en": "Mutualism (+/+) is an interaction where both the interacting species derive benefit from each other. Example: Lichens (interaction between a fungus and algae). Commensalism (+/0) is an interaction where one species benefits and the other is neither harmed nor benefited. Example: An orchid growing as an epiphyte on a mango branch (orchid benefits, mango tree is unaffected).",
+      "hi": "सहोपकारिता या Mutualism (+/+) एक ऐसी पारस्परिक क्रिया है जहां परस्पर क्रिया करने वाली दोनों प्रजातियों को एक-दूसरे से लाभ होता है। उदाहरण: लाइकेन (एक कवक और शैवाल के बीच की बातचीत)। सहभोजिता या Commensalism (+/0) एक ऐसी क्रिया है जहाँ एक प्रजाति को लाभ होता है और दूसरी को न तो नुकसान होता है और न ही लाभ। उदाहरण: आम की शाखा पर एपिफाइट के रूप में उगने वाला आर्किड (आर्किड को लाभ होता है, आम का पेड़ अप्रभावित रहता है)।"
     },
-    "keywords": []
+    "keywords": [
+      { "en": "Mutualism", "hi": "सहोपकारिता" },
+      { "en": "Commensalism", "hi": "सहभोजिता" }
+    ]
+  },
+  {
+    "id": "q2",
+    "type": "objective",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "The carrying capacity of an environment for a given species is represented by which letter?",
+      "hi": "किसी दी गई प्रजाति के लिए पर्यावरण की वहन क्षमता (carrying capacity) को किस अक्षर द्वारा दर्शाया जाता है?"
+    },
+    "options": [
+      { "en": "r", "hi": "r" },
+      { "en": "N", "hi": "N" },
+      { "en": "K", "hi": "K" },
+      { "en": "t", "hi": "t" }
+    ],
+    "correctAnswer": 2,
+    "explanation": {
+      "en": "In population ecology, 'K' represents the carrying capacity of the environment.",
+      "hi": "समष्टि पारिस्थितिकी में, 'K' पर्यावरण की वहन क्षमता (carrying capacity) का प्रतिनिधित्व करता है।"
+    }
   }
 ]

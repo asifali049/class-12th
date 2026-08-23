@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Pathway of Sperm Transport",
+      "hi": "शुक्राणु परिवहन का मार्ग"
+    },
+    "steps": [
+      {
+        "en": "Seminiferous Tubules",
+        "hi": "शुक्रजनक नलिकाएं (Seminiferous Tubules)"
+      },
+      {
+        "en": "Rete Testis",
+        "hi": "वृषण जालिका (Rete Testis)"
+      },
+      {
+        "en": "Vasa Efferentia",
+        "hi": "शुक्रवाहिका (Vasa Efferentia)"
+      },
+      {
+        "en": "Epididymis",
+        "hi": "अधिवृषण (Epididymis)"
+      },
+      {
+        "en": "Vas Deferens",
+        "hi": "शुक्रवाहक (Vas Deferens)"
+      },
+      {
+        "en": "Ejaculatory Duct",
+        "hi": "स्खलन नलिका (Ejaculatory Duct)"
+      },
+      {
+        "en": "Urethra",
+        "hi": "मूत्रमार्ग (Urethra)"
+      }
+    ],
+    "conclusion": {
+      "en": "This is the complete pathway for the exit of sperm.",
+      "hi": "यह शुक्राणु के बाहर निकलने का पूरा मार्ग है।"
+    }
+  }
+]

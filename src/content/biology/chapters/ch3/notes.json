@@ -2,34 +2,45 @@
   {
     "id": "n1",
     "title": {
-      "en": "Reproductive Health - Problems and Strategies",
-      "hi": "जनन स्वास्थ्य - समस्याएँ और कार्यनीतियाँ"
+      "en": "Reproductive Health & RCH Programs",
+      "hi": "प्रजनन स्वास्थ्य और RCH कार्यक्रम"
     },
     "content": {
-      "en": "According to WHO, reproductive health means total well-being in all aspects of reproduction (physical, emotional, behavioral, and social). India initiated 'family planning' programs in 1951, which evolved into Reproductive and Child Health Care (RCH) programs. Key strategies include creating awareness about sex-related aspects, providing medical assistance during pregnancy and delivery, and preventing sexually transmitted infections (STIs).",
-      "hi": "विश्व स्वास्थ्य संगठन (WHO) के अनुसार, जनन स्वास्थ्य का अर्थ जनन के सभी पहलुओं (शारीरिक, भावनात्मक, व्यवहारिक और सामाजिक) में पूर्ण कल्याण है। भारत ने 1951 में 'परिवार नियोजन' कार्यक्रम शुरू किए, जो बाद में जनन एवं बाल स्वास्थ्य देखभाल (RCH) कार्यक्रमों में विकसित हुए। प्रमुख रणनीतियों में यौन संबंधी पहलुओं के बारे में जागरूकता पैदा करना, गर्भावस्था और प्रसव के दौरान चिकित्सा सहायता प्रदान करना और यौन संचारित संक्रमण (STIs) को रोकना शामिल है।"
+      "en": "According to WHO, reproductive health means a total well-being in all aspects of reproduction (physical, emotional, behavioral, and social). India initiated 'family planning' programs in 1951, now operated under RCH (Reproductive and Child Health Care) programs.",
+      "hi": "डब्ल्यूएचओ (WHO) के अनुसार, प्रजनन स्वास्थ्य का अर्थ प्रजनन के सभी पहलुओं (शारीरिक, भावनात्मक, व्यवहारिक और सामाजिक) में पूर्ण रूप से स्वस्थ होना है। भारत ने 1951 में 'परिवार नियोजन' कार्यक्रम शुरू किए थे, जो अब RCH कार्यक्रमों के तहत संचालित होते हैं।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Contraceptive Methods",
-      "hi": "गर्भनिरोधक विधियाँ (Contraceptive Methods)"
+      "en": "Birth Control (Contraceptives)",
+      "hi": "जन्म नियंत्रण (गर्भनिरोधक)"
     },
     "content": {
-      "en": "An ideal contraceptive should be user-friendly, easily available, effective, and reversible. Methods include: 1. Natural/Traditional (Periodic abstinence, Coitus interruptus). 2. Barrier (Condoms, Diaphragms). 3. IUDs (Copper T, LNG-20). 4. Oral contraceptives (Pills like 'Saheli'). 5. Injectables and Implants. 6. Surgical methods (Vasectomy in males, Tubectomy in females).",
-      "hi": "एक आदर्श गर्भनिरोधक उपयोग में आसान, आसानी से उपलब्ध, प्रभावी और उत्क्रमणीय (reversible) होना चाहिए। विधियों में शामिल हैं: 1. प्राकृतिक/पारंपरिक (आवधिक संयम, बाह्य स्खलन)। 2. रोध/बैरियर (कंडोम, डायाफ्राम)। 3. IUD (कॉपर टी, LNG-20)। 4. मौखिक गर्भनिरोधक (गोलियां जैसे 'सहेली')। 5. इंजेक्शन और प्रत्यारोपण। 6. शल्य चिकित्सा विधियाँ (पुरुषों में पुरुष नसबंदी/Vasectomy, महिलाओं में स्त्री नसबंदी/Tubectomy)।"
+      "en": "Natural methods (Periodic abstinence, Coitus interruptus, Lactational amenorrhea). Barrier methods (Condoms, Diaphragms). IUDs (Copper T, Mirena). Oral contraceptives (Saheli). Surgical methods (Vasectomy in males, Tubectomy in females).",
+      "hi": "प्राकृतिक विधियाँ (आवधिक संयम, सहवास व्यवधान)। बाधा विधियाँ (कंडोम, डायाफ्राम)। IUDs (कॉपर टी)। मौखिक गर्भनिरोधक (सहेली)। सर्जिकल विधियाँ (पुरुषों में वासेक्टोमी, महिलाओं में ट्यूबेक्टोमी)।"
     }
   },
   {
     "id": "n3",
     "title": {
-      "en": "Infertility and ART",
-      "hi": "बंध्यता (Infertility) और ART"
+      "en": "MTP and STIs",
+      "hi": "एमटीपी (MTP) और यौन संचारित संक्रमण (STIs)"
     },
     "content": {
-      "en": "Infertility is the inability to produce children despite unprotected sexual cohabitation. Assisted Reproductive Technologies (ART) help such couples. Examples include IVF (In Vitro Fertilization) followed by ET (Embryo Transfer) like ZIFT and IUT. Other methods include GIFT (Gamete Intra Fallopian Transfer) and ICSI (Intracytoplasmic Sperm Injection).",
-      "hi": "बंध्यता असुरक्षित यौन सहवास के बावजूद बच्चे पैदा करने में असमर्थता है। सहायक जनन प्रौद्योगिकियां (ART) ऐसे जोड़ों की मदद करती हैं। उदाहरणों में आईवीएफ (In Vitro Fertilization) शामिल है जिसके बाद ईटी (Embryo Transfer) जैसे ZIFT और IUT किया जाता है। अन्य तरीकों में GIFT (Gamete Intra Fallopian Transfer) और ICSI (Intracytoplasmic Sperm Injection) शामिल हैं।"
+      "en": "Medical Termination of Pregnancy (MTP) or induced abortion is legalized in India under strict conditions. STIs are diseases transmitted through sexual intercourse (e.g., Gonorrhoea, Syphilis, HIV, Hepatitis-B).",
+      "hi": "मेडिकल टर्मिनेशन ऑफ प्रेगनेंसी (MTP) या प्रेरित गर्भपात भारत में सख्त शर्तों के तहत वैध है। एसटीआई (STIs) वे बीमारियाँ हैं जो यौन संसर्ग के माध्यम से फैलती हैं (उदा., गोनोरिया, सिफलिस, एचआईवी)।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Infertility & ART",
+      "hi": "बांझपन (Infertility) और एआरटी (ART)"
+    },
+    "content": {
+      "en": "Infertility is the inability to produce children. Assisted Reproductive Technologies (ART) include IVF (In vitro fertilization), ZIFT, GIFT, and ICSI to help couples have children.",
+      "hi": "बांझपन बच्चे पैदा करने में असमर्थता है। असिस्टेड रिप्रोडक्टिव टेक्नोलॉजी (ART) में IVF (इन विट्रो फर्टिलाइजेशन), ZIFT, GIFT, और ICSI शामिल हैं।"
     }
   }
 ]

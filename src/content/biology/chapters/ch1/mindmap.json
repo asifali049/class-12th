@@ -1,31 +1,69 @@
 {
   "id": "root",
   "label": {
-    "en": "Reproduction in Flowering Plants",
-    "hi": "पुष्पी पादपों में जनन"
+    "en": "Sexual Reproduction",
+    "hi": "लैंगिक जनन"
   },
   "children": [
     {
       "id": "c1",
-      "label": { "en": "Pre-fertilization", "hi": "निषेचन-पूर्व" },
+      "label": {
+        "en": "Pre-fertilization",
+        "hi": "निषेचन-पूर्व"
+      },
       "children": [
-        { "id": "c1a", "label": { "en": "Microsporogenesis", "hi": "लघुबीजाणुजनन" } },
-        { "id": "c1b", "label": { "en": "Megasporogenesis", "hi": "गुरुबीजाणुजनन" } },
-        { "id": "c1c", "label": { "en": "Pollination", "hi": "परागण" } }
+        {
+          "id": "c1a",
+          "label": {
+            "en": "Microsporogenesis",
+            "hi": "लघुबीजाणुजनन"
+          }
+        },
+        {
+          "id": "c1b",
+          "label": {
+            "en": "Megasporogenesis",
+            "hi": "गुरुबीजाणुजनन"
+          }
+        },
+        {
+          "id": "c1c",
+          "label": {
+            "en": "Pollination",
+            "hi": "परागण"
+          }
+        }
       ]
     },
     {
       "id": "c2",
-      "label": { "en": "Double Fertilization", "hi": "दोहरा निषेचन" }
+      "label": {
+        "en": "Double Fertilization",
+        "hi": "दोहरा निषेचन"
+      },
+      "children": [
+        {
+          "id": "c2a",
+          "label": {
+            "en": "Syngamy",
+            "hi": "युग्मक संलयन"
+          }
+        },
+        {
+          "id": "c2b",
+          "label": {
+            "en": "Triple Fusion",
+            "hi": "त्रिसंलयन"
+          }
+        }
+      ]
     },
     {
       "id": "c3",
-      "label": { "en": "Post-fertilization", "hi": "निषेचन-पश्च" },
-      "children": [
-        { "id": "c3a", "label": { "en": "Endosperm Formation", "hi": "भ्रूणपोष निर्माण" } },
-        { "id": "c3b", "label": { "en": "Embryogeny", "hi": "भ्रूणोद्भव" } },
-        { "id": "c3c", "label": { "en": "Seed & Fruit", "hi": "बीज एवं फल" } }
-      ]
+      "label": {
+        "en": "Post-fertilization",
+        "hi": "निषेचन-पश्च"
+      }
     }
   ]
 }

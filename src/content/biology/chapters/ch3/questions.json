@@ -1,41 +1,96 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
-    "question": {
-      "en": "What are IUDs? How do they act as contraceptives?",
-      "hi": "आईयूडी (IUDs) क्या हैं? वे गर्भनिरोधक के रूप में कैसे कार्य करते हैं?"
-    },
-    "idealAnswer": {
-      "en": "IUDs (Intra Uterine Devices) are devices inserted into the uterus through the vagina by doctors. They increase phagocytosis of sperms within the uterus. Copper-releasing IUDs (like CuT) release Cu ions that suppress sperm motility and fertilizing capacity. Hormone-releasing IUDs (like LNG-20) make the uterus unsuitable for implantation and the cervix hostile to the sperms.",
-      "hi": "आईयूडी (Intra Uterine Devices) ऐसे उपकरण हैं जिन्हें डॉक्टरों द्वारा योनि के माध्यम से गर्भाशय में डाला जाता है। वे गर्भाशय के भीतर शुक्राणुओं के भक्षण (phagocytosis) को बढ़ाते हैं। कॉपर मोचक आईयूडी (जैसे CuT) Cu आयन छोड़ते हैं जो शुक्राणु की गतिशीलता और निषेचन क्षमता को दबा देते हैं। हार्मोन मोचक आईयूडी (जैसे LNG-20) गर्भाशय को अंतर्रोपण (implantation) के लिए अनुपयुक्त बनाते हैं और गर्भाशय ग्रीवा को शुक्राणुओं के विरोधी बनाते हैं।"
-    },
-    "keywords": [
-      { "en": "phagocytosis", "hi": "भक्षण" },
-      { "en": "motility", "hi": "गतिशीलता" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_1",
+    "type": "mcq",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which of the following is a non-steroidal oral contraceptive pill developed in India?",
-      "hi": "निम्नलिखित में से कौन सी भारत में विकसित एक गैर-स्टेरायडल मौखिक गर्भनिरोधक गोली है?"
+      "en": "The oral contraceptive 'Saheli' was developed at:",
+      "hi": "मौखिक गर्भनिरोधक 'सहेली' कहाँ विकसित किया गया था?"
     },
     "options": [
-      { "en": "Mala-D", "hi": "माला-डी" },
-      { "en": "Saheli", "hi": "सहेली" },
-      { "en": "Levonorgestrel", "hi": "लेवोनोर्गेस्ट्रेल" },
-      { "en": "Progestasert", "hi": "प्रोजेस्टासर्ट" }
+      {
+        "en": "CDRI, Lucknow",
+        "hi": "सीडीआरआई, लखनऊ"
+      },
+      {
+        "en": "AIIMS, New Delhi",
+        "hi": "एम्स, नई दिल्ली"
+      },
+      {
+        "en": "NDRI, Karnal",
+        "hi": "एनडीआरआई, करनाल"
+      },
+      {
+        "en": "NIV, Pune",
+        "hi": "एनआईवी, पुणे"
+      }
     ],
-    "correctAnswer": 1,
+    "correctOptionIndex": 0,
     "explanation": {
-      "en": "'Saheli' is a non-steroidal, once-a-week pill developed by CDRI, Lucknow.",
-      "hi": "'सहेली' एक गैर-स्टेरायडल, सप्ताह में एक बार ली जाने वाली गोली है जिसे CDRI, लखनऊ द्वारा विकसित किया गया है।"
+      "en": "Saheli, a non-steroidal oral contraceptive, was developed by scientists at Central Drug Research Institute (CDRI) in Lucknow.",
+      "hi": "सहेली, एक गैर-स्टेरॉयड मौखिक गर्भनिरोधक है, जिसे लखनऊ में CDRI के वैज्ञानिकों द्वारा विकसित किया गया था।"
     }
+  },
+  {
+    "id": "q_mcq_2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following is a copper releasing IUD?",
+      "hi": "निम्नलिखित में से कौन सा कॉपर मुक्त करने वाला IUD है?"
+    },
+    "options": [
+      {
+        "en": "Lippes loop",
+        "hi": "लिप्पेस लूप"
+      },
+      {
+        "en": "Multiload 375",
+        "hi": "मल्टीलोड 375"
+      },
+      {
+        "en": "LNG-20",
+        "hi": "एलएनजी-20"
+      },
+      {
+        "en": "Progestasert",
+        "hi": "प्रोजेस्टासर्ट"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "CuT, Cu7, Multiload 375 are copper releasing IUDs. LNG-20 is a hormone-releasing IUD.",
+      "hi": "CuT, Cu7, मल्टीलोड 375 कॉपर मुक्त करने वाले IUD हैं। LNG-20 एक हार्मोन मुक्त करने वाला IUD है।"
+    }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 3,
+    "question": {
+      "en": "Expand the following terms: (a) IVF (b) ZIFT (c) GIFT",
+      "hi": "निम्नलिखित शब्दों का विस्तार करें: (a) IVF (b) ZIFT (c) GIFT"
+    },
+    "idealAnswer": {
+      "en": "(a) IVF: In Vitro Fertilization\n(b) ZIFT: Zygote Intra Fallopian Transfer\n(c) GIFT: Gamete Intra Fallopian Transfer",
+      "hi": "(a) IVF: इन विट्रो फर्टिलाइजेशन\n(b) ZIFT: जाइगोट इंट्रा फैलोपियन ट्रांसफर\n(c) GIFT: गैमीट इंट्रा फैलोपियन ट्रांसफर"
+    },
+    "keywords": [
+      {
+        "en": "In Vitro Fertilization",
+        "hi": "इन विट्रो फर्टिलाइजेशन"
+      },
+      {
+        "en": "Zygote Intra Fallopian",
+        "hi": "जाइगोट इंट्रा फैलोपियन"
+      },
+      {
+        "en": "Gamete Intra Fallopian",
+        "hi": "गैमीट इंट्रा फैलोपियन"
+      }
+    ]
   }
 ]

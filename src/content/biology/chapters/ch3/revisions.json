@@ -2,17 +2,19 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "ART Techniques Full Forms",
-      "hi": "ART तकनीकों के पूर्ण रूप",
-      "hinglish": "ART Full Forms"
+      "en": "IUDs (Intra Uterine Devices)",
+      "hi": "IUDs (इंट्रा यूटेराइन डिवाइस)",
+      "hinglish": "Types of IUDs"
     },
     "summary": {
-      "en": "**IVF**: In Vitro Fertilization\n**ZIFT**: Zygote Intra Fallopian Transfer\n**IUT**: Intra Uterine Transfer\n**GIFT**: Gamete Intra Fallopian Transfer\n**ICSI**: Intracytoplasmic Sperm Injection",
-      "hi": "**IVF**: इन विट्रो फर्टिलाइजेशन (पात्रे निषेचन)\n**ZIFT**: जाइगोट इंट्रा फैलोपियन ट्रांसफर\n**IUT**: इंट्रा यूटेराइन ट्रांसफर\n**GIFT**: गैमीट इंट्रा फैलोपियन ट्रांसफर\n**ICSI**: इंट्रासाइटोप्लाज्मिक स्पर्म इंजेक्शन"
+      "en": "**Non-medicated**: Lippes loop (promotes phagocytosis of sperms).\n**Copper releasing**: CuT, Multiload 375 (suppresses sperm motility).\n**Hormone releasing**: Progestasert, LNG-20 (makes uterus unsuitable for implantation).",
+      "hi": "**गैर-औषधीय**: लिप्पेस लूप (शुक्राणुओं के फागोसाइटोसिस को बढ़ावा देता है)।\n**कॉपर रिलीजिंग**: CuT, मल्टीलोड 375 (शुक्राणु की गतिशीलता को दबाता है)।\n**हार्मोन रिलीजिंग**: प्रोजेस्टासर्ट, LNG-20 (गर्भाशय को प्रत्यारोपण के लिए अनुपयुक्त बनाता है)।"
     },
     "quickRecall": [
-      { "en": "ZIFT = Embryo < 8 blastomeres", "hi": "ZIFT = 8 ब्लास्टोमियर से कम वाला भ्रूण" },
-      { "en": "IUT = Embryo > 8 blastomeres", "hi": "IUT = 8 ब्लास्टोमियर से अधिक वाला भ्रूण" }
+      {
+        "en": "Saheli = Once a week pill",
+        "hi": "सहेली = सप्ताह में एक बार गोली"
+      }
     ]
   }
 ]

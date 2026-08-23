@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Structure of Sperm",
+      "hi": "शुक्राणु की संरचना"
+    },
+    "description": {
+      "en": "Sperm has a Head (with acrosome & nucleus), Neck, Middle piece (with mitochondria), and Tail.",
+      "hi": "शुक्राणु में एक सिर (एक्रोसोम और केंद्रक के साथ), गर्दन, मध्य भाग (माइटोकॉन्ड्रिया के साथ) और पूंछ होती है।"
+    },
+    "svgCode": "<svg width='200' height='200' viewBox='0 0 200 200'><path d='M50,100 Q70,70 90,100 T150,100' fill='none' stroke='blue' stroke-width='4'/><circle cx='40' cy='100' r='15' fill='lightblue'/><text x='30' y='105' font-size='10'>Head</text></svg>"
+  }
+]

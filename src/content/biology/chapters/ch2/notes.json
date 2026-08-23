@@ -2,34 +2,45 @@
   {
     "id": "n1",
     "title": {
-      "en": "Male and Female Reproductive Systems",
-      "hi": "नर और मादा जनन तंत्र"
+      "en": "Male Reproductive System",
+      "hi": "नर प्रजनन तंत्र"
     },
     "content": {
-      "en": "The male reproductive system consists of a pair of testes, accessory ducts, glands, and the external genitalia. Testes produce sperms through spermatogenesis. The female reproductive system consists of a pair of ovaries, oviducts (fallopian tubes), uterus, cervix, vagina, and the external genitalia. Ovaries produce ova through oogenesis.",
-      "hi": "नर जनन तंत्र में एक जोड़ी वृषण (testes), सहायक नलिकाएं, ग्रंथियां और बाह्य जननांग शामिल हैं। वृषण शुक्रजनन (spermatogenesis) के माध्यम से शुक्राणु पैदा करते हैं। मादा जनन तंत्र में एक जोड़ी अंडाशय (ovaries), अंडवाहिनी (fallopian tubes), गर्भाशय, गर्भाशय ग्रीवा (cervix), योनि (vagina) और बाह्य जननांग शामिल हैं। अंडाशय अंडजनन (oogenesis) के माध्यम से अंडाणु पैदा करते हैं।"
+      "en": "Located in the pelvis region. Includes a pair of testes, accessory ducts, glands, and external genitalia. Testes are situated outside the abdominal cavity within a pouch called scrotum (maintains low temperature 2-2.5°C lower than internal body temp necessary for spermatogenesis). Each testis has about 250 testicular lobules, containing 1-3 highly coiled seminiferous tubules.",
+      "hi": "श्रोणि (pelvis) क्षेत्र में स्थित है। इसमें वृषण (testes) की एक जोड़ी, सहायक नलिकाएं, ग्रंथियां और बाहरी जननांग शामिल हैं। वृषण उदर गुहा के बाहर वृषणकोष (scrotum) नामक थैली में स्थित होते हैं (जो शुक्राणुजनन के लिए आवश्यक कम तापमान बनाए रखता है)।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Menstrual Cycle",
-      "hi": "आर्तव चक्र (Menstrual Cycle)"
+      "en": "Female Reproductive System",
+      "hi": "मादा प्रजनन तंत्र"
     },
     "content": {
-      "en": "The reproductive cycle in female primates is called the menstrual cycle. It consists of four phases: Menstrual phase, Follicular phase, Ovulatory phase (release of ovum on the 14th day), and Luteal phase. These phases are regulated by pituitary hormones (LH, FSH) and ovarian hormones (estrogen, progesterone).",
-      "hi": "मादा प्राइमेट्स में जनन चक्र को आर्तव चक्र कहा जाता है। इसके चार चरण होते हैं: आर्तव अवस्था (Menstrual phase), पुटकीय अवस्था (Follicular phase), अंडोत्सर्ग अवस्था (Ovulatory phase - 14वें दिन अंडाणु का निकलना), और पीत अवस्था (Luteal phase)। इन चरणों को पीयूष ग्रंथि हार्मोन (LH, FSH) और डिम्बग्रंथि हार्मोन (एस्ट्रोजन, प्रोजेस्टेरोन) द्वारा नियंत्रित किया जाता है।"
+      "en": "Consists of a pair of ovaries, a pair of oviducts (fallopian tubes), uterus, cervix, vagina, and external genitalia. Ovaries produce the female gamete (ovum) and ovarian hormones. Each fallopian tube has three parts: infundibulum (with fimbriae), ampulla, and isthmus.",
+      "hi": "इसमें अंडाशय (ovaries) की एक जोड़ी, फैलोपियन ट्यूब, गर्भाशय, गर्भाशय ग्रीवा, योनि और बाहरी जननांग शामिल हैं। अंडाशय मादा युग्मक (अंडाणु) और डिम्बग्रंथि हार्मोन का उत्पादन करते हैं।"
     }
   },
   {
     "id": "n3",
     "title": {
-      "en": "Fertilization and Implantation",
-      "hi": "निषेचन और अंतर्रोपण (Fertilization and Implantation)"
+      "en": "Gametogenesis",
+      "hi": "युग्मकजनन"
     },
     "content": {
-      "en": "Fertilization is the fusion of a sperm with an ovum, occurring in the ampullary region of the fallopian tube, forming a zygote. The zygote undergoes cleavage to form a blastocyst. Implantation is the attachment of the blastocyst to the uterine endometrium, leading to pregnancy.",
-      "hi": "निषेचन एक शुक्राणु का अंडाणु के साथ संलयन है, जो अंडवाहिनी के एम्पुलरी (तुंबिका) क्षेत्र में होता है, जिससे युग्मनज (zygote) बनता है। युग्मनज में विदलन (cleavage) होता है जिससे कोरकपुटी (blastocyst) बनता है। अंतर्रोपण (Implantation) गर्भाशय के एंडोमेट्रियम से कोरकपुटी का जुड़ना है, जिससे गर्भावस्था (pregnancy) होती है।"
+      "en": "Spermatogenesis: Formation of sperms in seminiferous tubules. Spermatogonia (2n) -> Primary spermatocytes (2n) -> Secondary spermatocytes (n) -> Spermatids (n) -> Spermatozoa (n). \nOogenesis: Formation of a mature female gamete. Initiated during embryonic development stage. Oogonia -> Primary Oocyte -> Secondary Oocyte -> Ovum.",
+      "hi": "शुक्राणुजनन: वृषण में शुक्राणुओं का निर्माण।\nअंडजनन: परिपक्व मादा युग्मक का निर्माण। भ्रूणीय विकास के दौरान शुरू होता है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Menstrual Cycle & Fertilization",
+      "hi": "आर्तव चक्र (Menstrual Cycle) और निषेचन"
+    },
+    "content": {
+      "en": "Reproductive cycle in female primates. Four phases: Menstrual, Follicular (Proliferative), Ovulatory (LH surge at mid-cycle), and Luteal (Secretory). Fertilization occurs in the ampullary region of the fallopian tube.",
+      "hi": "प्राइमेट्स में प्रजनन चक्र। चार चरण: आर्तव, पुटकीय, अंडोत्सर्ग (मध्य चक्र में LH उछाल), और पीतपिंड (Luteal)। निषेचन फैलोपियन ट्यूब के एम्पुला क्षेत्र में होता है।"
     }
   }
 ]

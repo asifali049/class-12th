@@ -2,17 +2,14 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Important Enzymes",
-      "hi": "महत्वपूर्ण एंजाइम",
-      "hinglish": "Key Enzymes in DNA/RNA"
+      "en": "Start & Stop Codons",
+      "hi": "स्टार्ट और स्टॉप कोडॉन",
+      "hinglish": "Genetic Code"
     },
     "summary": {
-      "en": "**Helicase**: Unwinds DNA.\n**DNA Polymerase**: DNA synthesis.\n**Ligase**: Joins Okazaki fragments.\n**RNA Polymerase**: mRNA synthesis.",
-      "hi": "**हेलिकेज़**: डीएनए को खोलता है।\n**डीएनए पॉलीमरेज़**: डीएनए संश्लेषण।\n**लाइगेज़**: ओकाजाकी खंडों को जोड़ता है।\n**आरएनए पॉलीमरेज़**: एमआरएनए संश्लेषण।"
+      "en": "**Start Codon**: AUG (codes for Methionine).\n**Stop Codons**: UAA, UAG, UGA (do not code for any amino acid).",
+      "hi": "**स्टार्ट कोडॉन**: AUG (मेथियोनीन के लिए कोड)।\n**स्टॉप कोडॉन**: UAA, UAG, UGA (किसी भी एमिनो एसिड के लिए कोड नहीं करते)।"
     },
-    "quickRecall": [
-      { "en": "A=T (2 H-bonds)", "hi": "A=T (2 हाइड्रोजन बंध)" },
-      { "en": "G≡C (3 H-bonds)", "hi": "G≡C (3 हाइड्रोजन बंध)" }
-    ]
+    "quickRecall": []
   }
 ]

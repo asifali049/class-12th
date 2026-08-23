@@ -1,42 +1,35 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Hard",
-    "marks": 5,
-    "question": {
-      "en": "Explain the process of transcription in prokaryotes.",
-      "hi": "प्रोकैरियोट्स में अनुलेखन (transcription) की प्रक्रिया की व्याख्या कीजिए।"
-    },
-    "idealAnswer": {
-      "en": "In prokaryotes, transcription is catalyzed by a single DNA-dependent RNA polymerase. It involves three steps: 1. Initiation: RNA polymerase binds to the promoter region with the help of a sigma (σ) factor. 2. Elongation: The enzyme adds ribonucleotides complementary to the DNA template strand. 3. Termination: When the polymerase reaches the terminator region, it binds with a rho (ρ) factor, and the nascent RNA falls off, stopping transcription.",
-      "hi": "प्रोकैरियोट्स में, अनुलेखन को एकल डीएनए-निर्भर आरएनए पॉलीमरेज़ द्वारा उत्प्रेरित किया जाता है। इसमें तीन चरण शामिल हैं: 1. प्रारंभन (Initiation): आरएनए पॉलीमरेज़ सिग्मा (σ) कारक की मदद से प्रमोटर क्षेत्र से जुड़ता है। 2. दीर्घीकरण (Elongation): एंजाइम डीएनए टेम्पलेट रज्जुक के पूरक राइबोन्यूक्लियोटाइड्स जोड़ता है। 3. समापन (Termination): जब पॉलीमरेज़ टर्मिनेटर क्षेत्र में पहुँचता है, तो यह रो (ρ) कारक से जुड़ जाता है, और नवजात आरएनए अलग हो जाता है, जिससे अनुलेखन रुक जाता है।"
-    },
-    "keywords": [
-      { "en": "Initiation", "hi": "प्रारंभन" },
-      { "en": "Elongation", "hi": "दीर्घीकरण" },
-      { "en": "Termination", "hi": "समापन" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
-    "difficulty": "Medium",
+    "id": "q_mcq_1",
+    "type": "mcq",
+    "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which enzyme is responsible for synthesizing DNA from an RNA template?",
-      "hi": "आरएनए टेम्पलेट से डीएनए के संश्लेषण के लिए कौन सा एंजाइम जिम्मेदार है?"
+      "en": "In DNA, adenine always pairs with:",
+      "hi": "डीएनए में, एडेनिन हमेशा किसके साथ जुड़ता है?"
     },
     "options": [
-      { "en": "DNA Polymerase", "hi": "डीएनए पॉलीमरेज़" },
-      { "en": "Reverse Transcriptase", "hi": "रिवर्स ट्रांसक्रिप्टेज़" },
-      { "en": "RNA Polymerase", "hi": "आरएनए पॉलीमरेज़" },
-      { "en": "Helicase", "hi": "हेलिकेज़" }
+      {
+        "en": "Guanine",
+        "hi": "ग्वानिन"
+      },
+      {
+        "en": "Cytosine",
+        "hi": "साइटोसिन"
+      },
+      {
+        "en": "Thymine",
+        "hi": "थायमिन"
+      },
+      {
+        "en": "Uracil",
+        "hi": "यूरेसिल"
+      }
     ],
-    "correctAnswer": 1,
+    "correctOptionIndex": 2,
     "explanation": {
-      "en": "Reverse transcriptase catalyzes the synthesis of DNA from an RNA template (Reverse transcription).",
-      "hi": "रिवर्स ट्रांसक्रिप्टेज़ आरएनए टेम्पलेट से डीएनए के संश्लेषण (रिवर्स अनुलेखन) को उत्प्रेरित करता है।"
+      "en": "According to Chargaff's rule, Adenine (A) pairs with Thymine (T) via two hydrogen bonds.",
+      "hi": "चारगाफ के नियम के अनुसार, एडेनिन (A) थायमिन (T) के साथ जुड़ता है।"
     }
   }
 ]

@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "dia1",
+    "title": {
+      "en": "Anatomy of an Angiosperm Ovule",
+      "hi": "एक एंजियोस्पर्म बीजांड की संरचना"
+    },
+    "description": {
+      "en": "A schematic representing the anatropous ovule showing funicle, micropyle, integuments, and embryo sac.",
+      "hi": "एक एनाट्रोपस बीजांड का प्रतिनिधित्व करने वाली योजना।"
+    },
+    "svgCode": "<svg width='200' height='200' viewBox='0 0 200 200'><circle cx='100' cy='100' r='50' fill='none' stroke='blue' stroke-width='2'/><text x='65' y='105' font-size='12' fill='black'>Embryo Sac (7-celled)</text></svg>"
+  }
+]

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "num1",
+    "question": {
+      "en": "If the frequency of a recessive allele (q) is 0.4, what is the frequency of the homozygous dominant genotype ($p^2$)?",
+      "hi": "यदि एक अप्रभावी एलील (q) की आवृत्ति 0.4 है, तो समयुग्मजी प्रभावी जीनोटाइप ($p^2$) की आवृत्ति क्या है?"
+    },
+    "solution": {
+      "en": "We know $p + q = 1$. \nGiven $q = 0.4$. \nTherefore, $p = 1 - 0.4 = 0.6$.\nFrequency of homozygous dominant = $p^2 = (0.6)^2 = 0.36$.",
+      "hi": "हम जानते हैं $p + q = 1$।\nदिया गया है $q = 0.4$।\nइसलिए, $p = 1 - 0.4 = 0.6$।\nसमयुग्मजी प्रभावी (homozygous dominant) की आवृत्ति = $p^2 = (0.6)^2 = 0.36$।"
+    }
+  }
+]

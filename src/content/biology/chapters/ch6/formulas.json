@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Hardy-Weinberg Equation",
+      "hi": "हार्डी-वेनबर्ग समीकरण"
+    },
+    "formula": "p^2 + 2pq + q^2 = 1",
+    "variables": [
+      {
+        "name": "p",
+        "description": {
+          "en": "Frequency of dominant allele",
+          "hi": "प्रभावी एलील की आवृत्ति"
+        }
+      },
+      {
+        "name": "q",
+        "description": {
+          "en": "Frequency of recessive allele",
+          "hi": "अप्रभावी एलील की आवृत्ति"
+        }
+      }
+    ],
+    "applications": {
+      "en": "Used to calculate allele frequencies in a population.",
+      "hi": "समष्टि में एलील आवृत्तियों की गणना करने के लिए उपयोग किया जाता है।"
+    }
+  }
+]

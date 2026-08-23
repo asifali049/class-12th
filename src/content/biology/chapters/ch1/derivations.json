@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Process of Double Fertilization",
+      "hi": "दोहरे निषेचन की प्रक्रिया"
+    },
+    "steps": [
+      {
+        "en": "Pollen grain lands on the compatible stigma and germinates.",
+        "hi": "परागकण संगत वर्तिकाग्र पर गिरता है और अंकुरित होता है।"
+      },
+      {
+        "en": "Pollen tube grows through the style and enters the ovule.",
+        "hi": "पराग नलिका वर्तिका के माध्यम से बढ़ती है और बीजांड में प्रवेश करती है।"
+      },
+      {
+        "en": "**Syngamy**: One male gamete fuses with the egg cell nucleus to form a diploid zygote ($2n$).",
+        "hi": "**युग्मक संलयन (Syngamy)**: एक नर युग्मक द्विगुणित युग्मनज ($2n$) बनाने के लिए अंड कोशिका के साथ संलयन करता है।"
+      },
+      {
+        "en": "**Triple Fusion**: The other male gamete fuses with two polar nuclei to produce a triploid PEN ($3n$).",
+        "hi": "**त्रिसंलयन (Triple Fusion)**: दूसरा नर युग्मक त्रिगुणित PEN ($3n$) बनाने के लिए दो ध्रुवीय केंद्रकों के साथ संलयन करता है।"
+      }
+    ],
+    "conclusion": {
+      "en": "Since two fusions take place, it is termed double fertilization.",
+      "hi": "चूँकि दो संलयन होते हैं, इसलिए इसे दोहरा निषेचन कहा जाता है।"
+    }
+  }
+]

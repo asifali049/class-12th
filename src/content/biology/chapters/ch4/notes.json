@@ -6,30 +6,41 @@
       "hi": "मेंडल के वंशागति के नियम"
     },
     "content": {
-      "en": "Gregor Mendel proposed the laws of inheritance based on his experiments with garden peas (Pisum sativum). The three laws are: 1. Law of Dominance (in a heterozygous condition, only the dominant allele expresses itself). 2. Law of Segregation (alleles segregate during gamete formation so that each gamete receives only one allele). 3. Law of Independent Assortment (segregation of one pair of traits is independent of the other pair during gamete formation).",
-      "hi": "ग्रेगर मेंडल ने मटर (Pisum sativum) पर अपने प्रयोगों के आधार पर वंशागति के नियम प्रस्तावित किए। तीन नियम हैं: 1. प्रभाविता का नियम (विषमयुग्मजी अवस्था में, केवल प्रभावी युग्मविकल्पी ही स्वयं को व्यक्त करता है)। 2. विसंयोजन का नियम (युग्मक निर्माण के दौरान युग्मविकल्पी अलग हो जाते हैं ताकि प्रत्येक युग्मक को केवल एक युग्मविकल्पी मिले)। 3. स्वतंत्र अपव्यूहन का नियम (युग्मक निर्माण के दौरान लक्षणों के एक जोड़े का विसंयोजन दूसरे जोड़े से स्वतंत्र होता है)।"
+      "en": "Gregor Mendel conducted hybridization experiments on garden peas (Pisum sativum). He proposed Law of Dominance, Law of Segregation (alleles do not blend, separate during gamete formation), and Law of Independent Assortment.",
+      "hi": "ग्रेगर मेंडल ने उद्यान मटर (पिसम सैटिवम) पर संकरण प्रयोग किए। उन्होंने प्रभाविता का नियम (Law of Dominance), विसंयोजन का नियम (Law of Segregation - युग्मक निर्माण के दौरान अलग होना), और स्वतंत्र अपव्यूहन का नियम (Law of Independent Assortment) प्रस्तावित किया।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Incomplete Dominance and Co-dominance",
+      "en": "Incomplete Dominance & Co-dominance",
       "hi": "अपूर्ण प्रभाविता और सह-प्रभाविता"
     },
     "content": {
-      "en": "Incomplete Dominance occurs when neither allele is completely dominant, resulting in an intermediate phenotype (e.g., pink flowers in Snapdragon). Co-dominance occurs when both alleles are fully expressed in a heterozygote (e.g., AB blood group in humans, where both A and B antigens are expressed).",
-      "hi": "अपूर्ण प्रभाविता (Incomplete Dominance) तब होती है जब कोई भी युग्मविकल्पी पूरी तरह से प्रभावी नहीं होता है, जिसके परिणामस्वरूप एक मध्यवर्ती फेनोटाइप होता है (उदा., स्नैपड्रैगन में गुलाबी फूल)। सह-प्रभाविता (Co-dominance) तब होती है जब विषमयुग्मजी में दोनों युग्मविकल्पी पूरी तरह से व्यक्त होते हैं (उदा., मनुष्यों में AB रक्त समूह, जहां A और B दोनों एंटीजन व्यक्त होते हैं)।"
+      "en": "Incomplete Dominance: F1 phenotype is intermediate (e.g., pink flowers in Snapdragon). Co-dominance: Both alleles express themselves fully in F1 (e.g., ABO blood grouping in humans).",
+      "hi": "अपूर्ण प्रभाविता (Incomplete Dominance): F1 फीनोटाइप मध्यवर्ती होता है (उदा., स्नैपड्रैगन में गुलाबी फूल)। सह-प्रभाविता (Co-dominance): दोनों एलील F1 में खुद को पूरी तरह से व्यक्त करते हैं (उदा., मनुष्यों में ABO रक्त समूह)।"
     }
   },
   {
     "id": "n3",
     "title": {
+      "en": "Chromosomal Theory of Inheritance & Linkage",
+      "hi": "वंशागति का गुणसूत्रीय सिद्धांत और सहलग्नता"
+    },
+    "content": {
+      "en": "Proposed by Sutton and Boveri. Thomas Hunt Morgan proved it experimentally using Drosophila melanogaster. Linkage refers to the physical association of genes on a chromosome, which do not assort independently.",
+      "hi": "सटन और बोवेरी द्वारा प्रस्तावित। थॉमस हंट मॉर्गन ने ड्रोसोफिला मेलानोगास्टर का उपयोग करके इसे प्रयोगात्मक रूप से सिद्ध किया। सहलग्नता (Linkage) एक गुणसूत्र पर जीन के भौतिक जुड़ाव को संदर्भित करती है, जो स्वतंत्र रूप से अलग नहीं होते हैं।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
       "en": "Genetic Disorders",
       "hi": "आनुवंशिक विकार"
     },
     "content": {
-      "en": "Genetic disorders are categorized into Mendelian and Chromosomal disorders. Mendelian disorders are determined by alteration or mutation in a single gene (e.g., Haemophilia, Sickle-cell anaemia, Color blindness). Chromosomal disorders are caused by absence, excess, or abnormal arrangement of chromosomes (e.g., Down's syndrome, Turner's syndrome, Klinefelter's syndrome).",
-      "hi": "आनुवंशिक विकारों को मेंडेलियन और क्रोमोसोमल विकारों में वर्गीकृत किया गया है। मेंडेलियन विकार एकल जीन में परिवर्तन या उत्परिवर्तन से निर्धारित होते हैं (उदा., हीमोफीलिया, सिकल-सेल एनीमिया, वर्णांधता)। क्रोमोसोमल विकार गुणसूत्रों की अनुपस्थिति, अधिकता या असामान्य व्यवस्था के कारण होते हैं (उदा., डाउन सिंड्रोम, टर्नर सिंड्रोम, क्लाइनफेल्टर सिंड्रोम)।"
+      "en": "Mendelian disorders (Haemophilia, Sickle-cell anaemia, Color blindness) are determined by alteration in a single gene. Chromosomal disorders (Down's syndrome, Turner's syndrome, Klinefelter's syndrome) are caused by absence/excess of chromosomes.",
+      "hi": "मेंडेलियन विकार (हीमोफीलिया, सिकल-सेल एनीमिया, वर्णांधता) एक ही जीन में परिवर्तन से निर्धारित होते हैं। गुणसूत्रीय विकार (डाउन सिंड्रोम, टर्नर सिंड्रोम, क्लाइनफेल्टर सिंड्रोम) गुणसूत्रों की अनुपस्थिति/अधिकता के कारण होते हैं।"
     }
   }
 ]

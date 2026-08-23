@@ -2,16 +2,14 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Important Microbes and Products",
-      "hi": "महत्वपूर्ण सूक्ष्म जीव और उत्पाद",
-      "hinglish": "Microbes & Products list"
+      "en": "Microbes & Products",
+      "hi": "सूक्ष्म जीव और उत्पाद",
+      "hinglish": "Microbe Products"
     },
     "summary": {
-      "en": "**Cyclosporin A** (immunosuppressant) = *Trichoderma polysporum*\n**Statins** (blood cholesterol lowering) = *Monascus purpureus*\n**Penicillin** (antibiotic) = *Penicillium notatum*",
-      "hi": "**साइक्लोस्पोरिन ए** (इम्यूनोसप्रेसेंट) = *ट्राइकोडर्मा पॉलीस्पोरम*\n**स्टैटिन** (रक्त कोलेस्ट्रॉल कम करने वाला) = *मोनस्कस परप्यूरियस*\n**पेनिसिलिन** (एंटीबायोटिक) = *पेनिसिलियम नोटैटम*"
+      "en": "Statins (Monascus purpureus)\nStreptokinase (Streptococcus)\nCitric acid (Aspergillus niger)",
+      "hi": "स्टैटिन (मोनस्कस परप्यूरियस)\nस्ट्रेप्टोकाइनेज (स्ट्रेप्टोकोकस)\nसाइट्रिक एसिड (एस्परगिलस नाइजर)"
     },
-    "quickRecall": [
-      { "en": "BOD decreases = Water is cleaner", "hi": "BOD घटता है = पानी साफ है" }
-    ]
+    "quickRecall": []
   }
 ]

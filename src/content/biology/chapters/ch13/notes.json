@@ -2,34 +2,23 @@
   {
     "id": "n1",
     "title": {
-      "en": "Biodiversity and Its Types",
-      "hi": "जैव विविधता और इसके प्रकार"
+      "en": "Biodiversity & Loss",
+      "hi": "जैव विविधता और हानि"
     },
     "content": {
-      "en": "Biodiversity refers to the combined diversity at all levels of biological organization. Edward Wilson popularized the term. It is classified into three levels: 1. Genetic diversity (variation of genes within a species), 2. Species diversity (variety of species within a region), and 3. Ecological diversity (diversity at the ecosystem level).",
-      "hi": "जैव विविधता (Biodiversity) जैविक संगठन के सभी स्तरों पर संयुक्त विविधता को संदर्भित करती है। एडवर्ड विल्सन ने इस शब्द को लोकप्रिय बनाया। इसे तीन स्तरों में वर्गीकृत किया गया है: 1. आनुवंशिक विविधता (एक प्रजाति के भीतर जीन की भिन्नता), 2. प्रजाति विविधता (एक क्षेत्र के भीतर प्रजातियों की विविधता), और 3. पारिस्थितिक विविधता (पारिस्थितिक तंत्र स्तर पर विविधता)।"
+      "en": "Three levels: Genetic, Species, Ecological. The 'Evil Quartet' are the 4 main causes of extinction: Habitat loss, Over-exploitation, Alien species, Co-extinctions.",
+      "hi": "तीन स्तर: आनुवंशिक, प्रजाति, पारिस्थितिक। 'एविल चौकड़ी' विलुप्ति के 4 मुख्य कारण हैं।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Loss of Biodiversity",
-      "hi": "जैव विविधता की हानि"
+      "en": "Conservation",
+      "hi": "संरक्षण"
     },
     "content": {
-      "en": "The Earth is currently facing the 'Sixth Extinction'. The four major causes of biodiversity loss are known as the 'Evil Quartet': 1. Habitat loss and fragmentation (most important cause), 2. Over-exploitation, 3. Alien species invasions, and 4. Co-extinctions.",
-      "hi": "पृथ्वी वर्तमान में 'छठे विलुप्ति (Sixth Extinction)' का सामना कर रही है। जैव विविधता के नुकसान के चार प्रमुख कारणों को 'एविल चौकड़ी (Evil Quartet)' के रूप में जाना जाता है: 1. आवास हानि और विखंडन (सबसे महत्वपूर्ण कारण), 2. अति-दोहन (Over-exploitation), 3. विदेशी प्रजातियों के आक्रमण, और 4. सह-विलुप्ति (Co-extinctions)।"
-    }
-  },
-  {
-    "id": "n3",
-    "title": {
-      "en": "Conservation of Biodiversity",
-      "hi": "जैव विविधता का संरक्षण"
-    },
-    "content": {
-      "en": "Conservation strategies are of two types: In-situ (on-site) conservation, where organisms are protected in their natural habitat (e.g., National Parks, Sanctuaries, Biosphere Reserves, Biodiversity Hotspots). Ex-situ (off-site) conservation, where organisms are protected outside their natural habitat (e.g., Botanical gardens, Zoos, Cryopreservation, Seed banks).",
-      "hi": "संरक्षण रणनीतियाँ दो प्रकार की होती हैं: स्वस्थाने (In-situ - ऑन-साइट) संरक्षण, जहाँ जीवों को उनके प्राकृतिक आवास में संरक्षित किया जाता है (उदा., राष्ट्रीय उद्यान, अभयारण्य, बायोस्फीयर रिज़र्व, जैव विविधता हॉटस्पॉट)। बाह्य-स्थाने (Ex-situ - ऑफ-साइट) संरक्षण, जहाँ जीवों को उनके प्राकृतिक आवास के बाहर संरक्षित किया जाता है (उदा., वनस्पति उद्यान, चिड़ियाघर, क्रायोप्रिजर्वेशन, बीज बैंक)।"
+      "en": "In-situ (on-site, e.g., National Parks). Ex-situ (off-site, e.g., Zoos, Seed banks).",
+      "hi": "स्वस्थाने (ऑन-साइट, उदा., राष्ट्रीय उद्यान)। बाह्य-स्थाने (ऑफ-साइट, उदा., चिड़ियाघर, बीज बैंक)।"
     }
   }
 ]

@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Monohybrid Cross (Punnett Square)",
+      "hi": "एकसंकर क्रॉस (पुन्नट स्क्वायर)"
+    },
+    "steps": [
+      {
+        "en": "Parents: TT (Tall) x tt (Dwarf)",
+        "hi": "माता-पिता: TT (लंबा) x tt (बौना)"
+      },
+      {
+        "en": "Gametes: T and t",
+        "hi": "युग्मक: T और t"
+      },
+      {
+        "en": "F1 Generation: Tt (All Tall)",
+        "hi": "F1 पीढ़ी: Tt (सभी लंबे)"
+      },
+      {
+        "en": "Selfing F1: Tt x Tt",
+        "hi": "F1 स्वपरागण: Tt x Tt"
+      },
+      {
+        "en": "Gametes: T, t from both sides",
+        "hi": "युग्मक: T, t दोनों तरफ से"
+      },
+      {
+        "en": "F2 Generation: TT (Tall), Tt (Tall), Tt (Tall), tt (Dwarf)",
+        "hi": "F2 पीढ़ी: TT (लंबा), Tt (लंबा), Tt (लंबा), tt (बौना)"
+      }
+    ],
+    "conclusion": {
+      "en": "Phenotypic ratio is 3:1. Genotypic ratio is 1:2:1.",
+      "hi": "फीनोटाइपिक अनुपात 3:1 है। जीनोटाइपिक अनुपात 1:2:1 है।"
+    }
+  }
+]

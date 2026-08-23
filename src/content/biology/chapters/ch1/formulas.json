@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Chromosome Number Formula",
+      "hi": "गुणसूत्र संख्या सूत्र"
+    },
+    "formula": "n \\text{ (haploid)}, \\quad 2n \\text{ (diploid)}, \\quad 3n \\text{ (triploid)}",
+    "variables": [
+      {
+        "name": "n",
+        "description": {
+          "en": "Gametes (Pollen, Egg), Synergids, Antipodals",
+          "hi": "युग्मक (पराग, अंड), सहायक कोशिकाएं, प्रतिव्यासांत"
+        }
+      },
+      {
+        "name": "2n",
+        "description": {
+          "en": "Zygote, Nucellus, Integuments, MMC, PMC",
+          "hi": "युग्मनज, बीजांडकाय, अध्यावरण, MMC, PMC"
+        }
+      },
+      {
+        "name": "3n",
+        "description": {
+          "en": "Primary Endosperm Nucleus (PEN) / Endosperm",
+          "hi": "प्राथमिक भ्रूणपोष केंद्रक (PEN) / भ्रूणपोष"
+        }
+      }
+    ],
+    "applications": {
+      "en": "Used to determine the ploidy level of various cells in a plant.",
+      "hi": "पौधे में विभिन्न कोशिकाओं के प्लॉइडी स्तर (गुणसूत्रों के सेट) को निर्धारित करने के लिए उपयोग किया जाता है।"
+    }
+  }
+]

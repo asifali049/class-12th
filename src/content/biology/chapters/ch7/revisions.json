@@ -2,17 +2,14 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Antibody Structure & Malaria",
-      "hi": "एंटीबॉडी संरचना और मलेरिया",
-      "hinglish": "Antibodies & Malaria Cycle"
+      "en": "Antibody Types",
+      "hi": "एंटीबॉडी के प्रकार",
+      "hinglish": "IgA, IgE, IgG"
     },
     "summary": {
-      "en": "**Antibody**: Y-shaped, H2L2 format (2 Heavy chains, 2 Light chains).\n**Malaria**: Plasmodium requires two hosts - Human (asexual phase in liver and RBCs) and Female Anopheles mosquito (sexual phase and sporogony).",
-      "hi": "**एंटीबॉडी**: Y-आकार का, H2L2 प्रारूप (2 भारी श्रृंखलाएं, 2 हल्की श्रृंखलाएं)।\n**मलेरिया**: प्लास्मोडियम को दो मेज़बानों की आवश्यकता होती है - मानव (यकृत और RBC में अलैंगिक चरण) और मादा एनाफिलीज मच्छर (लैंगिक चरण और स्पोरोगोनी)।"
+      "en": "**IgA**: Colostrum, Saliva.\n**IgE**: Allergic reactions.\n**IgG**: Can cross placenta.",
+      "hi": "**IgA**: कोलोस्ट्रम, लार।\n**IgE**: एलर्जी प्रतिक्रियाएं।\n**IgG**: प्लेसेंटा को पार कर सकता है।"
     },
-    "quickRecall": [
-      { "en": "Colostrum = IgA", "hi": "कोलोस्ट्रम (Colostrum) = IgA" },
-      { "en": "Allergy = IgE", "hi": "एलर्जी = IgE" }
-    ]
+    "quickRecall": []
   }
 ]

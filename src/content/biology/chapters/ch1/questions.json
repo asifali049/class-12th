@@ -1,43 +1,149 @@
 [
   {
     "id": "q1",
-    "type": "subjective",
-    "difficulty": "Hard",
-    "marks": 5,
-    "question": {
-      "en": "Explain the process of double fertilization in angiosperms.",
-      "hi": "आवृतबीजियों में दोहरे निषेचन (double fertilization) की प्रक्रिया की व्याख्या कीजिए।"
-    },
-    "idealAnswer": {
-      "en": "Double fertilization involves two key fusions inside the embryo sac. First, one male gamete fuses with the egg cell (syngamy) to form a diploid zygote, which later develops into an embryo. Second, the other male gamete fuses with the two polar nuclei (or secondary nucleus) in the central cell to form a triploid primary endosperm nucleus (PEN). This is known as triple fusion. The PEN develops into the endosperm, which provides nourishment to the growing embryo. Because two fusions (syngamy and triple fusion) occur in the same embryo sac, the phenomenon is termed double fertilization.",
-      "hi": "दोहरे निषेचन में भ्रूणकोष के अंदर दो प्रमुख संलयन होते हैं। पहला, एक नर युग्मक अंड कोशिका (syngamy) के साथ संलयन करके द्विगुणित युग्मनज बनाता है, जो बाद में भ्रूण में विकसित होता है। दूसरा, अन्य नर युग्मक केंद्रीय कोशिका में दो ध्रुवीय नाभिकों (या द्वितीयक केंद्रक) के साथ जुड़कर त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाता है। इसे त्रिसंलयन (triple fusion) के रूप में जाना जाता है। PEN भ्रूणपोष (endosperm) में विकसित होता है, जो बढ़ते भ्रूण को पोषण प्रदान करता है। चूँकि एक ही भ्रूणकोष में दो संलयन (syngamy और triple fusion) होते हैं, इसलिए इस घटना को दोहरा निषेचन कहा जाता है।"
-    },
-    "keywords": [
-      { "en": "syngamy", "hi": "युग्मक संलयन" },
-      { "en": "triple fusion", "hi": "त्रिसंलयन" },
-      { "en": "zygote", "hi": "युग्मनज" },
-      { "en": "endosperm", "hi": "भ्रूणपोष" }
-    ]
-  },
-  {
-    "id": "q2",
     "type": "objective",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which part of the flower develops into a fruit after fertilization?",
-      "hi": "निषेचन के बाद पुष्प का कौन सा भाग फल में विकसित होता है?"
+      "en": "The highly resistant organic material present in the exine is:",
+      "hi": "बाह्यचोल (exine) में मौजूद अत्यधिक प्रतिरोधी कार्बनिक पदार्थ है:"
     },
     "options": [
-      { "en": "Ovule", "hi": "बीजांड" },
-      { "en": "Ovary", "hi": "अंडाशय" },
-      { "en": "Stigma", "hi": "वर्तिकाग्र" },
-      { "en": "Anther", "hi": "परागकोश" }
+      {
+        "en": "Cellulose",
+        "hi": "सेल्यूलोज"
+      },
+      {
+        "en": "Pectin",
+        "hi": "पेक्टिन"
+      },
+      {
+        "en": "Sporopollenin",
+        "hi": "स्पोरोपोलेनिन"
+      },
+      {
+        "en": "Lignin",
+        "hi": "लिग्निन"
+      }
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "explanation": {
-      "en": "After fertilization, the ovary develops into a fruit, and the ovules develop into seeds.",
-      "hi": "निषेचन के बाद, अंडाशय (ovary) फल में विकसित होता है, और बीजांड (ovules) बीज में विकसित होते हैं।"
+      "en": "Sporopollenin is one of the most resistant organic materials.",
+      "hi": "स्पोरोपोलेनिन ज्ञात सबसे प्रतिरोधी कार्बनिक पदार्थों में से एक है।"
     }
+  },
+  {
+    "id": "q_mcq_1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
+    "question": {
+      "en": "Male gametophyte in angiosperms produces:",
+      "hi": "एंजियोस्पर्म में नर युग्मकोद्भिद उत्पन्न करता है:"
+    },
+    "options": [
+      {
+        "en": "Single sperm and a vegetative cell",
+        "hi": "एक शुक्राणु और एक कायिक कोशिका"
+      },
+      {
+        "en": "Single sperm and two vegetative cells",
+        "hi": "एक शुक्राणु और दो कायिक कोशिकाएं"
+      },
+      {
+        "en": "Two sperms and a vegetative cell",
+        "hi": "दो शुक्राणु और एक कायिक कोशिका"
+      },
+      {
+        "en": "Three sperms",
+        "hi": "तीन शुक्राणु"
+      }
+    ],
+    "correctOptionIndex": 2,
+    "explanation": {
+      "en": "The mature male gametophyte has 1 vegetative cell and 2 sperms.",
+      "hi": "परिपक्व नर युग्मकोद्भिद में 1 कायिक कोशिका और 2 शुक्राणु होते हैं।"
+    }
+  },
+  {
+    "id": "q_mcq_2",
+    "type": "mcq",
+    "difficulty": "Medium",
+    "marks": 1,
+    "question": {
+      "en": "Which of the following has proved helpful in preserving pollen as fossils?",
+      "hi": "निम्नलिखित में से क्या परागकणों को जीवाश्मों के रूप में संरक्षित करने में सहायक सिद्ध हुआ है?"
+    },
+    "options": [
+      {
+        "en": "Pollenkitt",
+        "hi": "पॉलेनकिट"
+      },
+      {
+        "en": "Cellulosic intine",
+        "hi": "सेल्युलोसिक अंतःचोल"
+      },
+      {
+        "en": "Oil content",
+        "hi": "तेल की मात्रा"
+      },
+      {
+        "en": "Sporopollenin",
+        "hi": "स्पोरोपोलेनिन"
+      }
+    ],
+    "correctOptionIndex": 3,
+    "explanation": {
+      "en": "Sporopollenin is highly resistant to degradation.",
+      "hi": "स्पोरोपोलेनिन क्षरण के प्रति अत्यधिक प्रतिरोधी है।"
+    }
+  },
+  {
+    "id": "q2",
+    "type": "subjective",
+    "difficulty": "Medium",
+    "marks": 3,
+    "question": {
+      "en": "Differentiate between microsporogenesis and megasporogenesis.",
+      "hi": "लघुबीजाणुजनन और गुरुबीजाणुजनन के बीच अंतर स्पष्ट कीजिए।"
+    },
+    "idealAnswer": {
+      "en": "Microsporogenesis forms microspores from PMC. Megasporogenesis forms megaspores from MMC.",
+      "hi": "लघुबीजाणुजनन PMC से लघुबीजाणुओं का निर्माण करता है। गुरुबीजाणुजनन MMC से गुरुबीजाणुओं का निर्माण करता है।"
+    },
+    "keywords": [
+      {
+        "en": "PMC",
+        "hi": "पराग मातृ कोशिका"
+      },
+      {
+        "en": "MMC",
+        "hi": "गुरुबीजाणु मातृ कोशिका"
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 5,
+    "question": {
+      "en": "Explain the structure of a typical angiosperm embryo sac.",
+      "hi": "एक सामान्य एंजियोस्पर्म भ्रूणकोष की संरचना की व्याख्या कीजिए।"
+    },
+    "idealAnswer": {
+      "en": "It is 8-nucleate and 7-celled. Contains Egg Apparatus (2 synergids, 1 egg), Antipodal Cells (3 cells), and Central Cell (2 polar nuclei).",
+      "hi": "यह 8-केंद्रक और 7-कोशिका वाला होता है। इसमें अंड उपकरण (2 सहायक, 1 अंड), प्रतिव्यासांत कोशिकाएं (3 कोशिकाएं) और केंद्रीय कोशिका (2 ध्रुवीय केंद्रक) शामिल हैं।"
+    },
+    "keywords": [
+      {
+        "en": "Egg Apparatus",
+        "hi": "अंड उपकरण"
+      },
+      {
+        "en": "Antipodals",
+        "hi": "प्रतिव्यासांत"
+      }
+    ]
   }
 ]

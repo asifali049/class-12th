@@ -1,42 +1,35 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
-    "question": {
-      "en": "How does the Bt toxin protein kill the insects? Why doesn't it kill the Bacillus?",
-      "hi": "Bt टॉक्सिन प्रोटीन कीड़ों को कैसे मारता है? यह बैसिलस को क्यों नहीं मारता है?"
-    },
-    "idealAnswer": {
-      "en": "The Bt toxin protein exists as an inactive protoxin in the Bacillus bacterium, which is why it doesn't kill the bacterium. Once an insect ingests the inactive toxin, it is converted into an active form of toxin due to the alkaline pH of the insect's gut. The active toxin binds to the surface of midgut epithelial cells and creates pores that cause cell swelling and lysis, eventually leading to the death of the insect.",
-      "hi": "Bt टॉक्सिन प्रोटीन बैसिलस जीवाणु में एक निष्क्रिय प्रो-टॉक्सिन (protoxin) के रूप में मौजूद होता है, यही कारण है कि यह जीवाणु को नहीं मारता है। एक बार जब कोई कीट निष्क्रिय विष को खा लेता है, तो कीट की आंत (gut) के क्षारीय (alkaline) pH के कारण यह विष के सक्रिय रूप में परिवर्तित हो जाता है। सक्रिय विष मध्य आंत की उपकला कोशिकाओं (epithelial cells) की सतह से जुड़ जाता है और छिद्र बनाता है जिससे कोशिका फूल जाती है और फट जाती है, जिससे अंततः कीट की मृत्यु हो जाती है।"
-    },
-    "keywords": [
-      { "en": "inactive protoxin", "hi": "निष्क्रिय प्रो-टॉक्सिन" },
-      { "en": "alkaline pH", "hi": "क्षारीय pH" },
-      { "en": "midgut", "hi": "मध्य आंत" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_1",
+    "type": "mcq",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "The first clinical gene therapy was given in 1990 to a 4-year old girl with the deficiency of which enzyme?",
-      "hi": "1990 में 4 साल की लड़की को किस एंजाइम की कमी के लिए पहली नैदानिक ​​जीन थेरेपी दी गई थी?"
+      "en": "The first clinical gene therapy was given for treating:",
+      "hi": "पहली नैदानिक जीन थेरेपी किसके इलाज के लिए दी गई थी?"
     },
     "options": [
-      { "en": "Tyrosine kinase", "hi": "टायरोसिन काइनेज" },
-      { "en": "Adenosine deaminase (ADA)", "hi": "एडेनोसिन डीएमिनेज (ADA)" },
-      { "en": "DNA polymerase", "hi": "डीएनए पॉलीमरेज़" },
-      { "en": "Restriction endonuclease", "hi": "रेस्ट्रिक्शन एंडोन्यूक्लिएज" }
+      {
+        "en": "Diabetes mellitus",
+        "hi": "डायबिटीज मेलिटस"
+      },
+      {
+        "en": "Chickenpox",
+        "hi": "चिकनपॉक्स"
+      },
+      {
+        "en": "Rheumatoid arthritis",
+        "hi": "रुमेटीइड गठिया"
+      },
+      {
+        "en": "Adenosine deaminase (ADA) deficiency",
+        "hi": "एडेनोसिन डीएमिनेज (ADA) की कमी"
+      }
     ],
-    "correctAnswer": 1,
+    "correctOptionIndex": 3,
     "explanation": {
-      "en": "The first clinical gene therapy was given to treat Adenosine deaminase (ADA) deficiency, which is crucial for the immune system.",
-      "hi": "प्रतिरक्षा प्रणाली के लिए महत्वपूर्ण एडेनोसिन डीएमिनेज (ADA) की कमी के इलाज के लिए पहली नैदानिक ​​जीन थेरेपी दी गई थी।"
+      "en": "Given in 1990 to a 4-year-old girl.",
+      "hi": "1990 में 4 साल की बच्ची को दिया गया था।"
     }
   }
 ]

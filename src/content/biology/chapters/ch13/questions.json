@@ -1,41 +1,35 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
-    "question": {
-      "en": "Explain the terms 'In-situ' and 'Ex-situ' conservation with examples.",
-      "hi": "उदाहरणों के साथ 'स्वस्थाने' (In-situ) और 'बाह्य-स्थाने' (Ex-situ) संरक्षण शब्दों की व्याख्या कीजिए।"
-    },
-    "idealAnswer": {
-      "en": "In-situ conservation is the conservation of species in their natural habitats. The whole ecosystem is protected. Examples: National Parks, Wildlife Sanctuaries, and Biosphere Reserves. Ex-situ conservation involves protecting the threatened species outside their natural habitats in special settings. Examples: Zoological parks, Botanical gardens, and Seed banks.",
-      "hi": "स्वस्थाने (In-situ) संरक्षण उनके प्राकृतिक आवासों में प्रजातियों का संरक्षण है। पूरे पारिस्थितिकी तंत्र की रक्षा की जाती है। उदाहरण: राष्ट्रीय उद्यान, वन्यजीव अभयारण्य और बायोस्फीयर रिजर्व। बाह्य-स्थाने (Ex-situ) संरक्षण में खतरे वाली प्रजातियों को उनके प्राकृतिक आवासों के बाहर विशेष सेटिंग्स में सुरक्षित करना शामिल है। उदाहरण: प्राणी उद्यान (Zoos), वनस्पति उद्यान और बीज बैंक।"
-    },
-    "keywords": [
-      { "en": "natural habitats", "hi": "प्राकृतिक आवास" },
-      { "en": "outside natural habitats", "hi": "प्राकृतिक आवासों के बाहर" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_1",
+    "type": "mcq",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which of the following is considered the most important cause driving animals and plants to extinction?",
-      "hi": "जानवरों और पौधों को विलुप्त होने की ओर ले जाने वाला सबसे महत्वपूर्ण कारण निम्नलिखित में से किसे माना जाता है?"
+      "en": "Which of the following is an ex-situ conservation method?",
+      "hi": "निम्नलिखित में से कौन सी बाह्य-स्थाने (ex-situ) संरक्षण विधि है?"
     },
     "options": [
-      { "en": "Alien species invasions", "hi": "विदेशी प्रजातियों के आक्रमण" },
-      { "en": "Habitat loss and fragmentation", "hi": "आवास हानि और विखंडन" },
-      { "en": "Over-exploitation", "hi": "अति-दोहन" },
-      { "en": "Co-extinctions", "hi": "सह-विलुप्ति" }
+      {
+        "en": "National Park",
+        "hi": "राष्ट्रीय उद्यान"
+      },
+      {
+        "en": "Biosphere Reserve",
+        "hi": "बायोस्फीयर रिजर्व"
+      },
+      {
+        "en": "Wildlife Sanctuary",
+        "hi": "वन्यजीव अभयारण्य"
+      },
+      {
+        "en": "Botanical Garden",
+        "hi": "वनस्पति उद्यान"
+      }
     ],
-    "correctAnswer": 1,
+    "correctOptionIndex": 3,
     "explanation": {
-      "en": "Habitat loss and fragmentation is the primary and most significant cause of biodiversity loss.",
-      "hi": "आवास की हानि और विखंडन (Habitat loss and fragmentation) जैव विविधता के नुकसान का प्राथमिक और सबसे महत्वपूर्ण कारण है।"
+      "en": "Botanical gardens protect plants outside their natural habitats.",
+      "hi": "वनस्पति उद्यान पौधों को उनके प्राकृतिक आवासों के बाहर संरक्षित करते हैं।"
     }
   }
 ]

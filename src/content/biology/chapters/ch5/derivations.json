@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Mechanism of Translation",
+      "hi": "स्थानांतरण (Translation) की प्रक्रिया"
+    },
+    "steps": [
+      {
+        "en": "Charging of tRNA (Aminoacylation).",
+        "hi": "tRNA की चार्जिंग (एमीनोएसिलेशन)।"
+      },
+      {
+        "en": "Initiation: Small ribosomal subunit binds to mRNA at start codon (AUG).",
+        "hi": "दीक्षा (Initiation): छोटी राइबोसोमल सबयूनिट स्टार्ट कोडॉन (AUG) पर mRNA से जुड़ती है।"
+      },
+      {
+        "en": "Elongation: Ribosome moves along mRNA, adding amino acids.",
+        "hi": "दीर्घीकरण (Elongation): राइबोसोम mRNA के साथ आगे बढ़ता है, एमिनो एसिड जोड़ता है।"
+      },
+      {
+        "en": "Termination: Reaches a stop codon (UAA, UAG, UGA), polypeptide is released.",
+        "hi": "समापन (Termination): स्टॉप कोडॉन पर पहुँचता है, पॉलीपेप्टाइड रिलीज़ होता है।"
+      }
+    ],
+    "conclusion": {
+      "en": "This leads to the formation of a fully functional protein.",
+      "hi": "इससे पूरी तरह कार्यात्मक प्रोटीन का निर्माण होता है।"
+    }
+  }
+]

@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "f1",
+    "title": {
+      "en": "Exponential Growth Equation",
+      "hi": "चरघातांकी वृद्धि समीकरण"
+    },
+    "formula": "\\frac{dN}{dt} = rN",
+    "variables": [
+      {
+        "name": "r",
+        "description": {
+          "en": "Intrinsic rate of natural increase",
+          "hi": "प्राकृतिक वृद्धि की आंतरिक दर"
+        }
+      }
+    ],
+    "applications": {
+      "en": "Used when resources are unlimited.",
+      "hi": "संसाधन असीमित होने पर उपयोग किया जाता है।"
+    }
+  },
+  {
+    "id": "f2",
+    "title": {
+      "en": "Logistic Growth Equation",
+      "hi": "लॉजिस्टिक वृद्धि समीकरण"
+    },
+    "formula": "\\frac{dN}{dt} = rN \\left(\\frac{K-N}{K}\\right)",
+    "variables": [
+      {
+        "name": "K",
+        "description": {
+          "en": "Carrying capacity",
+          "hi": "वहन क्षमता"
+        }
+      }
+    ],
+    "applications": {
+      "en": "Used when resources are limited (realistic).",
+      "hi": "संसाधन सीमित होने पर उपयोग किया जाता है।"
+    }
+  }
+]

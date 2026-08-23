@@ -2,17 +2,14 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Evolution Theories",
-      "hi": "विकास के सिद्धांत",
-      "hinglish": "Theories of Evolution"
+      "en": "Evolution Types",
+      "hi": "विकास के प्रकार",
+      "hinglish": "Divergent vs Convergent"
     },
     "summary": {
-      "en": "**Lamarck**: Use and disuse of organs / Inheritance of acquired characters.\n**Darwin**: Natural selection and branching descent.\n**De Vries**: Mutation theory (single step large mutation = saltation).",
-      "hi": "**लैमार्क**: अंगों का उपयोग और अनुपयोग / उपार्जित लक्षणों की वंशागति।\n**डार्विन**: प्राकृतिक चयन और शाखीय अवरोहण (branching descent)।\n**डी व्रीस**: उत्परिवर्तन सिद्धांत (एकल चरण बड़ा उत्परिवर्तन = साल्टेशन)।"
+      "en": "**Divergent**: Homologous organs (e.g., forelimbs of whale, bat, cheetah, human).\n**Convergent**: Analogous organs (e.g., wings of butterfly and bird).",
+      "hi": "**अपसारी (Divergent)**: समजात अंग।\n**अभिसारी (Convergent)**: समरूप अंग।"
     },
-    "quickRecall": [
-      { "en": "Homologous = Divergent", "hi": "समजात = अपसारी" },
-      { "en": "Analogous = Convergent", "hi": "समरूप = अभिसारी" }
-    ]
+    "quickRecall": []
   }
 ]

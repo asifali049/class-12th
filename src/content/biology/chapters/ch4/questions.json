@@ -1,41 +1,96 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
+    "id": "q_mcq_1",
+    "type": "mcq",
+    "difficulty": "Easy",
+    "marks": 1,
     "question": {
-      "en": "Differentiate between Incomplete Dominance and Co-dominance.",
-      "hi": "अपूर्ण प्रभाविता (Incomplete Dominance) और सह-प्रभाविता (Co-dominance) के बीच अंतर स्पष्ट कीजिए।"
+      "en": "The genotype of a person with Turner syndrome is:",
+      "hi": "टर्नर सिंड्रोम वाले व्यक्ति का जीनोटाइप है:"
     },
-    "idealAnswer": {
-      "en": "In Incomplete Dominance, the phenotype of the F1 hybrid is intermediate between the two parents (e.g., Red x White = Pink flowers in Mirabilis jalapa). In Co-dominance, the F1 generation resembles both parents because both alleles express themselves equally (e.g., IA and IB alleles in human blood groups resulting in AB blood type).",
-      "hi": "अपूर्ण प्रभाविता में, F1 संकर का फेनोटाइप दोनों जनकों के बीच का मध्यवर्ती होता है (उदा., मिराबिलिस जलापा में लाल x सफेद = गुलाबी फूल)। सह-प्रभाविता में, F1 पीढ़ी दोनों जनकों के समान होती है क्योंकि दोनों युग्मविकल्पी (alleles) स्वयं को समान रूप से व्यक्त करते हैं (उदा., मानव रक्त समूहों में IA और IB युग्मविकल्पी जिसके परिणामस्वरूप AB रक्त प्रकार होता है)।"
-    },
-    "keywords": [
-      { "en": "intermediate phenotype", "hi": "मध्यवर्ती फेनोटाइप" },
-      { "en": "equally expressed", "hi": "समान रूप से व्यक्त" }
-    ]
+    "options": [
+      {
+        "en": "44 + XXY",
+        "hi": "44 + XXY"
+      },
+      {
+        "en": "44 + XO",
+        "hi": "44 + XO"
+      },
+      {
+        "en": "44 + XYY",
+        "hi": "44 + XYY"
+      },
+      {
+        "en": "44 + XXX",
+        "hi": "44 + XXX"
+      }
+    ],
+    "correctOptionIndex": 1,
+    "explanation": {
+      "en": "Turner's syndrome is caused by the absence of one X chromosome (45, with XO).",
+      "hi": "टर्नर सिंड्रोम एक X गुणसूत्र की अनुपस्थिति के कारण होता है (45, XO के साथ)।"
+    }
   },
   {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_2",
+    "type": "mcq",
     "difficulty": "Medium",
     "marks": 1,
     "question": {
-      "en": "Which of the following is an example of a chromosomal disorder caused by trisomy of chromosome 21?",
-      "hi": "निम्नलिखित में से कौन सा गुणसूत्र 21 की ट्राइसॉमी के कारण होने वाला क्रोमोसोमल विकार का उदाहरण है?"
+      "en": "A cross between F1 hybrid and its recessive parent is called:",
+      "hi": "F1 संकर (hybrid) और उसके अप्रभावी (recessive) माता-पिता के बीच के क्रॉस को कहा जाता है:"
     },
     "options": [
-      { "en": "Turner's syndrome", "hi": "टर्नर सिंड्रोम" },
-      { "en": "Klinefelter's syndrome", "hi": "क्लाइनफेल्टर सिंड्रोम" },
-      { "en": "Down's syndrome", "hi": "डाउन सिंड्रोम" },
-      { "en": "Haemophilia", "hi": "हीमोफीलिया" }
+      {
+        "en": "Back cross",
+        "hi": "बैक क्रॉस"
+      },
+      {
+        "en": "Test cross",
+        "hi": "टेस्ट क्रॉस"
+      },
+      {
+        "en": "Monohybrid cross",
+        "hi": "मोनोहाइब्रिड क्रॉस"
+      },
+      {
+        "en": "Dihybrid cross",
+        "hi": "डाईहाइब्रिड क्रॉस"
+      }
     ],
-    "correctAnswer": 2,
+    "correctOptionIndex": 1,
     "explanation": {
-      "en": "Down's syndrome is caused by the presence of an additional copy of chromosome number 21 (trisomy of 21).",
-      "hi": "डाउन सिंड्रोम गुणसूत्र संख्या 21 की एक अतिरिक्त प्रति (21 की ट्राइसॉमी) की उपस्थिति के कारण होता है।"
+      "en": "A test cross is used to determine the genotype of a dominant phenotype by crossing it with a homozygous recessive individual.",
+      "hi": "एक टेस्ट क्रॉस का उपयोग प्रमुख फीनोटाइप के जीनोटाइप को निर्धारित करने के लिए किया जाता है।"
     }
+  },
+  {
+    "id": "q3",
+    "type": "subjective",
+    "difficulty": "Hard",
+    "marks": 5,
+    "question": {
+      "en": "Describe the chromosomal theory of inheritance.",
+      "hi": "वंशागति के गुणसूत्रीय सिद्धांत (Chromosomal theory of inheritance) का वर्णन करें।"
+    },
+    "idealAnswer": {
+      "en": "Proposed by Sutton and Boveri. It states that chromosomes are the vehicles of genetic heredity. Key points: 1. Both chromosomes and genes occur in pairs in diploid cells. 2. Homologous chromosomes separate during meiosis. 3. Fertilization restores the diploid condition. 4. Chromosomes segregate and assort independently, leading to genetic variation.",
+      "hi": "सटन और बोवेरी द्वारा प्रस्तावित। यह बताता है कि गुणसूत्र आनुवंशिकता के वाहन हैं। मुख्य बिंदु: 1. द्विगुणित कोशिकाओं में गुणसूत्र और जीन दोनों जोड़े में होते हैं। 2. समजात गुणसूत्र अर्धसूत्रीविभाजन के दौरान अलग होते हैं। 3. निषेचन द्विगुणित स्थिति को पुनर्स्थापित करता है। 4. गुणसूत्र अलग और स्वतंत्र रूप से अपव्यूहन करते हैं, जिससे आनुवंशिक भिन्नता होती है।"
+    },
+    "keywords": [
+      {
+        "en": "Sutton and Boveri",
+        "hi": "सटन और बोवेरी"
+      },
+      {
+        "en": "pairs",
+        "hi": "जोड़े"
+      },
+      {
+        "en": "meiosis",
+        "hi": "अर्धसूत्रीविभाजन"
+      }
+    ]
   }
 ]

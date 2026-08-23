@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "num1",
+    "question": {
+      "en": "A plant with genotype AaBb is crossed with aabb. What will be the percentage of AaBb offspring?",
+      "hi": "AaBb जीनोटाइप वाले एक पौधे का aabb के साथ संकरण कराया जाता है। AaBb संतानों का प्रतिशत क्या होगा?"
+    },
+    "solution": {
+      "en": "This is a Test Cross.\nParents: AaBb x aabb\nGametes from AaBb: AB, Ab, aB, ab\nGametes from aabb: ab\nOffspring: AaBb, Aabb, aaBb, aabb in 1:1:1:1 ratio.\nPercentage of AaBb = **25%**.",
+      "hi": "यह एक टेस्ट क्रॉस (Test Cross) है।\nमाता-पिता: AaBb x aabb\nAaBb से युग्मक: AB, Ab, aB, ab\naabb से युग्मक: ab\nसंतान: 1:1:1:1 अनुपात में AaBb, Aabb, aaBb, aabb।\nAaBb का प्रतिशत = **25%**।"
+    }
+  }
+]

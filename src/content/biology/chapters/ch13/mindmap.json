@@ -1,28 +1,8 @@
 {
   "id": "root",
   "label": {
-    "en": "Biodiversity & Conservation",
-    "hi": "जैव-विविधता एवं संरक्षण"
+    "en": "Biodiversity",
+    "hi": "जैव-विविधता"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": { "en": "Levels of Biodiversity", "hi": "जैव विविधता के स्तर" }
-    },
-    {
-      "id": "c2",
-      "label": { "en": "Loss of Biodiversity", "hi": "जैव विविधता की हानि" },
-      "children": [
-        { "id": "c2a", "label": { "en": "The Evil Quartet", "hi": "द एविल चौकड़ी" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": { "en": "Conservation Strategies", "hi": "संरक्षण रणनीतियाँ" },
-      "children": [
-        { "id": "c3a", "label": { "en": "In-situ (National Parks)", "hi": "स्वस्थाने (राष्ट्रीय उद्यान)" } },
-        { "id": "c3b", "label": { "en": "Ex-situ (Zoos, Seed Banks)", "hi": "बाह्य-स्थाने (चिड़ियाघर, बीज बैंक)" } }
-      ]
-    }
-  ]
+  "children": []
 }

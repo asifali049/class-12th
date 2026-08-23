@@ -2,33 +2,7 @@
   "id": "root",
   "label": {
     "en": "Biotech Applications",
-    "hi": "बायोटेक के अनुप्रयोग"
+    "hi": "बायोटेक अनुप्रयोग"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": { "en": "Agriculture", "hi": "कृषि" },
-      "children": [
-        { "id": "c1a", "label": { "en": "Bt Cotton", "hi": "Bt कपास" } },
-        { "id": "c1b", "label": { "en": "RNA Interference", "hi": "आरएनए हस्तक्षेप (RNAi)" } }
-      ]
-    },
-    {
-      "id": "c2",
-      "label": { "en": "Medicine", "hi": "चिकित्सा" },
-      "children": [
-        { "id": "c2a", "label": { "en": "Genetically Engineered Insulin", "hi": "जेनेटिकली इंजीनियर्ड इंसुलिन" } },
-        { "id": "c2b", "label": { "en": "Gene Therapy", "hi": "जीन थेरेपी" } },
-        { "id": "c2c", "label": { "en": "Molecular Diagnosis (PCR, ELISA)", "hi": "आणविक निदान" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": { "en": "Transgenic Animals & Ethics", "hi": "पारजीनी जंतु एवं नैतिकता" },
-      "children": [
-        { "id": "c3a", "label": { "en": "Biopiracy", "hi": "बायोपायरेसी" } },
-        { "id": "c3b", "label": { "en": "GEAC", "hi": "जीईएसी (GEAC)" } }
-      ]
-    }
-  ]
+  "children": []
 }

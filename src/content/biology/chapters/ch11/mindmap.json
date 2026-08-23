@@ -4,27 +4,5 @@
     "en": "Organisms & Populations",
     "hi": "जीव और समष्टियाँ"
   },
-  "children": [
-    {
-      "id": "c1",
-      "label": { "en": "Abiotic Factors", "hi": "अजैविक कारक" }
-    },
-    {
-      "id": "c2",
-      "label": { "en": "Population Growth", "hi": "समष्टि वृद्धि" },
-      "children": [
-        { "id": "c2a", "label": { "en": "Exponential", "hi": "चरघातांकी" } },
-        { "id": "c2b", "label": { "en": "Logistic", "hi": "लॉजिस्टिक" } }
-      ]
-    },
-    {
-      "id": "c3",
-      "label": { "en": "Interactions", "hi": "पारस्परिक क्रियाएँ" },
-      "children": [
-        { "id": "c3a", "label": { "en": "Mutualism (+/+)", "hi": "सहोपकारिता (+/+)" } },
-        { "id": "c3b", "label": { "en": "Predation (+/-)", "hi": "परभक्षण (+/-)" } },
-        { "id": "c3c", "label": { "en": "Commensalism (+/0)", "hi": "सहभोजिता (+/0)" } }
-      ]
-    }
-  ]
+  "children": []
 }

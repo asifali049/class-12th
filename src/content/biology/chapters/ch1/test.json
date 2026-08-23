@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t1",
+    "question": {
+      "en": "Which of the following has proved helpful in preserving pollen as fossils?",
+      "hi": "निम्नलिखित में से क्या परागकणों को जीवाश्मों के रूप में संरक्षित करने में सहायक सिद्ध हुआ है?"
+    },
+    "options": [
+      {
+        "en": "Pollenkitt",
+        "hi": "पॉलेनकिट"
+      },
+      {
+        "en": "Cellulosic intine",
+        "hi": "सेल्युलोसिक अंतःचोल"
+      },
+      {
+        "en": "Oil content",
+        "hi": "तेल की मात्रा"
+      },
+      {
+        "en": "Sporopollenin",
+        "hi": "स्पोरोपोलेनिन"
+      }
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "en": "Sporopollenin is highly resistant to degradation, acting as a preservative.",
+      "hi": "स्पोरोपोलेनिन क्षरण के प्रति अत्यधिक प्रतिरोधी है, जो एक परिरक्षक के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "id": "t2",
+    "question": {
+      "en": "Male gametophyte in angiosperms produces:",
+      "hi": "एंजियोस्पर्म में नर युग्मकोद्भिद (Male gametophyte) उत्पन्न करता है:"
+    },
+    "options": [
+      {
+        "en": "Single sperm and a vegetative cell",
+        "hi": "एक शुक्राणु और एक कायिक कोशिका"
+      },
+      {
+        "en": "Single sperm and two vegetative cells",
+        "hi": "एक शुक्राणु और दो कायिक कोशिकाएं"
+      },
+      {
+        "en": "Three sperms",
+        "hi": "तीन शुक्राणु"
+      },
+      {
+        "en": "Two sperms and a vegetative cell",
+        "hi": "दो शुक्राणु और एक कायिक कोशिका"
+      }
+    ],
+    "correctAnswer": 3,
+    "explanation": {
+      "en": "The mature male gametophyte consists of one vegetative cell and two male gametes (sperms).",
+      "hi": "परिपक्व नर युग्मकोद्भिद में एक कायिक कोशिका और दो नर युग्मक (शुक्राणु) होते हैं।"
+    }
+  }
+]

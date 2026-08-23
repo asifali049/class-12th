@@ -2,34 +2,45 @@
   {
     "id": "n1",
     "title": {
-      "en": "Flower Structure and Pre-fertilization Events",
+      "en": "Structure of Flower & Pre-fertilization Events",
       "hi": "पुष्प की संरचना और निषेचन-पूर्व घटनाएँ"
     },
     "content": {
-      "en": "A flower is the reproductive unit of angiosperms. The male reproductive part is the androecium, consisting of stamens (anther and filament). The anther produces pollen grains (microspores) through microsporogenesis. The female reproductive part is the gynoecium, consisting of pistils (stigma, style, and ovary). The ovary contains ovules (megasporangia) where the embryo sac forms through megasporogenesis.",
-      "hi": "पुष्प आवृतबीजियों (angiosperms) की जनन इकाई है। नर जनन भाग पुमंग (androecium) है, जिसमें पुंकेसर (परागकोश और तंतु) होते हैं। परागकोश लघुबीजाणुजनन (microsporogenesis) द्वारा परागकण (लघुबीजाणु) पैदा करता है। मादा जनन भाग जायांग (gynoecium) है, जिसमें स्त्रीकेसर (वर्तिकाग्र, वर्तिका और अंडाशय) होते हैं। अंडाशय में बीजांड (गुरुबीजाणुधानी) होते हैं जहाँ गुरुबीजाणुजनन के माध्यम से भ्रूणकोष (embryo sac) बनता है।"
+      "en": "A typical flower has four whorls: Calyx (sepals), Corolla (petals), Androecium (stamens), and Gynoecium (carpels). Pre-fertilization involves the development of the anther, microsporogenesis (pollen grains formation), and megasporogenesis (embryo sac formation).",
+      "hi": "एक सामान्य फूल में चार चक्र होते हैं: बाह्यदलपुंज (Calyx), दलपुंज (Corolla), पुमंग (Androecium), और जायांग (Gynoecium)। निषेचन-पूर्व घटनाओं में परागकोश का विकास, लघुबीजाणुजनन, और गुरुबीजाणुजनन शामिल हैं।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Pollination",
-      "hi": "परागण (Pollination)"
+      "en": "Microsporogenesis & Pollen Grain",
+      "hi": "लघुबीजाणुजनन और परागकण"
     },
     "content": {
-      "en": "Pollination is the transfer of pollen grains from the anther to the stigma of a pistil. It can be of three types: Autogamy (within the same flower), Geitonogamy (between different flowers of the same plant), and Xenogamy (between flowers of different plants). Agents of pollination include wind (anemophily), water (hydrophily), and animals (zoophily, e.g., insects).",
-      "hi": "परागण परागकोश से परागकणों का स्त्रीकेसर के वर्तिकाग्र तक स्थानांतरण है। यह तीन प्रकार का हो सकता है: स्वयुग्मन (Autogamy - एक ही फूल के भीतर), सजातपुष्पी परागण (Geitonogamy - एक ही पौधे के विभिन्न फूलों के बीच), और परनिषेचन (Xenogamy - विभिन्न पौधों के फूलों के बीच)। परागण के कारकों में हवा (anemophily), जल (hydrophily), और जानवर (zoophily, जैसे कीड़े) शामिल हैं।"
+      "en": "Formation of microspores from a pollen mother cell (PMC) through meiosis is microsporogenesis. A mature pollen grain has two layers: an outer hard exine (made of sporopollenin) and an inner intine (made of cellulose and pectin). It contains a larger vegetative cell and a smaller generative cell.",
+      "hi": "अर्धसूत्रीविभाजन के माध्यम से पराग मातृ कोशिका (PMC) से लघुबीजाणुओं के निर्माण की प्रक्रिया लघुबीजाणुजनन है। एक परिपक्व परागकण में बाहरी कठोर बाह्यचोल (स्पोरोपोलेनिन) और आंतरिक अंतःचोल (सेल्यूलोज और पेक्टिन) होती है।"
     }
   },
   {
     "id": "n3",
     "title": {
-      "en": "Double Fertilization",
-      "hi": "दोहरा निषेचन (Double Fertilization)"
+      "en": "Megasporogenesis & Embryo Sac",
+      "hi": "गुरुबीजाणुजनन और भ्रूणकोष"
     },
     "content": {
-      "en": "Double fertilization is a unique event in angiosperms. After a pollen tube enters the embryo sac, it releases two male gametes. One male gamete fuses with the egg cell to form a diploid zygote (syngamy). The other male gamete fuses with the two polar nuclei in the central cell to form a triploid Primary Endosperm Nucleus (PEN) in a process called triple fusion. Since two fusions occur, it is called double fertilization.",
-      "hi": "दोहरा निषेचन आवृतबीजियों में एक अनूठी घटना है। जब पराग नलिका भ्रूणकोष में प्रवेश करती है, तो वह दो नर युग्मक छोड़ती है। एक नर युग्मक अंड कोशिका के साथ संलयन करके द्विगुणित युग्मनज (zygote) बनाता है (syngamy)। दूसरा नर युग्मक केंद्रीय कोशिका में दो ध्रुवीय नाभिकों के साथ संलयन करके त्रिगुणित प्राथमिक भ्रूणपोष केंद्रक (PEN) बनाता है, जिसे त्रिसंलयन (triple fusion) कहा जाता है। चूँकि दो संलयन होते हैं, इसे दोहरा निषेचन कहा जाता है।"
+      "en": "The formation of megaspores from the megaspore mother cell (MMC) is called megasporogenesis. A typical mature angiosperm embryo sac is 8-nucleate but 7-celled, containing an egg apparatus (1 egg + 2 synergids), 3 antipodal cells, and a large central cell with 2 polar nuclei.",
+      "hi": "गुरुबीजाणु मातृ कोशिका (MMC) से गुरुबीजाणुओं के निर्माण को गुरुबीजाणुजनन कहा जाता है। एक सामान्य परिपक्व एंजियोस्पर्म भ्रूणकोष 8-केंद्रक लेकिन 7-कोशिका वाला होता है।"
+    }
+  },
+  {
+    "id": "n4",
+    "title": {
+      "en": "Double Fertilization",
+      "hi": "दोहरा निषेचन"
+    },
+    "content": {
+      "en": "Unique to angiosperms, double fertilization involves Syngamy (male gamete + egg = diploid zygote) and Triple Fusion (male gamete + 2 polar nuclei = triploid Primary Endosperm Nucleus / PEN).",
+      "hi": "एंजियोस्पर्म के लिए अद्वितीय, दोहरे निषेचन में युग्मक संलयन (Syngamy) और त्रिसंलयन (Triple Fusion) शामिल हैं।"
     }
   }
 ]

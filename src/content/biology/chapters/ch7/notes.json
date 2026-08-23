@@ -2,34 +2,23 @@
   {
     "id": "n1",
     "title": {
-      "en": "Common Diseases in Humans",
-      "hi": "मनुष्यों में सामान्य रोग"
+      "en": "Common Diseases",
+      "hi": "सामान्य रोग"
     },
     "content": {
-      "en": "Diseases can be broadly grouped into infectious (communicable) and non-infectious (non-communicable). Common infectious diseases include Typhoid (Salmonella typhi), Pneumonia (Streptococcus pneumoniae), Malaria (Plasmodium spp.), and Ringworms (Microsporum, Trichophyton). Non-infectious diseases include Cancer and allergies.",
-      "hi": "रोगों को मोटे तौर पर संक्रामक (communicable) और गैर-संक्रामक (non-communicable) में बाटा जा सकता है। सामान्य संक्रामक रोगों में टाइफाइड (साल्मोनेला टाइफी), निमोनिया (स्ट्रेप्टोकोकस निमोनिया), मलेरिया (प्लास्मोडियम प्रजाति), और दाद/रिंगवर्म (माइक्रोस्पोरम, ट्राइकोफाइटन) शामिल हैं। गैर-संक्रामक रोगों में कैंसर और एलर्जी शामिल हैं।"
+      "en": "Infectious diseases are transmitted from person to person (e.g., Typhoid, Malaria, AIDS). Non-infectious are not transmitted (e.g., Cancer).",
+      "hi": "संक्रामक रोग एक व्यक्ति से दूसरे व्यक्ति में फैलते हैं (उदा., टाइफाइड, मलेरिया, एड्स)। गैर-संक्रामक नहीं फैलते (उदा., कैंसर)।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Immunity and Immune System",
-      "hi": "प्रतिरक्षा और प्रतिरक्षा प्रणाली"
+      "en": "Immunity",
+      "hi": "प्रतिरक्षा"
     },
     "content": {
-      "en": "Immunity is of two types: Innate (non-specific, present at birth) and Acquired (pathogen-specific, acquired during life). The immune system consists of lymphoid organs (primary: bone marrow, thymus; secondary: spleen, lymph nodes), tissues, cells, and antibodies. Antibodies are protein molecules (IgG, IgA, IgM, IgE, IgD) produced by B-lymphocytes.",
-      "hi": "प्रतिरक्षा दो प्रकार की होती है: सहज (Innate - गैर-विशिष्ट, जन्म के समय उपस्थित) और उपार्जित (Acquired - रोगजनक-विशिष्ट, जीवन के दौरान प्राप्त)। प्रतिरक्षा प्रणाली में लिम्फोइड अंग (प्राथमिक: अस्थि मज्जा, थाइमस; द्वितीयक: प्लीहा, लिम्फ नोड्स), ऊतक, कोशिकाएं और एंटीबॉडी शामिल हैं। एंटीबॉडी बी-लिम्फोसाइट्स द्वारा उत्पादित प्रोटीन अणु (IgG, IgA, IgM, IgE, IgD) हैं।"
-    }
-  },
-  {
-    "id": "n3",
-    "title": {
-      "en": "AIDS and Cancer",
-      "hi": "एड्स (AIDS) और कैंसर"
-    },
-    "content": {
-      "en": "AIDS (Acquired Immuno Deficiency Syndrome) is caused by HIV, a retrovirus that infects helper T-cells. Cancer is caused by uncontrolled cell division forming tumors (benign or malignant). Cancer-causing agents are called carcinogens. Treatment includes surgery, radiation therapy, and immunotherapy.",
-      "hi": "एड्स (एक्वायर्ड इम्यूनो डेफिशिएंसी सिंड्रोम) एचआईवी के कारण होता है, जो एक रेट्रोवायरस है जो हेल्पर टी-कोशिकाओं को संक्रमित करता है। कैंसर अनियंत्रित कोशिका विभाजन के कारण होता है जिससे ट्यूमर (सौम्य या घातक) बनते हैं। कैंसर पैदा करने वाले कारकों को कार्सिनोजेन्स (carcinogens) कहा जाता है। उपचार में सर्जरी, विकिरण चिकित्सा (radiation therapy) और प्रतिरक्षा चिकित्सा (immunotherapy) शामिल हैं।"
+      "en": "Innate immunity is present at birth. Acquired immunity is pathogen-specific. B-cells produce antibodies; T-cells help B-cells.",
+      "hi": "सहज प्रतिरक्षा जन्म के समय मौजूद होती है। उपार्जित प्रतिरक्षा रोगजनक-विशिष्ट है।"
     }
   }
 ]

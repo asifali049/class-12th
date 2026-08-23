@@ -2,34 +2,23 @@
   {
     "id": "n1",
     "title": {
-      "en": "Ecosystem Structure and Function",
-      "hi": "पारितंत्र की संरचना और कार्य"
+      "en": "Ecosystem Structure",
+      "hi": "पारितंत्र संरचना"
     },
     "content": {
-      "en": "An ecosystem can be visualized as a functional unit of nature, where living organisms interact among themselves and with the surrounding physical environment. The key functional aspects of an ecosystem are: Productivity (Primary and Secondary), Decomposition, Energy flow, and Nutrient cycling.",
-      "hi": "एक पारितंत्र (Ecosystem) को प्रकृति की एक कार्यात्मक इकाई के रूप में देखा जा सकता है, जहाँ जीवित जीव आपस में और आसपास के भौतिक वातावरण के साथ बातचीत करते हैं। एक पारितंत्र के प्रमुख कार्यात्मक पहलू हैं: उत्पादकता (प्राथमिक और द्वितीयक), अपघटन (Decomposition), ऊर्जा प्रवाह, और पोषक चक्रण (Nutrient cycling)।"
+      "en": "Key aspects: Productivity, Decomposition, Energy flow, Nutrient cycling.",
+      "hi": "प्रमुख पहलू: उत्पादकता, अपघटन, ऊर्जा प्रवाह, पोषक चक्रण।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Energy Flow and Food Chains",
-      "hi": "ऊर्जा प्रवाह और खाद्य श्रृंखलाएं"
-    },
-    "content": {
-      "en": "Energy flow is strictly unidirectional, from sun to producers and then to consumers. Food chains represent this flow. The grazing food chain (GFC) begins with producers (plants), while the detritus food chain (DFC) begins with dead organic matter. The interconnected matrix of food chains is a food web.",
-      "hi": "ऊर्जा प्रवाह कड़ाई से एकदिशीय (unidirectional) होता है, सूर्य से उत्पादकों तक और फिर उपभोक्ताओं तक। खाद्य श्रृंखलाएं (Food chains) इस प्रवाह का प्रतिनिधित्व करती हैं। चारण खाद्य श्रृंखला (GFC) उत्पादकों (पौधों) से शुरू होती है, जबकि अपरद खाद्य श्रृंखला (DFC) मृत कार्बनिक पदार्थों से शुरू होती है। खाद्य श्रृंखलाओं के परस्पर जुड़े मैट्रिक्स को खाद्य जाल (food web) कहा जाता है।"
-    }
-  },
-  {
-    "id": "n3",
-    "title": {
       "en": "Ecological Pyramids",
       "hi": "पारिस्थितिक पिरामिड"
     },
     "content": {
-      "en": "Ecological pyramids are graphical representations of the trophic structure of an ecosystem. There are three types: Pyramid of Number, Pyramid of Biomass, and Pyramid of Energy. The pyramid of energy is always upright, as only 10% of energy is transferred to each successive trophic level (10% law by Lindeman).",
-      "hi": "पारिस्थितिक पिरामिड एक पारितंत्र की पोषी संरचना (trophic structure) के चित्रमय निरूपण हैं। ये तीन प्रकार के होते हैं: संख्या का पिरामिड, बायोमास का पिरामिड और ऊर्जा का पिरामिड। ऊर्जा का पिरामिड हमेशा सीधा (upright) होता है, क्योंकि केवल 10% ऊर्जा ही प्रत्येक क्रमिक पोषी स्तर (trophic level) में स्थानांतरित होती है (लिंडेमैन का 10% नियम)।"
+      "en": "Pyramid of Energy is always upright (10% law).",
+      "hi": "ऊर्जा का पिरामिड हमेशा सीधा होता है (10% नियम)।"
     }
   }
 ]

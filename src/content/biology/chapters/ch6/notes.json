@@ -2,23 +2,23 @@
   {
     "id": "n1",
     "title": {
-      "en": "Origin of Life and Evolution",
-      "hi": "जीवन की उत्पत्ति और विकास"
+      "en": "Origin of Life",
+      "hi": "जीवन की उत्पत्ति"
     },
     "content": {
-      "en": "Evolutionary biology is the study of the history of life forms on earth. The Big Bang theory explains the origin of the universe. Life originated from non-living organic molecules (chemical evolution) as proposed by Oparin and Haldane and proved experimentally by Urey and Miller.",
-      "hi": "विकासात्मक जीव विज्ञान (Evolutionary biology) पृथ्वी पर जीवन के रूपों के इतिहास का अध्ययन है। बिग बैंग थ्योरी ब्रह्मांड की उत्पत्ति की व्याख्या करती है। जीवन की उत्पत्ति निर्जीव कार्बनिक अणुओं (रासायनिक विकास) से हुई जैसा कि ओपेरिन और हाल्डेन ने प्रस्तावित किया था और यूरे और मिलर द्वारा प्रयोगात्मक रूप से सिद्ध किया गया था।"
+      "en": "Oparin and Haldane proposed chemical evolution. Miller-Urey experiment proved it by forming amino acids from simple gases.",
+      "hi": "ओपेरिन और हाल्डेन ने रासायनिक विकास का प्रस्ताव रखा। मिलर-यूरे प्रयोग ने इसे सिद्ध किया।"
     }
   },
   {
     "id": "n2",
     "title": {
-      "en": "Evidences of Evolution",
+      "en": "Evidences for Evolution",
       "hi": "विकास के प्रमाण"
     },
     "content": {
-      "en": "Evidences come from paleontology (fossils), comparative anatomy, and morphology. Homologous organs (same structure, different function - divergent evolution) and Analogous organs (different structure, same function - convergent evolution) provide strong evidence for evolution.",
-      "hi": "प्रमाण जीवाश्म विज्ञान (paleontology), तुलनात्मक शरीर रचना और आकारिकी से आते हैं। समजात अंग (Homologous organs - समान संरचना, भिन्न कार्य - अपसारी विकास) और समरूप अंग (Analogous organs - भिन्न संरचना, समान कार्य - अभिसारी विकास) विकास के लिए मजबूत प्रमाण प्रदान करते हैं।"
+      "en": "Homologous organs (same origin, different function, e.g., forelimbs of mammals) show divergent evolution. Analogous organs (different origin, same function, e.g., wings of birds and insects) show convergent evolution.",
+      "hi": "समजात अंग (Homologous - समान उत्पत्ति, अलग कार्य) अपसारी विकास (divergent evolution) दिखाते हैं। समरूप अंग (Analogous - अलग उत्पत्ति, समान कार्य) अभिसारी विकास (convergent evolution) दिखाते हैं।"
     }
   },
   {
@@ -28,8 +28,8 @@
       "hi": "हार्डी-वेनबर्ग सिद्धांत"
     },
     "content": {
-      "en": "This principle states that allele frequencies in a population are stable and is constant from generation to generation in the absence of evolutionary influences. The formula is p² + 2pq + q² = 1. Factors affecting it include gene flow, genetic drift, mutation, genetic recombination, and natural selection.",
-      "hi": "यह सिद्धांत बताता है कि एक आबादी में युग्मविकल्पी आवृत्तियां (allele frequencies) स्थिर होती हैं और विकासवादी प्रभावों की अनुपस्थिति में एक पीढ़ी से दूसरी पीढ़ी तक स्थिर रहती हैं। सूत्र है p² + 2pq + q² = 1। इसे प्रभावित करने वाले कारकों में जीन प्रवाह, आनुवंशिक अपवाह (genetic drift), उत्परिवर्तन, आनुवंशिक पुनर्संयोजन और प्राकृतिक चयन शामिल हैं।"
+      "en": "States that allele frequencies in a population are stable and is constant from generation to generation in the absence of disturbing factors.",
+      "hi": "यह बताता है कि एक समष्टि (population) में एलील आवृत्तियां (allele frequencies) स्थिर होती हैं।"
     }
   }
 ]

@@ -1,35 +1,30 @@
 {
   "id": "root",
   "label": {
-    "en": "Inheritance & Variation",
-    "hi": "वंशागति तथा विविधता"
+    "en": "Inheritance",
+    "hi": "वंशागति"
   },
   "children": [
     {
       "id": "c1",
-      "label": { "en": "Mendel's Laws", "hi": "मेंडल के नियम" },
-      "children": [
-        { "id": "c1a", "label": { "en": "Dominance", "hi": "प्रभाविता" } },
-        { "id": "c1b", "label": { "en": "Segregation", "hi": "विसंयोजन" } },
-        { "id": "c1c", "label": { "en": "Independent Assortment", "hi": "स्वतंत्र अपव्यूहन" } }
-      ]
+      "label": {
+        "en": "Mendel's Laws",
+        "hi": "मेंडल के नियम"
+      }
     },
     {
       "id": "c2",
-      "label": { "en": "Non-Mendelian Inheritance", "hi": "गैर-मेंडेलियन वंशागति" },
-      "children": [
-        { "id": "c2a", "label": { "en": "Incomplete Dominance", "hi": "अपूर्ण प्रभाविता" } },
-        { "id": "c2b", "label": { "en": "Co-dominance", "hi": "सह-प्रभाविता" } },
-        { "id": "c2c", "label": { "en": "Multiple Alleles", "hi": "बहुविकल्पी" } }
-      ]
+      "label": {
+        "en": "Linkage & Recombination",
+        "hi": "सहलग्नता और पुनर्संयोजन"
+      }
     },
     {
       "id": "c3",
-      "label": { "en": "Genetic Disorders", "hi": "आनुवंशिक विकार" },
-      "children": [
-        { "id": "c3a", "label": { "en": "Mendelian (e.g., Sickle Cell)", "hi": "मेंडेलियन (उदा., सिकल सेल)" } },
-        { "id": "c3b", "label": { "en": "Chromosomal (e.g., Down's)", "hi": "क्रोमोसोमल (उदा., डाउन)" } }
-      ]
+      "label": {
+        "en": "Genetic Disorders",
+        "hi": "आनुवंशिक विकार"
+      }
     }
   ]
 }

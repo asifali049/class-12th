@@ -2,17 +2,14 @@
   {
     "id": "rev1",
     "topic": {
-      "en": "Trophic Levels & 10% Law",
-      "hi": "पोषी स्तर और 10% नियम",
-      "hinglish": "10% Energy Law"
+      "en": "Food Chains",
+      "hi": "खाद्य श्रृंखलाएं",
+      "hinglish": "GFC vs DFC"
     },
     "summary": {
-      "en": "**Lindeman's 10% Law**: Only 10% of the energy is transferred from one trophic level to the next. The rest is lost during respiration, heat, etc. This is why food chains usually don't go beyond 4-5 levels.",
-      "hi": "**लिंडेमैन का 10% नियम**: केवल 10% ऊर्जा ही एक पोषी स्तर से दूसरे पोषी स्तर में स्थानांतरित होती है। बाकी श्वसन, ऊष्मा आदि के दौरान खो जाती है। यही कारण है कि खाद्य श्रृंखलाएं आमतौर पर 4-5 स्तरों से आगे नहीं जाती हैं।"
+      "en": "**GFC**: Grazing Food Chain (starts with plants).\n**DFC**: Detritus Food Chain (starts with dead matter).",
+      "hi": "**GFC**: चारण खाद्य श्रृंखला (पौधों से शुरू होती है)।\n**DFC**: अपरद खाद्य श्रृंखला (मृत पदार्थ से शुरू होती है)।"
     },
-    "quickRecall": [
-      { "en": "GFC starts with Producers", "hi": "GFC उत्पादकों से शुरू होती है" },
-      { "en": "DFC starts with dead organic matter", "hi": "DFC मृत कार्बनिक पदार्थों से शुरू होती है" }
-    ]
+    "quickRecall": []
   }
 ]

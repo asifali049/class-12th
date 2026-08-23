@@ -1,41 +1,35 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
-    "question": {
-      "en": "Differentiate between Active Immunity and Passive Immunity.",
-      "hi": "सक्रिय प्रतिरक्षा (Active Immunity) और निष्क्रिय प्रतिरक्षा (Passive Immunity) के बीच अंतर स्पष्ट कीजिए।"
-    },
-    "idealAnswer": {
-      "en": "In Active Immunity, the host's body produces antibodies in response to antigens (e.g., natural infection or vaccination). It is slow but long-lasting. In Passive Immunity, ready-made antibodies are directly given to protect the body against foreign agents (e.g., antibodies received by fetus from mother through placenta, or anti-tetanus serum). It provides immediate but temporary relief.",
-      "hi": "सक्रिय प्रतिरक्षा में, मेजबान (host) का शरीर एंटीजन की प्रतिक्रिया में एंटीबॉडी पैदा करता है (उदा., प्राकृतिक संक्रमण या टीकाकरण)। यह धीमा लेकिन लंबे समय तक चलने वाला होता है। निष्क्रिय प्रतिरक्षा में, शरीर को विदेशी एजेंटों से बचाने के लिए सीधे तैयार (ready-made) एंटीबॉडी दिए जाते हैं (उदा., प्लेसेंटा के माध्यम से मां से भ्रूण को प्राप्त एंटीबॉडी, या एंटी-टेटनस सीरम)। यह तत्काल लेकिन अस्थायी राहत प्रदान करता है।"
-    },
-    "keywords": [
-      { "en": "antibodies", "hi": "एंटीबॉडी" },
-      { "en": "vaccination", "hi": "टीकाकरण" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_1",
+    "type": "mcq",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which of the following is a primary lymphoid organ?",
-      "hi": "निम्नलिखित में से कौन सा एक प्राथमिक लिम्फोइड अंग है?"
+      "en": "Which antibody is abundantly present in colostrum?",
+      "hi": "कोलोस्ट्रम में कौन सी एंटीबॉडी प्रचुर मात्रा में मौजूद होती है?"
     },
     "options": [
-      { "en": "Spleen", "hi": "प्लीहा" },
-      { "en": "Bone marrow", "hi": "अस्थि मज्जा" },
-      { "en": "Lymph nodes", "hi": "लिम्फ नोड्स" },
-      { "en": "Tonsils", "hi": "टॉन्सिल" }
+      {
+        "en": "IgG",
+        "hi": "IgG"
+      },
+      {
+        "en": "IgA",
+        "hi": "IgA"
+      },
+      {
+        "en": "IgM",
+        "hi": "IgM"
+      },
+      {
+        "en": "IgE",
+        "hi": "IgE"
+      }
     ],
-    "correctAnswer": 1,
+    "correctOptionIndex": 1,
     "explanation": {
-      "en": "Bone marrow and thymus are primary lymphoid organs where immature lymphocytes differentiate into antigen-sensitive lymphocytes.",
-      "hi": "अस्थि मज्जा (Bone marrow) और थाइमस प्राथमिक लिम्फोइड अंग हैं जहाँ अपरिपक्व लिम्फोसाइट्स एंटीजन-संवेदनशील लिम्फोसाइटों में विभेदित होते हैं।"
+      "en": "Colostrum contains abundant IgA antibodies to protect the infant.",
+      "hi": "कोलोस्ट्रम में शिशु की रक्षा के लिए प्रचुर मात्रा में IgA एंटीबॉडी होती है।"
     }
   }
 ]

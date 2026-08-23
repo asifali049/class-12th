@@ -1,41 +1,35 @@
 [
   {
-    "id": "q1",
-    "type": "subjective",
-    "difficulty": "Medium",
-    "marks": 3,
-    "question": {
-      "en": "Why is the pyramid of energy always upright?",
-      "hi": "ऊर्जा का पिरामिड हमेशा सीधा (upright) क्यों होता है?"
-    },
-    "idealAnswer": {
-      "en": "The pyramid of energy is always upright and can never be inverted because when energy flows from a particular trophic level to the next trophic level, some energy is always lost as heat at each step (according to the Second Law of Thermodynamics). Only about 10% of the energy is passed on to the next level.",
-      "hi": "ऊर्जा का पिरामिड हमेशा सीधा होता है और कभी उल्टा नहीं हो सकता क्योंकि जब ऊर्जा एक विशेष पोषी स्तर (trophic level) से अगले पोषी स्तर तक प्रवाहित होती है, तो प्रत्येक चरण में कुछ ऊर्जा हमेशा ऊष्मा के रूप में नष्ट हो जाती है (ऊष्मप्रवैगिकी के दूसरे नियम के अनुसार)। केवल लगभग 10% ऊर्जा ही अगले स्तर पर जाती है।"
-    },
-    "keywords": [
-      { "en": "10% law", "hi": "10% नियम" },
-      { "en": "lost as heat", "hi": "ऊष्मा के रूप में नष्ट" }
-    ]
-  },
-  {
-    "id": "q2",
-    "type": "objective",
+    "id": "q_mcq_1",
+    "type": "mcq",
     "difficulty": "Easy",
     "marks": 1,
     "question": {
-      "en": "Which of the following ecosystems has an inverted pyramid of biomass?",
-      "hi": "निम्नलिखित में से किस पारिस्थितिकी तंत्र में बायोमास का पिरामिड उल्टा (inverted) होता है?"
+      "en": "The pyramid of energy is:",
+      "hi": "ऊर्जा का पिरामिड होता है:"
     },
     "options": [
-      { "en": "Forest ecosystem", "hi": "वन पारिस्थितिकी तंत्र" },
-      { "en": "Grassland ecosystem", "hi": "घास के मैदान का पारिस्थितिकी तंत्र" },
-      { "en": "Aquatic ecosystem (Pond/Sea)", "hi": "जलीय पारिस्थितिकी तंत्र (तालाब/समुद्र)" },
-      { "en": "Desert ecosystem", "hi": "रेगिस्तानी पारिस्थितिकी तंत्र" }
+      {
+        "en": "Always inverted",
+        "hi": "हमेशा उल्टा"
+      },
+      {
+        "en": "Always upright",
+        "hi": "हमेशा सीधा"
+      },
+      {
+        "en": "Spindle shaped",
+        "hi": "तर्कु (Spindle) के आकार का"
+      },
+      {
+        "en": "Variable",
+        "hi": "परिवर्तनीय"
+      }
     ],
-    "correctAnswer": 2,
+    "correctOptionIndex": 1,
     "explanation": {
-      "en": "In aquatic ecosystems, the pyramid of biomass is often inverted because the biomass of fishes (consumers) far exceeds the biomass of phytoplankton (producers).",
-      "hi": "जलीय पारिस्थितिक तंत्रों (aquatic ecosystems) में, बायोमास का पिरामिड अक्सर उल्टा होता है क्योंकि मछलियों (उपभोक्ताओं) का बायोमास फाइटोप्लांकटन (उत्पादकों) के बायोमास से कहीं अधिक होता है।"
+      "en": "According to the 10% law, energy is always lost as it moves up trophic levels.",
+      "hi": "10% नियम के अनुसार, पोषी स्तरों (trophic levels) में ऊपर जाने पर ऊर्जा हमेशा नष्ट होती है।"
     }
   }
 ]

@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "d1",
+    "title": {
+      "en": "Steps in PCR (Polymerase Chain Reaction)",
+      "hi": "पीसीआर (PCR) के चरण"
+    },
+    "steps": [
+      {
+        "en": "Denaturation (94°C): Separation of DNA strands.",
+        "hi": "निष्क्रियकरण (94°C): डीएनए रज्जुकों का अलग होना।"
+      },
+      {
+        "en": "Annealing (50-60°C): Binding of primers.",
+        "hi": "तापानुशीलन (50-60°C): प्राइमर्स का जुड़ना।"
+      },
+      {
+        "en": "Extension (72°C): Taq polymerase synthesizes new strand.",
+        "hi": "प्रसार (72°C): टैक पॉलीमरेज़ नई रज्जुक का संश्लेषण करता है।"
+      }
+    ],
+    "conclusion": {
+      "en": "Result is amplification of the gene of interest.",
+      "hi": "रुचि के जीन का प्रवर्धन।"
+    }
+  }
+]

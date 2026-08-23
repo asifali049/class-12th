@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "num1",
+    "question": {
+      "en": "If the diploid number of chromosomes in a flowering plant is 24, what would be the number of chromosomes in its endosperm?",
+      "hi": "यदि एक पुष्पी पादप में गुणसूत्रों की द्विगुणित संख्या 24 है, तो इसके भ्रूणपोष में गुणसूत्रों की संख्या क्या होगी?"
+    },
+    "solution": {
+      "en": "Diploid ($2n$) = 24. Haploid ($n$) = 12.\n**Endosperm** is triploid ($3n$).\nChromosomes = $3 \\times 12 = 36$.",
+      "hi": "द्विगुणित ($2n$) = 24. अगुणित ($n$) = 12.\n**भ्रूणपोष (Endosperm)** त्रिगुणित ($3n$) होता है।\nगुणसूत्र = $3 \\times 12 = 36$."
+    }
+  }
+]

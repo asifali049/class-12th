@@ -7,27 +7,31 @@
   "children": [
     {
       "id": "c1",
-      "label": { "en": "Reproductive Systems", "hi": "जनन तंत्र" },
-      "children": [
-        { "id": "c1a", "label": { "en": "Male", "hi": "नर" } },
-        { "id": "c1b", "label": { "en": "Female", "hi": "मादा" } }
-      ]
+      "label": {
+        "en": "Male System",
+        "hi": "नर तंत्र"
+      }
     },
     {
       "id": "c2",
-      "label": { "en": "Gametogenesis", "hi": "युग्मकजनन" },
-      "children": [
-        { "id": "c2a", "label": { "en": "Spermatogenesis", "hi": "शुक्रजनन" } },
-        { "id": "c2b", "label": { "en": "Oogenesis", "hi": "अंडजनन" } }
-      ]
+      "label": {
+        "en": "Female System",
+        "hi": "मादा तंत्र"
+      }
     },
     {
       "id": "c3",
-      "label": { "en": "Menstrual Cycle", "hi": "आर्तव चक्र" }
+      "label": {
+        "en": "Gametogenesis",
+        "hi": "युग्मकजनन"
+      }
     },
     {
       "id": "c4",
-      "label": { "en": "Fertilization & Pregnancy", "hi": "निषेचन एवं सगर्भता" }
+      "label": {
+        "en": "Menstrual Cycle",
+        "hi": "आर्तव चक्र"
+      }
     }
   ]
 }

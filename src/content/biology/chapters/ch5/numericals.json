@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "num1",
+    "question": {
+      "en": "If the length of E. coli DNA is $1.36 \\text{ mm}$, calculate the number of base pairs.",
+      "hi": "यदि ई. कोलाई डीएनए की लंबाई $1.36 \\text{ mm}$ है, तो बेस जोड़े (base pairs) की संख्या की गणना करें।"
+    },
+    "solution": {
+      "en": "Distance between two base pairs = $0.34 \\times 10^{-9} \\text{ m}$.\nLength of DNA = Number of bp $\\times$ distance between them.\n$1.36 \\times 10^{-3} \\text{ m} = \\text{Number of bp} \\times 0.34 \\times 10^{-9} \\text{ m}$.\nNumber of bp = $4 \\times 10^6$ bp.",
+      "hi": "दो बेस जोड़े के बीच की दूरी = $0.34 \\times 10^{-9} \\text{ m}$।\nडीएनए की लंबाई = bp की संख्या $\\times$ उनके बीच की दूरी।\n$1.36 \\times 10^{-3} \\text{ m} = \\text{bp की संख्या} \\times 0.34 \\times 10^{-9} \\text{ m}$।\nbp की संख्या = $4 \\times 10^6$ bp।"
+    }
+  }
+]

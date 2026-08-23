@@ -2,30 +2,29 @@
   "id": "root",
   "label": {
     "en": "Reproductive Health",
-    "hi": "जनन स्वास्थ्य"
+    "hi": "प्रजनन स्वास्थ्य"
   },
   "children": [
     {
       "id": "c1",
-      "label": { "en": "Birth Control", "hi": "जन्म नियंत्रण" },
-      "children": [
-        { "id": "c1a", "label": { "en": "Natural", "hi": "प्राकृतिक" } },
-        { "id": "c1b", "label": { "en": "Barrier (Condoms)", "hi": "रोध (कंडोम)" } },
-        { "id": "c1c", "label": { "en": "IUDs", "hi": "आईयूडी" } },
-        { "id": "c1d", "label": { "en": "Surgical", "hi": "शल्य चिकित्सा" } }
-      ]
+      "label": {
+        "en": "Contraceptives",
+        "hi": "गर्भनिरोधक"
+      }
     },
     {
       "id": "c2",
-      "label": { "en": "MTP & STIs", "hi": "MTP एवं STIs" }
+      "label": {
+        "en": "MTP & STIs",
+        "hi": "एमटीपी और एसटीआई"
+      }
     },
     {
       "id": "c3",
-      "label": { "en": "Infertility (ART)", "hi": "बंध्यता (ART)" },
-      "children": [
-        { "id": "c3a", "label": { "en": "IVF (Test Tube Baby)", "hi": "आईवीएफ" } },
-        { "id": "c3b", "label": { "en": "GIFT / ICSI", "hi": "गिफ्ट / इक्सी" } }
-      ]
+      "label": {
+        "en": "Infertility (ART)",
+        "hi": "बांझपन (एआरटी)"
+      }
     }
   ]
 }
